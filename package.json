@@ -1,0 +1,35 @@
+{
+  "name": "@superthread-com/localization",
+  "version": "1.0.0",
+  "description": "Superthread front-end localizations",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superthread-com/www.git",
+    "directory": "packages/localization"
+  },
+  "scripts": {
+    "clean": "rm -rf dist node_modules",
+    "build": "node build.mjs",
+    "declarations": "tsc src/index.ts --declaration --emitDeclarationOnly --outDir dist",
+    "test": "vitest run"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.1",
+    "chai": "^5.1.1",
+    "esbuild": "^0.23.0",
+    "vitest": "^2.0.1",
+    "typescript": "^5.5.3"
+  },
+  "author": "@superthread-com",
+  "license": "ISC"
+}
