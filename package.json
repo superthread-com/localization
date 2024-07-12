@@ -1,6 +1,6 @@
 {
   "name": "@superthread-com/localization",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Superthread front-end localizations",
   "type": "module",
   "main": "dist/index.js",
@@ -11,24 +11,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/superthread-com/www.git",
+    "url": "git+https://github.com/superthread-com/internationalization.git",
     "directory": "packages/localization"
   },
   "scripts": {
     "clean": "rm -rf dist node_modules",
     "build": "node build.mjs",
+    "compileEn": "tsc --esModuleInterop --module commonjs ./src/en/index.ts --outDir ./temp && mv ./temp/en/index.js ./temp/en/index.cjs",
+    "makeEnum": "npm run compileEn && node makeEnum.mjs && npm run declarations",
+    "postmakeEnum": "rimraf ./temp",
     "declarations": "tsc src/index.ts --declaration --emitDeclarationOnly --outDir dist",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepublish": "npm run makeEnum && npm run build"
   },
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
     "@vitest/coverage-v8": "^2.0.1",
     "chai": "^5.1.1",
     "esbuild": "^0.23.0",
-    "vitest": "^2.0.1",
-    "typescript": "^5.5.3"
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.1"
   },
   "author": "@superthread-com",
   "license": "ISC"
