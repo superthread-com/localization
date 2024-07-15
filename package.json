@@ -1,28 +1,31 @@
 {
   "name": "@superthread-com/localization",
-  "version": "1.0.7",
+  "version": "1.0.14",
   "description": "Superthread front-end localizations",
   "type": "module",
   "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types.d.ts",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superthread-com/internationalization.git",
+    "url": "git+https://github.com/superthread-com/localization.git",
     "directory": "packages/localization"
   },
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "clean": "rm -rf dist node_modules",
-    "build": "node build.mjs",
-    "compileEn": "tsc --esModuleInterop --module commonjs ./src/en/index.ts --outDir ./temp && mv ./temp/en/index.js ./temp/en/index.cjs",
-    "makeEnum": "npm run compileEn && node makeEnum.mjs && npm run declarations",
-    "postmakeEnum": "rimraf ./temp",
-    "declarations": "tsc src/index.ts --declaration --emitDeclarationOnly --outDir dist",
+    "build": "node scripts/build.mjs",
+    "precompileEn": "node scripts/clearEnum.mjs",
+    "compileEn": "tsc --esModuleInterop --module commonjs ./src/en/index.ts --outDir ./scripts/temp && mv ./scripts/temp/en/index.js ./scripts/temp/en/index.cjs",
+    "makeEnum": "npm run compileEn && node scripts/makeEnum.mjs || npm run declarations",
+    "postmakeEnum": "rimraf ./scripts/temp",
+    "declarations": "tsc src/index.ts src/**/**.ts --declaration --emitDeclarationOnly --allowImportingTsExtensions --outDir dist",
     "test": "vitest run",
-    "prepublish": "npm run makeEnum && npm run build"
+    "prepare": "npm run makeEnum && npm run build"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^2.0.1",

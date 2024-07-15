@@ -26,13 +26,16 @@ async function buildLanguage(language) {
     let missingKeys = false;
     // Compile TypeScript to JavaScript using tsc
     try {
-      const tsConfigPath = `tsconfig.ts`;
-      await execPromise(`tsc ${entryPoint} ${tsConfigPath} --noEmit`);
+      await execPromise(
+        `tsc ${entryPoint} --outDir dist/${language} --showConfig`
+      );
     } catch (error) {
       const errMsg = error.stdout || error.stderr;
       let message = errMsg;
+
+      console.log("Error message:", errMsg);
       // handle missing keys error
-      if (errMsg.includes("TS235")) {
+      if (errMsg.startsWith("TS235")) {
         const missing =
           "is missing the following properties from type 'Translations'";
         const [, keys] = errMsg.split(missing);
@@ -50,8 +53,9 @@ async function buildLanguage(language) {
     await esbuild.build({
       entryPoints: [entryPoint],
       bundle: true,
-      platform: "node",
-      target: "es6",
+      platform: "browser",
+      format: "esm",
+      target: "es2020",
       outdir: `dist/${language}`,
     });
 
@@ -75,7 +79,16 @@ async function buildAllLanguages(languages) {
 
 // Convert import.meta.url to a file path and then get the directory name
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const srcDirectoryPath = path.join(__dirname, "src");
+const srcDirectoryPath = path.join(__dirname, "../src");
+
+await esbuild.build({
+  entryPoints: ["src/index.ts"],
+  bundle: true,
+  platform: "browser",
+  format: "esm",
+  target: "es2020",
+  outdir: `dist`,
+});
 
 getDirectoryNames(srcDirectoryPath).then((languageFolders) => {
   console.log("🌎 Language folders found in /src", languageFolders);
