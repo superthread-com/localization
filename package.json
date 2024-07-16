@@ -24,7 +24,7 @@
     "postmakeEnum": "rimraf ./scripts/temp",
     "declarations": "tsc src/index.ts src/**/**.ts --declaration --emitDeclarationOnly --allowImportingTsExtensions --outDir dist",
     "test": "vitest run",
-    "prepare": "npm run makeEnum && npm run build"
+    "prepack": "npm run makeEnum && npm run build"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^2.0.1",
