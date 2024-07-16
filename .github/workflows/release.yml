@@ -31,6 +31,7 @@ jobs:
       - id: parse-tag
         run: |
           echo "VERSION=$(echo ${{ github.ref }} | cut -d '/' -f 3)" >> $GITHUB_ENV
+          echo "::set-output name=VERSION::$VERSION"
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -59,10 +60,10 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "[bot] Bump version to ${VERSION}"
+          commit-message: "[bot] Bump version to ${{ steps.parse-tag.outputs.VERSION }}"
           branch: "release-${{ steps.parse-tag.outputs.VERSION }}"
-          title: "[bot] Bump version to ${VERSION}"
-          body: "This PR bumps the version to ${VERSION}"
+          title: "[bot] Bump version to ${{ steps.parse-tag.outputs.VERSION }}"
+          body: "This PR bumps the version to ${{ steps.parse-tag.outputs.VERSION }}"
           base: main
 
       # separate approval step ensures that CI checks will pass before merge
