@@ -24,7 +24,7 @@ jobs:
       packages: write
       pull-requests: write
 
-    if: contains(github.ref, 'public') || contains(github.ref, 'event')
+    # if: contains(github.ref, 'public') || contains(github.ref, 'event')
 
     steps:
       - uses: actions/checkout@v4
