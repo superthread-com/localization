@@ -52,7 +52,6 @@ jobs:
 
       - name: Publish new version
         if: env.MODIFIED == 'true'
-        working-directory: ./
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
