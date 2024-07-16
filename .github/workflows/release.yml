@@ -55,7 +55,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-            npm install
+            npm install --include=dev
             npm publish
 
       - name: Create Pull Request
