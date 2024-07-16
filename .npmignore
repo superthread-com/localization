@@ -1,0 +1,33 @@
+# Ignore everything
+*
+
+# Except the dist directory
+.idea/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+
+# Ignore build output directories
+/bin/
+/build/
+
+# Ignore package manager directories
+/node_modules/
+/vendor/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive or private information
+secrets.txt
+config.ini

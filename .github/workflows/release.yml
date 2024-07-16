@@ -1,0 +1,78 @@
+name: release
+
+on:
+  workflow_dispatch:
+  release:
+    types: [released]
+
+# enforce single job concurrency since we need to push commits
+concurrency:
+  group: localization-release
+  cancel-in-progress: false
+
+env:
+  GIT_AUTHOR_NAME: github-actions[bot]
+  GIT_COMMITTER_NAME: github-actions[bot]
+  GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+  GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+jobs:
+  ts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      pull-requests: write
+
+    if: contains(github.ref, 'tags')
+
+    steps:
+      - uses: actions/checkout@v4
+      - id: parse-tag
+        run: |
+          echo "VERSION=$(echo ${{ github.ref }} | cut -d '/' -f 3)" >> $GITHUB_ENV
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@superthread-com'
+
+      - name: Bump version
+        run: npm version $VERSION --no-git-tag-version
+
+      - name: Check for modified files
+        id: git-check
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "MODIFIED=true" >> $GITHUB_ENV
+          else
+            echo "MODIFIED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Publish new version
+        if: env.MODIFIED == 'true'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+            npm install --include=dev
+            npm publish
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "[bot] Bump version to ${{ env.VERSION }}"
+          branch: "release-${{ env.VERSION }}"
+          title: "[bot] Bump version to ${{ env.VERSION }}"
+          body: "This PR bumps the version to ${{ env.VERSION }}"
+          base: main
+
+      # separate approval step ensures that CI checks will pass before merge
+      - name: approve pr
+        if: env.MODIFIED == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr review --approve ${{ steps.cpr.outputs.pull-request-url }}
