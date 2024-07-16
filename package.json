@@ -1,6 +1,6 @@
 {
   "name": "@superthread-com/localization",
-  "version": "1.0.14",
+  "version": "1.0.0",
   "description": "Superthread front-end localizations",
   "type": "module",
   "main": "dist/index.js",
@@ -10,8 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superthread-com/localization.git",
-    "directory": "packages/localization"
+    "url": "git+https://github.com/superthread-com/localization.git"
   },
   "files": [
     "dist/**"
