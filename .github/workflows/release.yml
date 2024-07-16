@@ -39,11 +39,12 @@ jobs:
           scope: '@superthread-com'
 
       - name: Bump version
-        run: npm version ${steps.parse-tag.outputs.VERSION} --no-git-tag-version
+        run: npm version $VERSION --no-git-tag-version
 
       - name: Check for modified files
         id: git-check
         run: echo "MODIFIED=$(if [ -n '$(git status --porcelain)' ]; then echo 'true'; else echo 'false'; fi)" >> $GITHUB_OUTPUT
+             echo "::set-output name=MODIFIED::$MODIFIED"
 
       - name: Publish new version
         if: steps.git-check.outputs.MODIFIED == 'true'
@@ -58,10 +59,10 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "[bot] Bump version to ${VERSION/v/}"
-          branch: "release-${{ github.sha }}"
-          title: "[bot] Bump version to ${VERSION/v/}"
-          body: "This PR bumps the version to ${VERSION/v/}"
+          commit-message: "[bot] Bump version to ${VERSION}"
+          branch: "release-${{ steps.parse-tag.outputs.VERSION }}"
+          title: "[bot] Bump version to ${VERSION}"
+          body: "This PR bumps the version to ${VERSION}"
           base: main
 
       # separate approval step ensures that CI checks will pass before merge
