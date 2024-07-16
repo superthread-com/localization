@@ -39,7 +39,7 @@ jobs:
           scope: '@superthread-com'
 
       - name: Bump version
-        run: npm version ${steps.parse-tag.outputs.VERSION/v/} --no-git-tag-version
+        run: npm version ${steps.parse-tag.outputs.VERSION} --no-git-tag-version
 
       - name: Check for modified files
         id: git-check
