@@ -1,0 +1,36 @@
+name: release
+
+on:
+  workflow_dispatch:
+  release:
+    types: [released]
+
+# enforce single job concurrency since we need to push commits
+concurrency:
+  group: localization-release
+  cancel-in-progress: false
+
+env:
+  GIT_AUTHOR_NAME: github-actions[bot]
+  GIT_COMMITTER_NAME: github-actions[bot]
+  GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+  GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+jobs:
+  ts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      pull-requests: write
+
+    if: contains(github.ref, 'public') || contains(github.ref, 'event')
+
+    steps:
+      - uses: actions/checkout@v4
+      - id: parse-tag
+        run: |
+          echo "Current github.ref: ${{ github.ref }}"
+          echo "API=$(echo ${{ github.ref }} | cut -d '/' -f 3)" >> $GITHUB_ENV
+          echo "API=$(echo ${{ github.ref }} | cut -d '/' -f 3)" >> $GITHUB_OUTPUT
+          echo "VERSION=$(echo ${{ github.ref }} | cut -d '/' -f 4)" >> $GITHUB_ENV
