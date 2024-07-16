@@ -50,6 +50,13 @@ jobs:
             echo "MODIFIED=false" >> $GITHUB_ENV
           fi
 
+      - name: Create commits
+        run: |
+            git config user.name 'superthread-machine-user'
+            git config user.email '${{ secrets.MACHINE_USER_EMAIL }}'
+            git add ./package.json
+            git commit -am "update version to ${{ env.VERSION }}"
+
       - name: Publish new version
         if: env.MODIFIED == 'true'
         env:
