@@ -26,18 +26,16 @@ async function buildLanguage(language) {
     let missingKeys = false;
     // Compile TypeScript to JavaScript using tsc
     try {
-      await execPromise(
-        `tsc ${entryPoint} --outDir dist/${language} --showConfig`
-      );
+      await execPromise(`tsc ${entryPoint} --outDir dist/${language}`);
     } catch (error) {
       const errMsg = error.stdout || error.stderr;
       let message = errMsg;
 
       console.log("Error message:", errMsg);
       // handle missing keys error
-      if (errMsg.startsWith("TS235")) {
-        const missing =
-          "is missing the following properties from type 'Translations'";
+      const missing =
+        "is missing the following properties from type 'Translations'";
+      if (errMsg.includes(missing)) {
         const [, keys] = errMsg.split(missing);
         missingKeys = true;
         message = `Language '${language}' ${missing} ${keys}`;
