@@ -41,6 +41,11 @@ export enum TranslationKeys {
   CardsLayoutBoard = "cardsLayoutBoard",
   CardsLayoutTimeline = "cardsLayoutTimeline",
   CardsLayoutCalendar = "cardsLayoutCalendar",
+  SlashGroupMedia = "slash.group.media",
+  SlashGroupBasic = "slash.group.basic",
+  SlashGroupInline = "slash.group.inline",
+  SlashGroupEmbed = "slash.group.embed",
+  SlashKeywordMedia = "slash.keyword.media",
   SlashDisplayAttach = "slash.display.attach",
   SlashSearchAttach = "slash.search.attach",
   SlashDisplayImage = "slash.display.image",
@@ -897,6 +902,9 @@ export enum TranslationKeys {
   AreYouSureYouWantToRevoke = "areYouSureYouWantToRevoke",
   AreYouSureYouWantToTransferOwnership = "areYouSureYouWantToTransferOwnership",
   TransferOwnership = "transferOwnership",
+  TransferOwnershipConfirmed = "transferOwnershipConfirmed",
+  TransferSpaceOwnershipDescription = "transferSpaceOwnershipDescription",
+  TransferSpaceOwnershipBeforeLeaving = "transferSpaceOwnershipBeforeLeaving",
   Confirm = "confirm",
   Revoke = "revoke",
   NotFound = "notFound",
@@ -1581,7 +1589,9 @@ export enum TranslationKeys {
   Language = "language",
   UsersWork = "usersWork",
   RenameAttachment = "renameAttachment",
-  DeleteAttachment = "deleteAttachment"
+  DeleteAttachment = "deleteAttachment",
+  UpgradeViewsTitle = "upgradeViewsTitle",
+  UpgradeViewsDescription = "upgradeViewsDescription"
 }
 
 export type Translations = Record<TranslationKeys, string>;

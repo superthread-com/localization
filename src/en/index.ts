@@ -50,6 +50,14 @@ const en = {
   cardsLayoutBoard: "Board",
   cardsLayoutTimeline: "Timeline",
   cardsLayoutCalendar: "Calendar (Beta)",
+  // Group titles
+  ["slash.group.media"]: "Media",
+  ["slash.group.basic"]: "Basic",
+  ["slash.group.inline"]: "Inline",
+  ["slash.group.embed"]: "Embed",
+  // Keywords
+  ["slash.keyword.media"]: "attach,image,file,upload,media,attachment",
+  // Commands
   // slashCommands
   ["slash.display.attach"]: "Attach",
   ["slash.search.attach"]: "attach",
@@ -956,12 +964,17 @@ const en = {
     "You are the only person in this private space, if you leave, no-one will be able to access it. If your organisation still needs access, invite someone to join before you leave.",
   whenYouLeaveAPrivateSpace: `When you leave a private space, you'll no longer be able to see any of its boards or pages. To rejoin, you'll need to be invited again.`,
   youCanRejoinThePublicSpace:
-    "You can rejoin the space at any time by hovering over the Spaces section in the sidebar.",
+    "You can rejoin the space from the browse spaces screen.",
   areYouSureYouWantToRevoke:
     "Are you sure you want to revoke their invite to this workspace?",
   areYouSureYouWantToTransferOwnership:
     "Are you sure you want to transfer ownership of this workspace? Only the new owner will be able to undo this.",
   transferOwnership: "Transfer ownership",
+  transferOwnershipConfirmed: "Space ownership transferred",
+  transferSpaceOwnershipDescription:
+    "If you make %{name} the owner of this space, you will no longer be the owner and will be changed to a member.",
+  transferSpaceOwnershipBeforeLeaving:
+    "You must make someone else the owner of this space before you can leave it. Go to the space settings to make someone else the owner.",
   confirm: "Confirm",
   revoke: "Revoke",
   notFound: "Not found",
@@ -1733,6 +1746,8 @@ const en = {
   usersWork: "%{name}’s work",
   renameAttachment: "Rename attachment",
   deleteAttachment: "Delete attachment",
+  upgradeViewsTitle: "Upgrade plan",
+  upgradeViewsDescription: "Upgrade your workspace plan to save views.",
 };
 
 export default en as Translations;

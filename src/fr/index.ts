@@ -176,6 +176,14 @@ const fr: Translations = {
   continueWithEmail: "Continuer avec Email",
   registerGoogle: "S'enregistrer avec Google",
   onboardingEmailPlaceholder: "votrenom@exemple.com",
+  // Group titles
+  ["slash.group.media"]: "Média",
+  ["slash.group.basic"]: "Basique",
+  ["slash.group.inline"]: "En ligne",
+  ["slash.group.embed"]: "Intégrer",
+  // Keywords
+  ["slash.keyword.media"]: "joindre,image,fichier,upload,média,attachement",
+  // Commands
   // slash commands
   ["slash.display.attach"]: "Joindre",
   ["slash.search.attach"]: "joindre",
@@ -988,12 +996,17 @@ const fr: Translations = {
   whenYouLeaveAPrivateSpace:
     "Lorsque vous quittez un espace privé, vous ne pourrez plus voir ses tableaux ou ses pages. Pour le rejoindre à nouveau, vous devrez être invité.",
   youCanRejoinThePublicSpace:
-    "Vous pouvez rejoindre l'espace à tout moment en survolant la section Espaces dans la barre latérale.",
+    "Vous pouvez rejoindre l’espace à partir de l’écran de navigation des espaces.",
   areYouSureYouWantToRevoke:
     "Êtes-vous sûr de vouloir révoquer leur invitation à cet espace de travail ?",
   areYouSureYouWantToTransferOwnership:
     "Êtes-vous sûr de vouloir transférer la propriété de cet espace de travail ? Seul le nouveau propriétaire pourra annuler cela.",
   transferOwnership: "Transférer la propriété",
+  transferOwnershipConfirmed: "Transfert de la propriété de l’espace",
+  transferSpaceOwnershipDescription:
+    "Si vous faites de %{name} le propriétaire de cet espace, vous ne serez plus le propriétaire et serez changé en membre.",
+  transferSpaceOwnershipBeforeLeaving:
+    "Vous devez désigner quelqu’un d’autre comme propriétaire de cet espace avant de pouvoir le quitter. Accédez aux paramètres de l’espace pour désigner quelqu’un d’autre comme propriétaire.",
   confirm: "Confirmer",
   revoke: "Révoquer",
   notFound: "Non trouvé",
@@ -1798,6 +1811,9 @@ const fr: Translations = {
   language: "Langue",
   renameAttachment: "Renommer la pièce jointe",
   usersWork: "Travail des %{name}",
+  upgradeViewsTitle: "Plan de mise à niveau",
+  upgradeViewsDescription:
+    "Mettez à niveau votre plan d’espace de travail pour enregistrer des vues.",
 };
 
 export default fr as Translations;
