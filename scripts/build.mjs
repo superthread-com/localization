@@ -24,9 +24,8 @@ async function buildLanguage(language) {
   const entryPoint = `src/${language}/index.ts`;
   try {
     let missingKeys = false;
-    // Compile TypeScript to JavaScript using tsc
     try {
-      await execPromise(`tsc ${entryPoint} --outDir dist/${language}`);
+      await execPromise(`tsc ${entryPoint} --noEmit`);
     } catch (error) {
       const errMsg = error.stdout || error.stderr;
       let message = errMsg;
@@ -54,7 +53,8 @@ async function buildLanguage(language) {
       platform: "browser",
       format: "esm",
       target: "es2020",
-      outdir: `dist/${language}`,
+      charset: "utf8",
+      outdir: `languages/${language}`,
     });
 
     console.log(
@@ -85,7 +85,7 @@ await esbuild.build({
   platform: "browser",
   format: "esm",
   target: "es2020",
-  outdir: `dist`,
+  outdir: "./",
 });
 
 getDirectoryNames(srcDirectoryPath).then((languageFolders) => {
