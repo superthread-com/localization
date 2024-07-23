@@ -4,7 +4,7 @@
   "description": "Superthread front-end localizations",
   "type": "module",
   "main": "index.js",
-  "types": "types",
+  "types": "languages/types.d.ts",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -14,8 +14,7 @@
   },
   "files": [
     "languages/**",
-    "index.js",
-    "types/**"
+    "index.js"
   ],
   "scripts": {
     "clean": "rm -rf dist node_modules",
