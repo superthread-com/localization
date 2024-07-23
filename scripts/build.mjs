@@ -26,7 +26,7 @@ async function buildLanguage(language) {
     let missingKeys = false;
     try {
       await execPromise(
-        `tsc ${entryPoint} --emitDeclarationOnly --skipLibCheck --declaration --outDir languages`
+        `tsc ${entryPoint} --emitDeclarationOnly --declaration --skipLibCheck --outDir types`
       );
     } catch (error) {
       const errMsg = error.stdout || error.stderr;
