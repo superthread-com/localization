@@ -15,7 +15,7 @@
   "files": [
     "languages/**",
     "index.js",
-    "src/types.js"
+    "types/**"
   ],
   "scripts": {
     "clean": "rm -rf dist node_modules",
