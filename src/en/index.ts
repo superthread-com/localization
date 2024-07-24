@@ -746,7 +746,7 @@ const en = {
   switchWorkspace: "Switch workspace",
   archivedItems: "Archived items",
   logOut: "Log out",
-  helpFeedback: "Help & Feedback",
+  helpFeedback: "Help & feedback",
   help: "Help",
   joinSlack: "Join our Slack community",
   askQuestions: "Ask questions and help others",
@@ -990,6 +990,8 @@ const en = {
     "will be permanently deleted for everyone. This cannot be undone.",
   ifYouWantToDeleteSpace:
     "If you want to delete this space, type its name below.",
+  ifYouWantToDeleteResource:
+    "If you want to delete this %{resourceType}, type its name below.",
   typeTheNameOfTheSpace: "Type the name of the space",
   removeMember: "Remove member",
   leaveWorkspace: "Leave workspace",
@@ -1679,6 +1681,8 @@ const en = {
     "A “Sprints” section will be added to the sidebar for this space. A sprint is a board with a start and end date. When one sprint is completed, the next will start automatically.",
   ownersAdminsCanTurnOnSprints:
     "Only workspace owners, admins, and the creator of the space can turn on sprints",
+  onlyOwnerOfPrivateSpace:
+    "Only owner of a private space can change this setting",
   sprintLength: "Sprint length",
   weeks: "weeks",
   sprintStartOn: "Sprints start on",
@@ -1746,7 +1750,8 @@ const en = {
   usersWork: "%{name}’s work",
   renameAttachment: "Rename attachment",
   deleteAttachment: "Delete attachment",
-  upgradeViewsTitle: "Upgrade plan",
+  timelineLayoutDescription:
+    "Upgrade your workspace plan to use the timeline layout.",
   upgradeViewsDescription: "Upgrade your workspace plan to save views.",
 };
 

@@ -916,6 +916,7 @@ export enum TranslationKeys {
   ContentWillBeDeleted = "contentWillBeDeleted",
   WillBeDeleted = "willBeDeleted",
   IfYouWantToDeleteSpace = "ifYouWantToDeleteSpace",
+  IfYouWantToDeleteResource = "ifYouWantToDeleteResource",
   TypeTheNameOfTheSpace = "typeTheNameOfTheSpace",
   RemoveMember = "removeMember",
   LeaveWorkspace = "leaveWorkspace",
@@ -1535,6 +1536,7 @@ export enum TranslationKeys {
   TurnOnSprints = "turnOnSprints",
   TurnOnSprintsDesc = "turnOnSprintsDesc",
   OwnersAdminsCanTurnOnSprints = "ownersAdminsCanTurnOnSprints",
+  OnlyOwnerOfPrivateSpace = "onlyOwnerOfPrivateSpace",
   SprintLength = "sprintLength",
   Weeks = "weeks",
   SprintStartOn = "sprintStartOn",
@@ -1590,7 +1592,7 @@ export enum TranslationKeys {
   UsersWork = "usersWork",
   RenameAttachment = "renameAttachment",
   DeleteAttachment = "deleteAttachment",
-  UpgradeViewsTitle = "upgradeViewsTitle",
+  TimelineLayoutDescription = "timelineLayoutDescription",
   UpgradeViewsDescription = "upgradeViewsDescription"
 }
 

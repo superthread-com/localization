@@ -591,6 +591,8 @@ const fr: Translations = {
   changeToOpenSpaceTitle: "Passer à un espace ouvert ?",
   ownersAdminsCreatorOfSpace:
     "Seuls les propriétaires, les administrateurs de l'espace de travail et le créateur de l'espace peuvent modifier ce paramètre",
+  onlyOwnerOfPrivateSpace:
+    "Seul le propriétaire de l'espace privé peut modifier ce paramètre",
   member: "Membre",
   notMember: "Pas un membre",
   links: "Liens",
@@ -768,7 +770,7 @@ const fr: Translations = {
   switchWorkspace: "Changer d'espace de travail",
   archivedItems: "Éléments archivés",
   logOut: "Se déconnecter",
-  helpFeedback: "Aide & Retour d'information",
+  helpFeedback: "Aide & retour d'information",
   help: "Aide",
   joinSlack: "Rejoignez notre communauté Slack",
   askQuestions: "Posez des questions et aidez les autres",
@@ -1021,6 +1023,8 @@ const fr: Translations = {
   willBeDeleted:
     "sera définitivement supprimé pour tout le monde. Cela ne peut pas être annulé.",
   ifYouWantToDeleteSpace:
+    "Si vous souhaitez supprimer cet espace, tapez son nom ci-dessous.",
+  ifYouWantToDeleteResource:
     "Si vous souhaitez supprimer cet espace, tapez son nom ci-dessous.",
   typeTheNameOfTheSpace: "Tapez le nom de l'espace",
   removeMember: "Supprimer le membre",
@@ -1811,7 +1815,8 @@ const fr: Translations = {
   language: "Langue",
   renameAttachment: "Renommer la pièce jointe",
   usersWork: "Travail des %{name}",
-  upgradeViewsTitle: "Plan de mise à niveau",
+  timelineLayoutDescription:
+    "Mettez à niveau votre plan d’espace de travail pour utiliser la disposition de la chronologie.",
   upgradeViewsDescription:
     "Mettez à niveau votre plan d’espace de travail pour enregistrer des vues.",
 };
