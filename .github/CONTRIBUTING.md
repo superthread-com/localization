@@ -42,7 +42,7 @@ This section guides you through adding a new language to the project.
 4. **Test Your Translations**:
    - Ensure that your translations are accurate and contextually correct.
    - You may use tools or native speakers for verification.
-   - Run `npm run prepack` to ensure that your translations are correctly formatted and all the keys added to thelanguage file.
+   - Run `npm run prepack` to ensure that your translations are correctly formatted and all the keys added to the language file.
 
 ### Contributing to Existing Languages
 
@@ -72,7 +72,7 @@ This section guides you through adding a new language to the project.
 3. **Test Your Translations**:
    - Ensure that your translations are accurate and contextually correct.
    - You may use tools or native speakers for verification.
-   - Run `npm run prepack` to ensure that your translations are correctly formatted and all the keys added to thelanguage file.
+   - Run `npm run prepack` to ensure that your translations are correctly formatted and all the keys added to the language file.
 
 ### Pull Requests
 
@@ -82,6 +82,6 @@ This section guides you through adding a new language to the project.
 
 - **Pull Request Process**:
   - Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-  - You may merge the Pull Request in once you have the approval of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+  - You may merge the Pull Request once you have the approval of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
 Thank you for considering contributing to our project!
