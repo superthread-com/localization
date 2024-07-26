@@ -1820,6 +1820,7 @@ const fr: Translations = {
   upgradeViewsDescription:
     "Mettez à niveau votre plan d’espace de travail pour enregistrer des vues.",
   createNewItem: "Créer un nouvel élément",
+  statusType: "Type de statut",
 };
 
 export default fr as Translations;
