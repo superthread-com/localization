@@ -1819,6 +1819,7 @@ const fr: Translations = {
     "Mettez à niveau votre plan d’espace de travail pour utiliser la disposition de la chronologie.",
   upgradeViewsDescription:
     "Mettez à niveau votre plan d’espace de travail pour enregistrer des vues.",
+  createNewItem: "Créer un nouvel élément",
 };
 
 export default fr as Translations;

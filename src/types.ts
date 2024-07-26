@@ -1593,7 +1593,8 @@ export enum TranslationKeys {
   RenameAttachment = "renameAttachment",
   DeleteAttachment = "deleteAttachment",
   TimelineLayoutDescription = "timelineLayoutDescription",
-  UpgradeViewsDescription = "upgradeViewsDescription"
+  UpgradeViewsDescription = "upgradeViewsDescription",
+  CreateNewItem = "createNewItem"
 }
 
 export type Translations = Record<TranslationKeys, string>;
