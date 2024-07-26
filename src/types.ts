@@ -682,7 +682,7 @@ export enum TranslationKeys {
   UnsplashImage = "unsplashImage",
   ShareToWeb = "shareToWeb",
   PublishesSubpagesButNoComments = "publishesSubpagesButNoComments",
-  ThisPageIsSharedToWeb = "thisPageIsSharedToWeb",
+  PageIsSharedToWeb = "pageIsSharedToWeb",
   Shared = "shared",
   OpenSharedPage = "openSharedPage",
   PageIsSetToPrivate = "pageIsSetToPrivate",

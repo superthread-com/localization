@@ -738,7 +738,7 @@ const en = {
   unsplashImage: "Unsplash image",
   shareToWeb: "Share to web",
   publishesSubpagesButNoComments: "Publishes subpages, but not comments.",
-  thisPageIsSharedToWeb: "This page is shared on web.",
+  pageIsSharedToWeb: "This page is shared on web.",
   shared: "Shared",
   openSharedPage: "Open shared page",
   pageIsSetToPrivate: "Page is set to private",

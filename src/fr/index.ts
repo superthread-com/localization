@@ -762,7 +762,7 @@ const fr: Translations = {
   shareToWeb: "Partager sur le web",
   publishesSubpagesButNoComments:
     "Publie les sous-pages, mais pas les commentaires.",
-  thisPageIsSharedToWeb: "Cette page est partagée sur le web.",
+  pageIsSharedToWeb: "Cette page est partagée sur le web.",
   shared: "Partagée",
   openSharedPage: "Ouvrir la page partagée",
   pageIsSetToPrivate: "La page est définie comme privée",
