@@ -1755,6 +1755,13 @@ const en = {
   upgradeViewsDescription: "Upgrade your workspace plan to save views.",
   createNewItem: "Create new item",
   statusType: "Status type",
+  spaceLimitReached: 'The space limit has been reached. You can delete some spaces to create more.',
+  freePlanUsageLimits: 'Free plan usage limits',
+  item: 'Item',
+  usage: 'Usage',
+  limitReachedLong:
+    'If a limit is reached, you will need to remove items or upgrade the plan before new items can be created.',
+  limitReached: 'Limit reached',
 };
 
 export default en as Translations;
