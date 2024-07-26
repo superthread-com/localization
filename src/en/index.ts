@@ -1754,6 +1754,7 @@ const en = {
     "Upgrade your workspace plan to use the timeline layout.",
   upgradeViewsDescription: "Upgrade your workspace plan to save views.",
   createNewItem: "Create new item",
+  statusType: "Status type",
 };
 
 export default en as Translations;

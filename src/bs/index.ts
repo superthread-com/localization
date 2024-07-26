@@ -1048,6 +1048,7 @@ const bs = {
   shortcutWarningText:
     "Shortcut priče koje nisu dodijeljene timu neće biti importovane.",
   language: "Jezik",
+  statusType: "Tip statusa",
 };
 
 export default bs;
