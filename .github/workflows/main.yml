@@ -22,12 +22,16 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const summary = process.env.summary;
+            const summary = JSON.parse(process.env.summary);
+            let table = '| Language | Status | Missing keys |\n| --- | --- | --- |\n';
+            summary.slice(1).forEach(row => {
+              table += `| ${row[0]} | ${row[1]} | ${row[2]} |\n`;
+            });
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `Build summary: \n\n${summary}`
+              body: `Build summary: \n\n${table}`
             })
         env:
           summary: ${{ steps.prepack.outputs.summary }}
