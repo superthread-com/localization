@@ -18,7 +18,7 @@ jobs:
         run: npm run prepack
 
       - name: Add PR Comment
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
