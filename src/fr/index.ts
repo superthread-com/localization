@@ -1821,6 +1821,20 @@ const fr: Translations = {
     "Mettez à niveau votre plan d’espace de travail pour enregistrer des vues.",
   createNewItem: "Créer un nouvel élément",
   statusType: "Type de statut",
+  spaceLimitReached:
+    "La limite d'espaces a été atteinte. Vous pouvez supprimer des espaces pour en créer davantage.",
+  freePlanUsageLimits: "Limites d'utilisation du plan gratuit",
+  item: "Élément",
+  usage: "Utilisation",
+  limitReachedLong:
+    "Si une limite est atteinte, vous devrez supprimer des éléments ou passer à un plan supérieur avant de pouvoir créer de nouveaux éléments.",
+  limitReached: "Limite atteinte",
+  resourceAndContentWillBeDeleted:
+    "Le %{resourceType} '%{resourceTitle}' et son contenu seront définitivement supprimés pour tout le monde. Cette action est irréversible.",
+  resourceWillBeDeleted:
+    "Le %{resourceType} '%{resourceTitle}' sera définitivement supprimé pour tout le monde. Cette action est irréversible.",
+  listNameLabel: "Nom de la liste",
+  deleteList: "Supprimer la liste",
 };
 
 export default fr as Translations;

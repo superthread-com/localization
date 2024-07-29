@@ -1595,7 +1595,17 @@ export enum TranslationKeys {
   TimelineLayoutDescription = "timelineLayoutDescription",
   UpgradeViewsDescription = "upgradeViewsDescription",
   CreateNewItem = "createNewItem",
-  StatusType = "statusType"
+  StatusType = "statusType",
+  SpaceLimitReached = "spaceLimitReached",
+  FreePlanUsageLimits = "freePlanUsageLimits",
+  Item = "item",
+  Usage = "usage",
+  LimitReachedLong = "limitReachedLong",
+  LimitReached = "limitReached",
+  ResourceAndContentWillBeDeleted = "resourceAndContentWillBeDeleted",
+  ResourceWillBeDeleted = "resourceWillBeDeleted",
+  ListNameLabel = "listNameLabel",
+  DeleteList = "deleteList"
 }
 
 export type Translations = Record<TranslationKeys, string>;
