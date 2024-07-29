@@ -83,8 +83,16 @@ async function buildAllLanguages(languages) {
     await buildLanguage(language);
   }
 
-  await core.summary.addHeading("Build summary").addTable(summaryTable).write();
-  await core.setOutput("summary", summaryTable);
+  if (process.env.GITHUB_ACTIONS) {
+    await core.summary
+      .addHeading("Build summary")
+      .addTable(summaryTable)
+      .write();
+    await core.setOutput?.("summary", summaryTable);
+  } else {
+    console.log("Build summary:");
+    console.table(summaryTable);
+  }
 }
 
 // Convert import.meta.url to a file path and then get the directory name
@@ -100,7 +108,7 @@ await esbuild.build({
   outdir: "./",
 });
 
-getDirectoryNames(srcDirectoryPath).then((languageFolders) => {
+getDirectoryNames(srcDirectoryPath).then(async (languageFolders) => {
   console.log("🌎 Language folders found in /src", languageFolders);
-  buildAllLanguages(languageFolders);
+  await buildAllLanguages(languageFolders);
 });
