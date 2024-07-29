@@ -9,6 +9,14 @@ const execPromise = util.promisify(exec);
 import getDirectoryNames from "./getDirectories.mjs";
 import { getMissingKeys } from "./compareKeys.mjs";
 
+const summaryTable = [
+  [
+    { data: "Language", header: true },
+    { data: "Status", header: true },
+    { data: "Missing keys", header: true },
+  ],
+];
+
 async function logBuildStatus(language, missingKeys) {
   if (missingKeys) {
     core.warning(
@@ -18,8 +26,10 @@ async function logBuildStatus(language, missingKeys) {
     core.info(`\nMissing ${missingKeys.length} keys in ${language}:`);
     const slice = missingKeys.slice(0, 20);
     core.info(`${slice},\n and ${missingKeys.length - 20} more...`);
+    summaryTable.push([language, "⚠️", missingKeys.length]);
   } else {
     core.notice(`Built ` + `\x1b[44m${language}\x1b[0m ` + `successfully. \n`);
+    summaryTable.push([language, "✅", "0"]);
   }
 }
 
@@ -72,6 +82,11 @@ async function buildAllLanguages(languages) {
   for (const language of languages) {
     await buildLanguage(language);
   }
+
+  await core.summary
+    .addHeading("Build summary")
+    .addTable(summaryTable)
+    .setOutput("summary", summaryTable);
 }
 
 // Convert import.meta.url to a file path and then get the directory name
