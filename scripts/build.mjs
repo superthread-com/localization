@@ -83,10 +83,8 @@ async function buildAllLanguages(languages) {
     await buildLanguage(language);
   }
 
-  await core.summary
-    .addHeading("Build summary")
-    .addTable(summaryTable)
-    .setOutput("summary", summaryTable);
+  await core.summary.addHeading("Build summary").addTable(summaryTable).write();
+  await core.setOutput("summary", summaryTable);
 }
 
 // Convert import.meta.url to a file path and then get the directory name
