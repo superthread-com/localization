@@ -1755,13 +1755,20 @@ const en = {
   upgradeViewsDescription: "Upgrade your workspace plan to save views.",
   createNewItem: "Create new item",
   statusType: "Status type",
-  spaceLimitReached: 'The space limit has been reached. You can delete some spaces to create more.',
-  freePlanUsageLimits: 'Free plan usage limits',
-  item: 'Item',
-  usage: 'Usage',
+  spaceLimitReached:
+    "The space limit has been reached. You can delete some spaces to create more.",
+  freePlanUsageLimits: "Free plan usage limits",
+  item: "Item",
+  usage: "Usage",
   limitReachedLong:
-    'If a limit is reached, you will need to remove items or upgrade the plan before new items can be created.',
-  limitReached: 'Limit reached',
+    "If a limit is reached, you will need to remove items or upgrade the plan before new items can be created.",
+  limitReached: "Limit reached",
+  resourceAndContentWillBeDeleted:
+    "The %{resourceType} '%{resourceTitle}' and its contents will be permanently deleted for everyone. This cannot be undone.",
+  resourceWillBeDeleted:
+    "The %{resourceType} '%{resourceTitle}' will be permanently deleted for everyone. This cannot be undone.",
+  listNameLabel: "List name",
+  deleteList: "Delete list",
 };
 
 export default en as Translations;

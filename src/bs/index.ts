@@ -1049,6 +1049,12 @@ const bs = {
     "Shortcut priče koje nisu dodijeljene timu neće biti importovane.",
   language: "Jezik",
   statusType: "Tip statusa",
+  resourceAndContentWillBeDeleted:
+    "%{resourceType} '%{resourceTitle}' i njegov sadržaj će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
+  resourceWillBeDeleted:
+    "%{resourceType} '%{resourceTitle}' će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
+  listNameLabel: "Ime liste",
+  deleteList: "Izbriši listu",
 };
 
 export default bs;
