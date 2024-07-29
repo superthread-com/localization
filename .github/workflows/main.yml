@@ -22,10 +22,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const summary = core.getInput('summary');
+            const summary = process.env.summary;
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: `Build summary: \n\n${summary}`
             })
+        env:
+          summary: ${{ steps.prepack.outputs.summary }}
