@@ -80,8 +80,4 @@ This section guides you through adding a new language to the project.
   - Name your branch in the following format: `languagecode_developerusername_addkey/editkey`
     - Example: `es_johndoe_addkey` or `de_janedoe_editkey`
 
-- **Pull Request Process**:
-  - Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-  - You may merge the Pull Request once you have the approval of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
-
 Thank you for considering contributing to our project!

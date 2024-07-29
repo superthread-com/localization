@@ -1,22 +1,25 @@
 // build.mjs
 import * as esbuild from "esbuild";
-import fs from "fs/promises";
+import * as core from "@actions/core";
 import path from "path";
 import { fileURLToPath } from "url";
 import { exec } from "child_process";
 import util from "util";
 const execPromise = util.promisify(exec);
+import getDirectoryNames from "./getDirectories.mjs";
+import { getMissingKeys } from "./compareKeys.mjs";
 
-async function getDirectoryNames(srcPath) {
-  try {
-    const dirEntries = await fs.readdir(srcPath, { withFileTypes: true });
-    const dirNames = dirEntries
-      .filter((entry) => entry.isDirectory())
-      .map((entry) => entry.name);
-    return dirNames;
-  } catch (error) {
-    console.error("Error reading directory:", error);
-    return [];
+async function logBuildStatus(language, missingKeys) {
+  if (missingKeys) {
+    core.warning(
+      `Built ` + `\x1b[44m${language}\x1b[0m ` + `with missing keys. \n`
+    );
+    const missingKeys = await getMissingKeys(language);
+    core.info(`\nMissing ${missingKeys.length} keys in ${language}:`);
+    const slice = missingKeys.slice(0, 20);
+    core.info(`${slice},\n and ${missingKeys.length - 20} more...`);
+  } else {
+    core.notice(`Built ` + `\x1b[44m${language}\x1b[0m ` + `successfully. \n`);
   }
 }
 
@@ -59,13 +62,7 @@ async function buildLanguage(language) {
       outdir: `languages/${language}`,
     });
 
-    console.log(
-      `${missingKeys ? "⚠️ " : "✅"} - Built`,
-      "\x1b[44m",
-      `${language}`,
-      "\x1b[0m",
-      `${missingKeys ? "with missing keys" : "successfully."} \n`
-    );
+    logBuildStatus(language, missingKeys);
   } catch (error) {
     console.error(`Error building ${language}:`, error);
   }
