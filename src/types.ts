@@ -1605,7 +1605,8 @@ export enum TranslationKeys {
   ResourceAndContentWillBeDeleted = "resourceAndContentWillBeDeleted",
   ResourceWillBeDeleted = "resourceWillBeDeleted",
   ListNameLabel = "listNameLabel",
-  DeleteList = "deleteList"
+  DeleteList = "deleteList",
+  ItemName = "itemName"
 }
 
 export type Translations = Record<TranslationKeys, string>;

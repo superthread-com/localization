@@ -1769,6 +1769,7 @@ const en = {
     "The %{resourceType} '%{resourceTitle}' will be permanently deleted for everyone. This cannot be undone.",
   listNameLabel: "List name",
   deleteList: "Delete list",
+  itemName: "Item name",
 };
 
 export default en as Translations;

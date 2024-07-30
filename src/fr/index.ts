@@ -1835,6 +1835,7 @@ const fr: Translations = {
     "Le %{resourceType} '%{resourceTitle}' sera définitivement supprimé pour tout le monde. Cette action est irréversible.",
   listNameLabel: "Nom de la liste",
   deleteList: "Supprimer la liste",
+  itemName: "Nom de l'élément",
 };
 
 export default fr as Translations;
