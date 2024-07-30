@@ -1,5 +1,5 @@
 # localization
-Superthread front-end localizations
+Superthread frontend localizations
 
 ## Contributors Guide
 
