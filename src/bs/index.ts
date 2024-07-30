@@ -884,6 +884,7 @@ const bs: Translations = {
     "%{resourceType} '%{resourceTitle}' će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
   listNameLabel: "Ime liste",
   deleteList: "Izbriši listu",
+  itemName: "Ime stavke",
 };
 
 export default bs;
