@@ -427,7 +427,7 @@ const bs: Translations = {
   start: "Počni",
   started: "Počelo",
   DontImport: "Ne uvozit",
-  dontImportUsers: "Don’t import users",
+  dontImportUsers: "Don't import users",
   ImportUsers: "Import users",
   selectUser: "Odaberi korisnika",
   inviteByEmail: "Pozovi sa email adresom",
