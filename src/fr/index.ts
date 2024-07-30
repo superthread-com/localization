@@ -1836,6 +1836,7 @@ const fr: Translations = {
   listNameLabel: "Nom de la liste",
   deleteList: "Supprimer la liste",
   itemName: "Nom de l'élément",
+  notInASprint: "Pas dans un sprint",
 };
 
 export default fr as Translations;

@@ -725,6 +725,7 @@ const bs: Translations = {
   icons: "Ikone",
   emojis: "Emodžiji",
   boardWillNotShowOnPublicPage: "Ploča se neće prikazati na javnoj stranici",
+  notInASprint: "Nije u ciklusu",
 
   // Onboarding
   emailLabel: "Vasa email",
