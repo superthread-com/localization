@@ -680,6 +680,8 @@ const en = {
   addChildCardFail: "Adding child card failed",
   cantRemoveMembers: "You can't remove members from first space",
   cantRemoveMembersFromSpace: "You can't remove members from space",
+  cannotModifyMembers: "You don't have permission to change members",
+  inactiveMembersCannotBeAdded: "Inactive members cannot be added to spaces",
   duplicate: "Duplicate",
   setParentCard: "Set parent card",
   duplicateCard: "Duplicate card",
@@ -971,6 +973,8 @@ const en = {
     "Are you sure you want to transfer ownership of this workspace? Only the new owner will be able to undo this.",
   transferOwnership: "Transfer ownership",
   transferOwnershipConfirmed: "Space ownership transferred",
+  transferSpaceOwnershipShort:
+    "You must transfer ownership before you can leave",
   transferSpaceOwnershipDescription:
     "If you make %{name} the owner of this space, you will no longer be the owner and will be changed to a member.",
   transferSpaceOwnershipBeforeLeaving:
@@ -1683,6 +1687,7 @@ const en = {
     "Only workspace owners, admins, and the creator of the space can turn on sprints",
   onlyOwnerOfPrivateSpace:
     "Only owner of a private space can change this setting",
+  onlySpaceOwnerCanModifyMembers: "Only owners can change space members",
   sprintLength: "Sprint length",
   weeks: "weeks",
   sprintStartOn: "Sprints start on",

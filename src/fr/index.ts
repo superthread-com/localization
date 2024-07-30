@@ -593,6 +593,8 @@ const fr: Translations = {
     "Seuls les propriétaires, les administrateurs de l'espace de travail et le créateur de l'espace peuvent modifier ce paramètre",
   onlyOwnerOfPrivateSpace:
     "Seul le propriétaire de l'espace privé peut modifier ce paramètre",
+  onlySpaceOwnerCanModifyMembers:
+    "Seul le propriétaire de l'espace peut modifier les membres",
   member: "Membre",
   notMember: "Pas un membre",
   links: "Liens",
@@ -701,6 +703,9 @@ const fr: Translations = {
     "Vous ne pouvez pas supprimer des membres du premier espace",
   cantRemoveMembersFromSpace:
     "Vous ne pouvez pas supprimer des membres de l'espace",
+  cannotModifyMembers: "Vous n'avez pas la permission de modifier les membres",
+  inactiveMembersCannotBeAdded:
+    "Les membres inactifs ne peuvent pas être ajoutés aux espaces",
   duplicate: "Dupliquer",
   setParentCard: "Définir la carte parente",
   duplicateCard: "Dupliquer la carte",
@@ -998,17 +1003,19 @@ const fr: Translations = {
   whenYouLeaveAPrivateSpace:
     "Lorsque vous quittez un espace privé, vous ne pourrez plus voir ses tableaux ou ses pages. Pour le rejoindre à nouveau, vous devrez être invité.",
   youCanRejoinThePublicSpace:
-    "Vous pouvez rejoindre l’espace à partir de l’écran de navigation des espaces.",
+    "Vous pouvez rejoindre l'espace à partir de l'écran de navigation des espaces.",
   areYouSureYouWantToRevoke:
     "Êtes-vous sûr de vouloir révoquer leur invitation à cet espace de travail ?",
   areYouSureYouWantToTransferOwnership:
     "Êtes-vous sûr de vouloir transférer la propriété de cet espace de travail ? Seul le nouveau propriétaire pourra annuler cela.",
   transferOwnership: "Transférer la propriété",
-  transferOwnershipConfirmed: "Transfert de la propriété de l’espace",
+  transferOwnershipConfirmed: "Transfert de la propriété de l'espace",
+  transferSpaceOwnershipShort:
+    "Vous devez un autre propriétaire avant de pouvoir quitter l'espace.",
   transferSpaceOwnershipDescription:
     "Si vous faites de %{name} le propriétaire de cet espace, vous ne serez plus le propriétaire et serez changé en membre.",
   transferSpaceOwnershipBeforeLeaving:
-    "Vous devez désigner quelqu’un d’autre comme propriétaire de cet espace avant de pouvoir le quitter. Accédez aux paramètres de l’espace pour désigner quelqu’un d’autre comme propriétaire.",
+    "Vous devez désigner un autre propriétaire de cet espace avant de pouvoir le quitter. Accédez aux paramètres de l'espace pour désigner quelqu'un d'autre.",
   confirm: "Confirmer",
   revoke: "Révoquer",
   notFound: "Non trouvé",
@@ -1316,9 +1323,9 @@ const fr: Translations = {
   noNonSprintBoardsInThisSpace:
     "Il n'y a pas de tableaux non-sprint dans cet espace",
   inviteToWorkspaceDescription:
-    "Pour ajouter des membres existants à un espace, accédez aux paramètres de l’espace",
+    "Pour ajouter des membres existants à un espace, accédez aux paramètres de l'espace",
   alreadyMembersOfWorkspace:
-    "Certaines personnes sont déjà dans l’espace de travail. Ils seront ajoutés à tous les espaces pertinents choisis ci-dessous.",
+    "Certaines personnes sont déjà dans l'espace de travail. Ils seront ajoutés à tous les espaces pertinents choisis ci-dessous.",
   information: "Information",
   success: "Succès",
   error: "Erreur",
@@ -1805,9 +1812,9 @@ const fr: Translations = {
   invitingPeopleToWorkspace:
     "Seuls les administrateurs peuvent inviter de nouvelles personnes dans cet espace de travail",
   upgradePublicPageIndexingTitle:
-    "Mise à niveau pour l’indexation des moteurs de recherche",
+    "Mise à niveau pour l'indexation des moteurs de recherche",
   upgradePublicPageIndexingDescription:
-    "Vous pouvez activer l’indexation des moteurs de recherche sur un forfait payant.",
+    "Vous pouvez activer l'indexation des moteurs de recherche sur un forfait payant.",
   shortcutWarningText:
     "Les histoires de raccourci non attribuées à une équipe ne seront pas importées.",
   coolDown: "Période de repos",
@@ -1816,9 +1823,9 @@ const fr: Translations = {
   renameAttachment: "Renommer la pièce jointe",
   usersWork: "Travail des %{name}",
   timelineLayoutDescription:
-    "Mettez à niveau votre plan d’espace de travail pour utiliser la disposition de la chronologie.",
+    "Mettez à niveau votre plan d'espace de travail pour utiliser la disposition de la chronologie.",
   upgradeViewsDescription:
-    "Mettez à niveau votre plan d’espace de travail pour enregistrer des vues.",
+    "Mettez à niveau votre plan d'espace de travail pour enregistrer des vues.",
   createNewItem: "Créer un nouvel élément",
   statusType: "Type de statut",
   spaceLimitReached:
