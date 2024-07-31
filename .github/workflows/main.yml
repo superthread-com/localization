@@ -14,8 +14,8 @@ jobs:
           node-version: '20'
       - run: npm install
 
-      - id: format
-        run: npm run format
+      - id: formatCheck
+        run: npm run formatCheck
 
       - id: prepack
         run: npm run prepack
