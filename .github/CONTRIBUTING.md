@@ -31,11 +31,11 @@ This section guides you through adding a new language to the project.
    - Example structure for `index.ts`:
 
      ```typescript
-     import { Translations } from '../types';
+     import { Translations } from "../types";
 
      const translations: Translations = {
-       key1: 'translation1',
-       key2: 'translation2',
+       key1: "translation1",
+       key2: "translation2",
        // Add all necessary translations here
      };
 
@@ -60,15 +60,15 @@ This section guides you through adding a new language to the project.
    - Example structure for adding new translations:
 
      ```typescript
-     import { Translations } from '../types';
+     import { Translations } from "../types";
 
      const translations: Translations = {
-       existingKey1: 'existingTranslation1',
-       existingKey2: 'existingTranslation2',
-       newKey1: 'newTranslation1',
-       newKey2: 'newTranslation2',
+       existingKey1: "existingTranslation1",
+       existingKey2: "existingTranslation2",
+       newKey1: "newTranslation1",
+       newKey2: "newTranslation2",
        // or using types for keys
-       [Translations.ExistingKey3]: 'existingTranslation3',
+       [Translations.ExistingKey3]: "existingTranslation3",
      };
 
      export default translations;

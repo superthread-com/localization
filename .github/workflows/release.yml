@@ -34,9 +34,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@superthread-com'
+          node-version: "20"
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@superthread-com"
 
       - name: Bump version
         run: npm version $VERSION --no-git-tag-version

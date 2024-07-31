@@ -1,4 +1,4 @@
-import writeTypes from './writeTypes.mjs';
+import writeTypes from "./writeTypes.mjs";
 
 // Function to convert string to camel case
 function toCamelCase(str) {
@@ -12,29 +12,29 @@ function capitalizeFirstLetter(str) {
 
 // Function to replace '+' with 'Plus'
 function replacePlusWithPlus(str) {
-  return str.replace(/\+/g, 'Plus');
+  return str.replace(/\+/g, "Plus");
 }
 
 // Function to generate the enum
-function generateEnum(obj, parentKey = '') {
+function generateEnum(obj, parentKey = "") {
   let result = [];
   for (let key in obj) {
-    if (typeof obj[key] === 'object') {
+    if (typeof obj[key] === "object") {
       result = result.concat(generateEnum(obj[key], `${parentKey}${key}.`));
     } else {
       let enumKey = parentKey ? `${parentKey}${key}` : key;
       // Extract the original key's trailing underscores
-      const originalTrailingUnderscores = key.match(/_+$/)?.[0] || '';
+      const originalTrailingUnderscores = key.match(/_+$/)?.[0] || "";
 
       enumKey = enumKey
-        .split('.')
+        .split(".")
         .map(toCamelCase)
         .map(capitalizeFirstLetter)
         .map(replacePlusWithPlus) // Apply the replace function here
-        .join('');
+        .join("");
 
       // Correctly append the same number of underscores to the enumKey as in the original key
-      enumKey = enumKey.replace(/_+$/, ''); // Remove any existing trailing underscores
+      enumKey = enumKey.replace(/_+$/, ""); // Remove any existing trailing underscores
       enumKey += originalTrailingUnderscores; // Append the correct number of underscores
 
       // Keep the enumValue intact as per the original key
@@ -48,17 +48,17 @@ function generateEnum(obj, parentKey = '') {
 
 async function main() {
   // Generate the enum array and string
-  console.log('Generating enum...');
-  import('./temp/en/index.cjs')
+  console.log("Generating enum...");
+  import("./temp/en/index.cjs")
     .then(({ default: input }) => {
       // Use the imported module
       const enumArray = generateEnum(input.default);
-      const enumString = enumArray.join(',\n  ');
+      const enumString = enumArray.join(",\n  ");
 
       writeTypes(enumString);
     })
     .catch((error) => {
-      console.error('Failed to import:', error);
+      console.error("Failed to import:", error);
     });
 }
 
