@@ -264,6 +264,8 @@ const bs: Translations = {
     "Samo vlasnici workspace-a, administratori i kreator projekta mogu promijeniti ovu postavku",
   onlyOwnerOfPrivateSpace:
     "Samo vlasnik privatnog projekta može promijeniti ovu postavku",
+  onlySpaceOwnerCanModifyMembers:
+    "Samo vlasnik projekta može mijenjati članove",
   pageTitlePlaceholder: "Daodaj ime ovom dokumentu",
   markAllAsRead: "Označi sve kao pročitano",
   addTo: "Dodao te na",
@@ -326,6 +328,8 @@ const bs: Translations = {
   addChildCardFail: "Neuspješno dodavanje child kartice",
   cantRemoveMembers: "Ne možete ukloniti članove iz prvog projekta",
   cantRemoveMembersFromSpace: "Ne možete ukloniti članove space-a",
+  cannotModifyMembers: "Ne možete mijenjati članove",
+  inactiveMembersCannotBeAdded: "Neaktivni članovi ne mogu biti dodani",
   duplicate: "Dupliciraj",
   setParentCard: "Dodaj roditeljsku karticu",
   duplicateCard: "Dupliciraj karticu",
@@ -423,7 +427,7 @@ const bs: Translations = {
   start: "Počni",
   started: "Počelo",
   DontImport: "Ne uvozit",
-  dontImportUsers: "Don’t import users",
+  dontImportUsers: "Don't import users",
   ImportUsers: "Import users",
   selectUser: "Odaberi korisnika",
   inviteByEmail: "Pozovi sa email adresom",
@@ -542,6 +546,13 @@ const bs: Translations = {
   areYouSureYouWantToTransferOwnership:
     "Jeste li sigurni da želite prenijeti vlasništvo ovog workspace-a? Samo novi vlasnik će to moći poništiti.",
   transferOwnership: "Prenesite vlasništvo",
+  transferOwnershipConfirmed: "Vlasništvo je preneseno",
+  transferSpaceOwnershipShort:
+    "Prenesite vlasništvo ovog workspace-a na drugog člana",
+  transferSpaceOwnershipDescription:
+    "Prenesite vlasništvo ovog workspace-a na drugog člana. Samo novi vlasnik će to moći poništiti.",
+  transferSpaceOwnershipBeforeLeaving:
+    "Prenesite vlasništvo ovog workspace-a na drugog člana prije nego što napustite workspace.",
   confirm: "Potvrdi",
   revoke: "Otkaži",
   notFound: "Nije pronađeno",
