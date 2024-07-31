@@ -185,7 +185,7 @@ const en = {
   ["billing.upgrade"]: "Upgrade",
   ["billing.noPaymentMethod"]: "No payment method",
   ["billing.thereIsNoPaymentMethod"]:
-    "There is no payment method associated with this workspace. A payment method will appear here once you’ve selected a paid plan.",
+    "There is no payment method associated with this workspace. A payment method will appear here once you've selected a paid plan.",
   ["billing.selectAPaidPlan"]: "Select a paid plan",
   ["billing.upgradePlan"]: "Upgrade to this plan",
   ["billing.downgradePlan"]: "Downgrade to this plan",
@@ -319,9 +319,9 @@ const en = {
   goToCard: "Go to the card",
   zoomIn: "Zoom in",
   zoomOut: "Zoom out",
-  notFoundPageHeader: "There’s been a glitch…",
+  notFoundPageHeader: "There's been a glitch…",
   notFoundPageContent:
-    "We’re not quite sure what went wrong. You can go back, or try looking on our Help Center if you need a hand.",
+    "We're not quite sure what went wrong. You can go back, or try looking on our Help Center if you need a hand.",
   addCard: "Add card",
   addProject: "Add project",
   next: "Next",
@@ -680,6 +680,8 @@ const en = {
   addChildCardFail: "Adding child card failed",
   cantRemoveMembers: "You can't remove members from first space",
   cantRemoveMembersFromSpace: "You can't remove members from space",
+  cannotModifyMembers: "You don't have permission to change members",
+  inactiveMembersCannotBeAdded: "Inactive members cannot be added to spaces",
   duplicate: "Duplicate",
   setParentCard: "Set parent card",
   duplicateCard: "Duplicate card",
@@ -751,7 +753,7 @@ const en = {
   joinSlack: "Join our Slack community",
   askQuestions: "Ask questions and help others",
   contactUs: "Contact us",
-  letUsKnow: "Let us know if there’s an issue or a question",
+  letUsKnow: "Let us know if there's an issue or a question",
   assign: "Assign",
   pageIsNoLongerShared: "Page is no longer shared to web",
   favourite: "Favourite",
@@ -767,7 +769,7 @@ const en = {
   pageDuplicateFailed: "Failed to duplicate page",
   copyOf: "Copy of",
   displayNameDescription:
-    "This could be your first name, or a nickname — however you’d like people to refer to you in Superthread.",
+    "This could be your first name, or a nickname — however you'd like people to refer to you in Superthread.",
   embedVideo: "Embed Youtube video",
   removePullRequest: "Remove pull request",
   viewOnGitHub: "View on GitHub",
@@ -801,9 +803,9 @@ const en = {
   importBoardIntoExsistingSpace: "Custom import",
   start: "Start",
   started: "Started",
-  DontImport: "Don’t import",
+  DontImport: "Don't import",
   map: "Map",
-  dontImportUsers: "Don’t import users",
+  dontImportUsers: "Don't import users",
   ImportUsers: "Import users",
   importAs: "Import as...",
   selectUser: "Select user",
@@ -851,7 +853,7 @@ const en = {
   importingIsFinished: "Import finished",
   importing: "Your import has finished",
   selectService:
-    "Select which service we should import issues from. We’ll ask for your authentication details so that we can access their API. We will not import any data until you’ve confirmed all the options in the final step of the process.",
+    "Select which service we should import issues from. We'll ask for your authentication details so that we can access their API. We will not import any data until you've confirmed all the options in the final step of the process.",
   account: "Account",
   importers: "Importers",
   general: "General",
@@ -971,6 +973,8 @@ const en = {
     "Are you sure you want to transfer ownership of this workspace? Only the new owner will be able to undo this.",
   transferOwnership: "Transfer ownership",
   transferOwnershipConfirmed: "Space ownership transferred",
+  transferSpaceOwnershipShort:
+    "You must transfer ownership before you can leave",
   transferSpaceOwnershipDescription:
     "If you make %{name} the owner of this space, you will no longer be the owner and will be changed to a member.",
   transferSpaceOwnershipBeforeLeaving:
@@ -979,7 +983,7 @@ const en = {
   revoke: "Revoke",
   notFound: "Not found",
   itemNotFound: "Item not found",
-  urlDoesntLeadAnywhere: "That URL doesn’t lead anywhere",
+  urlDoesntLeadAnywhere: "That URL doesn't lead anywhere",
   itemMightBeDeleted:
     "The item might have been deleted, or you might not have access",
   deleteItem: "Delete %{item}",
@@ -1003,10 +1007,10 @@ const en = {
   guest: "Guest",
   inviteSent: "Invite sent",
   resendInvite: "Resend invite",
-  whatsNew: "What’s new",
+  whatsNew: "What's new",
   viewUpdates: "View updates in our weekly changelog",
   whenYouCreateTags:
-    "When you create tags directly on a card, they’re saved as custom tags just for that space. You can re-use common tags (e.g. bug) across all your spaces by creating them here instead. To keep things tidy, we’ll merge existing tags with the same name into the new workspace one.",
+    "When you create tags directly on a card, they're saved as custom tags just for that space. You can re-use common tags (e.g. bug) across all your spaces by creating them here instead. To keep things tidy, we'll merge existing tags with the same name into the new workspace one.",
   merge: "Merge",
   theSpace: "The space",
   haveSameTags: "have tags with the same name.",
@@ -1017,7 +1021,7 @@ const en = {
   editTag: "Edit tag",
   workspaceTags: "Workspace Tags",
   manageTags: "Manage tags that are shared across all spaces",
-  youCantUndo: "You can’t undo this action.",
+  youCantUndo: "You can't undo this action.",
   merge2spaceTags: "With the same name into the workspace tag?",
   areYouSureYouWantToDelete: "Are you sure you want to delete",
   uploaded: "Uploaded",
@@ -1082,7 +1086,7 @@ const en = {
   youMayBeSharing:
     "You may be sharing sensitive info with this site or app. You can always see or remove access in your",
   stSettings: "Superthread settings",
-  seeZapiers: "See Zapier’s",
+  seeZapiers: "See Zapier's",
   privacyPolicy: "Privacy Policy",
   termsOfService: "Terms of Service",
   makeSureYouTrustZapier: "Make sure you trust Zapier",
@@ -1096,11 +1100,11 @@ const en = {
     "Connect to Slack to preview key information from Superthread Cards and Pages when teammates paste links to them in Slack messages.",
   orLc: "or",
   useBoardsToVisualise:
-    "Use boards to visualise your workflow, track your team’s progress, and plan what to do next. Create multiple boards to keep things organised.",
+    "Use boards to visualise your workflow, track your team's progress, and plan what to do next. Create multiple boards to keep things organised.",
   collaborativeDocuments:
     "Collaborative documents with text, images, markdown, and inline comments. Take notes, write specs, build a wiki, or share information publicly.",
   filterAcrossTheEntire:
-    "Filter across the entire workspace to create a view of all the cards ‘assigned to you’, or perhaps create a global ‘bugs’ backlog. Views can be private or shared with your team. ",
+    "Filter across the entire workspace to create a view of all the cards ‘assigned to you', or perhaps create a global ‘bugs' backlog. Views can be private or shared with your team. ",
   getStartedBy: "Get started by creating a new board or page",
   useFiltersToCreate:
     "Use filters to create custom views of only the cards you want to see",
@@ -1195,15 +1199,15 @@ const en = {
   youCanShow: "You can show",
   notificationsInstead: "notifications instead",
   subscribeToGetNotifications:
-    "Subscribe to something and you’ll get notifications when there’s activity",
+    "Subscribe to something and you'll get notifications when there's activity",
   selectANotificationToViewIt: "Select a notification to view it",
   youCanMarkANotificationAs: "You can mark a notification as",
   unreadOr: "unread or",
   resolveIt: "resolve it",
   inboxNotificationsAreUnresolved:
-    "Notifications are “unresolved” if you haven’t marked them as resolved",
+    "Notifications are “unresolved” if you haven't marked them as resolved",
   notificationsAreNew:
-    "Notifications are “new” if you haven’t seen them before",
+    "Notifications are “new” if you haven't seen them before",
   wantNotificationsIn: "Want notifications in",
   slaskQuestionMarkVisit: "Slack? Visit",
   noCardsMatchChosenFilter:
@@ -1271,7 +1275,7 @@ const en = {
   inviteToWorkspaceDescription:
     "To add existing members to a space, go to space settings",
   alreadyMembersOfWorkspace:
-    "Some people are already in the workspace. They’ll be added to any relevant spaces chosen below.",
+    "Some people are already in the workspace. They'll be added to any relevant spaces chosen below.",
   information: "Information",
   success: "Success",
   error: "Error",
@@ -1397,7 +1401,7 @@ const en = {
     "Map %{importerName} users to Superthread users (or invite missing ones) to preserve card members, creators, and activity.",
   startImport: "Start import",
   wellLetYouKnowWhenImportFinishes:
-    "We’ll let you know when the import finishes",
+    "We'll let you know when the import finishes",
   feelFreeToContuinueUsingST: "Feel free to continue using Superthread",
   dontImportThisUser: "Don't import this user",
   matchToAnExistingSTUser: "Match to an existing Superthread user",
@@ -1412,7 +1416,7 @@ const en = {
   importStaleStories: "Import stale stories",
   importStaleStoriesDesc:
     "Stories that haven't been opened in over 6 moneths are considered stale. They will be imported to the archive and can be searched and unarchived later.",
-  wedLikeToTake: "We’d like to take",
+  wedLikeToTake: "We'd like to take",
   thirtySeconds: "30 seconds",
   toShowYouAround: "to show you around",
   getStarted: "Get started",
@@ -1453,7 +1457,7 @@ const en = {
   inviteNewPeople: "Invite new people",
   inviteeEmailAddress: "Invitee email address",
   inviteSectionSubtitle:
-    "They’ll be invited to the whole workspace, not just this space.",
+    "They'll be invited to the whole workspace, not just this space.",
   couldntCreateSpace: "Space could not be created, please try again.",
   spaceCreated: "Space created!",
   emailAlreadyAdded: "Email already added",
@@ -1553,7 +1557,7 @@ const en = {
   tshirtSizes: "T-shirt sizes",
   setEstimate: "Set estimate",
   emailNotificationHelperText:
-    "An email every weekday with any notifications you haven’t seen since the last email",
+    "An email every weekday with any notifications you haven't seen since the last email",
   estimated: "estimated",
   cardSpaceEstimationTurnedOff:
     "This card belongs to a space with estimation turned off",
@@ -1566,7 +1570,7 @@ const en = {
   archivedCardsAreHidden: "archived cards are hidden",
   enterANameAbove: "Enter a name above",
   chooseFiltersYouWouldLike:
-    "Then choose the filters you’d like in the filter bar",
+    "Then choose the filters you'd like in the filter bar",
   cannotCreateViewOnMobile: "You cannot create a view on mobile.",
   viewCardInBoard: "View card in its own board",
   guestsMustBeAddedToOneSpace: "Guests must be added to at least one space",
@@ -1579,7 +1583,7 @@ const en = {
   logOutAndContinue: "Log out and continue",
   confirmAccountOwnership: "Confirm account ownership",
   reauthenticateEmailDescription:
-    "To keep your account secure, we need you to log in to the app again. After logging in, you’ll be able to choose a new email address and complete the process.",
+    "To keep your account secure, we need you to log in to the app again. After logging in, you'll be able to choose a new email address and complete the process.",
   enterANewEmail: "Enter a new email address:",
   resendLoginCode: "Resend login code",
   emailAddressTakenByAnotherUser: "Email address taken by another user",
@@ -1613,7 +1617,7 @@ const en = {
   boardOpenedInTheBackground: "%{boardTitle} board opened in the background",
   resetFilters: "Reset filters",
   ["create_space.title"]: "Create a space",
-  ["create_space.tooltip"]: "Create a home for your team’s work",
+  ["create_space.tooltip"]: "Create a home for your team's work",
   ["create_private_space.title"]: "Create a private space",
   ["create_private_space.tooltip"]:
     "Only people you invite can see a private space",
@@ -1628,7 +1632,7 @@ const en = {
     "Child cards help you break work down into smaller tasks",
   ["visit_inbox.title"]: "Check your inbox",
   ["visit_inbox.tooltip"]:
-    "Keep track of everything you’re subscribed to in the inbox",
+    "Keep track of everything you're subscribed to in the inbox",
   ["move_page.title"]: "Move a page",
   ["move_page.tooltip"]:
     "Drag a page in the sidebar to move it wherever you want it",
@@ -1683,6 +1687,7 @@ const en = {
     "Only workspace owners, admins, and the creator of the space can turn on sprints",
   onlyOwnerOfPrivateSpace:
     "Only owner of a private space can change this setting",
+  onlySpaceOwnerCanModifyMembers: "Only owners can change space members",
   sprintLength: "Sprint length",
   weeks: "weeks",
   sprintStartOn: "Sprints start on",
@@ -1711,7 +1716,7 @@ const en = {
   enterSprintName: "Enter sprint name",
   cancelSprintWarning:
     "All unfinished cards in this board will be moved into the cancelled status.",
-  dontCancel: "Don’t cancel",
+  dontCancel: "Don't cancel",
   upgradePlan: "Upgrade plan",
   upgradePrivateSpaceTitle: "Upgrade for private spaces",
   upgradePrivateSpaceDescription:
@@ -1747,7 +1752,7 @@ const en = {
   coolDown: "Cool-down",
   noBoardsOrPages: "No boards or pages",
   language: "Language",
-  usersWork: "%{name}’s work",
+  usersWork: "%{name}'s work",
   renameAttachment: "Rename attachment",
   deleteAttachment: "Delete attachment",
   timelineLayoutDescription:
