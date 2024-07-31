@@ -9,10 +9,6 @@
 # Ignore build output directories
 /bin/
 /build/
-/dist/
-/languages/
-/index.js
-/src/types.js
 
 # Ignore package manager directories
 /node_modules/

@@ -1,3 +1,3 @@
-import writeTypes from "./writeTypes.mjs";
+import writeTypes from './writeTypes.mjs';
 
-writeTypes("");
+writeTypes('');

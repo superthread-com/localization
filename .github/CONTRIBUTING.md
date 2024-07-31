@@ -11,6 +11,7 @@ The following is a set of guidelines for contributing to our project. These are 
 This section guides you through adding a new language to the project.
 
 1. **Create an Issue**:
+
    - **Perform a [cursory search](https://github.com/superthread-com/localization/issues)** to see if the language request has already been reported.
    - Before adding a new language, create an issue to discuss it.
 
@@ -19,10 +20,12 @@ This section guides you through adding a new language to the project.
    - Provide a brief description of the language and any initial translation plans.
 
 2. **Create a Language Folder**:
+
    - Navigate to the `src/locales` directory.
    - Create a new folder named after the language code (e.g., "es" for Spanish, "de" for German).
 
 3. **Add `index.ts`**:
+
    - Inside the newly created folder, add an `index.ts` file.
    - Use keys from the existing type definitions and add translations as values.
    - Example structure for `index.ts`:
@@ -47,9 +50,11 @@ This section guides you through adding a new language to the project.
 ### Contributing to Existing Languages
 
 1. **Locate the Language Folder**:
+
    - Navigate to the `src/` directory and find the folder for the language you want to contribute to (e.g., "es" for Spanish, "de" for German).
 
 2. **Edit `index.ts`**:
+
    - Open the `index.ts` file in the relevant language folder.
    - Add new keys from the existing type definitions and provide the corresponding translation values.
    - Example structure for adding new translations:

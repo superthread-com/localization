@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+import fs from 'fs/promises';
 
 async function getDirectoryNames(srcPath) {
   try {
@@ -8,7 +8,7 @@ async function getDirectoryNames(srcPath) {
       .map((entry) => entry.name);
     return dirNames;
   } catch (error) {
-    console.error("Error reading directory:", error);
+    console.error('Error reading directory:', error);
     return [];
   }
 }

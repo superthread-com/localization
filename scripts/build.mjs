@@ -1,19 +1,19 @@
 // build.mjs
-import * as esbuild from "esbuild";
-import * as core from "@actions/core";
-import path from "path";
-import { fileURLToPath } from "url";
-import { exec } from "child_process";
-import util from "util";
+import * as esbuild from 'esbuild';
+import * as core from '@actions/core';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { exec } from 'child_process';
+import util from 'util';
 const execPromise = util.promisify(exec);
-import getDirectoryNames from "./getDirectories.mjs";
-import { getMissingKeys } from "./compareKeys.mjs";
+import getDirectoryNames from './getDirectories.mjs';
+import { getMissingKeys } from './compareKeys.mjs';
 
 const summaryTable = [
   [
-    { data: "Language", header: true },
-    { data: "Status", header: true },
-    { data: "Missing keys", header: true },
+    { data: 'Language', header: true },
+    { data: 'Status', header: true },
+    { data: 'Missing keys', header: true },
   ],
 ];
 
@@ -26,10 +26,10 @@ async function logBuildStatus(language, missingKeys) {
     core.info(`\nMissing ${missingKeys.length} keys in ${language}:`);
     const slice = missingKeys.slice(0, 20);
     core.info(`${slice},\n and ${missingKeys.length - 20} more...`);
-    summaryTable.push([language, "⚠️", `${missingKeys.length}`]);
+    summaryTable.push([language, '⚠️', `${missingKeys.length}`]);
   } else {
     core.notice(`Built ` + `\x1b[44m${language}\x1b[0m ` + `successfully. \n`);
-    summaryTable.push([language, "✅", "0"]);
+    summaryTable.push([language, '✅', '0']);
   }
 }
 
@@ -45,7 +45,7 @@ async function buildLanguage(language) {
       const errMsg = error.stdout || error.stderr;
       let message = errMsg;
 
-      console.log("Error message:", errMsg);
+      console.log('Error message:', errMsg);
       // handle missing keys error
       const missing =
         "is missing the following properties from type 'Translations'";
@@ -56,19 +56,19 @@ async function buildLanguage(language) {
       }
       console.error(
         `Error compiling ${language} with tsc: \n`,
-        "\x1b[31m",
+        '\x1b[31m',
         message,
-        "\x1b[0m"
+        '\x1b[0m'
       );
     }
 
     await esbuild.build({
       entryPoints: [entryPoint],
       bundle: true,
-      platform: "browser",
-      format: "esm",
-      target: "es2020",
-      charset: "utf8",
+      platform: 'browser',
+      format: 'esm',
+      target: 'es2020',
+      charset: 'utf8',
       outdir: `languages/${language}`,
     });
 
@@ -85,30 +85,30 @@ async function buildAllLanguages(languages) {
 
   if (process.env.GITHUB_ACTIONS) {
     await core.summary
-      .addHeading("Build summary")
+      .addHeading('Build summary')
       .addTable(summaryTable)
       .write();
-    await core.setOutput?.("summary", summaryTable);
+    await core.setOutput?.('summary', summaryTable);
   } else {
-    console.log("Build summary:");
+    console.log('Build summary:');
     console.table(summaryTable);
   }
 }
 
 // Convert import.meta.url to a file path and then get the directory name
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const srcDirectoryPath = path.join(__dirname, "../src");
+const srcDirectoryPath = path.join(__dirname, '../src');
 
 await esbuild.build({
-  entryPoints: ["src/index.ts"],
+  entryPoints: ['src/index.ts'],
   bundle: true,
-  platform: "browser",
-  format: "esm",
-  target: "es2020",
-  outdir: "./",
+  platform: 'browser',
+  format: 'esm',
+  target: 'es2020',
+  outdir: './',
 });
 
 getDirectoryNames(srcDirectoryPath).then(async (languageFolders) => {
-  console.log("🌎 Language folders found in /src", languageFolders);
+  console.log('🌎 Language folders found in /src', languageFolders);
   await buildAllLanguages(languageFolders);
 });

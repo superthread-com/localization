@@ -1,8 +1,8 @@
-import { TranslationKeys } from "../index.js";
-import getDirectoryNames from "./getDirectories.mjs";
+import { TranslationKeys } from '../index.js';
+import getDirectoryNames from './getDirectories.mjs';
 
 const printMissingKeys = async () => {
-  const languageFolders = await getDirectoryNames("languages");
+  const languageFolders = await getDirectoryNames('languages');
   for (const language of languageFolders) {
     const missingKeys = await getMissingKeys(language);
     if (missingKeys.length) {
