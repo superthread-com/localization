@@ -891,9 +891,9 @@ const bs: Translations = {
   language: "Jezik",
   statusType: "Tip statusa",
   resourceAndContentWillBeDeleted:
-    "%{resourceType} '%{resourceTitle}' i njegov sadržaj će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
+    '%{resourceType} "%{resourceTitle}" i njegov sadržaj će biti trajno izbrisan za sve. Ovo se ne može poništiti.',
   resourceWillBeDeleted:
-    "%{resourceType} '%{resourceTitle}' će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
+    '%{resourceType} "%{resourceTitle}" će biti trajno izbrisan za sve. Ovo se ne može poništiti.',
   listNameLabel: "Ime liste",
   deleteList: "Izbriši listu",
   itemName: "Ime stavke",

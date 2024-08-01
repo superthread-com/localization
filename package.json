@@ -26,12 +26,15 @@
     "postmakeEnum": "rimraf ./scripts/temp",
     "declarations": "tsc src/index.ts src/**/**.ts --declaration --emitDeclarationOnly --allowImportingTsExtensions --outDir dist",
     "test": "vitest run",
-    "prepack": "npm run makeEnum && npm run build"
+    "prepack": "npm run makeEnum && npm run build",
+    "format": "npx prettier --write .",
+    "formatCheck": "npx prettier --check ."
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^2.0.1",
     "chai": "^5.1.1",
     "esbuild": "^0.23.0",
+    "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3",

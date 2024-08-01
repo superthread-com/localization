@@ -14,7 +14,7 @@ function writeTypes(enumString) {
   console.log(
     enumString
       ? "Enum keys have been written to types.ts"
-      : "Existing keys cleared from types.ts."
+      : "Existing keys cleared from types.ts.",
   );
 }
 

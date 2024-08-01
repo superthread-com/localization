@@ -1769,9 +1769,9 @@ const en = {
     "If a limit is reached, you will need to remove items or upgrade the plan before new items can be created.",
   limitReached: "Limit reached",
   resourceAndContentWillBeDeleted:
-    "The %{resourceType} '%{resourceTitle}' and its contents will be permanently deleted for everyone. This cannot be undone.",
+    'The %{resourceType} "%{resourceTitle}" and its contents will be permanently deleted for everyone. This cannot be undone.',
   resourceWillBeDeleted:
-    "The %{resourceType} '%{resourceTitle}' will be permanently deleted for everyone. This cannot be undone.",
+    'The %{resourceType} "%{resourceTitle}" will be permanently deleted for everyone. This cannot be undone.',
   listNameLabel: "List name",
   deleteList: "Delete list",
   itemName: "Item name",

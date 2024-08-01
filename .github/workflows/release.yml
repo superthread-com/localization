@@ -34,9 +34,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@superthread-com'
+          node-version: "20"
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@superthread-com"
 
       - name: Bump version
         run: npm version $VERSION --no-git-tag-version
@@ -55,8 +55,8 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-            npm install --include=dev
-            npm publish
+          npm install --include=dev
+          npm publish
 
       - name: update version
         id: pr
@@ -65,15 +65,15 @@ jobs:
           HEAD: release-$VERSION
           GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
         run: |
-              git checkout -b ${{ env.HEAD }}
-              git add package.json
-              git commit -m "[bot] ts release $API $VERSION"
-              git push --set-upstream origin ${{ env.HEAD }}
-              url=$(gh pr create \
-                --title '[bot] release ${{ env.VERSION }}' \
-                --body 'This PR bumps the version to ${{ env.VERSION }}')
-              echo "PR_URL=$(echo $url)" >> $GITHUB_ENV
-              gh pr merge --auto --squash "$url"
+          git checkout -b ${{ env.HEAD }}
+          git add package.json
+          git commit -m "[bot] ts release $API $VERSION"
+          git push --set-upstream origin ${{ env.HEAD }}
+          url=$(gh pr create \
+            --title '[bot] release ${{ env.VERSION }}' \
+            --body 'This PR bumps the version to ${{ env.VERSION }}')
+          echo "PR_URL=$(echo $url)" >> $GITHUB_ENV
+          gh pr merge --auto --squash "$url"
 
       # separate approval step ensures that CI checks will pass before merge
       - name: approve pr

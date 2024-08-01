@@ -8,7 +8,7 @@ const printMissingKeys = async () => {
     if (missingKeys.length) {
       console.log(
         `\nMissing keys ${missingKeys.length} in ${language}:`,
-        missingKeys
+        missingKeys,
       );
     }
   }
@@ -19,7 +19,7 @@ const getMissingKeys = async (language) => {
     `../languages/${language}/index.js`
   );
   return Object.values(TranslationKeys).filter(
-    (key) => !Object.keys(translations).includes(key)
+    (key) => !Object.keys(translations).includes(key),
   );
 };
 
