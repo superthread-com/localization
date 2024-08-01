@@ -20,7 +20,7 @@ const summaryTable = [
 async function logBuildStatus(language, missingKeys) {
   if (missingKeys) {
     core.warning(
-      `Built ` + `\x1b[44m${language}\x1b[0m ` + `with missing keys. \n`
+      `Built ` + `\x1b[44m${language}\x1b[0m ` + `with missing keys. \n`,
     );
     const missingKeys = await getMissingKeys(language);
     core.info(`\nMissing ${missingKeys.length} keys in ${language}:`);
@@ -39,7 +39,7 @@ async function buildLanguage(language) {
     let missingKeys = false;
     try {
       await execPromise(
-        `tsc ${entryPoint} --emitDeclarationOnly --declaration --skipLibCheck --outDir languages`
+        `tsc ${entryPoint} --emitDeclarationOnly --declaration --skipLibCheck --outDir languages`,
       );
     } catch (error) {
       const errMsg = error.stdout || error.stderr;
@@ -58,7 +58,7 @@ async function buildLanguage(language) {
         `Error compiling ${language} with tsc: \n`,
         "\x1b[31m",
         message,
-        "\x1b[0m"
+        "\x1b[0m",
       );
     }
 
