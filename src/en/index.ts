@@ -988,10 +988,6 @@ const en = {
     "The item might have been deleted, or you might not have access",
   deleteItem: "Delete %{item}",
   deleteSpace: "Delete space",
-  contentWillBeDeleted:
-    "and its contents will be permanently deleted for everyone. This cannot be undone.",
-  willBeDeleted:
-    "will be permanently deleted for everyone. This cannot be undone.",
   ifYouWantToDeleteSpace:
     "If you want to delete this space, type its name below.",
   ifYouWantToDeleteResource:

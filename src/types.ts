@@ -916,8 +916,6 @@ export enum TranslationKeys {
   ItemMightBeDeleted = "itemMightBeDeleted",
   DeleteItem = "deleteItem",
   DeleteSpace = "deleteSpace",
-  ContentWillBeDeleted = "contentWillBeDeleted",
-  WillBeDeleted = "willBeDeleted",
   IfYouWantToDeleteSpace = "ifYouWantToDeleteSpace",
   IfYouWantToDeleteResource = "ifYouWantToDeleteResource",
   TypeTheNameOfTheSpace = "typeTheNameOfTheSpace",
@@ -1611,7 +1609,7 @@ export enum TranslationKeys {
   ListNameLabel = "listNameLabel",
   DeleteList = "deleteList",
   ItemName = "itemName",
-  NotInASprint = "notInASprint",
+  NotInASprint = "notInASprint"
 }
 
 export type Translations = Record<TranslationKeys, string>;
