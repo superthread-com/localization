@@ -1844,6 +1844,7 @@ const fr: Translations = {
   deleteList: "Supprimer la liste",
   itemName: "Nom de l'élément",
   notInASprint: "Pas dans un sprint",
+  moveCardIntoSprint: "Déplacer la carte dans le sprint %{sprintName}",
 };
 
 export default fr as Translations;
