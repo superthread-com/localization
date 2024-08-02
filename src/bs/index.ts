@@ -737,6 +737,7 @@ const bs: Translations = {
   emojis: "Emodžiji",
   boardWillNotShowOnPublicPage: "Ploča se neće prikazati na javnoj stranici",
   notInASprint: "Nije u ciklusu",
+  moveCardIntoSprint: "Kartica je premještena u ciklus %{sprintName}",
 
   // Onboarding
   emailLabel: "Vasa email",
