@@ -1612,6 +1612,7 @@ export enum TranslationKeys {
   DeleteList = "deleteList",
   ItemName = "itemName",
   NotInASprint = "notInASprint",
+  MoveCardIntoSprint = "moveCardIntoSprint"
 }
 
 export type Translations = Record<TranslationKeys, string>;
