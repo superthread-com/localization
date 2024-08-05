@@ -1775,9 +1775,9 @@ const en = {
   notInASprint: "Not in a sprint",
   moveCardIntoSprint: "Card moved to sprint %{sprintName}",
   addView: "Add view",
-  time_created_sort: "Time created",
-  time_updated_sort: "Time updated",
-  due_date_sort: "Due date",
+  timeCreatedSort: "Time created",
+  timeUpdatedSort: "Time updated",
+  dueDateSort: "Due date",
   noSprintsLabel: "No sprints",
 };
 

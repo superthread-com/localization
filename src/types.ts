@@ -1613,10 +1613,10 @@ export enum TranslationKeys {
   NotInASprint = "notInASprint",
   MoveCardIntoSprint = "moveCardIntoSprint",
   AddView = "addView",
-  TimeCreatedSort = "time_created_sort",
-  TimeUpdatedSort = "time_updated_sort",
-  DueDateSort = "due_date_sort",
-  NoSprintsLabel = "noSprintsLabel",
+  TimeCreatedSort = "timeCreatedSort",
+  TimeUpdatedSort = "timeUpdatedSort",
+  DueDateSort = "dueDateSort",
+  NoSprintsLabel = "noSprintsLabel"
 }
 
 export type Translations = Record<TranslationKeys, string>;

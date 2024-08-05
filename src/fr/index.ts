@@ -1843,9 +1843,9 @@ const fr: Translations = {
   notInASprint: "Pas dans un sprint",
   moveCardIntoSprint: "Déplacer la carte dans le sprint %{sprintName}",
   addView: "Créer une vue",
-  time_created_sort: "Date de création",
-  time_updated_sort: "Date de modification",
-  due_date_sort: "Date d'échéance",
+  timeCreatedSort: "Date de création",
+  timeUpdatedSort: "Date de modification",
+  dueDateSort: "Date d'échéance",
   noSprintsLabel: "Pas de sprint",
 };
 

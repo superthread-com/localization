@@ -1799,9 +1799,9 @@ const bs: Translations = {
   invitingPeopleToWorkspace:
     "Samo administratori mogu pozvati nove ljude u ovaj workspace",
   addView: "Kreiraj pogled",
-  time_created_sort: "Vremenu kreiranja",
-  time_updated_sort: "Vremenu ažuriranja",
-  due_date_sort: "Najranijem roku",
+  timeCreatedSort: "Vremenu kreiranja",
+  timeUpdatedSort: "Vremenu ažuriranja",
+  dueDateSort: "Najranijem roku",
 };
 
 export default bs;
