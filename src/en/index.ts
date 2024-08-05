@@ -252,7 +252,7 @@ const en = {
   writeComment: "Write a comment...",
   comments: "Comments",
   createBoard: "Create board",
-  createPage: "Create Page",
+  createPage: "Create page",
   delete: "Delete",
   edit: "Edit",
   remove: "Remove",
