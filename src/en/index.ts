@@ -1320,6 +1320,7 @@ const en = {
   clickToRename: "Click to rename",
   info: "Info",
   clearAllFilters: "Clear all filters",
+  is: "is",
   is_not: "is not",
   includes: "includes",
   excludes: "excludes",
@@ -1777,6 +1778,10 @@ const en = {
   itemName: "Item name",
   notInASprint: "Not in a sprint",
   moveCardIntoSprint: "Card moved to sprint %{sprintName}",
+  addView: "Add view",
+  time_created_sort: "Time created",
+  time_updated_sort: "Time updated",
+  due_date_sort: "Due date",
 };
 
 export default en as Translations;

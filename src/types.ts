@@ -1224,6 +1224,7 @@ export enum TranslationKeys {
   ClickToRename = "clickToRename",
   Info = "info",
   ClearAllFilters = "clearAllFilters",
+  Is = "is",
   IsNot = "is_not",
   Includes = "includes",
   Excludes = "excludes",
@@ -1613,6 +1614,10 @@ export enum TranslationKeys {
   ItemName = "itemName",
   NotInASprint = "notInASprint",
   MoveCardIntoSprint = "moveCardIntoSprint",
+  AddView = "addView",
+  TimeCreatedSort = "time_created_sort",
+  TimeUpdatedSort = "time_updated_sort",
+  DueDateSort = "due_date_sort"
 }
 
 export type Translations = Record<TranslationKeys, string>;
