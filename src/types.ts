@@ -1613,6 +1613,7 @@ export enum TranslationKeys {
   ItemName = "itemName",
   NotInASprint = "notInASprint",
   MoveCardIntoSprint = "moveCardIntoSprint",
+  NoSprintsLabel = "noSprintsLabel",
 }
 
 export type Translations = Record<TranslationKeys, string>;
