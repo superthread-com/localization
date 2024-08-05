@@ -1777,6 +1777,7 @@ const en = {
   itemName: "Item name",
   notInASprint: "Not in a sprint",
   moveCardIntoSprint: "Card moved to sprint %{sprintName}",
+  noSprintsLabel: "No sprints",
 };
 
 export default en as Translations;

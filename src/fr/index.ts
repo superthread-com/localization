@@ -1845,6 +1845,7 @@ const fr: Translations = {
   itemName: "Nom de l'élément",
   notInASprint: "Pas dans un sprint",
   moveCardIntoSprint: "Déplacer la carte dans le sprint %{sprintName}",
+  noSprintsLabel: "Pas de sprint",
 };
 
 export default fr as Translations;
