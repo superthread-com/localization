@@ -560,9 +560,6 @@ const bs: Translations = {
   urlDoesntLeadAnywhere: "Taj URL ne vodi nikuda",
   itemMightBeDeleted: "Stavka je možda izbrisana ili joj nemate pristup",
   deleteSpace: "Izbriši prostor",
-  contentWillBeDeleted:
-    "i njegov sadržaj će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
-  willBeDeleted: "će biti trajno izbrisan za sve. Ovo se ne može poništiti.",
   ifYouWantToDeleteResource:
     "Ako želite da izbrišete ovaj %{resourceType}, upišite njegovo ime ispod.",
   typeTheNameOfTheSpace: "Upišite ime prostora",
