@@ -1368,6 +1368,7 @@ const fr: Translations = {
   clickToRename: "Cliquez pour renommer",
   info: "Info",
   clearAllFilters: "Effacer tous les filtres",
+  is: "est",
   is_not: "n'est pas",
   includes: "comprend",
   excludes: "exclut",
@@ -1841,6 +1842,10 @@ const fr: Translations = {
   itemName: "Nom de l'élément",
   notInASprint: "Pas dans un sprint",
   moveCardIntoSprint: "Déplacer la carte dans le sprint %{sprintName}",
+  addView: "Créer une vue",
+  timeCreatedSort: "Date de création",
+  timeUpdatedSort: "Date de modification",
+  dueDateSort: "Date d'échéance",
   noSprintsLabel: "Pas de sprint",
 };
 

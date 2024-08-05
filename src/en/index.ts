@@ -1316,6 +1316,7 @@ const en = {
   clickToRename: "Click to rename",
   info: "Info",
   clearAllFilters: "Clear all filters",
+  is: "is",
   is_not: "is not",
   includes: "includes",
   excludes: "excludes",
@@ -1773,6 +1774,10 @@ const en = {
   itemName: "Item name",
   notInASprint: "Not in a sprint",
   moveCardIntoSprint: "Card moved to sprint %{sprintName}",
+  addView: "Add view",
+  timeCreatedSort: "Time created",
+  timeUpdatedSort: "Time updated",
+  dueDateSort: "Due date",
   noSprintsLabel: "No sprints",
 };
 
