@@ -1025,10 +1025,6 @@ const fr: Translations = {
     "L'élément a peut-être été supprimé, ou vous n'avez peut-être pas accès",
   deleteItem: "Supprimer %{item}",
   deleteSpace: "Supprimer l'espace",
-  contentWillBeDeleted:
-    "et son contenu seront définitivement supprimés pour tout le monde. Cela ne peut pas être annulé.",
-  willBeDeleted:
-    "sera définitivement supprimé pour tout le monde. Cela ne peut pas être annulé.",
   ifYouWantToDeleteSpace:
     "Si vous souhaitez supprimer cet espace, tapez son nom ci-dessous.",
   ifYouWantToDeleteResource:
@@ -1850,6 +1846,7 @@ const fr: Translations = {
   time_created_sort: "Date de création",
   time_updated_sort: "Date de modification",
   due_date_sort: "Date d'échéance",
+  noSprintsLabel: "Pas de sprint",
 };
 
 export default fr as Translations;

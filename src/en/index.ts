@@ -988,10 +988,6 @@ const en = {
     "The item might have been deleted, or you might not have access",
   deleteItem: "Delete %{item}",
   deleteSpace: "Delete space",
-  contentWillBeDeleted:
-    "and its contents will be permanently deleted for everyone. This cannot be undone.",
-  willBeDeleted:
-    "will be permanently deleted for everyone. This cannot be undone.",
   ifYouWantToDeleteSpace:
     "If you want to delete this space, type its name below.",
   ifYouWantToDeleteResource:
@@ -1782,6 +1778,7 @@ const en = {
   time_created_sort: "Time created",
   time_updated_sort: "Time updated",
   due_date_sort: "Due date",
+  noSprintsLabel: "No sprints",
 };
 
 export default en as Translations;

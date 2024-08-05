@@ -916,8 +916,6 @@ export enum TranslationKeys {
   ItemMightBeDeleted = "itemMightBeDeleted",
   DeleteItem = "deleteItem",
   DeleteSpace = "deleteSpace",
-  ContentWillBeDeleted = "contentWillBeDeleted",
-  WillBeDeleted = "willBeDeleted",
   IfYouWantToDeleteSpace = "ifYouWantToDeleteSpace",
   IfYouWantToDeleteResource = "ifYouWantToDeleteResource",
   TypeTheNameOfTheSpace = "typeTheNameOfTheSpace",
@@ -1617,7 +1615,8 @@ export enum TranslationKeys {
   AddView = "addView",
   TimeCreatedSort = "time_created_sort",
   TimeUpdatedSort = "time_updated_sort",
-  DueDateSort = "due_date_sort"
+  DueDateSort = "due_date_sort",
+  NoSprintsLabel = "noSprintsLabel",
 }
 
 export type Translations = Record<TranslationKeys, string>;
