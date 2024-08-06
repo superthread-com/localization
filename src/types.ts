@@ -1616,7 +1616,7 @@ export enum TranslationKeys {
   TimeCreatedSort = "timeCreatedSort",
   TimeUpdatedSort = "timeUpdatedSort",
   DueDateSort = "dueDateSort",
-  NoSprintsLabel = "noSprintsLabel"
+  NoSprintsLabel = "noSprintsLabel",
 }
 
 export type Translations = Record<TranslationKeys, string>;
