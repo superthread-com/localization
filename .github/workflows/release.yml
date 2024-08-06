@@ -63,7 +63,7 @@ jobs:
         if: env.MODIFIED == 'true'
         env:
           HEAD: release-$VERSION
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
         run: |
           git checkout -b ${{ env.HEAD }}
           git add package.json
