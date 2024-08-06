@@ -74,11 +74,3 @@ jobs:
             --body 'This PR bumps the version to ${{ env.VERSION }}')
           echo "PR_URL=$(echo $url)" >> $GITHUB_ENV
           gh pr merge --auto --squash "$url"
-
-      # separate approval step ensures that CI checks will pass before merge
-      - name: approve pr
-        if: env.MODIFIED == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr review --approve ${{ env.PR_URL }}
