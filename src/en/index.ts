@@ -1790,6 +1790,8 @@ const en = {
   emailCopiedToClipboard: "Email copied to clipboard",
   emailRegenerated: "Email successfully regenerated",
   folder: "Folder",
+  itemHasBeenDeleted: "Item has been deleted",
+  deletedNotification: "deleted",
 };
 
 export default en as Translations;

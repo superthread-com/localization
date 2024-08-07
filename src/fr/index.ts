@@ -1859,6 +1859,8 @@ const fr: Translations = {
   emailCopiedToClipboard: "Email copié dans le presse-papiers",
   emailRegenerated: "Email régénéré avec succès",
   folder: "Dossier",
+  itemHasBeenDeleted: "L'élément a été supprimé",
+  deletedNotification: "Supprimé",
 };
 
 export default fr as Translations;
