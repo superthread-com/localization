@@ -1858,6 +1858,7 @@ const fr: Translations = {
   regenerate: "Régénérer",
   emailCopiedToClipboard: "Email copié dans le presse-papiers",
   emailRegenerated: "Email régénéré avec succès",
+  folder: "Dossier",
 };
 
 export default fr as Translations;

@@ -1626,6 +1626,7 @@ export enum TranslationKeys {
   Regenerate = "regenerate",
   EmailCopiedToClipboard = "emailCopiedToClipboard",
   EmailRegenerated = "emailRegenerated",
+  Folder = "folder",
 }
 
 export type Translations = Record<TranslationKeys, string>;
