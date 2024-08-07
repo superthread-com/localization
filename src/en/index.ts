@@ -1779,6 +1779,16 @@ const en = {
   timeUpdatedSort: "Time updated",
   dueDateSort: "Due date",
   noSprintsLabel: "No sprints",
+  createdCardViaEmail: "created card via email",
+  cardCreatedViaEmail: "card created via email",
+  couldNotBeVerified: "Could not be verified",
+  createCardsViaEmailTitle: "Create cards in this board via email",
+  createCardsViaEmailDescription:
+    "Create a card in this board if anyone sends a message to an email address.",
+  onlyCurrentAddressWillWork: "Only the address currently shown will work.",
+  regenerate: "Regenerate",
+  emailCopiedToClipboard: "Email copied to clipboard",
+  emailRegenerated: "Email successfully regenerated",
 };
 
 export default en as Translations;

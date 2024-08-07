@@ -1802,6 +1802,16 @@ const bs: Translations = {
   timeCreatedSort: "Vremenu kreiranja",
   timeUpdatedSort: "Vremenu ažuriranja",
   dueDateSort: "Najranijem roku",
+  createdCardViaEmail: "kartica kreirana putem e-maila",
+  cardCreatedViaEmail: "kartica kreirana putem e-maila",
+  couldNotBeVerified: "Nije moguće provjeriti",
+  createCardsViaEmailTitle: "Kreiraj kartice u ovoj ploči putem e-maila",
+  createCardsViaEmailDescription:
+    "Kreiraj karticu u ovoj ploči ako neko pošalje poruku na e-mail adresu.",
+  onlyCurrentAddressWillWork: "Samo trenutna adresa će raditi.",
+  regenerate: "Regeneriraj",
+  emailCopiedToClipboard: "E-mail kopiran u međuspremnik",
+  emailRegenerated: "E-mail uspješno regeneriran",
 };
 
 export default bs;
