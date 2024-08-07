@@ -1789,6 +1789,7 @@ const en = {
   regenerate: "Regenerate",
   emailCopiedToClipboard: "Email copied to clipboard",
   emailRegenerated: "Email successfully regenerated",
+  folder: "Folder",
 };
 
 export default en as Translations;

@@ -1812,6 +1812,7 @@ const bs: Translations = {
   regenerate: "Regeneriraj",
   emailCopiedToClipboard: "E-mail kopiran u međuspremnik",
   emailRegenerated: "E-mail uspješno regeneriran",
+  folder: "Datoteka",
 };
 
 export default bs;
