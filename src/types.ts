@@ -1617,6 +1617,15 @@ export enum TranslationKeys {
   TimeUpdatedSort = "timeUpdatedSort",
   DueDateSort = "dueDateSort",
   NoSprintsLabel = "noSprintsLabel",
+  CreatedCardViaEmail = "createdCardViaEmail",
+  CardCreatedViaEmail = "cardCreatedViaEmail",
+  CouldNotBeVerified = "couldNotBeVerified",
+  CreateCardsViaEmailTitle = "createCardsViaEmailTitle",
+  CreateCardsViaEmailDescription = "createCardsViaEmailDescription",
+  OnlyCurrentAddressWillWork = "onlyCurrentAddressWillWork",
+  Regenerate = "regenerate",
+  EmailCopiedToClipboard = "emailCopiedToClipboard",
+  EmailRegenerated = "emailRegenerated",
 }
 
 export type Translations = Record<TranslationKeys, string>;

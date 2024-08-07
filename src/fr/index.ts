@@ -1847,6 +1847,17 @@ const fr: Translations = {
   timeUpdatedSort: "Date de modification",
   dueDateSort: "Date d'échéance",
   noSprintsLabel: "Pas de sprint",
+  createdCardViaEmail: "carte créée par email",
+  cardCreatedViaEmail: "carte créée par email",
+  couldNotBeVerified: "Impossible à vérifier",
+  createCardsViaEmailTitle: "Créer des cartes dans ce tableau par email",
+  createCardsViaEmailDescription:
+    "Créer une carte dans ce tableau si quelqu'un envoie un message à une adresse email.",
+  onlyCurrentAddressWillWork:
+    "Seule l'adresse actuellement affichée fonctionnera.",
+  regenerate: "Régénérer",
+  emailCopiedToClipboard: "Email copié dans le presse-papiers",
+  emailRegenerated: "Email régénéré avec succès",
 };
 
 export default fr as Translations;
