@@ -1628,7 +1628,7 @@ export enum TranslationKeys {
   EmailRegenerated = "emailRegenerated",
   Folder = "folder",
   ItemHasBeenDeleted = "itemHasBeenDeleted",
-  DeletedNotification = "deletedNotification"
+  DeletedNotification = "deletedNotification",
 }
 
 export type Translations = Record<TranslationKeys, string>;
