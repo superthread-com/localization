@@ -1813,7 +1813,7 @@ const bs: Translations = {
   emailCopiedToClipboard: "E-mail kopiran u međuspremnik",
   emailRegenerated: "E-mail uspješno regeneriran",
   folder: "Datoteka",
-  itemHasBeenDeleted: "Stavka je izbrisana",
+  itemHasBeenDeleted: "%{resourceType} je izbrisana",
   deletedNotification: "Izbrisana",
 };
 

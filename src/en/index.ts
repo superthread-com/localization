@@ -1790,7 +1790,7 @@ const en = {
   emailCopiedToClipboard: "Email copied to clipboard",
   emailRegenerated: "Email successfully regenerated",
   folder: "Folder",
-  itemHasBeenDeleted: "Item has been deleted",
+  itemHasBeenDeleted: "%{resourceType} has been deleted",
   deletedNotification: "deleted",
 };
 
