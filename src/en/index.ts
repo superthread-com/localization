@@ -1792,6 +1792,8 @@ const en = {
   folder: "Folder",
   yourSpaces: "Your spaces",
   quoteReply: "Quote and reply",
+  itemHasBeenDeleted: "%{resourceType} has been deleted",
+  deletedNotification: "deleted",
 };
 
 export default en as Translations;

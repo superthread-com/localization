@@ -1815,6 +1815,8 @@ const bs: Translations = {
   folder: "Datoteka",
   yourSpaces: "Vaši prostori",
   quoteReply: "Citiraj i odgovori",
+  itemHasBeenDeleted: "%{resourceType} je izbrisana",
+  deletedNotification: "Izbrisana",
 };
 
 export default bs;
