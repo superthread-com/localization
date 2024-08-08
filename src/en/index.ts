@@ -1790,6 +1790,7 @@ const en = {
   emailCopiedToClipboard: "Email copied to clipboard",
   emailRegenerated: "Email successfully regenerated",
   folder: "Folder",
+  yourSpaces: "Your spaces",
 };
 
 export default en as Translations;
