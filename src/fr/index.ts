@@ -1860,6 +1860,7 @@ const fr: Translations = {
   emailRegenerated: "Email régénéré avec succès",
   folder: "Dossier",
   yourSpaces: "Vos espaces",
+  quoteReply: "Citation et réponse",
   itemHasBeenDeleted: "%{resourceType} a été supprimée",
   deletedNotification: "Supprimé",
 };

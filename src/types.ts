@@ -1628,6 +1628,7 @@ export enum TranslationKeys {
   EmailRegenerated = "emailRegenerated",
   Folder = "folder",
   YourSpaces = "yourSpaces",
+  QuoteReply = "quoteReply",
   ItemHasBeenDeleted = "itemHasBeenDeleted",
   DeletedNotification = "deletedNotification",
 }
