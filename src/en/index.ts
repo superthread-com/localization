@@ -876,6 +876,14 @@ const en = {
   pullRequestAutomation: "Pull request automation",
   prAutomationDescription:
     "With our GitHub integration, when a Card is linked to a pull request, you can automatically move the Card to the appropriate board list when the pull request changes.",
+  whenPRTargetsTheBranch: "When the pull request targets the branch",
+  addBranchSpecificAutomation: "Add branch-specific automation",
+  addBranchSpecificAutomationErrorAlreadyExists:
+    "There is already an automation for that branch name. These rules will be ignored.",
+  deleteAutomation: "Delete automation",
+  deleteThisAutomation: "Delete this automation",
+  deleteAutomationConfirmation:
+    "This set of rules will be deleted permanently and cannot be recovered.",
   whenPRChangesTo: "When PR changes to",
   moveCardToList: "Move card to list",
   doNotMove: "Do not move",
