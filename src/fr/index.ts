@@ -1859,6 +1859,7 @@ const fr: Translations = {
   emailCopiedToClipboard: "Email copié dans le presse-papiers",
   emailRegenerated: "Email régénéré avec succès",
   folder: "Dossier",
+  yourSpaces: "Vos espaces",
   itemHasBeenDeleted: "%{resourceType} a été supprimée",
   deletedNotification: "Supprimé",
 };
