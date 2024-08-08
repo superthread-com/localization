@@ -1814,6 +1814,7 @@ const bs: Translations = {
   emailRegenerated: "E-mail uspješno regeneriran",
   folder: "Datoteka",
   yourSpaces: "Vaši prostori",
+  quoteReply: "Citiraj i odgovori",
 };
 
 export default bs;

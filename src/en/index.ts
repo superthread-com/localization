@@ -1791,6 +1791,7 @@ const en = {
   emailRegenerated: "Email successfully regenerated",
   folder: "Folder",
   yourSpaces: "Your spaces",
+  quoteReply: "Quote and reply",
 };
 
 export default en as Translations;
