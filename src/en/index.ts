@@ -1791,6 +1791,8 @@ const en = {
   emailRegenerated: "Email successfully regenerated",
   folder: "Folder",
   yourSpaces: "Your spaces",
+  itemHasBeenDeleted: "%{resourceType} has been deleted",
+  deletedNotification: "deleted",
 };
 
 export default en as Translations;

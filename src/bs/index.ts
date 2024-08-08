@@ -1814,6 +1814,8 @@ const bs: Translations = {
   emailRegenerated: "E-mail uspješno regeneriran",
   folder: "Datoteka",
   yourSpaces: "Vaši prostori",
+  itemHasBeenDeleted: "%{resourceType} je izbrisana",
+  deletedNotification: "Izbrisana",
 };
 
 export default bs;
