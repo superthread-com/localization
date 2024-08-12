@@ -266,6 +266,7 @@ const bs: Translations = {
     "Samo vlasnik privatnog prostora može promijeniti ovu postavku",
   onlySpaceOwnerCanModifyMembers:
     "Samo vlasnik prostora može mijenjati članove",
+  cannotModifySpaceOwner: "Ne možete mijenjati vlasnika prostora",
   pageTitlePlaceholder: "Dodaj ime ovom dokumentu",
   markAllAsRead: "Označi sve kao pročitano",
   addTo: "Dodao te na",
@@ -554,7 +555,7 @@ const bs: Translations = {
   areYouSureYouWantToTransferOwnership:
     "Jeste li sigurni da želite prenijeti vlasništvo ovog workspace-a? Samo novi vlasnik će to moći poništiti.",
   transferOwnership: "Prenesite vlasništvo",
-  transferOwnershipConfirmed: "Vlasništvo je preneseno",
+  transferSpaceOwnershipConfirmed: "Vlasništvo je preneseno",
   transferSpaceOwnershipShort:
     "Prenesite vlasništvo ovog workspace-a na drugog člana",
   transferSpaceOwnershipDescription:

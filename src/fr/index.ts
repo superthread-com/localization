@@ -595,6 +595,8 @@ const fr: Translations = {
     "Seul le propriétaire de l'espace privé peut modifier ce paramètre",
   onlySpaceOwnerCanModifyMembers:
     "Seul le propriétaire de l'espace peut modifier les membres",
+  cannotModifySpaceOwner:
+    "Vous ne pouvez pas modifier le propriétaire de l'espace",
   member: "Membre",
   notMember: "Pas un membre",
   links: "Liens",
@@ -1018,7 +1020,8 @@ const fr: Translations = {
   areYouSureYouWantToTransferOwnership:
     "Êtes-vous sûr de vouloir transférer la propriété de cet espace de travail ? Seul le nouveau propriétaire pourra annuler cela.",
   transferOwnership: "Transférer la propriété",
-  transferOwnershipConfirmed: "Transfert de la propriété de l'espace",
+  transferSpaceOwnershipConfirmed:
+    "Transfert de la propriété de l'espace effectué",
   transferSpaceOwnershipShort:
     "Vous devez un autre propriétaire avant de pouvoir quitter l'espace.",
   transferSpaceOwnershipDescription:
