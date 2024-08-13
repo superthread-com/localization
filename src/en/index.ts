@@ -980,7 +980,7 @@ const en = {
   areYouSureYouWantToTransferOwnership:
     "Are you sure you want to transfer ownership of this workspace? Only the new owner will be able to undo this.",
   transferOwnership: "Transfer ownership",
-  transferOwnershipConfirmed: "Space ownership transferred",
+  transferSpaceOwnershipConfirmed: "Space ownership transferred",
   transferSpaceOwnershipShort:
     "You must transfer ownership before you can leave",
   transferSpaceOwnershipDescription:
@@ -1693,6 +1693,7 @@ const en = {
   onlyOwnerOfPrivateSpace:
     "Only owner of a private space can change this setting",
   onlySpaceOwnerCanModifyMembers: "Only owners can change space members",
+  cannotModifySpaceOwner: "You cannot make changes to the owner of the space",
   sprintLength: "Sprint length",
   weeks: "weeks",
   sprintStartOn: "Sprints start on",
