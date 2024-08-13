@@ -1803,7 +1803,6 @@ const en = {
   itemHasBeenDeleted: "%{resourceType} has been deleted",
   deletedNotification: "deleted",
   searchForBoard: "Search for board",
-  plannedSprintText: "Next",
   activeSprintText: "Current",
   loadMoreSprints: "Load more sprints",
 };

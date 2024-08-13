@@ -746,7 +746,6 @@ const bs: Translations = {
   moveCardIntoSprint: "Kartica je premještena u ciklus %{sprintName}",
   noSprintsLabel: "Nema ciklusa",
   searchForBoard: "Pretraži ploču",
-  plannedSprintText: "Sljedeći",
   activeSprintText: "Trenutni",
   loadMoreSprints: "Učitaj više ciklusa",
 

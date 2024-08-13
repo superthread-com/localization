@@ -1873,7 +1873,6 @@ const fr: Translations = {
   itemHasBeenDeleted: "%{resourceType} a été supprimée",
   deletedNotification: "Supprimé",
   searchForBoard: "Rechercher un tableau",
-  plannedSprintText: "Planifié",
   activeSprintText: "Actif",
   loadMoreSprints: "Charger plus de sprints",
 };
