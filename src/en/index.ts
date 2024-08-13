@@ -1805,6 +1805,17 @@ const en = {
   searchForBoard: "Search for board",
   activeSprintText: "Current",
   loadMoreSprints: "Load more sprints",
+  try: "Try",
+  ["add_workspace_logo.title"]: "Add a workspace logo",
+  ["add_workspace_logo.tooltip"]: "Upload a logo",
+  ["customise_your_profile.title"]: "Customise your profile",
+  ["customise_your_profile.tooltip"]: "Add a profile photo",
+  ["import_tasks.title"]: "Import tasks",
+  ["import_tasks.tooltip"]: "Import from Trello, Jira, or Shortcut",
+  ["view_keyboard_shortcuts.title"]: "View keyboard shortcuts",
+  ["view_keyboard_shortcuts.tooltip"]: "Open keyboard cheat sheet",
+  ["connect_slack.title"]: "Connect Slack",
+  ["connect_slack.tooltip"]: "Turn on Slack notifications",
 };
 
 export default en as Translations;
