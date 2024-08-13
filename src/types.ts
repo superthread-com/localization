@@ -1637,6 +1637,9 @@ export enum TranslationKeys {
   QuoteReply = "quoteReply",
   ItemHasBeenDeleted = "itemHasBeenDeleted",
   DeletedNotification = "deletedNotification",
+  SearchForBoard = "searchForBoard",
+  ActiveSprintText = "activeSprintText",
+  LoadMoreSprints = "loadMoreSprints",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -1872,6 +1872,9 @@ const fr: Translations = {
   quoteReply: "Citation et réponse",
   itemHasBeenDeleted: "%{resourceType} a été supprimée",
   deletedNotification: "Supprimé",
+  searchForBoard: "Rechercher un tableau",
+  activeSprintText: "Actif",
+  loadMoreSprints: "Charger plus de sprints",
 };
 
 export default fr as Translations;
