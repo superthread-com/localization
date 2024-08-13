@@ -1637,6 +1637,10 @@ export enum TranslationKeys {
   QuoteReply = "quoteReply",
   ItemHasBeenDeleted = "itemHasBeenDeleted",
   DeletedNotification = "deletedNotification",
+  SearchForBoard = "searchForBoard",
+  PlannedSprintText = "plannedSprintText",
+  ActiveSprintText = "activeSprintText",
+  LoadMoreSprints = "loadMoreSprints"
 }
 
 export type Translations = Record<TranslationKeys, string>;

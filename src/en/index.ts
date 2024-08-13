@@ -1802,6 +1802,10 @@ const en = {
   quoteReply: "Quote and reply",
   itemHasBeenDeleted: "%{resourceType} has been deleted",
   deletedNotification: "deleted",
+  searchForBoard: "Search for board",
+  plannedSprintText: "Next",
+  activeSprintText: "Current",
+  loadMoreSprints: "Load more sprints",
 };
 
 export default en as Translations;
