@@ -1828,6 +1828,18 @@ const bs: Translations = {
   quoteReply: "Citiraj i odgovori",
   itemHasBeenDeleted: "%{resourceType} je izbrisana",
   deletedNotification: "Izbrisana",
+  try: "Probajte",
+  ["add_workspace_logo.title"]: "Dodaj logo workspace-u",
+  ["add_workspace_logo.tooltip"]: "Učitaj logo",
+  ["customise_your_profile.title"]: "Prilagodi svoj profil",
+  ["customise_your_profile.tooltip"]: "Dodaj profilnu sliku",
+  ["import_tasks.title"]: "Uvezi zadatke",
+  ["import_tasks.tooltip"]: "Trello, Jira ili Shortcut uvoz",
+  ["view_keyboard_shortcuts.title"]: "Pogledaj prečice na tastaturi",
+  ["view_keyboard_shortcuts.tooltip"]:
+    "Otvorite pomoćnik za prečice na tastaturi",
+  ["connect_slack.title"]: "Poveži Slack",
+  ["connect_slack.tooltip"]: "Uključi Slack obavještenja",
 };
 
 export default bs;

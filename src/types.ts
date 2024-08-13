@@ -1640,6 +1640,17 @@ export enum TranslationKeys {
   SearchForBoard = "searchForBoard",
   ActiveSprintText = "activeSprintText",
   LoadMoreSprints = "loadMoreSprints",
+  Try = "try",
+  AddWorkspaceLogoTitle = "add_workspace_logo.title",
+  AddWorkspaceLogoTooltip = "add_workspace_logo.tooltip",
+  CustomiseYourProfileTitle = "customise_your_profile.title",
+  CustomiseYourProfileTooltip = "customise_your_profile.tooltip",
+  ImportTasksTitle = "import_tasks.title",
+  ImportTasksTooltip = "import_tasks.tooltip",
+  ViewKeyboardShortcutsTitle = "view_keyboard_shortcuts.title",
+  ViewKeyboardShortcutsTooltip = "view_keyboard_shortcuts.tooltip",
+  ConnectSlackTitle = "connect_slack.title",
+  ConnectSlackTooltip = "connect_slack.tooltip",
 }
 
 export type Translations = Record<TranslationKeys, string>;

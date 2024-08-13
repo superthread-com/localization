@@ -1875,6 +1875,18 @@ const fr: Translations = {
   searchForBoard: "Rechercher un tableau",
   activeSprintText: "Actif",
   loadMoreSprints: "Charger plus de sprints",
+  try: "Essayer",
+  ["add_workspace_logo.title"]: "Ajouter un logo à l'espace de travail",
+  ["add_workspace_logo.tooltip"]: "Télécharger un logo",
+  ["customise_your_profile.title"]: "Personnaliser votre profil",
+  ["customise_your_profile.tooltip"]: "Ajouter une photo de profil",
+  ["import_tasks.title"]: "Importer des tâches",
+  ["import_tasks.tooltip"]: "Importer depuis Trello, Jira ou Shortcut",
+  ["view_keyboard_shortcuts.title"]: "Voir les raccourcis clavier",
+  ["view_keyboard_shortcuts.tooltip"]:
+    "Ouvrir la feuille de raccourcis clavier",
+  ["connect_slack.title"]: "Connecter Slack",
+  ["connect_slack.tooltip"]: "Activer les notifications Slack",
 };
 
 export default fr as Translations;
