@@ -1841,6 +1841,9 @@ const bs: Translations = {
     "Otvorite pomoćnik za prečice na tastaturi",
   ["connect_slack.title"]: "Poveži Slack",
   ["connect_slack.tooltip"]: "Uključi Slack obavještenja",
+  seeAllWorkspaces: "Pregledaj sve radne prostore",
+  workspaceSettings: "Postavke radnog prostora",
+  switchToRecentWorkspace: "Prebacite se na nedavni radni prostor",
 };
 
 export default bs;

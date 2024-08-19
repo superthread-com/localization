@@ -1652,6 +1652,9 @@ export enum TranslationKeys {
   ViewKeyboardShortcutsTooltip = "view_keyboard_shortcuts.tooltip",
   ConnectSlackTitle = "connect_slack.title",
   ConnectSlackTooltip = "connect_slack.tooltip",
+  SeeAllWorkspaces = "seeAllWorkspaces",
+  WorkspaceSettings = "workspaceSettings",
+  SwitchToRecentWorkspace = "switchToRecentWorkspace",
 }
 
 export type Translations = Record<TranslationKeys, string>;

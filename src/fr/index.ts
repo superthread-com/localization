@@ -1890,6 +1890,9 @@ const fr: Translations = {
     "Ouvrir la feuille de raccourcis clavier",
   ["connect_slack.title"]: "Connecter Slack",
   ["connect_slack.tooltip"]: "Activer les notifications Slack",
+  seeAllWorkspaces: "Voir tous les espaces de travail",
+  workspaceSettings: "Paramètres de l'espace de travail",
+  switchToRecentWorkspace: "Passer à l'espace de travail récent",
 };
 
 export default fr as Translations;
