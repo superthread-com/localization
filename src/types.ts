@@ -1655,6 +1655,7 @@ export enum TranslationKeys {
   SeeAllWorkspaces = "seeAllWorkspaces",
   WorkspaceSettings = "workspaceSettings",
   SwitchToRecentWorkspace = "switchToRecentWorkspace",
+  Icon = "icon"
 }
 
 export type Translations = Record<TranslationKeys, string>;

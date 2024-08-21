@@ -1844,6 +1844,7 @@ const bs: Translations = {
   seeAllWorkspaces: "Pregledaj sve radne prostore",
   workspaceSettings: "Postavke radnog prostora",
   switchToRecentWorkspace: "Prebacite se na nedavni radni prostor",
+  icon: "Ikona",
 };
 
 export default bs;

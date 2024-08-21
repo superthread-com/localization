@@ -1820,6 +1820,7 @@ const en = {
   seeAllWorkspaces: "See all workspaces",
   workspaceSettings: "Workspace settings",
   switchToRecentWorkspace: "Switch to recent workspace",
+  icon: "Icon",
 };
 
 export default en as Translations;
