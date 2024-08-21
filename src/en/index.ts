@@ -1820,6 +1820,11 @@ const en = {
   seeAllWorkspaces: "See all workspaces",
   workspaceSettings: "Workspace settings",
   switchToRecentWorkspace: "Switch to recent workspace",
+  icon: "Icon",
+  addToSprint: "Add to sprint",
+  addToProject: "Add to project",
+  goToProject: "Go to project",
+  addTags: "Add tags",
 };
 
 export default en as Translations;

@@ -1893,6 +1893,11 @@ const fr: Translations = {
   seeAllWorkspaces: "Voir tous les espaces de travail",
   workspaceSettings: "Paramètres de l'espace de travail",
   switchToRecentWorkspace: "Passer à l'espace de travail récent",
+  icon: "Icône",
+  addToSprint: "Ajouter au sprint",
+  addToProject: "Ajouter au projet",
+  goToProject: "Aller au projet",
+  addTags: "Ajouter des étiquettes",
 };
 
 export default fr as Translations;
