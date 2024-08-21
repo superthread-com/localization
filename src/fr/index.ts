@@ -1894,6 +1894,10 @@ const fr: Translations = {
   workspaceSettings: "Paramètres de l'espace de travail",
   switchToRecentWorkspace: "Passer à l'espace de travail récent",
   icon: "Icône",
+  addToSprint: "Ajouter au sprint",
+  addToProject: "Ajouter au projet",
+  goToProject: "Aller au projet",
+  addTags: "Ajouter des étiquettes",
 };
 
 export default fr as Translations;

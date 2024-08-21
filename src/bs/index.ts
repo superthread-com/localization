@@ -1845,6 +1845,10 @@ const bs: Translations = {
   workspaceSettings: "Postavke radnog prostora",
   switchToRecentWorkspace: "Prebacite se na nedavni radni prostor",
   icon: "Ikona",
+  addToSprint: "Dodaj u ciklus",
+  addToProject: "Dodaj u projekt",
+  goToProject: "Idi na projekt",
+  addTags: "Dodaj oznake",
 };
 
 export default bs;
