@@ -1898,6 +1898,10 @@ const fr: Translations = {
   addToProject: "Ajouter au projet",
   goToProject: "Aller au projet",
   addTags: "Ajouter des étiquettes",
+  cancelled: "Annulé",
+  sprintBoards: "Tableaux de sprint",
+  sprintSettingsBoardsDescription:
+    "Les paramètres ici s'appliquent à tous les tableaux de sprint de cet espace",
 };
 
 export default fr as Translations;

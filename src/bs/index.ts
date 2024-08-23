@@ -1849,6 +1849,10 @@ const bs: Translations = {
   addToProject: "Dodaj u projekt",
   goToProject: "Idi na projekt",
   addTags: "Dodaj oznake",
+  cancelled: "Otkazano",
+  sprintBoards: "Ciklus ploče",
+  sprintSettingsBoardsDescription:
+    "Postavke ovdje se primjenjuju na sve ciklus ploče u ovom prostoru",
 };
 
 export default bs;

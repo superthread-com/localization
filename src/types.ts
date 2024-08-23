@@ -1660,6 +1660,9 @@ export enum TranslationKeys {
   AddToProject = "addToProject",
   GoToProject = "goToProject",
   AddTags = "addTags",
+  Cancelled = "cancelled",
+  SprintBoards = "sprintBoards",
+  SprintSettingsBoardsDescription = "sprintSettingsBoardsDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;
