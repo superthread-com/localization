@@ -1825,6 +1825,10 @@ const en = {
   addToProject: "Add to project",
   goToProject: "Go to project",
   addTags: "Add tags",
+  cancelled: "Cancelled",
+  sprintBoards: "Sprint boards",
+  sprintSettingsBoardsDescription:
+    "The settings here apply to all sprint boards in this space",
 };
 
 export default en as Translations;
