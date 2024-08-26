@@ -1617,7 +1617,6 @@ export enum TranslationKeys {
   ListNameLabel = "listNameLabel",
   DeleteList = "deleteList",
   ItemName = "itemName",
-  NotInASprint = "notInASprint",
   MoveCardIntoSprint = "moveCardIntoSprint",
   AddView = "addView",
   TimeCreatedSort = "timeCreatedSort",

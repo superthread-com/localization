@@ -1781,7 +1781,6 @@ const en = {
   listNameLabel: "List name",
   deleteList: "Delete list",
   itemName: "Item name",
-  notInASprint: "Not in a sprint",
   moveCardIntoSprint: "Card moved to sprint %{sprintName}",
   addView: "Add view",
   timeCreatedSort: "Time created",

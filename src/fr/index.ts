@@ -1852,7 +1852,6 @@ const fr: Translations = {
   listNameLabel: "Nom de la liste",
   deleteList: "Supprimer la liste",
   itemName: "Nom de l'élément",
-  notInASprint: "Pas dans un sprint",
   moveCardIntoSprint: "Déplacer la carte dans le sprint %{sprintName}",
   addView: "Créer une vue",
   timeCreatedSort: "Date de création",
