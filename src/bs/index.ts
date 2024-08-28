@@ -1852,6 +1852,10 @@ const bs: Translations = {
   sprintBoards: "Ciklus ploče",
   sprintSettingsBoardsDescription:
     "Postavke ovdje se primjenjuju na sve ciklus ploče u ovom prostoru",
+  cardIsParent: "Kartica je roditelj",
+  cardIsChild: "Kartica je dijete",
+  cardIsRelated: "Kartica je povezana",
+  parentCard: "Roditeljska kartica",
 };
 
 export default bs;

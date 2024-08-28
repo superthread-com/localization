@@ -1901,6 +1901,10 @@ const fr: Translations = {
   sprintBoards: "Tableaux de sprint",
   sprintSettingsBoardsDescription:
     "Les paramètres ici s'appliquent à tous les tableaux de sprint de cet espace",
+  cardIsParent: "La carte est parent",
+  cardIsChild: "La carte est enfant",
+  cardIsRelated: "La carte est liée",
+  parentCard: "Carte parente",
 };
 
 export default fr as Translations;

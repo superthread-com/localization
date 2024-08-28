@@ -1662,6 +1662,10 @@ export enum TranslationKeys {
   Cancelled = "cancelled",
   SprintBoards = "sprintBoards",
   SprintSettingsBoardsDescription = "sprintSettingsBoardsDescription",
+  CardIsParent = "cardIsParent",
+  CardIsChild = "cardIsChild",
+  CardIsRelated = "cardIsRelated",
+  ParentCard = "parentCard",
 }
 
 export type Translations = Record<TranslationKeys, string>;

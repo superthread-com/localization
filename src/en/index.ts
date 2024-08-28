@@ -1828,6 +1828,10 @@ const en = {
   sprintBoards: "Sprint boards",
   sprintSettingsBoardsDescription:
     "The settings here apply to all sprint boards in this space",
+  cardIsParent: "Card is parent",
+  cardIsChild: "Card is child",
+  cardIsRelated: "Card is related",
+  parentCard: "Parent card",
 };
 
 export default en as Translations;
