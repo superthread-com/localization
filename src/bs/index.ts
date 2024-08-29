@@ -496,8 +496,11 @@ const bs: Translations = {
   pullRequestAutomation: "Pull request automatizacija",
   prAutomationDescription:
     "Sa našom GitHub integracijom, kada je kartica povezana sa pull requestom, možete automatski pomjeriti karticu u odgovarajuću listu ploče kada se promijeni pull request.",
+  whenACardIsLinkedToPR: "Kada je kartica povezana sa zahtjevom za povlačenje",
   whenPRTargetsTheBranch: "Kada pull request cilja granu",
   addBranchSpecificAutomation: "Dodaj automatizaciju specifičnu za granu",
+  automationMustHaveBranchName:
+    "Automatizacija mora imati ime grane. Ova pravila će biti ignorisana.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "Već postoji automatizacija za to ime grane. Ova pravila će biti ignorisana.",
   deleteAutomation: "Izbrišite automatizaciju",
