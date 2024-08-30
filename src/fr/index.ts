@@ -910,10 +910,13 @@ const fr: Translations = {
   unsubscribe: "Se désabonner",
   pullRequestAutomation: "Automatisation des pull requests",
   prAutomationDescription:
-    "Avec notre intégration GitHub, lorsque qu'une carte est liée à une pull request, vous pouvez automatiquement déplacer la carte vers la liste appropriée du tableau lorsque le statut de la pull request change.",
+    "Déplacez les cartes dans Superthread lorsque les pull requests sont mises à jour sur GitHub.",
+  whenACardIsLinkedToPR: "Lorsqu'une carte est liée à une demande de tirage",
   whenPRTargetsTheBranch: "Lorsque la pull request cible la branche",
   addBranchSpecificAutomation:
     "Ajouter une automatisation spécifique à la branche",
+  automationMustHaveBranchName:
+    "Une automatisation doit avoir un nom de branche. Ces règles seront ignorées.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "Il y a déjà une automatisation pour ce nom de branche. Ces règles seront ignorées.",
   deleteAutomation: "Supprimer l'automatisation",
