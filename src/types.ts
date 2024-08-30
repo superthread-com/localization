@@ -1662,6 +1662,21 @@ export enum TranslationKeys {
   Cancelled = "cancelled",
   SprintBoards = "sprintBoards",
   SprintSettingsBoardsDescription = "sprintSettingsBoardsDescription",
+  AddedCard = "addedCard",
+  RemovedCard = "removedCard",
+  AddNewCard = "addNewCard",
+  AddExistingCard = "addExistingCard",
+  ChangeProjectOrParent = "changeProjectOrParent",
+  CardAlreadyHasProjectOrParent = "cardAlreadyHasProjectOrParent",
+  ChangeProject = "changeProject",
+  ChildCardIsPartOfProject = "childCardIsPartOfProject",
+  ParentCardHasNoProject = "parentCardHasNoProject",
+  ParentCardIsPartOfProject = "parentCardIsPartOfProject",
+  ChildCardsProjectWillBeRemoved = "childCardsProjectWillBeRemoved",
+  ChildCardsProjectWillChangeToParents = "childCardsProjectWillChangeToParents",
+  RemoveProject = "removeProject",
+  ProjectWillNoLongerBeAssociated = "projectWillNoLongerBeAssociated",
+  ChildCardAlreadyHasParent = "childCardAlreadyHasParent",
 }
 
 export type Translations = Record<TranslationKeys, string>;

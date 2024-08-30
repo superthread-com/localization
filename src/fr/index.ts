@@ -1901,6 +1901,28 @@ const fr: Translations = {
   sprintBoards: "Tableaux de sprint",
   sprintSettingsBoardsDescription:
     "Les paramètres ici s'appliquent à tous les tableaux de sprint de cet espace",
+  addedCard: "Carte ajoutée",
+  removedCard: "Carte supprimée",
+  addNewCard: "Ajouter une nouvelle carte",
+  addExistingCard: "Ajouter une carte existante",
+  changeProjectOrParent: "Changer de projet ou de parent",
+  cardAlreadyHasProjectOrParent:
+    "La carte choisie a déjà un projet ou une carte parente. Ils seront changés si vous l'ajoutez à ce projet.",
+  changeProject: "Changer de projet",
+  childCardIsPartOfProject:
+    "La carte enfant fait partie du projet %{projectName}.",
+  parentCardHasNoProject: "La carte parente n'a pas de projet.",
+  parentCardIsPartOfProject:
+    "La carte parente fait partie du projet %{projectName}.",
+  childCardsProjectWillBeRemoved:
+    "Le projet de la carte enfant sera supprimé si vous continuez.",
+  childCardsProjectWillChangeToParents:
+    "Le projet de la carte enfant changera pour celui de la carte parente si vous continuez.",
+  removeProject: "Supprimer le projet",
+  projectWillNoLongerBeAssociated:
+    "La carte enfant ne sera plus associée au projet %{projectName} si vous la retirez de sa carte parente.",
+  childCardAlreadyHasParent:
+    "La carte enfant a déjà un parent. Le parent sera changé pour cette carte si vous continuez.",
 };
 
 export default fr as Translations;
