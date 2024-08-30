@@ -496,7 +496,7 @@ const bs: Translations = {
   pullRequestAutomation: "Pull request automatizacija",
   prAutomationDescription:
     "Premjestite kartice u Superthreadu kada se pull requestovi ažuriraju na GitHubu.",
-  whenACardIsLinkedToPR: "Kada je kartica povezana sa zahtjevom za povlačenje",
+  whenACardIsLinkedToPR: "Kada je kartica povezana sa pull requestom",
   whenPRTargetsTheBranch: "Kada pull request cilja granu",
   addBranchSpecificAutomation: "Dodaj automatizaciju specifičnu za granu",
   automationMustHaveBranchName:
