@@ -875,7 +875,7 @@ const en = {
   unsubscribe: "Unsubscribe",
   pullRequestAutomation: "Pull request automation",
   prAutomationDescription:
-    "With our GitHub integration, when a Card is linked to a pull request, you can automatically move the Card to the appropriate board list when the pull request changes.",
+    "Move cards in Superthread when pull requests are updated in GitHub.",
   whenACardIsLinkedToPR: "When a card is linked to a pull request",
   whenPRTargetsTheBranch: "When the pull request targets the branch",
   addBranchSpecificAutomation: "Add branch-specific automation",
