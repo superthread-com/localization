@@ -1840,22 +1840,21 @@ const en = {
   removedCard: "Removed card",
   addNewCard: "Add new card",
   addExistingCard: "Add existing card",
-  changeProjectOrParent: "Change project or parent",
-  cardAlreadyHasProjectOrParent:
+  changeEpicOrParent: "Change project or parent",
+  cardAlreadyHasEpicOrParent:
     "The chosen card already has a project or parent card. They will be changed if you add it to this project.",
-  changeProject: "Change project",
-  childCardIsPartOfProject:
-    "The child card is part of the project %{projectName}.",
-  parentCardHasNoProject: "The parent card has no project.",
-  parentCardIsPartOfProject:
-    "The parent card is part of the project %{projectName}.",
-  childCardsProjectWillBeRemoved:
+  changeEpic: "Change project",
+  childCardIsPartOfEpic: 'The child card is part of the project "%{epicName}".',
+  parentCardHasNoEpic: "The parent card has no project.",
+  parentCardIsPartOfEpic:
+    'The parent card is part of the project "%{epicName}".',
+  childCardsEpicWillBeRemoved:
     "The child card's project will be removed if you continue.",
-  childCardsProjectWillChangeToParents:
+  childCardsEpicWillChangeToParents:
     "The child card's project will change to the parent card's project if you continue.",
-  removeProject: "Remove project",
-  projectWillNoLongerBeAssociated:
-    "The child card will no longer be associated with the project %{projectName} if you remove it from its parent card.",
+  removeEpic: "Remove project",
+  epicWillNoLongerBeAssociated:
+    'The child card will no longer be associated with the project "%{epicName}" if you remove it from its parent card.',
   childCardAlreadyHasParent:
     "The child card already has a parent. The parent will be changed to this card if you continue.",
 };
