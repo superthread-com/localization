@@ -919,6 +919,14 @@ const fr: Translations = {
     "Une automatisation doit avoir un nom de branche. Ces règles seront ignorées.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "Il y a déjà une automatisation pour ce nom de branche. Ces règles seront ignorées.",
+  invalidGitBranchName:
+    "Ce n'est pas un nom de branche valide. Ces règles seront ignorées.",
+  branchSpecificAutomationAdded:
+    "Automatisation spécifique à la branche ajoutée.",
+  branchSpecificAutomationUpdated:
+    "Automatisation spécifique à la branche mise à jour.",
+  branchSpecificAutomationRemoved:
+    "Automatisation spécifique à la branche supprimée.",
   deleteAutomation: "Supprimer l'automatisation",
   deleteThisAutomation: "Supprimer cette automatisation",
   deleteAutomationConfirmation:

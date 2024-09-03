@@ -883,6 +883,11 @@ const en = {
     "An automation must have a branch name. These rules will be ignored.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "There is already an automation for that branch name. These rules will be ignored.",
+  invalidGitBranchName:
+    "That is not a valid branch name. These rules will be ignored.",
+  branchSpecificAutomationAdded: "Branch-specific automation added.",
+  branchSpecificAutomationUpdated: "Branch-specific automation updated.",
+  branchSpecificAutomationRemoved: "Branch-specific automation removed.",
   deleteAutomation: "Delete automation",
   deleteThisAutomation: "Delete this automation",
   deleteAutomationConfirmation:
