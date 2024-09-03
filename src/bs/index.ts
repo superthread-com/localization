@@ -503,6 +503,14 @@ const bs: Translations = {
     "Automatizacija mora imati ime grane. Ova pravila će biti ignorisana.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "Već postoji automatizacija za to ime grane. Ova pravila će biti ignorisana.",
+  invalidGitBranchName:
+    "To nije važeće ime grane. Ova pravila će biti ignorisana.",
+  branchSpecificAutomationAdded:
+    "Dodana je automatizacija specifična za granu.",
+  branchSpecificAutomationUpdated:
+    "Ažurirana je automatizacija specifična za granu.",
+  branchSpecificAutomationRemoved:
+    "Uklonjena je automatizacija specifična za granu.",
   deleteAutomation: "Izbrišite automatizaciju",
   deleteThisAutomation: "Izbrišite ovu automatizaciju",
   deleteAutomationConfirmation:
