@@ -1867,21 +1867,20 @@ const bs: Translations = {
   removedCard: "Uklonjena kartica",
   addNewCard: "Dodaj novu karticu",
   addExistingCard: "Dodaj postojeću karticu",
-  changeProjectOrParent: "Promijeni projekt ili roditelja",
-  cardAlreadyHasProjectOrParent:
+  changeEpicOrParent: "Promijeni projekt ili roditelja",
+  cardAlreadyHasEpicOrParent:
     "Odabrana kartica već ima projekt ili roditeljsku karticu. Oni će biti promijenjeni ako je dodate ovom projektu.",
-  changeProject: "Promijeni projekt",
-  childCardIsPartOfProject: "Dječija kartica je dio projekta %{projectName}.",
-  parentCardHasNoProject: "Roditeljska kartica nema projekt.",
-  parentCardIsPartOfProject:
-    "Roditeljska kartica je dio projekta %{projectName}.",
-  childCardsProjectWillBeRemoved:
+  changeEpic: "Promijeni projekt",
+  childCardIsPartOfEpic: 'Dječija kartica je dio projekta "%{epicName}".',
+  parentCardHasNoEpic: "Roditeljska kartica nema projekt.",
+  parentCardIsPartOfEpic: 'Roditeljska kartica je dio projekta "%{epicName}".',
+  childCardsEpicWillBeRemoved:
     "Projekt dječije kartice će biti uklonjen ako nastavite.",
-  childCardsProjectWillChangeToParents:
+  childCardsEpicWillChangeToParents:
     "Projekt dječije kartice će se promijeniti u projekt roditeljske kartice ako nastavite.",
-  removeProject: "Ukloni projekt",
-  projectWillNoLongerBeAssociated:
-    "Dječija kartica više neće biti povezana s projektom %{projectName} ako je uklonite iz roditeljske kartice.",
+  removeEpic: "Ukloni projekt",
+  epicWillNoLongerBeAssociated:
+    'Dječija kartica više neće biti povezana s projektom "%{epicName}" ako je uklonite iz roditeljske kartice.',
   childCardAlreadyHasParent:
     "Dječija kartica već ima roditelja. Roditelj će biti promijenjen u ovu karticu ako nastavite.",
 };
