@@ -1937,6 +1937,9 @@ const fr: Translations = {
     "Impossible de changer le statut des cartes dans un sprint terminé.",
   cannotChangeStatusForArchivedCards:
     "Impossible de changer le statut des cartes archivées.",
+  cantMoveArchivedCardToSprint:
+    "Impossible de déplacer une carte archivée dans un sprint.",
+  relatedTo: "Lié à",
 };
 
 export default fr as Translations;
