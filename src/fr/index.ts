@@ -1933,6 +1933,10 @@ const fr: Translations = {
     'La carte enfant ne sera plus associée au projet "%{epicName}" si vous la retirez de sa carte parente.',
   childCardAlreadyHasParent:
     "La carte enfant a déjà un parent. Le parent sera changé pour cette carte si vous continuez.",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Impossible de changer le statut des cartes dans un sprint terminé.",
+  cannotChangeStatusForArchivedCards:
+    "Impossible de changer le statut des cartes archivées.",
 };
 
 export default fr as Translations;
