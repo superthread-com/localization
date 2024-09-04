@@ -1883,6 +1883,10 @@ const bs: Translations = {
     'Dječija kartica više neće biti povezana s projektom "%{epicName}" ako je uklonite iz roditeljske kartice.',
   childCardAlreadyHasParent:
     "Dječija kartica već ima roditelja. Roditelj će biti promijenjen u ovu karticu ako nastavite.",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Ne možete promijeniti status kartica u završenom ciklusu.",
+  cannotChangeStatusForArchivedCards:
+    "Ne možete promijeniti status arhiviranih kartica.",
 };
 
 export default bs;
