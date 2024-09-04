@@ -1887,6 +1887,8 @@ const bs: Translations = {
     "Ne možete promijeniti status kartica u završenom ciklusu.",
   cannotChangeStatusForArchivedCards:
     "Ne možete promijeniti status arhiviranih kartica.",
+  cantMoveArchivedCardToSprint:
+    "Ne možete premjestiti arhiviranu karticu u ciklus.",
 };
 
 export default bs;

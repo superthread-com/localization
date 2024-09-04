@@ -1860,6 +1860,7 @@ const en = {
   cannotChangeStatusForCardsInFinishedSprint:
     "Cannot change status for cards in finished sprint",
   cannotChangeStatusForArchivedCards: "Cannot change status for archived cards",
+  cantMoveArchivedCardToSprint: "Can't move archived card to sprint",
 };
 
 export default en as Translations;
