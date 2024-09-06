@@ -1683,6 +1683,8 @@ export enum TranslationKeys {
   RemoveEpic = "removeEpic",
   EpicWillNoLongerBeAssociated = "epicWillNoLongerBeAssociated",
   ChildCardAlreadyHasParent = "childCardAlreadyHasParent",
+  CardsDirectlyAddedToEpicCantHaveParent = "cardsDirectlyAddedToEpicCantHaveParent",
+  EpicNoTagsFound = "epicNoTagsFound",
 }
 
 export type Translations = Record<TranslationKeys, string>;
