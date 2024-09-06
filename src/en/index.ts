@@ -1857,6 +1857,9 @@ const en = {
     'The child card will no longer be associated with the project "%{epicName}" if you remove it from its parent card.',
   childCardAlreadyHasParent:
     "The child card already has a parent. The parent will be changed to this card if you continue.",
+  cardsDirectlyAddedToEpicCantHaveParent:
+    "Cards added directly to projects can’t have parent cards",
+  epicNoTagsFound: "No tags found. Projects can only use workspace tags",
   cannotChangeStatusForCardsInFinishedSprint:
     "Cannot change status for cards in finished sprint",
   cannotChangeStatusForArchivedCards: "Cannot change status for archived cards",

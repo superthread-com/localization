@@ -1683,6 +1683,8 @@ export enum TranslationKeys {
   RemoveEpic = "removeEpic",
   EpicWillNoLongerBeAssociated = "epicWillNoLongerBeAssociated",
   ChildCardAlreadyHasParent = "childCardAlreadyHasParent",
+  CardsDirectlyAddedToEpicCantHaveParent = "cardsDirectlyAddedToEpicCantHaveParent",
+  EpicNoTagsFound = "epicNoTagsFound",
   CannotChangeStatusForCardsInFinishedSprint = "cannotChangeStatusForCardsInFinishedSprint",
   CannotChangeStatusForArchivedCards = "cannotChangeStatusForArchivedCards",
   CantMoveArchivedCardToSprint = "cantMoveArchivedCardToSprint",
