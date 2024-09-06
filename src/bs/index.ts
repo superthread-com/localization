@@ -1887,6 +1887,13 @@ const bs: Translations = {
     "Kartice dodane direktno u projekte ne mogu imati roditeljske kartice",
   epicNoTagsFound:
     "Nema pronađenih oznaka. Projekti mogu koristiti samo oznake radnog prostora.",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Ne možete promijeniti status kartica u završenom ciklusu.",
+  cannotChangeStatusForArchivedCards:
+    "Ne možete promijeniti status arhiviranih kartica.",
+  cantMoveArchivedCardToSprint:
+    "Ne možete premjestiti arhiviranu karticu u ciklus.",
+  relatedTo: "Povezano sa",
 };
 
 export default bs;

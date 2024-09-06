@@ -1860,6 +1860,11 @@ const en = {
   cardsDirectlyAddedToEpicCantHaveParent:
     "Cards added directly to projects can’t have parent cards",
   epicNoTagsFound: "No tags found. Projects can only use workspace tags",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Cannot change status for cards in finished sprint",
+  cannotChangeStatusForArchivedCards: "Cannot change status for archived cards",
+  cantMoveArchivedCardToSprint: "Can't move archived card to sprint",
+  relatedTo: "Related to",
 };
 
 export default en as Translations;

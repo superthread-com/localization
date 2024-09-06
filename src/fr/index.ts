@@ -1937,6 +1937,13 @@ const fr: Translations = {
     "Les cartes ajoutées directement aux projets ne peuvent pas avoir de cartes parentes",
   epicNoTagsFound:
     "Aucune étiquette trouvée. Les projets ne peuvent utiliser que les étiquettes de l'espace de travail.",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Impossible de changer le statut des cartes dans un sprint terminé.",
+  cannotChangeStatusForArchivedCards:
+    "Impossible de changer le statut des cartes archivées.",
+  cantMoveArchivedCardToSprint:
+    "Impossible de déplacer une carte archivée dans un sprint.",
+  relatedTo: "Lié à",
 };
 
 export default fr as Translations;

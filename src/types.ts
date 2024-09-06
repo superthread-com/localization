@@ -1685,6 +1685,10 @@ export enum TranslationKeys {
   ChildCardAlreadyHasParent = "childCardAlreadyHasParent",
   CardsDirectlyAddedToEpicCantHaveParent = "cardsDirectlyAddedToEpicCantHaveParent",
   EpicNoTagsFound = "epicNoTagsFound",
+  CannotChangeStatusForCardsInFinishedSprint = "cannotChangeStatusForCardsInFinishedSprint",
+  CannotChangeStatusForArchivedCards = "cannotChangeStatusForArchivedCards",
+  CantMoveArchivedCardToSprint = "cantMoveArchivedCardToSprint",
+  RelatedTo = "relatedTo",
 }
 
 export type Translations = Record<TranslationKeys, string>;
