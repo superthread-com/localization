@@ -1859,8 +1859,7 @@ const en = {
     "The child card already has a parent. The parent will be changed to this card if you continue.",
   cardsDirectlyAddedToEpicCantHaveParent:
     "Cards added directly to projects can’t have parent cards",
-  epicNoTagsFound:
-    "Nema pronađenih oznaka. Projekti mogu koristiti samo oznake radnog prostora.",
+  epicNoTagsFound: "No tags found. Projects can only use workspace tags",
 };
 
 export default en as Translations;
