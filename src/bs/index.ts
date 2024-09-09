@@ -1894,6 +1894,10 @@ const bs: Translations = {
   cantMoveArchivedCardToSprint:
     "Ne možete premjestiti arhiviranu karticu u ciklus.",
   relatedTo: "Povezano sa",
+  changePriority: "Promijeni prioritet",
+  changeEstimate: "Promijeni procjenu",
+  changeTags: "Promijeni oznake",
+  changeSprint: "Promijeni ciklus",
 };
 
 export default bs;

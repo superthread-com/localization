@@ -1865,6 +1865,10 @@ const en = {
   cannotChangeStatusForArchivedCards: "Cannot change status for archived cards",
   cantMoveArchivedCardToSprint: "Can't move archived card to sprint",
   relatedTo: "Related to",
+  changePriority: "Change priority",
+  changeEstimate: "Change estimate",
+  changeTags: "Change tags",
+  changeSprint: "Change sprint",
 };
 
 export default en as Translations;
