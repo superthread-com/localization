@@ -1693,6 +1693,7 @@ export enum TranslationKeys {
   ChangeEstimate = "changeEstimate",
   ChangeTags = "changeTags",
   ChangeSprint = "changeSprint",
+  GoToSprint = "goToSprint",
 }
 
 export type Translations = Record<TranslationKeys, string>;

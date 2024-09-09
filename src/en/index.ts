@@ -1869,6 +1869,7 @@ const en = {
   changeEstimate: "Change estimate",
   changeTags: "Change tags",
   changeSprint: "Change sprint",
+  goToSprint: "Go to sprint",
 };
 
 export default en as Translations;

@@ -1948,6 +1948,7 @@ const fr: Translations = {
   changeEstimate: "Changer l'estimation",
   changeTags: "Changer les étiquettes",
   changeSprint: "Changer de sprint",
+  goToSprint: "Aller au sprint",
 };
 
 export default fr as Translations;

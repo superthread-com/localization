@@ -1898,6 +1898,7 @@ const bs: Translations = {
   changeEstimate: "Promijeni procjenu",
   changeTags: "Promijeni oznake",
   changeSprint: "Promijeni ciklus",
+  goToSprint: "Idi na ciklus",
 };
 
 export default bs;
