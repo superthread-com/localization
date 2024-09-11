@@ -1946,6 +1946,11 @@ const fr: Translations = {
   cantMoveArchivedCardToSprint:
     "Impossible de déplacer une carte archivée dans un sprint.",
   relatedTo: "Lié à",
+  changePriority: "Changer la priorité",
+  changeEstimate: "Changer l'estimation",
+  changeTags: "Changer les étiquettes",
+  changeSprint: "Changer de sprint",
+  goToSprint: "Aller au sprint",
 };
 
 export default fr as Translations;

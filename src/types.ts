@@ -1689,6 +1689,11 @@ export enum TranslationKeys {
   CannotChangeStatusForArchivedCards = "cannotChangeStatusForArchivedCards",
   CantMoveArchivedCardToSprint = "cantMoveArchivedCardToSprint",
   RelatedTo = "relatedTo",
+  ChangePriority = "changePriority",
+  ChangeEstimate = "changeEstimate",
+  ChangeTags = "changeTags",
+  ChangeSprint = "changeSprint",
+  GoToSprint = "goToSprint",
 }
 
 export type Translations = Record<TranslationKeys, string>;
