@@ -1165,6 +1165,10 @@ const bs: Translations = {
     "Kartica je dio arhivirane liste. Premjestite je u aktivnu listu za vraćanje.",
   cardArchivedByBoard:
     "Kartica je dio arhivirane ploče. Premjestite je u aktivnu ploče za vraćanje.",
+  epicArchived: "Projekt je arhiviran.",
+  epicArchivedByEpic: "Projekt je arhiviran.",
+  epicArchivedByList:
+    "Projekt je dio arhivirane liste. Premjestite ga na aktivnu listu da biste ga vratili.",
   isArchived: "je arhivirano",
   project: "prostor",
   teamId: "ID tima",
