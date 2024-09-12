@@ -287,6 +287,10 @@ const en = {
     "Card is part of an archived list. Move to active list to restore.",
   cardArchivedByBoard:
     "Card is part of an archived board. Move to active board to restore.",
+  epicArchived: "Project is archived.",
+  epicArchivedByEpic: "Project is archived.",
+  epicArchivedByList:
+    "Project is part of an archived list. Move to active list to restore.",
   boardArchived: "Board is archived.",
   isArchived: "is archived",
   pageArchived: "Page is archived.",

@@ -292,6 +292,10 @@ const fr: Translations = {
     "La carte fait partie d'une liste archivée. Déplacer vers la liste active pour la restaurer.",
   cardArchivedByBoard:
     "La carte fait partie d'un tableau archivé. Déplacez-vous vers le tableau actif pour le restaurer.",
+  epicArchived: "Le projet est archivé.",
+  epicArchivedByEpic: "Le projet est archivé.",
+  epicArchivedByList:
+    "Le projet fait partie d'une liste archivée. Déplacez-le vers une liste active pour le restaurer.",
   boardArchived: "Tableau est archivée.",
   isArchived: "est archivée",
   pageArchived: "Page is archived.",
