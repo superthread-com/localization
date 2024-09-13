@@ -1700,6 +1700,7 @@ export enum TranslationKeys {
   PastSprints = "pastSprints",
   CurrentAndPlannedSprints = "currentAndPlannedSprints",
   SeeAllSprints = "seeAllSprints",
+  CurrentAndNextSprint = "currentAndNextSprint",
 }
 
 export type Translations = Record<TranslationKeys, string>;
