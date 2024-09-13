@@ -1877,6 +1877,7 @@ const en = {
   pastSprints: "Past sprints",
   currentAndPlannedSprints: "Current and planned sprints",
   seeAllSprints: "See all sprints",
+  currentAndNextSprint: "Current and next sprint",
 };
 
 export default en as Translations;

@@ -1958,6 +1958,7 @@ const fr: Translations = {
   pastSprints: "Sprints passés",
   currentAndPlannedSprints: "Sprints actuels et planifiés",
   seeAllSprints: "Voir tous les sprints",
+  currentAndNextSprint: "Sprint actuels et suivants",
 };
 
 export default fr as Translations;

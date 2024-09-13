@@ -1906,6 +1906,7 @@ const bs: Translations = {
   pastSprints: "Prošli ciklusi",
   currentAndPlannedSprints: "Trenutni i planirani ciklusi",
   seeAllSprints: "Pogledaj sve cikluse",
+  currentAndNextSprint: "Trenutni i sljedeći ciklus",
 };
 
 export default bs;
