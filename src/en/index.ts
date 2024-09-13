@@ -1874,6 +1874,9 @@ const en = {
   changeTags: "Change tags",
   changeSprint: "Change sprint",
   goToSprint: "Go to sprint",
+  pastSprints: "Past sprints",
+  currentAndPlannedSprints: "Current and planned sprints",
+  seeAllSprints: "See all sprints",
 };
 
 export default en as Translations;

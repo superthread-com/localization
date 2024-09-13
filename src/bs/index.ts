@@ -1903,6 +1903,9 @@ const bs: Translations = {
   changeTags: "Promijeni oznake",
   changeSprint: "Promijeni ciklus",
   goToSprint: "Idi na ciklus",
+  pastSprints: "Prošli ciklusi",
+  currentAndPlannedSprints: "Trenutni i planirani ciklusi",
+  seeAllSprints: "Pogledaj sve cikluse",
 };
 
 export default bs;

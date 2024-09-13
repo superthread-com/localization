@@ -1955,6 +1955,9 @@ const fr: Translations = {
   changeTags: "Changer les étiquettes",
   changeSprint: "Changer de sprint",
   goToSprint: "Aller au sprint",
+  pastSprints: "Sprints passés",
+  currentAndPlannedSprints: "Sprints actuels et planifiés",
+  seeAllSprints: "Voir tous les sprints",
 };
 
 export default fr as Translations;

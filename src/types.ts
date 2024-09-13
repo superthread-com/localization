@@ -1697,6 +1697,9 @@ export enum TranslationKeys {
   ChangeTags = "changeTags",
   ChangeSprint = "changeSprint",
   GoToSprint = "goToSprint",
+  PastSprints = "pastSprints",
+  CurrentAndPlannedSprints = "currentAndPlannedSprints",
+  SeeAllSprints = "seeAllSprints",
 }
 
 export type Translations = Record<TranslationKeys, string>;
