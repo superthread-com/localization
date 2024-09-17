@@ -1910,6 +1910,12 @@ const bs: Translations = {
   currentAndPlannedSprints: "Trenutni i planirani ciklusi",
   seeAllSprints: "Pogledaj sve cikluse",
   currentAndNextSprint: "Trenutni i sljedeći ciklus",
+  branchSpecificAutomationAddFailed:
+    "Nije uspjelo dodavanje nove automatske radnje specifične za granu.",
+  branchSpecificAutomationUpdateFailed:
+    "Nije uspjelo ažuriranje automatske radnje specifične za granu.",
+  branchSpecificAutomationRemoveFailed:
+    "Nije uspjelo uklanjanje automatske radnje specifične za granu.",
 };
 
 export default bs;
