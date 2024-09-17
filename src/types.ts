@@ -1704,6 +1704,9 @@ export enum TranslationKeys {
   CurrentAndPlannedSprints = "currentAndPlannedSprints",
   SeeAllSprints = "seeAllSprints",
   CurrentAndNextSprint = "currentAndNextSprint",
+  BranchSpecificAutomationAddFailed = "branchSpecificAutomationAddFailed",
+  BranchSpecificAutomationUpdateFailed = "branchSpecificAutomationUpdateFailed",
+  BranchSpecificAutomationRemoveFailed = "branchSpecificAutomationRemoveFailed",
 }
 
 export type Translations = Record<TranslationKeys, string>;

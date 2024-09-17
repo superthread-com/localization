@@ -1881,6 +1881,12 @@ const en = {
   currentAndPlannedSprints: "Current and planned sprints",
   seeAllSprints: "See all sprints",
   currentAndNextSprint: "Current and next sprint",
+  branchSpecificAutomationAddFailed:
+    "Failed to add new branch-specific automation.",
+  branchSpecificAutomationUpdateFailed:
+    "Failed to update branch-specific automation.",
+  branchSpecificAutomationRemoveFailed:
+    "Failed to remove branch-specific automation.",
 };
 
 export default en as Translations;

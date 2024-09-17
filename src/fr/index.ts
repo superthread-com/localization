@@ -1962,6 +1962,12 @@ const fr: Translations = {
   currentAndPlannedSprints: "Sprints actuels et planifiés",
   seeAllSprints: "Voir tous les sprints",
   currentAndNextSprint: "Sprint actuels et suivants",
+  branchSpecificAutomationAddFailed:
+    "Échec de l'ajout d'une nouvelle automatisation spécifique à la branche.",
+  branchSpecificAutomationUpdateFailed:
+    "Échec de la mise à jour de l'automatisation spécifique à la branche.",
+  branchSpecificAutomationRemoveFailed:
+    "Échec de la suppression de l'automatisation spécifique à la branche.",
 };
 
 export default fr as Translations;
