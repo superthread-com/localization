@@ -1887,6 +1887,8 @@ const en = {
     "Failed to update branch-specific automation.",
   branchSpecificAutomationRemoveFailed:
     "Failed to remove branch-specific automation.",
+  thereAreNoCurrentOrPlannedSprints: "There are no current or planned sprints",
+  thereIsNoCurrentOrNextSprint: "There is no current or next sprint",
 };
 
 export default en as Translations;
