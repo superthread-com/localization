@@ -1968,6 +1968,9 @@ const fr: Translations = {
     "Échec de la mise à jour de l'automatisation spécifique à la branche.",
   branchSpecificAutomationRemoveFailed:
     "Échec de la suppression de l'automatisation spécifique à la branche.",
+  thereAreNoCurrentOrPlannedSprints:
+    "Il n’y a pas de sprints en cours ou prévus",
+  thereIsNoCurrentOrNextSprint: "Il n’y a pas de sprint en cours ou à venir",
 };
 
 export default fr as Translations;

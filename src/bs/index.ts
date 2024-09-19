@@ -1916,6 +1916,8 @@ const bs: Translations = {
     "Nije uspjelo ažuriranje automatske radnje specifične za granu.",
   branchSpecificAutomationRemoveFailed:
     "Nije uspjelo uklanjanje automatske radnje specifične za granu.",
+  thereAreNoCurrentOrPlannedSprints: "Nema trenutnih ili planiranih ciklusa",
+  thereIsNoCurrentOrNextSprint: "Nema trenutnog ili sljedećeg ciklusa",
 };
 
 export default bs;
