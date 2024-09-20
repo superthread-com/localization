@@ -1918,6 +1918,8 @@ const bs: Translations = {
     "Nije uspjelo uklanjanje automatske radnje specifične za granu.",
   thereAreNoCurrentOrPlannedSprints: "Nema trenutnih ili planiranih ciklusa",
   thereIsNoCurrentOrNextSprint: "Nema trenutnog ili sljedećeg ciklusa",
+  movedCardFrom: "Premještena kartica iz",
+  rolledCardFrom: "Prebačena kartica iz",
 };
 
 export default bs;
