@@ -1889,6 +1889,8 @@ const en = {
     "Failed to remove branch-specific automation.",
   thereAreNoCurrentOrPlannedSprints: "There are no current or planned sprints",
   thereIsNoCurrentOrNextSprint: "There is no current or next sprint",
+  movedCardFrom: "Moved card from",
+  rolledCardFrom: "Rolled card from",
 };
 
 export default en as Translations;
