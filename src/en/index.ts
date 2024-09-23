@@ -287,6 +287,10 @@ const en = {
     "Card is part of an archived list. Move to active list to restore.",
   cardArchivedByBoard:
     "Card is part of an archived board. Move to active board to restore.",
+  epicArchived: "Project is archived.",
+  epicArchivedByEpic: "Project is archived.",
+  epicArchivedByList:
+    "Project is part of an archived list. Move to active list to restore.",
   boardArchived: "Board is archived.",
   isArchived: "is archived",
   pageArchived: "Page is archived.",
@@ -875,11 +879,19 @@ const en = {
   unsubscribe: "Unsubscribe",
   pullRequestAutomation: "Pull request automation",
   prAutomationDescription:
-    "With our GitHub integration, when a Card is linked to a pull request, you can automatically move the Card to the appropriate board list when the pull request changes.",
+    "Move cards in Superthread when pull requests are updated in GitHub.",
+  whenACardIsLinkedToPR: "When a card is linked to a pull request",
   whenPRTargetsTheBranch: "When the pull request targets the branch",
   addBranchSpecificAutomation: "Add branch-specific automation",
+  automationMustHaveBranchName:
+    "An automation must have a branch name. These rules will be ignored.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "There is already an automation for that branch name. These rules will be ignored.",
+  invalidGitBranchName:
+    "That is not a valid branch name. These rules will be ignored.",
+  branchSpecificAutomationAdded: "Branch-specific automation added.",
+  branchSpecificAutomationUpdated: "Branch-specific automation updated.",
+  branchSpecificAutomationRemoved: "Branch-specific automation removed.",
   deleteAutomation: "Delete automation",
   deleteThisAutomation: "Delete this automation",
   deleteAutomationConfirmation:
@@ -1168,6 +1180,9 @@ const en = {
   matchSistemSettings: "Match system settings",
   darkMode: "Dark mode",
   lightMode: "Light mode",
+  darkGreyMode: "Dark grey mode",
+  darkBlueMode: "Dark blue mode",
+  lightBlueMode: "Light blue mode",
   year: "Year",
   quarter: "Quarter",
   month: "Month",
@@ -1493,12 +1508,12 @@ const en = {
   searchForSpaceOrBoard: "Search for space or board",
   starTypingToSearchFor: "Start typing to search for",
   ["my-work"]: "My work",
-  myWorkAssignedToMe: "Assigned to %{userName}",
-  myWorkCreatedByMe: "Created by %{userName}",
-  myWorkNoResultsCreatedByMe: "There are no cards created by you",
-  myWorkNoResultsAssignedToMe: "There are no cards assigned to you",
-  memberNoResultsAssignedToMe: "There are no cards assigned to %{userName}",
-  memberNoResultsCreatedByMe: "There are no cards created by %{userName}",
+  ["myWork.assigned"]: "Assigned to %{userName}",
+  ["myWork.created"]: "Created by %{userName}",
+  ["myWorkNoResults.created"]: "There are no cards created by you",
+  ["myWorkNoResults.assigned"]: "There are no cards assigned to you",
+  ["memberNoResults.assigned"]: "There are no cards assigned to %{userName}",
+  ["memberNoResults.created"]: "There are no cards created by %{userName}",
   newCard: "New card",
   addedCommentHiddenByFilter: "Added comment is hidden by filter",
   createdCardHiddenByFilter: "Created card may be hidden by filter",
@@ -1828,6 +1843,56 @@ const en = {
   sprintBoards: "Sprint boards",
   sprintSettingsBoardsDescription:
     "The settings here apply to all sprint boards in this space",
+  addedCard: "Added card",
+  removedCard: "Removed card",
+  addNewCard: "Add new card",
+  addExistingCard: "Add existing card",
+  changeEpicOrParent: "Change project or parent",
+  cardAlreadyHasEpicOrParent:
+    "The chosen card already has a project or parent card. They will be changed if you add it to this project.",
+  changeEpic: "Change project",
+  childCardIsPartOfEpic: 'The child card is part of the project "%{epicName}".',
+  parentCardHasNoEpic: "The parent card has no project.",
+  parentCardIsPartOfEpic:
+    'The parent card is part of the project "%{epicName}".',
+  childCardsEpicWillBeRemoved:
+    "The child card's project will be removed if you continue.",
+  childCardsEpicWillChangeToParents:
+    "The child card's project will change to the parent card's project if you continue.",
+  removeEpic: "Remove project",
+  epicWillNoLongerBeAssociated:
+    'The child card will no longer be associated with the project "%{epicName}" if you remove it from its parent card.',
+  childCardAlreadyHasParent:
+    "The child card already has a parent. The parent will be changed to this card if you continue.",
+  cardsDirectlyAddedToEpicCantHaveParent:
+    "Cards added directly to projects can’t have parent cards",
+  epicNoTagsFound: "No tags found. Projects can only use workspace tags",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Cannot change status for cards in finished sprint",
+  cannotChangeStatusForArchivedCards: "Cannot change status for archived cards",
+  cantMoveArchivedCardToSprint: "Can't move archived card to sprint",
+  relatedTo: "Related to",
+  changePriority: "Change priority",
+  changeEstimate: "Change estimate",
+  changeTags: "Change tags",
+  changeSprint: "Change sprint",
+  goToSprint: "Go to sprint",
+  pastSprints: "Past sprints",
+  currentAndPlannedSprints: "Current and planned sprints",
+  seeAllSprints: "See all sprints",
+  currentAndNextSprint: "Current and next sprint",
+  branchSpecificAutomationAddFailed:
+    "Failed to add new branch-specific automation.",
+  branchSpecificAutomationUpdateFailed:
+    "Failed to update branch-specific automation.",
+  branchSpecificAutomationRemoveFailed:
+    "Failed to remove branch-specific automation.",
+  thereAreNoCurrentOrPlannedSprints: "There are no current or planned sprints",
+  thereIsNoCurrentOrNextSprint: "There is no current or next sprint",
+  movedCardFrom: "Moved card from",
+  rolledCardFrom: "Rolled card from",
+  sprintMarkedAsCompleted: "Sprint marked as completed",
+  sprintMarkedAsCancelled: "Sprint marked as cancelled",
   cardIsParent: "Card is parent",
   cardIsChild: "Card is child",
   cardIsRelated: "Card is related",

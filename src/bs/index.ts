@@ -495,11 +495,22 @@ const bs: Translations = {
   unsubscribe: "Ukloni pretplatu",
   pullRequestAutomation: "Pull request automatizacija",
   prAutomationDescription:
-    "Sa našom GitHub integracijom, kada je kartica povezana sa pull requestom, možete automatski pomjeriti karticu u odgovarajuću listu ploče kada se promijeni pull request.",
+    "Premjestite kartice u Superthreadu kada se pull requestovi ažuriraju na GitHubu.",
+  whenACardIsLinkedToPR: "Kada je kartica povezana sa pull requestom",
   whenPRTargetsTheBranch: "Kada pull request cilja granu",
   addBranchSpecificAutomation: "Dodaj automatizaciju specifičnu za granu",
+  automationMustHaveBranchName:
+    "Automatizacija mora imati ime grane. Ova pravila će biti ignorisana.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "Već postoji automatizacija za to ime grane. Ova pravila će biti ignorisana.",
+  invalidGitBranchName:
+    "To nije važeće ime grane. Ova pravila će biti ignorisana.",
+  branchSpecificAutomationAdded:
+    "Dodana je automatizacija specifična za granu.",
+  branchSpecificAutomationUpdated:
+    "Ažurirana je automatizacija specifična za granu.",
+  branchSpecificAutomationRemoved:
+    "Uklonjena je automatizacija specifična za granu.",
   deleteAutomation: "Izbrišite automatizaciju",
   deleteThisAutomation: "Izbrišite ovu automatizaciju",
   deleteAutomationConfirmation:
@@ -729,6 +740,9 @@ const bs: Translations = {
   matchSistemSettings: "Podudaranje sa sistemskim postavkama",
   darkMode: "Tamni mod",
   lightMode: "Svijetli mod",
+  darkGreyMode: "Tamno sivi mod",
+  darkBlueMode: "Tamno plavi mod",
+  lightBlueMode: "Svijetlo plavi mod",
   year: "Godina",
   quarter: "Kvartal",
   month: "Mjesec",
@@ -881,8 +895,8 @@ const bs: Translations = {
   addingSomeMembersFailed: "Dodavanje nekih članova nije uspjelo",
   ["my-work"]: "Moj rad",
   newCard: "Nova kartica",
-  myWorkAssignedToMe: "Dodijeljeno %{userName}",
-  myWorkCreatedByMe: "Kreirano od %{userName}",
+  ["myWork.assigned"]: "Dodijeljeno %{userName}",
+  ["myWork.created"]: "Kreirano od %{userName}",
   upgradePlan: "Nadogradi plan",
   upgradePrivateSpaceTitle: "Nadogradi za korištenje privatnih space-ova",
   upgradePrivateSpaceDescription:
@@ -1154,6 +1168,10 @@ const bs: Translations = {
     "Kartica je dio arhivirane liste. Premjestite je u aktivnu listu za vraćanje.",
   cardArchivedByBoard:
     "Kartica je dio arhivirane ploče. Premjestite je u aktivnu ploče za vraćanje.",
+  epicArchived: "Projekt je arhiviran.",
+  epicArchivedByEpic: "Projekt je arhiviran.",
+  epicArchivedByList:
+    "Projekt je dio arhivirane liste. Premjestite ga na aktivnu listu da biste ga vratili.",
   isArchived: "je arhivirano",
   project: "prostor",
   teamId: "ID tima",
@@ -1537,10 +1555,10 @@ const bs: Translations = {
   advertising: "Oglašavanje",
   searchForSpaceOrBoard: "Pretraži prostor ili ploču",
   starTypingToSearchFor: "Počnite kucati da biste pretražili",
-  myWorkNoResultsCreatedByMe: "Nema kartica koje ste vi kreirali",
-  myWorkNoResultsAssignedToMe: "Nema kartica dodijeljenih vama",
-  memberNoResultsAssignedToMe: "Nema kartica dodijeljenih %{userName}",
-  memberNoResultsCreatedByMe: "Nema kartica koje je kreirao %{userName}",
+  ["myWorkNoResults.created"]: "Nema kartica koje ste vi kreirali",
+  ["myWorkNoResults.assigned"]: "Nema kartica dodijeljenih vama",
+  ["memberNoResults.assigned"]: "Nema kartica dodijeljenih %{userName}",
+  ["memberNoResults.created"]: "Nema kartica koje je kreirao %{userName}",
   addedCommentHiddenByFilter: "Dodani komentar je sakriven filterom",
   createdCardHiddenByFilter: "Kreirana kartica može biti sakrivena filterom",
   viewWork: "Pogledaj rad",
@@ -1852,6 +1870,58 @@ const bs: Translations = {
   sprintBoards: "Ciklus ploče",
   sprintSettingsBoardsDescription:
     "Postavke ovdje se primjenjuju na sve ciklus ploče u ovom prostoru",
+  addedCard: "Dodana kartica",
+  removedCard: "Uklonjena kartica",
+  addNewCard: "Dodaj novu karticu",
+  addExistingCard: "Dodaj postojeću karticu",
+  changeEpicOrParent: "Promijeni projekt ili roditelja",
+  cardAlreadyHasEpicOrParent:
+    "Odabrana kartica već ima projekt ili roditeljsku karticu. Oni će biti promijenjeni ako je dodate ovom projektu.",
+  changeEpic: "Promijeni projekt",
+  childCardIsPartOfEpic: 'Dječija kartica je dio projekta "%{epicName}".',
+  parentCardHasNoEpic: "Roditeljska kartica nema projekt.",
+  parentCardIsPartOfEpic: 'Roditeljska kartica je dio projekta "%{epicName}".',
+  childCardsEpicWillBeRemoved:
+    "Projekt dječije kartice će biti uklonjen ako nastavite.",
+  childCardsEpicWillChangeToParents:
+    "Projekt dječije kartice će se promijeniti u projekt roditeljske kartice ako nastavite.",
+  removeEpic: "Ukloni projekt",
+  epicWillNoLongerBeAssociated:
+    'Dječija kartica više neće biti povezana s projektom "%{epicName}" ako je uklonite iz roditeljske kartice.',
+  childCardAlreadyHasParent:
+    "Dječija kartica već ima roditelja. Roditelj će biti promijenjen u ovu karticu ako nastavite.",
+  cardsDirectlyAddedToEpicCantHaveParent:
+    "Kartice dodane direktno u projekte ne mogu imati roditeljske kartice",
+  epicNoTagsFound:
+    "Nema pronađenih oznaka. Projekti mogu koristiti samo oznake radnog prostora.",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Ne možete promijeniti status kartica u završenom ciklusu.",
+  cannotChangeStatusForArchivedCards:
+    "Ne možete promijeniti status arhiviranih kartica.",
+  cantMoveArchivedCardToSprint:
+    "Ne možete premjestiti arhiviranu karticu u ciklus.",
+  relatedTo: "Povezano sa",
+  changePriority: "Promijeni prioritet",
+  changeEstimate: "Promijeni procjenu",
+  changeTags: "Promijeni oznake",
+  changeSprint: "Promijeni ciklus",
+  goToSprint: "Idi na ciklus",
+  pastSprints: "Prošli ciklusi",
+  currentAndPlannedSprints: "Trenutni i planirani ciklusi",
+  seeAllSprints: "Pogledaj sve cikluse",
+  currentAndNextSprint: "Trenutni i sljedeći ciklus",
+  branchSpecificAutomationAddFailed:
+    "Nije uspjelo dodavanje nove automatske radnje specifične za granu.",
+  branchSpecificAutomationUpdateFailed:
+    "Nije uspjelo ažuriranje automatske radnje specifične za granu.",
+  branchSpecificAutomationRemoveFailed:
+    "Nije uspjelo uklanjanje automatske radnje specifične za granu.",
+  thereAreNoCurrentOrPlannedSprints: "Nema trenutnih ili planiranih ciklusa",
+  thereIsNoCurrentOrNextSprint: "Nema trenutnog ili sljedećeg ciklusa",
+  movedCardFrom: "Premještena kartica iz",
+  rolledCardFrom: "Prebačena kartica iz",
+  sprintMarkedAsCompleted: "Ciklus označen kao završen",
+  sprintMarkedAsCancelled: "Ciklus označen kao otkazan",
   cardIsParent: "Kartica je roditelj",
   cardIsChild: "Kartica je dijete",
   cardIsRelated: "Kartica je povezana",

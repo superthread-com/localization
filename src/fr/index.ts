@@ -292,6 +292,10 @@ const fr: Translations = {
     "La carte fait partie d'une liste archivée. Déplacer vers la liste active pour la restaurer.",
   cardArchivedByBoard:
     "La carte fait partie d'un tableau archivé. Déplacez-vous vers le tableau actif pour le restaurer.",
+  epicArchived: "Le projet est archivé.",
+  epicArchivedByEpic: "Le projet est archivé.",
+  epicArchivedByList:
+    "Le projet fait partie d'une liste archivée. Déplacez-le vers une liste active pour le restaurer.",
   boardArchived: "Tableau est archivée.",
   isArchived: "est archivée",
   pageArchived: "Page is archived.",
@@ -910,12 +914,23 @@ const fr: Translations = {
   unsubscribe: "Se désabonner",
   pullRequestAutomation: "Automatisation des pull requests",
   prAutomationDescription:
-    "Avec notre intégration GitHub, lorsque qu'une carte est liée à une pull request, vous pouvez automatiquement déplacer la carte vers la liste appropriée du tableau lorsque le statut de la pull request change.",
+    "Déplacez les cartes dans Superthread lorsque les pull requests sont mises à jour sur GitHub.",
+  whenACardIsLinkedToPR: "Lorsqu'une carte est liée à une demande de tirage",
   whenPRTargetsTheBranch: "Lorsque la pull request cible la branche",
   addBranchSpecificAutomation:
     "Ajouter une automatisation spécifique à la branche",
+  automationMustHaveBranchName:
+    "Une automatisation doit avoir un nom de branche. Ces règles seront ignorées.",
   addBranchSpecificAutomationErrorAlreadyExists:
     "Il y a déjà une automatisation pour ce nom de branche. Ces règles seront ignorées.",
+  invalidGitBranchName:
+    "Ce n'est pas un nom de branche valide. Ces règles seront ignorées.",
+  branchSpecificAutomationAdded:
+    "Automatisation spécifique à la branche ajoutée.",
+  branchSpecificAutomationUpdated:
+    "Automatisation spécifique à la branche mise à jour.",
+  branchSpecificAutomationRemoved:
+    "Automatisation spécifique à la branche supprimée.",
   deleteAutomation: "Supprimer l'automatisation",
   deleteThisAutomation: "Supprimer cette automatisation",
   deleteAutomationConfirmation:
@@ -1216,6 +1231,9 @@ const fr: Translations = {
   matchSistemSettings: "Correspondre aux paramètres du système",
   darkMode: "Mode sombre",
   lightMode: "Mode clair",
+  darkBlueMode: "Mode bleu sombre",
+  darkGreyMode: "Mode gris sombre",
+  lightBlueMode: "Mode bleu clair",
   year: "Année",
   quarter: "Trimestre",
   month: "Mois",
@@ -1555,12 +1573,14 @@ const fr: Translations = {
   searchForSpaceOrBoard: "Rechercher un espace ou un tableau",
   starTypingToSearchFor: "Commencez à taper pour rechercher",
   ["my-work"]: "Mon travail",
-  myWorkAssignedToMe: "Assigné à %{userName}",
-  myWorkCreatedByMe: "Créé par %{userName}",
-  myWorkNoResultsCreatedByMe: "Il n'y a pas de cartes créées par vous",
-  myWorkNoResultsAssignedToMe: "Il n'y a pas de cartes qui vous sont assignées",
-  memberNoResultsAssignedToMe: "Il n'y a pas de cartes assignées à %{userName}",
-  memberNoResultsCreatedByMe: "Il n'y a pas de cartes créées par %{userName}",
+  ["myWork.assigned"]: "Assigné à %{userName}",
+  ["myWork.created"]: "Créé par %{userName}",
+  ["myWorkNoResults.created"]: "Il n'y a pas de cartes créées par vous",
+  ["myWorkNoResults.assigned"]:
+    "Il n'y a pas de cartes qui vous sont assignées",
+  ["memberNoResults.assigned"]:
+    "Il n'y a pas de cartes assignées à %{userName}",
+  ["memberNoResults.created"]: "Il n'y a pas de cartes créées par %{userName}",
   newCard: "Carte",
   addedCommentHiddenByFilter: "Commentaire ajouté masqué par le filtre",
   createdCardHiddenByFilter: "La carte créée peut être masquée par le filtre",
@@ -1901,6 +1921,60 @@ const fr: Translations = {
   sprintBoards: "Tableaux de sprint",
   sprintSettingsBoardsDescription:
     "Les paramètres ici s'appliquent à tous les tableaux de sprint de cet espace",
+  addedCard: "Carte ajoutée",
+  removedCard: "Carte supprimée",
+  addNewCard: "Ajouter une nouvelle carte",
+  addExistingCard: "Ajouter une carte existante",
+  changeEpicOrParent: "Changer de projet ou de parent",
+  cardAlreadyHasEpicOrParent:
+    "La carte choisie a déjà un projet ou une carte parente. Ils seront changés si vous l'ajoutez à ce projet.",
+  changeEpic: "Changer de projet",
+  childCardIsPartOfEpic: 'La carte enfant fait partie du projet "%{epicName}".',
+  parentCardHasNoEpic: "La carte parente n'a pas de projet.",
+  parentCardIsPartOfEpic:
+    'La carte parente fait partie du projet "%{epicName}".',
+  childCardsEpicWillBeRemoved:
+    "Le projet de la carte enfant sera supprimé si vous continuez.",
+  childCardsEpicWillChangeToParents:
+    "Le projet de la carte enfant changera pour celui de la carte parente si vous continuez.",
+  removeEpic: "Supprimer le projet",
+  epicWillNoLongerBeAssociated:
+    'La carte enfant ne sera plus associée au projet "%{epicName}" si vous la retirez de sa carte parente.',
+  childCardAlreadyHasParent:
+    "La carte enfant a déjà un parent. Le parent sera changé pour cette carte si vous continuez.",
+  cardsDirectlyAddedToEpicCantHaveParent:
+    "Les cartes ajoutées directement aux projets ne peuvent pas avoir de cartes parentes",
+  epicNoTagsFound:
+    "Aucune étiquette trouvée. Les projets ne peuvent utiliser que les étiquettes de l'espace de travail.",
+  cannotChangeStatusForCardsInFinishedSprint:
+    "Impossible de changer le statut des cartes dans un sprint terminé.",
+  cannotChangeStatusForArchivedCards:
+    "Impossible de changer le statut des cartes archivées.",
+  cantMoveArchivedCardToSprint:
+    "Impossible de déplacer une carte archivée dans un sprint.",
+  relatedTo: "Lié à",
+  changePriority: "Changer la priorité",
+  changeEstimate: "Changer l'estimation",
+  changeTags: "Changer les étiquettes",
+  changeSprint: "Changer de sprint",
+  goToSprint: "Aller au sprint",
+  pastSprints: "Sprints passés",
+  currentAndPlannedSprints: "Sprints actuels et planifiés",
+  seeAllSprints: "Voir tous les sprints",
+  currentAndNextSprint: "Sprint actuels et suivants",
+  branchSpecificAutomationAddFailed:
+    "Échec de l'ajout d'une nouvelle automatisation spécifique à la branche.",
+  branchSpecificAutomationUpdateFailed:
+    "Échec de la mise à jour de l'automatisation spécifique à la branche.",
+  branchSpecificAutomationRemoveFailed:
+    "Échec de la suppression de l'automatisation spécifique à la branche.",
+  thereAreNoCurrentOrPlannedSprints:
+    "Il n’y a pas de sprints en cours ou prévus",
+  thereIsNoCurrentOrNextSprint: "Il n’y a pas de sprint en cours ou à venir",
+  movedCardFrom: "Carte déplacée de",
+  rolledCardFrom: "Carte roulée de",
+  sprintMarkedAsCompleted: "Sprint marqué comme terminé",
+  sprintMarkedAsCancelled: "Sprint marqué comme annulé",
   cardIsParent: "La carte est parent",
   cardIsChild: "La carte est enfant",
   cardIsRelated: "La carte est liée",
