@@ -1922,6 +1922,10 @@ const bs: Translations = {
   rolledCardFrom: "Prebačena kartica iz",
   sprintMarkedAsCompleted: "Ciklus označen kao završen",
   sprintMarkedAsCancelled: "Ciklus označen kao otkazan",
+  cardIsParent: "Kartica je roditelj",
+  cardIsChild: "Kartica je dijete",
+  cardIsRelated: "Kartica je povezana",
+  parentCard: "Roditeljska kartica",
 };
 
 export default bs;

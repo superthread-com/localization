@@ -1713,6 +1713,10 @@ export enum TranslationKeys {
   RolledCardFrom = "rolledCardFrom",
   SprintMarkedAsCompleted = "sprintMarkedAsCompleted",
   SprintMarkedAsCancelled = "sprintMarkedAsCancelled",
+  CardIsParent = "cardIsParent",
+  CardIsChild = "cardIsChild",
+  CardIsRelated = "cardIsRelated",
+  ParentCard = "parentCard",
 }
 
 export type Translations = Record<TranslationKeys, string>;

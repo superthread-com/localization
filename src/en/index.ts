@@ -1893,6 +1893,10 @@ const en = {
   rolledCardFrom: "Rolled card from",
   sprintMarkedAsCompleted: "Sprint marked as completed",
   sprintMarkedAsCancelled: "Sprint marked as cancelled",
+  cardIsParent: "Card is parent",
+  cardIsChild: "Card is child",
+  cardIsRelated: "Card is related",
+  parentCard: "Parent card",
 };
 
 export default en as Translations;

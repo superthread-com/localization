@@ -1975,6 +1975,10 @@ const fr: Translations = {
   rolledCardFrom: "Carte roulée de",
   sprintMarkedAsCompleted: "Sprint marqué comme terminé",
   sprintMarkedAsCancelled: "Sprint marqué comme annulé",
+  cardIsParent: "La carte est parent",
+  cardIsChild: "La carte est enfant",
+  cardIsRelated: "La carte est liée",
+  parentCard: "Carte parente",
 };
 
 export default fr as Translations;
