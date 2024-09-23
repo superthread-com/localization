@@ -1920,6 +1920,8 @@ const bs: Translations = {
   thereIsNoCurrentOrNextSprint: "Nema trenutnog ili sljedećeg ciklusa",
   movedCardFrom: "Premještena kartica iz",
   rolledCardFrom: "Prebačena kartica iz",
+  sprintMarkedAsCompleted: "Ciklus označen kao završen",
+  sprintMarkedAsCancelled: "Ciklus označen kao otkazan",
 };
 
 export default bs;

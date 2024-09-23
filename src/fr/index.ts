@@ -1973,6 +1973,8 @@ const fr: Translations = {
   thereIsNoCurrentOrNextSprint: "Il n’y a pas de sprint en cours ou à venir",
   movedCardFrom: "Carte déplacée de",
   rolledCardFrom: "Carte roulée de",
+  sprintMarkedAsCompleted: "Sprint marqué comme terminé",
+  sprintMarkedAsCancelled: "Sprint marqué comme annulé",
 };
 
 export default fr as Translations;
