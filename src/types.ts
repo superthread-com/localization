@@ -1711,6 +1711,8 @@ export enum TranslationKeys {
   ThereIsNoCurrentOrNextSprint = "thereIsNoCurrentOrNextSprint",
   MovedCardFrom = "movedCardFrom",
   RolledCardFrom = "rolledCardFrom",
+  SprintMarkedAsCompleted = "sprintMarkedAsCompleted",
+  SprintMarkedAsCancelled = "sprintMarkedAsCancelled",
 }
 
 export type Translations = Record<TranslationKeys, string>;

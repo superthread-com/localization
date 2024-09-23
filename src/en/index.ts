@@ -1891,6 +1891,8 @@ const en = {
   thereIsNoCurrentOrNextSprint: "There is no current or next sprint",
   movedCardFrom: "Moved card from",
   rolledCardFrom: "Rolled card from",
+  sprintMarkedAsCompleted: "Sprint marked as completed",
+  sprintMarkedAsCancelled: "Sprint marked as cancelled",
 };
 
 export default en as Translations;
