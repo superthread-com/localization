@@ -1897,6 +1897,8 @@ const en = {
   cardIsChild: "Card is child",
   cardIsRelated: "Card is related",
   parentCard: "Parent card",
+  moveTo: "Move to...",
+  pageMovedTo: "Page moved to",
 };
 
 export default en as Translations;

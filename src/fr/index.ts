@@ -1979,6 +1979,8 @@ const fr: Translations = {
   cardIsChild: "La carte est enfant",
   cardIsRelated: "La carte est liée",
   parentCard: "Carte parente",
+  moveTo: "Déplacer vers...",
+  pageMovedTo: "Page déplacée vers",
 };
 
 export default fr as Translations;
