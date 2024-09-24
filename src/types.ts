@@ -1717,6 +1717,8 @@ export enum TranslationKeys {
   CardIsChild = "cardIsChild",
   CardIsRelated = "cardIsRelated",
   ParentCard = "parentCard",
+  MoveTo = "moveTo",
+  PageMovedTo = "pageMovedTo",
 }
 
 export type Translations = Record<TranslationKeys, string>;

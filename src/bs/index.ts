@@ -1926,6 +1926,8 @@ const bs: Translations = {
   cardIsChild: "Kartica je dijete",
   cardIsRelated: "Kartica je povezana",
   parentCard: "Roditeljska kartica",
+  moveTo: "Pomjeri u...",
+  pageMovedTo: "Stranica pomjerena u",
 };
 
 export default bs;
