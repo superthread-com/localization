@@ -1121,7 +1121,6 @@ const en = {
     "Collaborative documents with text, images, markdown, and inline comments. Take notes, write specs, build a wiki, or share information publicly.",
   filterAcrossTheEntire:
     "Filter across the entire workspace to create a view of all the cards ‘assigned to you', or perhaps create a global ‘bugs' backlog. Views can be private or shared with your team. ",
-  getStartedBy: "Get started by creating a new board or page",
   useFiltersToCreate:
     "Use filters to create custom views of only the cards you want to see",
   kanbanBoardsUc: "Kanban boards",

@@ -1169,7 +1169,6 @@ const fr: Translations = {
     "Documents collaboratifs avec texte, images, markdown et commentaires en ligne. Prenez des notes, rédigez des spécifications, construisez un wiki ou partagez des informations publiquement.",
   filterAcrossTheEntire:
     "Filtrez sur tout l'espace de travail pour créer une vue de toutes les cartes 'assignées à vous', ou créez peut-être un backlog global de 'bugs'. Les vues peuvent être privées ou partagées avec votre équipe.",
-  getStartedBy: "Commencez par créer un nouveau tableau ou une nouvelle page",
   useFiltersToCreate:
     "Utilisez des filtres pour créer des vues personnalisées des seules cartes que vous souhaitez voir",
   kanbanBoardsUc: "Tableaux kanban",

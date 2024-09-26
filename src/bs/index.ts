@@ -687,7 +687,6 @@ const bs: Translations = {
     "Kolaborativni dokumenti s tekstom, slikama, smanjenjem vrijednosti i umetnutim komentarima. Vodite bilješke, pišite specifikacije, napravite wiki ili javno dijelite informacije.",
   filterAcrossTheEntire:
     "Filtrirajte po cijelom radnom prostoru kako biste stvorili prikaz svih kartica koje su vam „dodijeljene” ili možda kreirajte globalni zaostatak „bugova”. Pregledi mogu biti privatni ili podijeljeni s vašim timom.",
-  getStartedBy: "Započnite kreiranjem nove ploče ili stranice",
   useFiltersToCreate:
     "Koristite filtere da napravite novi pogled samo sa karticama koje zelite vidjeti",
   kanbanBoardsUc: "Kanban ploče",

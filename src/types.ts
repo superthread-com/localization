@@ -1032,7 +1032,6 @@ export enum TranslationKeys {
   UseBoardsToVisualise = "useBoardsToVisualise",
   CollaborativeDocuments = "collaborativeDocuments",
   FilterAcrossTheEntire = "filterAcrossTheEntire",
-  GetStartedBy = "getStartedBy",
   UseFiltersToCreate = "useFiltersToCreate",
   KanbanBoardsUc = "kanbanBoardsUc",
   YouCanAlsoImport = "youCanAlsoImport",
