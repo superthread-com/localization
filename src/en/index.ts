@@ -1908,6 +1908,8 @@ const en = {
   spaceLevelTags: "space-level tags",
   effortEstimate: "effort estimate",
   existingEpic: "existing project",
+  chosenPageIsAlreadySubpage:
+    "Chosen page is already a subpage of current page",
 };
 
 export default en as Translations;
