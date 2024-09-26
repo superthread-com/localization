@@ -1908,6 +1908,7 @@ const en = {
   spaceLevelTags: "space-level tags",
   effortEstimate: "effort estimate",
   existingEpic: "existing project",
+  roadmapMustHaveAtLeastOneStatus: "The roadmap must have at least one status",
 };
 
 export default en as Translations;

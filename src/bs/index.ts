@@ -1937,6 +1937,7 @@ const bs: Translations = {
   spaceLevelTags: "oznake na nivou prostora",
   effortEstimate: "procjena napora",
   existingEpic: "postojeći projekt",
+  roadmapMustHaveAtLeastOneStatus: "Plan rada mora imati barem jedan status",
 };
 
 export default bs;
