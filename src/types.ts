@@ -1719,6 +1719,7 @@ export enum TranslationKeys {
   ParentCard = "parentCard",
   MoveTo = "moveTo",
   PageMovedTo = "pageMovedTo",
+  ThisSpaceIsEmpty = "thisSpaceIsEmpty"
 }
 
 export type Translations = Record<TranslationKeys, string>;

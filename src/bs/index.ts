@@ -1928,6 +1928,7 @@ const bs: Translations = {
   parentCard: "Roditeljska kartica",
   moveTo: "Pomjeri u...",
   pageMovedTo: "Stranica pomjerena u",
+  thisSpaceIsEmpty: "Ovaj prostor je prazan",
 };
 
 export default bs;

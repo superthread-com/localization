@@ -1899,6 +1899,7 @@ const en = {
   parentCard: "Parent card",
   moveTo: "Move to...",
   pageMovedTo: "Page moved to",
+  thisSpaceIsEmpty: "This space is empty",
 };
 
 export default en as Translations;

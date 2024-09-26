@@ -1981,6 +1981,7 @@ const fr: Translations = {
   parentCard: "Carte parente",
   moveTo: "Déplacer vers...",
   pageMovedTo: "Page déplacée vers",
+  thisSpaceIsEmpty: "Cet espace est vide",
 };
 
 export default fr as Translations;
