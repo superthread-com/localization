@@ -1899,6 +1899,8 @@ const en = {
   pageMovedTo: "Page moved to",
   thisSpaceIsEmpty: "This space is empty",
   createSomethingToGetStarted: "Create something to get started",
+  visualiseYourWorkflow:
+    "Visualise your workflow, track work, and keep things organised",
 };
 
 export default en as Translations;

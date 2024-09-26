@@ -1981,6 +1981,8 @@ const fr: Translations = {
   pageMovedTo: "Page déplacée vers",
   thisSpaceIsEmpty: "Cet espace est vide",
   createSomethingToGetStarted: "Créez quelque chose pour commencer",
+  visualiseYourWorkflow:
+    "Visualisez votre flux de travail, suivez le travail et gardez les choses organisées",
 };
 
 export default fr as Translations;

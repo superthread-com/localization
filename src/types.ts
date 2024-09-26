@@ -1719,6 +1719,7 @@ export enum TranslationKeys {
   PageMovedTo = "pageMovedTo",
   ThisSpaceIsEmpty = "thisSpaceIsEmpty",
   CreateSomethingToGetStarted = "createSomethingToGetStarted",
+  VisualiseYourWorkflow = "visualiseYourWorkflow",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -1928,6 +1928,8 @@ const bs: Translations = {
   pageMovedTo: "Stranica pomjerena u",
   thisSpaceIsEmpty: "Ovaj prostor je prazan",
   createSomethingToGetStarted: "Kreirajte nešto da biste počeli",
+  visualiseYourWorkflow:
+    "Vizualizirajte svoj radni proces, pratite rad i organizujte stvari",
 };
 
 export default bs;
