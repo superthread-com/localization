@@ -1928,6 +1928,15 @@ const bs: Translations = {
   parentCard: "Roditeljska kartica",
   moveTo: "Pomjeri u...",
   pageMovedTo: "Stranica pomjerena u",
+  convert: "Pretvori",
+  convertCardToEpic: "Pretvori karticu u projekt",
+  couldNotConvertCardToEpic: "Nije moguće pretvoriti karticu u projekt",
+  cardSuccessfullyConvertedToEpic: "Kartica uspješno pretvorena u projekt",
+  convertedCardWillLose:
+    "Ako pretvorite ovu karticu u projekt, izgubit će svoje %{arr, list}.",
+  spaceLevelTags: "oznake na nivou prostora",
+  effortEstimate: "procjena napora",
+  existingEpic: "postojeći projekt",
 };
 
 export default bs;

@@ -1899,6 +1899,15 @@ const en = {
   parentCard: "Parent card",
   moveTo: "Move to...",
   pageMovedTo: "Page moved to",
+  convert: "Convert",
+  convertCardToEpic: "Convert card to project",
+  couldNotConvertCardToEpic: "Couldn't convert card to project",
+  cardSuccessfullyConvertedToEpic: "Card successfully converted to project",
+  convertedCardWillLose:
+    "If you convert this card to a project, it will lose its %{arr, list}.",
+  spaceLevelTags: "space-level tags",
+  effortEstimate: "effort estimate",
+  existingEpic: "existing project",
 };
 
 export default en as Translations;
