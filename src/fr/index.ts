@@ -1990,6 +1990,8 @@ const fr: Translations = {
   spaceLevelTags: "étiquettes au niveau de l'espace",
   effortEstimate: "estimation de l'effort",
   existingEpic: "projet existant",
+  roadmapMustHaveAtLeastOneStatus:
+    "La feuille de route doit avoir au moins un statut",
   chosenPageIsAlreadySubpage:
     "La page choisie est déjà une sous-page de la page actuelle",
 };

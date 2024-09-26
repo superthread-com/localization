@@ -1727,6 +1727,7 @@ export enum TranslationKeys {
   SpaceLevelTags = "spaceLevelTags",
   EffortEstimate = "effortEstimate",
   ExistingEpic = "existingEpic",
+  RoadmapMustHaveAtLeastOneStatus = "roadmapMustHaveAtLeastOneStatus",
   ChosenPageIsAlreadySubpage = "chosenPageIsAlreadySubpage",
 }
 

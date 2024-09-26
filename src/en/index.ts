@@ -1908,6 +1908,7 @@ const en = {
   spaceLevelTags: "space-level tags",
   effortEstimate: "effort estimate",
   existingEpic: "existing project",
+  roadmapMustHaveAtLeastOneStatus: "The roadmap must have at least one status",
   chosenPageIsAlreadySubpage:
     "Chosen page is already a subpage of current page",
 };
