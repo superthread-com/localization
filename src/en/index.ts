@@ -1899,6 +1899,7 @@ const en = {
   moveTo: "Move to...",
   pageMovedTo: "Page moved to",
   thisSpaceIsEmpty: "This space is empty",
+  createSomethingToGetStarted: "Create something to get started",
 };
 
 export default en as Translations;

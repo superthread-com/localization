@@ -1928,6 +1928,7 @@ const bs: Translations = {
   moveTo: "Pomjeri u...",
   pageMovedTo: "Stranica pomjerena u",
   thisSpaceIsEmpty: "Ovaj prostor je prazan",
+  createSomethingToGetStarted: "Kreirajte nešto da biste počeli",
 };
 
 export default bs;
