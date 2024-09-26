@@ -1937,6 +1937,8 @@ const bs: Translations = {
   spaceLevelTags: "oznake na nivou prostora",
   effortEstimate: "procjena napora",
   existingEpic: "postojeći projekt",
+  chosenPageIsAlreadySubpage:
+    "Odabrana stranica je već podstranica trenutne stranice",
 };
 
 export default bs;
