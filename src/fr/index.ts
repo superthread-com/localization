@@ -1992,6 +1992,8 @@ const fr: Translations = {
   existingEpic: "projet existant",
   roadmapMustHaveAtLeastOneStatus:
     "La feuille de route doit avoir au moins un statut",
+  chosenPageIsAlreadySubpage:
+    "La page choisie est déjà une sous-page de la page actuelle",
 };
 
 export default fr as Translations;

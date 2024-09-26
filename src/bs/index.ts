@@ -1938,6 +1938,8 @@ const bs: Translations = {
   effortEstimate: "procjena napora",
   existingEpic: "postojeći projekt",
   roadmapMustHaveAtLeastOneStatus: "Plan rada mora imati barem jedan status",
+  chosenPageIsAlreadySubpage:
+    "Odabrana stranica je već podstranica trenutne stranice",
 };
 
 export default bs;

@@ -1728,6 +1728,7 @@ export enum TranslationKeys {
   EffortEstimate = "effortEstimate",
   ExistingEpic = "existingEpic",
   RoadmapMustHaveAtLeastOneStatus = "roadmapMustHaveAtLeastOneStatus",
+  ChosenPageIsAlreadySubpage = "chosenPageIsAlreadySubpage",
 }
 
 export type Translations = Record<TranslationKeys, string>;
