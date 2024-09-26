@@ -1899,6 +1899,8 @@ const en = {
   parentCard: "Parent card",
   moveTo: "Move to...",
   pageMovedTo: "Page moved to",
+  chosenPageIsAlreadySubpage:
+    "Chosen page is already a subpage of current page",
 };
 
 export default en as Translations;

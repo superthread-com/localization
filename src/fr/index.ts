@@ -1981,6 +1981,8 @@ const fr: Translations = {
   parentCard: "Carte parente",
   moveTo: "Déplacer vers...",
   pageMovedTo: "Page déplacée vers",
+  chosenPageIsAlreadySubpage:
+    "La page choisie est déjà une sous-page de la page actuelle",
 };
 
 export default fr as Translations;

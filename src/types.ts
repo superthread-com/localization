@@ -1719,6 +1719,7 @@ export enum TranslationKeys {
   ParentCard = "parentCard",
   MoveTo = "moveTo",
   PageMovedTo = "pageMovedTo",
+  ChosenPageIsAlreadySubpage = "chosenPageIsAlreadySubpage",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -1928,6 +1928,8 @@ const bs: Translations = {
   parentCard: "Roditeljska kartica",
   moveTo: "Pomjeri u...",
   pageMovedTo: "Stranica pomjerena u",
+  chosenPageIsAlreadySubpage:
+    "Odabrana stranica je već podstranica trenutne stranice",
 };
 
 export default bs;
