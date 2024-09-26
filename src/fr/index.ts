@@ -1983,6 +1983,7 @@ const fr: Translations = {
   createSomethingToGetStarted: "Créez quelque chose pour commencer",
   visualiseYourWorkflow:
     "Visualisez votre flux de travail, suivez le travail et gardez les choses organisées",
+  cardViews: "Vues de carte",
 };
 
 export default fr as Translations;

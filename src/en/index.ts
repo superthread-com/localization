@@ -1901,6 +1901,7 @@ const en = {
   createSomethingToGetStarted: "Create something to get started",
   visualiseYourWorkflow:
     "Visualise your workflow, track work, and keep things organised",
+  cardViews: "Card views",
 };
 
 export default en as Translations;

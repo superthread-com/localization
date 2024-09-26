@@ -1930,6 +1930,7 @@ const bs: Translations = {
   createSomethingToGetStarted: "Kreirajte nešto da biste počeli",
   visualiseYourWorkflow:
     "Vizualizirajte svoj radni proces, pratite rad i organizujte stvari",
+  cardViews: "Pogledi kartica",
 };
 
 export default bs;
