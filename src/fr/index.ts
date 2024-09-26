@@ -1981,6 +1981,15 @@ const fr: Translations = {
   parentCard: "Carte parente",
   moveTo: "Déplacer vers...",
   pageMovedTo: "Page déplacée vers",
+  convert: "Convertir",
+  convertCardToEpic: "Convertir la carte en projet",
+  couldNotConvertCardToEpic: "Impossible de convertir la carte en projet",
+  cardSuccessfullyConvertedToEpic: "Carte convertie en projet avec succès",
+  convertedCardWillLose:
+    "Si vous convertissez cette carte en projet, elle perdra ses %{arr, list}.",
+  spaceLevelTags: "étiquettes au niveau de l'espace",
+  effortEstimate: "estimation de l'effort",
+  existingEpic: "projet existant",
 };
 
 export default fr as Translations;

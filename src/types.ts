@@ -1719,6 +1719,14 @@ export enum TranslationKeys {
   ParentCard = "parentCard",
   MoveTo = "moveTo",
   PageMovedTo = "pageMovedTo",
+  Convert = "convert",
+  ConvertCardToEpic = "convertCardToEpic",
+  CouldNotConvertCardToEpic = "couldNotConvertCardToEpic",
+  CardSuccessfullyConvertedToEpic = "cardSuccessfullyConvertedToEpic",
+  ConvertedCardWillLose = "convertedCardWillLose",
+  SpaceLevelTags = "spaceLevelTags",
+  EffortEstimate = "effortEstimate",
+  ExistingEpic = "existingEpic",
 }
 
 export type Translations = Record<TranslationKeys, string>;
