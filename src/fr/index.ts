@@ -1176,7 +1176,6 @@ const fr: Translations = {
   youCanAlsoImport:
     "Vous pouvez également importer vos problèmes existants depuis",
   importIssues: "Importer des problèmes",
-  welcomeToThe: "Bienvenue dans l'",
   leaveSpace: "Quitter l'espace",
   viewSpace: "Voir l'espace",
   deleted: "%{name} supprimé",

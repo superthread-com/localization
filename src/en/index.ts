@@ -1127,7 +1127,6 @@ const en = {
   kanbanBoardsUc: "Kanban boards",
   youCanAlsoImport: "You can also import your existing issues from",
   importIssues: "Import issues",
-  welcomeToThe: "Welcome to the",
   leaveSpace: "Leave space",
   viewSpace: "View space",
   deleted: "%{name} deleted",

@@ -693,7 +693,6 @@ const bs: Translations = {
   kanbanBoardsUc: "Kanban ploče",
   youCanAlsoImport: "Također možete uvesti svoje postojeće probleme iz",
   importIssues: "Uvezite probleme",
-  welcomeToThe: "Dobrodošli u",
   leaveSpace: "Napusti prostor",
   joinSpace: "Pridruži se prostoru",
   joinThisSpace: "Pridruži se ovom prostoru",

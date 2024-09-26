@@ -1037,7 +1037,6 @@ export enum TranslationKeys {
   KanbanBoardsUc = "kanbanBoardsUc",
   YouCanAlsoImport = "youCanAlsoImport",
   ImportIssues = "importIssues",
-  WelcomeToThe = "welcomeToThe",
   LeaveSpace = "leaveSpace",
   ViewSpace = "viewSpace",
   Deleted = "deleted",
@@ -1719,7 +1718,7 @@ export enum TranslationKeys {
   ParentCard = "parentCard",
   MoveTo = "moveTo",
   PageMovedTo = "pageMovedTo",
-  ThisSpaceIsEmpty = "thisSpaceIsEmpty"
+  ThisSpaceIsEmpty = "thisSpaceIsEmpty",
 }
 
 export type Translations = Record<TranslationKeys, string>;
