@@ -156,6 +156,7 @@ export enum TranslationKeys {
   BillingPaymentMethod = "billing.paymentMethod",
   BillingCardEndingIn = "billing.cardEndingIn",
   BillingManageBillingDetails = "billing.manageBillingDetails",
+  BillingViewBillingDetails = "billing.viewBillingDetails",
   BillingUpdatePaymentDetails = "billing.updatePaymentDetails",
   BillingSendNewInvoicesTo = "billing.sendNewInvoicesTo",
   BillingPreviousInvoices = "billing.previousInvoices",
