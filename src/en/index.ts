@@ -174,6 +174,7 @@ const en = {
   ["billing.paymentMethod"]: "Payment method",
   ["billing.cardEndingIn"]: "%{cardType} ending in %{last4}",
   ["billing.manageBillingDetails"]: "Manage billing details",
+  ["billing.viewBillingDetails"]: "View billing details",
   ["billing.updatePaymentDetails"]: "Update payment details",
   ["billing.sendNewInvoicesTo"]: "Send new invoices to",
   ["billing.previousInvoices"]: "Previous invoices",
