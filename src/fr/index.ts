@@ -45,6 +45,7 @@ const fr: Translations = {
   ["billing.paymentMethod"]: "Mode de paiement",
   ["billing.cardEndingIn"]: "%{CardType} finissant en %{last4}",
   ["billing.manageBillingDetails"]: "Gérer les détails de la facturation",
+  ["billing.viewBillingDetails"]: "Vérifier les détails de la facturation",
   ["billing.updatePaymentDetails"]: "Mise à jour des données de paiement",
   ["billing.sendNewInvoicesTo"]: "Envoyer les nouvelles factures à",
   ["billing.previousInvoices"]: "Factures précendentes",

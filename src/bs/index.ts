@@ -1087,6 +1087,7 @@ const bs: Translations = {
   ["billing.paymentMethod"]: "Način plaćanja",
   ["billing.cardEndingIn"]: "%{cardType} završava na %{last4}",
   ["billing.manageBillingDetails"]: "Upravljanje detaljima naplate",
+  ["billing.viewBillingDetails"]: "Pogledaj detalje naplate",
   ["billing.updatePaymentDetails"]: "Ažuriranje detalja plaćanja",
   ["billing.sendNewInvoicesTo"]: "Pošalji nove fakture na",
   ["billing.previousInvoices"]: "Prethodne fakture",
