@@ -1725,6 +1725,7 @@ export enum TranslationKeys {
   CouldNotConvertCardToEpic = "couldNotConvertCardToEpic",
   CardSuccessfullyConvertedToEpic = "cardSuccessfullyConvertedToEpic",
   ConvertedCardWillLose = "convertedCardWillLose",
+  ConvertedThisCardToEpic = "convertedThisCardToEpic",
   SpaceLevelTags = "spaceLevelTags",
   EffortEstimate = "effortEstimate",
   ExistingEpic = "existingEpic",
