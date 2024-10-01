@@ -1934,6 +1934,7 @@ const bs: Translations = {
   cardSuccessfullyConvertedToEpic: "Kartica uspješno pretvorena u projekt",
   convertedCardWillLose:
     "Ako pretvorite ovu karticu u projekt, izgubit će svoje %{arr, list}.",
+  convertedThisCardToEpic: "pretvorio ovu karticu u projekt",
   spaceLevelTags: "oznake na nivou prostora",
   effortEstimate: "procjena napora",
   existingEpic: "postojeći projekt",

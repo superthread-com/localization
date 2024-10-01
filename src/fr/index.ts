@@ -1987,6 +1987,7 @@ const fr: Translations = {
   cardSuccessfullyConvertedToEpic: "Carte convertie en projet avec succès",
   convertedCardWillLose:
     "Si vous convertissez cette carte en projet, elle perdra ses %{arr, list}.",
+  convertedThisCardToEpic: "a converti cette carte en projet",
   spaceLevelTags: "étiquettes au niveau de l'espace",
   effortEstimate: "estimation de l'effort",
   existingEpic: "projet existant",

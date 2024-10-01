@@ -1905,6 +1905,7 @@ const en = {
   cardSuccessfullyConvertedToEpic: "Card successfully converted to project",
   convertedCardWillLose:
     "If you convert this card to a project, it will lose its %{arr, list}.",
+  convertedThisCardToEpic: "converted this card to a project",
   spaceLevelTags: "space-level tags",
   effortEstimate: "effort estimate",
   existingEpic: "existing project",
