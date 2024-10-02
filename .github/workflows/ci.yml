@@ -1,13 +1,6 @@
 name: ci
 
-on:
-  pull_request:
-    paths:
-      - 'src/**'
-      - '**/*.ts'
-      - '**/*.js'
-      - '**/*.mjs'
-      - '**/*.json'
+on: pull_request
 
 jobs:
   ci:
