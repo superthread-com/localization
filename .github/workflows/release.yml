@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-      - '**/*.ts'
-      - '**/*.js'
-      - '**/*.mjs'
-      - '**/*.json'
 
 # enforce single job concurrency since we need to push commits
 concurrency:
@@ -43,31 +37,39 @@ jobs:
           scope: "@superthread-com"
 
       - name: Get current release details
+        id: details
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CM: ${{ github.event.head_commit.message }}
         run: |
           tag=$(gh release view --json tagName --jq '.tagName' || echo "v0.0.0")
           echo "CURRENT_VERSION=$tag" >> $GITHUB_ENV
 
           current_commit=${{ github.sha }}
-          release_commit=$(git rev-list -n 1 "${tag}" || echo "0000000000000000000000000000000000000000")
+          release_commit=$(git rev-list -n 1 "$tag" || echo "0000000000000000000000000000000000000000")
           if [ "$current_commit" = "$release_commit" ];
           then
-            echo "IS_NEW_RELEASE=false" >> $GITHUB_ENV
-          else
-            echo "IS_NEW_RELEASE=true" >> $GITHUB_ENV
+            echo "skip=true" >> $GITHUB_OUTPUT
           fi
+
+          COMMIT_MESSAGE=$(printf '%q' "$CM")
+          SANITIZED_MSG=$(echo "$COMMIT_MESSAGE" | sed 's/[\`\$&|;<>\\]//g')
+          if echo "$SANITIZED_MSG" | grep -q -E '\[SKIP\]';
+          then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          fi
+          echo "COMMIT_MSG=$SANITIZED_MSG" >> $GITHUB_ENV
 
       - name: Determine change type
         continue-on-error: true
-        env:
-          CM: ${{ github.event.head_commit.message }}
+        if: ${{ steps.details.outputs.skip != 'true' }}
         run: |
-          SANITIZED_MSG=$(echo "${CM}" | sed 's/`/\\`/g')
-          COMMIT_MESSAGE=$(echo "${SANITIZED_MSG}" | sed 's/[^[:print:]]//g')
-          if [[ "$COMMIT_MESSAGE" == *"[MAJOR]"* ]]; then
+          if echo "$COMMIT_MSG" | grep -q -E '\[MAJOR\]';
+          then
             CHANGE_TYPE="major"
-          elif [[ "$COMMIT_MESSAGE" == *"[MINOR]"* ]]; then
+          elif echo "$COMMIT_MSG" | grep -q -E '\[MINOR\]';
+          then
             CHANGE_TYPE="minor"
           else
             CHANGE_TYPE="patch"
@@ -75,6 +77,7 @@ jobs:
           echo "CHANGE_TYPE=$CHANGE_TYPE" >> $GITHUB_ENV
 
       - name: Determine new version
+        if: ${{ steps.details.outputs.skip != 'true' }}
         run: |
           LATEST=${CURRENT_VERSION:-"0.0.0"}
           VERSION="${LATEST#v}"
@@ -99,24 +102,27 @@ jobs:
           echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
 
       - name: Create GitHub Release
+        if: ${{ steps.details.outputs.skip != 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create "${NEW_VERSION}" --title="${NEW_VERSION}" --generate-notes
+        run: gh release create "$NEW_VERSION" --title="$NEW_VERSION" --generate-notes
 
       - name: Create NPM release
-        run: npm version "${NEW_VERSION}" --no-git-tag-version
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        run: npm version "$NEW_VERSION" --no-git-tag-version
 
       - name: Check for modified files
-        id: git-check
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        id: git
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            echo "MODIFIED=true" >> $GITHUB_OUTPUT
+            echo "modified=true" >> $GITHUB_OUTPUT
           else
-            echo "MODIFIED=false" >> $GITHUB_OUTPUT
+            echo "modified=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Publish new version
-        if: ${{ steps.git-check.outputs.MODIFIED == 'true' }}
+        if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -124,17 +130,16 @@ jobs:
           npm publish
 
       - name: Update version
-        id: pr
-        if: ${{ steps.git-check.outputs.MODIFIED == 'true' }}
+        if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
         env:
           APP: localization
           HEAD: release-$NEW_VERSION
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git checkout -b ${{ env.HEAD }}
+          git checkout -b $HEAD
           git add package.json
           git commit -m "[bot] ts release $APP $NEW_VERSION"
-          git push --set-upstream origin ${{ env.HEAD }}
+          git push --set-upstream origin $HEAD
           url=$(gh pr create \
             --title '[bot] release $NEW_VERSION' \
             --body 'This PR bumps the version to $NEW_VERSION')
