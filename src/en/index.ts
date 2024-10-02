@@ -1913,6 +1913,7 @@ const en = {
   roadmapMustHaveAtLeastOneStatus: "The roadmap must have at least one status",
   chosenPageIsAlreadySubpage:
     "Chosen page is already a subpage of current page",
+  searchForResults: "Search to show results",
 };
 
 export default en as Translations;

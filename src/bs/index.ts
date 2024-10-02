@@ -1942,6 +1942,7 @@ const bs: Translations = {
   roadmapMustHaveAtLeastOneStatus: "Plan rada mora imati barem jedan status",
   chosenPageIsAlreadySubpage:
     "Odabrana stranica je već podstranica trenutne stranice",
+  searchForResults: "Pretražite za prikaz rezultata",
 };
 
 export default bs;
