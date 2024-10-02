@@ -1,27 +1,40 @@
-name: CI
+name: ci
 
-on: [pull_request]
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - '**/*.ts'
+      - '**/*.js'
+      - '**/*.mjs'
+      - '**/*.json'
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm install
 
-      - id: formatCheck
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check formatting
+        id: formatCheck
         run: npm run formatCheck
 
-      - id: prepack
+      - name: Compile and build
+        id: prepack
         run: npm run prepack
 
       - name: Add PR Comment
         uses: actions/github-script@v7
+        env:
+          summary: ${{ steps.prepack.outputs.summary }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -36,5 +49,3 @@ jobs:
               repo: context.repo.repo,
               body: `Build summary: \n\n${table}`
             })
-        env:
-          summary: ${{ steps.prepack.outputs.summary }}
