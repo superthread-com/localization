@@ -1996,6 +1996,7 @@ const fr: Translations = {
     "La feuille de route doit avoir au moins un statut",
   chosenPageIsAlreadySubpage:
     "La page choisie est déjà une sous-page de la page actuelle",
+  searchForResults: "Rechercher pour afficher les résultats",
 };
 
 export default fr as Translations;

@@ -1731,6 +1731,7 @@ export enum TranslationKeys {
   ExistingEpic = "existingEpic",
   RoadmapMustHaveAtLeastOneStatus = "roadmapMustHaveAtLeastOneStatus",
   ChosenPageIsAlreadySubpage = "chosenPageIsAlreadySubpage",
+  SearchForResults = "searchForResults",
 }
 
 export type Translations = Record<TranslationKeys, string>;
