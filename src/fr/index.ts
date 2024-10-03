@@ -45,6 +45,7 @@ const fr: Translations = {
   ["billing.paymentMethod"]: "Mode de paiement",
   ["billing.cardEndingIn"]: "%{CardType} finissant en %{last4}",
   ["billing.manageBillingDetails"]: "Gérer les détails de la facturation",
+  ["billing.viewBillingDetails"]: "Vérifier les détails de la facturation",
   ["billing.updatePaymentDetails"]: "Mise à jour des données de paiement",
   ["billing.sendNewInvoicesTo"]: "Envoyer les nouvelles factures à",
   ["billing.previousInvoices"]: "Factures précendentes",
@@ -1987,6 +1988,7 @@ const fr: Translations = {
   cardSuccessfullyConvertedToEpic: "Carte convertie en projet avec succès",
   convertedCardWillLose:
     "Si vous convertissez cette carte en projet, elle perdra ses %{arr, list}.",
+  convertedThisCardToEpic: "a converti cette carte en projet",
   spaceLevelTags: "étiquettes au niveau de l'espace",
   effortEstimate: "estimation de l'effort",
   existingEpic: "projet existant",
@@ -1994,6 +1996,7 @@ const fr: Translations = {
     "La feuille de route doit avoir au moins un statut",
   chosenPageIsAlreadySubpage:
     "La page choisie est déjà une sous-page de la page actuelle",
+  searchForResults: "Rechercher pour afficher les résultats",
 };
 
 export default fr as Translations;

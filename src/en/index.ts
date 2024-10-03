@@ -174,6 +174,7 @@ const en = {
   ["billing.paymentMethod"]: "Payment method",
   ["billing.cardEndingIn"]: "%{cardType} ending in %{last4}",
   ["billing.manageBillingDetails"]: "Manage billing details",
+  ["billing.viewBillingDetails"]: "View billing details",
   ["billing.updatePaymentDetails"]: "Update payment details",
   ["billing.sendNewInvoicesTo"]: "Send new invoices to",
   ["billing.previousInvoices"]: "Previous invoices",
@@ -1905,12 +1906,14 @@ const en = {
   cardSuccessfullyConvertedToEpic: "Card successfully converted to project",
   convertedCardWillLose:
     "If you convert this card to a project, it will lose its %{arr, list}.",
+  convertedThisCardToEpic: "converted this card to a project",
   spaceLevelTags: "space-level tags",
   effortEstimate: "effort estimate",
   existingEpic: "existing project",
   roadmapMustHaveAtLeastOneStatus: "The roadmap must have at least one status",
   chosenPageIsAlreadySubpage:
     "Chosen page is already a subpage of current page",
+  searchForResults: "Search to show results",
 };
 
 export default en as Translations;

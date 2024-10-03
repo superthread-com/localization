@@ -1087,6 +1087,7 @@ const bs: Translations = {
   ["billing.paymentMethod"]: "Način plaćanja",
   ["billing.cardEndingIn"]: "%{cardType} završava na %{last4}",
   ["billing.manageBillingDetails"]: "Upravljanje detaljima naplate",
+  ["billing.viewBillingDetails"]: "Pogledaj detalje naplate",
   ["billing.updatePaymentDetails"]: "Ažuriranje detalja plaćanja",
   ["billing.sendNewInvoicesTo"]: "Pošalji nove fakture na",
   ["billing.previousInvoices"]: "Prethodne fakture",
@@ -1934,12 +1935,14 @@ const bs: Translations = {
   cardSuccessfullyConvertedToEpic: "Kartica uspješno pretvorena u projekt",
   convertedCardWillLose:
     "Ako pretvorite ovu karticu u projekt, izgubit će svoje %{arr, list}.",
+  convertedThisCardToEpic: "pretvorio ovu karticu u projekt",
   spaceLevelTags: "oznake na nivou prostora",
   effortEstimate: "procjena napora",
   existingEpic: "postojeći projekt",
   roadmapMustHaveAtLeastOneStatus: "Plan rada mora imati barem jedan status",
   chosenPageIsAlreadySubpage:
     "Odabrana stranica je već podstranica trenutne stranice",
+  searchForResults: "Pretražite za prikaz rezultata",
 };
 
 export default bs;
