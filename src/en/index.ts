@@ -383,7 +383,8 @@ const en = {
   setThisStatus: "Set this status",
   chooseABoard: "Choose a board",
   chooseABoardToUseThisField: "Choose a board to use this field",
-  ifYouLeaveThisPageAnyChangesWillBeLost: "If you leave this page, any changes you’ve made to this template will be lost.",
+  ifYouLeaveThisPageAnyChangesWillBeLost:
+    "If you leave this page, any changes you’ve made to this template will be lost.",
   uploadFailedClickToRetry: "Upload failed, click to retry",
   areYouSureYouWantToDeleteTheTemplate:
     'Are you sure you want to delete the "%{templateName}" template?',
@@ -515,8 +516,7 @@ const en = {
   profileBasicInfoSubtitle: "Personal and contact info",
   uploadProfileImageRule:
     "Image should be PNG, GIF or JPG format no larger than 3MB. This will be shown as your avatar across the app.",
-  workspaceLogo:
-    "Pick a workspace logo. Recommended size is 256x256px",
+  workspaceLogo: "Pick a workspace logo. Recommended size is 256x256px",
   logoSaved: "Logo saved",
   logoRemoved: "Logo removed",
   removeCover: "Remove cover",
@@ -656,8 +656,7 @@ const en = {
   inviteExternalPeople: "Invite external people",
   notInThisSpace: "Not in this space",
   inThisSpace: "In this space",
-  notWorkspaceMember:
-    "That person isn’t a member of this workspace yet",
+  notWorkspaceMember: "That person isn’t a member of this workspace yet",
   anchorLinkErrorMessage: "Couldn’t find that link",
   childCard: "Child card",
   parentCards: "Parent cards",
@@ -985,7 +984,8 @@ const en = {
     "Are you sure you want to leave this workspace? You will need an invite to regain access.",
   youAreTheOnlyPersonInThisPrivateSpace:
     "You are the only person in this private space. If you leave, no-one will be able to access it. If your organisation still needs access, invite someone before you leave.",
-  whenYouLeaveAPrivateSpace: "When you leave a private space, you’ll no longer be able to see any of its boards or pages. To rejoin, you’ll need to be invited again.",
+  whenYouLeaveAPrivateSpace:
+    "When you leave a private space, you’ll no longer be able to see any of its boards or pages. To rejoin, you’ll need to be invited again.",
   youCanRejoinThePublicSpace:
     "You can rejoin the space from the spaces screen.",
   areYouSureYouWantToRevoke:
@@ -1032,8 +1032,7 @@ const en = {
   theSpace: "The space",
   haveSameTags: "have tags with the same name.",
   doYouWantToMerge: "Do you want to merge these into the new workspace tag?",
-  tagWithThisNameWorkspace:
-    "A workspace tag with this name already exists",
+  tagWithThisNameWorkspace: "A workspace tag with this name already exists",
   tagWithThisNameSpace: "A tag with this name already exists in the space",
   editTag: "Edit tag",
   workspaceTags: "Workspace Tags",
@@ -1226,12 +1225,10 @@ const en = {
   resolveIt: "resolve it",
   inboxNotificationsAreUnresolved:
     "Notifications are unresolved until you resolve them",
-  notificationsAreNew:
-    "Notifications are new if you haven’t seen them before",
+  notificationsAreNew: "Notifications are new if you haven’t seen them before",
   wantNotificationsIn: "Want notifications in",
   slaskQuestionMarkVisit: "Slack? Visit",
-  noCardsMatchChosenFilter:
-    "There are no cards that match the chosen filters",
+  noCardsMatchChosenFilter: "There are no cards that match the chosen filters",
   noCardsFound: "No cards found",
   boardMoved: "Board moved",
   pageMoved: "Page moved",
@@ -1335,8 +1332,7 @@ const en = {
   load: "Load",
   youAlreadyHave: "You already have",
   openBoard: "Open board",
-  cardCannotBeMovedDirectlyToSpace:
-    "Card cannot be moved directly into space.",
+  cardCannotBeMovedDirectlyToSpace: "Card cannot be moved directly into space.",
   clickToRename: "Click to rename",
   info: "Info",
   clearAllFilters: "Clear all filters",
@@ -1394,8 +1390,7 @@ const en = {
   accessToken: "access token",
   installationCloudHostname: "installation / cloud hostname",
   findInYour: "Find in your",
-  emailAddressYouUseFor:
-    "Email address used for your %{importerName} account",
+  emailAddressYouUseFor: "Email address used for your %{importerName} account",
   selectWhich: "Select which",
   selectBoardsToImport: "Select %{boardEq} you want to import %{cardEq} from",
   importYourExistingNameToST:
