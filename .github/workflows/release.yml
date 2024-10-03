@@ -1,9 +1,9 @@
 name: release
 
 on:
-  workflow_dispatch:
-  release:
-    types: [released]
+  push:
+    branches:
+      - main
 
 # enforce single job concurrency since we need to push commits
 concurrency:
@@ -17,20 +17,18 @@ env:
   GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
 
 jobs:
-  ts:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       packages: write
       pull-requests: write
-
-    if: contains(github.ref, 'tags')
-
     steps:
       - uses: actions/checkout@v4
-      - id: parse-tag
-        run: |
-          echo "VERSION=$(echo ${{ github.ref }} | cut -d '/' -f 3)" >> $GITHUB_ENV
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -38,39 +36,112 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
           scope: "@superthread-com"
 
-      - name: Bump version
-        run: npm version $VERSION --no-git-tag-version
+      - name: Get current release details
+        id: details
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CM: ${{ github.event.head_commit.message }}
+        run: |
+          tag=$(gh release view --json tagName --jq '.tagName' || echo "v0.0.0")
+          echo "CURRENT_VERSION=$tag" >> $GITHUB_ENV
+
+          current_commit=${{ github.sha }}
+          release_commit=$(git rev-list -n 1 "$tag" || echo "0000000000000000000000000000000000000000")
+          if [ "$current_commit" = "$release_commit" ];
+          then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          fi
+
+          COMMIT_MESSAGE=$(printf '%q' "$CM")
+          SANITIZED_MSG=$(echo "$COMMIT_MESSAGE" | sed 's/[\`\$&|;<>\\]//g')
+          if echo "$SANITIZED_MSG" | grep -q -E '\[SKIP\]';
+          then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          fi
+          echo "COMMIT_MSG=$SANITIZED_MSG" >> $GITHUB_ENV
+
+      - name: Determine change type
+        continue-on-error: true
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        run: |
+          if echo "$COMMIT_MSG" | grep -q -E '\[MAJOR\]';
+          then
+            CHANGE_TYPE="major"
+          elif echo "$COMMIT_MSG" | grep -q -E '\[MINOR\]';
+          then
+            CHANGE_TYPE="minor"
+          else
+            CHANGE_TYPE="patch"
+          fi
+          echo "CHANGE_TYPE=$CHANGE_TYPE" >> $GITHUB_ENV
+
+      - name: Determine new version
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        run: |
+          LATEST=${CURRENT_VERSION:-"0.0.0"}
+          VERSION="${LATEST#v}"
+
+          IFS='.' read -r -a semver <<< "$VERSION"
+          major=${semver[0]}
+          minor=${semver[1]}
+          patch=${semver[2]}
+
+          if [[ "$CHANGE_TYPE" == "major" ]]; then
+            major=$((major + 1))
+            minor=0
+            patch=0
+          elif [[ "$CHANGE_TYPE" == "minor" ]]; then
+            minor=$((minor + 1))
+            patch=0
+          else
+            patch=$((patch + 1))
+          fi
+
+          NEW_VERSION="v$major.$minor.$patch"
+          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "$NEW_VERSION" --title="$NEW_VERSION" --generate-notes
+
+      - name: Create NPM release
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        run: npm version "$NEW_VERSION" --no-git-tag-version
 
       - name: Check for modified files
-        id: git-check
+        if: ${{ steps.details.outputs.skip != 'true' }}
+        id: git
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            echo "MODIFIED=true" >> $GITHUB_ENV
+            echo "modified=true" >> $GITHUB_OUTPUT
           else
-            echo "MODIFIED=false" >> $GITHUB_ENV
+            echo "modified=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Publish new version
-        if: env.MODIFIED == 'true'
+        if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install --include=dev
           npm publish
 
-      - name: update version
-        id: pr
-        if: env.MODIFIED == 'true'
+      - name: Update version
+        if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
         env:
-          HEAD: release-$VERSION
+          APP: localization
+          HEAD: release-$NEW_VERSION
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git checkout -b ${{ env.HEAD }}
+          git checkout -b $HEAD
           git add package.json
-          git commit -m "[bot] ts release $API $VERSION"
-          git push --set-upstream origin ${{ env.HEAD }}
+          git commit -m "[bot] ts release $APP $NEW_VERSION"
+          git push --set-upstream origin $HEAD
           url=$(gh pr create \
-            --title '[bot] release ${{ env.VERSION }}' \
-            --body 'This PR bumps the version to ${{ env.VERSION }}')
+            --title '[bot] release $NEW_VERSION' \
+            --body 'This PR bumps the version to $NEW_VERSION')
           echo "PR_URL=$(echo $url)" >> $GITHUB_ENV
           gh pr merge --auto --squash "$url"
