@@ -122,26 +122,37 @@ jobs:
           fi
 
       - name: Publish new version
+        id: publish
         if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install --include=dev
           npm publish
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
 
-      - name: Update version
+      - name: Create PR
         if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
+        id: pr
         env:
           APP: localization
-          HEAD: release-$NEW_VERSION
+          HEAD: release-${{ steps.publish.outputs.version }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ steps.publish.outputs.version }}
         run: |
           git checkout -b $HEAD
           git add package.json
           git commit -m "[bot] ts release $APP $NEW_VERSION"
           git push --set-upstream origin $HEAD
           url=$(gh pr create \
-            --title '[bot] release $NEW_VERSION' \
-            --body 'This PR bumps the version to $NEW_VERSION')
-          echo "PR_URL=$(echo $url)" >> $GITHUB_ENV
-          gh pr merge --auto --squash "$url"
+            --title '[bot] release ${{ env.VERSION }}' \
+            --body 'This PR bumps the version to ${{ env.VERSION }}')
+          echo "URL=$(echo $url)" >> $GITHUB_OUTPUT
+
+      - name: Merge PR
+        if: ${{ steps.git.outputs.modified == 'true' && steps.details.outputs.skip != 'true'}}
+        env:
+          REPO: ${{ github.repository }}
+          URL: ${{ steps.pr.outputs.URL }}
+          GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+        run: gh pr merge "${URL}" --repo "${REPO}" --squash --admin
