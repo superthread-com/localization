@@ -154,5 +154,5 @@ jobs:
         env:
           REPO: ${{ github.repository }}
           URL: ${{ steps.pr.outputs.URL }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
         run: gh pr merge "${URL}" --repo "${REPO}" --squash --admin
