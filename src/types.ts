@@ -156,6 +156,7 @@ export enum TranslationKeys {
   BillingPaymentMethod = "billing.paymentMethod",
   BillingCardEndingIn = "billing.cardEndingIn",
   BillingManageBillingDetails = "billing.manageBillingDetails",
+  BillingViewBillingDetails = "billing.viewBillingDetails",
   BillingUpdatePaymentDetails = "billing.updatePaymentDetails",
   BillingSendNewInvoicesTo = "billing.sendNewInvoicesTo",
   BillingPreviousInvoices = "billing.previousInvoices",
@@ -1721,6 +1722,18 @@ export enum TranslationKeys {
   CreateSomethingToGetStarted = "createSomethingToGetStarted",
   VisualiseYourWorkflow = "visualiseYourWorkflow",
   CardViews = "cardViews",
+  Convert = "convert",
+  ConvertCardToEpic = "convertCardToEpic",
+  CouldNotConvertCardToEpic = "couldNotConvertCardToEpic",
+  CardSuccessfullyConvertedToEpic = "cardSuccessfullyConvertedToEpic",
+  ConvertedCardWillLose = "convertedCardWillLose",
+  ConvertedThisCardToEpic = "convertedThisCardToEpic",
+  SpaceLevelTags = "spaceLevelTags",
+  EffortEstimate = "effortEstimate",
+  ExistingEpic = "existingEpic",
+  RoadmapMustHaveAtLeastOneStatus = "roadmapMustHaveAtLeastOneStatus",
+  ChosenPageIsAlreadySubpage = "chosenPageIsAlreadySubpage",
+  SearchForResults = "searchForResults",
 }
 
 export type Translations = Record<TranslationKeys, string>;
