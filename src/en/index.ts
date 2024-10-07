@@ -1898,6 +1898,13 @@ const en = {
   createSomethingToGetStarted: "Create something to get started",
   visualiseYourWorkflow:
     "Visualise your workflow, track work, and keep things organised",
+  captureImportantInformation:
+    "Capture important information, collaborate with others, and share to the web",
+  organiseWorkIntoSprints:
+    "Organise work into stretches of time so you can plan more easily",
+  filterYourWorkspaceToCreateViews:
+    "Filter your workspace to create views, and share them with your team",
+  turnOnSprints: "Turn on sprints",
   cardViews: "Card views",
   convert: "Convert",
   convertCardToEpic: "Convert card to project",

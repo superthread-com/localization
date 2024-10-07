@@ -1984,6 +1984,13 @@ const fr: Translations = {
   createSomethingToGetStarted: "Créez quelque chose pour commencer",
   visualiseYourWorkflow:
     "Visualisez votre flux de travail, suivez le travail et gardez les choses organisées",
+  captureImportantInformation:
+    "Capturez des informations importantes, collaborez avec d'autres et partagez-les sur le web",
+  organiseWorkIntoSprints:
+    "Organisez le travail en tranches de temps pour planifier plus facilement",
+  filterYourWorkspaceToCreateViews:
+    "Filtrez votre espace de travail pour créer des vues et partagez-les avec votre équipe",
+  turnOnSprints: "Activer les sprints",
   cardViews: "Vues de carte",
   convert: "Convertir",
   convertCardToEpic: "Convertir la carte en projet",

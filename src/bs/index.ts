@@ -1931,6 +1931,13 @@ const bs: Translations = {
   createSomethingToGetStarted: "Kreirajte nešto da biste počeli",
   visualiseYourWorkflow:
     "Vizualizirajte svoj radni proces, pratite rad i organizujte stvari",
+  captureImportantInformation:
+    "Zabilježite važne informacije, surađujte s drugima i podijelite na web",
+  organiseWorkIntoSprints:
+    "Organizujte rad u vremenske periode kako biste lakše planirali",
+  filterYourWorkspaceToCreateViews:
+    "Filtrirajte svoj workspace da biste kreirali poglede i podijelili ih s timom",
+  turnOnSprints: "Uključi cikluse",
   cardViews: "Pogledi kartica",
   convert: "Pretvori",
   convertCardToEpic: "Pretvori karticu u projekt",
