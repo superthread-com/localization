@@ -1749,7 +1749,7 @@ const bs: Translations = {
   sources: "Izvori",
   askAiQuestionLong: "Pitanje treba imati najmanje 10 znakova.",
   spaceSprintsSettings: "Postavke ciklusa prostora %{space}",
-  turnOnSprints: "Uključi cikluse za ovaj prostor",
+  turnOnSprintsForThisSpace: "Uključi cikluse za ovaj prostor",
   turnOnSprintsDesc:
     'Odjeljak "Ciklusi" će biti dodan na bočnu traku za ovaj prostor. Ciklus je ploča sa početnim i završnim datumom. Kada se jedan ciklus završi, sljedeći će automatski početi.',
   ownersAdminsCanTurnOnSprints:

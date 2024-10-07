@@ -1695,7 +1695,7 @@ const en = {
   sources: "Sources",
   askAiQuestionLong: "Question should have at least 10 characters.",
   spaceSprintsSettings: "%{space} space sprints settings",
-  turnOnSprints: "Turn on sprints for this space",
+  turnOnSprintsForThisSpace: "Turn on sprints for this space",
   turnOnSprintsDesc:
     "A “Sprints” section will be added to the sidebar for this space. A sprint is a board with a start and end date. When a sprint is completed, the next will start automatically.",
   ownersAdminsCanTurnOnSprints:

@@ -1552,7 +1552,7 @@ export enum TranslationKeys {
   Sources = "sources",
   AskAiQuestionLong = "askAiQuestionLong",
   SpaceSprintsSettings = "spaceSprintsSettings",
-  TurnOnSprints = "turnOnSprints",
+  TurnOnSprintsForThisSpace = "turnOnSprintsForThisSpace",
   TurnOnSprintsDesc = "turnOnSprintsDesc",
   OwnersAdminsCanTurnOnSprints = "ownersAdminsCanTurnOnSprints",
   OnlyOwnerOfPrivateSpace = "onlyOwnerOfPrivateSpace",

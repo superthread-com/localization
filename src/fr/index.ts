@@ -1777,7 +1777,7 @@ const fr: Translations = {
   sources: "Sources",
   askAiQuestionLong: "La question doit comporter au moins 10 caractères.",
   spaceSprintsSettings: "Paramètres des sprints de l'espace %{space}",
-  turnOnSprints: "Activer les sprints pour cet espace",
+  turnOnSprintsForThisSpace: "Activer les sprints pour cet espace",
   turnOnSprintsDesc:
     "Une section « Sprints » sera ajoutée à la barre latérale pour cet espace. Un sprint est un tableau avec une date de début et de fin. Lorsqu'un sprint est terminé, le suivant commence automatiquement.",
   ownersAdminsCanTurnOnSprints:
