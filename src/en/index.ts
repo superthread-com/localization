@@ -1127,7 +1127,6 @@ const en = {
   kanbanBoardsUc: "Kanban boards",
   youCanAlsoImport: "You can also import your existing issues from",
   importIssues: "Import issues",
-  welcomeToThe: "Welcome to the",
   leaveSpace: "Leave space",
   viewSpace: "View space",
   deleted: "%{name} deleted",
@@ -1696,7 +1695,7 @@ const en = {
   sources: "Sources",
   askAiQuestionLong: "Question should have at least 10 characters.",
   spaceSprintsSettings: "%{space} space sprints settings",
-  turnOnSprints: "Turn on sprints for this space",
+  turnOnSprintsForThisSpace: "Turn on sprints for this space",
   turnOnSprintsDesc:
     "A “Sprints” section will be added to the sidebar for this space. A sprint is a board with a start and end date. When a sprint is completed, the next will start automatically.",
   ownersAdminsCanTurnOnSprints:
@@ -1895,6 +1894,18 @@ const en = {
   parentCard: "Parent card",
   moveTo: "Move to...",
   pageMovedTo: "Page moved to",
+  thisSpaceIsEmpty: "This space is empty",
+  createSomethingToGetStarted: "Create something to get started",
+  visualiseYourWorkflow:
+    "Visualise your workflow, track work, and keep things organised",
+  captureImportantInformation:
+    "Capture important information, collaborate with others, and share to the web",
+  organiseWorkIntoSprints:
+    "Organise work into stretches of time so you can plan more easily",
+  filterYourWorkspaceToCreateViews:
+    "Filter your workspace to create views, and share them with your team",
+  turnOnSprints: "Turn on sprints",
+  cardViews: "Card views",
   convert: "Convert",
   convertCardToEpic: "Convert card to project",
   couldNotConvertCardToEpic: "Couldn’t convert card to project",

@@ -1170,14 +1170,12 @@ const fr: Translations = {
     "Documents collaboratifs avec texte, images, markdown et commentaires en ligne. Prenez des notes, rédigez des spécifications, construisez un wiki ou partagez des informations publiquement.",
   filterAcrossTheEntire:
     "Filtrez sur tout l'espace de travail pour créer une vue de toutes les cartes 'assignées à vous', ou créez peut-être un backlog global de 'bugs'. Les vues peuvent être privées ou partagées avec votre équipe.",
-  getStartedBy: "Commencez par créer un nouveau tableau ou une nouvelle page",
   useFiltersToCreate:
     "Utilisez des filtres pour créer des vues personnalisées des seules cartes que vous souhaitez voir",
   kanbanBoardsUc: "Tableaux kanban",
   youCanAlsoImport:
     "Vous pouvez également importer vos problèmes existants depuis",
   importIssues: "Importer des problèmes",
-  welcomeToThe: "Bienvenue dans l'",
   leaveSpace: "Quitter l'espace",
   viewSpace: "Voir l'espace",
   deleted: "%{name} supprimé",
@@ -1779,7 +1777,7 @@ const fr: Translations = {
   sources: "Sources",
   askAiQuestionLong: "La question doit comporter au moins 10 caractères.",
   spaceSprintsSettings: "Paramètres des sprints de l'espace %{space}",
-  turnOnSprints: "Activer les sprints pour cet espace",
+  turnOnSprintsForThisSpace: "Activer les sprints pour cet espace",
   turnOnSprintsDesc:
     "Une section « Sprints » sera ajoutée à la barre latérale pour cet espace. Un sprint est un tableau avec une date de début et de fin. Lorsqu'un sprint est terminé, le suivant commence automatiquement.",
   ownersAdminsCanTurnOnSprints:
@@ -1982,6 +1980,18 @@ const fr: Translations = {
   parentCard: "Carte parente",
   moveTo: "Déplacer vers...",
   pageMovedTo: "Page déplacée vers",
+  thisSpaceIsEmpty: "Cet espace est vide",
+  createSomethingToGetStarted: "Créez quelque chose pour commencer",
+  visualiseYourWorkflow:
+    "Visualisez votre flux de travail, suivez le travail et gardez les choses organisées",
+  captureImportantInformation:
+    "Capturez des informations importantes, collaborez avec d'autres et partagez-les sur le web",
+  organiseWorkIntoSprints:
+    "Organisez le travail en tranches de temps pour planifier plus facilement",
+  filterYourWorkspaceToCreateViews:
+    "Filtrez votre espace de travail pour créer des vues et partagez-les avec votre équipe",
+  turnOnSprints: "Activer les sprints",
+  cardViews: "Vues de carte",
   convert: "Convertir",
   convertCardToEpic: "Convertir la carte en projet",
   couldNotConvertCardToEpic: "Impossible de convertir la carte en projet",

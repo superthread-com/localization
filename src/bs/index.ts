@@ -687,13 +687,11 @@ const bs: Translations = {
     "Kolaborativni dokumenti s tekstom, slikama, smanjenjem vrijednosti i umetnutim komentarima. Vodite bilješke, pišite specifikacije, napravite wiki ili javno dijelite informacije.",
   filterAcrossTheEntire:
     "Filtrirajte po cijelom radnom prostoru kako biste stvorili prikaz svih kartica koje su vam „dodijeljene” ili možda kreirajte globalni zaostatak „bugova”. Pregledi mogu biti privatni ili podijeljeni s vašim timom.",
-  getStartedBy: "Započnite kreiranjem nove ploče ili stranice",
   useFiltersToCreate:
     "Koristite filtere da napravite novi pogled samo sa karticama koje zelite vidjeti",
   kanbanBoardsUc: "Kanban ploče",
   youCanAlsoImport: "Također možete uvesti svoje postojeće probleme iz",
   importIssues: "Uvezite probleme",
-  welcomeToThe: "Dobrodošli u",
   leaveSpace: "Napusti prostor",
   joinSpace: "Pridruži se prostoru",
   joinThisSpace: "Pridruži se ovom prostoru",
@@ -1751,7 +1749,7 @@ const bs: Translations = {
   sources: "Izvori",
   askAiQuestionLong: "Pitanje treba imati najmanje 10 znakova.",
   spaceSprintsSettings: "Postavke ciklusa prostora %{space}",
-  turnOnSprints: "Uključi cikluse za ovaj prostor",
+  turnOnSprintsForThisSpace: "Uključi cikluse za ovaj prostor",
   turnOnSprintsDesc:
     'Odjeljak "Ciklusi" će biti dodan na bočnu traku za ovaj prostor. Ciklus je ploča sa početnim i završnim datumom. Kada se jedan ciklus završi, sljedeći će automatski početi.',
   ownersAdminsCanTurnOnSprints:
@@ -1929,6 +1927,18 @@ const bs: Translations = {
   parentCard: "Roditeljska kartica",
   moveTo: "Pomjeri u...",
   pageMovedTo: "Stranica pomjerena u",
+  thisSpaceIsEmpty: "Ovaj prostor je prazan",
+  createSomethingToGetStarted: "Kreirajte nešto da biste počeli",
+  visualiseYourWorkflow:
+    "Vizualizirajte svoj radni proces, pratite rad i organizujte stvari",
+  captureImportantInformation:
+    "Zabilježite važne informacije, surađujte s drugima i podijelite na web",
+  organiseWorkIntoSprints:
+    "Organizujte rad u vremenske periode kako biste lakše planirali",
+  filterYourWorkspaceToCreateViews:
+    "Filtrirajte svoj workspace da biste kreirali poglede i podijelili ih s timom",
+  turnOnSprints: "Uključi cikluse",
+  cardViews: "Pogledi kartica",
   convert: "Pretvori",
   convertCardToEpic: "Pretvori karticu u projekt",
   couldNotConvertCardToEpic: "Nije moguće pretvoriti karticu u projekt",
