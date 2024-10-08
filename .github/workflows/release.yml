@@ -142,10 +142,10 @@ jobs:
         run: |
           git checkout -b $HEAD
           git add package.json
-          git commit -m "[bot] ts release $APP $NEW_VERSION"
+          git commit -m "[bot] ts release $APP $NEW_VERSION [SKIP]"
           git push --set-upstream origin $HEAD
           url=$(gh pr create \
-            --title '[bot] release ${{ env.VERSION }}' \
+            --title '[bot] release ${{ env.VERSION }} [SKIP]' \
             --body 'This PR bumps the version to ${{ env.VERSION }}')
           echo "URL=$(echo $url)" >> $GITHUB_OUTPUT
 
