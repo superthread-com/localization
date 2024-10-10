@@ -690,8 +690,8 @@ const bs: Translations = {
   useFiltersToCreate:
     "Koristite filtere da napravite novi pogled samo sa karticama koje zelite vidjeti",
   kanbanBoardsUc: "Kanban ploče",
-  youCanAlsoImport: "Također možete uvesti svoje postojeće probleme iz",
-  importIssues: "Uvezite probleme",
+  importYourExistingTasksFrom: "Uvezite svoje postojeće zadatke iz",
+  importTasks: "Uvezite zadatke",
   leaveSpace: "Napusti prostor",
   joinSpace: "Pridruži se prostoru",
   joinThisSpace: "Pridruži se ovom prostoru",
