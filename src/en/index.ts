@@ -1124,8 +1124,8 @@ const en = {
   useFiltersToCreate:
     "Use filters to create custom views of only the cards you want to see",
   kanbanBoardsUc: "Kanban boards",
-  youCanAlsoImport: "You can also import your existing issues from",
-  importIssues: "Import issues",
+  importYourExistingTasksFrom: "Import your existing tasks from",
+  importTasks: "Import tasks",
   leaveSpace: "Leave space",
   viewSpace: "View space",
   deleted: "%{name} deleted",

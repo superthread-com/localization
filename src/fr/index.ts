@@ -1173,9 +1173,8 @@ const fr: Translations = {
   useFiltersToCreate:
     "Utilisez des filtres pour créer des vues personnalisées des seules cartes que vous souhaitez voir",
   kanbanBoardsUc: "Tableaux kanban",
-  youCanAlsoImport:
-    "Vous pouvez également importer vos problèmes existants depuis",
-  importIssues: "Importer des problèmes",
+  importYourExistingTasksFrom: "Importez vos tâches existantes depuis",
+  importTasks: "Importer des tâches",
   leaveSpace: "Quitter l'espace",
   viewSpace: "Voir l'espace",
   deleted: "%{name} supprimé",
