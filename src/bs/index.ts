@@ -1953,6 +1953,8 @@ const bs: Translations = {
   chosenPageIsAlreadySubpage:
     "Odabrana stranica je već podstranica trenutne stranice",
   searchForResults: "Pretražite za prikaz rezultata",
+  parentCardIs: "Roditeljska kartica je...",
+  projectIs: "Projekt je...",
 };
 
 export default bs;

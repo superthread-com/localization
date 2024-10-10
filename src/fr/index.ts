@@ -2007,6 +2007,8 @@ const fr: Translations = {
   chosenPageIsAlreadySubpage:
     "La page choisie est déjà une sous-page de la page actuelle",
   searchForResults: "Rechercher pour afficher les résultats",
+  parentCardIs: "La carte parent est...",
+  projectIs: "Le projet est...",
 };
 
 export default fr as Translations;
