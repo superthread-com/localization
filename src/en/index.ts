@@ -1919,6 +1919,8 @@ const en = {
   chosenPageIsAlreadySubpage:
     "Chosen page is already a subpage of current page",
   searchForResults: "Search to show results",
+  parentCardIs: "Parent card is...",
+  projectIs: "Project is...",
 };
 
 export default en as Translations;

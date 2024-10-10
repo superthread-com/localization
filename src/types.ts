@@ -1738,6 +1738,8 @@ export enum TranslationKeys {
   RoadmapMustHaveAtLeastOneStatus = "roadmapMustHaveAtLeastOneStatus",
   ChosenPageIsAlreadySubpage = "chosenPageIsAlreadySubpage",
   SearchForResults = "searchForResults",
+  ParentCardIs = "parentCardIs",
+  ProjectIs = "projectIs",
 }
 
 export type Translations = Record<TranslationKeys, string>;
