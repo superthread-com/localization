@@ -1921,6 +1921,7 @@ const en = {
   searchForResults: "Search to show results",
   parentCardIs: "Parent card is...",
   projectIs: "Project is...",
+  convertedTo: "converted to",
 };
 
 export default en as Translations;
