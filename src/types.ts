@@ -1740,6 +1740,7 @@ export enum TranslationKeys {
   SearchForResults = "searchForResults",
   ParentCardIs = "parentCardIs",
   ProjectIs = "projectIs",
+  ConvertedTo = "convertedTo",
 }
 
 export type Translations = Record<TranslationKeys, string>;

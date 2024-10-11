@@ -2008,6 +2008,7 @@ const fr: Translations = {
   searchForResults: "Rechercher pour afficher les résultats",
   parentCardIs: "La carte parent est...",
   projectIs: "Le projet est...",
+  convertedTo: "converti en",
 };
 
 export default fr as Translations;

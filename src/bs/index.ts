@@ -1955,6 +1955,7 @@ const bs: Translations = {
   searchForResults: "Pretražite za prikaz rezultata",
   parentCardIs: "Roditeljska kartica je...",
   projectIs: "Projekt je...",
+  convertedTo: "pretvoreno u",
 };
 
 export default bs;
