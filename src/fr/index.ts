@@ -2009,6 +2009,9 @@ const fr: Translations = {
   parentCardIs: "La carte parent est...",
   projectIs: "Le projet est...",
   convertedTo: "converti en",
+  moveToCompletedSprint: "Déplacer vers le sprint terminé?",
+  onlyDoneCardsCanBeMovedToCompletedSprint:
+    'Seules les cartes marquées "Terminé" peuvent être déplacées vers un sprint terminé. Cette carte sera marquée comme "Terminé" et déplacée.',
 };
 
 export default fr as Translations;
