@@ -1956,6 +1956,9 @@ const bs: Translations = {
   parentCardIs: "Roditeljska kartica je...",
   projectIs: "Projekt je...",
   convertedTo: "pretvoreno u",
+  moveToCompletedSprint: "Pomjeri u završeni ciklus?",
+  onlyDoneCardsCanBeMovedToCompletedSprint:
+    'Samo "Završene" kartice mogu se premjestiti u završeni ciklus. Ova kartica će biti promijenjena u "Završeno" i premještena.',
 };
 
 export default bs;

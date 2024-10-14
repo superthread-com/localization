@@ -1922,6 +1922,9 @@ const en = {
   parentCardIs: "Parent card is...",
   projectIs: "Project is...",
   convertedTo: "converted to",
+  moveToCompletedSprint: "Move to completed sprint?",
+  onlyDoneCardsCanBeMovedToCompletedSprint:
+    "Only “Done” cards can be moved to a completed sprint. This card will be changed to “Done” and moved.",
 };
 
 export default en as Translations;
