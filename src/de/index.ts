@@ -1928,7 +1928,7 @@ const de = {
     "Nur „Fertig“ Karten können in einen abgeschlossenen Sprint verschoben werden. Diese Karte wird auf „Fertig“ geändert und verschoben.",
 };
 
-export default en as Translations;
+export default de as Translations;
 
 
 
