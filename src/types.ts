@@ -1742,7 +1742,7 @@ export enum TranslationKeys {
   ProjectIs = "projectIs",
   ConvertedTo = "convertedTo",
   MoveToCompletedSprint = "moveToCompletedSprint",
-  OnlyDoneCardsCanBeMovedToCompletedSprint = "onlyDoneCardsCanBeMovedToCompletedSprint"
+  OnlyDoneCardsCanBeMovedToCompletedSprint = "onlyDoneCardsCanBeMovedToCompletedSprint",
 }
 
 export type Translations = Record<TranslationKeys, string>;
