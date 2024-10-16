@@ -36,9 +36,9 @@ const de = {
   spaceNamePlaceHolder: "z.B. Web-Shop",
   min3Characters: "Mindestens 3 Zeichen lang.",
   continueWithGoogle: "Mit Google fortfahren",
-  welcomeToSuperThread: "Willkommen bei Superthread",
+  welcomeToSuperThread: "Willkommen auf Superthread",
   aWorkspaceIs:
-    "Ein Arbeitsbereich ist normalerweise nach deiner Organisation benannt. Du kannst diesen Namen später nicht ändern.",
+    "Ein Arbeitsbereich ist normalerweise nach deiner Organisation benannt. Du kannst dieses Name später nicht ändern.",
   youCanChangeThis:
     "Du kannst dies später ändern und so viele Räume erstellen, wie du möchtest.",
   LoginCode: "Anmeldecode",
@@ -53,7 +53,7 @@ const de = {
   cardsLayoutCalendar: "Kalender (Beta)",
   // Group titles
   ["slash.group.media"]: "Medien",
-  ["slash.group.basic"]: "Basis",
+  ["slash.group.basic"]: "Basisch",
   ["slash.group.inline"]: "Inline",
   ["slash.group.embed"]: "Einbetten",
   // Keywords
@@ -191,9 +191,9 @@ const de = {
   ["billing.thereIsNoPaymentMethod"]:
     "Es gibt keine Zahlungsmethode, die mit diesem Arbeitsbereich verbunden ist. Eine Zahlungsmethode erscheint hier, sobald du einen kostenpflichtigen Plan ausgewählt hast.",
   ["billing.selectAPaidPlan"]: "Wähle einen kostenpflichtigen Plan",
-  ["billing.upgradePlan"]: "Auf diesen Plan upgraden",
-  ["billing.downgradePlan"]: "Auf diesen Plan downgraden",
-  ["billing.downgradeToFree"]: "Auf kostenlos downgraden",
+  ["billing.upgradePlan"]: "Upgrade auf diesen Plan",
+  ["billing.downgradePlan"]: "Downgrade auf diesen Plan",
+  ["billing.downgradeToFree"]: "Downgrade auf kostenlos",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Zahlungsmethode in Stripe anzeigen",
   ["billing.weBillTheWorkspacePayment"]:
@@ -531,7 +531,7 @@ const de = {
   displayNamePlaceholder: "Anzeigenamen eingeben",
   profileBasicInfoSubtitle: "Persönliche und Kontaktinformationen",
   uploadProfileImageRule:
-    "Das Bild sollte im PNG-, GIF- oder JPG-Format vorliegen und nicht größer als 3 MB sein. Dies wird als dein Avatar in der gesamten App angezeigt.",
+    "Das Bild sollte im PNG, GIF oder JPG-Format vorliegen und nicht größer als 3 MB sein. Dies wird als dein Avatar in der gesamten App angezeigt.",
   workspaceLogo:
     "Wähle ein Arbeitsbereichslogo. Empfohlene Größe ist 256x256px",
   logoSaved: "Logo gespeichert",
