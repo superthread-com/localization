@@ -916,7 +916,7 @@ const bs: Translations = {
   resourceAndContentWillBeDeleted:
     '%{resourceType} "%{resourceTitle}" i njegov sadržaj će biti trajno izbrisan za sve. Ovo se ne može poništiti.',
   resourceWillBeDeleted:
-    '%{resourceType} "%{resourceTitle}" će biti trajno izbrisan za sve. Ovo se ne može poništiti.',
+    '%{resourceType} "%{resourceTitle}" će biti trajno izbrisan. Ovo se ne može poništiti. Sve kartice koje su dodane projektu neće biti izbrisane.',
   listNameLabel: "Ime liste",
   deleteList: "Izbriši listu",
   itemName: "Ime stavke",
