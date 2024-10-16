@@ -2019,6 +2019,7 @@ const de = {
   moveToCompletedSprint: "In den abgeschlossenen Sprint verschieben?",
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Nur „Fertig“ Karten können in einen abgeschlossenen Sprint verschoben werden. Diese Karte wird auf „Fertig“ geändert und verschoben.",
+  removeCardFromProject: "Karte aus Projekt entfernen",
 };
 
 export default de as Translations;

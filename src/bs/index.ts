@@ -1959,6 +1959,7 @@ const bs: Translations = {
   moveToCompletedSprint: "Pomjeri u završeni ciklus?",
   onlyDoneCardsCanBeMovedToCompletedSprint:
     'Samo "Završene" kartice mogu se premjestiti u završeni ciklus. Ova kartica će biti promijenjena u "Završeno" i premještena.',
+  removeCardFromProject: "Ukloni karticu iz projekta",
 };
 
 export default bs;
