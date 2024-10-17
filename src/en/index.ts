@@ -1927,6 +1927,13 @@ const en = {
     "Only “Done” cards can be moved to a completed sprint. This card will be changed to “Done” and moved.",
   removeCardFromProject: "Remove card from project",
   roadmapOpenedInTheBackground: "Roadmap opened in the background",
+  unfavouriteCurrentSprint: "Unfavourite current sprint",
+  favouriteCurrentSprint: "Favourite current sprint",
+  unfavouriteNextSprint: "Unfavourite next sprint",
+  favouriteNextSprint: "Favourite next sprint",
+  unfavouriteSprintName: "Unfavourite sprint named %{sprintName}",
+  favouriteSprintName: "Favourite sprint named %{sprintName}",
+  currentSprint: "Current sprint",
 };
 
 export default en as Translations;
