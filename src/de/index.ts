@@ -2025,9 +2025,8 @@ const de = {
   favouriteCurrentSprint: "Favorit aktueller Sprint",
   unfavouriteNextSprint: "Nächster Sprint nicht favorisiert",
   favouriteNextSprint: "Favorit nächster Sprint",
-  unfavouriteSprintName:
-    "Nicht favorisierter Sprint mit dem Namen %{sprintName}",
-  favouriteSprintName: "Favoritensprint mit dem Namen %{sprintName}",
+  unfavouriteSprintName: "Nicht favorisierter %{sprintName}",
+  favouriteSprintName: "Favoriten %{sprintName}",
   currentSprint: "Aktueller Sprint",
 };
 
