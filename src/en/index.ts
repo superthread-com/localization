@@ -1931,8 +1931,8 @@ const en = {
   favouriteCurrentSprint: "Favourite current sprint",
   unfavouriteNextSprint: "Unfavourite next sprint",
   favouriteNextSprint: "Favourite next sprint",
-  unfavouriteSprintName: "Unfavourite sprint named %{sprintName}",
-  favouriteSprintName: "Favourite sprint named %{sprintName}",
+  unfavouriteSprintName: "Unfavourite %{sprintName}",
+  favouriteSprintName: "Favourite %{sprintName}",
   currentSprint: "Current sprint",
 };
 

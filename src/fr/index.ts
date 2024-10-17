@@ -2018,8 +2018,8 @@ const fr: Translations = {
   favouriteCurrentSprint: "Sprint actuel favori",
   unfavouriteNextSprint: "Sprint suivant non favori",
   favouriteNextSprint: "Sprint suivant favori",
-  unfavouriteSprintName: "Sprint non favori nommé %{sprintName}",
-  favouriteSprintName: "Sprint favori nommé %{sprintName}",
+  unfavouriteSprintName: "Non favori %{sprintName}",
+  favouriteSprintName: "Favori %{sprintName}",
   currentSprint: "Sprint actuel",
 };
 
