@@ -1047,7 +1047,7 @@ const de = {
   urlDoesntLeadAnywhere: "Diese URL führt nirgendwohin",
   itemMightBeDeleted:
     "Das Element könnte gelöscht worden sein oder du hast möglicherweise keinen Zugriff darauf",
-  deleteItem: "%{item} löschen",
+  deleteItem: "Lösche %{item}",
   deleteSpace: "Raum löschen",
   ifYouWantToDeleteSpace:
     "Wenn du diesen Raum löschen möchtest, gib seinen Namen unten ein.",
