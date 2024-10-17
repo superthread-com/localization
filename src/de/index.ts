@@ -310,9 +310,9 @@ const de = {
   deleteCommentPopupMessage:
     "Bist du sicher, dass du diesen Kommentar löschen möchtest?",
   deleteMessage: "Kommentar löschen",
-  archiveResource: "%{type} archivieren",
-  restoreResource: "%{type} wiederherstellen",
-  deleteResource: "%{type} löschen",
+  archiveResource: "Archiviere %{type}",
+  restoreResource: "Wiederherstelle %{type}",
+  deleteResource: "Lösche %{type}",
   deleteSuccess: "%{name} %{type} wurde gelöscht",
   archiveSuccess: "%{name} %{type} wurde archiviert",
   restoreSuccess: "%{name} %{type} wurde wiederhergestellt",
