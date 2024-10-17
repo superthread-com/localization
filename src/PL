@@ -1,0 +1,1888 @@
+import { Translations } from "../types";
+
+const en = {
+  // onboarding
+  inviteTeamMembersTo: "Zaproś członków zespołu do swojego miejsca pracy", // Invite team members to your workspace
+  loggingIn: "Logowanie się", // Logging you in
+  defaultSpaceName: "Ogólne", // General
+  onboardingSpaceName: "Witamy 👋", // Welcome
+  loginCodeSendAgain: "Wyślij ponownie swój kod logowania", // Send your login code again
+  loginCodeResent: "Twój kod logowania został wysłany ponownie.", // Your login code has been sent again.
+  loginCodeError: "Nieprawidłowy kod weryfikacyjny.", // Wrong login verification code.
+  loginCodeErrorSending: "Wystąpił problem z wysłaniem kodu weryfikacyjnego.", // There was a problem sending your login verification code.
+  loginCodeErrorExpired: "Twój kod weryfikacyjny wygasł. Wysłaliśmy nowy.", // Your login verification has expired; we've sent you another one.
+  loginCodeErrorRateLimited: "Zbyt wiele prób. Spróbuj ponownie później.", // You've made too many attempts, please try again later.
+  pickAWorkspaceName: "Wybierz nazwę przestrzeni roboczej", // Pick a workspace name
+  creatingWorkspace: "Tworzenie przestrzeni roboczej", // Creating workspace
+  createaSpace: "Utwórz przestrzeń", // Create a space
+  subdomainExists: "Ta nazwa przestrzeni jest już zajęta. Spróbuj innej.", // This workspace name is already taken. Please try another.
+  emailLabel: "Twój adres e-mail", // Your email address
+  passwordLabel: "Hasło", // Password
+  checkEmail: "Sprawdź swoją skrzynkę pocztową", // Check your email
+  haveSent: "Wysłaliśmy ", // We’ve sent a
+  weSentALoginCode: "Wysłaliśmy kod logowania na adres:", // We sent a login code to:
+  sixDigit: "6-cyfrowy kod logowania", // 6 digit login code
+  sixDigits: "6 cyfr", // 6 digits
+  confTo: "do", // to
+  checkInbox: "Sprawdź swoją skrzynkę odbiorczą.", // Please check your inbox.
+  teamName: "Jak nazywa się Twój zespół?", // What’s the name of your team?
+  workspaceNameLabel: "Nazwa przestrzeni roboczej", // Workspace name
+  workspaceNamePlaceHolder: "np. Acme industries", // e.g. Acme industries
+  spaceNameLabel: "Nazwa przestrzeni", // Space name
+  spaceNamePlaceHolder: "np. sklep internetowy", // e.g. web-shop
+  min3Characters: "Minimum 3 znaki.", // Minimum 3 characters long.
+  continueWithGoogle: "Kontynuuj z Google", // Continue with Google
+  welcomeToSuperThread: "Witamy w SuperThread", // Welcome to SuperThread
+  aWorkspaceIs: "Przestrzeń robocza jest zazwyczaj nazwana na cześć twojej organizacji. Nie możesz później zmienić tej nazwy.", // A workspace is usually named after your organization. You cannot change this name later.
+  youCanChangeThis: "Możesz to później zmienić i utworzyć dowolną liczbę przestrzeni.", // You can change this later and create as many spaces as you like.
+  LoginCode: "Kod logowania", // Login code
+  enterLoginCode: "Wprowadź kod logowania", // Enter login code
+  continueWithEmail: "Kontynuuj przez e-mail", // Continue with Email
+  registerGoogle: "Zarejestruj się przez Google", // Register With Google
+  onboardingEmailPlaceholder: "ty@przyklad.com", // you@example.com
+  // cards
+  cardsLayoutList: "Lista", // List
+  cardsLayoutBoard: "Tablica", // Board
+  cardsLayoutTimeline: "Oś czasu", // Timeline
+  cardsLayoutCalendar: "Kalendarz (Beta)", // Calendar (Beta)
+  // Group titles
+  ["slash.group.media"]: "Media", // Media
+  ["slash.group.basic"]: "Podstawowe", // Basic
+  ["slash.group.inline"]: "Wbudowane", // Inline
+  ["slash.group.embed"]: "Osadź", // Embed
+  // Keywords
+  ["slash.keyword.media"]: "załączobrazplikwgrajmultiprzekazmediaplik", // attachimagefileuploadmediaattachment
+  // Commands
+  // slashCommands
+  ["slash.display.attach"]: "Załącz", // Attach
+  ["slash.search.attach"]: "załącz", // attach
+  "slash.display.image": "Obraz", // Image
+  "slash.display.youtube": "Osadź film z YouTube", // Embed YouTube video
+  "slash.display.checklist": "Lista kontrolna", // Checklist
+  "slash.display.table": "Tabela", // Table
+  "slash.display.h1": "Nagłówek H1", // H1
+  "slash.display.h2": "Nagłówek H2", // H2
+  "slash.display.h3": "Nagłówek H3", // H3
+  "slash.display.bulleted": "Lista wypunktowana", // Bulleted list
+  "slash.display.numbered": "Lista numerowana", // Numbered list
+  "slash.display.blockquote": "Blok cytatu", // Blockquote
+  "slash.display.hr": "Linia pozioma", // Horizontal rule
+  "slash.display.card": "Karta", // Card
+  "slash.display.mention": "Wzmianka", // Mention
+  "slash.display.codeBlock": "Blok kodu", // Code block
+  "slash.display.board": "Tablica", // Board
+  "slash.display.callout": "Zwrócenie uwagi", // Callout
+  "slash.search.image": "obraz", // image
+  "slash.search.youtube": "film youtube", // youtube video
+  "slash.search.checklist": "lista kontrolna", // checklist
+  "slash.search.table": "tabela", // table
+  "slash.search.h1": "nagłówek h1", // h1
+  "slash.search.h2": "nagłówek h2", // h2
+  "slash.search.h3": "nagłówek h3", // h3
+  "slash.search.bulleted": "lista wypunktowana", // bulleted list
+  "slash.search.numbered": "lista numerowana", // numbered list
+  "slash.search.blockquote": "cytat blokowy", // blockquote
+  "slash.search.hr": "linia pozioma", // horizontal rule
+  "slash.search.card": "karta", // card
+  "slash.search.mention": "wzmianka", // mention
+  "slash.search.codeBlock": "blok kodu", // code block
+  "slash.search.embed": "osadź tablicę", // embed board
+  // menus
+  "menu.add-column-before": "Dodaj kolumnę przed", // Add column before
+  "menu.add-column-after": "Dodaj kolumnę po", // Add column after
+  "menu.add-row-before": "Dodaj wiersz przed", // Add row before
+  "menu.add-row-after": "Dodaj wiersz po", // Add row after
+  "menu.merge-cells": "Scal komórki", // Toggle merge cells
+  "menu.toggle-header-row": "Włącz/wyłącz wiersz nagłówka", // Toggle header row
+  "menu.delete-column": "Usuń kolumnę", // Delete column
+  "menu.delete-row": "Usuń wiersz", // Delete row
+  "menu.delete-table": "Usuń tabelę", // Delete table
+  "menu.toggle-expand-to-page-size": "Rozszerz na pełną szerokość", // Toggle full width
+  "menu.add-comment": "Dodaj komentarz", // Add comment
+  "menu.heading": "Nagłówek %{level}", // Heading %{level}
+  "menu.bold": "Pogrubienie", // Bold
+  "menu.italic": "Kursywa", // Italic
+  "menu.strikethrough": "Przekreślenie", // Strikethrough
+  "menu.underline": "Podkreślenie", // Underline
+  "menu.check-list": "Lista kontrolna", // Checklist
+  "menu.bullet-list": "Lista wypunktowana", // Bullet list
+  "menu.ordered-list": "Lista numerowana", // Ordered list
+  "menu.horizontal-rule": "Linia pozioma", // Horizontal rule
+  "menu.link": "Link", // Link
+  "menu.quick-card": "Szybka karta", // Quick card
+  "menu.blockquote": "Blok cytatu", // Block quote
+  "menu.codeblock": "Blok kodu", // Code block
+  "menu.code": "Kod w linii", // Inline code
+  "menu.undo": "Cofnij", // Undo
+  "menu.redo": "Ponów", // Redo
+  "menu.table-cell-color": "Kolor komórki", // Cell color
+  "menu.clear-table-cell-color": "Wyczyść kolor komórki", // Clear cell color
+  "menu.align-left": "Wyrównaj do lewej", // Align left
+  "menu.align-center": "Wyrównaj do środka", // Align center
+  "menu.align-right": "Wyrównaj do prawej", // Align right
+  // editor
+  "editor.clickToDownload": "Kliknij, aby pobrać", // Click to download
+  "editor.loading": "Ładowanie", // Loading
+  "editor.characterLimitReachedTryFile": "Osiągnięto limit znaków. Możesz dołączyć pliki.", // Character limit reached. For larger content you can attach files.
+  "editor.uploading": "Przesyłanie", // Uploading
+  "editor.genericFileError": "Nie udało się przesłać pliku.", // Your file could not be uploaded.
+  // billing
+  ["billing.unlimitedMembers"]: "Nielimitowana liczba członków zespołu", // Unlimited team members
+  ["billing.unlimitedSpaces"]: "Nielimitowana liczba przestrzeni", // Unlimited spaces
+  ["billing.unlimitedBoards"]: "Nielimitowana liczba tablic", // Unlimited boards
+  ["billing.unlimitedCardsAndPages"]: "Nielimitowana liczba kart i stron", // Unlimited cards and pages
+  ["billing.unlimitedViews"]: "Nielimitowana liczba widoków", // Unlimited views
+  ["billing.category.workspaceMembers"]: "Członkowie przestrzeni roboczej", // Workspace members
+  ["billing.category.spaces"]: "Przestrzenie", // Spaces
+  ["billing.category.boards"]: "Tablice", // Boards
+  ["billing.category.cardsAndPages"]: "Karty i strony", // Cards and pages
+  ["billing.category.views"]: "Widoki", // Views
+  ["billing.category.fileSize"]: "Rozmiar pliku", // File size
+  ["billing.category.privateSpaces"]: "Prywatne przestrzenie", // Private spaces
+  ["billing.category.userPermissions"]: "Uprawnienia użytkowników", // User permissions
+  ["billing.category.guestAccounts"]: "Konta gości", // Guest accounts
+  ["billing.noPrivateSpaces"]: "Brak prywatnych przestrzeni", // No private spaces
+  ["billing.everyoneIsAdmin"]: "Wszyscy są administratorami", // Everyone is admin
+  ["billing.noGuestAccounts"]: "Brak kont gości", // No guest accounts
+  ["billing.5mbFileSizeLimit"]: "Limit rozmiaru pliku 5MB", // 5MB file size limit
+  ["billing.noFileSizeLimit"]: "Brak limitu rozmiaru pliku", // No file size limit
+  ["billing.unlimitedPrivateSpaces"]: "Nielimitowana liczba prywatnych przestrzeni", // Unlimited private spaces
+  ["billing.2Spaces"]: "2 przestrzenie", // 2 spaces
+  ["billing.adminRolesAndPermissions"]: "Role i uprawnienia administratora", // Admin roles & permissions
+  ["billing.unlimitedCards"]: "Nielimitowana liczba kart", // Unlimited cards
+  ["billing.sharePagesOnTheWeb"]: "Udostępniaj strony w sieci", // Share pages on the web
+  ["billing.50Pages"]: "50 stron", // 50 pages
+  ["billing.unlimitedPages"]: "Nielimitowana liczba stron", // Unlimited pages
+  ["billing.indexPublishedPages"]: "Indeksuj opublikowane strony w wyszukiwarkach", // Index published pages in search engines
+  ["billing.privateSpaces"]: "Prywatne przestrzenie", // Private spaces
+  ["billing.timelineListAndBoardView"]: "Widok listy osi czasu i tablicy", // Timeline list & board view
+  ["billing.guestAccounts"]: "Konta gości", // Guest accounts
+  ["billing.monthly"]: "Miesięcznie", // Monthly
+  ["billing.yearly"]: "Rocznie (-20%)", // Yearly (-20%)
+  ["billing.currentPlan"]: "Bieżący plan", // Current plan
+  ["billing.yourChosenPaymentMethodIs"]: "Twoja wybrana metoda płatności to %{method}", // Your chosen payment method is %{method}
+  ["billing.thisIsThePaymentMethod"]: "To jest metoda płatności, której użyjemy do przyszłych płatności. Możesz ją zmienić w dowolnym momencie.", // This is the payment method we will use for future payments. You can change it at any time.
+  ["billing.billing"]: "Fakturowanie", // Billing
+  ["billing.planAndBilling"]: "Plan i fakturowanie", // Plan and Billing
+  ["billing.paymentMethod"]: "Metoda płatności", // Payment method
+  ["billing.cardEndingIn"]: "%{cardType} z końcówką %{last4}", // %{cardType} ending in %{last4}
+  ["billing.manageBillingDetails"]: "Zarządzaj szczegółami fakturowania", // Manage billing details
+  ["billing.viewBillingDetails"]: "Zobacz szczegóły fakturowania", // View billing details
+  ["billing.updatePaymentDetails"]: "Zaktualizuj dane dotyczące płatności", // Update payment details
+  ["billing.sendNewInvoicesTo"]: "Wyślij nowe faktury do", // Send new invoices to
+  ["billing.previousInvoices"]: "Poprzednie faktury", // Previous invoices
+  ["billing.plan"]: "Plan", // Plan
+  ["billing.manageWhichPlan"]: "Zarządzaj, który plan wykorzystuje przestrzeń robocza", // Manage which plan the workspace uses
+  ["billing.standard"]: "Standard", // Standard
+  ["billing.changePlan"]: "Zmień plan", // Change plan
+  ["billing.free"]: "Darmowy", // Free
+  ["billing.upgrade"]: "Ulepsz", // Upgrade
+  ["billing.noPaymentMethod"]: "Brak metody płatności", // No payment method
+  ["billing.thereIsNoPaymentMethod"]: "Nie ma powiązanej metody płatności z tą przestrzenią roboczą. Metoda płatności pojawi się tutaj po wybraniu płatnego planu.", // There is no payment method associated with this workspace. A payment method will appear here once you’ve selected a paid plan.
+  ["billing.selectAPaidPlan"]: "Wybierz płatny plan", // Select a paid plan
+  ["billing.upgradePlan"]: "Ulepsz do tego planu", // Upgrade to this plan
+  ["billing.downgradePlan"]: "Zmień na ten plan", // Downgrade to this plan
+  ["billing.downgradeToFree"]: "Zmień na darmowy", // Downgrade to free
+  ["billing.viewYourPaymentMethodInStripe"]: "Zobacz swoją metodę płatności w Stripe", // View your payment method in Stripe
+  ["billing.weBillTheWorkspacePayment"]: "Obciążamy metodę płatności przestrzeni roboczej po zaakceptowaniu zaproszenia.", // We bill the workspace payment method when an invitation is accepted.
+  ["billing.checkThePlanPanel"]: "Sprawdź panel planu, aby uzyskać szacunkowy koszt na użytkownika.", // Check the plan panel for a per-seat cost estimate.
+  ["billing.12"]: "$12", // $12
+  ["billing.10"]: "$10", // $10
+  ["billing.perUserPerMonth"]: "/ użytkownik / miesiąc", // / user / month
+  ["billing.billedYearly"]: "rozliczane rocznie", // billed yearly
+  ["billing.planStatus"]: "Status planu", // Plan status
+  ["billing.yourCurrentPlanIsNotSetToRenew"]: "Twój bieżący plan nie jest ustawiony do automatycznego odnawiania", // Your current plan is not set to renew
+  ["billing.on"]: "Włączone", // On
+  ["billing.dateYourWorkspaceWillDowngrade"]: "Twoja przestrzeń robocza zostanie obniżona do darmowego planu. Do tego czasu możesz zapraszać ludzi, ale nie przekroczysz", // your workspace will downgrade to the Free plan. Until then, you can still invite people to this workspace, but you will not be able to exceed
+  ["billing.workspaceMembers"]: "członków przestrzeni roboczej", // workspace members
+  ["billing.turnRenewalBackOn"]: "Włącz ponownie odnawianie", // Turn renewal back on
+  ["billing.youCanStillInvite"]: "Możesz nadal zapraszać ludzi do tej przestrzeni roboczej, ale nie możesz przekroczyć", // You can still invite people to this workspace, but you cannot exceed
+  ["billing.workspaceFullError"]: "Osiągnięto limit członków przestrzeni roboczej. Administrator może go zwiększyć.", // Workspace member limit reached. A workspace admin can raise it.
+  ["billing.genericJoinError"]: "Nie udało się dołączyć do przestrzeni roboczej.", // Could not join workspace.
+  ["billing.startsOn"]: "Zaczyna się %{date}", // Starts on %{date}
+  ["billing.switchToYearly"]: "Przełącz na roczne (-20%)", // Switch to yearly (-20%)
+  ["billing.switchToMonthly"]: "Przełącz na miesięczne", // Switch to monthly
+  ["billing.metadata"]: "Wszystko w %{plan} plus...", // Everything in %{plan} plus...
+  ["billing.talkToOurExperts"]: "Porozmawiaj z naszymi ekspertami", // Talk to our experts
+  ["billing.samlAndScim"]: "SAML i SCIM", // SAML & SCIM
+  ["billing.auditLogs"]: "Dzienniki audytu", // Audit logs
+  ["billing.customBilling"]: "Fakturowanie niestandardowe", // Custom billing
+  ["billing.prioritySupport"]: "Wsparcie priorytetowe", // Priority support
+  ["billing.unlimitedChildCards"]: "Nielimitowana liczba kart potomnych", // Unlimited child cards
+  ["billing.publishPagesToTheWeb"]: "Publikuj strony w sieci", // Publish pages to the web
+  ["billing.calendarLayout"]: "Układ kalendarza", // Calendar layout
+  ["billing.advancedSearch"]: "Zaawansowane wyszukiwanie", // Advanced search
+  ["billing.views"]: "Widoki", // Views
+  ["billing.timelineLayout"]: "Układ osi czasu", // Timeline layout
+  ["billing.liveChatSupport"]: "Wsparcie przez czat na żywo", // Live chat support
+  // global
+  ["global.text.create"]: "Utwórz", // Create
+  ["option.label.cards"]: "Karty", // Cards
+  ["option.label.pages"]: "Strony", // Pages
+  ["option.label.boards"]: "Tablice", // Boards
+  ["option.label.epics"]: "Projekty", // Projects
+  ["option.label.spaces"]: "Przestrzenie", // Spaces
+  ["option.label.showArchived"]: "Pokaż zarchiwizowane", // Show archived
+  ["search.message.noResults"]: "Nie znaleziono", // Not found
+  ["global.text.discardDraft"]: "Odrzuć szkic", // Discard draft
+  switchAccount: "Przełącz konto", // Switch account
+  all: "Wszystko", // All
+  search: "Szukaj", // Search
+  searchPlaceholder: "Szukaj lub zadaj pytanie...", // Search or ask a question...
+  close: "Zamknij", // Close
+  send: "Wyślij", // Send
+  resendInviteLink: "Wyślij ponownie link zaproszenia", // Resend invite link
+  addComment: "Dodaj komentarz", // Add comment
+  comment: "Komentarz", // Comment
+  replyToComment: "Odpowiedz na komentarz...", // Reply to comment...
+  writeComment: "Napisz komentarz...", // Write a comment...
+  comments: "Komentarze", // Comments
+  createBoard: "Utwórz tablicę", // Create board
+  createPage: "Utwórz stronę", // Create page
+  delete: "Usuń", // Delete
+  edit: "Edytuj", // Edit
+  remove: "Usuń", // Remove
+  done: "Gotowe", // Done
+  cancel: "Anuluj", // Cancel
+  cancelAndDiscard: "Anuluj i odrzuć", // Cancel and discard
+  enterBoardTitle: "Tytuł tablicy", // Board title
+  create: "Utwórz", // Create
+  join: "Dołącz", // Join
+  couldntJoinSpace: "Nie udało się dołączyć do przestrzeni, spróbuj później.", // Could not join space, try again later.
+  untitled: "Bez tytułu", // Untitled
+  containsNoContent: "Brak treści.", // Contains no content.
+  ama: "AMA", // AMA
+  me: "Ja", // Me
+  assigned: "Przydzielone", // Assigned
+  mentions: "Wzmianki", // Mentions
+  visited: "Odwiedzone", // Visited
+  saved: "Zapisane", // Saved
+  notifications: "Powiadomienia", // Notifications
+  selectWhereWwhenWillNotified: "Wybierz sposób, w jaki chcesz być powiadamiany", // Choose how you want to be notified
+  recivePersonalNotification: "Otrzymuj powiadomienia osobiste na Slacku", // Receive personal notifications in Slack
+  notifyMe: "Powiadom mnie, kiedy", // Notify me when
+  save: "Zapisz", // Save
+  saveChanges: "Zapisz zmiany", // Save changes
+  archived: "Zarchiwizowane", // Archived
+  archive: "Archiwizuj", // Archive
+  watch: "Obserwuj", // Watch
+  unwatch: "Przestań obserwować", // Unwatch
+  cardArchived: "Karta jest zarchiwizowana.", // Card is archived.
+  cardArchivedByCard: "Karta jest zarchiwizowana.", // Card is archived.
+  cardArchivedByList: "Karta jest częścią zarchiwizowanej listy. Przenieś do aktywnej listy, aby przywrócić.", // Card is part of an archived list. Move to an active list to restore.
+  cardArchivedByBoard: "Karta jest częścią zarchiwizowanej tablicy. Przenieś do aktywnej tablicy, aby przywrócić.", // Card is part of an archived board. Move to an active board to restore.
+  epicArchived: "Projekt jest zarchiwizowany.", // Project is archived.
+  epicArchivedByEpic: "Projekt jest zarchiwizowany.", // Project is archived.
+  epicArchivedByList: "Projekt jest częścią zarchiwizowanej listy. Przenieś do aktywnej listy, aby przywrócić.", // Project is part of an archived list. Move to an active list to restore.
+  boardArchived: "Tablica jest zarchiwizowana.", // Board is archived.
+  isArchived: "jest zarchiwizowane", // is archived
+  pageArchived: "Strona jest zarchiwizowana.", // Page is archived.
+  cellMerge: "Scal komórki", // Cell Merge
+  new: "Nowy", // New
+  view: "Widok", // View
+  project: "przestrzeń", // space
+  spaces: "Przestrzenie", // Spaces
+  teamId: "ID zespołu", // team id
+  deleteCommentPopupMessage: "Czy na pewno chcesz usunąć ten komentarz?", // Are you sure you want to delete this comment?
+  deleteMessage: "Usuń komentarz", // Delete comment
+  archiveResource: "Zarchiwizuj %{type}", // Archive %{type}
+  restoreResource: "Przywróć %{type}", // Restore %{type}
+  deleteResource: "Usuń %{type}", // Delete %{type}
+  deleteSuccess: "%{name} %{type} zostało usunięte", // %{name} %{type} is deleted
+  archiveSuccess: "%{name} %{type} zostało zarchiwizowane", // %{name} %{type} is archived
+  restoreSuccess: "%{name} %{type} zostało przywrócone", // %{name} %{type} is restored
+  deleteError: "Nie udało się usunąć %{name} %{type}", // Couldn’t delete %{name} %{type}
+  archiveError: "Nie udało się zarchiwizować %{name} %{type}", // Couldn’t archive %{name} %{type}
+  restoreError: "Nie udało się przywrócić %{name} %{type}", // Couldn’t restore %{name} %{type}
+  addLink: "Dodaj link", // Add link
+  couldntDeleteComment: "Nie udało się usunąć komentarza, spróbuj ponownie", // Could not delete comment, please try again
+  couldntLoadComments: "Nie udało się załadować komentarzy.", // Could not load comments.
+  commentOnPage: "Komentarz do strony", // Comment on page
+  emailPlaceholder: "np. ty@przyklad.com", // e.g. you@example.com
+  signOut: "Wyloguj się", // Sign Out
+  leave: "Opuść", // Leave
+  browseAllSpaces: "Przeglądaj wszystkie przestrzenie", // Browse All Spaces
+  preview: "Podgląd", // Preview
+  goToCard: "Przejdź do karty", // Go to card
+  zoomIn: "Przybliż", // Zoom in
+  zoomOut: "Oddal", // Zoom out
+  notFoundPageHeader: "Wystąpił błąd...", // There’s been a glitch...
+  notFoundPageContent: "Nie jesteśmy pewni, co poszło nie tak. Możesz wrócić lub spróbować poszukać pomocy w naszym Centrum Pomocy, jeśli potrzebujesz pomocy.", // We’re not quite sure what went wrong. You can go back or try looking in our Help Center if you need a hand.
+  addCard: "Dodaj kartę", // Add card
+  addProject: "Dodaj projekt", // Add project
+  next: "Dalej", // Next
+  addToCard: "Dodaj do karty", // Add to card
+  checklist: "Lista kontrolna", // Checklist
+  moveList: "Przenieś listę", // Move list
+  board: "Tablica", // Board
+  timeline: "Oś czasu", // Timeline
+  templates: "Szablony", // Templates
+  cardTemplates: "Szablony kart", // Card templates
+  pageTemplates: "Szablony stron", // Page templates
+  saveCardContentYouRepeatedlyUse: "Zapisz treść, której używasz wielokrotnie, i zastosuj ją podczas tworzenia kart", // Save content you repeatedly use and apply it when you create cards
+  savePageContentYouRepeatedlyUse: "Zapisz treść, której używasz wielokrotnie, i zastosuj ją podczas tworzenia stron", // Save content you repeatedly use and apply it when you create pages
+  createCardTemplate: "Utwórz szablon karty", // Create card template
+  editCardTemplate: "Edytuj szablon karty", // Edit card template
+  searchTemplates: "Szukaj szablonów", // Search templates
+  name: "Nazwa", // Name
+  noCardTemplates: "Brak szablonów kart", // No card templates
+  noPageTemplates: "Brak szablonów stron", // No page templates
+  calendar: "Kalendarz", // Calendar
+  showAllCards: "Pokaż wszystkie karty", // Show all cards
+  hideAllCards: "Ukryj wszystkie karty", // Hide all cards
+  showWeekends: "Pokaż weekendy", // Show weekends
+  youCanCreateATemplateAbove: "Możesz utworzyć szablon powyżej", // You can create a template above
+  youCanCreateABoardFrom: "Możesz utworzyć tablicę z paska bocznego aplikacji", // You can create a board from the app sidebar
+  createPageTemplate: "Utwórz szablon strony", // Create page template
+  editPageTemplate: "Edytuj szablon strony", // Edit page template
+  templateNameAndIcon: "Nazwa i ikona szablonu", // Template name and icon
+  thisIsHowPeopleFindTemplate: "W ten sposób ludzie znajdą Twój szablon później", // This is how people will find your template later
+  shortAndDescriptive: "Krótki i opisowy", // Short and descriptive
+  templateNameCannotBeEmpty: "Nazwa szablonu nie może być pusta", // Template name cannot be empty
+  templateSpace: "Przestrzeń szablonu", // Template space(s)
+  whichSpacesWillThisTemplateBeAvailableIn: "W których przestrzeniach będzie dostępny ten szablon?", // Which spaces will this template be available in?
+  templateSpaceShouldHaveAtLeastOneSpaceSelected: "Przestrzeń szablonu powinna mieć wybraną co najmniej jedną przestrzeń", // Template space should have at least one space selected
+  noSpacesFound: "Nie znaleziono przestrzeni.", // No spaces found.
+  allSpaces: "Wszystkie przestrzenie", // All spaces
+  peopleWillBeAbleToEditThisAfterTheyApplyTheTemplate: "Ludzie będą mogli edytować to po zastosowaniu szablonu", // People will be able to edit this after they apply the template
+  theseWillBeAddedToTheCardYouApplyTheTemplateTo: "Te elementy zostaną dodane do karty, do której zastosujesz szablon", // These will be added to the card you apply the template to
+  taskDescription: "Opis karty", // Card description
+  pageBody: "Treść strony", // Page body
+  saveTemplate: "Zapisz szablon", // Save template
+  templateNotFound: "Nie znaleziono szablonu", // Template not found
+  addAssignees: "Dodaj przypisanych", // Add assignees
+  setTags: "Ustaw tagi", // Set tags
+  selectAll: "Zaznacz wszystko", // Select all
+  createInThisBoard: "Utwórz na tej tablicy", // Create in this board
+  setThisStatus: "Ustaw ten status", // Set this status
+  chooseABoard: "Wybierz tablicę", // Choose a board
+  chooseABoardToUseThisField: "Wybierz tablicę, aby użyć tego pola", // Choose a board to use this field
+  ifYouLeaveThisPageAnyChangesWillBeLost: "Jeśli opuścisz tę stronę, wszelkie zmiany wprowadzone do tego szablonu zostaną utracone.", // If you leave this page any changes you’ve made to this template will be lost.
+  uploadFailedClickToRetry: "Przesyłanie nie powiodło się, kliknij, aby spróbować ponownie", // Upload failed click to retry
+  areYouSureYouWantToDeleteTheTemplate: "Czy na pewno chcesz usunąć szablon \"%{templateName}\"?", // Are you sure you want to delete the "%{templateName}" template?
+  applyTemplate: "Zastosuj szablon", // Apply template
+  noTemplates: "Brak szablonów.", // No templates.
+  manageTemplates: "Zarządzaj szablonami", // Manage templates
+  uploadFilesForTemplatesIsDisabled: "Przesyłanie plików jest wyłączone w szablonach", // File uploads are disabled in templates
+  uploadFilesIsDisabled: "Przesyłanie plików jest wyłączone", // File uploads are disabled
+  noTagsFoundSelectBoardToSeeTags: "Nie znaleziono tagów. Wybierz tablicę, aby zobaczyć dostępne tagi w tej przestrzeni lub", // No tags found. Select a board to see tags available in that space or
+  createNewWorkspaceTagInSettings: "utwórz nowy tag przestrzeni roboczej w ustawieniach.", // create a new workspace tag in settings.
+  noTitle: "Bez tytułu", // No title
+  addChecklist: "Dodaj listę kontrolną", // Add checklist
+  title: "Tytuł", // Title
+  add: "Dodaj", // Add
+  addItem: "Dodaj nowy element", // Add new item
+  archiveList: "Zarchiwizuj listę", // Archive list
+  actions: "Akcje", // Actions
+  reply: "Odpowiedz...", // Reply...
+  replies: "Odpowiedzi", // Replies
+  description: "Opis", // Description
+  cardDescriptionPlaceholder: "Napisz opis...", // Write a description...
+  templateDescriptionPlaceholder: "Wprowadź opis...", // Enter a description...
+  card: "Karta", // Card
+  space: "Przestrzeń", // Space
+  page: "Strona", // Page
+  workspaceLabel: "Wprowadź nazwę przestrzeni roboczej", // Enter workspace name
+  workspacePlaceholder: "Nazwa przestrzeni roboczej", // Workspace name
+  roboto: "Roboto", // Roboto
+  sansserif: "Bezszeryfowy", // Sans Serif
+  serif: "Szeryfowy", // Serif
+  mono: "Mono", // Mono
+  monospace: "Monospace", // Monospace
+  download: "Pobierz", // Download
+  move: "Przenieś", // Move
+  background: "Tło", // Background
+  share: "Udostępnij", // Share
+  upload: "Prześlij", // Upload
+  paste_image_link: "Wklej link do obrazu", // Paste image link
+  embed_image: "Osadź obraz", // Embed image
+  drag_and_drop: "Przeciągnij i upuść", // Drag and drop
+  supported_files: "Obsługiwane pliki", // Supported files
+  maximum_size: "Maksymalny rozmiar", // Maximum size
+  createNewPage: "Utwórz nową stronę", // Create new page
+  createNewBoard: "Utwórz nową tablicę", // Create new board
+  newPage: "Nowa strona", // New page
+  addNewPage: "Dodaj nową stronę", // Add new page
+  newBoard: "Nowa tablica", // New board
+  addNewBoard: "Dodaj nową tablicę", // Add new board
+  oneColumn: "1 kolumna", // 1 column
+  twoColumns: "2 kolumny", // 2 columns
+  previewStillUpdating: "Podgląd wciąż się aktualizuje...", // Preview still updating...
+  emptyPage: "Pusta strona", // Empty page
+  searchSuperthread: "Szukaj w Superthread", // Search Superthread
+  attachFrom: "Załącz z...", // Attach from...
+  searchUnsplash: "Szukaj w Unsplash", // Search Unsplash
+  fullWidth: "Pełna szerokość", // Full width
+  largeText: "Duży tekst", // Large text
+  space___: "Przestrzeń...", // Space...
+  cannotExcludeAll: "Nie można wykluczyć wszystkiego", // Cannot exclude all
+  mustIncludeAtLeastOne: "Należy wybrać co najmniej jeden", // Must include at least one
+  type: "Typ", // Type
+  noResultsFound: "Nie znaleziono wyników", // No results found
+  cardStatus: "Status karty", // Card status
+  makeItPrivate: "Uczyń to prywatnym", // Make it private
+  thisSpaceIsPrivate: "Ta przestrzeń jest prywatna", // This space is private
+  privateSpaceDescription: "Kiedy przestrzeń jest ustawiona jako prywatna, może do niej dołączyć tylko osoba z zaproszeniem.", // When a space is set to private, it can only be joined by invitation.
+  boards: "Tablice", // Boards
+  hiddenMember: "Ukryty członek", // Hidden member
+  hiddenMemberDesc: "Ta osoba nie dzieli z tobą żadnej przestrzeni", // This person does not share any spaces with you
+  linkTextLabel: "Tekst", // Text
+  linkUrlLabel: "Link", // Link
+  linkTextPlaceholder: "Dodaj tekst...", // Add text...
+  linkUrlPlaceholder: "Dodaj link...", // Add link...
+  editList: "Edytuj listę", // Edit list
+  copyList: "Skopiuj listę", // Copy List
+  sortBy: "Sortuj według", // Sort by
+  moveAllCards: "Przenieś wszystkie karty", // Move all cards
+  archiveAllCards: "Zarchiwizuj wszystkie karty", // Archive all cards
+  enterResourceTitle: "Wprowadź tytuł %{type}...", // Enter %{type} title...
+  open: "Otwórz", // Open
+  openCardInBoard: "Otwórz kartę na tablicy", // Open card in board
+  editTitle: "Edytuj tytuł", // Edit title
+  editTags: "Edytuj tagi", // Edit tags
+  editMembers: "Edytuj członków", // Edit members
+  copy: "Kopiuj", // Copy
+  attachment: "Załącznik", // Attachment
+  startDate: "Data rozpoczęcia", // Start date
+  dueDate: "Data ukończenia", // Due date
+  cover: "Okładka", // Cover
+  tags: "Tagi", // Tags
+  activity: "Aktywność", // Activity
+  created: "Utworzono", // Created
+  updated: "Zaktualizowano", // Updated
+  timePeriod: "Okres", // Time period
+  cardsAdded: "Dodano karty", // Cards added
+  cardsFinished: "Ukończone karty", // Cards finished
+  netChange: "Zmiana netto", // Net change
+  last7Days: "Ostatnie 7 dni", // Last 7 days
+  last14Days: "Ostatnie 14 dni", // Last 14 days
+  last30Days: "Ostatnie 30 dni", // Last 30 days
+  cardsAddedBetween: "Unikalne karty dodane pomiędzy", // Unique cards added between
+  cardsAddedTo: "Unikalne karty dodane do", // Unique cards added to
+  between: "pomiędzy", // between
+  deletedCards: "Usunięte karty zmniejszają liczbę", // Deleted cards reduce the count
+  moreCardsAddedThanFinished: "%{number} więcej kart dodano niż ukończono", // %{number} more cards were added than finished
+  sameNumberOfCardsAddedAndFinished: "Dodano i ukończono taką samą liczbę kart", // The same number of cards were added and finished
+  moreCardsFinishedThanAdded: "%{number} więcej kart ukończono niż dodano", // %{number} more cards were finished than added
+  oneMoreCardAddedThanFinished: "1 karta więcej została dodana niż ukończona", // 1 more card was added than finished
+  oneMoreCardFinishedThanAdded: "1 karta więcej została ukończona niż dodana", // 1 more card was finished than added
+  convertToCard: "Konwertuj na kartę", // Convert to card
+  searchForTag: "Szukaj tagu", // Search for tag
+  createTag: "Utwórz tag", // Create tag
+  tagName: "Nazwa tagu", // Tag name
+  editTagName: "Edytuj nazwę tagu", // Edit tag name
+  hideCheckedItems: "Ukryj sprawdzone elementy", // Hide checked items
+  showCheckedItems: "Pokaż sprawdzone elementy", // Show checked items
+  deleteChecklist: "Usuń listę kontrolną", // Delete checklist
+  attachments: "Załączniki", // Attachments
+  versionHistory: "Historia wersji", // Version History
+  profile: "Profil", // Profile
+  settings: "Ustawienia", // Settings
+  email: "E-mail", // Email
+  firstNamePlaceholder: "Wpisz imię", // Enter first name
+  lastNamePlaceholder: "Wpisz nazwisko", // Enter last name
+  displayNamePlaceholder: "Wpisz nazwę wyświetlaną", // Enter display name
+  profileBasicInfoSubtitle: "Informacje osobiste i kontaktowe", // Personal and contact info
+  uploadProfileImageRule: "Obraz powinien być w formacie PNG, GIF lub JPG, nie większy niż 3MB. Będzie to Twój avatar w aplikacji.", // Image should be PNG, GIF, or JPG format no larger than 3MB. This will be shown as your avatar across the app.
+  workspaceLogo: "Wybierz logo przestrzeni roboczej. Zalecany rozmiar to 256x256px", // Pick a workspace logo. Recommended size is 256x256px
+  logoSaved: "Logo zapisane", // Logo saved
+  logoRemoved: "Logo usunięte", // Logo removed
+  removeCover: "Usuń okładkę", // Remove cover
+  uploadCoverImage: "Prześlij obraz okładki", // Upload cover image
+  list: "Lista", // List
+  addChildCard: "Dodaj kartę potomną", // Add child card
+  searchForCard: "Szukaj istniejącej karty", // Search for existing card
+  newChildCard: "Utwórz nową kartę potomną", // Create new child card
+  cancelSearch: "Anuluj wyszukiwanie", // Cancel search
+  computer: "Komputer", // Computer
+  setDueDate: "Ustaw termin wykonania", // Set due date
+  months: "StyczeńLutyMarzecKwiecieńMajCzerwiecLipiecSierpieńWrzesieńPaździernikListopadGrudzień", // JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember
+  monthsAbbreviation: "StyLutMarKwiMajCzeLipSieWrzPaźLisGru", // JanFebMarAprMayJunJulAugSepOctNovDec
+  daysAbbreviation: "PNWTŚCPTNS", // MOTUWETHFRSASU
+  daysAbbreviationLong: "PonWtŚrCzwPtSoNd", // MonTueWedThuFriSatSun
+  weekDays: "PoniedziałekWtorekŚrodaCzwartekPiątekSobotaNiedziela", // MondayTuesdayWednesdayThursdayFridaySaturdaySunday
+  time: "Czas", // Time
+  dueDateReminder: "Przypomnienie o terminie wykonania", // Due date reminder
+  weekBefore: "Tydzień wcześniej", // Week before
+  daysBefore: "Dni wcześniej", // Days before
+  dayBefore: "Dzień wcześniej", // Day before
+  hoursBefore: "Godziny wcześniej", // Hours before
+  hourBefore: "Godzina wcześniej", // Hour before
+  onTime: "Na czas", // On time
+  none: "Brak", // None
+  due: "Termin", // Due
+  insertFile: "Wstaw plik", // Insert file
+  addImage: "Dodaj obraz", // Add image
+  edited: "Edytowane", // Edited
+  insert: "Wstaw", // Insert
+  overdue: "Przeterminowane", // Overdue
+  continue: "Kontynuuj", // Continue
+  createdBy: "Utworzone przez", // Created by
+  press: "Naciśnij", // Press
+  toClose: "aby zamknąć", // to close
+  cards: "Karty", // Cards
+  on: "na", // on
+  useArrowKeys: "Użyj klawiszy strzałek", // Use arrow keys
+  toNavigate: "aby nawigować, wybierz", // to navigate, select with
+  sending: "Wysyłanie linku zaproszenia...", // Sending invite link...
+  inviteDoesntExist: "Link zaproszenia nie istnieje.", // Invite link doesn’t exist.
+  couldntResendLink: "Nie udało się wysłać ponownie linku zaproszenia.", // Couldn’t resend the invite link.
+  newInviteLinkSent: "Wysłaliśmy nowy link zaproszenia, sprawdź swoją skrzynkę.", // We sent you a new invite link, please check your email.
+  inviteLinkAccepted: "Link zaproszenia został już zaakceptowany.", // Invite link already accepted.
+  inviteNoLongerValid: "Link zaproszenia jest już nieaktualny. Poproś o nowy link.", // Invite link is no longer valid. Please request a new invite link.
+  inviteCodeIncorrect: "Nieprawidłowy link zaproszenia. Kliknij poniżej, aby wysłać ponownie.", // Incorrect invite link. Click below to resend.
+  thereAreNoFreeSeatsForThisWorkspace: "Brak wolnych miejsc w tej przestrzeni roboczej", // There are no free seats for this workspace
+  thisWorkspaceCantAcceptAnyMoreMembers: "Ta przestrzeń robocza nie może przyjąć więcej członków. Administrator może zwiększyć limit lub istniejący członek może opuścić przestrzeń, aby zwolnić miejsce.", // This workspace cannot accept any more members. A workspace admin can raise the limit or an existing member can leave the workspace to open a seat.
+  spaceAccess: "Dostęp do przestrzeni", // Space access
+  changeToPrivateSpace: "Wszyscy obecni członkowie tej przestrzeni nadal będą jej członkami po ustawieniu jej jako prywatnej. Nowi członkowie będą mogli dołączyć tylko przez zaproszenie.", // All existing members of this space will still be members after it is made private. No new members will be able to join unless they are invited.
+  changeToOpenSpace: "Wszyscy członkowie przestrzeni roboczej będą mogli znaleźć i dołączyć do tej przestrzeni oraz zobaczyć jej zawartość.", // All members of the workspace will be able to find and join this space and see its contents.
+  changeToPrivate: "Zmień na prywatną", // Change to private
+  changeToOpen: "Zmień na otwartą", // Change to open
+  changeToPrivateSpaceTitle: "Zmień na prywatną przestrzeń?", // Change to private space?
+  changeToOpenSpaceTitle: "Zmień na otwartą przestrzeń?", // Change to open space?
+  ownersAdminsCreatorOfSpace: "Tylko właściciele przestrzeni, administratorzy i twórca przestrzeni mogą zmienić to ustawienie", // Only workspace owners, admins, and the creator of the space can change this setting
+  member: "Członek", // Member
+  notMember: "Nie jest członkiem", // Not a member
+  links: "Linki", // Links
+  createNewView: "Utwórz widok", // Create view
+  newView: "Nowy widok", // New view
+  workspace: "Przestrzeń robocza", // Workspace
+  views: "Widoki", // Views
+  roadmap: "Mapa drogowa", // Roadmap
+  myViews: "Moje widoki", // My views
+  workspaceViews: "Widoki przestrzeni roboczej", // Workspace views
+  private: "Prywatne", // Private
+  lastUpdate: "Ostatnia aktualizacja", // Last update
+  viewType: "Typ widoku", // View type
+  filters: "Filtry", // Filters
+  filter___: "Filtruj...", // Filter...
+  filters___: "Filtry...", // Filters...
+  filterBy: "Filtruj według", // Filter by
+filter: "Filtr", // Filter
+content: "zawartość", // Content
+status: "Status", // Status
+subscriber: "subskrybent", // Subscriber
+creator: "twórca", // Creator
+tag: "Etykieta", // Tag
+subscribers: "subskrybenci", // Subscribers
+creators: "twórcy", // Creators
+shareWithWorkspace: "Udostępnij w przestrzeni roboczej", // Share with workspace
+discard: "Odrzuć", // Discard
+pageTitlePlaceholder: "Strona bez tytułu", // Untitled page
+markAllAsRead: "Oznacz wszystkie jako przeczytane", // Mark all as read
+addTo: "Dodano do", // Added to
+removeFrom: "Usunięto z", // Removed from
+movedTo: "%{name} przeniesiono", // %{name} moved
+notificationCreated: "%{name} utworzono", // %{name} created
+notificationAdded: "%{name} dodano", // %{name} added
+commented: "Skomentowano", // Commented
+mentioned: "Wspomniano", // Mentioned
+dropFilesLabel: "Przeciągnij i upuść pliki tutaj", // Drag and drop files here
+back: "Wstecz", // Back
+typeContent: "Wpisz zawartość", // Type a content
+hasDueDate: "Ma termin", // Has due date
+dueSoon: "Termin bliski", // Due soon
+dueToday: "Termin dzisiaj", // Due today
+epic: "Projekt", // Project
+epics: "Projekty", // Projects
+searchForEpic: "Szukaj projektu", // Search for project
+changedEpicFrom: "zmieniono projekt z", // Changed project from
+addedToEpicCard: "dodano tę kartę do projektu", // Added this card to project
+removedFromEpicCard: "usunięto tę kartę z projektu", // Removed this card from project
+epicInherited: "Projekt odziedziczony z karty nadrzędnej", // Project inherited from parent card
+untitledView: "Widok bez tytułu", // Untitled view
+cannotSaveUntitledView: "Nie można zapisać widoku bez tytułu", // Cannot save untitled view
+viewSaved: "widok zapisany", // View saved
+pagePlaceholder: "Napisz coś...", // Write something...
+newViewTitele: "Nowy tytuł widoku", // New view title
+["global.placeholder.pagePlaceholder"]: "Napisz coś...", // Write something...
+["global.placeholder.focusedStatePlaceholder"]:
+  "@, aby wspomnieć o czymś, / dla poleceń...", // @ to mention anything, / for commands...
+["global.placeholder.focusedStatePlaceholderMobile"]:
+  "@, aby wspomnieć, / dla poleceń...", // @ to mention, / for commands...
+checkListItemPlaceholder: "@, aby wspomnieć o czymś...", // @ to mention anything...
+viewAll: "Zobacz wszystko", // View all
+filterByUnread: "Filtruj według nieprzeczytanych", // Filter by unread
+pagePublished: "Strona opublikowana", // Page published
+restore: "Przywróć", // Restore
+cardPathArchivedBoard: "Ta karta znajduje się na zarchiwizowanej tablicy", // This card is in an archived board
+restoreMakeChange: "Kliknij tutaj, aby przywrócić", // Click here to restore
+boardUpdated: "Tablica zaktualizowana", // Board updated
+defaultBoardLayoutChangedTo: "Domyślny układ zmieniony na %{layoutStyle}", // Default layout changed to %{layoutStyle}
+esc: "Esc", // Esc
+assignee: "Przydzielony", // Assignee
+assignees: "Przydzieleni", // Assignees
+no_assignee: "Brak przydzielonego", // No assignee
+findMembers: "Znajdź członków...", // Find members...
+inviteExternalPeople: "Zaproś osoby zewnętrzne", // Invite external people
+notInThisSpace: "Nie w tej przestrzeni", // Not in this space
+inThisSpace: "W tej przestrzeni", // In this space
+notWorkspaceMember: "Ta osoba nie jest jeszcze członkiem tej przestrzeni roboczej", // That person isn’t a member of this workspace yet
+anchorLinkErrorMessage: "Nie znaleziono tego linku", // Couldn’t find that link
+childCard: "Karta podrzędna", // Child card
+parentCards: "Karty nadrzędne", // Parent cards
+blocking: "Blokuje", // Blocking
+blocked: "Zablokowany", // Blocked
+favourites: "Ulubione", // Favourites
+dragOr: "Przeciągnij lub", // Drag or
+somethingHere: "coś tutaj", // Something here
+linkCopiedToClipboard: "Link skopiowany do schowka.", // Link copied to clipboard.
+tomorrow: "Jutro", // Tomorrow
+invitationsSent: "Zaproszenia wysłane.", // Invitations sent.
+invitationsFailed: "Zaproszenia nieudane.", // Invitations failed.
+retry: "Ponów", // Retry
+undo: "Cofnij", // Undo
+boardMovedToSpace: "Tablica przeniesiona do przestrzeni", // Board moved to space
+pageMovedToSpace: "Strona przeniesiona do przestrzeni", // Page moved to space
+boardNotMoved: "Przeniesienie tablicy anulowane.", // Board move cancelled.
+pageNotMoved: "Przeniesienie strony anulowane.", // Page move cancelled.
+newTag: "Nowa etykieta", // New tag
+tagExists: "Etykieta już istnieje", // Tag already exists
+toggleSection: "Przełącz sekcję", // Toggle section
+toggleContent: "Pusta sekcja. Kliknij, aby napisać lub skopiować tutaj zawartość.", // Empty section. Click to write or copy content here.
+removeChildCardFail: "Nie udało się usunąć karty podrzędnej", // Failed to remove child card
+moveChildCardFail: "Nie udało się przenieść karty podrzędnej", // Failed to move child card
+addChildCardFail: "Nie udało się dodać karty podrzędnej", // Failed to add child card
+cantRemoveMembers: "Nie można usunąć członków z domyślnej przestrzeni", // You can’t remove members from the default space
+cantRemoveMembersFromSpace: "Nie można usunąć członków z tej przestrzeni", // You can’t remove members from this space
+cannotModifyMembers: "Nie masz uprawnień do zmiany członków", // You don’t have permission to change members
+inactiveMembersCannotBeAdded: "Nieaktywni członkowie nie mogą zostać dodani do przestrzeni", // Inactive members cannot be added to spaces
+duplicate: "Duplikat", // Duplicate
+setParentCard: "Ustaw kartę nadrzędną", // Set parent card
+duplicateCard: "Zduplikuj kartę", // Duplicate card
+duplicateBoard: "Zduplikuj tablicę", // Duplicate board
+duplicateBoardDescription:
+  "Żadne karty na tej tablicy nie zostaną zduplikowane. Wybierz przestrzeń i nazwę dla zduplikowanej tablicy.", // Any cards in this board will not be duplicated. Choose a space and name for the duplicated board.
+duplicateTo: "Duplikuj do", // Duplicate to
+duplicateDefaultTitle: "Wprowadź nowy tytuł (domyślnie oryginalny)", // Enter new title (defaults to original)
+duplicates: "Duplikaty", // Duplicates
+duplicateOf: "Duplikat", // Duplicate of
+markAsBlockedBy: "Oznacz jako zablokowany przez", // Mark as blocked by
+markAsBlocking: "Oznacz jako blokujący", // Mark as blocking
+markAsRelatedTo: "Oznacz jako powiązany z", // Mark as related to
+markAsDuplicateOf: "Oznacz jako duplikat", // Mark as duplicate of
+blocks: "Blokuje", // Blocks
+blockedBy: "Zablokowany przez", // Blocked by
+related: "Powiązany", // Related
+relatedCards: "Powiązane karty", // Related cards
+markedCardAsBlocking: "oznaczył tę kartę jako blokującą", // Marked this card as blocking
+markedCardAsBlockedBy: "oznaczył tę kartę jako zablokowaną przez", // Marked this card as blocked by
+markedCardAsRelated: "oznaczył tę kartę jako powiązaną z", // Marked this card as related to
+markedCardAsDuplicate: "oznaczył tę kartę jako duplikat", // Marked this card as a duplicate of
+removedCardRelationship: "usunięto powiązanie", // Removed relationship
+noListsInBoard: "Brak list na tablicy", // No lists in board
+noBoardsInSpace: "Brak tablic w przestrzeni", // No boards in space
+noBoardsInThisSpace: "Brak tablic w tej przestrzeni", // No boards in this space
+emptyList: "Pusta lista", // Empty list
+cardDuplicated: "Karta zduplikowana", // Card duplicated
+boardDuplicated: "Tablica zduplikowana", // Board duplicated
+viewDuplicated: "Widok zduplikowany", // View duplicated
+viewDeleted: "Widok usunięty", // View deleted
+cardDuplicateFailed: "Nie udało się zduplikować karty", // Failed to duplicate card
+boardDuplicateFailed: "Nie udało się zduplikować tablicy", // Failed to duplicate board
+viewDuplicateFailed: "Nie udało się zduplikować widoku", // Failed to duplicate view
+cantUndoneAction: "Tej akcji nie można cofnąć.", // This action can’t be undone.
+eachSpaceCanContain: "Każda przestrzeń może zawierać dowolną liczbę tablic", // Each space can contain as many boards as you like
+browseSpaces: "Przeglądaj przestrzenie", // Browse spaces
+popupSpaceDescription:
+  "Zorganizuj pracę w przestrzeniach. Zazwyczaj są one nazywane według zespołu, projektu lub celu wysokiego szczebla.", // Organise work in spaces. They’re usually named after a team, project, or high level objective.
+eachSpaceCanContainMultiple: "Każda przestrzeń może zawierać wiele ", // Each space can contain multiple
+pagesLowercase: "stron", // Pages
+kanbanBoards: "tablic Kanban", // Kanban boards
+and: "i", // And
+removeFromParent: "Usuń z nadrzędnej", // Remove from parent
+removeChildCard: "Usuń kartę podrzędną", // Remove child card
+changeCardParent: "Zmień nadrzędną kartę", // Change card parent
+changeParent: "Zmień nadrzędną", // Change parent
+changeParentDescription:
+  "Ta karta ma nadrzędną „%{card_title}”. Czy chcesz zmienić nadrzędną na bieżącą kartę?", // This card has “%{card_title}” as a parent. Do you want to change the parent to the current card?
+editChildCardDetails: "Edytuj szczegóły karty podrzędnej", // Edit child card details
+copyLink: "Skopiuj link", // Copy link
+childCardTitleNotUpdated: "Tytuł karty podrzędnej nie został zaktualizowany.", // Child card title not updated.
+addNewChildCard: "Dodaj nową kartę podrzędną", // Add new child card
+enterCardTitleOrFind: "Wprowadź tytuł karty lub znajdź istniejące karty", // Enter card title or find existing cards
+createNewCard: "Utwórz nową kartę", // Create new card
+unsplashImage: "Obraz Unsplash", // Unsplash image
+shareToWeb: "Udostępnij w sieci", // Share to web
+publishesSubpagesButNoComments: "Publikuje podstrony, ale nie komentarze", // Publishes subpages, but not comments
+pageIsSharedToWeb: "Strona udostępniona w sieci", // Page is shared to web
+shared: "Udostępniona", // Shared
+openSharedPage: "Otwórz udostępnioną stronę", // Open shared page
+pageIsSetToPrivate: "Strona ustawiona jako prywatna", // Page is set to private
+profileSettings: "Ustawienia profilu", // Profile settings
+switchWorkspace: "Przełącz przestrzeń roboczą", // Switch workspace
+archivedItems: "Zarchiwizowane elementy", // Archived items
+logOut: "Wyloguj się", // Log out
+helpFeedback: "Pomoc i opinie", // Help & feedback
+help: "Pomoc", // Help
+joinSlack: "Dołącz do naszej społeczności Slack", // Join our Slack community
+askQuestions: "Zadawaj pytania i pomagaj innym", // Ask questions and help others
+contactUs: "Skontaktuj się z nami", // Contact us
+letUsKnow: "Daj nam znać, jeśli masz problem lub pytanie", // Let us know if there’s an issue or a question
+assign: "Przydziel", // Assign
+pageIsNoLongerShared: "Strona nie jest już udostępniona w sieci", // Page is no longer shared to web
+favourite: "Ulubione", // Favourite
+unfavourite: "Usuń z ulubionych", // Unfavourite
+allowSearchEngines: "Zezwól wyszukiwarkom na indeksowanie tej strony", // Allow search engines to index this page
+searchEngineIndexing: "Indeksowanie wyszukiwarek", // Search engine indexing
+searchIndexingEnabled: "Indeksowanie wyszukiwarek włączone", // Search indexing enabled
+searchIndexingDisabled: "Indeksowanie wyszukiwarek wyłączone", // Search indexing disabled
+attachIconFrom: "Dołącz ikonę z...", // Attach icon from...
+addIcon: "Dodaj ikonę", // Add icon
+addCoverImage: "Dodaj obraz okładki", // Add cover image
+pageDuplicated: "Strona zduplikowana", // Page duplicated
+pageDuplicateFailed: "Nie udało się zduplikować strony", // Failed to duplicate page
+copyOf: "Kopia", // Copy of
+displayNameDescription:
+  "To może być Twoje imię lub pseudonim. Będzie wyświetlane w aplikacji.", // This could be your first name, or a nickname. It will be displayed around the app.
+embedVideo: "Osadź wideo z Youtube", // Embed Youtube video
+removePullRequest: "Usuń pull request", // Remove pull request
+viewOnGitHub: "Zobacz na GitHub", // View on GitHub
+setUpGHIntegration: "Skonfiguruj integrację z GitHub", // Set up GitHub integration
+integrateSuperthread: "Zintegruj Superthread z ulubionym klientem git.", // Integrate Superthread into your favorite git client.
+githubIntegradionDescripiton:
+  "Połącz karty Superthread z pull requestami GitHub. Dołącz ID karty Superthread (np. C-123) do nazwy gałęzi lub tytułu pull requesta, aby automatycznie wyświetlić status PR w karcie.", // Link Superthread cards to GitHub pull requests. Include a Superthread card ID (e.g C-123) in your branch name or pull request title to automatically show the PR status in the card.
+connectGithub: "Połącz z GitHub", // Connect GitHub
+connectedAccounts: "Połączone konta", // Connected accounts
+connectGhToSuperthread: "GitHub połączony z Superthread", // GitHub connected to Superthread
+enabledBy: "Włączone przez", // Enabled by
+select: "Wybierz", // Select
+integrations: "Integracje", // Integrations
+importer: "Importer", // Importer
+github: "GitHub", // GitHub
+github_pull_request: "GitHub", // GitHub
+gitlab: "GitLab", // GitLab
+jira: "Jira", // Jira
+trello: "Trello", // Trello
+importFrom: "Importuj z", // Import from
+selectYour: "Wybierz swoją", // Select your
+usersToSuperthreadUsers: "użytkownicy na użytkowników Superthread", // Users to Superthread users
+issues: "problemy", // Issues
+teams: "zespoły", // Teams
+setUpImport: "Skonfiguruj import", // Set up import
+importHistory: "Historia importu", // Import history
+importBoards: "Importuj tablice", // Import boards
+selectWhichBoards: "Wybierz, które tablice z", // Select which boards from
+runImport: "Uruchom import", // Run the import
+quickImport: "Szybki import", // Quick import
+importBoardIntoExsistingSpace: "Niestandardowy import", // Custom import
+start: "Start", // Start
+started: "Rozpoczęto", // Started
+DontImport: "Nie importuj", // Don’t import
+map: "Mapuj", // Map
+dontImportUsers: "Nie importuj użytkowników", // Don’t import users
+ImportUsers: "Importuj użytkowników", // Import users
+importAs: "Importuj jako...", // Import as...
+selectUser: "Wybierz użytkownika", // Select user
+inviteByEmail: "Zaproś przez e-mail", // Invite by email
+users: "Użytkownicy", // Users
+options: "Opcje", // Options
+chooseAditionslOptions: "Wybierz dodatkowe opcje", // Choose additional options
+importAttachments: "Importuj załączniki", // Import attachments
+includeCardCoverImages: "Dołącz okładki kart", // Include card cover images
+importInProgress: "Import w toku", // Import in progress
+importError: "Import zakończony z błędami", // Import completed with errors
+importSuccess: "Import zakończony", // Import completed
+importUnstarted: "Import nierozpoczęty", // Import unstarted
+timeStarted: "Czas rozpoczęcia", // Time started
+completed: "Zakończono", // Completed
+showCompleted: "Pokaż zakończone", // Show done
+details: "Szczegóły", // Details
+finish: "Zakończ", // Finish
+validEmail: "Proszę podać prawidłowy adres e-mail.", // Please enter a valid email address.
+emailAdresses: "Adresy e-mail, rozdzielone przecinkami", // Email addresses, comma separated
+person1Email: "person1@example.com, person2@example.com…", // person1@example.com, person2@example.com…
+addToSpaces: "Dodaj do przestrzeni", // Add to spaces
+addSpaces: "Dodaj przestrzenie", // Add spaces
+browseProjects: "Przeglądaj wszystkie przestrzenie", // Browse all spaces
+createAndBrowseSpaces: "Przeglądaj i twórz przestrzenie", // Browse and create spaces
+nameIsRequired: "Wymagana jest nazwa", // A name is required
+noProjectFound: "Brak więcej przestrzeni do dodania", // No more spaces to add
+memberExplanation: "Członkowie mogą przeglądać i dołączać do dowolnej przestrzeni w obszarze roboczym", // Members can browse and join any space in the workspace
+adminExplanation: "Administratorzy mają większy dostęp do ustawień obszaru roboczego", // Admins have more access to workspace settings
+guestExplanation:
+  "Goście mają ograniczony dostęp do obszaru roboczego i widzą tylko przestrzenie, do których zostali dodani", // Guests have limited workspace access and only see spaces they’re added to
+connect: "Połącz", // Connect
+selectBoardImport: "Wybierz tablice, które chcesz zaimportować", // Select boards you want to import
+selectUsersImport: "Wybierz użytkowników, których chcesz zaimportować", // Select users you want to import
+notImportArchivedIssues: "Nie zaimportujemy zarchiwizowanych problemów.", // We won’t import archived issues.
+importTasksIntoSuperthread: "Importuj swoje istniejące zadania do Superthread.", // Import your existing tasks into Superthread.
+connectAccount: "Połącz swoje konto", // Connect your account
+completedOn: "Zakończono dnia", // Completed on
+importedBy: "Zaimportowano przez:", // Imported by:
+timeCreated: "Czas utworzenia:", // Time created:
+createdDate: "Data utworzenia", // Created date
+updatedDate: "Data aktualizacji", // Updated date
+numberOfImportedBoards: "Liczba zaimportowanych tablic:", // Number of imported boards:
+numberOfImportedUsers: "Liczba zaimportowanych użytkowników:", // Number of imported users:
+importingIsFinished: "Import zakończony", // Import finished
+importing: "Twój import został zakończony", // Your import has finished
+selectService:
+  "Wybierz, skąd mamy importować problemy. Poprosimy o Twoje dane uwierzytelniające, abyśmy mogli uzyskać dostęp do ich API. Nie zaimportujemy żadnych danych, dopóki nie potwierdzisz swoich wyborów w ostatnim kroku.", // Select where we should import issues from. We’ll ask for your authentication details so we can access their API. We won’t import any data until you’ve confirmed your choices in the final step.
+account: "Konto", // Account
+importers: "Importery", // Importers
+general: "Ogólne", // General
+manageWorkspaceSettings: "Zarządzaj ogólnymi ustawieniami obszaru roboczego", // Manage general workspace settings
+avatarAppearance: "Wygląd awatara", // Avatar appearance
+uploadImage: "Prześlij obraz", // Upload image
+successfullySaved: "Pomyślnie zapisano", // Successfully saved
+errorSave: "Nie udało się zapisać zmian", // Your changes could not be saved
+copyURL: "Kopiuj URL", // Copy URL
+copyUrl: "Skopiuj URL do schowka", // Copy URL to clipboard
+copyCardUrl: "Skopiuj URL karty do schowka", // Copy card URL to clipboard
+copyPageUrl: "Skopiuj URL strony do schowka", // Copy page URL to clipboard
+copyBoardUrl: "Skopiuj URL tablicy do schowka", // Copy board URL to clipboard
+copySpaceUrl: "Skopiuj URL przestrzeni do schowka", // Copy space URL to clipboard
+copyGitBranchNameToClipboard: "Skopiuj nazwę gałęzi Git do schowka", // Copy git branch name to clipboard
+copyGitBranchName: "Skopiuj nazwę gałęzi Git", // Copy git branch name
+branchCopiedToClipboard: "Nazwa gałęzi Git skopiowana do schowka", // Git branch name copied to clipboard
+subscribe: "Subskrybuj", // Subscribe
+unsubscribe: "Anuluj subskrypcję", // Unsubscribe
+pullRequestAutomation: "Automatyzacja pull requestów", // Pull request automation
+prAutomationDescription:
+  "Przenoś karty w Superthread, gdy pull requesty są aktualizowane w GitHub.", // Move cards in Superthread when pull requests are updated in GitHub.
+whenACardIsLinkedToPR: "Gdy karta jest powiązana z pull requestem", // When a card is linked to a pull request
+whenPRTargetsTheBranch: "Gdy pull request dotyczy gałęzi", // When the pull request targets the branch
+addBranchSpecificAutomation: "Dodaj automatyzację specyficzną dla gałęzi", // Add branch-specific automation
+automationMustHaveBranchName:
+  "Automatyzacja musi mieć nazwę gałęzi. Te zasady zostaną zignorowane.", // An automation must have a branch name. These rules will be ignored.
+addBranchSpecificAutomationErrorAlreadyExists:
+  "Istnieje już automatyzacja dla tej nazwy gałęzi. Te zasady zostaną zignorowane.", // There is already an automation for that branch name. These rules will be ignored.
+invalidGitBranchName:
+  "To nie jest prawidłowa nazwa gałęzi. Te zasady zostaną zignorowane.", // That is not a valid branch name. These rules will be ignored.
+branchSpecificAutomationAdded: "Dodano automatyzację specyficzną dla gałęzi.", // Branch-specific automation added.
+branchSpecificAutomationUpdated: "Zaktualizowano automatyzację specyficzną dla gałęzi.", // Branch-specific automation updated.
+branchSpecificAutomationRemoved: "Usunięto automatyzację specyficzną dla gałęzi.", // Branch-specific automation removed.
+deleteAutomation: "Usuń automatyzację", // Delete automation
+deleteThisAutomation: "Usuń tę automatyzację", // Delete this automation
+deleteAutomationConfirmation:
+  "Ten zestaw reguł zostanie usunięty i nie można go odzyskać.", // This set of rules will be deleted and cannot be recovered.
+whenPRChangesTo: "Kiedy PR zmienia się na", // When PR changes to
+moveCardToList: "Przenieś kartę do listy", // Move card to list
+doNotMove: "Nie przenoś", // Do not move
+draftPROpened: "Otworzono szkic PR", // Draft PR opened
+pROpened: "PR otworzony", // PR opened
+pRReviewRequest: "Prośba o przegląd PR", // PR review request
+pRMerged: "PR scalony", // PR merged
+pRClosed: "PR zamknięty", // PR closed
+noListInBoard: "Brak list na tej tablicy", // No lists in this board
+unassigned: "Nieprzypisany", // Unassigned
+viewParentCard: "Zobacz kartę nadrzędną", // View parent card
+changeParentCard: "Zmień kartę nadrzędną", // Change parent card
+removeParentCard: "Usuń kartę nadrzędną", // Remove parent card
+goToParentCard: "Przejdź do karty nadrzędnej", // Go to parent card
+discardAndClose: "Odrzuć i zamknij", // Discard and close
+changeStatus: "Zmień status", // Change status
+createCardsInSelectedBoard: "Zawsze twórz karty na wybranej tablicy", // Always create cards in the selected board
+createCardIn: "Utwórz kartę w", // Create card in
+maxFileSize: "Maks. rozmiar pliku: 5MB", // Max. file size: 5MB
+addAttachment: "Dodaj załącznik", // Add attachment
+createChecklist: "Utwórz listę kontrolną", // Create checklist
+assignedToMe: "Przypisane do mnie", // Assigned to me
+movedTAaNewList: "Przeniesiono do nowej listy", // Moved to a new list
+moved: "Przeniesiono", // Moved
+published: "Opublikowano", // Published
+cardComments: "Komentarze do karty", // Card comments
+pageComments: "Komentarze do strony (w tym odpowiedzi w wątkach)", // Page comments (including replies in threads)
+movedBetweenSpaces: "Przeniesiono do innej przestrzeni", // Moved to a different space
+addedToASpace: "Dodano do przestrzeni", // Added you to a space
+noduedate: "Brak terminu", // No due date
+["now+2d"]: "Za 2 dni", // 2 days from now
+["now+3d"]: "Za 3 dni", // 3 days from now
+["now+1w"]: "Za 1 tydzień", // 1 week from now
+["now+2w"]: "Za 2 tygodnie", // 2 weeks from now
+["now+3w"]: "Za 3 tygodnie", // 3 weeks from now
+["now+1M"]: "Za 1 miesiąc", // 1 month from now
+["now+2M"]: "Za 2 miesiące", // 2 months from now
+["now+3M"]: "Za 3 miesiące", // 3 months from now
+["now+6M"]: "Za 6 miesięcy", // 6 months from now
+["now+1y"]: "Za 1 rok", // 1 year from now
+now: "Dzisiaj", // Today
+nowActivity: "teraz", // Now
+["now-1h"]: "1 godzinę temu", // 1 hour ago
+["now-4h"]: "4 godziny temu", // 4 hours ago
+["now-1d"]: "Wczoraj", // Yesterday
+["now-2d"]: "2 dni temu", // 2 days ago
+["now-3d"]: "3 dni temu", // 3 days ago
+["now-1w"]: "1 tydzień temu", // 1 week ago
+["now-2w"]: "2 tygodnie temu", // 2 weeks ago
+["now-3w"]: "3 tygodnie temu", // 3 weeks ago
+["now-1M"]: "1 miesiąc temu", // 1 month ago
+["now-2M"]: "2 miesiące temu", // 2 months ago
+["now-3M"]: "3 miesiące temu", // 3 months ago
+["now-6M"]: "6 miesięcy temu", // 6 months ago
+["now-1y"]: "1 rok temu", // 1 year ago
+anywhereYouAreMentioned:
+  "Gdziekolwiek zostaniesz wspomniany (niezależnie od statusu subskrypcji itp.)", // Anywhere you are mentioned (regardless of subscribed status etc.)
+anyCommentsOnResources: "Jakiekolwiek komentarze do zasobów, które subskrybujesz.", // Any comments on resources you are subscribed to.
+ifYouAreMemberOfABoard: "Jeśli jesteś członkiem tablicy:", // If you are a member of a board:
+manageMembers: "Zarządzaj członkami", // Manage members
+manageWhoHasAccess: "Zarządzaj, kto ma dostęp do tej przestrzeni roboczej", // Manage who has access to this workspace
+active: "Aktywny", // Active
+suspended: "Zawieszony", // Suspended
+inviteMembers: "Zaproś członków", // Invite members
+inviteToWorkspace: "Zaproś osoby do przestrzeni roboczej %{workspaceName}", // Invite people to the %{workspaceName} workspace
+emailAddress: "Adres e-mail", // Email address
+inviteAs: "Zaproś jako", // Invite as
+teamMembers: "Członkowie zespołu", // Team members
+gitHubConnected: "Pomyślnie połączono z GitHub", // GitHub successfully connected
+nothingToShow: "Brak danych do wyświetlenia", // Nothing to show here
+findTagsOrCreateNew: "Znajdź tagi lub utwórz nowe", // Find tags or create new
+deleteTag: "Usuń tag", // Delete tag
+addNewBoardOrPage: "Dodaj nową tablicę lub stronę", // Add new board or page
+spaceSettings: "Ustawienia przestrzeni", // Space settings
+rename: "Zmień nazwę", // Rename
+changeIcon: "Zmień ikonę", // Change icon
+addToFavorites: "Dodaj do ulubionych", // Add to favourites
+removeFromFavorites: "Usuń z ulubionych", // Remove from favourites
+viewmoreassignees: "Zobacz więcej przypisanych", // View more assignees
+noassignee: "Brak przypisanych", // No assignee
+currentuser: "Bieżący użytkownik", // Current user
+aPrivateSpace: "prywatna przestrzeń", // A private space
+areYouSureYouWantToRemove:
+  "Czy na pewno chcesz ich usunąć? Stracą dostęp do tej przestrzeni roboczej.", // Are you sure you want to remove them? They will lose access to this workspace.
+areYouSureYouWantToLeave:
+  "Czy na pewno chcesz opuścić tę przestrzeń roboczą? Aby odzyskać dostęp, będziesz potrzebował zaproszenia.", // Are you sure you want to leave this workspace? You will need an invite to regain access.
+youAreTheOnlyPersonInThisPrivateSpace:
+  "Jesteś jedyną osobą w tej prywatnej przestrzeni. Jeśli ją opuścisz, nikt nie będzie miał do niej dostępu. Jeśli Twoja organizacja nadal potrzebuje dostępu, zaproś kogoś przed odejściem.", // You are the only person in this private space. If you leave, no-one will be able to access it. If your organisation still needs access, invite someone before you leave.
+whenYouLeaveAPrivateSpace:
+  "Gdy opuścisz prywatną przestrzeń, nie będziesz już widział żadnych jej tablic ani stron. Aby ponownie dołączyć, będziesz musiał zostać ponownie zaproszony.", // When you leave a private space, you’ll no longer be able to see any of its boards or pages. To rejoin, you’ll need to be invited again.
+youCanRejoinThePublicSpace:
+  "Możesz ponownie dołączyć do przestrzeni z ekranu przestrzeni.", // You can rejoin the space from the spaces screen.
+areYouSureYouWantToRevoke:
+  "Czy na pewno chcesz cofnąć ich zaproszenie do tej przestrzeni roboczej?", // Are you sure you want to revoke their invite to this workspace?
+areYouSureYouWantToTransferOwnership:
+  "Czy na pewno chcesz przenieść własność tej przestrzeni roboczej? Tylko nowy właściciel będzie mógł cofnąć tę decyzję.", // Are you sure you want to transfer ownership of this workspace? Only the new owner will be able to undo this.
+transferOwnership: "Przenieś własność", // Transfer ownership
+transferSpaceOwnershipConfirmed: "Przeniesiono własność przestrzeni", // Space ownership transferred
+transferSpaceOwnershipShort:
+  "Musisz przenieść własność, zanim będziesz mógł odejść", // You must transfer ownership before you can leave
+transferSpaceOwnershipDescription:
+  "Jeśli uczynisz %{name} właścicielem tej przestrzeni, przestaniesz być właścicielem i zostaniesz zmieniony na członka.", // If you make %{name} the owner of this space, you will no longer be the owner and will be changed to a member.
+transferSpaceOwnershipBeforeLeaving:
+  "Musisz wyznaczyć kogoś innego jako właściciela tej przestrzeni, zanim będziesz mógł ją opuścić. Przejdź do ustawień przestrzeni, aby wyznaczyć nowego właściciela.", // You must make someone else the owner of this space before you can leave it. Go to the space settings to make someone else the owner.
+confirm: "Potwierdź", // Confirm
+revoke: "Cofnij", // Revoke
+notFound: "Nie znaleziono", // Not found
+itemNotFound: "Nie znaleziono elementu", // Item not found
+urlDoesntLeadAnywhere: "Ten URL nie prowadzi donikąd", // That URL doesn’t lead anywhere
+itemMightBeDeleted:
+  "Element mógł zostać usunięty lub nie masz do niego dostępu", // The item might have been deleted, or you might not have access
+deleteItem: "Usuń %{item}", // Delete %{item}
+deleteSpace: "Usuń przestrzeń", // Delete space
+ifYouWantToDeleteSpace:
+  "Jeśli chcesz usunąć tę przestrzeń, wpisz jej nazwę poniżej.", // If you want to delete this space, type its name below.
+ifYouWantToDeleteResource:
+  "Jeśli chcesz usunąć ten %{resourceType}, wpisz jego nazwę poniżej.", // If you want to delete this %{resourceType}, type its name below.
+typeTheNameOfTheSpace: "Wpisz nazwę przestrzeni", // Type the name of the space
+removeMember: "Usuń członka", // Remove member
+leaveWorkspace: "Opuść obszar roboczy", // Leave workspace
+revokeInvite: "Cofnij zaproszenie", // Revoke invite
+invited: "Zaproszony", // Invited
+pending: "Oczekujące", // Pending
+admin: "Administrator", // Admin
+owner: "Właściciel", // Owner
+guest: "Gość", // Guest
+inviteSent: "Zaproszenie wysłane", // Invite sent
+resendInvite: "Wyślij ponownie zaproszenie", // Resend invite
+whatsNew: "Co nowego", // What’s new
+viewUpdates: "Zobacz aktualizacje w naszym tygodniowym dzienniku zmian", // View updates in our weekly changelog
+whenYouCreateTags:
+  "Kiedy tworzysz tagi z karty, są one zapisywane jako tagi tylko dla tej przestrzeni. Utwórz wspólne tagi (np. błąd) tutaj, aby były dostępne we wszystkich przestrzeniach. Jeśli istnieją tagi na poziomie przestrzeni o tej samej nazwie, połączymy je w tag przestrzeni roboczej.", // When you create tags from a card, they’re saved as tags for that space only. Create common tags (e.g. bug) here to make them available in all spaces. If any space-level tags exist with the same name we’ll merge them into the workspace tag.
+merge: "Połącz", // Merge
+theSpace: "Przestrzeń", // The space
+haveSameTags: "mają tagi o tej samej nazwie.", // Have tags with the same name.
+doYouWantToMerge: "Czy chcesz połączyć je w nowy tag przestrzeni roboczej?", // Do you want to merge these into the new workspace tag?
+tagWithThisNameWorkspace: "Tag przestrzeni roboczej o tej nazwie już istnieje", // A workspace tag with this name already exists
+tagWithThisNameSpace: "Tag o tej nazwie już istnieje w przestrzeni", // A tag with this name already exists in the space
+editTag: "Edytuj tag", // Edit tag
+workspaceTags: "Tagi przestrzeni roboczej", // Workspace Tags
+manageTags: "Zarządzaj tagami udostępnianymi we wszystkich przestrzeniach", // Manage tags that are shared across all spaces
+youCantUndo: "Nie można cofnąć tej akcji.", // You can’t undo this action.
+merge2spaceTags: "O tej samej nazwie w tag przestrzeni roboczej?", // With the same name into the workspace tag?
+areYouSureYouWantToDelete: "Czy na pewno chcesz usunąć", // Are you sure you want to delete
+uploaded: "Załadowano", // Uploaded
+cardCreatedInResource: "Karta utworzona w '%{resourceName}' %{resourceType}", // Card created in '%{resourceName}' %{resourceType}
+["global.label.createIn"]: "Utwórz w", // Create in
+rememberBoard: "Zapamiętaj tablicę", // Remember board
+cardTitle: "Tytuł karty", // Card title
+pageTitle: "Tytuł strony", // Page title
+cardDescription: "Opis karty...", // Card description...
+editAsignees: "Edytuj przypisania", // Edit assignees
+actionFailed: "Akcja nie powiodła się", // Action failed
+thisBoardIsEmpty: "Ta tablica jest pusta. Utwórz najpierw listę.", // This board is empty. Please create a list first.
+changesAreSavedAuto: "Zmiany są zapisywane automatycznie", // Changes saved automatically
+untitledCard: "Karta bez tytułu", // Untitled card
+editAssignees: "Edytuj przypisania", // Edit assignees
+showChildCards: "Pokaż karty podrzędne", // Show child cards
+hideChildCards: "Ukryj karty podrzędne", // Hide child cards
+createAndManageSpaces: "Twórz i zarządzaj przestrzeniami", // Create and manage spaces
+thereAreNoListInBoard: "Na tablicy nie ma list.", // There are no lists in board.
+pageMovedToParent: "Strona przeniesiona do nadrzędnej", // Page moved to parent
+subscribedToResourceUpdates: "Subskrybowano aktualizacje %{name}", // Subscribed to %{name} updates
+unsubscribedFromResourceUpdates: "Anulowano subskrypcję aktualizacji %{name}", // Unsubscribed from %{name} updates
+subscribingToResourceUpdatesFailed: "Nie udało się subskrybować aktualizacji %{name}", // Failed to subscribe to %{name} updates
+unsubscribingFromResourceUpdatesFailed: "Nie udało się anulować subskrypcji aktualizacji %{name}", // Failed to unsubscribe from %{name} updates
+couldntArchiveCard: "Nie udało się zarchiwizować karty.", // Couldn’t archive card.
+cardRestored: "Karta została przywrócona", // Card is restored
+dueOn: "Termin na", // Due on
+today: "Dzisiaj", // Today
+yesterday: "Wczoraj", // Yesterday
+attached: "załączono", // Attached
+removed: "usunięto", // Removed
+updatedTheStartDate: "zaktualizował datę rozpoczęcia na", // Updated the start date to
+setTheStartDate: "ustawił datę rozpoczęcia na", // Set the start date to
+removedStartDate: "usunął datę rozpoczęcia", // Removed start date
+updatedTheDueDate: "zaktualizował termin na", // Updated the due date to
+setTheDueDate: "ustawił termin na", // Set the due date to
+removedDueDate: "usunął termin", // Removed due date
+changedStausFrom: "zmienił status z", // Changed status from
+editStatus: "Edytuj status", // Edit status
+editName: "Edytuj nazwę", // Edit name
+numberOfCards: "Liczba kart", // Number of cards
+createdCard: "utworzył kartę", // Created card
+people: "osoby", // People
+assignedMember: "przypisał", // Assigned
+archivedTheCard: "zarchiwizował kartę", // Archived the card
+restoredTheCard: "przywrócił kartę", // Restored the card
+theCardDescription: "opis karty", // The card description
+theCardTitle: "tytuł karty", // The card title
+["quickPage.title.attachImageFrom"]: "Dołącz obraz z...", // Attach image from...
+["quickPage.title.attachCoverImageFrom"]: "Dołącz okładkę z...", // Attach cover image from...
+chooseWorkspaceZapier: "Wybierz przestrzeń roboczą do połączenia z Zapier", // Choose a workspace to connect with Zapier
+connectSTZapeir: "Połącz Superthread z Zapier", // Connect Superthread with Zapier
+zapierIntegradionDescripiton:
+  "Zapier pozwala tworzyć niestandardowe przepływy pracy, które łączą Superthread z niemal każdą inną aplikacją: Typeform, Gmail, Intercom, Google Forms, Zendesk, Airtable, Front i wieloma innymi.", // Zapier lets you build custom workflows that connect Superthread with almost any other app: Typeform, Gmail, Intercom, Google Forms, Zendesk, Airtable, Front, and many more.
+connectToZapier: "Połącz Zapier z Superthread", // Connect Zapier to Superthread
+zapier: "Zapier", // Zapier
+openZapier: "Otwórz Zapier", // Open Zapier
+allow: "Zezwól", // Allow
+zappierWillHave:
+  "Zapier będzie mieć dostęp do odczytu i zapisu kart, tablic oraz stron w Twojej przestrzeni roboczej.", // Zapier will have read and write access to cards, boards, and pages in your workspace.
+youMayBeSharing:
+  "Możesz udostępniać wrażliwe informacje tej witrynie lub aplikacji. Zawsze możesz zobaczyć lub usunąć dostęp w", // You may be sharing sensitive info with this site or app. You can always see or remove access in your
+stSettings: "ustawieniach Superthread", // Superthread settings
+seeZapiers: "Zobacz politykę prywatności Zapier", // See Zapier’s
+privacyPolicy: "Polityka prywatności", // Privacy Policy
+termsOfService: "Warunki użytkowania", // Terms of Service
+makeSureYouTrustZapier: "Upewnij się, że ufasz Zapier", // Make sure you trust Zapier
+connectZapierToSuperthread: "Zapier połączony z Superthread", // Zapier connected to Superthread
+zapierIsRequesting: "Zapier prosi o dostęp do", // Zapier is requesting access to the
+previewStInSlack: "Podgląd linków Superthread w Slack", // Preview Superthread links in Slack
+lookingForSlackNotifications: "Szukasz powiadomień w Slack?", // Looking for Slack notifications?
+turnThemOnInYour: "Włącz je w swoich", // Turn them on in your
+notificationsSettings: "ustawieniach powiadomień", // Notifications settings
+connectToSlack:
+  "Połącz się ze Slack, aby zobaczyć kluczowe informacje z kart i stron Superthread, gdy linki są zawarte w wiadomościach Slack.", // Connect to Slack to see key information from Superthread cards and pages when links are included in Slack messages.
+orLc: "lub", // Or
+useBoardsToVisualise:
+  "Używaj tablic do wizualizacji swojego przepływu pracy, śledzenia postępów zespołu i planowania kolejnych działań. Twórz wiele tablic, aby utrzymać porządek.", // Use boards to visualise your workflow, track your team’s progress, and plan what to do next. Create multiple boards to keep things organised.
+collaborativeDocuments:
+  "Dokumenty współpracy z tekstem, obrazami, markdown i komentarzami inline. Notuj, pisz specyfikacje, buduj wiki lub udostępniaj informacje publicznie.", // Collaborative documents with text, images, markdown, and inline comments. Take notes, write specs, build a wiki, or share information publicly.
+filterAcrossTheEntire:
+  "Filtruj całą przestrzeń roboczą, aby stworzyć widok wszystkich kart przypisanych do Ciebie, lub stwórz globalny backlog błędów. Widoki mogą być prywatne lub udostępnione zespołowi.", // Filter across the whole workspace to create a view of all cards assigned to you, or perhaps create a global bugs backlog. Views can be private or shared with your team.
+useFiltersToCreate:
+  "Używaj filtrów, aby tworzyć niestandardowe widoki tylko tych kart, które chcesz zobaczyć", // Use filters to create custom views of only the cards you want to see
+kanbanBoardsUc: "Tablice Kanban", // Kanban boards
+importYourExistingTasksFrom: "Importuj swoje istniejące zadania z", // Import your existing tasks from
+importTasks: "Importuj zadania", // Import tasks
+leaveSpace: "Opuść przestrzeń", // Leave space
+viewSpace: "Zobacz przestrzeń", // View space
+deleted: "%{name} usunięto", // %{name} deleted
+leaveNamedSpace: "Opuścić przestrzeń %{name}?", // Leave %{name} space?
+leaveNamedPrivateSpace: "Opuścić prywatną przestrzeń %{name}?", // Leave %{name} private space?
+deleteAndLeaveNamedPrivateSpace: "Usuń i opuść prywatną przestrzeń %{name}?", // Delete and leave %{name} private space?
+youLeftNamedSpace: "Opuściłeś przestrzeń %{name}.", // You left the %{name} space.
+youCannotLeaveTheSpace: "Nie możesz opuścić tej przestrzeni", // You cannot leave this space
+joinSpace: "Dołącz do przestrzeni", // Join space
+joinThisSpace: "Dołącz do tej przestrzeni", // Join this space
+hasUnsupportedFileType: "ma nieobsługiwany typ pliku", // Has unsupported file type
+maxAllowedImageSize: "Maksymalny dozwolony rozmiar obrazu to", // Maximum allowed image size is
+maxAllowedImageResolution: "Maks. dozwolona rozdzielczość obrazu to", // Max. allowed image resolution is
+movedFromSpace: "przeniesiono z przestrzeni", // Moved from space
+untitledPage: "Strona bez tytułu", // Untitled page
+hideChildPages: "Ukryj podstrony", // Hide subpages
+showSubpages: "Pokaż podstrony", // Show subpages
+addedTo: "dodano do", // Added to
+addMembers: "Dodaj członków...", // Add members...
+removedFrom: "usunięto z", // Removed from
+viewMembers: "Zobacz członków", // View members
+enableScrollFocus: "Pokaż bieżący element na pasku bocznym", // Show current item in sidebar
+copyLinkToHeading: "Kopiuj link do nagłówka", // Copy link to heading
+joined: "Dołączył", // Joined
+addOwner: "Dodaj właściciela", // Add owner
+noOwner: "Brak właściciela", // No owner
+setOwner: "Ustaw właściciela", // Set owner
+font: "Czcionka", // Font
+addNewFolder: "Utwórz folder", // Create folder
+deletedSuccesfully: "usunięto z ulubionych", // Removed from favourites
+addedSuccesfully: "dodano do ulubionych", // Added to favourites
+clickToUpdate: "Kliknij, aby zaktualizować", // Click to update
+NewVersionAvailable: "Dostępna jest nowa wersja aplikacji", // A new version of the app is available
+addedChildCard: "dodano kartę podrzędną", // Added child card
+removedChildCard: "usunięto kartę podrzędną", // Removed child card
+removedChecklist: "usunięto listę kontrolną", // Removed checklist
+addedChecklist: "utworzono listę kontrolną", // Created checklist
+addedChecklists: "utworzono listy kontrolne", // Created checklists
+markedAsIncomplete: "oznaczono jako niekompletne", // Marked as incomplete
+completedChecklistItem: "ukończono", // Completed
+addedParentCard: "dodano kartę nadrzędną", // Added parent card
+removedParentCard: "usunięto kartę nadrzędną", // Removed parent card
+changedParentCardFrom: "zmieniono kartę nadrzędną z", // Changed parent card from
+deleteFolder: "Usuń folder", // Delete folder
+renameFolder: "Zmień nazwę folderu", // Rename folder
+lockSidebar: "Zachowaj pasek boczny otwarty", // Keep the sidebar open
+hideSidebar: "Ukryj pasek boczny", // Hide sidebar
+appearance: "Wygląd", // Appearance
+changeHowSuperthreadLooksAndFeels: "Zmień wygląd i działanie Superthread", // Change how Superthread looks and feels
+matchSistemSettings: "Dopasuj do ustawień systemowych", // Match system settings
+darkMode: "Tryb ciemny", // Dark mode
+lightMode: "Tryb jasny", // Light mode
+darkGreyMode: "Tryb ciemnoszary", // Dark grey mode
+darkBlueMode: "Tryb ciemnoniebieski", // Dark blue mode
+lightBlueMode: "Tryb jasnoniebieski", // Light blue mode
+year: "Rok", // Year
+quarter: "Kwartał", // Quarter
+month: "Miesiąc", // Month
+addNewPageInside: "Dodaj podstronę", // Add subpage
+addChildPage: "Dodaj podstronę", // Add subpage
+theme: "Motyw", // Theme
+boardSettings: "Ustawienia tablicy", // Board settings
+reaction: "Reakcja", // Reaction
+inbox: "Skrzynka odbiorcza", // Inbox
+resolve: "Rozwiąż", // Resolve
+unresolved: "Nierozwiązane", // Unresolved
+unresolve: "Cofnij rozwiązanie", // Unresolve
+unresolvedOnly: "Tylko nierozwiązane", // Unresolved only
+resolved: "Rozwiązane", // Resolved
+unresolveComment: "Cofnij rozwiązanie komentarza", // Unresolve comment
+resolveComment: "Rozwiąż komentarz", // Resolve comment
+commentResolved: "Komentarz rozwiązany", // Comment resolved
+commentUnresolved: "Komentarz nierozwiązany", // Comment unresolved
+resolvedOnly: "Tylko rozwiązane", // Resolved only
+allComments: "Wszystkie komentarze", // All comments
+noUnresolvedComments: "Brak nierozwiązanych komentarzy", // No unresolved comments
+noResolvedComments: "Brak rozwiązanych komentarzy", // No resolved comments
+noComments: "Brak komentarzy", // No comments
+about: "O", // About
+markAsRead: "Oznacz jako przeczytane", // Mark as read
+markAsUnread: "Oznacz jako nieprzeczytane", // Mark as unread
+markAllAsResolved: "Oznacz wszystkie jako rozwiązane", // Mark all as resolved
+showUnresolved: "Pokaż nierozwiązane", // Show unresolved
+showResolved: "Pokaż rozwiązane", // Show resolved
+noNotifications: "Brak powiadomień", // No notifications
+noNewNotifications: "Brak nowych powiadomień", // No new notifications
+noUnresolvedNotifications: "Brak nierozwiązanych powiadomień", // No unresolved notifications
+youCanShow: "Możesz pokazać", // You can show
+notificationsInstead: "powiadomienia zamiast tego", // Notifications instead
+subscribeToGetNotifications:
+  "Subskrybuj coś, aby otrzymywać powiadomienia o aktywności", // Subscribe to something and you’ll be notified of activity
+selectANotificationToViewIt: "Wybierz powiadomienie, aby je zobaczyć", // Select a notification to view it
+youCanMarkANotificationAs: "Możesz oznaczyć powiadomienie jako", // You can mark a notification as
+unreadOr: "nieprzeczytane lub", // Unread or
+resolveIt: "rozwiązane", // Resolve it
+inboxNotificationsAreUnresolved:
+  "Powiadomienia są nierozwiązane, dopóki ich nie rozwiążesz", // Notifications are unresolved until you resolve them
+notificationsAreNew: "Powiadomienia są nowe, jeśli nie widziałeś ich wcześniej", // Notifications are new if you haven’t seen them before
+wantNotificationsIn: "Chcesz powiadomienia w", // Want notifications in
+slaskQuestionMarkVisit: "Slack? Odwiedź", // Slack? Visit
+noCardsMatchChosenFilter: "Brak kart spełniających wybrane filtry", // There are no cards that match the chosen filters
+noCardsFound: "Nie znaleziono kart", // No cards found
+boardMoved: "Tablica przeniesiona", // Board moved
+pageMoved: "Strona przeniesiona", // Page moved
+openPage: "Otwórz stronę", // Open page
+hasBeenDeleted: "został usunięty", // Has been deleted
+deletedResourcePlain: "Ten zasób został usunięty.", // This resource has been deleted.
+deletedResourceWithName: "Ten %{name} został usunięty.", // This %{name} has been deleted.
+this: "Ten", // This
+andTheEntire: "oraz całość", // And the entire
+reactionsToYourComments: "Reakcje na Twoje komentarze", // Reactions to your comments
+youWereRemoved: "Zostałeś usunięty", // You were removed
+fromPrivateSpace: "z prywatnej przestrzeni", // From a private space
+privateSpaceDesc:
+  "Ta przestrzeń jest prywatna, więc nie możesz zobaczyć jej nazwy ani zawartości", // This space is private so you cannot see its name or contents
+privateSpace: "Prywatna przestrzeń", // Private space
+everything: "Wszystko", // Everything
+taskIsOverdue: "Zadanie jest po terminie", // Task is overdue
+endDateIsBeforeStartDate: "Data zakończenia jest przed datą rozpoczęcia", // End date is before start date
+moveCardIntoBoard: "Karta przeniesiona na tablicę", // Card moved to board
+inList: "na liście", // In list
+searchForParentCard: "Szukaj karty nadrzędnej", // Search for parent card
+icons: "Ikony", // Icons
+emojis: "Emotikony", // Emojis
+custom: "Niestandardowy", // Custom
+moveToBoard: "Przenieś na tablicę", // Move to board
+previous: "Poprzedni", // Previous
+manualOrder: "Ręczne porządkowanie", // Manual order
+sortedBy: "Sortowane według", // Sorted by
+toCancelDrag: "aby anulować przeciąganie", // To cancel drag
+groupBy: "Grupuj według", // Group by
+subpageCreated: "Podstrona utworzona", // Subpage created
+tableOfContents: "Spis treści", // Table of contents
+editWorkspaceTagsInSettings: "Edytuj tagi przestrzeni roboczej w ustawieniach", // Edit workspace tags in settings
+sideDocked: "Zakotwiczony na boku", // Side docked
+modalOverlay: "Nakładka modalna", // Modal overlay
+cardLayout: "Układ kart", // Card layout
+switchLayout: "Zmień układ", // Switch layout
+showSidebar: "Pokaż pasek boczny", // Show sidebar
+notags: "Brak tagów", // No tags
+resetLayoutToBoardDefault: "Zresetuj układ do domyślnego na tablicy", // Reset layout to board default
+alreadyOpen: "%{resource} jest już otwarty", // %{resource} already open
+defaultBoardLayout: "Domyślny układ tablicy", // Default board layout
+defaultBoardLayoutDescription:
+  "Wszyscy zobaczą ten układ domyślnie. To ustawienie można zmienić później.", // Everyone will see this layout by default. This setting can be changed later.
+boardDescription: "Karty są pogrupowane w kolumnach", // Cards are grouped into columns
+listDescription: "Karty są w pionowej liście, podzielone na grupy", // Cards are in a vertical list, split into groups
+timelineDescription: "Oś czasu oparta na datach rozpoczęcia i zakończenia", // A timeline based on start and due dates
+calendarDescription: "Karty są umieszczane na ich terminie", // Cards are placed on their due date
+boardName: "Nazwa tablicy", // Board name
+memberRemoved: "Członek usunięty", // Member removed
+resetLayoutToViewDefault: "Zresetuj kolejność do domyślnej", // Reset order to default
+earliestDueDate: "Najbliższy termin", // Earliest due date
+highestPriority: "Najwyższy priorytet", // Highest priority
+largestEstimate: "Największy szacunek", // Largest estimate
+STIsMostUseful: "Superthread jest najbardziej przydatny, gdy pracujesz z innymi.", // Superthread is most useful when you work with others.
+readOnly: "Tylko do odczytu", // Read only
+boardWillNotShowOnPublicPage: "Ta tablica nie będzie widoczna na stronie publicznej", // This board will not show on the public page
+removeBoard: "Usuń tablicę", // Remove board
+noSprints: "Sprinty będą tutaj wymienione od najnowszych do najstarszych", // Sprints will be listed here from latest to earliest
+noNonSprintBoardsInThisSpace: "Brak tablic niesprintowych w tej przestrzeni", // No non-sprint boards in this space
+inviteToWorkspaceDescription:
+  "Aby dodać istniejących członków do przestrzeni, przejdź do ustawień przestrzeni", // To add existing members to a space, go to space settings
+alreadyMembersOfWorkspace:
+  "Niektórzy ludzie są już w przestrzeni roboczej. Zostaną dodani do odpowiednich przestrzeni wybranych poniżej.", // Some people are already in the workspace. They’ll be added to any relevant spaces chosen below.
+information: "Informacja", // Information
+success: "Sukces", // Success
+error: "Błąd", // Error
+warning: "Ostrzeżenie", // Warning
+typeSomething: "Napisz coś...", // Type something...
+invite: "Zaproś", // Invite
+latest: "Najnowsze", // Latest
+cardChildrenTitle: "Karty podrzędne", // Child cards
+childCards: "Karty podrzędne", // Child cards
+members: "Członkowie", // Members
+removeFromCard: "Usuń z karty", // Remove from card
+displayName: "Nazwa wyświetlana", // Display name
+firstName: "Imię", // First name
+lastName: "Nazwisko", // Last name
+update: "Aktualizuj", // Update
+openSuperthread: "Otwórz Superthread", // Open Superthread
+infoNotification: "Powiadomienie informacyjne", // Info notification
+errorNotification: "Powiadomienie o błędzie", // Error notification
+alertNotification: "Powiadomienie alarmowe", // Alert notification
+successNotification: "Powiadomienie o sukcesie", // Success notification
+SignInIntoExistingWorkspace: "Zaloguj się do istniejącej przestrzeni roboczej", // Sign in to existing workspace
+preferences: "Preferencje", // Preferences
+pages: "Strony", // Pages
+gridView: "Widok siatki", // Grid view
+listView: "Widok listy", // List view
+lastCreated: "Ostatnio utworzone", // Last created
+lastUpdated: "Ostatnio zaktualizowane", // Last updated
+searchMembers: "Szukaj członków", // Search members
+or: "Lub", // Or
+add_collaborators: "Dodaj współpracowników", // Add collaborators
+selectWorkspace: "Wybierz przestrzeń roboczą", // Select a workspace
+selectWorkspaceIntegrations: "Wybierz przestrzeń roboczą do integracji", // Select a workspace for integration
+change: "Zmień", // Change
+createNewWorkspace: "Utwórz nową przestrzeń roboczą", // Create new workspace
+notSeeingYourWorkspace: "Nie widzisz swojej przestrzeni roboczej? Spróbuj innego e-maila:", // Don’t see your workspace? Try a different email:
+dismiss: "Odrzuć", // Dismiss
+load: "Załaduj", // Load
+youAlreadyHave: "Masz już", // You already have
+openBoard: "Otwórz tablicę", // Open board
+cardCannotBeMovedDirectlyToSpace: "Karta nie może zostać przeniesiona bezpośrednio do przestrzeni.", // Card cannot be moved directly into space.
+clickToRename: "Kliknij, aby zmienić nazwę", // Click to rename
+info: "Informacja", // Info
+clearAllFilters: "Wyczyść wszystkie filtry", // Clear all filters
+is: "jest", // Is
+is_not: "nie jest", // Is not
+includes: "zawiera", // Includes
+excludes: "wyklucza", // Excludes
+fullscreen: "Pełny ekran", // Full screen
+commentsActivity: "Komentarze i aktywność", // Comments & activity
+show: "Pokaż", // Show
+newestFirst: "Najnowsze pierwsze", // Newest first
+oldestFirst: "Najstarsze pierwsze", // Oldest first
+pageCreated: "Strona utworzona", // Page created
+["quickPage.label.setAsDefaultSpace"]: "Ustaw jako domyślną przestrzeń", // Set as default space
+createNewList: "Utwórz nową listę", // Create new list
+enterListName: "Wprowadź nazwę listy", // Enter list name
+listStatus: "Status listy", // List status
+print: "Drukuj", // Print
+reactedWith: "zareagował:", // Reacted with
+you: "ty", // You
+cannotModidyListStatus:
+  "Nie można zmienić statusu listy, gdy są dodane karty", // Cannot modify list status when there are cards added
+onlineAgain: "Jesteś z powrotem online", // You’re back online
+youAreOffline: "Jesteś offline", // You’re offline
+exploring: "Odkrywanie", // Exploring
+deactivated: "dezaktywowany", // Deactivated
+deleteView: "Usuń widok", // Delete view
+saveAsNewView: "Zapisz jako nowy widok", // Save as new view
+noResults: "Brak wyników", // No results
+thisFilterDoesNotMatch: "Ten filtr nie pasuje do żadnych kart", // This filter does not match any cards
+rememberChoice: "Zapamiętaj wybór", // Remember choice
+electronOpenInApp: "Otwórz w aplikacji", // Open in app
+electronOpenInDesktopApp: "Otwórz w aplikacji na komputer", // Open in desktop app
+electronOpenLinksInDesktopApp: "Otwieraj linki w aplikacji na komputer", // Open links in desktop app
+electronAutoOpenLinksInDesktopApp:
+  "Automatycznie otwieraj linki Superthread w aplikacji na komputer", // Automatically open Superthread links in the desktop app
+electronCurrentLinkOpenedInApp: "Bieżący link został otwarty w aplikacji na komputer", // Current link was opened in the desktop app
+electronAppIsInstalled: "Wygląda na to, że masz zainstalowaną aplikację", // It looks like you have the app installed
+electronUserMentioned: "wspomniał o tobie", // Mentioned you
+electronResourceMoved: "przeniósł", // Moved a
+electronMemberAdded: "dodał cię do", // Added you to a
+electronMemberRemoved: "usunął cię z", // Removed you from a
+electronCommentAdded: "dodał nowy komentarz", // Added a new comment
+electronResourceArchived: "zarchiwizował", // Archived a
+electronUserReacted: "zareagował:", // Reacted:
+results: "Wyniki", // Results
+tasks: "Zadania", // Tasks
+updateAppToEditPage: "Zaktualizuj aplikację, aby edytować tę stronę", // Please update the app to edit this page
+electronRecentlyViewed: "Ostatnio oglądane", // Recently viewed
+electronOpenDesktopApp: "Otwórz aplikację na komputer", // Open desktop app
+electronRedirectingToApp: "Przekierowanie do aplikacji na komputer...", // Redirecting to desktop app...
+updateAppToEditComment: "Zaktualizuj aplikację, aby edytować ten komentarz", // Please update the app to edit this comment
+updateAppToEditCard: "Zaktualizuj aplikację, aby edytować tę kartę", // Please update the app to edit this card
+connectToImporter: "Połącz z %{importerName}", // Connect to %{importerName}
+accessToken: "token dostępu", // Access token
+installationCloudHostname: "instalacja / nazwa hosta w chmurze", // Installation / cloud hostname
+findInYour: "Znajdź w swoim", // Find in your
+emailAddressYouUseFor: "Adres e-mail używany do konta %{importerName}", // Email address used for your %{importerName} account
+selectWhich: "Wybierz, które", // Select which
+selectBoardsToImport: "Wybierz %{boardEq}, z których chcesz zaimportować %{cardEq}", // Select %{boardEq} you want to import %{cardEq} from
+importYourExistingNameToST:
+  "Importuj swoje istniejące %{importerName} %{boardEq} do Superthread", // Import your existing %{importerName} %{boardEq} to Superthread
+jiraBoardMapingSubtitle: "Wybierz, które tablice chcesz zaimportować z Jira.", // Select which boards you want to import from Jira.
+trelloBoardMapingSubtitle:
+  "Wybierz, które tablice chcesz zaimportować z Trello.", // Select which boards you want to import from Trello.
+shortcutBoardMapingSubtitle:
+  "Wybierz zespoły i przepływy pracy do importowania historii.", // Select the teams and workflows to import stories from.
+jiraQuickImportText:
+  "Wszystkie zespoły zostaną zaimportowane do przestrzeni o nazwie 'jira-import'. Możesz łatwo zmienić nazwę i zorganizować swoje tablice stamtąd.", // All teams will be imported into a space called ‘jira-import’. You can easily rename and reorganise your boards from there.
+trelloQuickImportText:
+  "Wszystkie zespoły zostaną zaimportowane do przestrzeni o nazwie 'trello-import'. Możesz łatwo zmienić nazwę i zorganizować swoje tablice stamtąd.", // All teams will be imported into a space called ‘trello-import’. You can easily rename and reorganise your boards from there.
+shortcutQuickImportText:
+  "Każda tablica 'team-workflow' zostanie zaimportowana do przestrzeni o nazwie 'shortcut-import'. Możesz łatwo zmienić nazwę i zorganizować swoje tablice stamtąd.", // Each ‘team-workflow’ board will be imported into a space called ‘shortcut-import’. You can easily rename and reorganise your boards from there.
+jiraCustomImportText:
+  "Wybierz, które tablice zaimportować i do których przestrzeni powinny zostać zaimportowane.", // Choose which boards to import, and which spaces they should be imported to.
+trelloCustomImportText:
+  "Wybierz, które tablice zaimportować i do których przestrzeni powinny zostać zaimportowane.", // Choose which boards to import, and which spaces they should be imported to.
+shortcutCustomImportText:
+  "Wybierz, które tablice 'team-workflow' zaimportować i do których przestrzeni powinny zostać zaimportowane.", // Choose which ‘team-workflow’ boards to import, and which spaces they should be imported to.
+superthreadSpace: "Przestrzeń Superthread", // Superthread space
+mapImporterUsersToSTUSers:
+  "Mapuj użytkowników %{importerName} na użytkowników Superthread (lub zaproś brakujących), aby zachować członków kart, twórców i aktywność.", // Map %{importerName} users to Superthread users (or invite missing ones) to preserve card members, creators, and activity.
+startImport: "Rozpocznij import", // Start import
+wellLetYouKnowWhenImportFinishes:
+  "Poinformujemy Cię, gdy import się zakończy", // We’ll let you know when the import finishes
+feelFreeToContuinueUsingST: "Kontynuuj korzystanie z Superthread", // Feel free to continue using Superthread
+dontImportThisUser: "Nie importuj tego użytkownika", // Don’t import this user
+matchToAnExistingSTUser: "Dopasuj do istniejącego użytkownika Superthread", // Match to an existing Superthread user
+createANewUser: "Utwórz nowego użytkownika (zaproszenie e-mail)", // Create a new user (email invite)
+projectsCannotBeMovedToSpaces: "Projekty nie mogą być przenoszone do przestrzeni", // Projects cannot be moved to spaces
+importOpenStories: "Importuj otwarte historie", // Import open stories
+importOpenStoriesDesc:
+  "Nierozwiązane lub otwarte historie zostaną zaimportowane z ich istniejącymi stanami.", // Unresolved or opened stories will be imported with their existing states.
+importStaleStories: "Importuj przestarzałe historie", // Import stale stories
+importStaleStoriesDesc:
+  "Historie, które nie były otwierane przez ponad 6 miesięcy, są uważane za przestarzałe. Zostaną zaimportowane do archiwum i mogą zostać odarchiwizowane później.", // Stories that haven’t been opened in over 6 months are considered stale. They will be imported to the archive and can be unarchived later.
+wedLikeToTake: "Chcielibyśmy zabrać", // We’d like to take
+thirtySeconds: "30 sekund", // 30 seconds
+toShowYouAround: "aby Cię oprowadzić", // To show you around
+getStarted: "Zacznij", // Get started
+youCanAlways:
+  "Zawsze możesz ponownie odwiedzić ten samouczek z sekcji pomocy na pasku bocznym", // You can always re-visit this tutorial from the help section in the sidebar
+youreGoodToGo: "Możesz zaczynać.", // You’re good to go.
+quickStart: "Szybki samouczek", // Quick start tutorial
+getToKnow: "Poznaj Superthread w 30 sekund", // Get to know Superthread in 30 seconds
+desktopApp: "Aplikacja na komputer", // Desktop app
+thisLinkWasOpenedInApp: "Ten link został otwarty w aplikacji na komputer", // This link was opened in the desktop app
+openHereInstead: "Otwórz tutaj zamiast tego", // Open here instead
+browseAndManageSpaces: "Przeglądaj i zarządzaj przestrzeniami", // Browse and manage spaces
+manageSpaces: "Zarządzaj przestrzeniami", // Manage spaces
+searchSpaces: "Szukaj przestrzeni", // Search spaces
+createSpace: "Utwórz przestrzeń", // Create space
+addADescription: "Dodaj opis", // Add a description
+showingNumberOfSpaces:
+  "Pokazywanie %{num} wyniku z %{totalNum} wszystkich przestrzeni", // Showing %{num} result out of %{totalNum} total spaces
+noResultsFoundFor: 'Nie znaleziono wyników dla "%{query}"', // No results found for "%{query}"
+changeDescription: "Zmień opis", // Change description
+contents: "Zawartość", // Contents
+createSpaceSubtitle:
+  "Przestrzenie zawierają powiązane tablice, zadania i strony. Możesz mieć przestrzeń dla każdego zespołu lub obszaru biznesowego.", // Spaces contain related boards, tasks, and pages. You might have a space per team, or per business area.
+spaceNameAndIcon: "Nazwa i ikona przestrzeni", // Space name and icon
+somethingShortAndClear: "Coś krótkiego i jasnego", // Something short and clear
+youCanChangeThisLater: "Możesz to zmienić później", // You can change this later
+descritionOptional: "Opis (opcjonalnie)", // Description (optional)
+whatIsThisSpaceFor: "Do czego służy ta przestrzeń?", // What is this space for?
+addPeopleToSpaceOptional: "Dodaj osoby do tej przestrzeni (opcjonalnie)", // Add people to this space (optional)
+addPeople: "Dodaj osoby", // Add people
+addPeopleSubtitle:
+  "Jeśli zaprosisz osoby, które nie są częścią przestrzeni roboczej %{workspaceName}, zostaną one do niej dodane.", // If you invite people who are not part of the %{workspaceName} workspace, they’ll be added to it.
+openSpace: "Otwórz przestrzeń", // Open space
+openSpaceSubtitle:
+  "Wszyscy członkowie Twojej przestrzeni roboczej mogą przeglądać i dołączać do otwartych przestrzeni", // All members of your workspace can browse and join open spaces
+privateSpaceSubtitle:
+  "Członkowie przestrzeni roboczej nie mogą zobaczyć ani dołączyć do prywatnych przestrzeni, chyba że zostaną zaproszeni przez istniejącego członka", // Workspace members cannot see or join private spaces unless they are invited by an existing member
+inviteNewPeople: "Zaproś nowe osoby", // Invite new people
+inviteeEmailAddress: "Adres e-mail zaproszonej osoby", // Invitee email address
+inviteSectionSubtitle:
+  "Zostaną zaproszeni do całej przestrzeni roboczej, nie tylko do tej przestrzeni.", // They’ll be invited to the whole workspace, not just this space.
+couldntCreateSpace: "Nie udało się utworzyć przestrzeni, spróbuj ponownie.", // Space could not be created, please try again.
+spaceCreated: "Przestrzeń utworzona.", // Space created.
+emailAlreadyAdded: "Adres e-mail już dodany", // Email already added
+addingSomeMembersFailed: "Nie udało się dodać niektórych członków", // Failed to add some members
+founder: "Założyciel", // Founder
+director: "Dyrektor", // Director
+teamLead: "Lider zespołu", // Team lead
+individualContributor: "Samodzielny pracownik", // Individual contributor
+softwareEngineering: "Inżynieria oprogramowania", // Software engineering
+design: "Projektowanie", // Design
+productManagement: "Zarządzanie produktem", // Product management
+marketing: "Marketing", // Marketing
+finance: "Finanse", // Finance
+development: "Rozwój", // Development
+marketer: "Marketingowiec", // Marketer
+sales: "Sprzedaż", // Sales
+clickToView: "Kliknij, aby zobaczyć", // Click to view
+clickToDownload: "Kliknij, aby pobrać", // Click to download
+business: "Biznes", // Business
+pickAllThatApply: "Wybierz wszystkie pasujące opcje", // Pick all that apply
+pickOne: "Wybierz jedną", // Pick one
+customerSupport: "Obsługa klienta", // Customer support
+humanResources: "Zasoby ludzkie", // Human resources
+socialMedia: "Media społecznościowe", // Social media
+wordOfMouth: "Poczta pantoflowa", // Word of mouth
+searchEngine: "Wyszukiwarka", // Search engine
+advertising: "Reklama", // Advertising
+searchForSpaceOrBoard: "Szukaj przestrzeni lub tablicy", // Search for space or board
+starTypingToSearchFor: "Zacznij pisać, aby wyszukać", // Start typing to search for
+["my-work"]: "Moja praca", // My work
+["myWork.assigned"]: "Przypisane do %{userName}", // Assigned to %{userName}
+["myWork.created"]: "Utworzone przez %{userName}", // Created by %{userName}
+["myWorkNoResults.created"]: "Nie ma kart utworzonych przez ciebie", // There are no cards created by you
+["myWorkNoResults.assigned"]: "Nie ma kart przypisanych do ciebie", // There are no cards assigned to you
+["memberNoResults.assigned"]: "Nie ma kart przypisanych do %{userName}", // There are no cards assigned to %{userName}
+["memberNoResults.created"]: "Nie ma kart utworzonych przez %{userName}", // There are no cards created by %{userName}
+newCard: "Nowa karta", // New card
+addedCommentHiddenByFilter: "Dodany komentarz jest ukryty przez filtr", // Added comment is hidden by filter
+createdCardHiddenByFilter: "Utworzona karta może być ukryta przez filtr", // Created card may be hidden by filter
+viewWork: "Zobacz pracę", // View work
+removeFromSpace: "Usuń z przestrzeni", // Remove from space
+assignedInThisBoard: "Przypisane na tej tablicy", // Assigned in this board
+layout: "Układ", // Layout
+createdCardMovedSortOrder: "Utworzona karta może być przesunięta przez kolejność sortowania", // Created card may be moved by sort order
+createCardGroupBy: "Karta dodana do %{list}.", // Card added to %{list}.
+canNotMoveCardInsameBoard: "Nie można przenieść karty na tej samej tablicy.", // Can not move card in same board.
+latestReply: "Ostatnia odpowiedź", // Latest reply
+replyLabel: "Odpowiedz", // Reply
+totalReplies: "razem odpowiedzi", // Total replies
+olderReplies: "starsze odpowiedzi", // Older replies
+leaveReply: "Zostaw odpowiedź...", // Leave a reply...
+hideReplies: "Ukryj odpowiedzi", // Hide replies
+showReplies: "Pokaż odpowiedzi", // Show replies
+oneReply: "odpowiedź", // One reply
+discardComment: "Odrzucić komentarz?", // Discard comment?
+areYouSureYouWantToDiscard: "Czy na pewno chcesz odrzucić swój komentarz?", // Are you sure you want to discard your comment?
+skipToEnd: "Przejdź do końca", // Skip to end
+priority: "Priorytet", // Priority
+noPriority: "Brak priorytetu", // No priority
+urgent: "Pilne", // Urgent
+high: "Wysoki", // High
+medium: "Średni", // Medium
+low: "Niski", // Low
+priorities: "Priorytety", // Priorities
+changedThePriorityFrom: "zmienił priorytet z", // Changed the priority from
+changedTheEstimateFrom: "zmienił szacunek z", // Changed the estimate from
+setThePriorityTo: "ustawił priorytet na", // Set the priority to
+setTheEstimateTo: "ustawił szacunek na", // Set the estimate to
+removedTheEstimate: "usunął szacunek", // Removed the estimate
+thereAreNoPages:
+  "Nie ma stron w tej przestrzeni. Utwórz nową stronę lub przeciągnij istniejącą stronę do tej przestrzeni na pasku bocznym.", // There are no pages in this space. Create a new page, or drag an existing page into this space in the sidebar.
+thereAreNoBoards:
+  "Nie ma tablic w tej przestrzeni. Utwórz nową tablicę lub przeciągnij istniejącą tablicę do tej przestrzeni na pasku bocznym.", // There are no boards in this space. Create a new board, or drag an existing board into this space in the sidebar.
+commentsOnly: "Tylko komentarze", // Comments only
+activityOnly: "Tylko aktywność", // Activity only
+seeCardsWithThisTag:
+  "Zobacz karty z tym tagiem (liczba obejmuje karty, które mogą nie być widoczne gdzie indziej)", // See cards with this tag (count includes cards that might not show elsewhere)
+noResultsForThatName: "Brak wyników dla tej nazwy", // No results for that name
+youCan: "Możesz", // You can
+createASpace: "utworzyć przestrzeń", // Create a space
+named: 'nazwaną "%{query}"', // Named "%{query}"
+estimate: "Szacowanie", // Estimate
+onePoint: "1 punkt", // 1 point
+numberOfPoints: "%{num} punktów", // %{num} points
+extraSmall: "Bardzo małe", // Extra small
+small: "Małe", // Small
+mediumSize: "Średnie", // Medium
+large: "Duże", // Large
+extraLarge: "Bardzo duże", // Extra large
+noEstimate: "Brak szacunku", // No estimate
+settingsProjectsPreferencesSubtitle:
+  "Te ustawienia będą dotyczyć wszystkich członków przestrzeni", // These settings will affect all members of the space
+howCardsAreEstimated: "Jak są szacowane karty w tej przestrzeni", // How cards are estimated in this space
+disableCardEstimationForThisSpace: "Wyłącz szacowanie kart w tej przestrzeni", // Disable card estimation for this space
+fibonacciPoints: "Punkty Fibbonaciego", // Fibonacci points
+exponentialPoints: "Punkty wykładnicze", // Exponential points
+tshirtSizes: "Rozmiary koszulek", // T-shirt sizes
+setEstimate: "Ustaw szacunek", // Set estimate
+emailNotificationHelperText:
+  "E-mail każdego dnia roboczego z powiadomieniami, których nie widziałeś od ostatniego e-maila", // An email every weekday with notifications you haven’t seen since the last email
+estimated: "oszacowano", // Estimated
+cardSpaceEstimationTurnedOff:
+  "Ta karta należy do przestrzeni z wyłączonym szacowaniem", // This card belongs to a space with estimation turned off
+totalEstimatePointsTooltipContent:
+  "%{totalPoints} oszacowano na %{numOfCards} kart", // %{totalPoints} estimated across %{numOfCards}
+estimates: "szacunki", // Estimates
+assignItTo: "przypisz to do", // Assign it to
+searchForACard: "Szukaj karty", // Search for a card
+createACard: "Utwórz kartę", // Create a card
+archivedCardsAreHidden: "zarchiwizowane karty są ukryte", // Archived cards are hidden
+enterANameAbove: "Wpisz nazwę powyżej", // Enter a name above
+chooseFiltersYouWouldLike:
+  "Następnie wybierz filtry, które chciałbyś zastosować na pasku filtrów", // Then choose the filters you’d like in the filter bar
+cannotCreateViewOnMobile: "Nie możesz utworzyć widoku na urządzeniu mobilnym.", // You cannot create a view on mobile.
+viewCardInBoard: "Zobacz kartę na jej tablicy", // View card in its own board
+guestsMustBeAddedToOneSpace: "Goście muszą być dodani do co najmniej jednej przestrzeni", // Guests must be added to at least one space
+createCard: "Utwórz kartę", // Create card
+suggestedBasedOnTitle: "Sugerowane na podstawie tytułu", // Suggested based on title
+acceptSuggestion: "Akceptuj sugestię", // Accept suggestion
+rejectSuggestion: "Odrzuć sugestię", // Reject suggestion
+suggestionPlaceholderText: "Sugestia...", // Suggestion...
+changeEmail: "Zmień e-mail", // Change email
+logOutAndContinue: "Wyloguj się i kontynuuj", // Log out and continue
+confirmAccountOwnership: "Potwierdź własność konta", // Confirm account ownership
+reauthenticateEmailDescription:
+  "Aby chronić Twoje konto, musimy zalogować się ponownie. Następnie będziesz mógł wybrać nowy adres e-mail i dokończyć proces.", // To keep your account secure, we need you to log in again. Then you’ll be able to choose a new email address and complete the process.
+enterANewEmail: "Wprowadź nowy adres e-mail:", // Enter a new email address:
+resendLoginCode: "Wyślij ponownie kod logowania", // Resend login code
+emailAddressTakenByAnotherUser: "Adres e-mail jest już używany przez innego użytkownika", // Email address used by another user
+assistant: "Asystent", // Assistant
+changeTone: "Zmień ton", // Change tone
+simplify: "Uprość", // Simplify
+summarize: "Podsumuj", // Summarise
+translate: "Przetłumacz", // Translate
+generate: "Generuj", // Generate
+replaceText: "Zastąp tekst", // Replace text
+insertBelow: "Wstaw poniżej", // Insert below
+assistanceWith: "Czym mogę pomóc?", // What do you need assistance with?
+copiedToClipboard: "Skopiowano do schowka", // Copied to clipboard
+academic: "Akademicki", // Academic
+casual: "Swobodny", // Casual
+confident: "Pewny siebie", // Confident
+friendly: "Przyjazny", // Friendly
+neutral: "Neutralny", // Neutral
+professional: "Profesjonalny", // Professional
+aiFeatures: "Funkcje AI", // AI features
+emailDigestSentAt: "Skrót e-mail wysłany o", // Email digest at
+inYourTimezone: "w Twojej strefie czasowej (%{timezone})", // In your timezone (%{timezone})
+enableNotificationsFirst: "Najpierw włącz powiadomienia %{type}", // Enable %{type} notifications first
+turnOnAIAssitantInFormatingToolbar: "Włącz asystenta AI na pasku formatowania tekstu", // Turn on AI assistant in the text formatting toolbar
+superthreadSendingDataTo:
+  "Zwróć uwagę, że jeśli włączysz to dla swojej przestrzeni roboczej, wyrażasz zgodę na przesyłanie danych przez Superthread do", // Note that if you enable this for your workspace you consent to Superthread sending data to
+experimentalFeatureMayChangeFunctionality:
+  "Ta eksperymentalna funkcja może podlegać zmianom w zakresie funkcjonalności i cen.", // This experimental feature may be subject to change in functionality and pricing.
+contactUsToEnable: "Skontaktuj się z nami, aby włączyć tę funkcję.", // Contact us to enable this feature.
+boardOpenedInTheBackground: "Tablica %{boardTitle} została otwarta w tle", // %{boardTitle} board opened in the background
+resetFilters: "Zresetuj filtry", // Reset filters
+["create_space.title"]: "Utwórz przestrzeń", // Create a space
+["create_space.tooltip"]: "Utwórz miejsce pracy dla swojego zespołu", // Create a home for your team’s work
+["create_private_space.title"]: "Utwórz prywatną przestrzeń", // Create a private space
+["create_private_space.tooltip"]:
+  "Tylko osoby, które zaprosisz, będą mogły zobaczyć prywatną przestrzeń", // Only people you invite can see a private space
+["invite_user.title"]: "Zaproś kogoś", // Invite someone else
+["invite_user.tooltip"]:
+  "Zaproś swoich współpracowników do przestrzeni roboczej, aby mogli śledzić swoją pracę", // Invite your team-mates to the workspace so they can track their work
+["mention_anything.title"]: "Wspomnij coś", // Mention something
+["mention_anything.tooltip"]:
+  "Użyj klawisza @, aby wspomnieć coś, gdziekolwiek możesz pisać", // Use the @ key to mention something, anywhere you can write
+["add_child_card.title"]: "Dodaj kartę podrzędną", // Add a child card
+["add_child_card.tooltip"]:
+  "Karty podrzędne pomagają podzielić pracę na mniejsze zadania", // Child cards help you break work down into smaller tasks
+["visit_inbox.title"]: "Sprawdź swoją skrzynkę odbiorczą", // Check your inbox
+["visit_inbox.tooltip"]:
+  "Śledź wszystko, co subskrybujesz, w skrzynce odbiorczej", // Keep track of everything you’re subscribed to in the inbox
+["move_page.title"]: "Przenieś stronę", // Move a page
+["move_page.tooltip"]:
+  "Przeciągnij stronę na pasku bocznym, aby przenieść ją tam, gdzie chcesz", // Drag a page in the sidebar to move it wherever you want it
+["create_subpage.title"]: "Utwórz podstronę", // Create a subpage
+["create_subpage.tooltip"]:
+  "Podstrony znajdują się wewnątrz innych stron i pomagają w organizacji dokumentów", // Subpages live inside other pages and help you structure your documents
+["add_page_icon.title"]: "Dodaj ikonę strony", // Add a page icon
+["add_page_icon.tooltip"]:
+  "Ikona strony pomoże Ci łatwiej ją znaleźć w wyszukiwarce i na pasku bocznym", // A page icon helps you find the page again in search and the sidebar
+["add_page_cover.title"]: "Dodaj obraz okładki strony", // Add a page cover image
+["add_page_cover.tooltip"]: "Ustaw nastrój strony za pomocą obrazu okładki", // Set the tone for a page with a cover image
+["quick_card_shortcut.title"]: "Skrót do szybkiego utworzenia karty (C)", // Quick card shortcut (C)
+["quick_card_shortcut.tooltip"]: "Naciśnij klawisz C w dowolnym miejscu, aby utworzyć kartę", // Tap the C key anywhere to create a card
+["quick_page_shortcut.title"]: "Skrót do szybkiego utworzenia strony (P)", // Quick page shortcut (P)
+["quick_page_shortcut.tooltip"]: "Naciśnij klawisz P w dowolnym miejscu, aby utworzyć stronę", // Tap the P key anywhere to create a page
+["create_card.title"]: "Utwórz kartę", // Create a card
+["create_card.tooltip"]: "Utwórz kartę dla każdego zadania, które chcesz śledzić", // Create a card for each task you want to track
+["comment_on_card.title"]: "Skomentuj kartę", // Comment on a card
+["comment_on_card.tooltip"]:
+  "Zapisz aktualizacje lub zanotuj swoje myśli na karcie", // Write updates or note down your thoughts on a card
+["search_shortcut.title"]: "Znajdź coś za pomocą ⌘+K", // Find something with ⌘+K
+["search_shortcut.tooltip"]:
+  "Szybko otwórz uniwersalne wyszukiwanie wszędzie dzięki temu skrótowi", // Quickly open universal search anywhere with this shortcut
+["create_board.title"]: "Utwórz tablicę", // Create a board
+["create_board.tooltip"]: "Śledź pracę podzespołu lub projektu", // Track the work of a sub-team or project
+["upload_avatar.title"]: "Prześlij awatar", // Upload avatar
+["upload_avatar.tooltip"]: "Pomóż ludziom Cię rozpoznać w aplikacji", // Help people recognise you around the app
+["create_page.title"]: "Utwórz stronę", // Create a page
+["create_page.tooltip"]: "Zapisuj wiedzę i myśli za pomocą stron", // Capture knowledge and thoughts with pages
+["set_your_name.title"]: "Ustaw swoje imię", // Set your name
+["set_your_name.tooltip"]: "Twoje imię będzie widoczne w całej aplikacji", // Your name will be used throughout the app
+aCardMustHaveATitle: "Karta musi mieć tytuł", // A card must have a title
+showAll: "Pokaż wszystko", // Show all
+showLess: "Pokaż mniej", // Show less
+hideEmptyGroups: "Ukryj puste grupy", // Hide empty groups
+showAnotherAssignee: "Pokaż kolejnego przypisanego", // Show another assignee
+showAnotherTags: "Pokaż kolejne tagi", // Show another tags
+spaceMembers: "Członkowie przestrzeni", // Space members
+addExistingMembers: "Dodaj istniejących członków", // Add existing members
+inviteNewMembers: "Zaproś nowych członków", // Invite new members
+spaceDetails: "Szczegóły przestrzeni", // Space details
+makeBoardFullWidth: "Ustaw tablicę na pełną szerokość", // Make board full width
+askAiAssistantSearch: "Zapytaj AI na podstawie swoich kart i stron", // Ask AI based on your cards and pages
+backToSearchResults: "Wróć do wyników wyszukiwania", // Back to search results
+sources: "Źródła", // Sources
+askAiQuestionLong: "Pytanie musi mieć co najmniej 10 znaków.", // Question should have at least 10 characters.
+spaceSprintsSettings: "Ustawienia sprintów przestrzeni %{space}", // %{space} space sprints settings
+turnOnSprintsForThisSpace: "Włącz sprinty dla tej przestrzeni", // Turn on sprints for this space
+turnOnSprintsDesc:
+  "Sekcja 'Sprinty' zostanie dodana do paska bocznego dla tej przestrzeni. Sprint to tablica z datą rozpoczęcia i zakończenia. Po zakończeniu sprintu automatycznie rozpocznie się następny.", // A “Sprints” section will be added to the sidebar for this space. A sprint is a board with a start and end date. When a sprint is completed, the next will start automatically.
+ownersAdminsCanTurnOnSprints:
+  "Tylko właściciele przestrzeni roboczej, administratorzy i twórca przestrzeni mogą zmienić to ustawienie", // Only workspace owners, admins, and the space creator can change this setting
+onlyOwnerOfPrivateSpace:
+  "Tylko właściciel prywatnej przestrzeni może zmienić to ustawienie", // Only the owner of a private space can change this setting
+onlySpaceOwnerCanModifyMembers: "Tylko właściciele mogą zmieniać członków przestrzeni", // Only owners can change space members
+cannotModifySpaceOwner: "Nie możesz dokonać zmian właściciela przestrzeni", // You cannot make changes to the owner of the space
+sprintLength: "Długość sprintu", // Sprint length
+weeks: "tygodnie", // Weeks
+sprintStartOn: "Sprinty zaczynają się w", // Sprints start on
+coolDownPeriod: "Okres chłodzenia między sprintami", // Cool-down period between sprints
+coolDownPeriodDesc:
+  "Okres chłodzenia zostanie dodany między każdym sprintem. Jest to przydatne np. do retrospektyw i działań porządkowych.", // A cool-down period will be added between each sprint. These are useful for e.g. retrospectives and clean-up activities.
+coolDownPeriodLength: "Długość okresu chłodzenia", // Cool-down period length
+sprintBoardStatuses: "Statusy tablicy sprintu", // Sprint board statuses
+sprintBoardStatusesDesc:
+  "Każdy sprint w tej przestrzeni korzysta z tych samych statusów. Musisz mieć co najmniej jeden z każdego typu statusu. Typ statusu 'Backlog' nie jest dostępny.", // Every sprint in this space uses the same statuses. You must have at least one of each status type. The “Backlog” status type is not available.
+addStatus: "Dodaj status", // Add status
+dueInDays: "Termin za %{days} dni", // Due in %{days} days
+sprints: "Sprinty", // Sprints
+addSprint: "Dodaj sprint", // Add sprint
+sprint: "Sprint", // Sprint
+openSprint: "Otwórz sprint", // Open sprint
+renameSprint: "Zmień nazwę sprintu", // Rename sprint
+markAsComplete: "Oznacz jako zakończone", // Mark as complete
+changeSprintDates: "Zmień daty sprintu", // Change sprint dates
+cancelSprint: "Anuluj sprint", // Cancel sprint
+changeDates: "Zmień daty", // Change dates
+chooseNewStartAndEndDates: "Wybierz nowe daty rozpoczęcia i zakończenia sprintu.", // Choose new start and end dates for the sprint.
+renameSprintDescription: "Wprowadź nową nazwę sprintu.", // Enter a new name for the sprint.
+startDateIsEarlierThanPreviousEndDate:
+  "Nowa data rozpoczęcia jest wcześniejsza niż data zakończenia poprzedniego sprintu.", // New start date is earlier than the previous sprint’s end date.
+enterSprintName: "Wprowadź nazwę sprintu", // Enter sprint name
+cancelSprintWarning:
+  "Wszystkie nieukończone karty na tej tablicy zostaną przeniesione do statusu anulowanego.", // All unfinished cards in this board will be moved into the cancelled status.
+dontCancel: "Nie anuluj", // Don’t cancel
+upgradePlan: "Zaktualizuj plan", // Upgrade plan
+upgradePrivateSpaceTitle: "Zaktualizuj, aby uzyskać prywatne przestrzenie", // Upgrade for private spaces
+upgradePrivateSpaceDescription:
+  "Możesz tworzyć prywatne przestrzenie w ramach płatnego planu.", // You can create private spaces on a paid plan.
+upgradePlanBadgeTooltip:
+  "Tylko właściciel (%{spaceOwner}) i administratorzy mogą zmieniać plan przestrzeni roboczej", // Only the owner (%{spaceOwner}) and admins can change the workspace plan
+upgradeUserRolesTitle: "Zaktualizuj, aby uzyskać role użytkowników", // Upgrade for user roles
+upgradeUserRolesDescription:
+  "Możesz wybierać role użytkowników niebędących administratorami w ramach płatnego planu.", // You can choose non-admin user roles on a paid plan.
+sprintSettings: "Ustawienia sprintu", // Sprint settings
+electronDownloadApp: "Pobierz aplikację", // Download the app
+electronDownloadAppDescription:
+  "Obsługujemy tylko macOS. Daj nam znać, jeśli jest zapotrzebowanie na aplikację dla systemu Windows.", // We only support macOS. Let us know if there is demand for a Windows app.
+macArm64Label: "Apple Silicon", // Apple Silicon
+macx64Label: "Apple Intel", // Apple Intel
+mailCopiedToClipboard: "E-mail skopiowany do schowka", // Email copied to clipboard
+cardsWithNoSprint: "Karty bez sprintu", // Cards with no sprint
+showCardsFrom: "Pokaż karty z", // Show cards from
+yourColor: "Twój kolor", // Your color
+thisColorWillHelp:
+  "Ten kolor pomoże innym zidentyfikować Cię w niektórych miejscach.", // This colour will help others identify you in some places.
+logo: "Logo", // Logo
+prStateOpen: "%{count} otwarte", // %{count} open
+prStateClosed: "%{count} zamknięte", // %{count} closed
+prStateMerged: "%{count} scalone", // %{count} merged
+invitingPeopleToWorkspace:
+  "Tylko administratorzy mogą zapraszać nowe osoby do tej przestrzeni roboczej", // Only admins can invite new people to this workspace
+upgradePublicPageIndexingTitle: "Zaktualizuj, aby włączyć indeksowanie w wyszukiwarce", // Upgrade for search engine indexing
+upgradePublicPageIndexingDescription:
+  "Możesz włączyć indeksowanie stron w wyszukiwarce w ramach płatnego planu.", // You can turn on search engine indexing on a paid plan.
+shortcutWarningText:
+  "Wszystkie historie Shortcut nieprzypisane do zespołu nie zostaną zaimportowane.", // Any Shortcut stories not assigned to a team will not be imported.
+coolDown: "Okres chłodzenia", // Cool-down
+noBoardsOrPages: "Brak tablic lub stron", // No boards or pages
+language: "Język", // Language
+usersWork: "Praca %{name}", // %{name}’s work
+renameAttachment: "Zmień nazwę załącznika", // Rename attachment
+deleteAttachment: "Usuń załącznik", // Delete attachment
+timelineLayoutDescription:
+  "Zaktualizuj plan przestrzeni roboczej, aby korzystać z układu osi czasu.", // Upgrade your workspace plan to use the timeline layout.
+upgradeViewsDescription: "Zaktualizuj plan przestrzeni roboczej, aby zapisywać widoki.", // Upgrade your workspace plan to save views.
+createNewItem: "Utwórz nowy element", // Create new item
+statusType: "Typ statusu", // Status type
+spaceLimitReached:
+  "Osiągnięto limit przestrzeni. Możesz usunąć niektóre przestrzenie, aby utworzyć więcej.", // The space limit has been reached. You can delete some spaces to create more.
+freePlanUsageLimits: "Limity użycia darmowego planu", // Free plan usage limits
+item: "Element", // Item
+usage: "Użycie", // Usage
+limitReachedLong:
+  "Jeśli osiągnięto limit, będziesz musiał usunąć elementy lub zaktualizować plan przed utworzeniem nowych elementów.", // If a limit is reached, you will need to remove items or upgrade the plan before new items can be created.
+limitReached: "Osiągnięto limit", // Limit reached
+resourceAndContentWillBeDeleted:
+  'Zasób "%{resourceTitle}" i jego zawartość zostaną trwale usunięte dla wszystkich. Nie można tego cofnąć.', // The %{resourceType} "%{resourceTitle}" and its contents will be permanently deleted for everyone. This cannot be undone.
+resourceWillBeDeleted:
+  'Zasób "%{resourceTitle}" zostanie trwale usunięty. Nie można tego cofnąć. Żadne karty dodane do projektu nie zostaną usunięte.', // The %{resourceType} "%{resourceTitle}" will be permanently deleted. This cannot be undone. Any cards that have been added to the project will not be deleted.
+listNameLabel: "Nazwa listy", // List name
+deleteList: "Usuń listę", // Delete list
+itemName: "Nazwa elementu", // Item name
+moveCardIntoSprint: "Karta przeniesiona do sprintu %{sprintName}", // Card moved to sprint %{sprintName}
+addView: "Dodaj widok", // Add view
+timeCreatedSort: "Czas utworzenia", // Time created
+timeUpdatedSort: "Czas aktualizacji", // Time updated
+dueDateSort: "Data ukończenia", // Due date
+noSprintsLabel: "Brak sprintów", // No sprints
+createdCardViaEmail: "utworzono kartę przez e-mail", // Created card via email
+cardCreatedViaEmail: "karta utworzona przez e-mail", // Card created via email
+couldNotBeVerified: "Nie udało się zweryfikować", // Could not be verified
+createCardsViaEmailTitle: "Twórz karty na tej tablicy przez e-mail", // Create cards in this board via email
+createCardsViaEmailDescription:
+  "Twórz karty na tej tablicy, jeśli ktoś wyśle wiadomość na adres e-mail.", // Create a card in this board if anyone sends a message to an email address.
+onlyCurrentAddressWillWork: "Działa tylko obecnie wyświetlany adres.", // Only the address currently shown will work.
+regenerate: "Regeneruj", // Regenerate
+emailCopiedToClipboard: "E-mail skopiowany do schowka", // Email copied to clipboard
+emailRegenerated: "E-mail zregenerowany", // Email regenerated
+folder: "Folder", // Folder
+yourSpaces: "Twoje przestrzenie", // Your spaces
+quoteReply: "Cytuj i odpowiedz", // Quote and reply
+itemHasBeenDeleted: "%{resourceType} został usunięty", // %{resourceType} has been deleted
+deletedNotification: "usunięto", // Deleted
+searchForBoard: "Szukaj tablicy", // Search for board
+activeSprintText: "Obecny", // Current
+loadMoreSprints: "Załaduj więcej sprintów", // Load more sprints
+try: "Spróbuj", // Try
+["add_workspace_logo.title"]: "Dodaj logo przestrzeni roboczej", // Add a workspace logo
+["add_workspace_logo.tooltip"]: "Prześlij logo", // Upload a logo
+["customise_your_profile.title"]: "Dostosuj swój profil", // Customise your profile
+["customise_your_profile.tooltip"]: "Dodaj zdjęcie profilowe", // Add a profile photo
+["import_tasks.title"]: "Importuj zadania", // Import tasks
+["import_tasks.tooltip"]: "Importuj z Trello, Jira lub Shortcut", // Import from Trello, Jira, or Shortcut
+["view_keyboard_shortcuts.title"]: "Zobacz skróty klawiszowe", // View keyboard shortcuts
+["view_keyboard_shortcuts.tooltip"]: "Otwórz listę skrótów klawiszowych", // Open keyboard cheat sheet
+["connect_slack.title"]: "Połącz ze Slack", // Connect Slack
+["connect_slack.tooltip"]: "Włącz powiadomienia Slack", // Turn on Slack notifications
+seeAllWorkspaces: "Zobacz wszystkie przestrzenie robocze", // See all workspaces
+workspaceSettings: "Ustawienia przestrzeni roboczej", // Workspace settings
+switchToRecentWorkspace: "Przełącz na ostatnią przestrzeń roboczą", // Switch to recent workspace
+icon: "Ikona", // Icon
+addToSprint: "Dodaj do sprintu", // Add to sprint
+addToProject: "Dodaj do projektu", // Add to project
+goToProject: "Przejdź do projektu", // Go to project
+addTags: "Dodaj tagi", // Add tags
+cancelled: "Anulowany", // Cancelled
+sprintBoards: "Tablice sprintu", // Sprint boards
+sprintSettingsBoardsDescription:
+  "Te ustawienia dotyczą wszystkich sprintów w tej przestrzeni", // These settings apply to all sprints in this space
+addedCard: "Dodano kartę", // Added card
+removedCard: "Usunięto kartę", // Removed card
+addNewCard: "Dodaj nową kartę", // Add new card
+addExistingCard: "Dodaj istniejącą kartę", // Add existing card
+changeEpicOrParent: "Zmień projekt lub nadrzędną kartę", // Change project or parent
+cardAlreadyHasEpicOrParent:
+  "Wybrana karta już ma projekt lub nadrzędną kartę. Zostaną one zmienione, jeśli dodasz kartę do tego projektu.", // The chosen card already has a project or parent card. They will be changed if you add it to this project.
+changeEpic: "Zmień projekt", // Change project
+childCardIsPartOfEpic: 'Karta podrzędna jest częścią projektu "%{epicName}".', // The child card is part of the project "%{epicName}".
+parentCardHasNoEpic: "Karta nadrzędna nie ma projektu.", // The parent card has no project.
+parentCardIsPartOfEpic: 'Karta nadrzędna jest częścią projektu "%{epicName}".', // The parent card is part of the project "%{epicName}".
+childCardsEpicWillBeRemoved:
+  "Projekt karty podrzędnej zostanie usunięty, jeśli kontynuujesz.", // The child card’s project will be removed if you continue.
+childCardsEpicWillChangeToParents:
+  "Projekt karty podrzędnej zmieni się na projekt karty nadrzędnej, jeśli kontynuujesz.", // The child card’s project will change to the parent card’s project if you continue.
+removeEpic: "Usuń projekt", // Remove project
+epicWillNoLongerBeAssociated:
+  'Karta podrzędna nie będzie już powiązana z projektem "%{epicName}", jeśli usuniesz ją z karty nadrzędnej.', // The child card will no longer be associated with the project "%{epicName}" if you remove it from its parent card.
+childCardAlreadyHasParent:
+  "Karta podrzędna już ma nadrzędną kartę. Nadrzędna karta zostanie zmieniona na tę kartę, jeśli kontynuujesz.", // The child card already has a parent. The parent will be changed to this card if you continue.
+cardsDirectlyAddedToEpicCantHaveParent:
+  "Karty dodane bezpośrednio do projektów nie mogą mieć kart nadrzędnych", // Cards added directly to projects can’t have parent cards
+epicNoTagsFound: "Nie znaleziono tagów. Projekty mogą używać tylko tagów przestrzeni roboczej", // No tags found. Projects can only use workspace tags
+cannotChangeStatusForCardsInFinishedSprint:
+  "Nie można zmienić statusu kart w zakończonym sprincie", // Cannot change status for cards in finished sprint
+cannotChangeStatusForArchivedCards: "Nie można zmienić statusu zarchiwizowanych kart", // Cannot change status for archived cards
+cantMoveArchivedCardToSprint: "Nie można przenieść zarchiwizowanej karty do sprintu", // Can’t move archived card to sprint
+relatedTo: "Powiązane z", // Related to
+changePriority: "Zmień priorytet", // Change priority
+changeEstimate: "Zmień szacowanie", // Change estimate
+changeTags: "Zmień tagi", // Change tags
+changeSprint: "Zmień sprint", // Change sprint
+goToSprint: "Przejdź do sprintu", // Go to sprint
+pastSprints: "Zakończone sprinty", // Past sprints
+currentAndPlannedSprints: "Obecne i zaplanowane sprinty", // Current and planned sprints
+seeAllSprints: "Zobacz wszystkie sprinty", // See all sprints
+currentAndNextSprint: "Obecny i następny sprint", // Current and next sprint
+branchSpecificAutomationAddFailed:
+  "Nie udało się dodać nowej automatyzacji specyficznej dla gałęzi.", // Failed to add new branch-specific automation.
+branchSpecificAutomationUpdateFailed:
+  "Nie udało się zaktualizować automatyzacji specyficznej dla gałęzi.", // Failed to update branch-specific automation.
+branchSpecificAutomationRemoveFailed:
+  "Nie udało się usunąć automatyzacji specyficznej dla gałęzi.", // Failed to remove branch-specific automation.
+thereAreNoCurrentOrPlannedSprints: "Brak obecnych lub zaplanowanych sprintów", // There are no current or planned sprints
+thereIsNoCurrentOrNextSprint: "Brak obecnego lub następnego sprintu", // There is no current or next sprint
+movedCardFrom: "Przeniesiono kartę z", // Moved card from
+rolledCardFrom: "Przeniesiono kartę z", // Rolled card from
+sprintMarkedAsCompleted: "Sprint oznaczony jako zakończony", // Sprint marked as completed
+sprintMarkedAsCancelled: "Sprint oznaczony jako anulowany", // Sprint marked as cancelled
+cardIsParent: "Karta jest nadrzędna", // Card is parent
+cardIsChild: "Karta jest podrzędna", // Card is child
+cardIsRelated: "Karta jest powiązana", // Card is related
+parentCard: "Karta nadrzędna", // Parent card
+moveTo: "Przenieś do...", // Move to...
+pageMovedTo: "Strona przeniesiona do", // Page moved to
+thisSpaceIsEmpty: "Ta przestrzeń jest pusta", // This space is empty
+createSomethingToGetStarted: "Stwórz coś, aby rozpocząć", // Create something to get started
+visualiseYourWorkflow:
+  "Zwizualizuj swój przepływ pracy, śledź postęp i utrzymuj porządek", // Visualise your workflow, track work, and keep things organised
+captureImportantInformation:
+  "Zapisuj ważne informacje, współpracuj z innymi i udostępniaj w sieci", // Capture important information, collaborate with others, and share to the web
+organiseWorkIntoSprints:
+  "Zorganizuj pracę w odcinki czasu, aby łatwiej planować", // Organise work into stretches of time so you can plan more easily
+filterYourWorkspaceToCreateViews:
+  "Filtruj swoją przestrzeń roboczą, aby tworzyć widoki i udostępniać je zespołowi", // Filter your workspace to create views, and share them with your team
+turnOnSprints: "Włącz sprinty", // Turn on sprints
+cardViews: "Widoki kart", // Card views
+convert: "Konwertuj", // Convert
+convertCardToEpic: "Przekształć kartę w projekt", // Convert card to project
+couldNotConvertCardToEpic: "Nie udało się przekształcić karty w projekt", // Couldn’t convert card to project
+cardSuccessfullyConvertedToEpic: "Karta pomyślnie przekształcona w projekt", // Card successfully converted to project
+convertedCardWillLose:
+  "Jeśli przekształcisz tę kartę w projekt, straci ona %{arr, list}.", // If you convert this card to a project, it will lose its %{arr, list}.
+convertedThisCardToEpic: "przekształcił tę kartę w projekt", // Converted this card to a project
+spaceLevelTags: "tagi na poziomie przestrzeni", // Space-level tags
+effortEstimate: "szacowanie wysiłku", // Effort estimate
+existingEpic: "istniejący projekt", // Existing project
+roadmapMustHaveAtLeastOneStatus:
+  "Plan działania musi mieć co najmniej jeden status", // The roadmap must have at least one status
+chosenPageIsAlreadySubpage:
+  "Wybrana strona jest już podstroną bieżącej strony", // Chosen page is already a subpage of current page
+searchForResults: "Szukaj, aby wyświetlić wyniki", // Search to show results
+parentCardIs: "Karta nadrzędna to...", // Parent card is...
+projectIs: "Projekt to...", // Project is...
+convertedTo: "przekształcony w", // Converted to
+moveToCompletedSprint: "Przenieś do ukończonego sprintu?", // Move to completed sprint?
+onlyDoneCardsCanBeMovedToCompletedSprint:
+  "Tylko karty z statusu „Zrobione” mogą zostać przeniesione do ukończonego sprintu. Ta karta zostanie zmieniona na „Zrobione” i przeniesiona.", // Only “Done” cards can be moved to a completed sprint. This card will be changed to “Done” and moved.
+removeCardFromProject: "Usuń kartę z projektu", // Remove card from project
+};
+
+export default PL as Translations;
+
