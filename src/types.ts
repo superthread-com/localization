@@ -1744,6 +1744,7 @@ export enum TranslationKeys {
   MoveToCompletedSprint = "moveToCompletedSprint",
   OnlyDoneCardsCanBeMovedToCompletedSprint = "onlyDoneCardsCanBeMovedToCompletedSprint",
   RemoveCardFromProject = "removeCardFromProject",
+  RoadmapOpenedInTheBackground = "roadmapOpenedInTheBackground",
 }
 
 export type Translations = Record<TranslationKeys, string>;

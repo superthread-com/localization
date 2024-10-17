@@ -2020,6 +2020,7 @@ const de = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Nur „Fertig“ Karten können in einen abgeschlossenen Sprint verschoben werden. Diese Karte wird auf „Fertig“ geändert und verschoben.",
   removeCardFromProject: "Karte aus Projekt entfernen",
+  roadmapOpenedInTheBackground: "Roadmap im Hintergrund geöffnet",
 };
 
 export default de as Translations;
