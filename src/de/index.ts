@@ -2021,6 +2021,14 @@ const de = {
     "Nur „Fertig“ Karten können in einen abgeschlossenen Sprint verschoben werden. Diese Karte wird auf „Fertig“ geändert und verschoben.",
   removeCardFromProject: "Karte aus Projekt entfernen",
   roadmapOpenedInTheBackground: "Roadmap im Hintergrund geöffnet",
+  unfavouriteCurrentSprint: "Aktueller Sprint nicht favorisieren",
+  favouriteCurrentSprint: "Favorit aktueller Sprint",
+  unfavouriteNextSprint: "Nächster Sprint nicht favorisiert",
+  favouriteNextSprint: "Favorit nächster Sprint",
+  unfavouriteSprintName:
+    "Nicht favorisierter Sprint mit dem Namen %{sprintName}",
+  favouriteSprintName: "Favoritensprint mit dem Namen %{sprintName}",
+  currentSprint: "Aktueller Sprint",
 };
 
 export default de as Translations;
