@@ -2013,6 +2013,7 @@ const fr: Translations = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     'Seules les cartes marquées "Terminé" peuvent être déplacées vers un sprint terminé. Cette carte sera marquée comme "Terminé" et déplacée.',
   removeCardFromProject: "Supprimer la carte du projet",
+  roadmapOpenedInTheBackground: "Feuille de route ouverte en arrière-plan",
 };
 
 export default fr as Translations;

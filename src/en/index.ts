@@ -1926,6 +1926,7 @@ const en = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Only “Done” cards can be moved to a completed sprint. This card will be changed to “Done” and moved.",
   removeCardFromProject: "Remove card from project",
+  roadmapOpenedInTheBackground: "Roadmap opened in the background",
 };
 
 export default en as Translations;
