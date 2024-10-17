@@ -1965,7 +1965,7 @@ const bs: Translations = {
   favouriteCurrentSprint: "Dodaj u omiljene trenutni ciklus",
   unfavouriteNextSprint: "Ukloni iz omiljenih sljedeći ciklus",
   favouriteNextSprint: "Dodaj u omiljene sljedeći ciklus",
-  unfavouriteSprintName: "Ukloni u omiljene %{sprintName}",
+  unfavouriteSprintName: "Ukloni iz omiljene %{sprintName}",
   favouriteSprintName: "Dodaj u omiljene %{sprintName}",
   currentSprint: "Trenutni ciklus",
 };
