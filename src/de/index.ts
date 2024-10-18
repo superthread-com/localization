@@ -310,9 +310,9 @@ const de = {
   deleteCommentPopupMessage:
     "Bist du sicher, dass du diesen Kommentar löschen möchtest?",
   deleteMessage: "Kommentar löschen",
-  archiveResource: "%{type} archivieren",
-  restoreResource: "%{type} wiederherstellen",
-  deleteResource: "%{type} löschen",
+  archiveResource: "Archiviere %{type}",
+  restoreResource: "Wiederherstelle %{type}",
+  deleteResource: "Lösche %{type}",
   deleteSuccess: "%{name} %{type} wurde gelöscht",
   archiveSuccess: "%{name} %{type} wurde archiviert",
   restoreSuccess: "%{name} %{type} wurde wiederhergestellt",
@@ -1047,7 +1047,7 @@ const de = {
   urlDoesntLeadAnywhere: "Diese URL führt nirgendwohin",
   itemMightBeDeleted:
     "Das Element könnte gelöscht worden sein oder du hast möglicherweise keinen Zugriff darauf",
-  deleteItem: "%{item} löschen",
+  deleteItem: "Lösche %{item}",
   deleteSpace: "Raum löschen",
   ifYouWantToDeleteSpace:
     "Wenn du diesen Raum löschen möchtest, gib seinen Namen unten ein.",
@@ -2020,6 +2020,14 @@ const de = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Nur „Fertig“ Karten können in einen abgeschlossenen Sprint verschoben werden. Diese Karte wird auf „Fertig“ geändert und verschoben.",
   removeCardFromProject: "Karte aus Projekt entfernen",
+  roadmapOpenedInTheBackground: "Roadmap im Hintergrund geöffnet",
+  unfavouriteCurrentSprint: "Aktueller Sprint nicht favorisieren",
+  favouriteCurrentSprint: "Favorit aktueller Sprint",
+  unfavouriteNextSprint: "Nächster Sprint nicht favorisiert",
+  favouriteNextSprint: "Favorit nächster Sprint",
+  unfavouriteSprintName: "Nicht favorisierter %{sprintName}",
+  favouriteSprintName: "Favoriten %{sprintName}",
+  currentSprint: "Aktueller Sprint",
 };
 
 export default de as Translations;

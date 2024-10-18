@@ -1744,6 +1744,14 @@ export enum TranslationKeys {
   MoveToCompletedSprint = "moveToCompletedSprint",
   OnlyDoneCardsCanBeMovedToCompletedSprint = "onlyDoneCardsCanBeMovedToCompletedSprint",
   RemoveCardFromProject = "removeCardFromProject",
+  RoadmapOpenedInTheBackground = "roadmapOpenedInTheBackground",
+  UnfavouriteCurrentSprint = "unfavouriteCurrentSprint",
+  FavouriteCurrentSprint = "favouriteCurrentSprint",
+  UnfavouriteNextSprint = "unfavouriteNextSprint",
+  FavouriteNextSprint = "favouriteNextSprint",
+  UnfavouriteSprintName = "unfavouriteSprintName",
+  FavouriteSprintName = "favouriteSprintName",
+  CurrentSprint = "currentSprint",
 }
 
 export type Translations = Record<TranslationKeys, string>;

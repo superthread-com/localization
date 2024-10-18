@@ -1960,6 +1960,14 @@ const bs: Translations = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     'Samo "Završene" kartice mogu se premjestiti u završeni ciklus. Ova kartica će biti promijenjena u "Završeno" i premještena.',
   removeCardFromProject: "Ukloni karticu iz projekta",
+  roadmapOpenedInTheBackground: "Plan rada otvoren u pozadini",
+  unfavouriteCurrentSprint: "Ukloni iz omiljenih trenutni ciklus",
+  favouriteCurrentSprint: "Dodaj u omiljene trenutni ciklus",
+  unfavouriteNextSprint: "Ukloni iz omiljenih sljedeći ciklus",
+  favouriteNextSprint: "Dodaj u omiljene sljedeći ciklus",
+  unfavouriteSprintName: "Ukloni iz omiljene %{sprintName}",
+  favouriteSprintName: "Dodaj u omiljene %{sprintName}",
+  currentSprint: "Trenutni ciklus",
 };
 
 export default bs;

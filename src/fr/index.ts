@@ -2013,6 +2013,14 @@ const fr: Translations = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     'Seules les cartes marquées "Terminé" peuvent être déplacées vers un sprint terminé. Cette carte sera marquée comme "Terminé" et déplacée.',
   removeCardFromProject: "Supprimer la carte du projet",
+  roadmapOpenedInTheBackground: "Feuille de route ouverte en arrière-plan",
+  unfavouriteCurrentSprint: "Sprint actuel non favori",
+  favouriteCurrentSprint: "Sprint actuel favori",
+  unfavouriteNextSprint: "Sprint suivant non favori",
+  favouriteNextSprint: "Sprint suivant favori",
+  unfavouriteSprintName: "Non favori %{sprintName}",
+  favouriteSprintName: "Favori %{sprintName}",
+  currentSprint: "Sprint actuel",
 };
 
 export default fr as Translations;
