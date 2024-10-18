@@ -1625,6 +1625,7 @@ export enum TranslationKeys {
   LimitReached = "limitReached",
   ResourceAndContentWillBeDeleted = "resourceAndContentWillBeDeleted",
   ResourceWillBeDeleted = "resourceWillBeDeleted",
+  EpicWillBeDeleted = "epicWillBeDeleted",
   ListNameLabel = "listNameLabel",
   DeleteList = "deleteList",
   ItemName = "itemName",
