@@ -1806,8 +1806,7 @@ const en = {
   timeUpdatedSort: "Time updated",
   dueDateSort: "Due date",
   noSprintsLabel: "No sprints",
-  createdCardViaEmail: "created card via email",
-  cardCreatedViaEmail: "card created via email",
+  createdViaEmail: "created via email",
   couldNotBeVerified: "Could not be verified",
   createCardsViaEmailTitle: "Create cards in this board via email",
   createCardsViaEmailDescription:

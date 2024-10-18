@@ -1840,8 +1840,7 @@ const bs: Translations = {
   timeCreatedSort: "Vremenu kreiranja",
   timeUpdatedSort: "Vremenu ažuriranja",
   dueDateSort: "Najranijem roku",
-  createdCardViaEmail: "kartica kreirana putem e-maila",
-  cardCreatedViaEmail: "kartica kreirana putem e-maila",
+  createdViaEmail: "kreirano putem e-maila",
   couldNotBeVerified: "Nije moguće provjeriti",
   createCardsViaEmailTitle: "Kreiraj kartice u ovoj ploči putem e-maila",
   createCardsViaEmailDescription:

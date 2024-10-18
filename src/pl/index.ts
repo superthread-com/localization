@@ -1841,8 +1841,7 @@ const pl = {
   timeUpdatedSort: "Czas aktualizacji",
   dueDateSort: "Data ukończenia",
   noSprintsLabel: "Brak sprintów",
-  createdCardViaEmail: "utworzono kartę przez e-mail",
-  cardCreatedViaEmail: "karta utworzona przez e-mail",
+  createdViaEmail: "utworzone przez e-mail",
   couldNotBeVerified: "Nie udało się zweryfikować",
   createCardsViaEmailTitle: "Twórz karty na tej tablicy przez e-mail",
   createCardsViaEmailDescription:
