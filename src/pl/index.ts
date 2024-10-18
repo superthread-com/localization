@@ -1822,6 +1822,8 @@ const pl = {
     'Zasób "%{resourceTitle}" i jego zawartość zostaną trwale usunięte dla wszystkich. Nie można tego cofnąć.',
   resourceWillBeDeleted:
     'Zasób "%{resourceTitle}" zostanie trwale usunięty. Nie można tego cofnąć. Żadne karty dodane do projektu nie zostaną usunięte.',
+  epicWillBeDeleted:
+    "%{resourceType} %{resourceTitle} zostanie trwale usunięty. Tej czynności nie można cofnąć. Karty dodane do projektu nie zostaną usunięte.",
   listNameLabel: "Nazwa listy",
   deleteList: "Usuń listę",
   itemName: "Nazwa elementu",

@@ -1873,6 +1873,8 @@ const de = {
     'Das %{resourceType} "%{resourceTitle}" und seine Inhalte werden dauerhaft für alle gelöscht. Dies kann nicht rückgängig gemacht werden.',
   resourceWillBeDeleted:
     'Das %{resourceType} "%{resourceTitle}" wird dauerhaft für alle gelöscht. Dies kann nicht rückgängig gemacht werden.',
+  epicWillBeDeleted:
+    'Das %{resourceType} "%{resourceTitle}" wird dauerhaft gelöscht. Dies kann nicht rückgängig gemacht werden. Alle Karten, die dem Projekt hinzugefügt wurden, werden nicht gelöscht.',
   listNameLabel: "Listenname",
   deleteList: "Liste löschen",
   itemName: "Elementname",

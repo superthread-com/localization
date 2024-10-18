@@ -1867,6 +1867,8 @@ const fr: Translations = {
     'Le %{resourceType} "%{resourceTitle}" et son contenu seront définitivement supprimés pour tout le monde. Cette action est irréversible.',
   resourceWillBeDeleted:
     'Le %{resourceType} "%{resourceTitle}" sera définitivement supprimé pour tout le monde. Cette action est irréversible.',
+  epicWillBeDeleted:
+    'Le %{resourceType} "%{resourceTitle}" sera supprimée définitivement. Cette action est irréversible. Toutes les cartes ajoutées au projet ne seront pas supprimées.',
   listNameLabel: "Nom de la liste",
   deleteList: "Supprimer la liste",
   itemName: "Nom de l'élément",

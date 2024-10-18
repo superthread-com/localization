@@ -1787,6 +1787,8 @@ const en = {
     'The %{resourceType} "%{resourceTitle}" and its contents will be permanently deleted for everyone. This cannot be undone.',
   resourceWillBeDeleted:
     'The %{resourceType} "%{resourceTitle}" will be permanently deleted for everyone. This cannot be undone.',
+  epicWillBeDeleted:
+    'The %{resourceType} "%{resourceTitle}" will be permanently deleted. This cannot be undone. Any cards that have been added to the project will not be deleted.',
   listNameLabel: "List name",
   deleteList: "Delete list",
   itemName: "Item name",
