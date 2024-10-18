@@ -1644,7 +1644,7 @@ export enum TranslationKeys {
   TimeUpdatedSort = "timeUpdatedSort",
   DueDateSort = "dueDateSort",
   NoSprintsLabel = "noSprintsLabel",
-  CreatedViaEmail = "createdViaEmail",
+  CreatedViaEmailFrom = "createdViaEmailFrom",
   CouldNotBeVerified = "couldNotBeVerified",
   CreateCardsViaEmailTitle = "createCardsViaEmailTitle",
   CreateCardsViaEmailDescription = "createCardsViaEmailDescription",

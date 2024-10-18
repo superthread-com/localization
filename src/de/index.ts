@@ -1893,7 +1893,7 @@ const de = {
   timeUpdatedSort: "Aktualisierungszeit",
   dueDateSort: "Fälligkeitsdatum",
   noSprintsLabel: "Keine Sprints",
-  createdViaEmail: "erstellt per E-Mail",
+  createdViaEmailFrom: "erstellt per E-Mail von",
   couldNotBeVerified: "Konnte nicht verifiziert werden",
   createCardsViaEmailTitle: "Karten in dieser Tafel per E-Mail erstellen",
   createCardsViaEmailDescription:

@@ -1886,7 +1886,7 @@ const fr: Translations = {
   timeUpdatedSort: "Date de modification",
   dueDateSort: "Date d'échéance",
   noSprintsLabel: "Pas de sprint",
-  createdViaEmail: "carte créée par email",
+  createdViaEmailFrom: "créé par e-mail de",
   couldNotBeVerified: "Impossible à vérifier",
   createCardsViaEmailTitle: "Créer des cartes dans ce tableau par email",
   createCardsViaEmailDescription:
