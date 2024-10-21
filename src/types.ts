@@ -1763,6 +1763,7 @@ export enum TranslationKeys {
   UnfavouriteSprintName = "unfavouriteSprintName",
   FavouriteSprintName = "favouriteSprintName",
   CurrentSprint = "currentSprint",
+  ParentWillBeRemovedIfAddToProject = "parentWillBeRemovedIfAddToProject",
 }
 
 export type Translations = Record<TranslationKeys, string>;

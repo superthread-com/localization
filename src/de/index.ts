@@ -2041,6 +2041,8 @@ const de = {
   unfavouriteSprintName: "Nicht favorisierter %{sprintName}",
   favouriteSprintName: "Favoriten %{sprintName}",
   currentSprint: "Aktueller Sprint",
+  parentWillBeRemovedIfAddToProject:
+    "Die Elternkarte wird entfernt, wenn Sie diese Karte zu einem Projekt hinzufügen, da Karten Projekte von Elternkarten erben",
 };
 
 export default de as Translations;

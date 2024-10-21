@@ -1977,6 +1977,8 @@ const pl = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Tylko karty z statusu „Zrobione” mogą zostać przeniesione do ukończonego sprintu. Ta karta zostanie zmieniona na „Zrobione” i przeniesiona.",
   removeCardFromProject: "Usuń kartę z projektu",
+  parentWillBeRemovedIfAddToProject:
+    "Karta macierzysta zostanie usunięta, jeśli dodasz tę kartę do projektu, ponieważ karty dziedziczą projekty z kart macierzystych",
 };
 
 export default pl as Translations;

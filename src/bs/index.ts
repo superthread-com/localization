@@ -1980,6 +1980,8 @@ const bs: Translations = {
   unfavouriteSprintName: "Ukloni iz omiljene %{sprintName}",
   favouriteSprintName: "Dodaj u omiljene %{sprintName}",
   currentSprint: "Trenutni ciklus",
+  parentWillBeRemovedIfAddToProject:
+    "Roditeljska kartica bit će uklonjena ako dodate ovu karticu projektu, jer kartice nasljeđuju projekte od roditeljskih kartica",
 };
 
 export default bs;

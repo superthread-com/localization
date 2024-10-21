@@ -2033,6 +2033,8 @@ const fr: Translations = {
   unfavouriteSprintName: "Non favori %{sprintName}",
   favouriteSprintName: "Favori %{sprintName}",
   currentSprint: "Sprint actuel",
+  parentWillBeRemovedIfAddToProject:
+    "La carte parent sera supprimée si vous ajoutez cette carte à un projet, car les cartes héritent des projets des cartes parentes",
 };
 
 export default fr as Translations;
