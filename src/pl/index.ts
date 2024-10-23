@@ -1979,6 +1979,7 @@ const pl = {
   removeCardFromProject: "Usuń kartę z projektu",
   parentWillBeRemovedIfAddToProject:
     "Karta macierzysta zostanie usunięta, jeśli dodasz tę kartę do projektu, ponieważ karty dziedziczą projekty z kart macierzystych",
+  cannotArchiveCardFromSprint: "Nie można zarchiwizować karty ze sprintu",
 };
 
 export default pl as Translations;

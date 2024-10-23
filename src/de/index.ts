@@ -2043,6 +2043,7 @@ const de = {
   currentSprint: "Aktueller Sprint",
   parentWillBeRemovedIfAddToProject:
     "Die Elternkarte wird entfernt, wenn Sie diese Karte zu einem Projekt hinzufügen, da Karten Projekte von Elternkarten erben",
+  cannotArchiveCardFromSprint: "Kann Karte nicht aus einem Sprint archivieren.",
 };
 
 export default de as Translations;
