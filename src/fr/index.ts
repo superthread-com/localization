@@ -2035,6 +2035,8 @@ const fr: Translations = {
   currentSprint: "Sprint actuel",
   parentWillBeRemovedIfAddToProject:
     "La carte parent sera supprimée si vous ajoutez cette carte à un projet, car les cartes héritent des projets des cartes parentes",
+  cannotArchiveCardFromSprint:
+    "Impossible d’archiver une carte à partir d’un sprint.",
 };
 
 export default fr as Translations;

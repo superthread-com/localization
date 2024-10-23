@@ -1982,6 +1982,7 @@ const bs: Translations = {
   currentSprint: "Trenutni ciklus",
   parentWillBeRemovedIfAddToProject:
     "Roditeljska kartica bit će uklonjena ako dodate ovu karticu projektu, jer kartice nasljeđuju projekte od roditeljskih kartica",
+  cannotArchiveCardFromSprint: "Ne mogu arhivirati karticu iz ciklusa",
 };
 
 export default bs;
