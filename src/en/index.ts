@@ -1817,6 +1817,23 @@ const en = {
   regenerate: "Regenerate",
   emailCopiedToClipboard: "Email copied to clipboard",
   emailRegenerated: "Email regenerated",
+  slackChannelNotifications: "Slack channel notifications",
+  slackChannelNotificationsTitle:
+    "Send notifications about cards in this board to a Slack channel",
+  slackChannelNotificationsDescriptionDisabled:
+    "A Slack window will open and ask you to choose a channel",
+  slackChannelNotificationsDescriptionDisabledNotAdmin:
+    "Only an admin can turn on Slack channel notifications",
+  slackChannelNotificationsDescriptionEnabled:
+    "Notifications from this board are sent to #%{channel} in Slack.",
+  onlyAnAdminCanTurnThisOff: "Only an admin can turn this off.",
+  boardActivity: "Board activity",
+  sendTo: "Send to",
+  webhookNotificationCardAddedBoard: "Card added/moved to board",
+  webhookNotificationCardAddedList: "Card added/moved to status",
+  webhookNotificationCardCommented:
+    "Comment left on card in board (excluding replies)",
+  webhookNotificationCardDueDate: "Card due date is soon/overdue",
   folder: "Folder",
   yourSpaces: "Your spaces",
   quoteReply: "Quote and reply",

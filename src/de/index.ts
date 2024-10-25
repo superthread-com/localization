@@ -1905,6 +1905,24 @@ const de = {
   regenerate: "Neu generieren",
   emailCopiedToClipboard: "E-Mail in die Zwischenablage kopiert",
   emailRegenerated: "E-Mail neu generiert",
+  slackChannelNotifications: "Slack-Kanalbenachrichtigungen",
+  slackChannelNotificationsTitle:
+    "Senden Sie Benachrichtigungen über Karten auf diesem Board an einen Slack-Kanal",
+  slackChannelNotificationsDescriptionDisabled:
+    "Ein Slack-Fenster wird geöffnet und fordert Sie auf, einen Kanal auszuwählen",
+  slackChannelNotificationsDescriptionDisabledNotAdmin:
+    "Nur ein Administrator kann Slack-Kanalbenachrichtigungen aktivieren",
+  slackChannelNotificationsDescriptionEnabled:
+    "Benachrichtigungen von diesem Board werden an #%{channel} in Slack gesendet.",
+  onlyAnAdminCanTurnThisOff: "Nur ein Administrator kann dies ausschalten.",
+  boardActivity: "Board-Aktivität",
+  sendTo: "Senden an",
+  webhookNotificationCardAddedBoard: "Karte zur Tafel hinzugefügt/verschoben",
+  webhookNotificationCardAddedList: "Karte zum Status hinzugefügt/verschoben",
+  webhookNotificationCardCommented:
+    "Kommentar zur Karte im Board hinterlassen (ohne Antworten)",
+  webhookNotificationCardDueDate:
+    "Fälligkeitsdatum der Karte ist bald/überfällig",
   folder: "Ordner",
   yourSpaces: "Deine Räume",
   quoteReply: "Zitat und antworten",

@@ -1852,6 +1852,23 @@ const pl = {
   regenerate: "Regeneruj",
   emailCopiedToClipboard: "E-mail skopiowany do schowka",
   emailRegenerated: "E-mail zregenerowany",
+  slackChannelNotifications: "Powiadomienia kanału Slack",
+  slackChannelNotificationsTitle:
+    "Wyślij powiadomienia o kartach na tej tablicy do kanału Slack",
+  slackChannelNotificationsDescriptionDisabled:
+    "Otworzy się okno Slack i poprosi o wybór kanału",
+  slackChannelNotificationsDescriptionDisabledNotAdmin:
+    "Tylko administrator może włączyć powiadomienia kanału Slack",
+  slackChannelNotificationsDescriptionEnabled:
+    "Powiadomienia z tej tablicy są wysyłane do #%{channel} w Slacku.",
+  onlyAnAdminCanTurnThisOff: "Tylko administrator może to wyłączyć.",
+  boardActivity: "Aktywność tablicy",
+  sendTo: "Wyślij do",
+  webhookNotificationCardAddedBoard: "Karta dodana/przeniesiona na tablicę",
+  webhookNotificationCardAddedList: "Karta dodana/przeniesiona do statusu",
+  webhookNotificationCardCommented:
+    "Komentarz zostawiony na karcie w tablicy (z wyłączeniem odpowiedzi)",
+  webhookNotificationCardDueDate: "Termin karty jest bliski/przeterminowany",
   folder: "Folder",
   yourSpaces: "Twoje przestrzenie",
   quoteReply: "Cytuj i odpowiedz",
