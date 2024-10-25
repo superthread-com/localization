@@ -1851,6 +1851,23 @@ const bs: Translations = {
   regenerate: "Regeneriraj",
   emailCopiedToClipboard: "E-mail kopiran u međuspremnik",
   emailRegenerated: "E-mail uspješno regeneriran",
+  slackChannelNotifications: "Slack obavijesti za kanal",
+  slackChannelNotificationsTitle:
+    "Šaljite obavijesti o karticama na ovoj tabli u Slack kanal",
+  slackChannelNotificationsDescriptionDisabled:
+    "Otvorit će se Slack prozor i zatražiti da odaberete kanal",
+  slackChannelNotificationsDescriptionDisabledNotAdmin:
+    "Samo administrator može uključiti obavijesti za Slack kanal",
+  slackChannelNotificationsDescriptionEnabled:
+    "Obavijesti s ove table se šalju na #%{channel} u Slacku.",
+  onlyAnAdminCanTurnThisOff: "Samo administrator može ovo isključiti.",
+  boardActivity: "Aktivnost table",
+  sendTo: "Pošalji na",
+  webhookNotificationCardAddedBoard: "Kartica dodana/premještena na ploču",
+  webhookNotificationCardAddedList: "Kartica dodana/premještena u status",
+  webhookNotificationCardCommented:
+    "Komentar ostavljen na kartici u ploči (bez odgovora)",
+  webhookNotificationCardDueDate: "Datum dospijeća kartice je uskoro/prošao",
   folder: "Datoteka",
   yourSpaces: "Vaši prostori",
   quoteReply: "Citiraj i odgovori",

@@ -1898,6 +1898,25 @@ const fr: Translations = {
   regenerate: "Régénérer",
   emailCopiedToClipboard: "Email copié dans le presse-papiers",
   emailRegenerated: "Email régénéré avec succès",
+  slackChannelNotifications: "Notifications de canal Slack",
+  slackChannelNotificationsTitle:
+    "Envoyer des notifications à propos des cartes de ce tableau à un canal Slack",
+  slackChannelNotificationsDescriptionDisabled:
+    "Une fenêtre Slack s'ouvrira et vous demandera de choisir un canal",
+  slackChannelNotificationsDescriptionDisabledNotAdmin:
+    "Seul un administrateur peut activer les notifications de canal Slack",
+  slackChannelNotificationsDescriptionEnabled:
+    "Les notifications de ce tableau sont envoyées à #%{channel} dans Slack.",
+  onlyAnAdminCanTurnThisOff: "Seul un administrateur peut désactiver cela.",
+  boardActivity: "Activité du tableau",
+  sendTo: "Envoyer à",
+
+  webhookNotificationCardAddedBoard: "Carte ajoutée/déplacée au tableau",
+  webhookNotificationCardAddedList: "Carte ajoutée/déplacée au statut",
+  webhookNotificationCardCommented:
+    "Commentaire laissé sur la carte dans le tableau (hors réponses)",
+  webhookNotificationCardDueDate:
+    "Date d'échéance de la carte est proche/dépassée",
   folder: "Dossier",
   yourSpaces: "Vos espaces",
   quoteReply: "Citation et réponse",
