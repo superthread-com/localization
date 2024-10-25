@@ -1949,6 +1949,9 @@ const en = {
   parentWillBeRemovedIfAddToProject:
     "The parent card will be removed if you add this card to a project, since cards inherit projects from parent cards",
   cannotArchiveCardFromSprint: "Cannot archive card from a sprint",
+  sprintCompleted: "Sprint completed",
+  sprintCancelled: "Sprint cancelled",
+  sprintDatesChanged: "Sprint dates changed",
 };
 
 export default en as Translations;
