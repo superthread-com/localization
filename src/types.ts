@@ -1765,6 +1765,9 @@ export enum TranslationKeys {
   CurrentSprint = "currentSprint",
   ParentWillBeRemovedIfAddToProject = "parentWillBeRemovedIfAddToProject",
   CannotArchiveCardFromSprint = "cannotArchiveCardFromSprint",
+  SprintCompleted = "sprintCompleted",
+  SprintCancelled = "sprintCancelled",
+  SprintDatesChanged = "sprintDatesChanged",
 }
 
 export type Translations = Record<TranslationKeys, string>;
