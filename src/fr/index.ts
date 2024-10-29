@@ -2059,6 +2059,17 @@ const fr: Translations = {
   sprintCompleted: "Sprint terminé",
   sprintCancelled: "Sprint annulé",
   sprintDatesChanged: "Dates du sprint modifiées",
+  myWorkAndNotes: "Mon travail et mes notes",
+  ["myWork.notes"]: "Notes",
+  tidyUp: "Nettoyer",
+  convertTo: "Convertir en...",
+  newNote: "Nouvelle note",
+  searchNotes: "Rechercher des notes",
+  favouriteNote: "Note favorite",
+  archiveNote: "Archiver la note",
+  deleteNote: "Supprimer la note",
+  original: "Original",
+  tidied: "Nettoyé",
 };
 
 export default fr as Translations;

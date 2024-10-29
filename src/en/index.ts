@@ -1969,6 +1969,17 @@ const en = {
   sprintCompleted: "Sprint completed",
   sprintCancelled: "Sprint cancelled",
   sprintDatesChanged: "Sprint dates changed",
+  myWorkAndNotes: "My work & notes",
+  ["myWork.notes"]: "My notes",
+  tidyUp: "Tidy up",
+  convertTo: "Convert to...",
+  newNote: "New note",
+  searchNotes: "Search notes...",
+  favouriteNote: "Favourite note",
+  archiveNote: "Archive note",
+  deleteNote: "Delete note",
+  original: "Original",
+  tidied: "Tidied",
 };
 
 export default en as Translations;
