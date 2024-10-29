@@ -1780,6 +1780,17 @@ export enum TranslationKeys {
   SprintCompleted = "sprintCompleted",
   SprintCancelled = "sprintCancelled",
   SprintDatesChanged = "sprintDatesChanged",
+  MyWorkAndNotes = "myWorkAndNotes",
+  MyWorkNotes = "myWork.notes",
+  TidyUp = "tidyUp",
+  ConvertTo = "convertTo",
+  NewNote = "newNote",
+  SearchNotes = "searchNotes",
+  FavouriteNote = "favouriteNote",
+  ArchiveNote = "archiveNote",
+  DeleteNote = "deleteNote",
+  Original = "original",
+  Tidied = "tidied",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2065,6 +2065,17 @@ const de = {
   sprintCompleted: "Sprint abgeschlossen",
   sprintCancelled: "Sprint abgebrochen",
   sprintDatesChanged: "Sprintdaten geändert",
+  myWorkAndNotes: "Meine Arbeit und Notizen",
+  ["myWork.notes"]: "Meine Notizen",
+  tidyUp: "Aufräumen",
+  convertTo: "Konvertieren zu...",
+  newNote: "Neue Notiz",
+  searchNotes: "Notizen suchen...",
+  favouriteNote: "Notiz favorisieren",
+  archiveNote: "Notiz archivieren",
+  deleteNote: "Notiz löschen",
+  original: "Original",
+  tidied: "Aufgeräumt",
 };
 
 export default de as Translations;

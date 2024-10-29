@@ -2000,6 +2000,17 @@ const pl = {
   sprintCompleted: "Sprint zakończony",
   sprintCancelled: "Sprint anulowany",
   sprintDatesChanged: "Daty sprintu zmienione",
+  myWorkAndNotes: "Moja praca i notatki",
+  ["myWork.notes"]: "Moje notatki",
+  tidyUp: "Uporządkować",
+  convertTo: "Konwertuj do...",
+  newNote: "Nowa notatka",
+  searchNotes: "Szukaj notatek...",
+  favouriteNote: "Notatka ulubiona",
+  archiveNote: "Zarchiwizuj notatkę",
+  deleteNote: "Usuń notatkę",
+  original: "Oryginalny",
+  tidied: "Uporządkowany",
 };
 
 export default pl as Translations;

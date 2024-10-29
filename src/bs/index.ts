@@ -2003,6 +2003,17 @@ const bs: Translations = {
   sprintCompleted: "Završen ciklus",
   sprintCancelled: "Otkazan ciklus",
   sprintDatesChanged: "Datumi ciklusa promijenjeni",
+  myWorkAndNotes: "Moj rad i bilješke",
+  ["myWork.notes"]: "Moje bilješke",
+  tidyUp: "Očisti",
+  convertTo: "Pretvori u...",
+  newNote: "Nova bilješka",
+  searchNotes: "Pretraži bilješke...",
+  favouriteNote: "Dodaj u omiljene bilješke",
+  archiveNote: "Arhiviraj bilješku",
+  deleteNote: "Obriši bilješku",
+  original: "Original",
+  tidied: "Očišćeno",
 };
 
 export default bs;
