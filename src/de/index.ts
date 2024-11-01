@@ -1915,6 +1915,9 @@ const de = {
   slackChannelNotificationsDescriptionEnabled:
     "Benachrichtigungen von diesem Board werden an #%{channel} in Slack gesendet.",
   onlyAnAdminCanTurnThisOff: "Nur ein Administrator kann dies ausschalten.",
+  slackIntegrationError:
+    "Slack-Integration konnte nicht aktiviert werden. Bitte versuchen Sie es erneut",
+  boardDoesNotExists: "Dieses Board existiert nicht",
   boardActivity: "Board-Aktivität",
   sendTo: "Senden an",
   webhookNotificationCardAddedBoard: "Karte zur Tafel hinzugefügt/verschoben",

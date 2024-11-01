@@ -1827,6 +1827,8 @@ const en = {
   slackChannelNotificationsDescriptionEnabled:
     "Notifications from this board are sent to #%{channel} in Slack.",
   onlyAnAdminCanTurnThisOff: "Only an admin can turn this off.",
+  slackIntegrationError: "Could not enable Slack integration. Please try again",
+  boardDoesNotExists: "That board doesn’t exist",
   boardActivity: "Board activity",
   sendTo: "Send to",
   webhookNotificationCardAddedBoard: "Card added/moved to board",
