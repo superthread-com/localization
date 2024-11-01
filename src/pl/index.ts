@@ -1862,6 +1862,9 @@ const pl = {
   slackChannelNotificationsDescriptionEnabled:
     "Powiadomienia z tej tablicy są wysyłane do #%{channel} w Slacku.",
   onlyAnAdminCanTurnThisOff: "Tylko administrator może to wyłączyć.",
+  slackIntegrationError:
+    "Nie udało się włączyć integracji ze Slackiem. Spróbuj ponownie",
+  boardDoesNotExists: "Ta tablica nie istnieje",
   boardActivity: "Aktywność tablicy",
   sendTo: "Wyślij do",
   webhookNotificationCardAddedBoard: "Karta dodana/przeniesiona na tablicę",

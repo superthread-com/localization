@@ -1659,6 +1659,8 @@ export enum TranslationKeys {
   SlackChannelNotificationsDescriptionDisabledNotAdmin = "slackChannelNotificationsDescriptionDisabledNotAdmin",
   SlackChannelNotificationsDescriptionEnabled = "slackChannelNotificationsDescriptionEnabled",
   OnlyAnAdminCanTurnThisOff = "onlyAnAdminCanTurnThisOff",
+  SlackIntegrationError = "slackIntegrationError",
+  BoardDoesNotExists = "boardDoesNotExists",
   BoardActivity = "boardActivity",
   SendTo = "sendTo",
   WebhookNotificationCardAddedBoard = "webhookNotificationCardAddedBoard",

@@ -1861,6 +1861,9 @@ const bs: Translations = {
   slackChannelNotificationsDescriptionEnabled:
     "Obavijesti s ove table se šalju na #%{channel} u Slacku.",
   onlyAnAdminCanTurnThisOff: "Samo administrator može ovo isključiti.",
+  slackIntegrationError:
+    "Nije moguće omogućiti integraciju sa Slackom. Molimo pokušajte ponovo",
+  boardDoesNotExists: "Ta tabla ne postoji",
   boardActivity: "Aktivnost table",
   sendTo: "Pošalji na",
   webhookNotificationCardAddedBoard: "Kartica dodana/premještena na ploču",

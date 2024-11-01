@@ -1908,9 +1908,11 @@ const fr: Translations = {
   slackChannelNotificationsDescriptionEnabled:
     "Les notifications de ce tableau sont envoyées à #%{channel} dans Slack.",
   onlyAnAdminCanTurnThisOff: "Seul un administrateur peut désactiver cela.",
+  slackIntegrationError:
+    "Impossible d'activer l'intégration Slack. Veuillez réessayer",
+  boardDoesNotExists: "Ce tableau n'existe pas",
   boardActivity: "Activité du tableau",
   sendTo: "Envoyer à",
-
   webhookNotificationCardAddedBoard: "Carte ajoutée/déplacée au tableau",
   webhookNotificationCardAddedList: "Carte ajoutée/déplacée au statut",
   webhookNotificationCardCommented:
