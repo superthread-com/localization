@@ -1817,7 +1817,8 @@ const de = {
   openSprint: "Sprint öffnen",
   renameSprint: "Sprint umbenennen",
   markAsComplete: "Als abgeschlossen markieren",
-  changeSprintDates: "Ändern Sie die Sprintdaten für %{sprintName}",
+  changeSprintDates: "Sprintdaten ändern",
+  changeSprintDatesFor: "Ändern Sie die Sprintdaten für %{sprintName}",
   cancelSprint: "Sprint abbrechen",
   changeDates: "Daten ändern",
   chooseNewStartAndEndDates:

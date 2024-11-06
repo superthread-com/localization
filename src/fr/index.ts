@@ -1809,7 +1809,8 @@ const fr: Translations = {
   openSprint: "Ouvrir le sprint",
   renameSprint: "Renommer le sprint",
   markAsComplete: "Marquer comme terminé",
-  changeSprintDates: "Modifier les dates de sprint pour %{sprintName}",
+  changeSprintDates: "Modifier les dates du sprint",
+  changeSprintDatesFor: "Modifier les dates de sprint pour %{sprintName}",
   cancelSprint: "Annuler le sprint",
   changeDates: "Modifier les dates",
   chooseNewStartAndEndDates:

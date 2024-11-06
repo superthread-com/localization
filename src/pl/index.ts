@@ -1763,7 +1763,8 @@ const pl = {
   openSprint: "Otwórz sprint",
   renameSprint: "Zmień nazwę sprintu",
   markAsComplete: "Oznacz jako zakończone",
-  changeSprintDates: "Zmień daty sprintu dla %{sprintName}",
+  changeSprintDates: "Zmień daty sprintu",
+  changeSprintDatesFor: "Zmień daty sprintu dla %{sprintName}",
   cancelSprint: "Anuluj sprint",
   changeDates: "Zmień daty",
   chooseNewStartAndEndDates:
