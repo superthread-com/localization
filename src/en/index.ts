@@ -1731,13 +1731,13 @@ const en = {
   openSprint: "Open sprint",
   renameSprint: "Rename sprint",
   markAsComplete: "Mark as complete",
-  changeSprintDates: "Change sprint dates",
+  changeSprintDates: "Change sprint dates for %{sprintName}",
   cancelSprint: "Cancel sprint",
   changeDates: "Change dates",
-  chooseNewStartAndEndDates: "Choose new start and end dates for the sprint.",
+  chooseNewStartAndEndDates: "Choose a new start or end date for %{sprintName}",
   renameSprintDescription: "Enter a new name for the sprint.",
   startDateIsEarlierThanPreviousEndDate:
-    "New start date is earlier than the previous sprint’s end date.",
+    "Start date overlaps previous sprint’s end date",
   enterSprintName: "Enter sprint name",
   cancelSprintWarning:
     "All unfinished cards in this board will be moved into the cancelled status.",

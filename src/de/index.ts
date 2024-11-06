@@ -1817,13 +1817,14 @@ const de = {
   openSprint: "Sprint öffnen",
   renameSprint: "Sprint umbenennen",
   markAsComplete: "Als abgeschlossen markieren",
-  changeSprintDates: "Sprintdaten ändern",
+  changeSprintDates: "Ändern Sie die Sprintdaten für %{sprintName}",
   cancelSprint: "Sprint abbrechen",
   changeDates: "Daten ändern",
-  chooseNewStartAndEndDates: "Wähle neue Start- und Enddaten für den Sprint.",
+  chooseNewStartAndEndDates:
+    "Wybierz nową datę rozpoczęcia lub zakończenia dla %{sprintName}",
   renameSprintDescription: "Gib einen neuen Namen für den Sprint ein.",
   startDateIsEarlierThanPreviousEndDate:
-    "Neues Startdatum ist früher als das Enddatum des vorherigen Sprints.",
+    "Das Startdatum überschneidet sich mit dem Enddatum des vorherigen Sprints",
   enterSprintName: "Gib den Sprintnamen ein",
   cancelSprintWarning:
     "Alle unvollendeten Karten in dieser Tafel werden in den Status „Abgebrochen“ verschoben.",
