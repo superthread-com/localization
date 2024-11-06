@@ -1784,14 +1784,14 @@ const bs: Translations = {
   openSprint: "Otvori ciklus",
   renameSprint: "Preimenuj ciklus",
   markAsComplete: "Označi kao završen",
-  changeSprintDates: "Promijeni datume ciklusa",
+  changeSprintDates: "Promijeni datume ciklusa za %{sprintName}",
   cancelSprint: "Otkaži ciklus",
   changeDates: "Promijeni datume",
   chooseNewStartAndEndDates:
-    "Odaberite nove početne i završne datume za ciklus.",
+    "Odaberite novi datum početka ili završetka za %{sprintName}",
   renameSprintDescription: "Unesite novo ime za ciklus.",
   startDateIsEarlierThanPreviousEndDate:
-    "Datum početka je raniji od prethodnog datuma završetka.",
+    "Datum početka se preklapa s datumom završetka prethodnog ciklusa",
   enterSprintName: "Unesite ime ciklusa",
   cancelSprintWarning:
     "Sve nezavršene kartice na ovoj ploči će biti premještene u status otkazan.",

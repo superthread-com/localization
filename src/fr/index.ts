@@ -1809,14 +1809,14 @@ const fr: Translations = {
   openSprint: "Ouvrir le sprint",
   renameSprint: "Renommer le sprint",
   markAsComplete: "Marquer comme terminé",
-  changeSprintDates: "Modifier les dates du sprint",
+  changeSprintDates: "Modifier les dates de sprint pour %{sprintName}",
   cancelSprint: "Annuler le sprint",
   changeDates: "Modifier les dates",
   chooseNewStartAndEndDates:
-    "Choisissez de nouvelles dates de début et de fin pour le sprint.",
+    "Choisissez une nouvelle date de début ou de fin pour %{sprintName}",
   renameSprintDescription: "Entrez un nouveau nom pour le sprint.",
   startDateIsEarlierThanPreviousEndDate:
-    "La date de début est antérieure à la date de fin précédente.",
+    "La date de début chevauche la date de fin du sprint précédent",
   enterSprintName: "Entrez le nom du sprint",
   cancelSprintWarning:
     "Toutes les cartes non terminées dans ce tableau seront déplacées dans le statut annulé.",

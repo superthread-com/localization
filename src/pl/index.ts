@@ -1763,14 +1763,14 @@ const pl = {
   openSprint: "Otwórz sprint",
   renameSprint: "Zmień nazwę sprintu",
   markAsComplete: "Oznacz jako zakończone",
-  changeSprintDates: "Zmień daty sprintu",
+  changeSprintDates: "Zmień daty sprintu dla %{sprintName}",
   cancelSprint: "Anuluj sprint",
   changeDates: "Zmień daty",
   chooseNewStartAndEndDates:
-    "Wybierz nowe daty rozpoczęcia i zakończenia sprintu.",
+    "Wybierz nową datę rozpoczęcia lub zakończenia dla %{sprintName}",
   renameSprintDescription: "Wprowadź nową nazwę sprintu.",
   startDateIsEarlierThanPreviousEndDate:
-    "Nowa data rozpoczęcia jest wcześniejsza niż data zakończenia poprzedniego sprintu.",
+    "Data rozpoczęcia nakłada się na datę zakończenia poprzedniego sprintu",
   enterSprintName: "Wprowadź nazwę sprintu",
   cancelSprintWarning:
     "Wszystkie nieukończone karty na tej tablicy zostaną przeniesione do statusu anulowanego.",
