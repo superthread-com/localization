@@ -1585,6 +1585,7 @@ export enum TranslationKeys {
   RenameSprint = "renameSprint",
   MarkAsComplete = "markAsComplete",
   ChangeSprintDates = "changeSprintDates",
+  ChangeSprintDatesFor = "changeSprintDatesFor",
   CancelSprint = "cancelSprint",
   ChangeDates = "changeDates",
   ChooseNewStartAndEndDates = "chooseNewStartAndEndDates",
