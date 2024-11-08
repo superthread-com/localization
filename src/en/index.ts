@@ -1732,7 +1732,7 @@ const en = {
   renameSprint: "Rename sprint",
   markAsComplete: "Mark as complete",
   changeSprintDates: "Change sprint dates",
-  changeSprintDatesFor: "Change sprint dates for %{sprintName}",
+  changeSprintDatesFor: "Change dates for %{sprintName}",
   cancelSprint: "Cancel sprint",
   changeDates: "Change dates",
   chooseNewStartAndEndDates: "Choose a new start or end date for %{sprintName}",

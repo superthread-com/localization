@@ -1785,7 +1785,7 @@ const bs: Translations = {
   renameSprint: "Preimenuj ciklus",
   markAsComplete: "Označi kao završen",
   changeSprintDates: "Promijeni datume ciklusa",
-  changeSprintDatesFor: "Promijeni datume ciklusa za %{sprintName}",
+  changeSprintDatesFor: "Promijeni datume za %{sprintName}",
   cancelSprint: "Otkaži ciklus",
   changeDates: "Promijeni datume",
   chooseNewStartAndEndDates:

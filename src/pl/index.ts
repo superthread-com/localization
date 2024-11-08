@@ -1764,7 +1764,7 @@ const pl = {
   renameSprint: "Zmień nazwę sprintu",
   markAsComplete: "Oznacz jako zakończone",
   changeSprintDates: "Zmień daty sprintu",
-  changeSprintDatesFor: "Zmień daty sprintu dla %{sprintName}",
+  changeSprintDatesFor: "Zmień daty na %{sprintName}",
   cancelSprint: "Anuluj sprint",
   changeDates: "Zmień daty",
   chooseNewStartAndEndDates:
