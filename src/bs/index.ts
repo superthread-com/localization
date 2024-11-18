@@ -665,25 +665,25 @@ const bs: Translations = {
   theEpicTitle: "naslov projekta",
   ["quickPage.title.attachImageFrom"]: "Zakači sliku sa...",
   ["quickPage.title.attachCoverImageFrom"]: "Zakači naslovnu sliku sa...",
-  chooseWorkspaceZapier: "Izaberite workspace za povezati za Zapier-om",
-  connectSTZapeir: "Povežite Superthread sa Zapier-om",
+  chooseWorkspaceToConnectIntegration:
+    "Odaberite workspace za povezivanje sa %{integrationName}",
+  connectSuperthreadWith: "Povežite Superthread sa %{integrationName}",
   zapierIntegradionDescripiton:
     "Zapier vam omogućava da izgradite prilagođene radne tokove koji povezuju Superthread sa gotovo bilo kojom drugom aplikacijom. Povezive aplikacije uključuju: Typeform, Gmail, Intercom, Google Forms, Zendesk, Airtable, Front i mnoge druge.",
   connectToZapier: "Povežite Zapier sa Superthread-om",
   zapier: "Zapier",
   openZapier: "Otvori Zapier",
   allow: "Dopusti",
-  zappierWillHave:
-    "Zapier će imati pristup za čitanje i pisanje karticama, pločama i stranicama u vašem radnom prostoru.",
+  integrationWillHave:
+    "%{integrationName} će imati pristup čitanju i pisanju karticama, pločama i stranicama u vašem workspace-u.",
   youMayBeSharing:
     "Možda dijelite osjetljive informacije s ovom web lokacijom ili aplikacijom. Uvijek možete vidjeti ili ukloniti pristup u svojim",
   stSettings: "Superthread postavkama",
-  seeZapiers: "Vidite Zapier-ov",
+  seeIntegration: "Vidite %{integrationName}",
   privacyPolicy: "Politika privatnosti",
   termsOfService: "Uslovi korištenja",
-  makeSureYouTrustZapier: "Uvjerite se da vjerujete Zapier-u",
-  connectZapierToSuperthread: "Zapier povezan sa Superthread-om",
-  zapierIsRequesting: "Zapier traži pristup",
+  makeSureYouTrust: "Uvjerite se da vjerujete %{integrationName}",
+  integrationIsRequesting: "%{integrationName} traži pristup",
   previewStInSlack: "Pregledajte Superthread veze u Slacku",
   lookingForSlackNotifications: "Tražite Slack notifikacije?",
   turnThemOnInYour: "Upalite ih u vašim",
@@ -1306,7 +1306,8 @@ const bs: Translations = {
     "Poveži Superthread kartice sa GitHub pull request-ovima. Uključi Superthread ID kartice (npr. ST-123) u naziv svoje grane ili naziv PR-a kako bi se automatski prikazao status PR-a u kartici.",
   connectGithub: "Poveži GitHub",
   connectedAccounts: "Povezani računi",
-  connectGhToSuperthread: "GitHub povezan na Superthread",
+  integrationConnectedToSuperthread:
+    "%{integrationName} povezan sa Superthread",
   enabledBy: "Omogućeno od",
   select: "Odaberi",
   github_pull_request: "GitHub",
