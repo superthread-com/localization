@@ -797,7 +797,8 @@ const pl = {
     "Połącz karty Superthread z pull requestami GitHub. Dołącz ID karty Superthread (np. C-123) do nazwy gałęzi lub tytułu pull requesta, aby automatycznie wyświetlić status PR w karcie.",
   connectGithub: "Połącz z GitHub",
   connectedAccounts: "Połączone konta",
-  connectGhToSuperthread: "GitHub połączony z Superthread",
+  integrationConnectedToSuperthread:
+    "%{integrationName} połączony z Superthread",
   enabledBy: "Włączone przez",
   select: "Wybierz",
   integrations: "Integracje",
@@ -1116,25 +1117,25 @@ const pl = {
   theEpicTitle: "tytuł projektu",
   ["quickPage.title.attachImageFrom"]: "Dołącz obraz z...",
   ["quickPage.title.attachCoverImageFrom"]: "Dołącz okładkę z...",
-  chooseWorkspaceZapier: "Wybierz przestrzeń roboczą do połączenia z Zapier",
-  connectSTZapeir: "Połącz Superthread z Zapier",
+  chooseWorkspaceToConnectIntegration:
+    "Wybierz przestrzeń roboczą do połączenia z %{integrationName}",
+  connectSuperthreadWith: "Połącz Superthread z %{integrationName}",
   zapierIntegradionDescripiton:
     "Zapier pozwala tworzyć niestandardowe przepływy pracy, które łączą Superthread z niemal każdą inną aplikacją: Typeform, Gmail, Intercom, Google Forms, Zendesk, Airtable, Front i wieloma innymi.",
   connectToZapier: "Połącz Zapier z Superthread",
   zapier: "Zapier",
   openZapier: "Otwórz Zapier",
   allow: "Zezwól",
-  zappierWillHave:
-    "Zapier będzie mieć dostęp do odczytu i zapisu kart, tablic oraz stron w Twojej przestrzeni roboczej.",
+  integrationWillHave:
+    "%{integrationName} będzie miał dostęp do odczytu i zapisu kart, tablic oraz stron w Twojej przestrzeni roboczej.",
   youMayBeSharing:
     "Możesz udostępniać wrażliwe informacje tej witrynie lub aplikacji. Zawsze możesz zobaczyć lub usunąć dostęp w",
   stSettings: "ustawieniach Superthread",
-  seeZapiers: "Zobacz politykę prywatności Zapier",
+  seeIntegration: "Zobacz %{integrationName}",
   privacyPolicy: "Polityka prywatności",
   termsOfService: "Warunki użytkowania",
-  makeSureYouTrustZapier: "Upewnij się, że ufasz Zapier",
-  connectZapierToSuperthread: "Zapier połączony z Superthread",
-  zapierIsRequesting: "Zapier prosi o dostęp do",
+  makeSureYouTrust: "Upewnij się, że ufasz %{integrationName}",
+  integrationIsRequesting: "%{integrationName} prosi o dostęp do",
   previewStInSlack: "Podgląd linków Superthread w Slack",
   lookingForSlackNotifications: "Szukasz powiadomień w Slack?",
   turnThemOnInYour: "Włącz je w swoich",

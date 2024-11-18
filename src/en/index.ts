@@ -788,7 +788,8 @@ const en = {
     "Link Superthread cards to GitHub pull requests. Include a Superthread card ID (e.g C-123) in your branch name or pull request title to automatically show the PR status in the card.",
   connectGithub: "Connect GitHub",
   connectedAccounts: "Connected accounts",
-  connectGhToSuperthread: "GitHub connected to Superthread",
+  integrationConnectedToSuperthread:
+    "%{integrationName} connected to Superthread",
   enabledBy: "Enabled by",
   select: "Select",
   integrations: "Integrations",
@@ -1099,25 +1100,25 @@ const en = {
   theEpicTitle: "the project title",
   ["quickPage.title.attachImageFrom"]: "Attach image from...",
   ["quickPage.title.attachCoverImageFrom"]: "Attach cover image from...",
-  chooseWorkspaceZapier: "Choose a workspace to connect with Zapier",
-  connectSTZapeir: "Connect Superthread with Zapier",
+  chooseWorkspaceToConnectIntegration:
+    "Choose a workspace to connect with %{integrationName}",
+  connectSuperthreadWith: "Connect Superthread with %{integrationName}",
   zapierIntegradionDescripiton:
     "Zapier lets you to build custom workflows that connect Superthread with almost any other app: Typeform, Gmail, Intercom, Google Forms, Zendesk, Airtable, Front, and many more.",
   connectToZapier: "Connect Zapier to Superthread",
   zapier: "Zapier",
   openZapier: "Open Zapier",
   allow: "Allow",
-  zappierWillHave:
-    "Zapier will have read and write access to cards, boards, and pages in your workspace.",
+  integrationWillHave:
+    "%{integrationName} will have read and write access to cards, boards, and pages in your workspace.",
   youMayBeSharing:
     "You may be sharing sensitive info with this site or app. You can always see or remove access in your",
   stSettings: "Superthread settings",
-  seeZapiers: "See Zapier’s",
+  seeIntegration: "See %{integrationName}’s",
   privacyPolicy: "Privacy Policy",
   termsOfService: "Terms of Service",
-  makeSureYouTrustZapier: "Make sure you trust Zapier",
-  connectZapierToSuperthread: "Zapier connected to Superthread",
-  zapierIsRequesting: "Zapier is requesting access to the",
+  makeSureYouTrust: "Make sure you trust %{integrationName}",
+  integrationIsRequesting: "%{integrationName} is requesting access to the",
   previewStInSlack: "Preview Superthread links in Slack",
   lookingForSlackNotifications: "Looking for Slack notifications?",
   turnThemOnInYour: "Turn them on in your",
