@@ -1904,11 +1904,8 @@ const fr: Translations = {
     "Envoyer des notifications à propos des cartes de ce tableau à un canal Slack",
   slackChannelNotificationsDescriptionDisabled:
     "Une fenêtre Slack s'ouvrira et vous demandera de choisir un canal",
-  slackChannelNotificationsDescriptionDisabledNotAdmin:
-    "Seul un administrateur peut activer les notifications de canal Slack",
   slackChannelNotificationsDescriptionEnabled:
     "Les notifications de ce tableau sont envoyées à #%{channel} dans Slack.",
-  onlyAnAdminCanTurnThisOff: "Seul un administrateur peut désactiver cela.",
   slackIntegrationError:
     "Impossible d'activer l'intégration Slack. Veuillez réessayer",
   boardDoesNotExists: "Ce tableau n'existe pas",

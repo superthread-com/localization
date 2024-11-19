@@ -1824,11 +1824,8 @@ const en = {
     "Send notifications about cards in this board to a Slack channel",
   slackChannelNotificationsDescriptionDisabled:
     "A Slack window will open and ask you to choose a channel",
-  slackChannelNotificationsDescriptionDisabledNotAdmin:
-    "Only an admin can turn on Slack channel notifications",
   slackChannelNotificationsDescriptionEnabled:
     "Notifications from this board are sent to #%{channel} in Slack.",
-  onlyAnAdminCanTurnThisOff: "Only an admin can turn this off.",
   slackIntegrationError: "Could not enable Slack integration. Please try again",
   boardDoesNotExists: "That board doesn’t exist",
   boardActivity: "Board activity",

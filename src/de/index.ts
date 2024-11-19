@@ -1912,11 +1912,8 @@ const de = {
     "Senden Sie Benachrichtigungen über Karten auf diesem Board an einen Slack-Kanal",
   slackChannelNotificationsDescriptionDisabled:
     "Ein Slack-Fenster wird geöffnet und fordert Sie auf, einen Kanal auszuwählen",
-  slackChannelNotificationsDescriptionDisabledNotAdmin:
-    "Nur ein Administrator kann Slack-Kanalbenachrichtigungen aktivieren",
   slackChannelNotificationsDescriptionEnabled:
     "Benachrichtigungen von diesem Board werden an #%{channel} in Slack gesendet.",
-  onlyAnAdminCanTurnThisOff: "Nur ein Administrator kann dies ausschalten.",
   slackIntegrationError:
     "Slack-Integration konnte nicht aktiviert werden. Bitte versuchen Sie es erneut",
   boardDoesNotExists: "Dieses Board existiert nicht",
