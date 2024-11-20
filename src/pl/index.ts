@@ -2006,7 +2006,7 @@ const pl = {
   sprintCancelled: "Sprint anulowany",
   sprintDatesChanged: "Daty sprintu zmienione",
   myWorkAndNotes: "Moja praca i notatki",
-  ["myWork.notes"]: "Moje notatki",
+  ["myWork.notes"]: "Notatki",
   tidyUp: "Uporządkować",
   convertTo: "Konwertuj do...",
   newNote: "Nowa notatka",
@@ -2016,6 +2016,8 @@ const pl = {
   deleteNote: "Usuń notatkę",
   original: "Oryginalny",
   tidied: "Uporządkowany",
+  untitledNote: "Bez tytułu",
+  enhanced: "Ulepszony",
 };
 
 export default pl as Translations;
