@@ -2009,7 +2009,7 @@ const bs: Translations = {
   sprintCancelled: "Otkazan ciklus",
   sprintDatesChanged: "Datumi ciklusa promijenjeni",
   myWorkAndNotes: "Moj rad i bilješke",
-  ["myWork.notes"]: "Moje bilješke",
+  ["myWork.notes"]: "Bilješke",
   tidyUp: "Očisti",
   convertTo: "Pretvori u...",
   newNote: "Nova bilješka",
@@ -2019,6 +2019,8 @@ const bs: Translations = {
   deleteNote: "Obriši bilješku",
   original: "Original",
   tidied: "Očišćeno",
+  untitledNote: "Bilješka bez naslova",
+  enhanced: "Unaprijeđeno",
 };
 
 export default bs;

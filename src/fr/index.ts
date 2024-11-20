@@ -2073,6 +2073,8 @@ const fr: Translations = {
   deleteNote: "Supprimer la note",
   original: "Original",
   tidied: "Nettoyé",
+  untitledNote: "Note sans titre",
+  enhanced: "Amélioré",
 };
 
 export default fr as Translations;

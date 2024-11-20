@@ -2071,7 +2071,7 @@ const de = {
   sprintCancelled: "Sprint abgebrochen",
   sprintDatesChanged: "Sprintdaten geändert",
   myWorkAndNotes: "Meine Arbeit und Notizen",
-  ["myWork.notes"]: "Meine Notizen",
+  ["myWork.notes"]: "Notizen",
   tidyUp: "Aufräumen",
   convertTo: "Konvertieren zu...",
   newNote: "Neue Notiz",
@@ -2081,6 +2081,8 @@ const de = {
   deleteNote: "Notiz löschen",
   original: "Original",
   tidied: "Aufgeräumt",
+  untitledNote: "Unbenannte Notiz",
+  enhanced: "Verbessert",
 };
 
 export default de as Translations;

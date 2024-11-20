@@ -1974,7 +1974,7 @@ const en = {
   sprintCancelled: "Sprint cancelled",
   sprintDatesChanged: "Sprint dates changed",
   myWorkAndNotes: "My work & notes",
-  ["myWork.notes"]: "My notes",
+  ["myWork.notes"]: "Notes",
   tidyUp: "Tidy up",
   convertTo: "Convert to...",
   newNote: "New note",
@@ -1984,6 +1984,8 @@ const en = {
   deleteNote: "Delete note",
   original: "Original",
   tidied: "Tidied",
+  untitledNote: "Untitled note",
+  enhanced: "Enhanced",
 };
 
 export default en as Translations;
