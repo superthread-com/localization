@@ -1858,11 +1858,8 @@ const bs: Translations = {
     "Šaljite obavijesti o karticama na ovoj tabli u Slack kanal",
   slackChannelNotificationsDescriptionDisabled:
     "Otvorit će se Slack prozor i zatražiti da odaberete kanal",
-  slackChannelNotificationsDescriptionDisabledNotAdmin:
-    "Samo administrator može uključiti obavijesti za Slack kanal",
   slackChannelNotificationsDescriptionEnabled:
     "Obavijesti s ove table se šalju na #%{channel} u Slacku.",
-  onlyAnAdminCanTurnThisOff: "Samo administrator može ovo isključiti.",
   slackIntegrationError:
     "Nije moguće omogućiti integraciju sa Slackom. Molimo pokušajte ponovo",
   boardDoesNotExists: "Ta tabla ne postoji",

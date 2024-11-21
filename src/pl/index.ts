@@ -1859,11 +1859,8 @@ const pl = {
     "Wyślij powiadomienia o kartach na tej tablicy do kanału Slack",
   slackChannelNotificationsDescriptionDisabled:
     "Otworzy się okno Slack i poprosi o wybór kanału",
-  slackChannelNotificationsDescriptionDisabledNotAdmin:
-    "Tylko administrator może włączyć powiadomienia kanału Slack",
   slackChannelNotificationsDescriptionEnabled:
     "Powiadomienia z tej tablicy są wysyłane do #%{channel} w Slacku.",
-  onlyAnAdminCanTurnThisOff: "Tylko administrator może to wyłączyć.",
   slackIntegrationError:
     "Nie udało się włączyć integracji ze Slackiem. Spróbuj ponownie",
   boardDoesNotExists: "Ta tablica nie istnieje",
