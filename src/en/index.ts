@@ -1983,6 +1983,10 @@ const en = {
   tidied: "Tidied",
   untitledNote: "Untitled note",
   enhanced: "Enhanced",
+  minimize: "Minimize",
+  maximize: "Maximize",
+  createNewNote: "Create a new note",
+  youDontHaveAnyNotes: "You don't have any notes yet",
 };
 
 export default en as Translations;

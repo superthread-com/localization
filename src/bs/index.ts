@@ -2018,6 +2018,10 @@ const bs: Translations = {
   tidied: "Očišćeno",
   untitledNote: "Bilješka bez naslova",
   enhanced: "Unaprijeđeno",
+  minimize: "Minimiziraj",
+  maximize: "Maksimiziraj",
+  createNewNote: "Kreiraj novu bilješku",
+  youDontHaveAnyNotes: "Nemate nijednu bilješku",
 };
 
 export default bs;
