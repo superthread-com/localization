@@ -2072,6 +2072,10 @@ const fr: Translations = {
   tidied: "Nettoyé",
   untitledNote: "Note sans titre",
   enhanced: "Amélioré",
+  minimize: "Minimiser",
+  maximize: "Maximiser",
+  createNewNote: "Créer une nouvelle note",
+  youDontHaveAnyNotes: "Vous n'avez pas de notes",
 };
 
 export default fr as Translations;

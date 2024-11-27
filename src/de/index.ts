@@ -2080,6 +2080,10 @@ const de = {
   tidied: "Aufgeräumt",
   untitledNote: "Unbenannte Notiz",
   enhanced: "Verbessert",
+  minimize: "Minimieren",
+  maximize: "Maximieren",
+  createNewNote: "Neue Notiz erstellen",
+  youDontHaveAnyNotes: "Du hast keine Notizen",
 };
 
 export default de as Translations;

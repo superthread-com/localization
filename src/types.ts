@@ -1791,6 +1791,12 @@ export enum TranslationKeys {
   DeleteNote = "deleteNote",
   Original = "original",
   Tidied = "tidied",
+  UntitledNote = "untitledNote",
+  Enhanced = "enhanced",
+  Minimize = "minimize",
+  Maximize = "maximize",
+  CreateNewNote = "createNewNote",
+  YouDontHaveAnyNotes = "youDontHaveAnyNotes",
 }
 
 export type Translations = Record<TranslationKeys, string>;

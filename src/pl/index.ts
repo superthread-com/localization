@@ -2015,6 +2015,10 @@ const pl = {
   tidied: "Uporządkowany",
   untitledNote: "Bez tytułu",
   enhanced: "Ulepszony",
+  minimize: "Minimalizuj",
+  maximize: "Maksymalizuj",
+  createNewNote: "Utwórz nową notatkę",
+  youDontHaveAnyNotes: "Nie masz żadnych notatek",
 };
 
 export default pl as Translations;
