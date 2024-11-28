@@ -1798,6 +1798,11 @@ export enum TranslationKeys {
   CreateNewNote = "createNewNote",
   YouDontHaveAnyNotes = "youDontHaveAnyNotes",
   Transcript = "transcript",
+  AssignedCards = "assignedCards",
+  CreatedCards = "createdCards",
+  NoTranscriptAvailable = "noTranscriptAvailable",
+  EnhanceNotesUsingMacApp = "enhanceNotesUsingMacApp",
+  DownloadApp = "downloadApp",
 }
 
 export type Translations = Record<TranslationKeys, string>;
