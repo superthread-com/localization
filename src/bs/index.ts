@@ -2022,6 +2022,7 @@ const bs: Translations = {
   maximize: "Maksimiziraj",
   createNewNote: "Kreiraj novu bilješku",
   youDontHaveAnyNotes: "Nemate nijednu bilješku",
+  transcript: "Transkript",
 };
 
 export default bs;

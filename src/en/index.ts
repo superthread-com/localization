@@ -1987,6 +1987,7 @@ const en = {
   maximize: "Maximize",
   createNewNote: "Create a new note",
   youDontHaveAnyNotes: "You don't have any notes yet",
+  transcript: "Transcript",
 };
 
 export default en as Translations;

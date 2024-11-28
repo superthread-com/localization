@@ -2019,6 +2019,7 @@ const pl = {
   maximize: "Maksymalizuj",
   createNewNote: "Utwórz nową notatkę",
   youDontHaveAnyNotes: "Nie masz żadnych notatek",
+  transcript: "Transkrypt",
 };
 
 export default pl as Translations;
