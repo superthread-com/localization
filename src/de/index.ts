@@ -2084,6 +2084,7 @@ const de = {
   maximize: "Maximieren",
   createNewNote: "Neue Notiz erstellen",
   youDontHaveAnyNotes: "Du hast keine Notizen",
+  transcript: "Transkript",
 };
 
 export default de as Translations;

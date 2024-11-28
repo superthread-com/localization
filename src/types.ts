@@ -1797,6 +1797,7 @@ export enum TranslationKeys {
   Maximize = "maximize",
   CreateNewNote = "createNewNote",
   YouDontHaveAnyNotes = "youDontHaveAnyNotes",
+  Transcript = "transcript",
 }
 
 export type Translations = Record<TranslationKeys, string>;

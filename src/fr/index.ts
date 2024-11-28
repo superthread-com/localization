@@ -2076,6 +2076,7 @@ const fr: Translations = {
   maximize: "Maximiser",
   createNewNote: "Créer une nouvelle note",
   youDontHaveAnyNotes: "Vous n'avez pas de notes",
+  transcript: "Transcription",
 };
 
 export default fr as Translations;
