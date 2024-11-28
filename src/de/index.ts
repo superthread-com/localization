@@ -2085,6 +2085,12 @@ const de = {
   createNewNote: "Neue Notiz erstellen",
   youDontHaveAnyNotes: "Du hast keine Notizen",
   transcript: "Transkript",
+  assignedCards: "Zugewiesene Karten",
+  createdCards: "Erstellte Karten",
+  noTranscriptAvailable: "Kein Transkript verfügbar",
+  enhanceNotesUsingMacApp:
+    "Um Ihre Notizen zu verbessern, können Sie die Audiodaten von Besprechungen mit der macOS-App transkribieren. Dies wird verwendet, um Ihren Notizen Kontext hinzuzufügen.",
+  downloadApp: "App herunterladen",
 };
 
 export default de as Translations;

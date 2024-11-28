@@ -1988,6 +1988,12 @@ const en = {
   createNewNote: "Create a new note",
   youDontHaveAnyNotes: "You don't have any notes yet",
   transcript: "Transcript",
+  assignedCards: "Assigned cards",
+  createdCards: "Created cards",
+  noTranscriptAvailable: "No transcript available",
+  enhanceNotesUsingMacApp:
+    "To enhance your notes, you can use the macOS app to transcribe meeting audio. This is used to add context to your notes.",
+  downloadApp: "Download app",
 };
 
 export default en as Translations;

@@ -2023,6 +2023,12 @@ const bs: Translations = {
   createNewNote: "Kreiraj novu bilješku",
   youDontHaveAnyNotes: "Nemate nijednu bilješku",
   transcript: "Transkript",
+  assignedCards: "Dodijeljene kartice",
+  createdCards: "Kreirane kartice",
+  noTranscriptAvailable: "Transkript nije dostupan",
+  enhanceNotesUsingMacApp:
+    "Da poboljšate svoje bilješke, možete koristiti macOS aplikaciju za transkripciju zvuka sastanka. Ovo se koristi za dodavanje konteksta vašim bilješkama.",
+  downloadApp: "Preuzmi aplikaciju",
 };
 
 export default bs;

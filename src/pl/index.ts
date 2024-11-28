@@ -2020,6 +2020,12 @@ const pl = {
   createNewNote: "Utwórz nową notatkę",
   youDontHaveAnyNotes: "Nie masz żadnych notatek",
   transcript: "Transkrypt",
+  assignedCards: "Przypisane karty",
+  createdCards: "Utworzone karty",
+  noTranscriptAvailable: "Brak dostępnego transkryptu",
+  enhanceNotesUsingMacApp:
+    "Aby ulepszyć swoje notatki, możesz użyć aplikacji macOS do transkrypcji dźwięku ze spotkania. Służy ona do dodawania kontekstu do notatek.",
+  downloadApp: "Pobierz aplikację",
 };
 
 export default pl as Translations;

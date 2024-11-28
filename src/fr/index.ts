@@ -2077,6 +2077,12 @@ const fr: Translations = {
   createNewNote: "Créer une nouvelle note",
   youDontHaveAnyNotes: "Vous n'avez pas de notes",
   transcript: "Transcription",
+  assignedCards: "Cartes assignées",
+  createdCards: "Cartes créées",
+  noTranscriptAvailable: "Aucune transcription disponible",
+  enhanceNotesUsingMacApp:
+    "Pour améliorer vos notes, vous pouvez utiliser l'application macOS pour retranscrire l'audio de la réunion. Cela permet d'ajouter du contexte à vos notes.",
+  downloadApp: "Télécharger l'application",
 };
 
 export default fr as Translations;
