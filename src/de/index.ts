@@ -2091,6 +2091,7 @@ const de = {
   enhanceNotesUsingMacApp:
     "Um Ihre Notizen zu verbessern, können Sie die Audiodaten von Besprechungen mit der macOS-App transkribieren. Dies wird verwendet, um Ihren Notizen Kontext hinzuzufügen.",
   downloadApp: "App herunterladen",
+  enhance: "Verbessern",
 };
 
 export default de as Translations;

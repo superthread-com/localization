@@ -1994,6 +1994,7 @@ const en = {
   enhanceNotesUsingMacApp:
     "To enhance your notes, you can use the macOS app to transcribe meeting audio. This is used to add context to your notes.",
   downloadApp: "Download app",
+  enhance: "Enhance",
 };
 
 export default en as Translations;

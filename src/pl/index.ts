@@ -2026,6 +2026,7 @@ const pl = {
   enhanceNotesUsingMacApp:
     "Aby ulepszyć swoje notatki, możesz użyć aplikacji macOS do transkrypcji dźwięku ze spotkania. Służy ona do dodawania kontekstu do notatek.",
   downloadApp: "Pobierz aplikację",
+  enhance: "Ulepsz",
 };
 
 export default pl as Translations;

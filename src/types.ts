@@ -1803,6 +1803,7 @@ export enum TranslationKeys {
   NoTranscriptAvailable = "noTranscriptAvailable",
   EnhanceNotesUsingMacApp = "enhanceNotesUsingMacApp",
   DownloadApp = "downloadApp",
+  Enhance = "enhance",
 }
 
 export type Translations = Record<TranslationKeys, string>;

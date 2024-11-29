@@ -2083,6 +2083,7 @@ const fr: Translations = {
   enhanceNotesUsingMacApp:
     "Pour améliorer vos notes, vous pouvez utiliser l'application macOS pour retranscrire l'audio de la réunion. Cela permet d'ajouter du contexte à vos notes.",
   downloadApp: "Télécharger l'application",
+  enhance: "Améliorer",
 };
 
 export default fr as Translations;

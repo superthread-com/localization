@@ -2029,6 +2029,7 @@ const bs: Translations = {
   enhanceNotesUsingMacApp:
     "Da poboljšate svoje bilješke, možete koristiti macOS aplikaciju za transkripciju zvuka sastanka. Ovo se koristi za dodavanje konteksta vašim bilješkama.",
   downloadApp: "Preuzmi aplikaciju",
+  enhance: "Unaprijedi",
 };
 
 export default bs;
