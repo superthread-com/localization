@@ -2089,9 +2089,12 @@ const de = {
   createdCards: "Erstellte Karten",
   noTranscriptAvailable: "Kein Transkript verfügbar",
   enhanceNotesUsingMacApp:
-    "Um Ihre Notizen zu verbessern, können Sie die Audiodaten von Besprechungen mit der macOS-App transkribieren. Dies wird verwendet, um Ihren Notizen Kontext hinzuzufügen.",
+    "Superthread kann Audio von Ihren Meetings transkribieren, um verbesserte Notizen zu erstellen. Die Transkription ist nur in der Superthread-Desktop-App für macOS verfügbar.",
   downloadApp: "App herunterladen",
   enhance: "Verbessern",
+  macIntel: "Mac Intel",
+  appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Notizen mit AI verbessern",
 };
 
 export default de as Translations;

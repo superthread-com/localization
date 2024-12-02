@@ -2081,9 +2081,12 @@ const fr: Translations = {
   createdCards: "Cartes créées",
   noTranscriptAvailable: "Aucune transcription disponible",
   enhanceNotesUsingMacApp:
-    "Pour améliorer vos notes, vous pouvez utiliser l'application macOS pour retranscrire l'audio de la réunion. Cela permet d'ajouter du contexte à vos notes.",
+    "Superthread peut transcrire l'audio de vos réunions pour générer des notes améliorées. La transcription est uniquement disponible dans l'application de bureau Superthread pour macOS.",
   downloadApp: "Télécharger l'application",
   enhance: "Améliorer",
+  macIntel: "Mac Intel",
+  appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Améliorez vos notes grâce à l'IA",
 };
 
 export default fr as Translations;

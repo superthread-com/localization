@@ -1992,9 +1992,12 @@ const en = {
   createdCards: "Created cards",
   noTranscriptAvailable: "No transcript available",
   enhanceNotesUsingMacApp:
-    "To enhance your notes, you can use the macOS app to transcribe meeting audio. This is used to add context to your notes.",
+    "Superthread can transcribe audio from your meetings to generate enhanced notes. Transcribing is only available in the Superthread desktop app for macOS.",
   downloadApp: "Download app",
   enhance: "Enhance",
+  macIntel: "Mac Intel",
+  appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Enhance your notes using AI",
 };
 
 export default en as Translations;
