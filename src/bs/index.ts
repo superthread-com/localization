@@ -2032,6 +2032,7 @@ const bs: Translations = {
   enhance: "Unaprijedi",
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Poboljšajte bilješke koristeći AI",
 };
 
 export default bs;

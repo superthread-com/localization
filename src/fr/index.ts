@@ -2086,6 +2086,7 @@ const fr: Translations = {
   enhance: "Améliorer",
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Améliorez vos notes grâce à l'IA",
 };
 
 export default fr as Translations;

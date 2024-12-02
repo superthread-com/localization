@@ -2029,6 +2029,7 @@ const pl = {
   enhance: "Ulepsz",
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Ulepsz notatki za pomocą AI",
 };
 
 export default pl as Translations;

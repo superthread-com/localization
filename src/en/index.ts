@@ -1997,6 +1997,7 @@ const en = {
   enhance: "Enhance",
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
+  enhanceNotesUsingAI: "Enhance your notes using AI",
 };
 
 export default en as Translations;
