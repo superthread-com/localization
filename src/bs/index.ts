@@ -2027,7 +2027,7 @@ const bs: Translations = {
   createdCards: "Kreirane kartice",
   noTranscriptAvailable: "Transkript nije dostupan",
   enhanceNotesUsingMacApp:
-    "Superthread može transkribirati audio sa vaših sastanaka kako bi generirao poboljšane bilješke. Transkripcija je dostupna samo u Superthread desktop aplikaciji za macOS.",
+    "Superthread može uraditi audio transkripciju vaših sastanaka kako bi generisao poboljšane bilješke. Transkripcija je dostupna samo u Superthread desktop aplikaciji za macOS.",
   downloadApp: "Preuzmi aplikaciju",
   enhance: "Unaprijedi",
   macIntel: "Mac Intel",
