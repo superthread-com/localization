@@ -2027,9 +2027,11 @@ const bs: Translations = {
   createdCards: "Kreirane kartice",
   noTranscriptAvailable: "Transkript nije dostupan",
   enhanceNotesUsingMacApp:
-    "Da poboljšate svoje bilješke, možete koristiti macOS aplikaciju za transkripciju zvuka sastanka. Ovo se koristi za dodavanje konteksta vašim bilješkama.",
+    "Superthread može transkribirati audio sa vaših sastanaka kako bi generirao poboljšane bilješke. Transkripcija je dostupna samo u Superthread desktop aplikaciji za macOS.",
   downloadApp: "Preuzmi aplikaciju",
   enhance: "Unaprijedi",
+  macIntel: "Mac Intel",
+  appleSilicon: "Apple Silicon",
 };
 
 export default bs;
