@@ -2087,6 +2087,8 @@ const fr: Translations = {
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
   enhanceNotesUsingAI: "Améliorez vos notes grâce à l'IA",
+  showTranscript: "Afficher la transcription",
+  epicCreated: "Projet créé",
 };
 
 export default fr as Translations;

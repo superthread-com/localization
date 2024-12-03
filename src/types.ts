@@ -1807,6 +1807,8 @@ export enum TranslationKeys {
   MacIntel = "macIntel",
   AppleSilicon = "appleSilicon",
   EnhanceNotesUsingAI = "enhanceNotesUsingAI",
+  ShowTranscript = "showTranscript",
+  EpicCreated = "epicCreated",
 }
 
 export type Translations = Record<TranslationKeys, string>;

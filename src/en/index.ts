@@ -1998,6 +1998,8 @@ const en = {
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
   enhanceNotesUsingAI: "Enhance your notes using AI",
+  showTranscript: "Show transcript",
+  epicCreated: "Project created",
 };
 
 export default en as Translations;
