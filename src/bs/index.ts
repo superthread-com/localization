@@ -2033,6 +2033,8 @@ const bs: Translations = {
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
   enhanceNotesUsingAI: "Poboljšajte bilješke koristeći AI",
+  showTranscript: "Prikaži transkript",
+  epicCreated: "Projekt kreiran",
 };
 
 export default bs;

@@ -2095,6 +2095,8 @@ const de = {
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
   enhanceNotesUsingAI: "Notizen mit AI verbessern",
+  showTranscript: "Transkript anzeigen",
+  epicCreated: "Projekt erstellt",
 };
 
 export default de as Translations;
