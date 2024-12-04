@@ -2097,6 +2097,11 @@ const de = {
   enhanceNotesUsingAI: "Notizen mit AI verbessern",
   showTranscript: "Transkript anzeigen",
   epicCreated: "Projekt erstellt",
+  analysingTranscript: "Transkript wird analysiert",
+  comparingYourNotes: "Vergleiche deine Notizen",
+  readingYourNotes: "Lesen Ihrer Notizen",
+  enhancingYourNotes: "Verbessern Ihrer Notizen",
+  finished: "Fertig",
 };
 
 export default de as Translations;

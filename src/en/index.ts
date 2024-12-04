@@ -2000,6 +2000,11 @@ const en = {
   enhanceNotesUsingAI: "Enhance your notes using AI",
   showTranscript: "Show transcript",
   epicCreated: "Project created",
+  analysingTranscript: "Analysing transcript",
+  comparingYourNotes: "Comparing your notes",
+  readingYourNotes: "Reading your notes",
+  enhancingYourNotes: "Enhancing your notes",
+  finished: "Finished",
 };
 
 export default en as Translations;

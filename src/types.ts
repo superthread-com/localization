@@ -1809,6 +1809,11 @@ export enum TranslationKeys {
   EnhanceNotesUsingAI = "enhanceNotesUsingAI",
   ShowTranscript = "showTranscript",
   EpicCreated = "epicCreated",
+  AnalysingTranscript = "analysingTranscript",
+  ComparingYourNotes = "comparingYourNotes",
+  ReadingYourNotes = "readingYourNotes",
+  EnhancingYourNotes = "enhancingYourNotes",
+  Finished = "finished",
 }
 
 export type Translations = Record<TranslationKeys, string>;
