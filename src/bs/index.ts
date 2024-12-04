@@ -2035,7 +2035,7 @@ const bs: Translations = {
   enhanceNotesUsingAI: "Poboljšajte bilješke koristeći AI",
   showTranscript: "Prikaži transkript",
   epicCreated: "Projekt kreiran",
-  analysingTranscript: "Analiziranje transkripta",
+  analysingTranscript: "Analiziranje transkripcije",
   comparingYourNotes: "Poređenje vaših bilješki",
   readingYourNotes: "Čitanje vaših bilješki",
   enhancingYourNotes: "Unapređivanje vaših bilješki",
