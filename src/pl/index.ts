@@ -2032,6 +2032,11 @@ const pl = {
   enhanceNotesUsingAI: "Ulepsz notatki za pomocą AI",
   showTranscript: "Pokaż transkrypt",
   epicCreated: "Projekt utworzony",
+  analysingTranscript: "Analizowanie transkryptu",
+  comparingYourNotes: "Porównywanie Twoich notatek",
+  readingYourNotes: "Czytanie Twoich notatek",
+  enhancingYourNotes: "Ulepszanie Twoich notatek",
+  finished: "Zakończono",
 };
 
 export default pl as Translations;

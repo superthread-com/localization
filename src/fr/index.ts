@@ -2089,6 +2089,11 @@ const fr: Translations = {
   enhanceNotesUsingAI: "Améliorez vos notes grâce à l'IA",
   showTranscript: "Afficher la transcription",
   epicCreated: "Projet créé",
+  analysingTranscript: "Analyse de la transcription",
+  comparingYourNotes: "Comparaison de vos notes",
+  readingYourNotes: "Lecture de vos notes",
+  enhancingYourNotes: "Amélioration de vos notes",
+  finished: "Terminé",
 };
 
 export default fr as Translations;
