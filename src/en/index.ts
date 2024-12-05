@@ -2005,6 +2005,10 @@ const en = {
   readingYourNotes: "Reading your notes",
   enhancingYourNotes: "Enhancing your notes",
   finished: "Finished",
+  note: "Note",
+  epicMustHaveTitle: "A project must have a title",
+  seeAllNotes: "See all notes",
+  autoSaved: "Auto-saved",
 };
 
 export default en as Translations;

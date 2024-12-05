@@ -2037,6 +2037,10 @@ const pl = {
   readingYourNotes: "Czytanie Twoich notatek",
   enhancingYourNotes: "Ulepszanie Twoich notatek",
   finished: "Zakończono",
+  note: "Notatka",
+  epicMustHaveTitle: "Projekt musi mieć tytuł",
+  seeAllNotes: "Zobacz wszystkie notatki",
+  autoSaved: "Automatycznie zapisano",
 };
 
 export default pl as Translations;

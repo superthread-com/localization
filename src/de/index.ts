@@ -2102,6 +2102,10 @@ const de = {
   readingYourNotes: "Lesen Ihrer Notizen",
   enhancingYourNotes: "Verbessern Ihrer Notizen",
   finished: "Fertig",
+  note: "Notiz",
+  epicMustHaveTitle: "Projekt muss einen Titel haben",
+  seeAllNotes: "Alle Notizen anzeigen",
+  autoSaved: "Automatisch gespeichert",
 };
 
 export default de as Translations;
