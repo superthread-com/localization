@@ -2040,6 +2040,10 @@ const bs: Translations = {
   readingYourNotes: "Čitanje vaših bilješki",
   enhancingYourNotes: "Unapređivanje vaših bilješki",
   finished: "Završeno",
+  note: "Bilješka",
+  epicMustHaveTitle: "Projekt mora imati naslov",
+  seeAllNotes: "Pogledaj sve bilješke",
+  autoSaved: "Automatski sačuvano",
 };
 
 export default bs;

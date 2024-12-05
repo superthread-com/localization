@@ -2094,6 +2094,10 @@ const fr: Translations = {
   readingYourNotes: "Lecture de vos notes",
   enhancingYourNotes: "Amélioration de vos notes",
   finished: "Terminé",
+  note: "Note",
+  epicMustHaveTitle: "Le projet doit avoir un titre",
+  seeAllNotes: "Voir toutes les notes",
+  autoSaved: "Sauvegardé automatiquement",
 };
 
 export default fr as Translations;
