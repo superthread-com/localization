@@ -2106,6 +2106,11 @@ const de = {
   epicMustHaveTitle: "Projekt muss einen Titel haben",
   seeAllNotes: "Alle Notizen anzeigen",
   autoSaved: "Automatisch gespeichert",
+  projectsAreTrackedOnRoadmap: "Projekte werden auf der Roadmap verfolgt",
+  addCardsToProject: "Karten zu diesem Projekt hinzufügen",
+  projectEmptyStateDescription:
+    "Ein Projekt ist ein großes Arbeitsvorhaben, das aus vielen Karten im gesamten Arbeitsbereich besteht. Erstellen Sie ein Projekt in einer Spalte oder bearbeiten Sie die Standard-Status.",
+  cardInProjectEmptyStateFooter: "Eine Karte kann nur zu einem Projekt gehören",
 };
 
 export default de as Translations;

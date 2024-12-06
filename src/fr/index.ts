@@ -2098,6 +2098,13 @@ const fr: Translations = {
   epicMustHaveTitle: "Le projet doit avoir un titre",
   seeAllNotes: "Voir toutes les notes",
   autoSaved: "Sauvegardé automatiquement",
+  projectsAreTrackedOnRoadmap:
+    "Les projets sont suivis sur la feuille de route",
+  addCardsToProject: "Ajouter des cartes à ce projet",
+  projectEmptyStateDescription:
+    "Un projet est un travail d'envergure composé de nombreuses cartes provenant de tout l'espace de travail. Créez un projet dans une colonne ou modifiez les statuts par défaut.",
+  cardInProjectEmptyStateFooter:
+    "Une carte ne peut appartenir qu'à un seul projet",
 };
 
 export default fr as Translations;

@@ -1815,9 +1815,13 @@ export enum TranslationKeys {
   EnhancingYourNotes = "enhancingYourNotes",
   Finished = "finished",
   Note = "note",
-  epicMustHaveTitle = "epicMustHaveTitle",
+  EpicMustHaveTitle = "epicMustHaveTitle",
   SeeAllNotes = "seeAllNotes",
   AutoSaved = "autoSaved",
+  ProjectsAreTrackedOnRoadmap = "projectsAreTrackedOnRoadmap",
+  AddCardsToProject = "addCardsToProject",
+  ProjectEmptyStateDescription = "projectEmptyStateDescription",
+  CardInProjectEmptyStateFooter = "cardInProjectEmptyStateFooter",
 }
 
 export type Translations = Record<TranslationKeys, string>;

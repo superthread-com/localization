@@ -2009,6 +2009,11 @@ const en = {
   epicMustHaveTitle: "A project must have a title",
   seeAllNotes: "See all notes",
   autoSaved: "Auto-saved",
+  projectsAreTrackedOnRoadmap: "Projects are tracked on the roadmap",
+  addCardsToProject: "Add cards to this project",
+  projectEmptyStateDescription:
+    "A project is a large piece of work comprised of many cards from across the workspace. Create a project in a column, or edit the default statuses.",
+  cardInProjectEmptyStateFooter: "A card can only belong to one project",
 };
 
 export default en as Translations;
