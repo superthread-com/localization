@@ -2014,6 +2014,8 @@ const en = {
   projectEmptyStateDescription:
     "A project is a large piece of work comprised of many cards from across the workspace. Create a project in a column, or edit the default statuses.",
   cardInProjectEmptyStateFooter: "A card can only belong to one project",
+  addCardsThatContributeToProject:
+    "Add cards that contribute to this project. You can",
 };
 
 export default en as Translations;

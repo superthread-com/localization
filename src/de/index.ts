@@ -2111,6 +2111,8 @@ const de = {
   projectEmptyStateDescription:
     "Ein Projekt ist ein großes Arbeitsvorhaben, das aus vielen Karten im gesamten Arbeitsbereich besteht. Erstellen Sie ein Projekt in einer Spalte oder bearbeiten Sie die Standard-Status.",
   cardInProjectEmptyStateFooter: "Eine Karte kann nur zu einem Projekt gehören",
+  addCardsThatContributeToProject:
+    "Fügen Sie Karten hinzu, die zu diesem Projekt beitragen. Sie können",
 };
 
 export default de as Translations;
