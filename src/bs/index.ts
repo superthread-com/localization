@@ -2051,6 +2051,7 @@ const bs: Translations = {
   cardInProjectEmptyStateFooter: "Kartica može pripadati samo jednom projektu",
   addCardsThatContributeToProject:
     "Dodajte kartice koje doprinose ovom projektu. Možete",
+  noProject: "Nema projekta",
 };
 
 export default bs;

@@ -2048,6 +2048,7 @@ const pl = {
   cardInProjectEmptyStateFooter: "Karta może należeć tylko do jednego projektu",
   addCardsThatContributeToProject:
     "Dodaj karty, które przyczyniają się do tego projektu. Możesz",
+  noProject: "Brak projektu",
 };
 
 export default pl as Translations;

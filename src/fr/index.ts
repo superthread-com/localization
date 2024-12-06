@@ -2107,6 +2107,7 @@ const fr: Translations = {
     "Une carte ne peut appartenir qu'à un seul projet",
   addCardsThatContributeToProject:
     "Ajoutez des cartes qui contribuent à ce projet. Vous pouvez",
+  noProjects: "Pas de projets",
 };
 
 export default fr as Translations;

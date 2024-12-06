@@ -2016,6 +2016,7 @@ const en = {
   cardInProjectEmptyStateFooter: "A card can only belong to one project",
   addCardsThatContributeToProject:
     "Add cards that contribute to this project. You can",
+  noProject: "No project",
 };
 
 export default en as Translations;

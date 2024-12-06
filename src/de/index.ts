@@ -2113,6 +2113,7 @@ const de = {
   cardInProjectEmptyStateFooter: "Eine Karte kann nur zu einem Projekt gehören",
   addCardsThatContributeToProject:
     "Fügen Sie Karten hinzu, die zu diesem Projekt beitragen. Sie können",
+  noProject: "Kein Projekt",
 };
 
 export default de as Translations;
