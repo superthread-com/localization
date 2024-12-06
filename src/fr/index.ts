@@ -2105,6 +2105,8 @@ const fr: Translations = {
     "Un projet est un travail d'envergure composé de nombreuses cartes provenant de tout l'espace de travail. Créez un projet dans une colonne ou modifiez les statuts par défaut.",
   cardInProjectEmptyStateFooter:
     "Une carte ne peut appartenir qu'à un seul projet",
+  addCardsThatContributeToProject:
+    "Ajoutez des cartes qui contribuent à ce projet. Vous pouvez",
 };
 
 export default fr as Translations;

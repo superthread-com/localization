@@ -2049,6 +2049,8 @@ const bs: Translations = {
   projectEmptyStateDescription:
     "Projekat je veliki dio posla koji se sastoji od mnogih kartica iz cijelog radnog prostora. Kreirajte projekat u koloni ili uredite zadane statuse.",
   cardInProjectEmptyStateFooter: "Kartica može pripadati samo jednom projektu",
+  addCardsThatContributeToProject:
+    "Dodajte kartice koje doprinose ovom projektu. Možete",
 };
 
 export default bs;

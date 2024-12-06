@@ -2046,6 +2046,8 @@ const pl = {
   projectEmptyStateDescription:
     "Projekt to duży element pracy składający się z wielu kart z całego obszaru roboczego. Utwórz projekt w kolumnie lub edytuj domyślne statusy.",
   cardInProjectEmptyStateFooter: "Karta może należeć tylko do jednego projektu",
+  addCardsThatContributeToProject:
+    "Dodaj karty, które przyczyniają się do tego projektu. Możesz",
 };
 
 export default pl as Translations;
