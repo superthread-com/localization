@@ -1823,6 +1823,7 @@ export enum TranslationKeys {
   ProjectEmptyStateDescription = "projectEmptyStateDescription",
   CardInProjectEmptyStateFooter = "cardInProjectEmptyStateFooter",
   AddCardsThatContributeToProject = "addCardsThatContributeToProject",
+  NoProject = "noProject",
 }
 
 export type Translations = Record<TranslationKeys, string>;
