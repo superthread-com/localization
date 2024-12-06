@@ -2044,6 +2044,11 @@ const bs: Translations = {
   epicMustHaveTitle: "Projekt mora imati naslov",
   seeAllNotes: "Pogledaj sve bilješke",
   autoSaved: "Automatski sačuvano",
+  projectsAreTrackedOnRoadmap: "Projekti se prate na planu rada",
+  addCardsToProject: "Dodajte kartice u projekt",
+  projectEmptyStateDescription:
+    "Projekat je veliki dio posla koji se sastoji od mnogih kartica iz cijelog radnog prostora. Kreirajte projekat u koloni ili uredite zadane statuse.",
+  cardInProjectEmptyStateFooter: "Kartica može pripadati samo jednom projektu",
 };
 
 export default bs;
