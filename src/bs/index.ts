@@ -2052,6 +2052,25 @@ const bs: Translations = {
   addCardsThatContributeToProject:
     "Dodajte kartice koje doprinose ovom projektu. Možete",
   noProject: "Nema projekta",
+  noteTemplates: "Predlošci bilješki",
+  noteTemplatesSettingsSubtitle:
+    "Brzo promijenite formatiranje bilježaka pomoću predložaka",
+  noNoteTemplates: "Nema predložaka bilješki",
+  createNoteTemplate: "Kreiraj predložak bilješke",
+  sections: "Sekcije",
+  sectionHeading: "Naslov sekcije",
+  sectionDescriptionPlaceholder: "Ova sekcija treba da se fokusira na...",
+  addSection: "Dodaj sekciju",
+  superthread: "Superthread",
+  unavailableTemplates: "Nedostupni predlošci",
+  deletedTemplate: "Obrisano",
+  autoEnhanched: "Automatski poboljšano",
+  meetingContext: "Kontekst sastanka",
+  meetingContextPlaceholder:
+    "Navedite kratak pregled sastanka i šta želite postići...",
+  meetingContextDescription:
+    "Ovo pomaže Superthreadu da razumije na šta da se fokusira prilikom poboljšavanja vaših bilješki",
+  duplicateTemplate: "Dupliciraj predložak",
 };
 
 export default bs;

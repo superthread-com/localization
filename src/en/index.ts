@@ -2017,6 +2017,25 @@ const en = {
   addCardsThatContributeToProject:
     "Add cards that contribute to this project. You can",
   noProject: "No project",
+  noteTemplates: "Note templates",
+  noteTemplatesSettingsSubtitle:
+    "Quickly change the formatting of notes with templates",
+  noNoteTemplates: "No note templates",
+  createNoteTemplate: "Create note template",
+  sections: "Sections",
+  sectionHeading: "Section heading",
+  sectionDescriptionPlaceholder: "This section should focus on...",
+  addSection: "Add section",
+  superthread: "Superthread",
+  unavailableTemplates: "Unavailable templates",
+  deletedTemplate: "Deleted",
+  autoEnhanched: "Auto-enhanced",
+  meetingContext: "Meeting context",
+  meetingContextPlaceholder:
+    "Provide an overview of the meeting and what you want to get out of it...",
+  meetingContextDescription:
+    "This helps Superthread understand what to focus on when enhancing your notes",
+  duplicateTemplate: "Duplicate template",
 };
 
 export default en as Translations;

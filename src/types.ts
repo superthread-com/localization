@@ -1824,6 +1824,22 @@ export enum TranslationKeys {
   CardInProjectEmptyStateFooter = "cardInProjectEmptyStateFooter",
   AddCardsThatContributeToProject = "addCardsThatContributeToProject",
   NoProject = "noProject",
+  NoteTemplates = "noteTemplates",
+  NoteTemplatesSettingsSubtitle = "noteTemplatesSettingsSubtitle",
+  NoNoteTemplates = "noNoteTemplates",
+  CreateNoteTemplate = "createNoteTemplate",
+  Sections = "sections",
+  SectionHeading = "sectionHeading",
+  SectionDescriptionPlaceholder = "sectionDescriptionPlaceholder",
+  AddSection = "addSection",
+  Superthread = "superthread",
+  UnavailableTemplates = "unavailableTemplates",
+  DeletedTemplate = "deletedTemplate",
+  AutoEnhanched = "autoEnhanched",
+  MeetingContext = "meetingContext",
+  MeetingContextPlaceholder = "meetingContextPlaceholder",
+  MeetingContextDescription = "meetingContextDescription",
+  DuplicateTemplate = "duplicateTemplate",
 }
 
 export type Translations = Record<TranslationKeys, string>;
