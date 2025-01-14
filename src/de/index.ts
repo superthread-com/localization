@@ -2114,6 +2114,26 @@ const de = {
   addCardsThatContributeToProject:
     "Fügen Sie Karten hinzu, die zu diesem Projekt beitragen. Sie können",
   noProject: "Kein Projekt",
+  noteTemplates: "Notizvorlagen",
+  noteTemplatesSettingsSubtitle:
+    "Ändern Sie schnell das Format von Notizen mit Vorlagen",
+  noNoteTemplates: "Keine Notizvorlagen",
+  createNoteTemplate: "Notizvorlage erstellen",
+  sections: "Abschnitte",
+  sectionHeading: "Abschnittsüberschrift",
+  sectionDescriptionPlaceholder:
+    "Dieser Abschnitt sollte sich auf ... konzentrieren",
+  addSection: "Abschnitt hinzufügen",
+  superthread: "Superthread",
+  unavailableTemplates: "Nicht verfügbare Vorlagen",
+  deletedTemplate: "Gelöscht",
+  autoEnhanched: "Automatisch verbessert",
+  meetingContext: "Meeting-Kontext",
+  meetingContextPlaceholder:
+    "Geben Sie einen Überblick über das Meeting und was Sie daraus erreichen wollen...",
+  meetingContextDescription:
+    "Dies hilft Superthread zu verstehen, worauf es sich beim Verbessern Ihrer Notizen konzentrieren soll",
+  duplicateTemplate: "Vorlage duplizieren",
 };
 
 export default de as Translations;

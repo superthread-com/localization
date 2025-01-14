@@ -2049,6 +2049,25 @@ const pl = {
   addCardsThatContributeToProject:
     "Dodaj karty, które przyczyniają się do tego projektu. Możesz",
   noProject: "Brak projektu",
+  noteTemplates: "Szablony notatek",
+  noteTemplatesSettingsSubtitle:
+    "Szybko zmieniaj formatowanie notatek za pomocą szablonów",
+  noNoteTemplates: "Brak szablonów notatek",
+  createNoteTemplate: "Utwórz szablon notatki",
+  sections: "Sekcje",
+  sectionHeading: "Nagłówek sekcji",
+  sectionDescriptionPlaceholder: "Ta sekcja powinna się koncentrować na...",
+  addSection: "Dodaj sekcję",
+  superthread: "Superthread",
+  unavailableTemplates: "Niedostępne szablony",
+  deletedTemplate: "Usunięto",
+  autoEnhanched: "Automatycznie ulepszone",
+  meetingContext: "Kontekst spotkania",
+  meetingContextPlaceholder:
+    "Podaj ogólny zarys spotkania i co chcesz z niego uzyskać...",
+  meetingContextDescription:
+    "To pomaga Superthread skupić się na tym, co jest ważne podczas ulepszania notatek",
+  duplicateTemplate: "Duplikuj szablon",
 };
 
 export default pl as Translations;

@@ -2107,7 +2107,26 @@ const fr: Translations = {
     "Une carte ne peut appartenir qu'à un seul projet",
   addCardsThatContributeToProject:
     "Ajoutez des cartes qui contribuent à ce projet. Vous pouvez",
-  noProjects: "Pas de projets",
+  noProject: "Pas de projets",
+  noteTemplates: "Modèles de notes",
+  noteTemplatesSettingsSubtitle:
+    "Modifiez rapidement la mise en forme des notes à l'aide de modèles",
+  noNoteTemplates: "Aucun modèle de notes",
+  createNoteTemplate: "Créer un modèle de note",
+  sections: "Sections",
+  sectionHeading: "Titre de la section",
+  sectionDescriptionPlaceholder: "Cette section devrait se concentrer sur...",
+  addSection: "Ajouter une section",
+  superthread: "Superthread",
+  unavailableTemplates: "Modèles indisponibles",
+  deletedTemplate: "Supprimé",
+  autoEnhanched: "Amélioré automatiquement",
+  meetingContext: "Contexte de la réunion",
+  meetingContextPlaceholder:
+    "Fournissez un aperçu de la réunion et ce que vous souhaitez en retirer...",
+  meetingContextDescription:
+    "Cela aide Superthread à comprendre sur quoi se concentrer lors de l'amélioration de vos notes",
+  duplicateTemplate: "Dupliquer le modèle",
 };
 
 export default fr as Translations;
