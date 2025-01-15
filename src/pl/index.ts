@@ -2059,15 +2059,15 @@ const pl = {
   sectionDescriptionPlaceholder: "Ta sekcja powinna się koncentrować na...",
   addSection: "Dodaj sekcję",
   superthread: "Superthread",
-  unavailableTemplates: "Niedostępne szablony",
-  deletedTemplate: "Usunięto",
-  autoEnhanched: "Automatycznie ulepszone",
+  deletedTemplate: "Usunięty szablon",
+  autoEnhanced: "Automatycznie ulepszone",
   meetingContext: "Kontekst spotkania",
   meetingContextPlaceholder:
     "Podaj ogólny zarys spotkania i co chcesz z niego uzyskać...",
   meetingContextDescription:
     "To pomaga Superthread skupić się na tym, co jest ważne podczas ulepszania notatek",
   duplicateTemplate: "Duplikuj szablon",
+  favouriteTemplates: "Ulubione szablony",
 };
 
 export default pl as Translations;

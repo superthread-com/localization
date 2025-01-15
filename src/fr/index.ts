@@ -2118,15 +2118,15 @@ const fr: Translations = {
   sectionDescriptionPlaceholder: "Cette section devrait se concentrer sur...",
   addSection: "Ajouter une section",
   superthread: "Superthread",
-  unavailableTemplates: "Modèles indisponibles",
-  deletedTemplate: "Supprimé",
-  autoEnhanched: "Amélioré automatiquement",
+  deletedTemplate: "Modèle supprimé",
+  autoEnhanced: "Amélioré automatiquement",
   meetingContext: "Contexte de la réunion",
   meetingContextPlaceholder:
     "Fournissez un aperçu de la réunion et ce que vous souhaitez en retirer...",
   meetingContextDescription:
     "Cela aide Superthread à comprendre sur quoi se concentrer lors de l'amélioration de vos notes",
   duplicateTemplate: "Dupliquer le modèle",
+  favouriteTemplates: "Modèles favoris",
 };
 
 export default fr as Translations;

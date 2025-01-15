@@ -2062,15 +2062,15 @@ const bs: Translations = {
   sectionDescriptionPlaceholder: "Ova sekcija treba da se fokusira na...",
   addSection: "Dodaj sekciju",
   superthread: "Superthread",
-  unavailableTemplates: "Nedostupni predlošci",
-  deletedTemplate: "Obrisano",
-  autoEnhanched: "Automatski poboljšano",
+  deletedTemplate: "Obrisani predložak",
+  autoEnhanced: "Automatski poboljšano",
   meetingContext: "Kontekst sastanka",
   meetingContextPlaceholder:
     "Navedite kratak pregled sastanka i šta želite postići...",
   meetingContextDescription:
     "Ovo pomaže Superthreadu da razumije na šta da se fokusira prilikom poboljšavanja vaših bilješki",
   duplicateTemplate: "Dupliciraj predložak",
+  favouriteTemplates: "Omiljeni predlošci",
 };
 
 export default bs;
