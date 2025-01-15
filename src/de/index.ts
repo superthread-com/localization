@@ -2125,15 +2125,15 @@ const de = {
     "Dieser Abschnitt sollte sich auf ... konzentrieren",
   addSection: "Abschnitt hinzufügen",
   superthread: "Superthread",
-  unavailableTemplates: "Nicht verfügbare Vorlagen",
-  deletedTemplate: "Gelöscht",
-  autoEnhanched: "Automatisch verbessert",
+  deletedTemplate: "Gelöschte Vorlage",
+  autoEnhanced: "Automatisch verbessert",
   meetingContext: "Meeting-Kontext",
   meetingContextPlaceholder:
     "Geben Sie einen Überblick über das Meeting und was Sie daraus erreichen wollen...",
   meetingContextDescription:
     "Dies hilft Superthread zu verstehen, worauf es sich beim Verbessern Ihrer Notizen konzentrieren soll",
   duplicateTemplate: "Vorlage duplizieren",
+  favouriteTemplates: "Lieblingsvorlagen",
 };
 
 export default de as Translations;

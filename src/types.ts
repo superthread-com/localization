@@ -1833,13 +1833,13 @@ export enum TranslationKeys {
   SectionDescriptionPlaceholder = "sectionDescriptionPlaceholder",
   AddSection = "addSection",
   Superthread = "superthread",
-  UnavailableTemplates = "unavailableTemplates",
   DeletedTemplate = "deletedTemplate",
-  AutoEnhanched = "autoEnhanched",
+  AutoEnhanced = "autoEnhanced",
   MeetingContext = "meetingContext",
   MeetingContextPlaceholder = "meetingContextPlaceholder",
   MeetingContextDescription = "meetingContextDescription",
   DuplicateTemplate = "duplicateTemplate",
+  FavouriteTemplates = "favouriteTemplates",
 }
 
 export type Translations = Record<TranslationKeys, string>;
