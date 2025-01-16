@@ -2036,6 +2036,9 @@ const en = {
     "This helps Superthread understand what to focus on when enhancing your notes",
   duplicateTemplate: "Duplicate template",
   favouriteTemplates: "Favourite templates",
+  introduction: "Introduction",
+  sampleSectionDescription:
+    "Capture any interesting talking points from the small-talk at the start of the meeting. Ignore discussions about the weather.",
 };
 
 export default en as Translations;
