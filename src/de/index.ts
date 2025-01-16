@@ -2134,6 +2134,9 @@ const de = {
     "Dies hilft Superthread zu verstehen, worauf es sich beim Verbessern Ihrer Notizen konzentrieren soll",
   duplicateTemplate: "Vorlage duplizieren",
   favouriteTemplates: "Lieblingsvorlagen",
+  introduction: "Einführung",
+  sampleSectionDescription:
+    "Erfassen Sie alle interessanten Gesprächspunkte aus dem Smalltalk zu Beginn des Meetings. Ignorieren Sie Diskussionen über das Wetter.",
 };
 
 export default de as Translations;

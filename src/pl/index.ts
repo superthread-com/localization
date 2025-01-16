@@ -2068,6 +2068,9 @@ const pl = {
     "To pomaga Superthread skupić się na tym, co jest ważne podczas ulepszania notatek",
   duplicateTemplate: "Duplikuj szablon",
   favouriteTemplates: "Ulubione szablony",
+  introduction: "Wprowadzenie",
+  sampleSectionDescription:
+    "Zapisz wszystkie interesujące tematy poruszone podczas luźnej rozmowy na początku spotkania. Zignoruj dyskusje o pogodzie.",
 };
 
 export default pl as Translations;

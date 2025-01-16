@@ -2127,6 +2127,9 @@ const fr: Translations = {
     "Cela aide Superthread à comprendre sur quoi se concentrer lors de l'amélioration de vos notes",
   duplicateTemplate: "Dupliquer le modèle",
   favouriteTemplates: "Modèles favoris",
+  introduction: "Introduction",
+  sampleSectionDescription:
+    "Recueillez tous les points de discussion intéressants issus des échanges informels au début de la réunion. Ignorez les discussions sur la météo.",
 };
 
 export default fr as Translations;

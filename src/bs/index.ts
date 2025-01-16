@@ -2071,6 +2071,9 @@ const bs: Translations = {
     "Ovo pomaže Superthreadu da razumije na šta da se fokusira prilikom poboljšavanja vaših bilješki",
   duplicateTemplate: "Dupliciraj predložak",
   favouriteTemplates: "Omiljeni predlošci",
+  introduction: "Uvod",
+  sampleSectionDescription:
+    "Zabilježite sve zanimljive teme razgovora iz neformalne diskusije na početku sastanka. Zanemarite rasprave o vremenu.",
 };
 
 export default bs;
