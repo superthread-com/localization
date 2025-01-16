@@ -1840,6 +1840,8 @@ export enum TranslationKeys {
   MeetingContextDescription = "meetingContextDescription",
   DuplicateTemplate = "duplicateTemplate",
   FavouriteTemplates = "favouriteTemplates",
+  Introduction = "introduction",
+  SampleSectionDescription = "sampleSectionDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;
