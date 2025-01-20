@@ -2094,6 +2094,8 @@ const pl = {
     "W macOS przejdź do Ustawienia systemowe > Prywatność i bezpieczeństwo > Nagrywanie dźwięku systemowego i zezwól aplikacji „Superthread”.",
   systemAccessNotAllowedDesc3:
     "Po wykonaniu tego zamknij aplikację, otwórz ją ponownie i wróć tutaj.",
+  editNoteTemplate: "Edytuj szablon notatki",
+  viewNoteTemplate: "Wyświetl szablon notatki",
 };
 
 export default pl as Translations;

@@ -2096,6 +2096,8 @@ const bs: Translations = {
     "Na macOS-u, idite na Postavke sistema > Privatnost i sigurnost > Snimanje sistemskog zvuka i dozvolite aplikaciji „Superthread”.",
   systemAccessNotAllowedDesc3:
     "Nakon što to učinite, zatvorite i ponovo otvorite aplikaciju, a zatim se vratite ovdje.",
+  editNoteTemplate: "Uredi predložak bilješke",
+  viewNoteTemplate: "Pregledaj predložak bilješke",
 };
 
 export default bs;

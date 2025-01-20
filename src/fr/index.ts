@@ -2154,6 +2154,8 @@ const fr: Translations = {
     "Sur macOS, allez dans Réglages système > Confidentialité & Sécurité > Enregistrement audio système et autorisez l'application « Superthread ».",
   systemAccessNotAllowedDesc3:
     "Après cela, fermez et rouvrez l'application, puis revenez ici.",
+  editNoteTemplate: "Modifier le modèle de note",
+  viewNoteTemplate: "Afficher le modèle de note",
 };
 
 export default fr as Translations;
