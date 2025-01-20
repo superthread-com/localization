@@ -1842,6 +1842,20 @@ export enum TranslationKeys {
   FavouriteTemplates = "favouriteTemplates",
   Introduction = "introduction",
   SampleSectionDescription = "sampleSectionDescription",
+  AllowSuperthreadToTranscribe = "allowSuperthreadToTranscribe",
+  SuperthreadCanEnhance = "superthreadCanEnhance",
+  TranscribeYourVoice = "transcribeYourVoice",
+  TranscribeOthersVoice = "transcribeOthersVoice",
+  AllowMicrophoneCapture = "allowMicrophoneCapture",
+  AllowSystemAudioCapture = "allowSystemAudioCapture",
+  MicrophoneAccessNotAllowedTitle = "microphoneAccessNotAllowedTitle",
+  MicrophoneAccessNotAllowedDesc1 = "microphoneAccessNotAllowedDesc1",
+  MicrophoneAccessNotAllowedDesc2 = "microphoneAccessNotAllowedDesc2",
+  MicrophoneAccessNotAllowedDesc3 = "microphoneAccessNotAllowedDesc3",
+  SystemAccessNotAllowedTitle = "systemAccessNotAllowedTitle",
+  SystemAccessNotAllowedDesc1 = "systemAccessNotAllowedDesc1",
+  SystemAccessNotAllowedDesc2 = "systemAccessNotAllowedDesc2",
+  SystemAccessNotAllowedDesc3 = "systemAccessNotAllowedDesc3",
 }
 
 export type Translations = Record<TranslationKeys, string>;

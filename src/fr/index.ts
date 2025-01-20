@@ -2130,6 +2130,30 @@ const fr: Translations = {
   introduction: "Introduction",
   sampleSectionDescription:
     "Recueillez tous les points de discussion intéressants issus des échanges informels au début de la réunion. Ignorez les discussions sur la météo.",
+  allowSuperthreadToTranscribe:
+    "Autoriser Superthread à transcrire vos réunions",
+  superthreadCanEnhance:
+    "Superthread peut améliorer vos notes en transcrivant l’audio directement depuis votre ordinateur portable, sans avoir besoin de bots de réunion. Cela fonctionne pour les réunions en personne et virtuelles, avec un contrôle total sur son activation. Vos enregistrements audio ne sont jamais stockés ni utilisés à d’autres fins.",
+  transcribeYourVoice: "Transcrire votre voix",
+  transcribeOthersVoice: "Transcrire les voix des autres",
+  allowMicrophoneCapture: "Autoriser l'accès au microphone",
+  allowSystemAudioCapture: "Autoriser l'accès à l'audio système",
+  microphoneAccessNotAllowedTitle:
+    "Autorisation d'accès au microphone requise manuellement",
+  microphoneAccessNotAllowedDesc1:
+    "L'accès au microphone a été précédemment refusé, vous devez l'autoriser manuellement.",
+  microphoneAccessNotAllowedDesc2:
+    "Sur macOS, allez dans Réglages système > Confidentialité & Sécurité > Microphone et autorisez l'application « Superthread ».",
+  microphoneAccessNotAllowedDesc3:
+    "Après cela, fermez et rouvrez l'application, puis revenez ici.",
+  systemAccessNotAllowedTitle:
+    "Autorisation d'accès à l'audio système requise manuellement",
+  systemAccessNotAllowedDesc1:
+    "L'accès à l'audio système a été précédemment refusé, vous devez l'autoriser manuellement.",
+  systemAccessNotAllowedDesc2:
+    "Sur macOS, allez dans Réglages système > Confidentialité & Sécurité > Enregistrement audio système et autorisez l'application « Superthread ».",
+  systemAccessNotAllowedDesc3:
+    "Après cela, fermez et rouvrez l'application, puis revenez ici.",
 };
 
 export default fr as Translations;

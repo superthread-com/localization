@@ -2074,6 +2074,28 @@ const bs: Translations = {
   introduction: "Uvod",
   sampleSectionDescription:
     "Zabilježite sve zanimljive teme razgovora iz neformalne diskusije na početku sastanka. Zanemarite rasprave o vremenu.",
+  allowSuperthreadToTranscribe:
+    "Dozvoli Superthread-u da transkribuje vaše sastanke",
+  superthreadCanEnhance:
+    "Superthread može unaprijediti vaše bilješke transkripcijom zvuka direktno s vašeg laptopa, bez potrebe za botovima za sastanke. Radi za sastanke uživo i virtualne sastanke, uz potpunu kontrolu nad time kada je aktivan. Vaš zvuk nikada se ne pohranjuje niti koristi u druge svrhe.",
+  transcribeYourVoice: "Transkribujte svoj glas",
+  transcribeOthersVoice: "Transkribujte glasove drugih",
+  allowMicrophoneCapture: "Dozvoli pristup mikrofonu",
+  allowSystemAudioCapture: "Dozvoli pristup sistemskom zvuku",
+  microphoneAccessNotAllowedTitle: "Ručno dozvolite pristup mikrofonu",
+  microphoneAccessNotAllowedDesc1:
+    "Pristup mikrofonu prethodno nije bio dozvoljen. Morate ga ručno omogućiti.",
+  microphoneAccessNotAllowedDesc2:
+    "Na macOS-u, idite na Postavke sistema > Privatnost i sigurnost > Mikrofon i dozvolite aplikaciji „Superthread”.",
+  microphoneAccessNotAllowedDesc3:
+    "Nakon što to učinite, zatvorite i ponovo otvorite aplikaciju, a zatim se vratite ovdje.",
+  systemAccessNotAllowedTitle: "Ručno dozvolite pristup sistemskom zvuku",
+  systemAccessNotAllowedDesc1:
+    "Pristup sistemskom zvuku prethodno nije bio dozvoljen. Morate ga ručno omogućiti.",
+  systemAccessNotAllowedDesc2:
+    "Na macOS-u, idite na Postavke sistema > Privatnost i sigurnost > Snimanje sistemskog zvuka i dozvolite aplikaciji „Superthread”.",
+  systemAccessNotAllowedDesc3:
+    "Nakon što to učinite, zatvorite i ponovo otvorite aplikaciju, a zatim se vratite ovdje.",
 };
 
 export default bs;
