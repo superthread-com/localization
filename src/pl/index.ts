@@ -2071,6 +2071,29 @@ const pl = {
   introduction: "Wprowadzenie",
   sampleSectionDescription:
     "Zapisz wszystkie interesujące tematy poruszone podczas luźnej rozmowy na początku spotkania. Zignoruj dyskusje o pogodzie.",
+  allowSuperthreadToTranscribe:
+    "Zezwól Superthread na transkrypcję twoich spotkań",
+  superthreadCanEnhance:
+    "Superthread może ulepszyć twoje notatki, transkrybując dźwięk bezpośrednio z twojego laptopa, bez potrzeby korzystania z botów do spotkań. Działa zarówno na spotkaniach osobistych, jak i wirtualnych, zapewniając pełną kontrolę nad tym, kiedy jest włączony. Twoje nagrania dźwiękowe nigdy nie są przechowywane ani wykorzystywane w inny sposób.",
+  transcribeYourVoice: "Transkrybuj swój głos",
+  transcribeOthersVoice: "Transkrybuj głosy innych",
+  allowMicrophoneCapture: "Zezwól na dostęp do mikrofonu",
+  allowSystemAudioCapture: "Zezwól na dostęp do dźwięku systemowego",
+  microphoneAccessNotAllowedTitle: "Ręczne zezwolenie na dostęp do mikrofonu",
+  microphoneAccessNotAllowedDesc1:
+    "Dostęp do mikrofonu był wcześniej zablokowany. Musisz zezwolić na niego ręcznie.",
+  microphoneAccessNotAllowedDesc2:
+    "W macOS przejdź do Ustawienia systemowe > Prywatność i bezpieczeństwo > Mikrofon i zezwól aplikacji „Superthread”.",
+  microphoneAccessNotAllowedDesc3:
+    "Po wykonaniu tego zamknij aplikację, otwórz ją ponownie i wróć tutaj.",
+  systemAccessNotAllowedTitle:
+    "Ręczne zezwolenie na dostęp do dźwięku systemowego",
+  systemAccessNotAllowedDesc1:
+    "Dostęp do dźwięku systemowego był wcześniej zablokowany. Musisz zezwolić na niego ręcznie.",
+  systemAccessNotAllowedDesc2:
+    "W macOS przejdź do Ustawienia systemowe > Prywatność i bezpieczeństwo > Nagrywanie dźwięku systemowego i zezwól aplikacji „Superthread”.",
+  systemAccessNotAllowedDesc3:
+    "Po wykonaniu tego zamknij aplikację, otwórz ją ponownie i wróć tutaj.",
 };
 
 export default pl as Translations;

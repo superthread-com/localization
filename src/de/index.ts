@@ -2137,6 +2137,28 @@ const de = {
   introduction: "Einführung",
   sampleSectionDescription:
     "Erfassen Sie alle interessanten Gesprächspunkte aus dem Smalltalk zu Beginn des Meetings. Ignorieren Sie Diskussionen über das Wetter.",
+  allowSuperthreadToTranscribe:
+    "Erlaube Superthread, deine Meetings zu transkribieren",
+  superthreadCanEnhance:
+    "Superthread kann deine Notizen verbessern, indem es Audio direkt von deinem Laptop transkribiert, ohne Meeting-Bots. Es funktioniert für persönliche und virtuelle Meetings und gibt dir die volle Kontrolle darüber, wann es aktiv ist. Deine Audioaufnahmen werden niemals gespeichert oder anderweitig verwendet.",
+  transcribeYourVoice: "Deine Stimme transkribieren",
+  transcribeOthersVoice: "Andere Stimmen transkribieren",
+  allowMicrophoneCapture: "Erlaube Mikrofonzugriff",
+  allowSystemAudioCapture: "Erlaube Systemaudio-Zugriff",
+  microphoneAccessNotAllowedTitle: "Mikrofonzugriff manuell erlauben",
+  microphoneAccessNotAllowedDesc1:
+    "Der Mikrofonzugriff wurde zuvor nicht erlaubt. Du musst ihn manuell erlauben.",
+  microphoneAccessNotAllowedDesc2:
+    "Gehe in macOS zu Systemeinstellungen > Datenschutz & Sicherheit > Mikrofon und erlaube die „Superthread“-App.",
+  microphoneAccessNotAllowedDesc3:
+    "Beende danach die App, öffne sie erneut und kehre hierher zurück.",
+  systemAccessNotAllowedTitle: "Systemaudiozugriff manuell erlauben",
+  systemAccessNotAllowedDesc1:
+    "Der Systemaudiozugriff wurde zuvor nicht erlaubt. Du musst ihn manuell erlauben.",
+  systemAccessNotAllowedDesc2:
+    "Gehe in macOS zu Systemeinstellungen > Datenschutz & Sicherheit > Systemaudioaufzeichnung und erlaube die „Superthread“-App.",
+  systemAccessNotAllowedDesc3:
+    "Beende danach die App, öffne sie erneut und kehre hierher zurück.",
 };
 
 export default de as Translations;
