@@ -2156,6 +2156,19 @@ const fr: Translations = {
     "Après cela, fermez et rouvrez l'application, puis revenez ici.",
   editNoteTemplate: "Modifier le modèle de note",
   viewNoteTemplate: "Afficher le modèle de note",
+  viewTranscript: "Voir le transcript",
+  transcribeHereInstead: "Transcrire ici à la place ?",
+  currentlyTranscribingAnotherNote:
+    "La note « %{noteTitle} » est en cours de transcription. Voulez-vous arrêter la transcription là-bas et transcrire ici à la place ?",
+  transcribeHere: "Transcrire ici",
+  resume: "Reprendre",
+  pause: "Pause",
+  transcribe: "Transcrire",
+  currentlyTranscribing: "Transcription en cours",
+  transcribingOnlyAvailableOnMac:
+    "La transcription est uniquement disponible dans l'application macOS",
+  startTranscription: "Démarrer la transcription",
+  stopTranscription: "Arrêter la transcription",
 };
 
 export default fr as Translations;

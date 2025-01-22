@@ -2098,6 +2098,19 @@ const bs: Translations = {
     "Nakon što to učinite, zatvorite i ponovo otvorite aplikaciju, a zatim se vratite ovdje.",
   editNoteTemplate: "Uredi predložak bilješke",
   viewNoteTemplate: "Pregledaj predložak bilješke",
+  viewTranscript: "Pogledaj transkript",
+  transcribeHereInstead: "Prepisujte ovdje umjesto toga?",
+  currentlyTranscribingAnotherNote:
+    "Bilješka “%{noteTitle}” se trenutno prepisuje. Želite li zaustaviti prepisivanje tamo i prepisivati ovdje umjesto toga?",
+  transcribeHere: "Prepišite ovdje",
+  resume: "Nastavi",
+  pause: "Pauza",
+  transcribe: "Prepiši",
+  currentlyTranscribing: "Trenutno se prepisuje",
+  transcribingOnlyAvailableOnMac:
+    "Prepisivanje je dostupno samo u aplikaciji za macOS",
+  startTranscription: "Započni prepisivanje",
+  stopTranscription: "Zaustavi prepisivanje",
 };
 
 export default bs;
