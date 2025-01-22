@@ -1858,6 +1858,17 @@ export enum TranslationKeys {
   SystemAccessNotAllowedDesc3 = "systemAccessNotAllowedDesc3",
   EditNoteTemplate = "editNoteTemplate",
   ViewNoteTemplate = "viewNoteTemplate",
+  ViewTranscript = "viewTranscript",
+  TranscribeHereInstead = "transcribeHereInstead",
+  CurrentlyTranscribingAnotherNote = "currentlyTranscribingAnotherNote",
+  TranscribeHere = "transcribeHere",
+  Resume = "resume",
+  Pause = "pause",
+  Transcribe = "transcribe",
+  CurrentlyTranscribing = "currentlyTranscribing",
+  TranscribingOnlyAvailableOnMac = "transcribingOnlyAvailableOnMac",
+  StartTranscription = "startTranscription",
+  StopTranscription = "stopTranscription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

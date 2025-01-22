@@ -2096,6 +2096,19 @@ const pl = {
     "Po wykonaniu tego zamknij aplikację, otwórz ją ponownie i wróć tutaj.",
   editNoteTemplate: "Edytuj szablon notatki",
   viewNoteTemplate: "Wyświetl szablon notatki",
+  viewTranscript: "Zobacz transkrypt",
+  transcribeHereInstead: "Transkrybować tutaj zamiast tego?",
+  currentlyTranscribingAnotherNote:
+    "Notatka „%{noteTitle}” jest obecnie transkrybowana. Czy chcesz zatrzymać transkrypcję tam i transkrybować tutaj zamiast tego?",
+  transcribeHere: "Transkrybuj tutaj",
+  resume: "Wznów",
+  pause: "Pauza",
+  transcribe: "Transkrybuj",
+  currentlyTranscribing: "Obecnie transkrybowanie",
+  transcribingOnlyAvailableOnMac:
+    "Transkrypcja jest dostępna tylko w aplikacji na macOS",
+  startTranscription: "Rozpocznij transkrypcję",
+  stopTranscription: "Zatrzymaj transkrypcję",
 };
 
 export default pl as Translations;

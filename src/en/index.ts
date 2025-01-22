@@ -2062,6 +2062,19 @@ const en = {
     "After you’ve done that, please quit and re-open this app, then return here.",
   editNoteTemplate: "Edit note template",
   viewNoteTemplate: "View note template",
+  viewTranscript: "View transcript",
+  transcribeHereInstead: "Transcribe here instead?",
+  currentlyTranscribingAnotherNote:
+    "The note “%{noteTitle}” is currently transcribing. Do you want to stop transcription there and transcribe here instead?",
+  transcribeHere: "Transcribe here",
+  resume: "Resume",
+  pause: "Pause",
+  transcribe: "Transcribe",
+  currentlyTranscribing: "Currently transcribing",
+  transcribingOnlyAvailableOnMac:
+    "Transcribing is only available in the macOS app",
+  startTranscription: "Start transcription",
+  stopTranscription: "Stop transcription",
 };
 
 export default en as Translations;

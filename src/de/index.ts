@@ -2161,6 +2161,19 @@ const de = {
     "Beende danach die App, öffne sie erneut und kehre hierher zurück.",
   editNoteTemplate: "Notizvorlage bearbeiten",
   viewNoteTemplate: "Notizvorlage anzeigen",
+  viewTranscript: "Transkript anzeigen",
+  transcribeHereInstead: "Hier stattdessen transkribieren?",
+  currentlyTranscribingAnotherNote:
+    "Die Notiz „%{noteTitle}“ wird gerade transkribiert. Möchten Sie die Transkription dort stoppen und stattdessen hier transkribieren?",
+  transcribeHere: "Hier transkribieren",
+  resume: "Fortsetzen",
+  pause: "Pause",
+  transcribe: "Transkribieren",
+  currentlyTranscribing: "Wird gerade transkribiert",
+  transcribingOnlyAvailableOnMac:
+    "Das Transkribieren ist nur in der macOS-App verfügbar",
+  startTranscription: "Transkription starten",
+  stopTranscription: "Transkription stoppen",
 };
 
 export default de as Translations;
