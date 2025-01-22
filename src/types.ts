@@ -1856,6 +1856,8 @@ export enum TranslationKeys {
   SystemAccessNotAllowedDesc1 = "systemAccessNotAllowedDesc1",
   SystemAccessNotAllowedDesc2 = "systemAccessNotAllowedDesc2",
   SystemAccessNotAllowedDesc3 = "systemAccessNotAllowedDesc3",
+  EditNoteTemplate = "editNoteTemplate",
+  ViewNoteTemplate = "viewNoteTemplate",
 }
 
 export type Translations = Record<TranslationKeys, string>;

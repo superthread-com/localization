@@ -2060,6 +2060,8 @@ const en = {
     "In macOS, go to System Settings > Privacy & Security > Microphone and allow the “Superthread” app.",
   systemAccessNotAllowedDesc3:
     "After you’ve done that, please quit and re-open this app, then return here.",
+  editNoteTemplate: "Edit note template",
+  viewNoteTemplate: "View note template",
 };
 
 export default en as Translations;

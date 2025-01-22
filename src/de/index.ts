@@ -2159,6 +2159,8 @@ const de = {
     "Gehe in macOS zu Systemeinstellungen > Datenschutz & Sicherheit > Systemaudioaufzeichnung und erlaube die „Superthread“-App.",
   systemAccessNotAllowedDesc3:
     "Beende danach die App, öffne sie erneut und kehre hierher zurück.",
+  editNoteTemplate: "Notizvorlage bearbeiten",
+  viewNoteTemplate: "Notizvorlage anzeigen",
 };
 
 export default de as Translations;
