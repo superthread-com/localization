@@ -2111,6 +2111,7 @@ const bs: Translations = {
     "Prepisivanje je dostupno samo u aplikaciji za macOS",
   startTranscription: "Započni prepisivanje",
   stopTranscription: "Zaustavi prepisivanje",
+  openTranscribingNote: "Otvori bilješku za prepisivanje",
 };
 
 export default bs;

@@ -2109,6 +2109,7 @@ const pl = {
     "Transkrypcja jest dostępna tylko w aplikacji na macOS",
   startTranscription: "Rozpocznij transkrypcję",
   stopTranscription: "Zatrzymaj transkrypcję",
+  openTranscribingNote: "Otwórz notatkę transkrypcji",
 };
 
 export default pl as Translations;

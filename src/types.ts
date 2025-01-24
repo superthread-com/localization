@@ -1869,6 +1869,7 @@ export enum TranslationKeys {
   TranscribingOnlyAvailableOnMac = "transcribingOnlyAvailableOnMac",
   StartTranscription = "startTranscription",
   StopTranscription = "stopTranscription",
+  OpenTranscribingNote = "openTranscribingNote",
 }
 
 export type Translations = Record<TranslationKeys, string>;

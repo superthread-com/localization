@@ -2169,6 +2169,7 @@ const fr: Translations = {
     "La transcription est uniquement disponible dans l'application macOS",
   startTranscription: "Démarrer la transcription",
   stopTranscription: "Arrêter la transcription",
+  openTranscribingNote: "Ouvrir la note en cours de transcription",
 };
 
 export default fr as Translations;
