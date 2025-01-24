@@ -2075,6 +2075,7 @@ const en = {
     "Transcribing is only available in the macOS app",
   startTranscription: "Start transcription",
   stopTranscription: "Stop transcription",
+  openTranscribingNote: "Open transcribing note",
 };
 
 export default en as Translations;

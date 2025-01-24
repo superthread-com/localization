@@ -2174,6 +2174,7 @@ const de = {
     "Das Transkribieren ist nur in der macOS-App verfügbar",
   startTranscription: "Transkription starten",
   stopTranscription: "Transkription stoppen",
+  openTranscribingNote: "Notiz zum Transkribieren öffnen",
 };
 
 export default de as Translations;
