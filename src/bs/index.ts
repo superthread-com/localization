@@ -1859,12 +1859,15 @@ const bs: Translations = {
   slackChannelNotificationsDescriptionDisabled:
     "Otvorit će se Slack prozor i zatražiti da odaberete kanal",
   slackChannelNotificationsDescriptionEnabled:
-    "Obavijesti s ove table se šalju na #%{channel} u Slacku.",
+    "Obavijesti s ove table se šalju na %{channel} u Slacku.",
   slackIntegrationError:
     "Nije moguće omogućiti integraciju sa Slackom. Molimo pokušajte ponovo",
   boardDoesNotExists: "Ta tabla ne postoji",
   boardActivity: "Aktivnost table",
   sendTo: "Pošalji na",
+  slackPrivateMessage: "privatna poruka",
+  slackPrivateGroup: "privatni razgovor",
+  slackPrivateChannel: "privatni kanal",
   webhookNotificationCardAddedBoard: "Kartica dodana/premještena na ploču",
   webhookNotificationCardAddedList: "Kartica dodana/premještena u status",
   webhookNotificationCardCommented:

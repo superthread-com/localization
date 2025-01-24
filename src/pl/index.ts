@@ -1860,12 +1860,15 @@ const pl = {
   slackChannelNotificationsDescriptionDisabled:
     "Otworzy się okno Slack i poprosi o wybór kanału",
   slackChannelNotificationsDescriptionEnabled:
-    "Powiadomienia z tej tablicy są wysyłane do #%{channel} w Slacku.",
+    "Powiadomienia z tej tablicy są wysyłane do %{channel} w Slacku.",
   slackIntegrationError:
     "Nie udało się włączyć integracji ze Slackiem. Spróbuj ponownie",
   boardDoesNotExists: "Ta tablica nie istnieje",
   boardActivity: "Aktywność tablicy",
   sendTo: "Wyślij do",
+  slackPrivateMessage: "wiadomość prywatna",
+  slackPrivateGroup: "prywatna rozmowa",
+  slackPrivateChannel: "prywatny kanał",
   webhookNotificationCardAddedBoard: "Karta dodana/przeniesiona na tablicę",
   webhookNotificationCardAddedList: "Karta dodana/przeniesiona do statusu",
   webhookNotificationCardCommented:

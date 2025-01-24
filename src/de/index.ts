@@ -1913,12 +1913,15 @@ const de = {
   slackChannelNotificationsDescriptionDisabled:
     "Ein Slack-Fenster wird geöffnet und fordert Sie auf, einen Kanal auszuwählen",
   slackChannelNotificationsDescriptionEnabled:
-    "Benachrichtigungen von diesem Board werden an #%{channel} in Slack gesendet.",
+    "Benachrichtigungen von diesem Board werden an %{channel} in Slack gesendet.",
   slackIntegrationError:
     "Slack-Integration konnte nicht aktiviert werden. Bitte versuchen Sie es erneut",
   boardDoesNotExists: "Dieses Board existiert nicht",
   boardActivity: "Board-Aktivität",
   sendTo: "Senden an",
+  slackPrivateMessage: "eine private Nachricht",
+  slackPrivateGroup: "ein privates Gespräch",
+  slackPrivateChannel: "ein privater Kanal",
   webhookNotificationCardAddedBoard: "Karte zur Tafel hinzugefügt/verschoben",
   webhookNotificationCardAddedList: "Karte zum Status hinzugefügt/verschoben",
   webhookNotificationCardCommented:
