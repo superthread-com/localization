@@ -1825,11 +1825,14 @@ const en = {
   slackChannelNotificationsDescriptionDisabled:
     "A Slack window will open and ask you to choose a channel",
   slackChannelNotificationsDescriptionEnabled:
-    "Notifications from this board are sent to #%{channel} in Slack.",
+    "Notifications from this board are sent to %{channel} in Slack.",
   slackIntegrationError: "Could not enable Slack integration. Please try again",
   boardDoesNotExists: "That board doesn’t exist",
   boardActivity: "Board activity",
   sendTo: "Send to",
+  slackPrivateMessage: "a private message",
+  slackPrivateGroup: "a private conversation",
+  slackPrivateChannel: "a private channel",
   webhookNotificationCardAddedBoard: "Card added/moved to board",
   webhookNotificationCardAddedList: "Card added/moved to status",
   webhookNotificationCardCommented:

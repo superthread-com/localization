@@ -1905,12 +1905,15 @@ const fr: Translations = {
   slackChannelNotificationsDescriptionDisabled:
     "Une fenêtre Slack s'ouvrira et vous demandera de choisir un canal",
   slackChannelNotificationsDescriptionEnabled:
-    "Les notifications de ce tableau sont envoyées à #%{channel} dans Slack.",
+    "Les notifications de ce tableau sont envoyées à %{channel} dans Slack.",
   slackIntegrationError:
     "Impossible d'activer l'intégration Slack. Veuillez réessayer",
   boardDoesNotExists: "Ce tableau n'existe pas",
   boardActivity: "Activité du tableau",
   sendTo: "Envoyer à",
+  slackPrivateMessage: "un message privé",
+  slackPrivateGroup: "une conversation privée",
+  slackPrivateChannel: "un canal privé",
   webhookNotificationCardAddedBoard: "Carte ajoutée/déplacée au tableau",
   webhookNotificationCardAddedList: "Carte ajoutée/déplacée au statut",
   webhookNotificationCardCommented:
