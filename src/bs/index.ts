@@ -2116,6 +2116,8 @@ const bs: Translations = {
   stopTranscription: "Zaustavi prepisivanje",
   openTranscribingNote: "Otvori bilješku za prepisivanje",
   selectANote: "Odaberite bilješku",
+  deleteSection: "Izbriši sekciju",
+  untitledSection: "Neimenovana sekcija",
 };
 
 export default bs;
