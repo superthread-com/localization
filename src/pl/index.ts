@@ -2113,6 +2113,7 @@ const pl = {
   startTranscription: "Rozpocznij transkrypcję",
   stopTranscription: "Zatrzymaj transkrypcję",
   openTranscribingNote: "Otwórz notatkę transkrypcji",
+  selectANote: "Wybierz notatkę",
 };
 
 export default pl as Translations;

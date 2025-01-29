@@ -2173,6 +2173,7 @@ const fr: Translations = {
   startTranscription: "Démarrer la transcription",
   stopTranscription: "Arrêter la transcription",
   openTranscribingNote: "Ouvrir la note en cours de transcription",
+  selectANote: "Sélectionnez une note",
 };
 
 export default fr as Translations;
