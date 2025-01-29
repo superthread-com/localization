@@ -1874,6 +1874,8 @@ export enum TranslationKeys {
   StopTranscription = "stopTranscription",
   OpenTranscribingNote = "openTranscribingNote",
   SelectANote = "selectANote",
+  DeleteSection = "deleteSection",
+  UntitledSection = "untitledSection",
 }
 
 export type Translations = Record<TranslationKeys, string>;

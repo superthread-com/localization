@@ -2174,6 +2174,8 @@ const fr: Translations = {
   stopTranscription: "Arrêter la transcription",
   openTranscribingNote: "Ouvrir la note en cours de transcription",
   selectANote: "Sélectionnez une note",
+  deleteSection: "Supprimer la section",
+  untitledSection: "Section sans titre",
 };
 
 export default fr as Translations;

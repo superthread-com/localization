@@ -2080,6 +2080,8 @@ const en = {
   stopTranscription: "Stop transcription",
   openTranscribingNote: "Open transcribing note",
   selectANote: "Select a note",
+  deleteSection: "Delete section",
+  untitledSection: "Untitled section",
 };
 
 export default en as Translations;

@@ -2179,6 +2179,8 @@ const de = {
   stopTranscription: "Transkription stoppen",
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
   selectANote: "Wähle eine Notiz",
+  deleteSection: "Abschnitt löschen",
+  untitledSection: "Unbenannter Abschnitt",
 };
 
 export default de as Translations;
