@@ -1873,6 +1873,7 @@ export enum TranslationKeys {
   StartTranscription = "startTranscription",
   StopTranscription = "stopTranscription",
   OpenTranscribingNote = "openTranscribingNote",
+  SelectANote = "selectANote",
 }
 
 export type Translations = Record<TranslationKeys, string>;

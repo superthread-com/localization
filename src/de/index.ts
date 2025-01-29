@@ -2178,6 +2178,7 @@ const de = {
   startTranscription: "Transkription starten",
   stopTranscription: "Transkription stoppen",
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
+  selectANote: "Wähle eine Notiz",
 };
 
 export default de as Translations;

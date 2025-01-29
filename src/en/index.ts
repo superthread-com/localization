@@ -2079,6 +2079,7 @@ const en = {
   startTranscription: "Start transcription",
   stopTranscription: "Stop transcription",
   openTranscribingNote: "Open transcribing note",
+  selectANote: "Select a note",
 };
 
 export default en as Translations;
