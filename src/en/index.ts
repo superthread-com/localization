@@ -2082,6 +2082,12 @@ const en = {
   selectANote: "Select a note",
   deleteSection: "Delete section",
   untitledSection: "Untitled section",
+  messageAgentAssistant: "Message agent assistant",
+  initialAgentMessage:
+    "I'm here to help you write instructions for your agent. Let me know what do you want it to do.",
+  agentMessageError: "An error occurred. Please try again.",
+  agentInstructions: "Agent instructions",
+  version: "Version",
 };
 
 export default en as Translations;

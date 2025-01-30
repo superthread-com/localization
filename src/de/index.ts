@@ -2181,6 +2181,13 @@ const de = {
   selectANote: "Wähle eine Notiz",
   deleteSection: "Abschnitt löschen",
   untitledSection: "Unbenannter Abschnitt",
+  messageAgentAssistant: "Nachricht an den Agentenassistenten",
+  initialAgentMessage:
+    "Ich bin hier, um Ihnen zu helfen, Anweisungen für Ihren Agenten zu schreiben. Lassen Sie mich wissen, was er tun soll.",
+  agentMessageError:
+    "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+  agentInstructions: "Agentenanweisungen",
+  version: "Version",
 };
 
 export default de as Translations;

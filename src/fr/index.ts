@@ -2176,6 +2176,12 @@ const fr: Translations = {
   selectANote: "Sélectionnez une note",
   deleteSection: "Supprimer la section",
   untitledSection: "Section sans titre",
+  messageAgentAssistant: "Envoyer un message à l'assistant de l'agent",
+  initialAgentMessage:
+    "Je suis là pour vous aider à rédiger des instructions pour votre agent. Faites-moi savoir ce que vous voulez qu'il fasse.",
+  agentMessageError: "Une erreur s'est produite. Veuillez réessayer.",
+  agentInstructions: "Instructions de l'agent",
+  version: "Version",
 };
 
 export default fr as Translations;

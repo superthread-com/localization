@@ -2118,6 +2118,12 @@ const bs: Translations = {
   selectANote: "Odaberite bilješku",
   deleteSection: "Izbriši sekciju",
   untitledSection: "Neimenovana sekcija",
+  messageAgentAssistant: "Pošalji poruku agent asistentu",
+  initialAgentMessage:
+    "Ovdje sam da vam pomognem napisati upute za vašeg agenta. Javite mi što želite da radi.",
+  agentMessageError: "Došlo je do greške. Molimo pokušajte ponovo.",
+  agentInstructions: "Upute za agenta",
+  version: "Verzija",
 };
 
 export default bs;

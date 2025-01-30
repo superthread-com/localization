@@ -2116,6 +2116,12 @@ const pl = {
   selectANote: "Wybierz notatkę",
   deleteSection: "Usuń sekcję",
   untitledSection: "Bez tytułu sekcja",
+  messageAgentAssistant: "Wyślij wiadomość do asystenta agenta",
+  initialAgentMessage:
+    "Jestem tutaj, aby pomóc Ci napisać instrukcje dla Twojego agenta. Daj mi znać, co ma robić.",
+  agentMessageError: "Wystąpił błąd. Spróbuj ponownie.",
+  agentInstructions: "Instrukcje agenta",
+  version: "Wersja",
 };
 
 export default pl as Translations;
