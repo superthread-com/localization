@@ -1876,6 +1876,11 @@ export enum TranslationKeys {
   SelectANote = "selectANote",
   DeleteSection = "deleteSection",
   UntitledSection = "untitledSection",
+  MessageAgentAssistant = "messageAgentAssistant",
+  InitialAgentMessage = "initialAgentMessage",
+  AgentMessageError = "agentMessageError",
+  AgentInstructions = "agentInstructions",
+  Version = "version",
 }
 
 export type Translations = Record<TranslationKeys, string>;
