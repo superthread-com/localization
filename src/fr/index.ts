@@ -1091,7 +1091,8 @@ const fr: Translations = {
   manageTags: "Gérer les étiquettes partagées dans tous les espaces",
   youCantUndo: "Vous ne pouvez pas annuler cette action.",
   merge2spaceTags: "Avec le même nom dans l'étiquette de l'espace de travail ?",
-  areYouSureYouWantToDelete: "Êtes-vous sûr de vouloir supprimer",
+  areYouSureYouWantToDelete:
+    'Êtes-vous sûr de vouloir supprimer "%{resourceTitle}" %{resourceType}?',
   uploaded: "Téléchargé",
   cardCreatedInResource: "Carte créée dans '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Créer dans",

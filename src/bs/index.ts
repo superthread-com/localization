@@ -615,7 +615,8 @@ const bs: Translations = {
   youCantUndo: "Ne možete vratiti ovu radnju.",
   merge2spaceTags:
     "With the same name into the workspace tag? Sa istim imenom u workspace oznaku?",
-  areYouSureYouWantToDelete: "Da li ste sigurni da zelite izbrisati.",
+  areYouSureYouWantToDelete:
+    'Jeste li sigurni da želite izbrisati "%{resourceTitle}" %{resourceType}?',
   uploaded: "Učitano",
   cardCreatedInResource: "Kartica kreirana u '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Kreiraj u",
