@@ -1061,7 +1061,8 @@ const pl = {
   manageTags: "Zarządzaj tagami udostępnianymi we wszystkich przestrzeniach",
   youCantUndo: "Nie można cofnąć tej akcji.",
   merge2spaceTags: "O tej samej nazwie w tag przestrzeni roboczej?",
-  areYouSureYouWantToDelete: "Czy na pewno chcesz usunąć",
+  areYouSureYouWantToDelete:
+    'Czy na pewno chcesz usunąć "%{resourceTitle}" %{resourceType}?',
   uploaded: "Załadowano",
   cardCreatedInResource: "Karta utworzona w '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Utwórz w",
