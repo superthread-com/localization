@@ -233,6 +233,15 @@ const de = {
   ["billing.views"]: "Ansichten",
   ["billing.timelineLayout"]: "Zeitachsenlayout",
   ["billing.liveChatSupport"]: "Live-Chat-Support",
+  ["billing.guestsUsersAreFree"]:
+    "Gastbenutzer sind in Ihrem aktuellen Plan kostenlos.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Neuen Mitgliedern wird für den Rest des jährlichen Abrechnungszeitraums eine anteilige Rechnung gestellt.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Die Workspace-Zahlungsmethode wird am Ende des Monats belastet, in dem sie beitreten.",
+  ["billing.learnModeAboutBilling"]: "Mehr erfahren zur Abrechnung",
+  ["billing.guestViewOnly"]: "Gast – nur anzeigen",
+
   // global
   ["global.text.create"]: "Erstellen",
   ["option.label.cards"]: "Karten",
