@@ -1428,7 +1428,7 @@ const de = {
   reactedWith: "reagierte mit",
   you: "du",
   cannotModidyListStatus:
-    "Kann den Listenstatus nicht ändern, wenn Karten hinzugefügt wurden",
+    "Kann den Listenstatus nicht ändern, wenn %{resourceType} hinzugefügt wurden",
   onlineAgain: "Du bist wieder online",
   youAreOffline: "Du bist offline",
   exploring: "Erkunden",
