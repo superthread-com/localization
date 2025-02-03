@@ -240,6 +240,7 @@ const de = {
   ["billing.workspacePaymentMethodWillBeCharged"]:
     "Die Workspace-Zahlungsmethode wird am Ende des Monats belastet, in dem sie beitreten.",
   ["billing.learnModeAboutBilling"]: "Mehr erfahren zur Abrechnung",
+  ["billing.guestViewOnly"]: "Gast – nur anzeigen",
 
   // global
   ["global.text.create"]: "Erstellen",

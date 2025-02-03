@@ -237,6 +237,7 @@ const pl = {
   ["billing.workspacePaymentMethodWillBeCharged"]:
     "Opłata za przestrzeń roboczą zostanie pobrana pod koniec miesiąca, w którym dołączysz do zespołu.",
   ["billing.learnModeAboutBilling"]: "Dowiedz się więcej o rozliczeniach",
+  ["billing.guestViewOnly"]: "Gość – tylko do przeglądania",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",

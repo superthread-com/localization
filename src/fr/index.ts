@@ -108,6 +108,7 @@ const fr: Translations = {
   ["billing.workspacePaymentMethodWillBeCharged"]:
     "Le mode de paiement de l'espace de travail sera débité à la fin du mois au cours duquel ils adhèrent.",
   ["billing.learnModeAboutBilling"]: "En savoir plus sur la facturation.",
+  ["billing.guestViewOnly"]: "Invité – en lecture seule",
   // cards layout
   cardsLayoutList: "Liste",
   cardsLayoutBoard: "Tableau",

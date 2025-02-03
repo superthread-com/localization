@@ -208,6 +208,7 @@ export enum TranslationKeys {
   BillingNewMembersAreBilledProRata = "billing.newMembersAreBilledProRata",
   BillingWorkspacePaymentMethodWillBeCharged = "billing.workspacePaymentMethodWillBeCharged",
   BillingLearnModeAboutBilling = "billing.learnModeAboutBilling",
+  BillingGuestViewOnly = "billing.guestViewOnly",
   GlobalTextCreate = "global.text.create",
   OptionLabelCards = "option.label.cards",
   OptionLabelPages = "option.label.pages",

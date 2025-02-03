@@ -1161,6 +1161,7 @@ const bs: Translations = {
   ["billing.workspacePaymentMethodWillBeCharged"]:
     "Način plaćanja workspace-a će biti naplaćen na kraju mjeseca u kojem se prihvati poziv.",
   ["billing.learnModeAboutBilling"]: "Saznajte više o naplati",
+  ["billing.guestViewOnly"]: "Gosti - samo pregled",
 
   // global
   ["global.text.create"]: "Kreiraj",

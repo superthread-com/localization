@@ -236,6 +236,7 @@ const en = {
   ["billing.workspacePaymentMethodWillBeCharged"]:
     "The workspace payment method will be charged at the end of the month in which they join.",
   ["billing.learnModeAboutBilling"]: "Learn more about billing",
+  ["billing.guestViewOnly"]: "Guest – view only",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
