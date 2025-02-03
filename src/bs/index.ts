@@ -1154,6 +1154,13 @@ const bs: Translations = {
   ["billing.views"]: "Pogledi",
   ["billing.timelineLayout"]: "Raspored vremenske linije",
   ["billing.liveChatSupport"]: "Podrška putem chata uživo",
+  ["billing.guestsUsersAreFree"]:
+    "Korisnici gosti su besplatni na vašem trenutnom planu.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Novi članovi naplaćuju se proporcionalno za ostatak vašeg godišnjeg ciklusa naplate.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Način plaćanja workspace-a će biti naplaćen na kraju mjeseca u kojem se prihvati poziv.",
+  ["billing.learnModeAboutBilling"]: "Saznajte više o naplati",
 
   // global
   ["global.text.create"]: "Kreiraj",

@@ -101,6 +101,13 @@ const fr: Translations = {
   ["billing.views"]: "Vues",
   ["billing.timelineLayout"]: "Mise en page de la chronologie",
   ["billing.liveChatSupport"]: "Assistance par chat en direct",
+  ["billing.guestsUsersAreFree"]:
+    "Les utilisateurs invités sont gratuits sur votre forfait actuel.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Les nouveaux membres sont facturés au prorata pour le reste du cycle de facturation.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Le mode de paiement de l'espace de travail sera débité à la fin du mois au cours duquel ils adhèrent.",
+  ["billing.learnModeAboutBilling"]: "En savoir plus sur la facturation.",
   // cards layout
   cardsLayoutList: "Liste",
   cardsLayoutBoard: "Tableau",

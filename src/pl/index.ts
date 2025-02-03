@@ -230,6 +230,13 @@ const pl = {
   ["billing.views"]: "Widoki",
   ["billing.timelineLayout"]: "Układ osi czasu",
   ["billing.liveChatSupport"]: "Wsparcie przez czat na żywo",
+  ["billing.guestsUsersAreFree"]:
+    "Użytkownicy gościnni w ramach bieżącego planu korzystają z niego bezpłatnie.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Nowi członkowie są obciążani opłatą proporcjonalną do pozostałej części rocznego cyklu rozliczeniowego.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Opłata za przestrzeń roboczą zostanie pobrana pod koniec miesiąca, w którym dołączysz do zespołu.",
+  ["billing.learnModeAboutBilling"]: "Dowiedz się więcej o rozliczeniach",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",

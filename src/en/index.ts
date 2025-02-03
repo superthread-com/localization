@@ -230,6 +230,12 @@ const en = {
   ["billing.views"]: "Views",
   ["billing.timelineLayout"]: "Timeline layout",
   ["billing.liveChatSupport"]: "Live chat support",
+  ["billing.guestsUsersAreFree"]: "Guest users are free on your current plan.",
+  ["billing.newMembersAreBilledProRata"]:
+    "New members are billed pro-rata for the remainder of your annual billing cycle.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "The workspace payment method will be charged at the end of the month in which they join.",
+  ["billing.learnModeAboutBilling"]: "Learn more about billing",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
