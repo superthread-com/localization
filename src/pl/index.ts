@@ -2114,6 +2114,7 @@ const pl = {
   stopTranscription: "Zatrzymaj transkrypcję",
   openTranscribingNote: "Otwórz notatkę transkrypcji",
   selectANote: "Wybierz notatkę",
+  noteDoesntExist: "Notatka nie istnieje",
 };
 
 export default pl as Translations;
