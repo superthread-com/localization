@@ -1061,7 +1061,8 @@ const pl = {
   manageTags: "Zarządzaj tagami udostępnianymi we wszystkich przestrzeniach",
   youCantUndo: "Nie można cofnąć tej akcji.",
   merge2spaceTags: "O tej samej nazwie w tag przestrzeni roboczej?",
-  areYouSureYouWantToDelete: "Czy na pewno chcesz usunąć",
+  areYouSureYouWantToDelete:
+    'Czy na pewno chcesz usunąć "%{resourceTitle}" %{resourceType}?',
   uploaded: "Załadowano",
   cardCreatedInResource: "Karta utworzona w '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Utwórz w",
@@ -2115,6 +2116,14 @@ const pl = {
   openTranscribingNote: "Otwórz notatkę transkrypcji",
   selectANote: "Wybierz notatkę",
   noteDoesntExist: "Notatka nie istnieje",
+  deleteSection: "Usuń sekcję",
+  untitledSection: "Bez tytułu sekcja",
+  messageAgentAssistant: "Wyślij wiadomość do asystenta agenta",
+  initialAgentMessage:
+    "Jestem tutaj, aby pomóc Ci napisać instrukcje dla Twojego agenta. Daj mi znać, co ma robić.",
+  agentMessageError: "Wystąpił błąd. Spróbuj ponownie.",
+  agentInstructions: "Instrukcje agenta",
+  version: "Wersja",
 };
 
 export default pl as Translations;

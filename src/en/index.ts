@@ -1045,7 +1045,8 @@ const en = {
   manageTags: "Manage tags that are shared across all spaces",
   youCantUndo: "You can’t undo this action.",
   merge2spaceTags: "With the same name into the workspace tag?",
-  areYouSureYouWantToDelete: "Are you sure you want to delete",
+  areYouSureYouWantToDelete:
+    'Are you sure you want to delete the "%{resourceTitle}" %{resourceType}?',
   uploaded: "Uploaded",
   cardCreatedInResource: "Card created in '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Create in",
@@ -2081,6 +2082,14 @@ const en = {
   openTranscribingNote: "Open transcribing note",
   selectANote: "Select a note",
   noteDoesntExist: "Note doesn't exist",
+  deleteSection: "Delete section",
+  untitledSection: "Untitled section",
+  messageAgentAssistant: "Message agent assistant",
+  initialAgentMessage:
+    "I'm here to help you write instructions for your agent. Let me know what do you want it to do.",
+  agentMessageError: "An error occurred. Please try again.",
+  agentInstructions: "Agent instructions",
+  version: "Version",
 };
 
 export default en as Translations;

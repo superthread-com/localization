@@ -1091,7 +1091,8 @@ const fr: Translations = {
   manageTags: "Gérer les étiquettes partagées dans tous les espaces",
   youCantUndo: "Vous ne pouvez pas annuler cette action.",
   merge2spaceTags: "Avec le même nom dans l'étiquette de l'espace de travail ?",
-  areYouSureYouWantToDelete: "Êtes-vous sûr de vouloir supprimer",
+  areYouSureYouWantToDelete:
+    'Êtes-vous sûr de vouloir supprimer "%{resourceTitle}" %{resourceType}?',
   uploaded: "Téléchargé",
   cardCreatedInResource: "Carte créée dans '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Créer dans",
@@ -2175,6 +2176,14 @@ const fr: Translations = {
   openTranscribingNote: "Ouvrir la note en cours de transcription",
   selectANote: "Sélectionnez une note",
   noteDoesntExist: "La note n'existe pas",
+  deleteSection: "Supprimer la section",
+  untitledSection: "Section sans titre",
+  messageAgentAssistant: "Envoyer un message à l'assistant de l'agent",
+  initialAgentMessage:
+    "Je suis là pour vous aider à rédiger des instructions pour votre agent. Faites-moi savoir ce que vous voulez qu'il fasse.",
+  agentMessageError: "Une erreur s'est produite. Veuillez réessayer.",
+  agentInstructions: "Instructions de l'agent",
+  version: "Version",
 };
 
 export default fr as Translations;

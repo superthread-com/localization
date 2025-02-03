@@ -615,7 +615,8 @@ const bs: Translations = {
   youCantUndo: "Ne možete vratiti ovu radnju.",
   merge2spaceTags:
     "With the same name into the workspace tag? Sa istim imenom u workspace oznaku?",
-  areYouSureYouWantToDelete: "Da li ste sigurni da zelite izbrisati.",
+  areYouSureYouWantToDelete:
+    'Jeste li sigurni da želite izbrisati "%{resourceTitle}" %{resourceType}?',
   uploaded: "Učitano",
   cardCreatedInResource: "Kartica kreirana u '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Kreiraj u",
@@ -2117,6 +2118,14 @@ const bs: Translations = {
   openTranscribingNote: "Otvori bilješku za prepisivanje",
   selectANote: "Odaberite bilješku",
   noteDoesntExist: "Bilješka ne postoji",
+  deleteSection: "Izbriši sekciju",
+  untitledSection: "Neimenovana sekcija",
+  messageAgentAssistant: "Pošalji poruku agent asistentu",
+  initialAgentMessage:
+    "Ovdje sam da vam pomognem napisati upute za vašeg agenta. Javite mi što želite da radi.",
+  agentMessageError: "Došlo je do greške. Molimo pokušajte ponovo.",
+  agentInstructions: "Upute za agenta",
+  version: "Verzija",
 };
 
 export default bs;

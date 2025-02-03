@@ -1875,6 +1875,13 @@ export enum TranslationKeys {
   OpenTranscribingNote = "openTranscribingNote",
   SelectANote = "selectANote",
   NoteDoesntExist = "noteDoesntExist",
+  DeleteSection = "deleteSection",
+  UntitledSection = "untitledSection",
+  MessageAgentAssistant = "messageAgentAssistant",
+  InitialAgentMessage = "initialAgentMessage",
+  AgentMessageError = "agentMessageError",
+  AgentInstructions = "agentInstructions",
+  Version = "version",
 }
 
 export type Translations = Record<TranslationKeys, string>;
