@@ -1371,7 +1371,7 @@ const en = {
   reactedWith: "reacted with",
   you: "you",
   cannotModidyListStatus:
-    "Cannot modify list status when there are cards added",
+    "Cannot modify list status when there are %{resourceType} added",
   onlineAgain: "You’re back online",
   youAreOffline: "You’re offline",
   exploring: "Exploring",

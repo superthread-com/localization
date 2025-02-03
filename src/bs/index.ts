@@ -642,7 +642,7 @@ const bs: Translations = {
   today: "Danas",
   yesterday: "Jučer",
   cannotModidyListStatus:
-    "Nije moguće mijenjati status liste ako su kartice dodane.",
+    "Nije moguće mijenjati status liste ako su %{resourceType} dodane.",
   attached: "zakačio",
   removed: "uklonio",
   updatedTheStartDate: "ažurirao datum početka na",

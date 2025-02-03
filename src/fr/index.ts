@@ -1433,7 +1433,7 @@ const fr: Translations = {
   reactedWith: "a réagi avec",
   you: "vous",
   cannotModidyListStatus:
-    "Impossible de modifier le statut de la liste lorsqu'il y a des cartes ajoutées",
+    "Impossible de modifier le statut de la liste lorsqu'il y a des %{resourceType} ajoutées",
   onlineAgain: "Vous êtes de retour en ligne",
   youAreOffline: "Vous êtes hors ligne",
   exploring: "Exploration",

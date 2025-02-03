@@ -1396,7 +1396,7 @@ const pl = {
   reactedWith: "zareagował:",
   you: "ty",
   cannotModidyListStatus:
-    "Nie można zmienić statusu listy, gdy są dodane karty",
+    "Nie można zmienić statusu listy, gdy są dodane %{resourceType}",
   onlineAgain: "Jesteś z powrotem online",
   youAreOffline: "Jesteś offline",
   exploring: "Odkrywanie",
