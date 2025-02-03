@@ -1874,6 +1874,7 @@ export enum TranslationKeys {
   StopTranscription = "stopTranscription",
   OpenTranscribingNote = "openTranscribingNote",
   SelectANote = "selectANote",
+  NoteDoesntExist = "noteDoesntExist",
   DeleteSection = "deleteSection",
   UntitledSection = "untitledSection",
   MessageAgentAssistant = "messageAgentAssistant",

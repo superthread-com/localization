@@ -2115,6 +2115,7 @@ const pl = {
   stopTranscription: "Zatrzymaj transkrypcję",
   openTranscribingNote: "Otwórz notatkę transkrypcji",
   selectANote: "Wybierz notatkę",
+  noteDoesntExist: "Notatka nie istnieje",
   deleteSection: "Usuń sekcję",
   untitledSection: "Bez tytułu sekcja",
   messageAgentAssistant: "Wyślij wiadomość do asystenta agenta",

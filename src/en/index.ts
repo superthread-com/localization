@@ -2081,6 +2081,7 @@ const en = {
   stopTranscription: "Stop transcription",
   openTranscribingNote: "Open transcribing note",
   selectANote: "Select a note",
+  noteDoesntExist: "Note doesn't exist",
   deleteSection: "Delete section",
   untitledSection: "Untitled section",
   messageAgentAssistant: "Message agent assistant",

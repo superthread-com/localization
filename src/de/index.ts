@@ -2180,6 +2180,7 @@ const de = {
   stopTranscription: "Transkription stoppen",
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
   selectANote: "Wähle eine Notiz",
+  noteDoesntExist: "Diese Notiz existiert nicht",
   deleteSection: "Abschnitt löschen",
   untitledSection: "Unbenannter Abschnitt",
   messageAgentAssistant: "Nachricht an den Agentenassistenten",

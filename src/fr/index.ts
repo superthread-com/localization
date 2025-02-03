@@ -2175,6 +2175,7 @@ const fr: Translations = {
   stopTranscription: "Arrêter la transcription",
   openTranscribingNote: "Ouvrir la note en cours de transcription",
   selectANote: "Sélectionnez une note",
+  noteDoesntExist: "La note n'existe pas",
   deleteSection: "Supprimer la section",
   untitledSection: "Section sans titre",
   messageAgentAssistant: "Envoyer un message à l'assistant de l'agent",

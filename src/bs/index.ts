@@ -2117,6 +2117,7 @@ const bs: Translations = {
   stopTranscription: "Zaustavi prepisivanje",
   openTranscribingNote: "Otvori bilješku za prepisivanje",
   selectANote: "Odaberite bilješku",
+  noteDoesntExist: "Bilješka ne postoji",
   deleteSection: "Izbriši sekciju",
   untitledSection: "Neimenovana sekcija",
   messageAgentAssistant: "Pošalji poruku agent asistentu",
