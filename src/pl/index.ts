@@ -2131,6 +2131,8 @@ const pl = {
   agentMessageError: "Wystąpił błąd. Spróbuj ponownie.",
   agentInstructions: "Instrukcje agenta",
   version: "Wersja",
+  templateWithChildCardsNotAllowed:
+    "Możesz zastosować szablon tylko do karty podrzędnej, jeśli szablon nie ma własnych podrzędnych kart",
 };
 
 export default pl as Translations;

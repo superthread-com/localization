@@ -2198,6 +2198,8 @@ const de = {
     "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
   agentInstructions: "Agentenanweisungen",
   version: "Version",
+  templateWithChildCardsNotAllowed:
+    "Sie können nur eine Vorlage auf eine untergeordnete Karte anwenden, wenn die Vorlage keine eigenen untergeordneten Karten hat",
 };
 
 export default de as Translations;

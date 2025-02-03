@@ -2133,6 +2133,8 @@ const bs: Translations = {
   agentMessageError: "Došlo je do greške. Molimo pokušajte ponovo.",
   agentInstructions: "Upute za agenta",
   version: "Verzija",
+  templateWithChildCardsNotAllowed:
+    "Možete primijeniti predložak na karticu samo ako predložak nema svojih vlastitih child kartica",
 };
 
 export default bs;

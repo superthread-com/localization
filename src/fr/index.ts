@@ -2191,6 +2191,8 @@ const fr: Translations = {
   agentMessageError: "Une erreur s'est produite. Veuillez réessayer.",
   agentInstructions: "Instructions de l'agent",
   version: "Version",
+  templateWithChildCardsNotAllowed:
+    "Vous ne pouvez appliquer un modèle à une carte enfant que si le modèle n'a pas de cartes enfants propres",
 };
 
 export default fr as Translations;

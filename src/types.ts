@@ -1886,6 +1886,7 @@ export enum TranslationKeys {
   AgentMessageError = "agentMessageError",
   AgentInstructions = "agentInstructions",
   Version = "version",
+  TemplateWithChildCardsNotAllowed = "templateWithChildCardsNotAllowed",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2096,6 +2096,8 @@ const en = {
   agentMessageError: "An error occurred. Please try again.",
   agentInstructions: "Agent instructions",
   version: "Version",
+  templateWithChildCardsNotAllowed:
+    "You can only apply a template to a child card if the template has none of its own children",
 };
 
 export default en as Translations;
