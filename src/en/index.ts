@@ -2099,6 +2099,7 @@ const en = {
   version: "Version",
   templateWithChildCardsNotAllowed:
     "You can only apply a template to a child card if the template has none of its own children",
+  copyNoteToClipboard: "Copy note to clipboard",
 };
 
 export default en as Translations;

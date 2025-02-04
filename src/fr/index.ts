@@ -2194,6 +2194,7 @@ const fr: Translations = {
   version: "Version",
   templateWithChildCardsNotAllowed:
     "Vous ne pouvez appliquer un modèle à une carte enfant que si le modèle n'a pas de cartes enfants propres",
+  copyNoteToClipboard: "Copier la note dans le presse-papiers",
 };
 
 export default fr as Translations;
