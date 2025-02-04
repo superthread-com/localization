@@ -2134,6 +2134,7 @@ const pl = {
   version: "Wersja",
   templateWithChildCardsNotAllowed:
     "Możesz zastosować szablon tylko do karty podrzędnej, jeśli szablon nie ma własnych podrzędnych kart",
+  copyNoteToClipboard: "Kopiuj notatkę do schowka",
 };
 
 export default pl as Translations;

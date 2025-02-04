@@ -1888,6 +1888,7 @@ export enum TranslationKeys {
   AgentInstructions = "agentInstructions",
   Version = "version",
   TemplateWithChildCardsNotAllowed = "templateWithChildCardsNotAllowed",
+  CopyNoteToClipboard = "copyNoteToClipboard",
 }
 
 export type Translations = Record<TranslationKeys, string>;
