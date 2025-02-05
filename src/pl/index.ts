@@ -1070,7 +1070,7 @@ const pl = {
   youCantUndo: "Nie można cofnąć tej akcji.",
   merge2spaceTags: "O tej samej nazwie w tag przestrzeni roboczej?",
   areYouSureYouWantToDelete:
-    'Czy na pewno chcesz usunąć "%{resourceTitle}" %{resourceType}?',
+    "Czy na pewno chcesz usunąć “%{resourceTitle}” %{resourceType}?",
   uploaded: "Załadowano",
   cardCreatedInResource: "Karta utworzona w '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Utwórz w",

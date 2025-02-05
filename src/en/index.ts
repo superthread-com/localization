@@ -1053,7 +1053,7 @@ const en = {
   youCantUndo: "You can’t undo this action.",
   merge2spaceTags: "With the same name into the workspace tag?",
   areYouSureYouWantToDelete:
-    'Are you sure you want to delete the "%{resourceTitle}" %{resourceType}?',
+    "Are you sure you want to delete the “%{resourceTitle}” %{resourceType}?",
   uploaded: "Uploaded",
   cardCreatedInResource: "Card created in '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Create in",

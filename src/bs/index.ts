@@ -616,7 +616,7 @@ const bs: Translations = {
   merge2spaceTags:
     "With the same name into the workspace tag? Sa istim imenom u workspace oznaku?",
   areYouSureYouWantToDelete:
-    'Jeste li sigurni da želite izbrisati "%{resourceTitle}" %{resourceType}?',
+    "Jeste li sigurni da želite izbrisati “%{resourceTitle}” %{resourceType}?",
   uploaded: "Učitano",
   cardCreatedInResource: "Kartica kreirana u '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Kreiraj u",

@@ -1097,7 +1097,7 @@ const de = {
   youCantUndo: "Du kannst diese Aktion nicht rückgängig machen.",
   merge2spaceTags: "Mit dem gleichen Namen in das Arbeitsbereich-Tag?",
   areYouSureYouWantToDelete:
-    'Sind Sie sicher, dass Sie "%{resourceTitle}" %{resourceType} löschen möchten?',
+    "Sind Sie sicher, dass Sie “%{resourceTitle}” %{resourceType} löschen möchten?",
   uploaded: "Hochgeladen",
   cardCreatedInResource: "Karte erstellt in '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Erstellen in",
