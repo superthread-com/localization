@@ -1100,7 +1100,7 @@ const fr: Translations = {
   youCantUndo: "Vous ne pouvez pas annuler cette action.",
   merge2spaceTags: "Avec le même nom dans l'étiquette de l'espace de travail ?",
   areYouSureYouWantToDelete:
-    'Êtes-vous sûr de vouloir supprimer "%{resourceTitle}" %{resourceType}?',
+    "Êtes-vous sûr de vouloir supprimer “%{resourceTitle}” %{resourceType}?",
   uploaded: "Téléchargé",
   cardCreatedInResource: "Carte créée dans '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Créer dans",
@@ -2195,6 +2195,7 @@ const fr: Translations = {
   templateWithChildCardsNotAllowed:
     "Vous ne pouvez appliquer un modèle à une carte enfant que si le modèle n'a pas de cartes enfants propres",
   copyNoteToClipboard: "Copier la note dans le presse-papiers",
+  noteCopiedToClipboard: "Note copiée dans le presse-papiers",
 };
 
 export default fr as Translations;

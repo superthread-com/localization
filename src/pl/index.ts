@@ -1070,7 +1070,7 @@ const pl = {
   youCantUndo: "Nie można cofnąć tej akcji.",
   merge2spaceTags: "O tej samej nazwie w tag przestrzeni roboczej?",
   areYouSureYouWantToDelete:
-    'Czy na pewno chcesz usunąć "%{resourceTitle}" %{resourceType}?',
+    "Czy na pewno chcesz usunąć “%{resourceTitle}” %{resourceType}?",
   uploaded: "Załadowano",
   cardCreatedInResource: "Karta utworzona w '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Utwórz w",
@@ -2135,6 +2135,7 @@ const pl = {
   templateWithChildCardsNotAllowed:
     "Możesz zastosować szablon tylko do karty podrzędnej, jeśli szablon nie ma własnych podrzędnych kart",
   copyNoteToClipboard: "Kopiuj notatkę do schowka",
+  noteCopiedToClipboard: "Notatka skopiowana do schowka",
 };
 
 export default pl as Translations;

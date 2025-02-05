@@ -1097,7 +1097,7 @@ const de = {
   youCantUndo: "Du kannst diese Aktion nicht rückgängig machen.",
   merge2spaceTags: "Mit dem gleichen Namen in das Arbeitsbereich-Tag?",
   areYouSureYouWantToDelete:
-    'Sind Sie sicher, dass Sie "%{resourceTitle}" %{resourceType} löschen möchten?',
+    "Sind Sie sicher, dass Sie “%{resourceTitle}” %{resourceType} löschen möchten?",
   uploaded: "Hochgeladen",
   cardCreatedInResource: "Karte erstellt in '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Erstellen in",
@@ -2202,6 +2202,7 @@ const de = {
   templateWithChildCardsNotAllowed:
     "Sie können nur eine Vorlage auf eine untergeordnete Karte anwenden, wenn die Vorlage keine eigenen untergeordneten Karten hat",
   copyNoteToClipboard: "Notiz in die Zwischenablage kopieren",
+  noteCopiedToClipboard: "Notiz in die Zwischenablage kopiert",
 };
 
 export default de as Translations;
