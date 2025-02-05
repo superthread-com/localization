@@ -1889,6 +1889,7 @@ export enum TranslationKeys {
   Version = "version",
   TemplateWithChildCardsNotAllowed = "templateWithChildCardsNotAllowed",
   CopyNoteToClipboard = "copyNoteToClipboard",
+  NoteCopiedToClipboard = "noteCopiedToClipboard",
 }
 
 export type Translations = Record<TranslationKeys, string>;

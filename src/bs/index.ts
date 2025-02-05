@@ -2137,6 +2137,7 @@ const bs: Translations = {
   templateWithChildCardsNotAllowed:
     "Možete primijeniti predložak na karticu samo ako predložak nema svojih vlastitih child kartica",
   copyNoteToClipboard: "Kopiraj bilješku u međuspremnik",
+  noteCopiedToClipboard: "Bilješka kopirana u međuspremnik",
 };
 
 export default bs;

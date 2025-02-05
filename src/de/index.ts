@@ -2202,6 +2202,7 @@ const de = {
   templateWithChildCardsNotAllowed:
     "Sie können nur eine Vorlage auf eine untergeordnete Karte anwenden, wenn die Vorlage keine eigenen untergeordneten Karten hat",
   copyNoteToClipboard: "Notiz in die Zwischenablage kopieren",
+  noteCopiedToClipboard: "Notiz in die Zwischenablage kopiert",
 };
 
 export default de as Translations;
