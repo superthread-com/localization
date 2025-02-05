@@ -2101,6 +2101,8 @@ const en = {
     "You can only apply a template to a child card if the template has none of its own children",
   copyNoteToClipboard: "Copy note to clipboard",
   noteCopiedToClipboard: "Note copied to clipboard",
+  copyTranscriptToClipboard: "Copy transcript to clipboard",
+  transcriptCopiedToClipboard: "Transcript copied to clipboard",
 };
 
 export default en as Translations;

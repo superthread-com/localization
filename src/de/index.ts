@@ -2203,6 +2203,8 @@ const de = {
     "Sie können nur eine Vorlage auf eine untergeordnete Karte anwenden, wenn die Vorlage keine eigenen untergeordneten Karten hat",
   copyNoteToClipboard: "Notiz in die Zwischenablage kopieren",
   noteCopiedToClipboard: "Notiz in die Zwischenablage kopiert",
+  copyTranscriptToClipboard: "Transkript in die Zwischenablage kopieren",
+  transcriptCopiedToClipboard: "Transkript in die Zwischenablage kopiert",
 };
 
 export default de as Translations;

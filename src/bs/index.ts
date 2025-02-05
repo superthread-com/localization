@@ -2138,6 +2138,8 @@ const bs: Translations = {
     "Možete primijeniti predložak na karticu samo ako predložak nema svojih vlastitih child kartica",
   copyNoteToClipboard: "Kopiraj bilješku u međuspremnik",
   noteCopiedToClipboard: "Bilješka kopirana u međuspremnik",
+  copyTranscriptToClipboard: "Kopiraj transkript u međuspremnik",
+  transcriptCopiedToClipboard: "Transkript je kopiran u međuspremnik",
 };
 
 export default bs;

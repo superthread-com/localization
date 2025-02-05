@@ -2196,6 +2196,8 @@ const fr: Translations = {
     "Vous ne pouvez appliquer un modèle à une carte enfant que si le modèle n'a pas de cartes enfants propres",
   copyNoteToClipboard: "Copier la note dans le presse-papiers",
   noteCopiedToClipboard: "Note copiée dans le presse-papiers",
+  copyTranscriptToClipboard: "Copier la transcription dans le presse-papiers",
+  transcriptCopiedToClipboard: "Transcription copiée dans le presse-papiers",
 };
 
 export default fr as Translations;
