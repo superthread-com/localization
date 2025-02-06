@@ -1614,10 +1614,12 @@ const bs: Translations = {
   setThePriorityTo: "postavio prioritet na",
   setTheEstimateTo: "postavio procjenu na",
   removedTheEstimate: "uklonio procjenu",
-  thereAreNoPages:
-    "Nema stranica u ovom prostoru. Kreirajte novu stranicu ili prevucite postojeću stranicu u ovaj prostor u bočnoj traci.",
-  thereAreNoBoards:
-    "Nema ploča u ovom prostoru. Kreirajte novu ploču ili prevucite postojeću ploču u ovaj prostor u bočnoj traci.",
+  thereAreNoPages: "Nema stranica u ovom prostoru.",
+  createNewPageOrDrag:
+    "Kreirajte novu stranicu ili prevucite postojeću stranicu u ovaj prostor u bočnoj traci.",
+  thereAreNoBoards: "Nema ploča u ovom prostoru.",
+  createNewBoardOrDrag:
+    "Kreirajte novu ploču ili prevucite postojeću ploču u ovaj prostor u bočnoj traci.",
   commentsOnly: "Samo komentari",
   activityOnly: "Samo aktivnost",
   seeCardsWithThisTag:

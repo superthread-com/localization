@@ -1560,10 +1560,12 @@ const en = {
   setThePriorityTo: "set the priority to",
   setTheEstimateTo: "set the estimate to",
   removedTheEstimate: "removed the estimate",
-  thereAreNoPages:
-    "There are no pages in this space. Create a new page, or drag an existing page into this space in the sidebar.",
-  thereAreNoBoards:
-    "There are no boards in this space. Create a new board, or drag an existing board into this space in the sidebar.",
+  thereAreNoPages: "There are no pages in this space.",
+  createNewPageOrDrag:
+    "Create a new page, or drag an existing page into this space in the sidebar.",
+  thereAreNoBoards: "There are no boards in this space.",
+  createNewBoardOrDrag:
+    "Create a new board, or drag an existing board into this space in the sidebar.",
   commentsOnly: "Comments only",
   activityOnly: "Activity only",
   seeCardsWithThisTag:

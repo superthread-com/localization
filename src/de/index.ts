@@ -1636,10 +1636,12 @@ const de = {
   setThePriorityTo: "setze die Priorität auf",
   setTheEstimateTo: "setze die Schätzung auf",
   removedTheEstimate: "Schätzung entfernt",
-  thereAreNoPages:
-    "Es gibt keine Seiten in diesem Raum. Erstelle eine neue Seite oder ziehe eine bestehende Seite in diesem Raum in der Seitenleiste.",
-  thereAreNoBoards:
-    "Es gibt keine Tafeln in diesem Raum. Erstelle eine neue Tafel oder ziehe eine bestehende Tafel in diesem Raum in der Seitenleiste.",
+  thereAreNoPages: "Es gibt keine Seiten in diesem Raum.",
+  createNewPageOrDrag:
+    "Erstelle eine neue Seite oder ziehe eine bestehende Seite in diesem Raum in der Seitenleiste.",
+  thereAreNoBoards: "Es gibt keine Tafeln in diesem Raum.",
+  createNewBoardOrDrag:
+    "Erstelle eine neue Tafel oder ziehe eine bestehende Tafel in diesem Raum in der Seitenleiste.",
   commentsOnly: "Nur Kommentare",
   activityOnly: "Nur Aktivitäten",
   seeCardsWithThisTag:

@@ -1586,10 +1586,12 @@ const pl = {
   setThePriorityTo: "ustawił priorytet na",
   setTheEstimateTo: "ustawił szacunek na",
   removedTheEstimate: "usunął szacunek",
-  thereAreNoPages:
-    "Nie ma stron w tej przestrzeni. Utwórz nową stronę lub przeciągnij istniejącą stronę do tej przestrzeni na pasku bocznym.",
-  thereAreNoBoards:
-    "Nie ma tablic w tej przestrzeni. Utwórz nową tablicę lub przeciągnij istniejącą tablicę do tej przestrzeni na pasku bocznym.",
+  thereAreNoPages: "Nie ma stron w tej przestrzeni.",
+  createNewPageOrDrag:
+    "Utwórz nową stronę lub przeciągnij istniejącą stronę do tej przestrzeni na pasku bocznym.",
+  thereAreNoBoards: "Nie ma tablic w tej przestrzeni.",
+  createNewBoardOrDrag:
+    "Utwórz nową tablicę lub przeciągnij istniejącą tablicę do tej przestrzeni na pasku bocznym.",
   commentsOnly: "Tylko komentarze",
   activityOnly: "Tylko aktywność",
   seeCardsWithThisTag:
