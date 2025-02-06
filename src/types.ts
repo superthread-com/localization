@@ -1893,7 +1893,7 @@ export enum TranslationKeys {
   CopyNoteToClipboard = "copyNoteToClipboard",
   NoteCopiedToClipboard = "noteCopiedToClipboard",
   CopyTranscriptToClipboard = "copyTranscriptToClipboard",
-  TranscriptCopiedToClipboard = "transcriptCopiedToClipboard"
+  TranscriptCopiedToClipboard = "transcriptCopiedToClipboard",
 }
 
 export type Translations = Record<TranslationKeys, string>;
