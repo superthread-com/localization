@@ -1436,7 +1436,9 @@ export enum TranslationKeys {
   SetTheEstimateTo = "setTheEstimateTo",
   RemovedTheEstimate = "removedTheEstimate",
   ThereAreNoPages = "thereAreNoPages",
+  CreateNewPageOrDrag = "createNewPageOrDrag",
   ThereAreNoBoards = "thereAreNoBoards",
+  CreateNewBoardOrDrag = "createNewBoardOrDrag",
   CommentsOnly = "commentsOnly",
   ActivityOnly = "activityOnly",
   SeeCardsWithThisTag = "seeCardsWithThisTag",
@@ -1891,7 +1893,7 @@ export enum TranslationKeys {
   CopyNoteToClipboard = "copyNoteToClipboard",
   NoteCopiedToClipboard = "noteCopiedToClipboard",
   CopyTranscriptToClipboard = "copyTranscriptToClipboard",
-  TranscriptCopiedToClipboard = "transcriptCopiedToClipboard",
+  TranscriptCopiedToClipboard = "transcriptCopiedToClipboard"
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -1634,10 +1634,12 @@ const fr: Translations = {
   setThePriorityTo: "a défini la priorité à",
   setTheEstimateTo: "a défini l'estimation à",
   removedTheEstimate: "a supprimé l'estimation",
-  thereAreNoPages:
-    "Il n'y a pas de pages dans cet espace. Créez une nouvelle page ou faites glisser une page existante dans cet espace dans la barre latérale.",
-  thereAreNoBoards:
-    "Il n'y a pas de tableaux dans cet espace. Créez un nouveau tableau ou faites glisser un tableau existant dans cet espace dans la barre latérale.",
+  thereAreNoPages: "Il n'y a pas de pages dans cet espace.",
+  createNewPageOrDrag:
+    "Créez une nouvelle page ou faites glisser une page existante dans cet espace dans la barre latérale.",
+  thereAreNoBoards: "Il n'y a pas de tableaux dans cet espace.",
+  createNewBoardOrDrag:
+    "Créez un nouveau tableau ou faites glisser un tableau existant dans cet espace dans la barre latérale.",
   commentsOnly: "Commentaires uniquement",
   activityOnly: "Activité uniquement",
   seeCardsWithThisTag: "Voir les cartes avec cette étiquette",
