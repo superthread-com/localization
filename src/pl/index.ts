@@ -492,6 +492,7 @@ const pl = {
   activity: "Aktywność",
   created: "Utworzono",
   updated: "Zaktualizowano",
+  reload: "Przeładuj",
   timePeriod: "Okres",
   cardsAdded: "Dodano karty",
   cardsFinished: "Ukończone karty",
@@ -1797,6 +1798,7 @@ const pl = {
   upgradeUserRolesTitle: "Zaktualizuj, aby uzyskać role użytkowników",
   upgradeUserRolesDescription:
     "Możesz wybierać role użytkowników niebędących administratorami w ramach płatnego planu.",
+  upgradedWorkspace: "Twoja przestrzeń robocza została uaktualniona",
   sprintSettings: "Ustawienia sprintu",
   electronDownloadApp: "Pobierz aplikację",
   electronDownloadAppDescription:

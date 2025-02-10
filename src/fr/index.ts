@@ -498,6 +498,7 @@ const fr: Translations = {
   activity: "Activité",
   created: "Créé",
   updated: "Mis à jour",
+  reload: "Actualiser",
   timePeriod: "Période",
   cardsAdded: "Cartes ajoutées",
   cardsFinished: "Cartes terminées",
@@ -1842,6 +1843,7 @@ const fr: Translations = {
   upgradeUserRolesTitle: "Améliorer pour les rôles d'utilisateur",
   upgradeUserRolesDescription:
     "Vous pouvez choisir des rôles d'utilisateur non administrateurs avec un plan payant.",
+  upgradedWorkspace: "Votre compte à été mis à jour!",
   sprintSettings: "Paramètres de sprint",
   electronDownloadApp: "Télécharger l'application",
   electronDownloadAppDescription:
