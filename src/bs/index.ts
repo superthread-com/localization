@@ -174,6 +174,7 @@ const bs: Translations = {
   activity: "Aktivnost",
   created: "Kreirano",
   updated: "Ažurirano",
+  reload: "Učitaj ponovo",
   timePeriod: "Vremenski period",
   netChange: "Neto promjena",
   last7Days: "Zadnjih 7 dana",
@@ -914,6 +915,7 @@ const bs: Translations = {
     "Samo vlasnik space-a (%{spaceOwner}) i admini mogu mijenjati plan workspace-a",
   upgradeUserRolesTitle: "Nadogradi za postavljanje korisničkih uloga",
   upgradeUserRolesDescription: "Možete birati ne-admin role na plaćenom planu.",
+  upgradedWorkspace: "Vaš workspace je nadograđen",
   electronDownloadApp: "Preuzmi aplikaciju",
   electronDownloadAppDescription:
     "Trenutno samo podržavamo macOS. Obavijestite nas da li postoji potražnja i za Windowsom.",

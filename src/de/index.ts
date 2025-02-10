@@ -501,6 +501,7 @@ const de = {
   activity: "Aktivität",
   created: "Erstellt",
   updated: "Aktualisiert",
+  reload: "Neu laden",
   timePeriod: "Zeitraum",
   cardsAdded: "Karten hinzugefügt",
   cardsFinished: "Karten abgeschlossen",
@@ -1851,6 +1852,7 @@ const de = {
   upgradeUserRolesTitle: "Upgrade für Benutzerrollen",
   upgradeUserRolesDescription:
     "Du kannst nicht-admin Benutzerrollen nur im kostenpflichtigen Plan wählen.",
+  upgradedWorkspace: "Dein Arbeitsbereich wurde aktualisiert.",
   sprintSettings: "Sprint-Einstellungen",
   electronDownloadApp: "App herunterladen",
   electronDownloadAppDescription:

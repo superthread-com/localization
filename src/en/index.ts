@@ -487,6 +487,7 @@ const en = {
   activity: "Activity",
   created: "Created",
   updated: "Updated",
+  reload: "Reload",
   timePeriod: "Time period",
   cardsAdded: "Cards added",
   cardsFinished: "Cards finished",
@@ -1763,6 +1764,7 @@ const en = {
   upgradeUserRolesTitle: "Upgrade for user roles",
   upgradeUserRolesDescription:
     "You can choose non-admin user roles on a paid plan.",
+  upgradedWorkspace: "Your workspace has been upgraded!",
   sprintSettings: "Sprint settings",
   electronDownloadApp: "Download the app",
   electronDownloadAppDescription:
