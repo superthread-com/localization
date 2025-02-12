@@ -35,7 +35,7 @@ const de = {
   spaceNameLabel: "Raumname",
   spaceNamePlaceHolder: "z.B. Web-Shop",
   min3Characters: "Mindestens 3 Zeichen lang.",
-  continueWithGoogle: "Mit Google fortfahren",
+  continueWithProvider: "Mit %{provider} fortfahren",
   welcomeToSuperThread: "Willkommen auf Superthread",
   aWorkspaceIs:
     "Ein Arbeitsbereich ist normalerweise nach deiner Organisation benannt. Du kannst dieses Name später nicht ändern.",
@@ -44,7 +44,7 @@ const de = {
   LoginCode: "Anmeldecode",
   enterLoginCode: "Anmeldecode eingeben",
   continueWithEmail: "Mit E-Mail fortfahren",
-  registerGoogle: "Mit Google registrieren",
+  registerProvider: "Mit %{provider} registrieren",
   onboardingEmailPlaceholder: "du@beispiel.com",
   // cards
   cardsLayoutList: "Liste",

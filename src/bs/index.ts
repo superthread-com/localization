@@ -959,7 +959,7 @@ const bs: Translations = {
   checkInbox: "Molimo provjerite Vaš inbox.",
   workspaceNameLabel: "Ime workspace-a",
   workspaceNamePlaceHolder: "npr. Acme industries",
-  continueWithGoogle: "Nastavi sa Google-om",
+  continueWithProvider: "Nastavi sa %{provider}-om",
   welcomeToSuperThread: "Dobrodošli u Superthread",
   aWorkspaceIs:
     "Workspace se obično imenuje prema vašoj organizaciji ili velikom samostalnom timu. Ovo ime kasnije ne možete promijeniti, ali možete imati više od jednog workspace-a.",
@@ -968,7 +968,7 @@ const bs: Translations = {
   LoginCode: "Kod za prijavu",
   enterLoginCode: "Unesite kod za prijavu",
   continueWithEmail: "Nastavi s email-om",
-  registerGoogle: "Registruj se sa Google-om",
+  registerProvider: "Registruj se sa %{provider}-om",
   onboardingEmailPlaceholder: "you@example.ba",
 
   cardsLayoutList: "Lista",
