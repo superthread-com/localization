@@ -2142,6 +2142,8 @@ const pl = {
   noteCopiedToClipboard: "Notatka skopiowana do schowka",
   copyTranscriptToClipboard: "Kopiuj transkrypt do schowka",
   transcriptCopiedToClipboard: "Transkrypcja skopiowana do schowka",
+  anyoneWithThisLinkCanViewNote: "Każdy z tym linkiem może zobaczyć notatkę",
+  notesEnhancedBySuperthread: "Notatki ulepszone przez Superthread",
 };
 
 export default pl as Translations;

@@ -2209,6 +2209,9 @@ const de = {
   noteCopiedToClipboard: "Notiz in die Zwischenablage kopiert",
   copyTranscriptToClipboard: "Transkript in die Zwischenablage kopieren",
   transcriptCopiedToClipboard: "Transkript in die Zwischenablage kopiert",
+  anyoneWithThisLinkCanViewNote:
+    "Jeder mit diesem Link kann die Notiz anzeigen",
+  notesEnhancedBySuperthread: "Notizen verbessert von Superthread",
 };
 
 export default de as Translations;

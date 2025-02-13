@@ -2202,6 +2202,9 @@ const fr: Translations = {
   noteCopiedToClipboard: "Note copiée dans le presse-papiers",
   copyTranscriptToClipboard: "Copier la transcription dans le presse-papiers",
   transcriptCopiedToClipboard: "Transcription copiée dans le presse-papiers",
+  anyoneWithThisLinkCanViewNote:
+    "Toute personne avec ce lien peut voir la note",
+  notesEnhancedBySuperthread: "Notes améliorées par Superthread",
 };
 
 export default fr as Translations;

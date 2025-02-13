@@ -2144,6 +2144,8 @@ const bs: Translations = {
   noteCopiedToClipboard: "Bilješka kopirana u međuspremnik",
   copyTranscriptToClipboard: "Kopiraj transkript u međuspremnik",
   transcriptCopiedToClipboard: "Transkript je kopiran u međuspremnik",
+  anyoneWithThisLinkCanViewNote: "Svi s ovim linkom mogu vidjeti bilješku",
+  notesEnhancedBySuperthread: "Bilješke unaprijeđene od strane Superthreada",
 };
 
 export default bs;
