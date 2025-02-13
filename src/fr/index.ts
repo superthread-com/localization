@@ -174,7 +174,7 @@ const fr: Translations = {
   spaceNameLabel: "Nom de l'espace",
   spaceNamePlaceHolder: "Par exemple: boutique en ligne",
   min3Characters: "Doit avoir au moins 3 charactères.",
-  continueWithGoogle: "Continuer avec Google",
+  continueWithProvider: "Continuer avec %{provider}",
   welcomeToSuperThread: "Bienvenue à Superthread",
   aWorkspaceIs:
     "L'espace de travail est souvent nommé après votre compagnie ou votre organisation. Vous n'allez pas pouvoir changer ce nom, mais vous pouvez avoir plusieurs espaces de travail.",
@@ -183,7 +183,7 @@ const fr: Translations = {
   LoginCode: "Code d'accès",
   enterLoginCode: "Entrez votre code d'accès",
   continueWithEmail: "Continuer avec Email",
-  registerGoogle: "S'enregistrer avec Google",
+  registerProvider: "S'enregistrer avec %{provider}",
   onboardingEmailPlaceholder: "votrenom@exemple.com",
   // Group titles
   ["slash.group.media"]: "Média",

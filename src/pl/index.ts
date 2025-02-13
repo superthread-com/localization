@@ -30,7 +30,7 @@ const pl = {
   spaceNameLabel: "Nazwa przestrzeni",
   spaceNamePlaceHolder: "np. sklep internetowy",
   min3Characters: "Minimum 3 znaki.",
-  continueWithGoogle: "Kontynuuj z Google",
+  continueWithProvider: "Kontynuuj z %{provider}",
   welcomeToSuperThread: "Witamy w SuperThread",
   aWorkspaceIs:
     "Przestrzeń robocza jest zazwyczaj nazwana na cześć twojej organizacji. Nie możesz później zmienić tej nazwy.",
@@ -39,7 +39,7 @@ const pl = {
   LoginCode: "Kod logowania",
   enterLoginCode: "Wprowadź kod logowania",
   continueWithEmail: "Kontynuuj przez e-mail",
-  registerGoogle: "Zarejestruj się przez Google",
+  registerProvider: "Zarejestruj się przez %{provider}",
   onboardingEmailPlaceholder: "ty@przyklad.com",
 
   cardsLayoutList: "Lista",
