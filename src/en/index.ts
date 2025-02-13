@@ -2107,6 +2107,8 @@ const en = {
   noteCopiedToClipboard: "Note copied to clipboard",
   copyTranscriptToClipboard: "Copy transcript to clipboard",
   transcriptCopiedToClipboard: "Transcript copied to clipboard",
+  anyoneWithThisLinkCanViewNote: "Anyone with this link can view the note",
+  notesEnhancedBySuperthread: "Notes enhanced by Superthread",
 };
 
 export default en as Translations;
