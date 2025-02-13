@@ -1896,6 +1896,8 @@ export enum TranslationKeys {
   NoteCopiedToClipboard = "noteCopiedToClipboard",
   CopyTranscriptToClipboard = "copyTranscriptToClipboard",
   TranscriptCopiedToClipboard = "transcriptCopiedToClipboard",
+  AnyoneWithThisLinkCanViewNote = "anyoneWithThisLinkCanViewNote",
+  NotesEnhancedBySuperthread = "notesEnhancedBySuperthread",
 }
 
 export type Translations = Record<TranslationKeys, string>;
