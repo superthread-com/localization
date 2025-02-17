@@ -35,7 +35,7 @@ const de = {
   spaceNameLabel: "Raumname",
   spaceNamePlaceHolder: "z.B. Web-Shop",
   min3Characters: "Mindestens 3 Zeichen lang.",
-  continueWithGoogle: "Mit Google fortfahren",
+  continueWithProvider: "Mit %{provider} fortfahren",
   welcomeToSuperThread: "Willkommen auf Superthread",
   aWorkspaceIs:
     "Ein Arbeitsbereich ist normalerweise nach deiner Organisation benannt. Du kannst dieses Name später nicht ändern.",
@@ -44,7 +44,7 @@ const de = {
   LoginCode: "Anmeldecode",
   enterLoginCode: "Anmeldecode eingeben",
   continueWithEmail: "Mit E-Mail fortfahren",
-  registerGoogle: "Mit Google registrieren",
+  registerProvider: "Mit %{provider} registrieren",
   onboardingEmailPlaceholder: "du@beispiel.com",
   // cards
   cardsLayoutList: "Liste",
@@ -233,6 +233,15 @@ const de = {
   ["billing.views"]: "Ansichten",
   ["billing.timelineLayout"]: "Zeitachsenlayout",
   ["billing.liveChatSupport"]: "Live-Chat-Support",
+  ["billing.guestsUsersAreFree"]:
+    "Gastbenutzer sind in Ihrem aktuellen Plan kostenlos.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Neuen Mitgliedern wird für den Rest des jährlichen Abrechnungszeitraums eine anteilige Rechnung gestellt.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Die Workspace-Zahlungsmethode wird am Ende des Monats belastet, in dem sie beitreten.",
+  ["billing.learnModeAboutBilling"]: "Mehr erfahren zur Abrechnung",
+  ["billing.guestViewOnly"]: "Gast – nur anzeigen",
+
   // global
   ["global.text.create"]: "Erstellen",
   ["option.label.cards"]: "Karten",
@@ -492,6 +501,7 @@ const de = {
   activity: "Aktivität",
   created: "Erstellt",
   updated: "Aktualisiert",
+  reload: "Neu laden",
   timePeriod: "Zeitraum",
   cardsAdded: "Karten hinzugefügt",
   cardsFinished: "Karten abgeschlossen",
@@ -1087,7 +1097,8 @@ const de = {
   manageTags: "Verwalte Tags, die in allen Räumen geteilt werden",
   youCantUndo: "Du kannst diese Aktion nicht rückgängig machen.",
   merge2spaceTags: "Mit dem gleichen Namen in das Arbeitsbereich-Tag?",
-  areYouSureYouWantToDelete: "Bist du sicher, dass du löschen möchtest",
+  areYouSureYouWantToDelete:
+    "Sind Sie sicher, dass Sie “%{resourceTitle}” %{resourceType} löschen möchten?",
   uploaded: "Hochgeladen",
   cardCreatedInResource: "Karte erstellt in '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Erstellen in",
@@ -1418,7 +1429,7 @@ const de = {
   reactedWith: "reagierte mit",
   you: "du",
   cannotModidyListStatus:
-    "Kann den Listenstatus nicht ändern, wenn Karten hinzugefügt wurden",
+    "Kann den Listenstatus nicht ändern, wenn %{resourceType} hinzugefügt wurden",
   onlineAgain: "Du bist wieder online",
   youAreOffline: "Du bist offline",
   exploring: "Erkunden",
@@ -1626,10 +1637,12 @@ const de = {
   setThePriorityTo: "setze die Priorität auf",
   setTheEstimateTo: "setze die Schätzung auf",
   removedTheEstimate: "Schätzung entfernt",
-  thereAreNoPages:
-    "Es gibt keine Seiten in diesem Raum. Erstelle eine neue Seite oder ziehe eine bestehende Seite in diesem Raum in der Seitenleiste.",
-  thereAreNoBoards:
-    "Es gibt keine Tafeln in diesem Raum. Erstelle eine neue Tafel oder ziehe eine bestehende Tafel in diesem Raum in der Seitenleiste.",
+  thereAreNoPages: "Es gibt keine Seiten in diesem Raum.",
+  createNewPageOrDrag:
+    "Erstelle eine neue Seite oder ziehe eine bestehende Seite in diesem Raum in der Seitenleiste.",
+  thereAreNoBoards: "Es gibt keine Tafeln in diesem Raum.",
+  createNewBoardOrDrag:
+    "Erstelle eine neue Tafel oder ziehe eine bestehende Tafel in diesem Raum in der Seitenleiste.",
   commentsOnly: "Nur Kommentare",
   activityOnly: "Nur Aktivitäten",
   seeCardsWithThisTag:
@@ -1839,6 +1852,7 @@ const de = {
   upgradeUserRolesTitle: "Upgrade für Benutzerrollen",
   upgradeUserRolesDescription:
     "Du kannst nicht-admin Benutzerrollen nur im kostenpflichtigen Plan wählen.",
+  upgradedWorkspace: "Dein Arbeitsbereich wurde aktualisiert.",
   sprintSettings: "Sprint-Einstellungen",
   electronDownloadApp: "App herunterladen",
   electronDownloadAppDescription:
@@ -1913,12 +1927,15 @@ const de = {
   slackChannelNotificationsDescriptionDisabled:
     "Ein Slack-Fenster wird geöffnet und fordert Sie auf, einen Kanal auszuwählen",
   slackChannelNotificationsDescriptionEnabled:
-    "Benachrichtigungen von diesem Board werden an #%{channel} in Slack gesendet.",
+    "Benachrichtigungen von diesem Board werden an %{channel} in Slack gesendet.",
   slackIntegrationError:
     "Slack-Integration konnte nicht aktiviert werden. Bitte versuchen Sie es erneut",
   boardDoesNotExists: "Dieses Board existiert nicht",
   boardActivity: "Board-Aktivität",
   sendTo: "Senden an",
+  slackPrivateMessage: "eine private Nachricht",
+  slackPrivateGroup: "ein privates Gespräch",
+  slackPrivateChannel: "ein privater Kanal",
   webhookNotificationCardAddedBoard: "Karte zur Tafel hinzugefügt/verschoben",
   webhookNotificationCardAddedList: "Karte zum Status hinzugefügt/verschoben",
   webhookNotificationCardCommented:
@@ -2182,6 +2199,26 @@ const de = {
     "Fachbegriffe, ungewöhnliche Namen, Projektnamen usw.",
   transcriptionJargonDescription:
     "Fügen Sie alle Wörter hinzu, bei denen Sie denken, dass die Audio-Transkription Probleme haben könnte. Trennen Sie die Wörter mit Kommas.",
+  selectANote: "Wähle eine Notiz",
+  noteDoesntExist: "Diese Notiz existiert nicht",
+  deleteSection: "Abschnitt löschen",
+  untitledSection: "Unbenannter Abschnitt",
+  messageAgentAssistant: "Nachricht an den Agentenassistenten",
+  initialAgentMessage:
+    "Ich bin hier, um Ihnen zu helfen, Anweisungen für Ihren Agenten zu schreiben. Lassen Sie mich wissen, was er tun soll.",
+  agentMessageError:
+    "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+  agentInstructions: "Agentenanweisungen",
+  version: "Version",
+  templateWithChildCardsNotAllowed:
+    "Sie können nur eine Vorlage auf eine untergeordnete Karte anwenden, wenn die Vorlage keine eigenen untergeordneten Karten hat",
+  copyNoteToClipboard: "Notiz in die Zwischenablage kopieren",
+  noteCopiedToClipboard: "Notiz in die Zwischenablage kopiert",
+  copyTranscriptToClipboard: "Transkript in die Zwischenablage kopieren",
+  transcriptCopiedToClipboard: "Transkript in die Zwischenablage kopiert",
+  anyoneWithThisLinkCanViewNote:
+    "Jeder mit diesem Link kann die Notiz anzeigen",
+  notesEnhancedBySuperthread: "Notizen verbessert von Superthread",
 };
 
 export default de as Translations;

@@ -30,7 +30,7 @@ const pl = {
   spaceNameLabel: "Nazwa przestrzeni",
   spaceNamePlaceHolder: "np. sklep internetowy",
   min3Characters: "Minimum 3 znaki.",
-  continueWithGoogle: "Kontynuuj z Google",
+  continueWithProvider: "Kontynuuj z %{provider}",
   welcomeToSuperThread: "Witamy w SuperThread",
   aWorkspaceIs:
     "Przestrzeń robocza jest zazwyczaj nazwana na cześć twojej organizacji. Nie możesz później zmienić tej nazwy.",
@@ -39,7 +39,7 @@ const pl = {
   LoginCode: "Kod logowania",
   enterLoginCode: "Wprowadź kod logowania",
   continueWithEmail: "Kontynuuj przez e-mail",
-  registerGoogle: "Zarejestruj się przez Google",
+  registerProvider: "Zarejestruj się przez %{provider}",
   onboardingEmailPlaceholder: "ty@przyklad.com",
 
   cardsLayoutList: "Lista",
@@ -230,6 +230,14 @@ const pl = {
   ["billing.views"]: "Widoki",
   ["billing.timelineLayout"]: "Układ osi czasu",
   ["billing.liveChatSupport"]: "Wsparcie przez czat na żywo",
+  ["billing.guestsUsersAreFree"]:
+    "Użytkownicy gościnni w ramach bieżącego planu korzystają z niego bezpłatnie.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Nowi członkowie są obciążani opłatą proporcjonalną do pozostałej części rocznego cyklu rozliczeniowego.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Opłata za przestrzeń roboczą zostanie pobrana pod koniec miesiąca, w którym dołączysz do zespołu.",
+  ["billing.learnModeAboutBilling"]: "Dowiedz się więcej o rozliczeniach",
+  ["billing.guestViewOnly"]: "Gość – tylko do przeglądania",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",
@@ -484,6 +492,7 @@ const pl = {
   activity: "Aktywność",
   created: "Utworzono",
   updated: "Zaktualizowano",
+  reload: "Przeładuj",
   timePeriod: "Okres",
   cardsAdded: "Dodano karty",
   cardsFinished: "Ukończone karty",
@@ -1061,7 +1070,8 @@ const pl = {
   manageTags: "Zarządzaj tagami udostępnianymi we wszystkich przestrzeniach",
   youCantUndo: "Nie można cofnąć tej akcji.",
   merge2spaceTags: "O tej samej nazwie w tag przestrzeni roboczej?",
-  areYouSureYouWantToDelete: "Czy na pewno chcesz usunąć",
+  areYouSureYouWantToDelete:
+    "Czy na pewno chcesz usunąć “%{resourceTitle}” %{resourceType}?",
   uploaded: "Załadowano",
   cardCreatedInResource: "Karta utworzona w '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Utwórz w",
@@ -1387,7 +1397,7 @@ const pl = {
   reactedWith: "zareagował:",
   you: "ty",
   cannotModidyListStatus:
-    "Nie można zmienić statusu listy, gdy są dodane karty",
+    "Nie można zmienić statusu listy, gdy są dodane %{resourceType}",
   onlineAgain: "Jesteś z powrotem online",
   youAreOffline: "Jesteś offline",
   exploring: "Odkrywanie",
@@ -1577,10 +1587,12 @@ const pl = {
   setThePriorityTo: "ustawił priorytet na",
   setTheEstimateTo: "ustawił szacunek na",
   removedTheEstimate: "usunął szacunek",
-  thereAreNoPages:
-    "Nie ma stron w tej przestrzeni. Utwórz nową stronę lub przeciągnij istniejącą stronę do tej przestrzeni na pasku bocznym.",
-  thereAreNoBoards:
-    "Nie ma tablic w tej przestrzeni. Utwórz nową tablicę lub przeciągnij istniejącą tablicę do tej przestrzeni na pasku bocznym.",
+  thereAreNoPages: "Nie ma stron w tej przestrzeni.",
+  createNewPageOrDrag:
+    "Utwórz nową stronę lub przeciągnij istniejącą stronę do tej przestrzeni na pasku bocznym.",
+  thereAreNoBoards: "Nie ma tablic w tej przestrzeni.",
+  createNewBoardOrDrag:
+    "Utwórz nową tablicę lub przeciągnij istniejącą tablicę do tej przestrzeni na pasku bocznym.",
   commentsOnly: "Tylko komentarze",
   activityOnly: "Tylko aktywność",
   seeCardsWithThisTag:
@@ -1786,6 +1798,7 @@ const pl = {
   upgradeUserRolesTitle: "Zaktualizuj, aby uzyskać role użytkowników",
   upgradeUserRolesDescription:
     "Możesz wybierać role użytkowników niebędących administratorami w ramach płatnego planu.",
+  upgradedWorkspace: "Twoja przestrzeń robocza została uaktualniona",
   sprintSettings: "Ustawienia sprintu",
   electronDownloadApp: "Pobierz aplikację",
   electronDownloadAppDescription:
@@ -1860,12 +1873,15 @@ const pl = {
   slackChannelNotificationsDescriptionDisabled:
     "Otworzy się okno Slack i poprosi o wybór kanału",
   slackChannelNotificationsDescriptionEnabled:
-    "Powiadomienia z tej tablicy są wysyłane do #%{channel} w Slacku.",
+    "Powiadomienia z tej tablicy są wysyłane do %{channel} w Slacku.",
   slackIntegrationError:
     "Nie udało się włączyć integracji ze Slackiem. Spróbuj ponownie",
   boardDoesNotExists: "Ta tablica nie istnieje",
   boardActivity: "Aktywność tablicy",
   sendTo: "Wyślij do",
+  slackPrivateMessage: "wiadomość prywatna",
+  slackPrivateGroup: "prywatna rozmowa",
+  slackPrivateChannel: "prywatny kanał",
   webhookNotificationCardAddedBoard: "Karta dodana/przeniesiona na tablicę",
   webhookNotificationCardAddedList: "Karta dodana/przeniesiona do statusu",
   webhookNotificationCardCommented:
@@ -2117,6 +2133,24 @@ const pl = {
     "Terminy techniczne, nietypowe imiona, nazwy projektów, itp.",
   transcriptionJargonDescription:
     "Dodaj słowa, z którymi transkrypcja audio może mieć problem. Oddziel słowa przecinkami.",
+  selectANote: "Wybierz notatkę",
+  noteDoesntExist: "Notatka nie istnieje",
+  deleteSection: "Usuń sekcję",
+  untitledSection: "Bez tytułu sekcja",
+  messageAgentAssistant: "Wyślij wiadomość do asystenta agenta",
+  initialAgentMessage:
+    "Jestem tutaj, aby pomóc Ci napisać instrukcje dla Twojego agenta. Daj mi znać, co ma robić.",
+  agentMessageError: "Wystąpił błąd. Spróbuj ponownie.",
+  agentInstructions: "Instrukcje agenta",
+  version: "Wersja",
+  templateWithChildCardsNotAllowed:
+    "Możesz zastosować szablon tylko do karty podrzędnej, jeśli szablon nie ma własnych podrzędnych kart",
+  copyNoteToClipboard: "Kopiuj notatkę do schowka",
+  noteCopiedToClipboard: "Notatka skopiowana do schowka",
+  copyTranscriptToClipboard: "Kopiuj transkrypt do schowka",
+  transcriptCopiedToClipboard: "Transkrypcja skopiowana do schowka",
+  anyoneWithThisLinkCanViewNote: "Każdy z tym linkiem może zobaczyć notatkę",
+  notesEnhancedBySuperthread: "Notatki ulepszone przez Superthread",
 };
 
 export default pl as Translations;

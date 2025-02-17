@@ -174,6 +174,7 @@ const bs: Translations = {
   activity: "Aktivnost",
   created: "Kreirano",
   updated: "Ažurirano",
+  reload: "Učitaj ponovo",
   timePeriod: "Vremenski period",
   netChange: "Neto promjena",
   last7Days: "Zadnjih 7 dana",
@@ -615,7 +616,8 @@ const bs: Translations = {
   youCantUndo: "Ne možete vratiti ovu radnju.",
   merge2spaceTags:
     "With the same name into the workspace tag? Sa istim imenom u workspace oznaku?",
-  areYouSureYouWantToDelete: "Da li ste sigurni da zelite izbrisati.",
+  areYouSureYouWantToDelete:
+    "Jeste li sigurni da želite izbrisati “%{resourceTitle}” %{resourceType}?",
   uploaded: "Učitano",
   cardCreatedInResource: "Kartica kreirana u '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Kreiraj u",
@@ -641,7 +643,7 @@ const bs: Translations = {
   today: "Danas",
   yesterday: "Jučer",
   cannotModidyListStatus:
-    "Nije moguće mijenjati status liste ako su kartice dodane.",
+    "Nije moguće mijenjati status liste ako su %{resourceType} dodane.",
   attached: "zakačio",
   removed: "uklonio",
   updatedTheStartDate: "ažurirao datum početka na",
@@ -913,6 +915,7 @@ const bs: Translations = {
     "Samo vlasnik space-a (%{spaceOwner}) i admini mogu mijenjati plan workspace-a",
   upgradeUserRolesTitle: "Nadogradi za postavljanje korisničkih uloga",
   upgradeUserRolesDescription: "Možete birati ne-admin role na plaćenom planu.",
+  upgradedWorkspace: "Vaš workspace je nadograđen",
   electronDownloadApp: "Preuzmi aplikaciju",
   electronDownloadAppDescription:
     "Trenutno samo podržavamo macOS. Obavijestite nas da li postoji potražnja i za Windowsom.",
@@ -956,7 +959,7 @@ const bs: Translations = {
   checkInbox: "Molimo provjerite Vaš inbox.",
   workspaceNameLabel: "Ime workspace-a",
   workspaceNamePlaceHolder: "npr. Acme industries",
-  continueWithGoogle: "Nastavi sa Google-om",
+  continueWithProvider: "Nastavi sa %{provider}-om",
   welcomeToSuperThread: "Dobrodošli u Superthread",
   aWorkspaceIs:
     "Workspace se obično imenuje prema vašoj organizaciji ili velikom samostalnom timu. Ovo ime kasnije ne možete promijeniti, ali možete imati više od jednog workspace-a.",
@@ -965,7 +968,7 @@ const bs: Translations = {
   LoginCode: "Kod za prijavu",
   enterLoginCode: "Unesite kod za prijavu",
   continueWithEmail: "Nastavi s email-om",
-  registerGoogle: "Registruj se sa Google-om",
+  registerProvider: "Registruj se sa %{provider}-om",
   onboardingEmailPlaceholder: "you@example.ba",
 
   cardsLayoutList: "Lista",
@@ -1153,6 +1156,14 @@ const bs: Translations = {
   ["billing.views"]: "Pogledi",
   ["billing.timelineLayout"]: "Raspored vremenske linije",
   ["billing.liveChatSupport"]: "Podrška putem chata uživo",
+  ["billing.guestsUsersAreFree"]:
+    "Korisnici gosti su besplatni na vašem trenutnom planu.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Novi članovi naplaćuju se proporcionalno za ostatak vašeg godišnjeg ciklusa naplate.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Način plaćanja workspace-a će biti naplaćen na kraju mjeseca u kojem se prihvati poziv.",
+  ["billing.learnModeAboutBilling"]: "Saznajte više o naplati",
+  ["billing.guestViewOnly"]: "Gosti - samo pregled",
 
   // global
   ["global.text.create"]: "Kreiraj",
@@ -1605,10 +1616,12 @@ const bs: Translations = {
   setThePriorityTo: "postavio prioritet na",
   setTheEstimateTo: "postavio procjenu na",
   removedTheEstimate: "uklonio procjenu",
-  thereAreNoPages:
-    "Nema stranica u ovom prostoru. Kreirajte novu stranicu ili prevucite postojeću stranicu u ovaj prostor u bočnoj traci.",
-  thereAreNoBoards:
-    "Nema ploča u ovom prostoru. Kreirajte novu ploču ili prevucite postojeću ploču u ovaj prostor u bočnoj traci.",
+  thereAreNoPages: "Nema stranica u ovom prostoru.",
+  createNewPageOrDrag:
+    "Kreirajte novu stranicu ili prevucite postojeću stranicu u ovaj prostor u bočnoj traci.",
+  thereAreNoBoards: "Nema ploča u ovom prostoru.",
+  createNewBoardOrDrag:
+    "Kreirajte novu ploču ili prevucite postojeću ploču u ovaj prostor u bočnoj traci.",
   commentsOnly: "Samo komentari",
   activityOnly: "Samo aktivnost",
   seeCardsWithThisTag:
@@ -1859,12 +1872,15 @@ const bs: Translations = {
   slackChannelNotificationsDescriptionDisabled:
     "Otvorit će se Slack prozor i zatražiti da odaberete kanal",
   slackChannelNotificationsDescriptionEnabled:
-    "Obavijesti s ove table se šalju na #%{channel} u Slacku.",
+    "Obavijesti s ove table se šalju na %{channel} u Slacku.",
   slackIntegrationError:
     "Nije moguće omogućiti integraciju sa Slackom. Molimo pokušajte ponovo",
   boardDoesNotExists: "Ta tabla ne postoji",
   boardActivity: "Aktivnost table",
   sendTo: "Pošalji na",
+  slackPrivateMessage: "privatna poruka",
+  slackPrivateGroup: "privatni razgovor",
+  slackPrivateChannel: "privatni kanal",
   webhookNotificationCardAddedBoard: "Kartica dodana/premještena na ploču",
   webhookNotificationCardAddedList: "Kartica dodana/premještena u status",
   webhookNotificationCardCommented:
@@ -2119,6 +2135,24 @@ const bs: Translations = {
     "Tehnički izrazi, neuobičajena imena, nazivi projekata, itd.",
   transcriptionJargonDescription:
     "Dodajte bilo koje riječi za koje mislite da bi transkripcija zvuka mogla imati problema. Odvojite riječi zarezima.",
+  selectANote: "Odaberite bilješku",
+  noteDoesntExist: "Bilješka ne postoji",
+  deleteSection: "Izbriši sekciju",
+  untitledSection: "Neimenovana sekcija",
+  messageAgentAssistant: "Pošalji poruku agent asistentu",
+  initialAgentMessage:
+    "Ovdje sam da vam pomognem napisati upute za vašeg agenta. Javite mi što želite da radi.",
+  agentMessageError: "Došlo je do greške. Molimo pokušajte ponovo.",
+  agentInstructions: "Upute za agenta",
+  version: "Verzija",
+  templateWithChildCardsNotAllowed:
+    "Možete primijeniti predložak na karticu samo ako predložak nema svojih vlastitih child kartica",
+  copyNoteToClipboard: "Kopiraj bilješku u međuspremnik",
+  noteCopiedToClipboard: "Bilješka kopirana u međuspremnik",
+  copyTranscriptToClipboard: "Kopiraj transkript u međuspremnik",
+  transcriptCopiedToClipboard: "Transkript je kopiran u međuspremnik",
+  anyoneWithThisLinkCanViewNote: "Svi s ovim linkom mogu vidjeti bilješku",
+  notesEnhancedBySuperthread: "Bilješke unaprijeđene od strane Superthreada",
 };
 
 export default bs;

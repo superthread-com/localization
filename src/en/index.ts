@@ -34,7 +34,7 @@ const en = {
   spaceNameLabel: "Space name",
   spaceNamePlaceHolder: "e.g. web-shop",
   min3Characters: "Minimum 3 characters long.",
-  continueWithGoogle: "Continue with Google",
+  continueWithProvider: "Continue with %{provider}",
   welcomeToSuperThread: "Welcome to Superthread",
   aWorkspaceIs:
     "A workspace is usually named after your organisation. You cannot change this name later.",
@@ -43,7 +43,7 @@ const en = {
   LoginCode: "Login code",
   enterLoginCode: "Enter login code",
   continueWithEmail: "Continue with Email",
-  registerGoogle: "Register With Google",
+  registerProvider: "Register with %{provider}",
   onboardingEmailPlaceholder: "you@example.com",
   // cards
   cardsLayoutList: "List",
@@ -230,6 +230,13 @@ const en = {
   ["billing.views"]: "Views",
   ["billing.timelineLayout"]: "Timeline layout",
   ["billing.liveChatSupport"]: "Live chat support",
+  ["billing.guestsUsersAreFree"]: "Guest users are free on your current plan.",
+  ["billing.newMembersAreBilledProRata"]:
+    "New members are billed pro-rata for the remainder of your annual billing cycle.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "The workspace payment method will be charged at the end of the month in which they join.",
+  ["billing.learnModeAboutBilling"]: "Learn more about billing",
+  ["billing.guestViewOnly"]: "Guest – view only",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
@@ -480,6 +487,7 @@ const en = {
   activity: "Activity",
   created: "Created",
   updated: "Updated",
+  reload: "Reload",
   timePeriod: "Time period",
   cardsAdded: "Cards added",
   cardsFinished: "Cards finished",
@@ -1045,7 +1053,8 @@ const en = {
   manageTags: "Manage tags that are shared across all spaces",
   youCantUndo: "You can’t undo this action.",
   merge2spaceTags: "With the same name into the workspace tag?",
-  areYouSureYouWantToDelete: "Are you sure you want to delete",
+  areYouSureYouWantToDelete:
+    "Are you sure you want to delete the “%{resourceTitle}” %{resourceType}?",
   uploaded: "Uploaded",
   cardCreatedInResource: "Card created in '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Create in",
@@ -1363,7 +1372,7 @@ const en = {
   reactedWith: "reacted with",
   you: "you",
   cannotModidyListStatus:
-    "Cannot modify list status when there are cards added",
+    "Cannot modify list status when there are %{resourceType} added",
   onlineAgain: "You’re back online",
   youAreOffline: "You’re offline",
   exploring: "Exploring",
@@ -1552,10 +1561,12 @@ const en = {
   setThePriorityTo: "set the priority to",
   setTheEstimateTo: "set the estimate to",
   removedTheEstimate: "removed the estimate",
-  thereAreNoPages:
-    "There are no pages in this space. Create a new page, or drag an existing page into this space in the sidebar.",
-  thereAreNoBoards:
-    "There are no boards in this space. Create a new board, or drag an existing board into this space in the sidebar.",
+  thereAreNoPages: "There are no pages in this space.",
+  createNewPageOrDrag:
+    "Create a new page, or drag an existing page into this space in the sidebar.",
+  thereAreNoBoards: "There are no boards in this space.",
+  createNewBoardOrDrag:
+    "Create a new board, or drag an existing board into this space in the sidebar.",
   commentsOnly: "Comments only",
   activityOnly: "Activity only",
   seeCardsWithThisTag:
@@ -1753,6 +1764,7 @@ const en = {
   upgradeUserRolesTitle: "Upgrade for user roles",
   upgradeUserRolesDescription:
     "You can choose non-admin user roles on a paid plan.",
+  upgradedWorkspace: "Your workspace has been upgraded!",
   sprintSettings: "Sprint settings",
   electronDownloadApp: "Download the app",
   electronDownloadAppDescription:
@@ -1825,11 +1837,14 @@ const en = {
   slackChannelNotificationsDescriptionDisabled:
     "A Slack window will open and ask you to choose a channel",
   slackChannelNotificationsDescriptionEnabled:
-    "Notifications from this board are sent to #%{channel} in Slack.",
+    "Notifications from this board are sent to %{channel} in Slack.",
   slackIntegrationError: "Could not enable Slack integration. Please try again",
   boardDoesNotExists: "That board doesn’t exist",
   boardActivity: "Board activity",
   sendTo: "Send to",
+  slackPrivateMessage: "a private message",
+  slackPrivateGroup: "a private conversation",
+  slackPrivateChannel: "a private channel",
   webhookNotificationCardAddedBoard: "Card added/moved to board",
   webhookNotificationCardAddedList: "Card added/moved to status",
   webhookNotificationCardCommented:
@@ -2083,6 +2098,24 @@ const en = {
     "Tehnical terms, uncommon names, project names, etc.",
   transcriptionJargonDescription:
     "Add any words you think audio transcription might have a problem with. Separate words with commas.",
+  selectANote: "Select a note",
+  noteDoesntExist: "Note doesn't exist",
+  deleteSection: "Delete section",
+  untitledSection: "Untitled section",
+  messageAgentAssistant: "Message agent assistant",
+  initialAgentMessage:
+    "I'm here to help you write instructions for your agent. Let me know what do you want it to do.",
+  agentMessageError: "An error occurred. Please try again.",
+  agentInstructions: "Agent instructions",
+  version: "Version",
+  templateWithChildCardsNotAllowed:
+    "You can only apply a template to a child card if the template has none of its own children",
+  copyNoteToClipboard: "Copy note to clipboard",
+  noteCopiedToClipboard: "Note copied to clipboard",
+  copyTranscriptToClipboard: "Copy transcript to clipboard",
+  transcriptCopiedToClipboard: "Transcript copied to clipboard",
+  anyoneWithThisLinkCanViewNote: "Anyone with this link can view the note",
+  notesEnhancedBySuperthread: "Notes enhanced by Superthread",
 };
 
 export default en as Translations;

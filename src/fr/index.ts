@@ -101,6 +101,14 @@ const fr: Translations = {
   ["billing.views"]: "Vues",
   ["billing.timelineLayout"]: "Mise en page de la chronologie",
   ["billing.liveChatSupport"]: "Assistance par chat en direct",
+  ["billing.guestsUsersAreFree"]:
+    "Les utilisateurs invités sont gratuits sur votre forfait actuel.",
+  ["billing.newMembersAreBilledProRata"]:
+    "Les nouveaux membres sont facturés au prorata pour le reste du cycle de facturation.",
+  ["billing.workspacePaymentMethodWillBeCharged"]:
+    "Le mode de paiement de l'espace de travail sera débité à la fin du mois au cours duquel ils adhèrent.",
+  ["billing.learnModeAboutBilling"]: "En savoir plus sur la facturation.",
+  ["billing.guestViewOnly"]: "Invité – en lecture seule",
   // cards layout
   cardsLayoutList: "Liste",
   cardsLayoutBoard: "Tableau",
@@ -166,7 +174,7 @@ const fr: Translations = {
   spaceNameLabel: "Nom de l'espace",
   spaceNamePlaceHolder: "Par exemple: boutique en ligne",
   min3Characters: "Doit avoir au moins 3 charactères.",
-  continueWithGoogle: "Continuer avec Google",
+  continueWithProvider: "Continuer avec %{provider}",
   welcomeToSuperThread: "Bienvenue à Superthread",
   aWorkspaceIs:
     "L'espace de travail est souvent nommé après votre compagnie ou votre organisation. Vous n'allez pas pouvoir changer ce nom, mais vous pouvez avoir plusieurs espaces de travail.",
@@ -175,7 +183,7 @@ const fr: Translations = {
   LoginCode: "Code d'accès",
   enterLoginCode: "Entrez votre code d'accès",
   continueWithEmail: "Continuer avec Email",
-  registerGoogle: "S'enregistrer avec Google",
+  registerProvider: "S'enregistrer avec %{provider}",
   onboardingEmailPlaceholder: "votrenom@exemple.com",
   // Group titles
   ["slash.group.media"]: "Média",
@@ -490,6 +498,7 @@ const fr: Translations = {
   activity: "Activité",
   created: "Créé",
   updated: "Mis à jour",
+  reload: "Actualiser",
   timePeriod: "Période",
   cardsAdded: "Cartes ajoutées",
   cardsFinished: "Cartes terminées",
@@ -1091,7 +1100,8 @@ const fr: Translations = {
   manageTags: "Gérer les étiquettes partagées dans tous les espaces",
   youCantUndo: "Vous ne pouvez pas annuler cette action.",
   merge2spaceTags: "Avec le même nom dans l'étiquette de l'espace de travail ?",
-  areYouSureYouWantToDelete: "Êtes-vous sûr de vouloir supprimer",
+  areYouSureYouWantToDelete:
+    "Êtes-vous sûr de vouloir supprimer “%{resourceTitle}” %{resourceType}?",
   uploaded: "Téléchargé",
   cardCreatedInResource: "Carte créée dans '%{resourceName}' %{resourceType}",
   ["global.label.createIn"]: "Créer dans",
@@ -1424,7 +1434,7 @@ const fr: Translations = {
   reactedWith: "a réagi avec",
   you: "vous",
   cannotModidyListStatus:
-    "Impossible de modifier le statut de la liste lorsqu'il y a des cartes ajoutées",
+    "Impossible de modifier le statut de la liste lorsqu'il y a des %{resourceType} ajoutées",
   onlineAgain: "Vous êtes de retour en ligne",
   youAreOffline: "Vous êtes hors ligne",
   exploring: "Exploration",
@@ -1625,10 +1635,12 @@ const fr: Translations = {
   setThePriorityTo: "a défini la priorité à",
   setTheEstimateTo: "a défini l'estimation à",
   removedTheEstimate: "a supprimé l'estimation",
-  thereAreNoPages:
-    "Il n'y a pas de pages dans cet espace. Créez une nouvelle page ou faites glisser une page existante dans cet espace dans la barre latérale.",
-  thereAreNoBoards:
-    "Il n'y a pas de tableaux dans cet espace. Créez un nouveau tableau ou faites glisser un tableau existant dans cet espace dans la barre latérale.",
+  thereAreNoPages: "Il n'y a pas de pages dans cet espace.",
+  createNewPageOrDrag:
+    "Créez une nouvelle page ou faites glisser une page existante dans cet espace dans la barre latérale.",
+  thereAreNoBoards: "Il n'y a pas de tableaux dans cet espace.",
+  createNewBoardOrDrag:
+    "Créez un nouveau tableau ou faites glisser un tableau existant dans cet espace dans la barre latérale.",
   commentsOnly: "Commentaires uniquement",
   activityOnly: "Activité uniquement",
   seeCardsWithThisTag: "Voir les cartes avec cette étiquette",
@@ -1831,6 +1843,7 @@ const fr: Translations = {
   upgradeUserRolesTitle: "Améliorer pour les rôles d'utilisateur",
   upgradeUserRolesDescription:
     "Vous pouvez choisir des rôles d'utilisateur non administrateurs avec un plan payant.",
+  upgradedWorkspace: "Votre compte à été mis à jour!",
   sprintSettings: "Paramètres de sprint",
   electronDownloadApp: "Télécharger l'application",
   electronDownloadAppDescription:
@@ -1905,12 +1918,15 @@ const fr: Translations = {
   slackChannelNotificationsDescriptionDisabled:
     "Une fenêtre Slack s'ouvrira et vous demandera de choisir un canal",
   slackChannelNotificationsDescriptionEnabled:
-    "Les notifications de ce tableau sont envoyées à #%{channel} dans Slack.",
+    "Les notifications de ce tableau sont envoyées à %{channel} dans Slack.",
   slackIntegrationError:
     "Impossible d'activer l'intégration Slack. Veuillez réessayer",
   boardDoesNotExists: "Ce tableau n'existe pas",
   boardActivity: "Activité du tableau",
   sendTo: "Envoyer à",
+  slackPrivateMessage: "un message privé",
+  slackPrivateGroup: "une conversation privée",
+  slackPrivateChannel: "un canal privé",
   webhookNotificationCardAddedBoard: "Carte ajoutée/déplacée au tableau",
   webhookNotificationCardAddedList: "Carte ajoutée/déplacée au statut",
   webhookNotificationCardCommented:
@@ -2177,6 +2193,25 @@ const fr: Translations = {
     "Termes techniques, noms inhabituels, noms de projets, etc.",
   transcriptionJargonDescription:
     "Ajoutez tous les mots que vous pensez que la transcription audio pourrait avoir du mal à reconnaître. Séparez les mots par des virgules.",
+  selectANote: "Sélectionnez une note",
+  noteDoesntExist: "La note n'existe pas",
+  deleteSection: "Supprimer la section",
+  untitledSection: "Section sans titre",
+  messageAgentAssistant: "Envoyer un message à l'assistant de l'agent",
+  initialAgentMessage:
+    "Je suis là pour vous aider à rédiger des instructions pour votre agent. Faites-moi savoir ce que vous voulez qu'il fasse.",
+  agentMessageError: "Une erreur s'est produite. Veuillez réessayer.",
+  agentInstructions: "Instructions de l'agent",
+  version: "Version",
+  templateWithChildCardsNotAllowed:
+    "Vous ne pouvez appliquer un modèle à une carte enfant que si le modèle n'a pas de cartes enfants propres",
+  copyNoteToClipboard: "Copier la note dans le presse-papiers",
+  noteCopiedToClipboard: "Note copiée dans le presse-papiers",
+  copyTranscriptToClipboard: "Copier la transcription dans le presse-papiers",
+  transcriptCopiedToClipboard: "Transcription copiée dans le presse-papiers",
+  anyoneWithThisLinkCanViewNote:
+    "Toute personne avec ce lien peut voir la note",
+  notesEnhancedBySuperthread: "Notes améliorées par Superthread",
 };
 
 export default fr as Translations;
