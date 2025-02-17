@@ -2130,7 +2130,7 @@ const bs: Translations = {
   openTranscribingNote: "Otvori bilješku za prepisivanje",
   notesSettings: "Postavke bilješki",
   theseSettingsArePersonalToYou: "Ove postavke su lične za vas",
-  transcriptionJargonTitle: "Ove postavke su lične za vas",
+  transcriptionJargonTitle: "Žargon za transkripciju",
   transcriptionJargonPlaceholder:
     "Tehnički izrazi, neuobičajena imena, nazivi projekata, itd.",
   transcriptionJargonDescription:

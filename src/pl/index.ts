@@ -2128,7 +2128,7 @@ const pl = {
   openTranscribingNote: "Otwórz notatkę transkrypcji",
   notesSettings: "Ustawienia notatek",
   theseSettingsArePersonalToYou: "Te ustawienia są dla Ciebie personalne",
-  transcriptionJargonTitle: "Te ustawienia są dla Ciebie personalne",
+  transcriptionJargonTitle: "Żargon do transkrypcji",
   transcriptionJargonPlaceholder:
     "Terminy techniczne, nietypowe imiona, nazwy projektów, itp.",
   transcriptionJargonDescription:

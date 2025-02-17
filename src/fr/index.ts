@@ -2188,7 +2188,7 @@ const fr: Translations = {
   openTranscribingNote: "Ouvrir la note en cours de transcription",
   notesSettings: "Paramètres des notes",
   theseSettingsArePersonalToYou: "Ces paramètres vous sont personnels",
-  transcriptionJargonTitle: "Ces paramètres vous sont personnels",
+  transcriptionJargonTitle: "Jargon pour la transcription",
   transcriptionJargonPlaceholder:
     "Termes techniques, noms inhabituels, noms de projets, etc.",
   transcriptionJargonDescription:
