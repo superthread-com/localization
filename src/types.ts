@@ -1870,6 +1870,11 @@ export enum TranslationKeys {
   StartTranscription = "startTranscription",
   StopTranscription = "stopTranscription",
   OpenTranscribingNote = "openTranscribingNote",
+  NotesSettings = "notesSettings",
+  TheseSettingsArePersonalToYou = "theseSettingsArePersonalToYou",
+  TranscriptionJargonTitle = "transcriptionJargonTitle",
+  TrasncriptionJargonPlaceholder = "transcriptionJargonPlaceholder",
+  TranscriptionJargonDescription = "transcriptionJargonDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2076,6 +2076,13 @@ const en = {
   startTranscription: "Start transcription",
   stopTranscription: "Stop transcription",
   openTranscribingNote: "Open transcribing note",
+  notesSettings: "Notes settings",
+  theseSettingsArePersonalToYou: "These settings are personal to you",
+  transcriptionJargonTitle: "These settings are personal to you",
+  transcriptionJargonPlaceholder:
+    "Tehnical terms, uncommon names, project names, etc.",
+  transcriptionJargonDescription:
+    "Add any words you think audio transcription might have a problem with. Separate words with commas.",
 };
 
 export default en as Translations;

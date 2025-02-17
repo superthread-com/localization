@@ -2175,6 +2175,13 @@ const de = {
   startTranscription: "Transkription starten",
   stopTranscription: "Transkription stoppen",
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
+  notesSettings: "Notizeinstellungen",
+  theseSettingsArePersonalToYou: "Diese Einstellungen sind persönlich für Sie",
+  transcriptionJargonTitle: "Diese Einstellungen sind persönlich für Sie",
+  transcriptionJargonPlaceholder:
+    "Fachbegriffe, ungewöhnliche Namen, Projektnamen usw.",
+  transcriptionJargonDescription:
+    "Fügen Sie alle Wörter hinzu, bei denen Sie denken, dass die Audio-Transkription Probleme haben könnte. Trennen Sie die Wörter mit Kommas.",
 };
 
 export default de as Translations;
