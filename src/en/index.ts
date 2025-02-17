@@ -2093,7 +2093,7 @@ const en = {
   openTranscribingNote: "Open transcribing note",
   notesSettings: "Notes settings",
   theseSettingsArePersonalToYou: "These settings are personal to you",
-  transcriptionJargonTitle: "These settings are personal to you",
+  transcriptionJargonTitle: "Jargon for transcription",
   transcriptionJargonPlaceholder:
     "Tehnical terms, uncommon names, project names, etc.",
   transcriptionJargonDescription:

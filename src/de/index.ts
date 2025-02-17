@@ -2194,7 +2194,7 @@ const de = {
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
   notesSettings: "Notizeinstellungen",
   theseSettingsArePersonalToYou: "Diese Einstellungen sind persönlich für Sie",
-  transcriptionJargonTitle: "Diese Einstellungen sind persönlich für Sie",
+  transcriptionJargonTitle: "Jargon für Transkription",
   transcriptionJargonPlaceholder:
     "Fachbegriffe, ungewöhnliche Namen, Projektnamen usw.",
   transcriptionJargonDescription:
