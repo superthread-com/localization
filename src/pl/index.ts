@@ -2126,6 +2126,13 @@ const pl = {
   startTranscription: "Rozpocznij transkrypcję",
   stopTranscription: "Zatrzymaj transkrypcję",
   openTranscribingNote: "Otwórz notatkę transkrypcji",
+  notesSettings: "Ustawienia notatek",
+  theseSettingsArePersonalToYou: "Te ustawienia są dla Ciebie personalne",
+  transcriptionJargonTitle: "Te ustawienia są dla Ciebie personalne",
+  transcriptionJargonPlaceholder:
+    "Terminy techniczne, nietypowe imiona, nazwy projektów, itp.",
+  transcriptionJargonDescription:
+    "Dodaj słowa, z którymi transkrypcja audio może mieć problem. Oddziel słowa przecinkami.",
   selectANote: "Wybierz notatkę",
   noteDoesntExist: "Notatka nie istnieje",
   deleteSection: "Usuń sekcję",

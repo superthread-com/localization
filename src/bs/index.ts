@@ -2128,6 +2128,13 @@ const bs: Translations = {
   startTranscription: "Započni prepisivanje",
   stopTranscription: "Zaustavi prepisivanje",
   openTranscribingNote: "Otvori bilješku za prepisivanje",
+  notesSettings: "Postavke bilješki",
+  theseSettingsArePersonalToYou: "Ove postavke su lične za vas",
+  transcriptionJargonTitle: "Ove postavke su lične za vas",
+  transcriptionJargonPlaceholder:
+    "Tehnički izrazi, neuobičajena imena, nazivi projekata, itd.",
+  transcriptionJargonDescription:
+    "Dodajte bilo koje riječi za koje mislite da bi transkripcija zvuka mogla imati problema. Odvojite riječi zarezima.",
   selectANote: "Odaberite bilješku",
   noteDoesntExist: "Bilješka ne postoji",
   deleteSection: "Izbriši sekciju",

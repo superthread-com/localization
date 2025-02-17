@@ -2186,6 +2186,13 @@ const fr: Translations = {
   startTranscription: "Démarrer la transcription",
   stopTranscription: "Arrêter la transcription",
   openTranscribingNote: "Ouvrir la note en cours de transcription",
+  notesSettings: "Paramètres des notes",
+  theseSettingsArePersonalToYou: "Ces paramètres vous sont personnels",
+  transcriptionJargonTitle: "Ces paramètres vous sont personnels",
+  transcriptionJargonPlaceholder:
+    "Termes techniques, noms inhabituels, noms de projets, etc.",
+  transcriptionJargonDescription:
+    "Ajoutez tous les mots que vous pensez que la transcription audio pourrait avoir du mal à reconnaître. Séparez les mots par des virgules.",
   selectANote: "Sélectionnez une note",
   noteDoesntExist: "La note n'existe pas",
   deleteSection: "Supprimer la section",
