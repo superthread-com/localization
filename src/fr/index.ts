@@ -1717,6 +1717,7 @@ const fr: Translations = {
   aiFeatures: "Fonctionnalités AI",
   emailDigestSentAt: "Résumé par e-mail à",
   inYourTimezone: "dans votre fuseau horaire (%{timezone})",
+  timezone: "Fuseau horaire",
   enableNotificationsFirst: "Activez d'abord les notifications %{type}",
   turnOnAIAssitantInFormatingToolbar:
     "Activez l'assistant AI dans la barre d'outils de formatage de texte",

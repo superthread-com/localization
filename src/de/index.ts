@@ -1722,6 +1722,7 @@ const de = {
   aiFeatures: "KI-Funktionen",
   emailDigestSentAt: "E-Mail-Digest um",
   inYourTimezone: "in deiner Zeitzone (%{timezone})",
+  timezone: "Zeitzone",
   enableNotificationsFirst: "Aktiviere zuerst %{type}-Benachrichtigungen",
   turnOnAIAssitantInFormatingToolbar:
     "Aktiviere den KI-Assistenten in der Textformatierungsleiste",

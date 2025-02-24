@@ -1671,6 +1671,7 @@ const pl = {
   aiFeatures: "Funkcje AI",
   emailDigestSentAt: "Skrót e-mail wysłany o",
   inYourTimezone: "w Twojej strefie czasowej (%{timezone})",
+  timezone: "Strefa czasowa",
   enableNotificationsFirst: "Najpierw włącz powiadomienia %{type}",
   turnOnAIAssitantInFormatingToolbar:
     "Włącz asystenta AI na pasku formatowania tekstu",
