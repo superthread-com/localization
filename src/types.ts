@@ -1885,7 +1885,7 @@ export enum TranslationKeys {
   NotesSettings = "notesSettings",
   TheseSettingsArePersonalToYou = "theseSettingsArePersonalToYou",
   TranscriptionJargonTitle = "transcriptionJargonTitle",
-  TrasncriptionJargonPlaceholder = "transcriptionJargonPlaceholder",
+  TranscriptionJargonPlaceholder = "transcriptionJargonPlaceholder",
   TranscriptionJargonDescription = "transcriptionJargonDescription",
   SelectANote = "selectANote",
   NoteDoesntExist = "noteDoesntExist",
@@ -1903,6 +1903,18 @@ export enum TranslationKeys {
   TranscriptCopiedToClipboard = "transcriptCopiedToClipboard",
   AnyoneWithThisLinkCanViewNote = "anyoneWithThisLinkCanViewNote",
   NotesEnhancedBySuperthread = "notesEnhancedBySuperthread",
+  ConnectGoogleCalendar = "connectGoogleCalendar",
+  GoogleCalendarIntegration = "googleCalendarIntegration",
+  GoogleCalendarIntegrationSubtitle = "googleCalendarIntegrationSubtitle",
+  CalendarAccountConnected = "calendarAccountConnected",
+  Disconnect = "disconnect",
+  ShowCalendarMeetingsUpTo = "showCalendarMeetingsUpTo",
+  DayAheadInNotesList = "dayAheadInNotesList",
+  DaysAheadInNotesList = "daysAheadInNotesList",
+  EventTypesToIncludeInNotesList = "eventTypesToIncludeInNotesList",
+  CalendarAllDay = "calendar.all_day",
+  CalendarEventLink = "calendar.event_link",
+  CalendarParticipants = "calendar.participants",
 }
 
 export type Translations = Record<TranslationKeys, string>;

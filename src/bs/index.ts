@@ -2153,6 +2153,20 @@ const bs: Translations = {
   transcriptCopiedToClipboard: "Transkript je kopiran u međuspremnik",
   anyoneWithThisLinkCanViewNote: "Svi s ovim linkom mogu vidjeti bilješku",
   notesEnhancedBySuperthread: "Bilješke unaprijeđene od strane Superthreada",
+  connectGoogleCalendar: "Poveži Google Kalendar",
+  googleCalendarIntegration: "Integracija Google Kalendara",
+  googleCalendarIntegrationSubtitle:
+    "Povežite svoj Google Kalendar da lako kreirate bilješke za nadolazeće sastanke",
+  calendarAccountConnected: "Korisnički nalog Google Kalendara povezan",
+  disconnect: "Isključi",
+  showCalendarMeetingsUpTo: "Prikaži sastanke Google Kalendara do",
+  dayAheadInNotesList: "dan unaprijed u listi bilješki",
+  daysAheadInNotesList: "dana unaprijed u listi bilješki",
+  eventTypesToIncludeInNotesList:
+    "Tipovi događaja za uključivanje u listu bilješki",
+  ["calendar.all_day"]: "Svi-dani događaji, uključujući višednevne događaje",
+  ["calendar.event_link"]: "Događaji bez linka sastanka",
+  ["calendar.participants"]: "Događaji s jednim sudionikom",
 };
 
 export default bs;
