@@ -2212,6 +2212,21 @@ const fr: Translations = {
   anyoneWithThisLinkCanViewNote:
     "Toute personne avec ce lien peut voir la note",
   notesEnhancedBySuperthread: "Notes améliorées par Superthread",
+  connectGoogleCalendar: "Connecter Google Calendar",
+  googleCalendarIntegration: "Intégration Google Calendar",
+  googleCalendarIntegrationSubtitle:
+    "Connectez-vous à votre calendrier Google pour créer facilement des notes pour les réunions à venir",
+  calendarAccountConnected: "Compte calendrier connecté",
+  disconnect: "Déconnecter",
+  showCalendarMeetingsUpTo: "Afficher les réunions du calendrier jusqu'à",
+  dayAheadInNotesList: "jour à l'avance dans la liste des notes",
+  daysAheadInNotesList: "jours à l'avance dans la liste des notes",
+  eventTypesToIncludeInNotesList:
+    "Types d'événements à inclure dans la liste des notes",
+  ["calendar.all_day"]:
+    "Événements du jour, y compris les événements multi-jours",
+  ["calendar.event_link"]: "Événements sans lien de réunion",
+  ["calendar.participants"]: "Événements avec un seul participant",
 };
 
 export default fr as Translations;

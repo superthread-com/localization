@@ -2116,6 +2116,19 @@ const en = {
   transcriptCopiedToClipboard: "Transcript copied to clipboard",
   anyoneWithThisLinkCanViewNote: "Anyone with this link can view the note",
   notesEnhancedBySuperthread: "Notes enhanced by Superthread",
+  connectGoogleCalendar: "Connect Google Calendar",
+  googleCalendarIntegration: "Google calendar integration",
+  googleCalendarIntegrationSubtitle:
+    "Connect to your Google Calendar to easily create notes for upcoming meetings",
+  calendarAccountConnected: "Calendar account connected",
+  disconnect: "Disconnect",
+  showCalendarMeetingsUpTo: "Show calendar meetings up to",
+  dayAheadInNotesList: "day ahead in the notes list",
+  daysAheadInNotesList: "days ahead in the notes list",
+  eventTypesToIncludeInNotesList: "Event types to include in notes list",
+  ["calendar.all_day"]: "All-day events, including multi-day events",
+  ["calendar.event_link"]: "Events without a meeting link",
+  ["calendar.participants"]: "Events with only one participant",
 };
 
 export default en as Translations;

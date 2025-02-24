@@ -2151,6 +2151,21 @@ const pl = {
   transcriptCopiedToClipboard: "Transkrypcja skopiowana do schowka",
   anyoneWithThisLinkCanViewNote: "Każdy z tym linkiem może zobaczyć notatkę",
   notesEnhancedBySuperthread: "Notatki ulepszone przez Superthread",
+  connectGoogleCalendar: "Połącz Google Calendar",
+  googleCalendarIntegration: "Integracja Google Calendar",
+  googleCalendarIntegrationSubtitle:
+    "Połącz się z Google Calendar, aby łatwo tworzyć notatki na przyszłe spotkania",
+  calendarAccountConnected: "Połączony konto kalendarza",
+  disconnect: "Rozłącz",
+  showCalendarMeetingsUpTo: "Pokaż spotkania kalendarza do",
+  dayAheadInNotesList: "dzień naprzód w liście notatek",
+  daysAheadInNotesList: "dni naprzód w liście notatek",
+  eventTypesToIncludeInNotesList:
+    "Typy wydarzeń do uwzględnienia w liście notatek",
+  ["calendar.all_day"]:
+    "Wszystkie-dniowe wydarzenia, w tym wielodniowe wydarzenia",
+  ["calendar.event_link"]: "Wydarzenia bez linku do spotkania",
+  ["calendar.participants"]: "Wydarzenia z jednym uczestnikiem",
 };
 
 export default pl as Translations;

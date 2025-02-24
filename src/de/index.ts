@@ -2219,6 +2219,21 @@ const de = {
   anyoneWithThisLinkCanViewNote:
     "Jeder mit diesem Link kann die Notiz anzeigen",
   notesEnhancedBySuperthread: "Notizen verbessert von Superthread",
+  connectGoogleCalendar: "Google Kalender verbinden",
+  googleCalendarIntegration: "Google Kalender-Integration",
+  googleCalendarIntegrationSubtitle:
+    "Verbinden Sie Ihren Google Kalender, um einfach Notizen für zukünftige Treffen zu erstellen",
+  calendarAccountConnected: "Kalender-Konto verbunden",
+  disconnect: "Verbindung trennen",
+  showCalendarMeetingsUpTo: "Kalender-Treffen bis zu",
+  dayAheadInNotesList: "Tag voraus in der Notizliste",
+  daysAheadInNotesList: "Tage voraus in der Notizliste",
+  eventTypesToIncludeInNotesList:
+    "Ereignisarten, die in der Notizliste enthalten sein sollen",
+  ["calendar.all_day"]:
+    "Alle-Tage-Ereignisse, einschließlich mehr-Tage-Ereignisse",
+  ["calendar.event_link"]: "Ereignisse ohne Treffen-Link",
+  ["calendar.participants"]: "Ereignisse mit nur einem Teilnehmer",
 };
 
 export default de as Translations;
