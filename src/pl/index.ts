@@ -2166,6 +2166,10 @@ const pl = {
     "Wszystkie-dniowe wydarzenia, w tym wielodniowe wydarzenia",
   ["calendar.event_link"]: "Wydarzenia bez linku do spotkania",
   ["calendar.participants"]: "Wydarzenia z jednym uczestnikiem",
+  createNoteFromUpcomingMeeting: "Utwórz notatkę z przyszłego spotkania",
+  noUpcomingMeetings:
+    "Brak przyszłych spotkań. Możesz zmienić przedział czasu w",
+  seeUpcomingMeetings: "Zobacz przyszłe spotkania tutaj z",
 };
 
 export default pl as Translations;

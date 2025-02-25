@@ -1915,6 +1915,9 @@ export enum TranslationKeys {
   CalendarAllDay = "calendar.all_day",
   CalendarEventLink = "calendar.event_link",
   CalendarParticipants = "calendar.participants",
+  CreateNoteFromUpcomingMeeting = "createNoteFromUpcomingMeeting",
+  NoUpcomingMeetings = "noUpcomingMeetings",
+  SeeUpcomingMeetings = "seeUpcomingMeetings",
 }
 
 export type Translations = Record<TranslationKeys, string>;
