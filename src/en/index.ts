@@ -2129,6 +2129,9 @@ const en = {
   ["calendar.all_day"]: "All-day events, including multi-day events",
   ["calendar.event_link"]: "Events without a meeting link",
   ["calendar.participants"]: "Events with only one participant",
+  createNoteFromUpcomingMeeting: "Create a note from an upcoming meeting",
+  noUpcomingMeetings: "No upcoming meetings. You can change the time-frame in",
+  seeUpcomingMeetings: "See upcoming meetings here with the",
 };
 
 export default en as Translations;

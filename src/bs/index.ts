@@ -2167,6 +2167,10 @@ const bs: Translations = {
   ["calendar.all_day"]: "Svi-dani događaji, uključujući višednevne događaje",
   ["calendar.event_link"]: "Događaji bez linka sastanka",
   ["calendar.participants"]: "Događaji s jednim sudionikom",
+  createNoteFromUpcomingMeeting: "Kreiraj bilješku iz nadolazećeg sastanka",
+  noUpcomingMeetings:
+    "Nema nadolazećih sastanaka. Možete promijeniti vremenski okvir u",
+  seeUpcomingMeetings: "Vidi nadolazeće sastanke ovdje s",
 };
 
 export default bs;

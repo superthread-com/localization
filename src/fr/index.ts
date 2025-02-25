@@ -2227,6 +2227,11 @@ const fr: Translations = {
     "Événements du jour, y compris les événements multi-jours",
   ["calendar.event_link"]: "Événements sans lien de réunion",
   ["calendar.participants"]: "Événements avec un seul participant",
+  createNoteFromUpcomingMeeting:
+    "Créer une note à partir d'une réunion à venir",
+  noUpcomingMeetings:
+    "Aucune réunion à venir. Vous pouvez changer le délai dans",
+  seeUpcomingMeetings: "Voir les réunions à venir ici avec le",
 };
 
 export default fr as Translations;
