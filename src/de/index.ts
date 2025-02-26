@@ -2236,6 +2236,10 @@ const de = {
     "Alle-Tage-Ereignisse, einschließlich mehr-Tage-Ereignisse",
   ["calendar.event_link"]: "Ereignisse ohne Treffen-Link",
   ["calendar.participants"]: "Ereignisse mit nur einem Teilnehmer",
+  createNoteFromUpcomingMeeting:
+    "Notiz aus einem zukünftigen Treffen erstellen",
+  noUpcomingMeetings: "Keine zukünftigen Treffen. Sie können den Zeitraum in",
+  seeUpcomingMeetings: "Zukünftige Treffen hier mit dem",
 };
 
 export default de as Translations;
