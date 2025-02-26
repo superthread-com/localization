@@ -1509,6 +1509,7 @@ export enum TranslationKeys {
   EmailDigestSentAt = "emailDigestSentAt",
   InYourTimezone = "inYourTimezone",
   Timezone = "timezone",
+  SetTimezoneAutomatically = "setTimezoneAutomatically",
   EnableNotificationsFirst = "enableNotificationsFirst",
   TurnOnAIAssitantInFormatingToolbar = "turnOnAIAssitantInFormatingToolbar",
   SuperthreadSendingDataTo = "superthreadSendingDataTo",
