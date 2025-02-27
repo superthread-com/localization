@@ -1643,7 +1643,7 @@ const en = {
   emailDigestSentAt: "Email digest at",
   inYourTimezone: "in your timezone (%{timezone})",
   timezone: "Timezone",
-  setTimezoneAutomatically: "Set timezone automatically",
+  setAutomatically: "Set automatically",
   searchTimezone: "Search timezone",
   changeYourTimezoneInProfile: "Change your timezone in profile.",
   enableNotificationsFirst: "Enable %{type} notifications first",

@@ -1699,7 +1699,7 @@ const bs: Translations = {
   emailDigestSentAt: "Email sažetak poslan u",
   inYourTimezone: "u vašoj vremenskoj zoni (%{timezone})",
   timezone: "Vremenska zona",
-  setTimezoneAutomatically: "Postavi vremensku zonu automatski",
+  setAutomatically: "Postavi automatski",
   searchTimezone: "Pretraži vremensku zonu",
   changeYourTimezoneInProfile: "Promijenite svoju vremensku zonu u profilu.",
   enableNotificationsFirst: "Prvo omogući %{type} obavijesti",

@@ -1509,7 +1509,7 @@ export enum TranslationKeys {
   EmailDigestSentAt = "emailDigestSentAt",
   InYourTimezone = "inYourTimezone",
   Timezone = "timezone",
-  SetTimezoneAutomatically = "setTimezoneAutomatically",
+  SetAutomatically = "setAutomatically",
   SearchTimezone = "searchTimezone",
   ChangeYourTimezoneInProfile = "changeYourTimezoneInProfile",
   EnableNotificationsFirst = "enableNotificationsFirst",

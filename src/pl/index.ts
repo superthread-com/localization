@@ -1672,7 +1672,7 @@ const pl = {
   emailDigestSentAt: "Skrót e-mail wysłany o",
   inYourTimezone: "w Twojej strefie czasowej (%{timezone})",
   timezone: "Strefa czasowa",
-  setTimezoneAutomatically: "Ustaw strefę czasową automatycznie",
+  setAutomatically: "Ustaw automatycznie",
   searchTimezone: "Szukaj strefy czasowej",
   changeYourTimezoneInProfile: "Zmień swoją strefę czasową w profilu.",
   enableNotificationsFirst: "Najpierw włącz powiadomienia %{type}",
