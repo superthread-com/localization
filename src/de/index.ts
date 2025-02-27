@@ -1725,6 +1725,7 @@ const de = {
   timezone: "Zeitzone",
   setTimezoneAutomatically: "Zeitzone automatisch einstellen",
   searchTimezone: "Zeitzone suchen",
+  changeYourTimezoneInProfile: "Ändere deine Zeitzone im Profil.",
   enableNotificationsFirst: "Aktiviere zuerst %{type}-Benachrichtigungen",
   turnOnAIAssitantInFormatingToolbar:
     "Aktiviere den KI-Assistenten in der Textformatierungsleiste",

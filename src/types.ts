@@ -1511,6 +1511,7 @@ export enum TranslationKeys {
   Timezone = "timezone",
   SetTimezoneAutomatically = "setTimezoneAutomatically",
   SearchTimezone = "searchTimezone",
+  ChangeYourTimezoneInProfile = "changeYourTimezoneInProfile",
   EnableNotificationsFirst = "enableNotificationsFirst",
   TurnOnAIAssitantInFormatingToolbar = "turnOnAIAssitantInFormatingToolbar",
   SuperthreadSendingDataTo = "superthreadSendingDataTo",
