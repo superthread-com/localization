@@ -1719,6 +1719,7 @@ const fr: Translations = {
   inYourTimezone: "dans votre fuseau horaire (%{timezone})",
   timezone: "Fuseau horaire",
   setTimezoneAutomatically: "Définir automatiquement le fuseau horaire",
+  searchTimezone: "Rechercher un fuseau horaire",
   enableNotificationsFirst: "Activez d'abord les notifications %{type}",
   turnOnAIAssitantInFormatingToolbar:
     "Activez l'assistant AI dans la barre d'outils de formatage de texte",

@@ -1510,6 +1510,7 @@ export enum TranslationKeys {
   InYourTimezone = "inYourTimezone",
   Timezone = "timezone",
   SetTimezoneAutomatically = "setTimezoneAutomatically",
+  SearchTimezone = "searchTimezone",
   EnableNotificationsFirst = "enableNotificationsFirst",
   TurnOnAIAssitantInFormatingToolbar = "turnOnAIAssitantInFormatingToolbar",
   SuperthreadSendingDataTo = "superthreadSendingDataTo",
