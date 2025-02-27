@@ -1718,7 +1718,7 @@ const fr: Translations = {
   emailDigestSentAt: "Résumé par e-mail à",
   inYourTimezone: "dans votre fuseau horaire (%{timezone})",
   timezone: "Fuseau horaire",
-  setTimezoneAutomatically: "Définir automatiquement le fuseau horaire",
+  setAutomatically: "Définir automatiquement",
   searchTimezone: "Rechercher un fuseau horaire",
   changeYourTimezoneInProfile:
     "Changer votre fuseau horaire dans votre profil.",

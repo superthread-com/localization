@@ -1723,7 +1723,7 @@ const de = {
   emailDigestSentAt: "E-Mail-Digest um",
   inYourTimezone: "in deiner Zeitzone (%{timezone})",
   timezone: "Zeitzone",
-  setTimezoneAutomatically: "Zeitzone automatisch einstellen",
+  setAutomatically: "Automatisch einstellen",
   searchTimezone: "Zeitzone suchen",
   changeYourTimezoneInProfile: "Ändere deine Zeitzone im Profil.",
   enableNotificationsFirst: "Aktiviere zuerst %{type}-Benachrichtigungen",
