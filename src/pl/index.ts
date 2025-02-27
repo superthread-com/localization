@@ -1674,6 +1674,7 @@ const pl = {
   timezone: "Strefa czasowa",
   setTimezoneAutomatically: "Ustaw strefę czasową automatycznie",
   searchTimezone: "Szukaj strefy czasowej",
+  changeYourTimezoneInProfile: "Zmień swoją strefę czasową w profilu.",
   enableNotificationsFirst: "Najpierw włącz powiadomienia %{type}",
   turnOnAIAssitantInFormatingToolbar:
     "Włącz asystenta AI na pasku formatowania tekstu",

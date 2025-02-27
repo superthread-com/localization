@@ -1701,6 +1701,7 @@ const bs: Translations = {
   timezone: "Vremenska zona",
   setTimezoneAutomatically: "Postavi vremensku zonu automatski",
   searchTimezone: "Pretraži vremensku zonu",
+  changeYourTimezoneInProfile: "Promijenite svoju vremensku zonu u profilu.",
   enableNotificationsFirst: "Prvo omogući %{type} obavijesti",
   turnOnAIAssitantInFormatingToolbar:
     "Uključi AI asistenta u alatnoj traci za formatiranje teksta",

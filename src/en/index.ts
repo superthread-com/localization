@@ -1645,6 +1645,7 @@ const en = {
   timezone: "Timezone",
   setTimezoneAutomatically: "Set timezone automatically",
   searchTimezone: "Search timezone",
+  changeYourTimezoneInProfile: "Change your timezone in profile.",
   enableNotificationsFirst: "Enable %{type} notifications first",
   turnOnAIAssitantInFormatingToolbar:
     "Turn on AI assistant in the text formatting toolbar",

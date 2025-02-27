@@ -1720,6 +1720,8 @@ const fr: Translations = {
   timezone: "Fuseau horaire",
   setTimezoneAutomatically: "Définir automatiquement le fuseau horaire",
   searchTimezone: "Rechercher un fuseau horaire",
+  changeYourTimezoneInProfile:
+    "Changer votre fuseau horaire dans votre profil.",
   enableNotificationsFirst: "Activez d'abord les notifications %{type}",
   turnOnAIAssitantInFormatingToolbar:
     "Activez l'assistant AI dans la barre d'outils de formatage de texte",
