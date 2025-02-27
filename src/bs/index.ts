@@ -1698,6 +1698,9 @@ const bs: Translations = {
   aiFeatures: "AI funkcije",
   emailDigestSentAt: "Email sažetak poslan u",
   inYourTimezone: "u vašoj vremenskoj zoni (%{timezone})",
+  timezone: "Vremenska zona",
+  setTimezoneAutomatically: "Postavi vremensku zonu automatski",
+  searchTimezone: "Pretraži vremensku zonu",
   enableNotificationsFirst: "Prvo omogući %{type} obavijesti",
   turnOnAIAssitantInFormatingToolbar:
     "Uključi AI asistenta u alatnoj traci za formatiranje teksta",
