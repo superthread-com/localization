@@ -2136,6 +2136,11 @@ const en = {
   createNoteFromUpcomingMeeting: "Create a note from an upcoming meeting",
   noUpcomingMeetings: "No upcoming meetings. You can change the time-frame in",
   seeUpcomingMeetings: "See upcoming meetings here with the",
+  searchForAnApp: "Search for an app...",
+  meetingAppsWatched: "%{num} meeting apps watched",
+  automaticMeetingDetectionTitle: "Automatic meeting detection",
+  automaticMeetingDetectionDescription:
+    "Superthread detects when a meeting app is using the microphone and notifies you to create a note",
 };
 
 export default en as Translations;
