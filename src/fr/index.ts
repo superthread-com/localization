@@ -2082,6 +2082,7 @@ const fr: Translations = {
   sprintDatesChanged: "Dates du sprint modifiées",
   myWorkAndNotes: "Mon travail et mes notes",
   ["myWork.notes"]: "Notes",
+  ["myWork.suggestedActions"]: "Actions suggérées",
   tidyUp: "Nettoyer",
   convertTo: "Convertir en...",
   newNote: "Nouvelle note",

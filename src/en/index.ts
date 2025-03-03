@@ -1991,6 +1991,7 @@ const en = {
   sprintDatesChanged: "Sprint dates changed",
   myWorkAndNotes: "My work & notes",
   ["myWork.notes"]: "Notes",
+  ["myWork.suggestedActions"]: "Suggested actions",
   tidyUp: "Tidy up",
   convertTo: "Convert to...",
   newNote: "New note",

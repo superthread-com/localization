@@ -2090,6 +2090,7 @@ const de = {
   sprintDatesChanged: "Sprintdaten geändert",
   myWorkAndNotes: "Meine Arbeit und Notizen",
   ["myWork.notes"]: "Notizen",
+  ["myWork.suggestedActions"]: "Vorgeschlagene Aktionen",
   tidyUp: "Aufräumen",
   convertTo: "Konvertieren zu...",
   newNote: "Neue Notiz",
