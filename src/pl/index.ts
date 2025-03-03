@@ -2174,6 +2174,11 @@ const pl = {
   noUpcomingMeetings:
     "Brak przyszłych spotkań. Możesz zmienić przedział czasu w",
   seeUpcomingMeetings: "Zobacz przyszłe spotkania tutaj z",
+  searchForAnApp: "Szukaj aplikacji...",
+  meetingAppsWatched: "%{num} aplikacji do spotkań śledzonych",
+  automaticMeetingDetectionTitle: "Automatyczne wykrywanie spotkań",
+  automaticMeetingDetectionDescription:
+    "Superthread wykrywa, kiedy aplikacja do spotkań używa mikrofonu i powiadamia Cię o utworzeniu notatki",
 };
 
 export default pl as Translations;

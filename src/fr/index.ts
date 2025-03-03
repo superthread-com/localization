@@ -2237,6 +2237,11 @@ const fr: Translations = {
   noUpcomingMeetings:
     "Aucune réunion à venir. Vous pouvez changer le délai dans",
   seeUpcomingMeetings: "Voir les réunions à venir ici avec le",
+  searchForAnApp: "Rechercher une application...",
+  meetingAppsWatched: "%{num} applications de réunion suivies",
+  automaticMeetingDetectionTitle: "Détection automatique de réunion",
+  automaticMeetingDetectionDescription:
+    "Superthread détecte lorsqu'une application de réunion utilise le microphone et vous notifie pour créer une note",
 };
 
 export default fr as Translations;

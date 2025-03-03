@@ -2175,6 +2175,11 @@ const bs: Translations = {
   noUpcomingMeetings:
     "Nema nadolazećih sastanaka. Možete promijeniti vremenski okvir u",
   seeUpcomingMeetings: "Vidi nadolazeće sastanke ovdje s",
+  searchForAnApp: "Pretraži aplikaciju...",
+  meetingAppsWatched: "%{num} aplikacija za sastanke praćene",
+  automaticMeetingDetectionTitle: "Automatsko otkrivanje sastanka",
+  automaticMeetingDetectionDescription:
+    "Superthread otkriva kada aplikacija za sastanke koristi mikrofon i obavještava vas da kreirate bilješku",
 };
 
 export default bs;

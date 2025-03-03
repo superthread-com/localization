@@ -2242,6 +2242,11 @@ const de = {
     "Notiz aus einem zukünftigen Treffen erstellen",
   noUpcomingMeetings: "Keine zukünftigen Treffen. Sie können den Zeitraum in",
   seeUpcomingMeetings: "Zukünftige Treffen hier mit dem",
+  searchForAnApp: "Suche nach einer App...",
+  meetingAppsWatched: "%{num} Meeting-Apps überwacht",
+  automaticMeetingDetectionTitle: "Automatische Meeting-Erkennung",
+  automaticMeetingDetectionDescription:
+    "Superthread erkennt, wenn eine Meeting-App das Mikrofon verwendet, und benachrichtigt Sie, um eine Notiz zu erstellen",
 };
 
 export default de as Translations;
