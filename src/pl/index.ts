@@ -2024,6 +2024,8 @@ const pl = {
   sprintDatesChanged: "Daty sprintu zmienione",
   myWorkAndNotes: "Moja praca i notatki",
   ["myWork.notes"]: "Notatki",
+  suggestedActions: "Sugerowane działania",
+  noSuggestedActions: "Brak sugerowanych działań",
   tidyUp: "Uporządkować",
   convertTo: "Konwertuj do...",
   newNote: "Nowa notatka",

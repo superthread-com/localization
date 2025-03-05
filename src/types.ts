@@ -1798,6 +1798,8 @@ export enum TranslationKeys {
   SprintDatesChanged = "sprintDatesChanged",
   MyWorkAndNotes = "myWorkAndNotes",
   MyWorkNotes = "myWork.notes",
+  SuggestedActions = "suggestedActions",
+  NoSuggestedActions = "noSuggestedActions",
   TidyUp = "tidyUp",
   ConvertTo = "convertTo",
   NewNote = "newNote",

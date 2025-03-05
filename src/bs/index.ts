@@ -2027,6 +2027,8 @@ const bs: Translations = {
   sprintDatesChanged: "Datumi ciklusa promijenjeni",
   myWorkAndNotes: "Moj rad i bilješke",
   ["myWork.notes"]: "Bilješke",
+  suggestedActions: "Predložene akcije",
+  noSuggestedActions: "Nema predloženih akcija",
   tidyUp: "Očisti",
   convertTo: "Pretvori u...",
   newNote: "Nova bilješka",
