@@ -2181,6 +2181,7 @@ const bs: Translations = {
   automaticMeetingDetectionTitle: "Automatsko otkrivanje sastanka",
   automaticMeetingDetectionDescription:
     "Superthread otkriva kada aplikacija za sastanke koristi mikrofon i obavještava vas da kreirate bilješku",
+  joinMeetingFromNote: "Pridruži se %{provider} sastanku (%{time})",
 };
 
 export default bs;

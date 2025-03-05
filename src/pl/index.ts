@@ -2180,6 +2180,7 @@ const pl = {
   automaticMeetingDetectionTitle: "Automatyczne wykrywanie spotkań",
   automaticMeetingDetectionDescription:
     "Superthread wykrywa, kiedy aplikacja do spotkań używa mikrofonu i powiadamia Cię o utworzeniu notatki",
+  joinMeetingFromNote: "Dołącz do spotkania %{provider} (%{time})",
 };
 
 export default pl as Translations;
