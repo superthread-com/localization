@@ -2242,6 +2242,7 @@ const fr: Translations = {
   automaticMeetingDetectionTitle: "Détection automatique de réunion",
   automaticMeetingDetectionDescription:
     "Superthread détecte lorsqu'une application de réunion utilise le microphone et vous notifie pour créer une note",
+  joinMeetingFromNote: "Rejoindre la réunion %{provider} (%{time})",
 };
 
 export default fr as Translations;
