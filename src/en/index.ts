@@ -2141,6 +2141,7 @@ const en = {
   automaticMeetingDetectionTitle: "Automatic meeting detection",
   automaticMeetingDetectionDescription:
     "Superthread detects when a meeting app is using the microphone and notifies you to create a note",
+  joinMeetingFromNote: "Join %{provider} meeting (%{time})",
 };
 
 export default en as Translations;
