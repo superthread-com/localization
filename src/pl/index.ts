@@ -1747,7 +1747,7 @@ const pl = {
   inviteNewMembers: "Zaproś nowych członków",
   spaceDetails: "Szczegóły przestrzeni",
   makeBoardFullWidth: "Ustaw tablicę na pełną szerokość",
-  askAiAssistantSearch: "Zapytaj AI na podstawie swoich kart i stron",
+  askAiAssistantSearch: "Zapytaj AI na podstawie swoich kart, stron i notatek",
   backToSearchResults: "Wróć do wyników wyszukiwania",
   sources: "Źródła",
   askAiQuestionLong: "Pytanie musi mieć co najmniej 10 znaków.",
@@ -2182,6 +2182,8 @@ const pl = {
   automaticMeetingDetectionDescription:
     "Superthread wykrywa, kiedy aplikacja do spotkań używa mikrofonu i powiadamia Cię o utworzeniu notatki",
   joinMeetingFromNote: "Dołącz do spotkania %{provider} (%{time})",
+  searchPlaceholderAskAiNotes: "Zadaj pytanie dotyczące swoich notatek...",
+  askAi: "Zapytaj AI",
 };
 
 export default pl as Translations;

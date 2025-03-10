@@ -1716,7 +1716,7 @@ const en = {
   inviteNewMembers: "Invite new members",
   spaceDetails: "Space details",
   makeBoardFullWidth: "Make board full width",
-  askAiAssistantSearch: "Ask AI based on your cards and pages",
+  askAiAssistantSearch: "Ask AI based on your cards, pages, and notes",
   backToSearchResults: "Back to search results",
   sources: "Sources",
   askAiQuestionLong: "Question should have at least 10 characters.",
@@ -2145,6 +2145,8 @@ const en = {
   automaticMeetingDetectionDescription:
     "Superthread detects when a meeting app is using the microphone and notifies you to create a note",
   joinMeetingFromNote: "Join %{provider} meeting (%{time})",
+  searchPlaceholderAskAiNotes: "Ask a question about your notes...",
+  askAi: "Ask AI",
 };
 
 export default en as Translations;

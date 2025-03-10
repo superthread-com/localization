@@ -1801,7 +1801,8 @@ const de = {
   inviteNewMembers: "Neue Mitglieder einladen",
   spaceDetails: "Raumdetails",
   makeBoardFullWidth: "Tafel auf volle Breite einstellen",
-  askAiAssistantSearch: "Frag die KI basierend auf deinen Karten und Seiten",
+  askAiAssistantSearch:
+    "Frag die KI basierend auf deinen Karten, Seiten und Notizen",
   backToSearchResults: "Zurück zu den Suchergebnissen",
   sources: "Quellen",
   askAiQuestionLong: "Die Frage sollte mindestens 10 Zeichen lang sein.",
@@ -2251,6 +2252,8 @@ const de = {
   automaticMeetingDetectionDescription:
     "Superthread erkennt, wenn eine Meeting-App das Mikrofon verwendet, und benachrichtigt Sie, um eine Notiz zu erstellen",
   joinMeetingFromNote: "An %{provider} meeting beitreten (%{time})",
+  searchPlaceholderAskAiNotes: "Stellen Sie eine Frage zu Ihren Notizen...",
+  askAi: "Frage AI",
 };
 
 export default de as Translations;
