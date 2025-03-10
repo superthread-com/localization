@@ -1929,7 +1929,7 @@ export enum TranslationKeys {
   MeetingAppsWatched = "meetingAppsWatched",
   AutomaticMeetingDetectionTitle = "automaticMeetingDetectionTitle",
   AutomaticMeetingDetectionDescription = "automaticMeetingDetectionDescription",
-  JoinMeetingFromNote = "joinMeetingFromNote"
+  JoinMeetingFromNote = "joinMeetingFromNote",
 }
 
 export type Translations = Record<TranslationKeys, string>;
