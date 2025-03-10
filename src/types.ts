@@ -111,6 +111,7 @@ export enum TranslationKeys {
   MenuAlignLeft = "menu.align-left",
   MenuAlignCenter = "menu.align-center",
   MenuAlignRight = "menu.align-right",
+  MenuAlignJustify = "menu.align-justify",
   EditorClickToDownload = "editor.clickToDownload",
   EditorLoading = "editor.loading",
   EditorCharacterLimitReachedTryFile = "editor.characterLimitReachedTryFile",
@@ -1928,7 +1929,7 @@ export enum TranslationKeys {
   MeetingAppsWatched = "meetingAppsWatched",
   AutomaticMeetingDetectionTitle = "automaticMeetingDetectionTitle",
   AutomaticMeetingDetectionDescription = "automaticMeetingDetectionDescription",
-  JoinMeetingFromNote = "joinMeetingFromNote",
+  JoinMeetingFromNote = "joinMeetingFromNote"
 }
 
 export type Translations = Record<TranslationKeys, string>;

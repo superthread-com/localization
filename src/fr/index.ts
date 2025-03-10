@@ -154,6 +154,7 @@ const fr: Translations = {
   ["menu.align-left"]: "Aligner à gauche",
   ["menu.align-center"]: "Aligner au milieu",
   ["menu.align-right"]: "Aligner à droite",
+  ["menu.align-justify"]: "Aligner par blocs",
   // onboarding
   pickAWorkspaceName: "Choisir un nom pour votre espace de travail",
   creatingWorkspace: "En train de creer votre espace de travail",

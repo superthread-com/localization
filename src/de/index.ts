@@ -126,6 +126,7 @@ const de = {
   "menu.align-left": "Links ausrichten",
   "menu.align-center": "Zentriert ausrichten",
   "menu.align-right": "Rechts ausrichten",
+  "menu.align-justify": "Blocksatz ausrichten",
   "editor.clickToDownload": "Klicken zum Herunterladen",
   "editor.loading": "Wird geladen",
   "editor.characterLimitReachedTryFile":
