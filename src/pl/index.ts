@@ -120,7 +120,7 @@ const pl = {
   "menu.align-left": "Wyrównaj do lewej",
   "menu.align-center": "Wyrównaj do środka",
   "menu.align-right": "Wyrównaj do prawej",
-
+  "menu.align-justify": "Wyrównaj do szerokości",
   "editor.clickToDownload": "Kliknij, aby pobrać",
   "editor.loading": "Ładowanie",
   "editor.characterLimitReachedTryFile":

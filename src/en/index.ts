@@ -125,6 +125,7 @@ const en = {
   "menu.align-left": "Align left",
   "menu.align-center": "Align center",
   "menu.align-right": "Align right",
+  "menu.align-justify": "Align justify",
   "editor.clickToDownload": "Click to download",
   "editor.loading": "Loading",
   "editor.characterLimitReachedTryFile":

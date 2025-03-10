@@ -1049,6 +1049,7 @@ const bs: Translations = {
   "menu.align-left": "Poravnaj lijevo",
   "menu.align-center": "Poravnaj po centru",
   "menu.align-right": "Poravnaj desno",
+  "menu.align-justify": "Poravnaj po širini",
   "editor.clickToDownload": "Klikni da preuzmeš",
   "editor.loading": "Učitavanje",
   "editor.characterLimitReachedTryFile":
