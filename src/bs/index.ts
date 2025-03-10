@@ -1775,7 +1775,8 @@ const bs: Translations = {
   inviteNewMembers: "Pozovi nove članove",
   spaceDetails: "Detalji prostora",
   makeBoardFullWidth: "Postavi ploču na cijelu širinu",
-  askAiAssistantSearch: "Pitajte AI na osnovu vaših kartica i stranica",
+  askAiAssistantSearch:
+    "Pitajte AI na osnovu vaših kartica, stranica i bilješki",
   backToSearchResults: "Nazad na rezultate pretrage",
   sources: "Izvori",
   askAiQuestionLong: "Pitanje treba imati najmanje 10 znakova.",
@@ -2184,6 +2185,8 @@ const bs: Translations = {
   automaticMeetingDetectionDescription:
     "Superthread otkriva kada aplikacija za sastanke koristi mikrofon i obavještava vas da kreirate bilješku",
   joinMeetingFromNote: "Pridruži se %{provider} sastanku (%{time})",
+  searchPlaceholderAskAiNotes: "Postavite pitanje o svojim bilješkama...",
+  askAi: "Pitaj AI",
 };
 
 export default bs;
