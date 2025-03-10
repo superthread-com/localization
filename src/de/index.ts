@@ -2091,7 +2091,7 @@ const de = {
   sprintCancelled: "Sprint abgebrochen",
   sprintDatesChanged: "Sprintdaten geändert",
   myWorkAndNotes: "Meine Arbeit und Notizen",
-  ["myWork.notes"]: "Notizen",
+  notes: "Notizen",
   suggestedActions: "Vorgeschlagene Aktionen",
   noSuggestedActions: "Keine vorgeschlagenen Aktionen",
   tidyUp: "Aufräumen",

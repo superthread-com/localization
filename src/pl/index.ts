@@ -2023,7 +2023,7 @@ const pl = {
   sprintCancelled: "Sprint anulowany",
   sprintDatesChanged: "Daty sprintu zmienione",
   myWorkAndNotes: "Moja praca i notatki",
-  ["myWork.notes"]: "Notatki",
+  notes: "Notatki",
   suggestedActions: "Sugerowane działania",
   noSuggestedActions: "Brak sugerowanych działań",
   tidyUp: "Uporządkować",
