@@ -125,6 +125,7 @@ const en = {
   "menu.align-left": "Align left",
   "menu.align-center": "Align center",
   "menu.align-right": "Align right",
+  "menu.align-justify": "Align justify",
   "editor.clickToDownload": "Click to download",
   "editor.loading": "Loading",
   "editor.characterLimitReachedTryFile":
@@ -1715,7 +1716,7 @@ const en = {
   inviteNewMembers: "Invite new members",
   spaceDetails: "Space details",
   makeBoardFullWidth: "Make board full width",
-  askAiAssistantSearch: "Ask AI based on your cards and pages",
+  askAiAssistantSearch: "Ask AI based on your cards, pages, and notes",
   backToSearchResults: "Back to search results",
   sources: "Sources",
   askAiQuestionLong: "Question should have at least 10 characters.",
@@ -1990,7 +1991,7 @@ const en = {
   sprintCancelled: "Sprint cancelled",
   sprintDatesChanged: "Sprint dates changed",
   myWorkAndNotes: "My work & notes",
-  ["myWork.notes"]: "Notes",
+  notes: "Notes",
   suggestedActions: "Suggested actions",
   noSuggestedActions: "No suggested actions",
   tidyUp: "Tidy up",
@@ -2144,6 +2145,8 @@ const en = {
   automaticMeetingDetectionDescription:
     "Superthread detects when a meeting app is using the microphone and notifies you to create a note",
   joinMeetingFromNote: "Join %{provider} meeting (%{time})",
+  searchPlaceholderAskAiNotes: "Ask a question about your notes...",
+  askAi: "Ask AI",
 };
 
 export default en as Translations;

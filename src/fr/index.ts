@@ -154,6 +154,7 @@ const fr: Translations = {
   ["menu.align-left"]: "Aligner à gauche",
   ["menu.align-center"]: "Aligner au milieu",
   ["menu.align-right"]: "Aligner à droite",
+  ["menu.align-justify"]: "Aligner par blocs",
   // onboarding
   pickAWorkspaceName: "Choisir un nom pour votre espace de travail",
   creatingWorkspace: "En train de creer votre espace de travail",
@@ -1798,7 +1799,8 @@ const fr: Translations = {
   inviteNewMembers: "Inviter de nouveaux membres",
   spaceDetails: "Détails de l'espace",
   makeBoardFullWidth: "Rendre le tableau en pleine largeur",
-  askAiAssistantSearch: "Demander à l'AI en fonction de vos cartes et pages",
+  askAiAssistantSearch:
+    "Demander à l'IA en fonction de vos cartes, pages et notes",
   backToSearchResults: "Retour aux résultats de recherche",
   sources: "Sources",
   askAiQuestionLong: "La question doit comporter au moins 10 caractères.",
@@ -2081,7 +2083,7 @@ const fr: Translations = {
   sprintCancelled: "Sprint annulé",
   sprintDatesChanged: "Dates du sprint modifiées",
   myWorkAndNotes: "Mon travail et mes notes",
-  ["myWork.notes"]: "Notes",
+  notes: "Notes",
   suggestedActions: "Actions suggérées",
   noSuggestedActions: "Aucune action suggérée",
   tidyUp: "Nettoyer",
@@ -2245,6 +2247,8 @@ const fr: Translations = {
   automaticMeetingDetectionDescription:
     "Superthread détecte lorsqu'une application de réunion utilise le microphone et vous notifie pour créer une note",
   joinMeetingFromNote: "Rejoindre la réunion %{provider} (%{time})",
+  searchPlaceholderAskAiNotes: "Posez une question sur vos notes...",
+  askAi: "Demandez à l'IA",
 };
 
 export default fr as Translations;

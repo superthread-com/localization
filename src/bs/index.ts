@@ -1049,6 +1049,7 @@ const bs: Translations = {
   "menu.align-left": "Poravnaj lijevo",
   "menu.align-center": "Poravnaj po centru",
   "menu.align-right": "Poravnaj desno",
+  "menu.align-justify": "Poravnaj po širini",
   "editor.clickToDownload": "Klikni da preuzmeš",
   "editor.loading": "Učitavanje",
   "editor.characterLimitReachedTryFile":
@@ -1774,7 +1775,8 @@ const bs: Translations = {
   inviteNewMembers: "Pozovi nove članove",
   spaceDetails: "Detalji prostora",
   makeBoardFullWidth: "Postavi ploču na cijelu širinu",
-  askAiAssistantSearch: "Pitajte AI na osnovu vaših kartica i stranica",
+  askAiAssistantSearch:
+    "Pitajte AI na osnovu vaših kartica, stranica i bilješki",
   backToSearchResults: "Nazad na rezultate pretrage",
   sources: "Izvori",
   askAiQuestionLong: "Pitanje treba imati najmanje 10 znakova.",
@@ -2026,7 +2028,7 @@ const bs: Translations = {
   sprintCancelled: "Otkazan ciklus",
   sprintDatesChanged: "Datumi ciklusa promijenjeni",
   myWorkAndNotes: "Moj rad i bilješke",
-  ["myWork.notes"]: "Bilješke",
+  notes: "Bilješke",
   suggestedActions: "Predložene akcije",
   noSuggestedActions: "Nema predloženih akcija",
   tidyUp: "Očisti",
@@ -2183,6 +2185,8 @@ const bs: Translations = {
   automaticMeetingDetectionDescription:
     "Superthread otkriva kada aplikacija za sastanke koristi mikrofon i obavještava vas da kreirate bilješku",
   joinMeetingFromNote: "Pridruži se %{provider} sastanku (%{time})",
+  searchPlaceholderAskAiNotes: "Postavite pitanje o svojim bilješkama...",
+  askAi: "Pitaj AI",
 };
 
 export default bs;
