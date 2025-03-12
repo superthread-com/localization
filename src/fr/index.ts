@@ -1594,6 +1594,7 @@ const fr: Translations = {
   ["my-work"]: "Mon travail",
   ["myWork.assigned"]: "Assigné à %{userName}",
   ["myWork.created"]: "Créé par %{userName}",
+  ["myWork.notes"]: "Notes",
   ["myWorkNoResults.created"]: "Il n'y a pas de cartes créées par vous",
   ["myWorkNoResults.assigned"]:
     "Il n'y a pas de cartes qui vous sont assignées",
