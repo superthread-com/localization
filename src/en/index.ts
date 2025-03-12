@@ -1525,6 +1525,7 @@ const en = {
   ["my-work"]: "My work",
   ["myWork.assigned"]: "Assigned to %{userName}",
   ["myWork.created"]: "Created by %{userName}",
+  ["myWork.notes"]: "Notes",
   ["myWorkNoResults.created"]: "There are no cards created by you",
   ["myWorkNoResults.assigned"]: "There are no cards assigned to you",
   ["memberNoResults.assigned"]: "There are no cards assigned to %{userName}",

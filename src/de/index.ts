@@ -1594,6 +1594,7 @@ const de = {
   ["my-work"]: "Mein Arbeitsbereich",
   ["myWork.assigned"]: "Zugewiesen an %{userName}",
   ["myWork.created"]: "Erstellt von %{userName}",
+  ["myWork.notes"]: "Notizen",
   ["myWorkNoResults.created"]: "Es gibt keine von dir erstellten Karten",
   ["myWorkNoResults.assigned"]: "Es gibt keine Karten, die dir zugewiesen sind",
   ["memberNoResults.assigned"]:
