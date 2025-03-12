@@ -1562,6 +1562,7 @@ const pl = {
   ["my-work"]: "Moja praca",
   ["myWork.assigned"]: "Przypisane do %{userName}",
   ["myWork.created"]: "Utworzone przez %{userName}",
+  ["myWork.notes"]: "Notatki",
   ["myWorkNoResults.created"]: "Nie ma kart utworzonych przez ciebie",
   ["myWorkNoResults.assigned"]: "Nie ma kart przypisanych do ciebie",
   ["memberNoResults.assigned"]: "Nie ma kart przypisanych do %{userName}",
