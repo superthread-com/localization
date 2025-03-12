@@ -879,7 +879,8 @@ const de = {
   emailAdresses: "E-Mail-Adressen, durch Kommas getrennt",
   person1Email: "person1@example.com, person2@example.com…",
   dangerZone: "Gefahrenzone",
-  notOwnerOrAdmin: "Sie sind weder Eigentümer noch Administrator dieses Arbeitsbereichs",
+  notOwnerOrAdmin:
+    "Sie sind weder Eigentümer noch Administrator dieses Arbeitsbereichs",
   archiveWorkspace: "Arbeitsbereich archivieren",
   archiveWorkspaceDescription:
     "Alle Mitglieder verlieren den Zugriff auf den Arbeitsbereich, wenn er archiviert wird. Alle öffentlich zugänglichen Inhalte bleiben weiterhin verfügbar.",
