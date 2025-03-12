@@ -2195,6 +2195,7 @@ const bs: Translations = {
   joinMeetingFromNote: "Pridruži se %{provider} sastanku (%{time})",
   searchPlaceholderAskAiNotes: "Postavite pitanje o svojim bilješkama...",
   askAi: "Pitaj AI",
+  transcribeHere: "Pokreni transkripciju ovdje",
 };
 
 export default bs;

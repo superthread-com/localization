@@ -2192,6 +2192,7 @@ const pl = {
   joinMeetingFromNote: "Dołącz do spotkania %{provider} (%{time})",
   searchPlaceholderAskAiNotes: "Zadaj pytanie dotyczące swoich notatek...",
   askAi: "Zapytaj AI",
+  transcribeHere: "Transkrybuj tutaj zamiast tego",
 };
 
 export default pl as Translations;
