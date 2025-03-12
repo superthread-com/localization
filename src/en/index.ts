@@ -2155,7 +2155,7 @@ const en = {
   joinMeetingFromNote: "Join %{provider} meeting (%{time})",
   searchPlaceholderAskAiNotes: "Ask a question about your notes...",
   askAi: "Ask AI",
-  transcribeHere: "Transcribe here instead",
+  transcribeHereInsteadPositive: "Transcribe here instead",
 };
 
 export default en as Translations;

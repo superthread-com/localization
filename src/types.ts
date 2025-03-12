@@ -1940,6 +1940,7 @@ export enum TranslationKeys {
   JoinMeetingFromNote = "joinMeetingFromNote",
   SearchPlaceholderAskAiNotes = "searchPlaceholderAskAiNotes",
   AskAi = "askAi",
+  TranscribeHereInsteadPositive = "transcribeHereInsteadPositive",
 }
 
 export type Translations = Record<TranslationKeys, string>;

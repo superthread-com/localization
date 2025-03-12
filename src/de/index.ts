@@ -2262,7 +2262,7 @@ const de = {
   joinMeetingFromNote: "An %{provider} meeting beitreten (%{time})",
   searchPlaceholderAskAiNotes: "Stellen Sie eine Frage zu Ihren Notizen...",
   askAi: "Frage AI",
-  transcribeHere: "Hier stattdessen transkribieren",
+  transcribeHereInsteadPositive: "Hier stattdessen transkribieren",
 };
 
 export default de as Translations;
