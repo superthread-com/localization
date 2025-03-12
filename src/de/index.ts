@@ -878,6 +878,19 @@ const de = {
   validEmail: "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
   emailAdresses: "E-Mail-Adressen, durch Kommas getrennt",
   person1Email: "person1@example.com, person2@example.com…",
+  dangerZone: "Gefahrenzone",
+  notOwnerOrAdmin:
+    "Sie sind weder Eigentümer noch Administrator dieses Arbeitsbereichs",
+  archiveWorkspace: "Arbeitsbereich archivieren",
+  archiveWorkspaceDescription:
+    "Alle Mitglieder verlieren den Zugriff auf den Arbeitsbereich, wenn er archiviert wird. Alle öffentlich zugänglichen Inhalte bleiben weiterhin verfügbar.",
+  archiveWorkspaceDescriptionDetail:
+    "Alle Mitglieder verlieren den Zugriff auf diesen Arbeitsbereich. Wenn Sie diese Aktion rückgängig machen möchten, senden Sie eine E-Mail an contact@superthread.com.",
+  deleteWorkspace: "Arbeitsbereich löschen",
+  deleteWorkspaceDescription:
+    "Alle Mitglieder verlieren den Zugriff auf den Arbeitsbereich und seine Daten, wenn er gelöscht wird. Diese Aktion kann nicht rückgängig gemacht werden.",
+  deleteWorkspaceDescriptionDetail:
+    "Alle Mitglieder verlieren den Zugriff auf diesen Arbeitsbereich und seine Daten. Diese Aktion kann nicht rückgängig gemacht werden.",
   addToSpaces: "Zu Räumen hinzufügen",
   addSpaces: "Räume hinzufügen",
   browseProjects: "Alle Räume durchsuchen",
