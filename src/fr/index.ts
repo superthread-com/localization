@@ -2257,6 +2257,7 @@ const fr: Translations = {
   joinMeetingFromNote: "Rejoindre la réunion %{provider} (%{time})",
   searchPlaceholderAskAiNotes: "Posez une question sur vos notes...",
   askAi: "Demandez à l'IA",
+  transcribeHereInsteadPositive: "Transcrire ici à la place",
 };
 
 export default fr as Translations;
