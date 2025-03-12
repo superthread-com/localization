@@ -879,6 +879,19 @@ const pl = {
   timeCreated: "Czas utworzenia:",
   createdDate: "Data utworzenia",
   updatedDate: "Data aktualizacji",
+  dangerZone: "Obszar zagrożenia",
+  notOwnerOrAdmin:
+    "Nie jesteś właścicielem ani administratorem tego obszaru roboczego",
+  archiveWorkspace: "Archiwizuj obszar roboczy",
+  archiveWorkspaceDescription:
+    "Wszystkie członkowie stracą dostęp do obszaru roboczego, jeśli zostanie on zarchiwizowany. Wszelkie udostępnione publicznie treści będą nadal dostępne.",
+  archiveWorkspaceDescriptionDetail:
+    "Wszystkie członkowie stracą dostęp do tego obszaru roboczego. Jeśli chcesz cofnąć tę decyzję, wyślij e-mail na adres contact@superthread.com.",
+  deleteWorkspace: "Usuń obszar roboczy",
+  deleteWorkspaceDescription:
+    "Wszystkie członkowie stracą dostęp do obszaru roboczego i jego danych, jeśli zostanie usunięty. Ta operacja nie może zostać cofnięta.",
+  deleteWorkspaceDescriptionDetail:
+    "Wszystkie członkowie stracą dostęp do tego obszaru roboczego i jego danych. Ta operacja nie może zostać cofnięta.",
   numberOfImportedBoards: "Liczba zaimportowanych tablic:",
   numberOfImportedUsers: "Liczba zaimportowanych użytkowników:",
   importingIsFinished: "Import zakończony",

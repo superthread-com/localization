@@ -877,6 +877,18 @@ const en = {
   importers: "Importers",
   general: "General",
   manageWorkspaceSettings: "Manage general workspace settings",
+  dangerZone: "Danger zone",
+  notOwnerOrAdmin: "You are not an owner or admin of this workspace",
+  archiveWorkspace: "Archive workspace",
+  archiveWorkspaceDescription:
+    "All members will lose access to a workspace if it is archived. Any content shared publicly will still be available.",
+  archiveWorkspaceDescriptionDetail:
+    "All members will lose access to this workspace. If you want to undo this action, email contact@superthread.com.",
+  deleteWorkspace: "Delete workspace",
+  deleteWorkspaceDescription:
+    "All members will lose access to a workspace and its data if it is deleted. This cannot be undone.",
+  deleteWorkspaceDescriptionDetail:
+    "All members will lose access to this workspace and its data. This cannot be undone.",
   avatarAppearance: "Avatar appearance",
   uploadImage: "Upload image",
   successfullySaved: "Successfully saved",

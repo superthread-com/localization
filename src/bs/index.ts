@@ -878,6 +878,18 @@ const bs: Translations = {
   createSpace: "Kreiraj prostor",
   addADescription: "Dodaj opis",
   showingNumberOfSpaces: "Prikazano je %{num} od ukupno %{totalNum} prostora",
+  dangerZone: "Zona opasnosti",
+  notOwnerOrAdmin: "Niste vlasnik ili administrator ovog workspace-a",
+  archiveWorkspace: "Arhiviraj workspace",
+  archiveWorkspaceDescription:
+    "Svi članovi izgubit će pristup workspace-u ako se arhivira. Svi javno dostupni sadržaji će i dalje biti dostupni.",
+  archiveWorkspaceDescriptionDetail:
+    "Svi članovi izgubit će pristup ovom workspace-u. Ako želite poništiti ovu akciju, pošaljite e-mail na contact@superthread.com.",
+  deleteWorkspace: "Obriši workspace",
+  deleteWorkspaceDescription:
+    "Svi članovi izgubit će pristup workspace-u i njegovim podacima ako se obriše. Ova akcija ne može biti poništena.",
+  deleteWorkspaceDescriptionDetail:
+    "Svi članovi izgubit će pristup ovom workspace-u i njegovim podacima. Ova akcija ne može biti poništena.",
   noResultsFoundFor: 'Nema rezultata koji odgovaraju "%{query}"',
   changeDescription: "Promijeni opis",
   contents: "Sadržaj",

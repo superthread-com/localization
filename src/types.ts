@@ -814,6 +814,14 @@ export enum TranslationKeys {
   Importers = "importers",
   General = "general",
   ManageWorkspaceSettings = "manageWorkspaceSettings",
+  DangerZone = "dangerZone",
+  NotOwnerOrAdmin = "notOwnerOrAdmin",
+  ArchiveWorkspace = "archiveWorkspace",
+  ArchiveWorkspaceDescription = "archiveWorkspaceDescription",
+  ArchiveWorkspaceDescriptionDetail = "archiveWorkspaceDescriptionDetail",
+  DeleteWorkspace = "deleteWorkspace",
+  DeleteWorkspaceDescription = "deleteWorkspaceDescription",
+  DeleteWorkspaceDescriptionDetail = "deleteWorkspaceDescriptionDetail",
   AvatarAppearance = "avatarAppearance",
   UploadImage = "uploadImage",
   SuccessfullySaved = "successfullySaved",
@@ -1940,7 +1948,7 @@ export enum TranslationKeys {
   JoinMeetingFromNote = "joinMeetingFromNote",
   SearchPlaceholderAskAiNotes = "searchPlaceholderAskAiNotes",
   AskAi = "askAi",
-  TranscribeHereInsteadPositive = "transcribeHereInsteadPositive",
+  TranscribeHereInsteadPositive = "transcribeHereInsteadPositive"
 }
 
 export type Translations = Record<TranslationKeys, string>;

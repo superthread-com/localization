@@ -879,6 +879,19 @@ const fr: Translations = {
   person1Email: "personne1@example.com, personne2@example.com…",
   addToSpaces: "Ajouter aux espaces",
   addSpaces: "Ajouter des espaces",
+  dangerZone: "Zone de danger",
+  notOwnerOrAdmin:
+    "Vous n'êtes pas un propriétaire ou un administrateur de cet espace de travail",
+  archiveWorkspace: "Archiver l'espace de travail",
+  archiveWorkspaceDescription:
+    "Tous les membres perdront l'accès à l'espace de travail si celui-ci est archivé. Tout contenu partagé publiquement restera disponible.",
+  archiveWorkspaceDescriptionDetail:
+    "Tous les membres perdront l'accès à cet espace de travail. Si vous souhaitez annuler cette action, envoyez un e-mail à contact@superthread.com.",
+  deleteWorkspace: "Supprimer l'espace de travail",
+  deleteWorkspaceDescription:
+    "Tous les membres perdront l'accès à l'espace de travail et ses données si celui-ci est supprimé. Cette action ne peut pas être annulée.",
+  deleteWorkspaceDescriptionDetail:
+    "Tous les membres perdront l'accès à cet espace de travail et ses données. Cette action ne peut pas être annulée.",
   browseProjects: "Parcourir tous les espaces",
   createAndBrowseSpaces: "Créer et parcourir des espaces",
   nameIsRequired: "Un nom est requis",
