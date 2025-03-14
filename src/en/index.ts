@@ -1040,6 +1040,8 @@ const en = {
     "If you want to delete this space, type its name below.",
   ifYouWantToDeleteResource:
     "If you want to delete this %{resourceType}, type its name below.",
+  ifYouWantToArchiveResource:
+    "If you want to archive this %{resourceType}, type its name below.",
   typeTheNameOfTheSpace: "Type the name of the space",
   removeMember: "Remove member",
   leaveWorkspace: "Leave workspace",

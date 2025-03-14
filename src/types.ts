@@ -954,6 +954,7 @@ export enum TranslationKeys {
   DeleteSpace = "deleteSpace",
   IfYouWantToDeleteSpace = "ifYouWantToDeleteSpace",
   IfYouWantToDeleteResource = "ifYouWantToDeleteResource",
+  IfYouWantToArchiveResource = "ifYouWantToArchiveResource",
   TypeTheNameOfTheSpace = "typeTheNameOfTheSpace",
   RemoveMember = "removeMember",
   LeaveWorkspace = "leaveWorkspace",
