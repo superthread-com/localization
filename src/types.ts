@@ -1408,6 +1408,7 @@ export enum TranslationKeys {
   MyWork = "my-work",
   MyWorkAssigned = "myWork.assigned",
   MyWorkCreated = "myWork.created",
+  MyWorkNotes = "myWork.notes",
   MyWorkNoResultsCreated = "myWorkNoResults.created",
   MyWorkNoResultsAssigned = "myWorkNoResults.assigned",
   MemberNoResultsAssigned = "memberNoResults.assigned",

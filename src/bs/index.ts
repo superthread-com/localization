@@ -919,6 +919,7 @@ const bs: Translations = {
   newCard: "Nova kartica",
   ["myWork.assigned"]: "Dodijeljeno %{userName}",
   ["myWork.created"]: "Kreirano od %{userName}",
+  ["myWork.notes"]: "Bilješke",
   upgradePlan: "Nadogradi plan",
   upgradePrivateSpaceTitle: "Nadogradi za korištenje privatnih space-ova",
   upgradePrivateSpaceDescription:
