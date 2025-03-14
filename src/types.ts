@@ -1951,6 +1951,9 @@ export enum TranslationKeys {
   SearchPlaceholderAskAiNotes = "searchPlaceholderAskAiNotes",
   AskAi = "askAi",
   TranscribeHereInsteadPositive = "transcribeHereInsteadPositive",
+  NotesAreBetterWithOurApp = "notesAreBetterWithOurApp",
+  DownloadTheMacOSApp = "downloadTheMacOSApp",
+  ToTranscribeMeetings = "toTranscribeMeetings",
 }
 
 export type Translations = Record<TranslationKeys, string>;

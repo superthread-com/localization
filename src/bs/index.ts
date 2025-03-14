@@ -2211,6 +2211,9 @@ const bs: Translations = {
   searchPlaceholderAskAiNotes: "Postavite pitanje o svojim bilješkama...",
   askAi: "Pitaj AI",
   transcribeHereInsteadPositive: "Pokreni transkripciju ovdje",
+  notesAreBetterWithOurApp: "Bilješke su bolje s našom aplikacijom",
+  downloadTheMacOSApp: "Preuzmi macOS aplikaciju",
+  toTranscribeMeetings: "za transkripciju sastanaka",
 };
 
 export default bs;

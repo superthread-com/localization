@@ -2171,6 +2171,9 @@ const en = {
   searchPlaceholderAskAiNotes: "Ask a question about your notes...",
   askAi: "Ask AI",
   transcribeHereInsteadPositive: "Transcribe here instead",
+  notesAreBetterWithOurApp: "Notes are better with our app",
+  downloadTheMacOSApp: "Download the macOS app",
+  toTranscribeMeetings: "to transcribe meetings",
 };
 
 export default en as Translations;

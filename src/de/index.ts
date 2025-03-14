@@ -2279,6 +2279,9 @@ const de = {
   searchPlaceholderAskAiNotes: "Stellen Sie eine Frage zu Ihren Notizen...",
   askAi: "Frage AI",
   transcribeHereInsteadPositive: "Hier stattdessen transkribieren",
+  notesAreBetterWithOurApp: "Notizen sind besser mit unserer App",
+  downloadTheMacOSApp: "Download der macOS-App",
+  toTranscribeMeetings: "um Treffen zu transkribieren",
 };
 
 export default de as Translations;

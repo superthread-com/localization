@@ -2209,6 +2209,9 @@ const pl = {
   searchPlaceholderAskAiNotes: "Zadaj pytanie dotyczące swoich notatek...",
   askAi: "Zapytaj AI",
   transcribeHereInsteadPositive: "Transkrybuj tutaj zamiast tego",
+  notesAreBetterWithOurApp: "Notatki są lepsze z naszą aplikacją",
+  downloadTheMacOSApp: "Pobierz aplikację macOS",
+  toTranscribeMeetings: "do transkrypcji spotkań",
 };
 
 export default pl as Translations;

@@ -2274,6 +2274,9 @@ const fr: Translations = {
   searchPlaceholderAskAiNotes: "Posez une question sur vos notes...",
   askAi: "Demandez à l'IA",
   transcribeHereInsteadPositive: "Transcrire ici à la place",
+  notesAreBetterWithOurApp: "Les notes sont meilleures avec notre application",
+  downloadTheMacOSApp: "Télécharger l'application macOS",
+  toTranscribeMeetings: "pour transcrire les réunions",
 };
 
 export default fr as Translations;
