@@ -588,6 +588,8 @@ const bs: Translations = {
   deleteSpace: "Izbriši prostor",
   ifYouWantToDeleteResource:
     "Ako želite da izbrišete ovaj %{resourceType}, upišite njegovo ime ispod.",
+  ifYouWantToArchiveResource:
+    "Ako želite da arhivirate ovaj %{resourceType}, upišite njegovo ime ispod.",
   typeTheNameOfTheSpace: "Upišite ime prostora",
   removeMember: "Ukloni člana",
   leaveWorkspace: "Napusti workspace",

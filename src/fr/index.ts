@@ -1086,6 +1086,8 @@ const fr: Translations = {
     "Si vous souhaitez supprimer cet espace, tapez son nom ci-dessous.",
   ifYouWantToDeleteResource:
     "Si vous souhaitez supprimer cet espace, tapez son nom ci-dessous.",
+  ifYouWantToArchiveResource:
+    "Si vous souhaitez archiver cet %{resourceType}, tapez son nom ci-dessous.",
   typeTheNameOfTheSpace: "Tapez le nom de l'espace",
   removeMember: "Supprimer le membre",
   leaveWorkspace: "Quitter l'espace de travail",

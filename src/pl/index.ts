@@ -1056,6 +1056,8 @@ const pl = {
     "Jeśli chcesz usunąć tę przestrzeń, wpisz jej nazwę poniżej.",
   ifYouWantToDeleteResource:
     "Jeśli chcesz usunąć ten %{resourceType}, wpisz jego nazwę poniżej.",
+  ifYouWantToArchiveResource:
+    "Jeśli chcesz zarchiwizować ten %{resourceType}, wpisz jego nazwę poniżej.",
   typeTheNameOfTheSpace: "Wpisz nazwę przestrzeni",
   removeMember: "Usuń członka",
   leaveWorkspace: "Opuść obszar roboczy",

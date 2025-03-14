@@ -1083,6 +1083,8 @@ const de = {
     "Wenn du diesen Raum löschen möchtest, gib seinen Namen unten ein.",
   ifYouWantToDeleteResource:
     "Wenn du dieses %{resourceType} löschen möchtest, gib seinen Namen unten ein.",
+  ifYouWantToArchiveResource:
+    "Wenn du dieses %{resourceType} archivieren möchtest, gib seinen Namen unten ein.",
   typeTheNameOfTheSpace: "Gib den Namen des Raums ein",
   removeMember: "Mitglied entfernen",
   leaveWorkspace: "Arbeitsbereich verlassen",
