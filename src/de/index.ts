@@ -476,6 +476,11 @@ const de = {
   privateSpaceDescription:
     "Wenn ein Raum auf privat gesetzt ist, kann er nur durch Einladung betreten werden.",
   boards: "Tafeln",
+  boardsCount_one: "%{count} tafel",
+  boardsCount_other: "%{count} tafeln",
+  cardsCount_one: "%{count} karte",
+  cardsCount_other: "%{count} karten",
+  from: "von",
   hiddenMember: "Verstecktes Mitglied",
   hiddenMemberDesc: "Diese Person teilt keine Räume mit dir",
   linkTextLabel: "Text",
