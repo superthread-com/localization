@@ -466,6 +466,11 @@ const pl = {
   privateSpaceDescription:
     "Kiedy przestrzeń jest ustawiona jako prywatna, może do niej dołączyć tylko osoba z zaproszeniem.",
   boards: "Tablice",
+  boardsCount_one: "{{count}} tablica",
+  boardsCount_other: "{{count}} tablice",
+  cardsCount_one: "{{count}} karta",
+  cardsCount_other: "{{count}} karty",
+  from: "od",
   hiddenMember: "Ukryty członek",
   hiddenMemberDesc: "Ta osoba nie dzieli z tobą żadnej przestrzeni",
   linkTextLabel: "Tekst",

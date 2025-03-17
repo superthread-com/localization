@@ -462,6 +462,11 @@ const en = {
   privateSpaceDescription:
     "When a space is set to private, it can only be joined by invitation.",
   boards: "Boards",
+  boardsCount_one: "{{count}} board",
+  boardsCount_other: "{{count}} boards",
+  cardsCount_one: "{{count}} card",
+  cardsCount_other: "{{count}} cards",
+  from: "from",
   hiddenMember: "Hidden member",
   hiddenMemberDesc: "This person does not share any spaces with you",
   linkTextLabel: "Text",

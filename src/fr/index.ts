@@ -473,6 +473,11 @@ const fr: Translations = {
   privateSpaceDescription:
     "Lorsqu'un espace est défini comme privé, il ne peut être rejoint que sur invitation.",
   boards: "Tableaux",
+  boardsCount_one: "{{count}} tableau",
+  boardsCount_other: "{{count}} tableaux",
+  cardsCount_one: "{{count}} carte",
+  cardsCount_other: "{{count}} cartes",
+  from: "de",
   hiddenMember: "Membre caché",
   hiddenMemberDesc: "Cette personne ne partage aucun espace avec vous",
   linkTextLabel: "Texte",

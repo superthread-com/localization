@@ -152,6 +152,11 @@ const bs: Translations = {
   privateSpaceDescription:
     "Kada je prostor postavljen kao privatni moguće mu se pridružiti samo putem poziva.",
   boards: "Ploče",
+  boardsCount_one: "{{count}} ploča",
+  boardsCount_other: "{{count}} ploče",
+  cardsCount_one: "{{count}} kartica",
+  cardsCount_other: "{{count}} kartice",
+  from: "od",
   linkTextLabel: "Naziv",
   linkUrlLabel: "Adresa",
   linkTextPlaceholder: "Dodaj naziv...",
