@@ -1958,7 +1958,7 @@ export enum TranslationKeys {
   TranscribeHereInsteadPositive = "transcribeHereInsteadPositive",
   NotesAreBetterWithOurApp = "notesAreBetterWithOurApp",
   DownloadTheMacOSApp = "downloadTheMacOSApp",
-  ToTranscribeMeetings = "toTranscribeMeetings"
+  ToTranscribeMeetings = "toTranscribeMeetings",
 }
 
 export type Translations = Record<TranslationKeys, string>;
