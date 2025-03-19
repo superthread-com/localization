@@ -2022,6 +2022,7 @@ const en = {
   moveCard: "Move card",
   assignMembers: "Assign members",
   removeMembers: "Remove members",
+  generatingSuggestedActions: "Generating suggested actions",
   tidyUp: "Tidy up",
   convertTo: "Convert to...",
   newNote: "New note",

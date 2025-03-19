@@ -2055,6 +2055,7 @@ const pl = {
   moveCard: "Przenieś kartę",
   assignMembers: "Przypisz członków",
   removeMembers: "Usuń członków",
+  generatingSuggestedActions: "Generowanie sugerowanych działań",
   tidyUp: "Uporządkować",
   convertTo: "Konwertuj do...",
   newNote: "Nowa notatka",

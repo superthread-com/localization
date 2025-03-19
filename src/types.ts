@@ -1824,6 +1824,7 @@ export enum TranslationKeys {
   MoveCard = "moveCard",
   AssignMembers = "assignMembers",
   RemoveMembers = "removeMembers",
+  GeneratingSuggestedActions = "generatingSuggestedActions",
   TidyUp = "tidyUp",
   ConvertTo = "convertTo",
   NewNote = "newNote",

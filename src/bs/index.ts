@@ -2059,6 +2059,7 @@ const bs: Translations = {
   moveCard: "Premjesti karticu",
   assignMembers: "Dodijeli članove",
   removeMembers: "Ukloni članove",
+  generatingSuggestedActions: "Generiranje predloženih akcija",
   tidyUp: "Očisti",
   convertTo: "Pretvori u...",
   newNote: "Nova bilješka",

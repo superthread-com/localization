@@ -2123,6 +2123,7 @@ const de = {
   moveCard: "Karte verschieben",
   assignMembers: "Mitglieder zuweisen",
   removeMembers: "Mitglieder entfernen",
+  generatingSuggestedActions: "Vorgeschlagene Aktionen werden generiert",
   tidyUp: "Aufräumen",
   convertTo: "Konvertieren zu...",
   newNote: "Neue Notiz",

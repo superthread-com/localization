@@ -2115,6 +2115,7 @@ const fr: Translations = {
   moveCard: "Déplacer la carte",
   assignMembers: "Assigner des membres",
   removeMembers: "Supprimer des membres",
+  generatingSuggestedActions: "Génération des actions suggérées",
   tidyUp: "Nettoyer",
   convertTo: "Convertir en...",
   newNote: "Nouvelle note",
