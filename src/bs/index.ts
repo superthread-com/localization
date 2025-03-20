@@ -2225,6 +2225,16 @@ const bs: Translations = {
   notesAreBetterWithOurApp: "Bilješke su bolje s našom aplikacijom",
   downloadTheMacOSApp: "Preuzmi macOS aplikaciju",
   toTranscribeMeetings: "za transkripciju sastanaka",
+  notifyUpcomingMeetingsTitle: "Obavijesti me o nadolazećim sastancima",
+  notifyUpcomingMeetingsDescription:
+    "Ako će sastanak uskoro početi, Superthread će vas obavijestiti i ponuditi vam kreiranje nove bilješke.",
+  requiresMacosAppOne: "Zahjeva",
+  requiresMacosAppTwo: "macOS aplikaciju.",
+  meetingsMenuBarTitle: "Prikaži nadolazeće sastanke pored ikone trake menija",
+  meetingsMenuBarDescription:
+    "Sljedeći sastanak tekućeg dana pojavit će se pored Superthread ikone u traci menija.",
+  meetingName: "Naziv sastanka",
+  meetingTime: "Vrijeme sastanka",
 };
 
 export default bs;

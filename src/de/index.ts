@@ -2293,6 +2293,17 @@ const de = {
   notesAreBetterWithOurApp: "Notizen sind besser mit unserer App",
   downloadTheMacOSApp: "Download der macOS-App",
   toTranscribeMeetings: "um Treffen zu transkribieren",
+  notifyUpcomingMeetingsTitle:
+    "Benachrichtige mich über bevorstehende Meetings",
+  notifyUpcomingMeetingsDescription:
+    "Wenn ein Meeting gleich beginnt, wird Superthread dich benachrichtigen und anbieten, eine neue Notiz zu erstellen.",
+  requiresMacosAppOne: "Erfordert die",
+  requiresMacosAppTwo: "macOS-App.",
+  meetingsMenuBarTitle: "Zeige bevorstehende Meetings neben dem Menüsymbol",
+  meetingsMenuBarDescription:
+    "Das nächste Meeting des aktuellen Tages wird neben dem Superthread-Symbol in der Menüleiste angezeigt.",
+  meetingName: "Besprechungsname",
+  meetingTime: "Besprechungszeit",
 };
 
 export default de as Translations;

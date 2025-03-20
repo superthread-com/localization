@@ -2288,6 +2288,17 @@ const fr: Translations = {
   notesAreBetterWithOurApp: "Les notes sont meilleures avec notre application",
   downloadTheMacOSApp: "Télécharger l'application macOS",
   toTranscribeMeetings: "pour transcrire les réunions",
+  notifyUpcomingMeetingsTitle: "M'avertir des réunions à venir",
+  notifyUpcomingMeetingsDescription:
+    "Si une réunion est sur le point de commencer, Superthread vous notifiera et vous proposera de créer une nouvelle note.",
+  requiresMacosAppOne: "Nécessite l'",
+  requiresMacosAppTwo: "application macOS.",
+  meetingsMenuBarTitle:
+    "Afficher les réunions à venir à côté de l'icône de la barre de menu",
+  meetingsMenuBarDescription:
+    "La prochaine réunion du jour s'affichera à côté de l'icône Superthread dans la barre de menu.",
+  meetingName: "Nom de la réunion",
+  meetingTime: "Heure de la réunion",
 };
 
 export default fr as Translations;

@@ -2223,6 +2223,16 @@ const pl = {
   notesAreBetterWithOurApp: "Notatki są lepsze z naszą aplikacją",
   downloadTheMacOSApp: "Pobierz aplikację macOS",
   toTranscribeMeetings: "do transkrypcji spotkań",
+  notifyUpcomingMeetingsTitle: "Powiadom mnie o nadchodzących spotkaniach",
+  notifyUpcomingMeetingsDescription:
+    "Jeśli spotkanie ma się zacząć, Superthread powiadomi Cię i zaproponuje utworzenie nowej notatki.",
+  requiresMacosAppOne: "Wymaga",
+  requiresMacosAppTwo: "aplikacji macOS.",
+  meetingsMenuBarTitle: "Pokaż nadchodzące spotkania obok ikony paska menu",
+  meetingsMenuBarDescription:
+    "Następne spotkanie w bieżącym dniu pojawi się obok ikony Superthread w pasku menu.",
+  meetingName: "Nazwa spotkania",
+  meetingTime: "Czas spotkania",
 };
 
 export default pl as Translations;
