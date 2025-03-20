@@ -1965,6 +1965,14 @@ export enum TranslationKeys {
   NotesAreBetterWithOurApp = "notesAreBetterWithOurApp",
   DownloadTheMacOSApp = "downloadTheMacOSApp",
   ToTranscribeMeetings = "toTranscribeMeetings",
+  NotifyUpcomingMeetingsTitle = "notifyUpcomingMeetingsTitle",
+  NotifyUpcomingMeetingsDescription = "notifyUpcomingMeetingsDescription",
+  RequiresMacosAppOne = "requiresMacosAppOne",
+  RequiresMacosAppTwo = "requiresMacosAppTwo",
+  MeetingsMenuBarTitle = "meetingsMenuBarTitle",
+  MeetingsMenuBarDescription = "meetingsMenuBarDescription",
+  MeetingName = "meetingName",
+  MeetingTime = "meetingTime",
 }
 
 export type Translations = Record<TranslationKeys, string>;
