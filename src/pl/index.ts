@@ -2233,6 +2233,7 @@ const pl = {
     "Następne spotkanie w bieżącym dniu pojawi się obok ikony Superthread w pasku menu.",
   meetingName: "Nazwa spotkania",
   meetingTime: "Czas spotkania",
+  searchLanguage: "Wyszukaj język",
 };
 
 export default pl as Translations;

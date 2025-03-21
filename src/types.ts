@@ -1973,6 +1973,7 @@ export enum TranslationKeys {
   MeetingsMenuBarDescription = "meetingsMenuBarDescription",
   MeetingName = "meetingName",
   MeetingTime = "meetingTime",
+  SearchLanguage = "searchLanguage",
 }
 
 export type Translations = Record<TranslationKeys, string>;

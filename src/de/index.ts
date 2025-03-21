@@ -2304,6 +2304,7 @@ const de = {
     "Das nächste Meeting des aktuellen Tages wird neben dem Superthread-Symbol in der Menüleiste angezeigt.",
   meetingName: "Besprechungsname",
   meetingTime: "Besprechungszeit",
+  searchLanguage: "Sprache suchen",
 };
 
 export default de as Translations;
