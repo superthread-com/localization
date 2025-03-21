@@ -2299,6 +2299,7 @@ const fr: Translations = {
     "La prochaine réunion du jour s'affichera à côté de l'icône Superthread dans la barre de menu.",
   meetingName: "Nom de la réunion",
   meetingTime: "Heure de la réunion",
+  searchLanguage: "Rechercher une langue",
 };
 
 export default fr as Translations;

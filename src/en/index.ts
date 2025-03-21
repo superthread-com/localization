@@ -2195,6 +2195,7 @@ const en = {
     "The next meeting on the current day will show next to the Superthread icon in the menu bar.",
   meetingName: "Meeting name",
   meetingTime: "Meeting time",
+  searchLanguage: "Search language",
 };
 
 export default en as Translations;

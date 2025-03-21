@@ -2235,6 +2235,7 @@ const bs: Translations = {
     "Sljedeći sastanak tekućeg dana pojavit će se pored Superthread ikone u traci menija.",
   meetingName: "Naziv sastanka",
   meetingTime: "Vrijeme sastanka",
+  searchLanguage: "Pretraži jezik",
 };
 
 export default bs;
