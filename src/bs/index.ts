@@ -2236,6 +2236,8 @@ const bs: Translations = {
   meetingName: "Naziv sastanka",
   meetingTime: "Vrijeme sastanka",
   searchLanguage: "Pretraži jezik",
+  ["get_started_notes.title"]: "Započnite s bilješkama",
+  ["get_started_notes.tooltip"]: "Zvučna transkripcija i poboljšane bilješke",
 };
 
 export default bs;
