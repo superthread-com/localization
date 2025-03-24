@@ -2300,6 +2300,9 @@ const fr: Translations = {
   meetingName: "Nom de la réunion",
   meetingTime: "Heure de la réunion",
   searchLanguage: "Rechercher une langue",
+  ["get_started_notes.title"]: "Commencer avec les notes",
+  ["get_started_notes.tooltip"]:
+    "Transcription audio et prise de notes améliorée par l'IA",
 };
 
 export default fr as Translations;

@@ -2196,6 +2196,9 @@ const en = {
   meetingName: "Meeting name",
   meetingTime: "Meeting time",
   searchLanguage: "Search language",
+  ["get_started_notes.title"]: "Get started with notes",
+  ["get_started_notes.tooltip"]:
+    "Meeting transcription and AI-enhanced note-taking",
 };
 
 export default en as Translations;

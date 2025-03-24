@@ -1974,6 +1974,8 @@ export enum TranslationKeys {
   MeetingName = "meetingName",
   MeetingTime = "meetingTime",
   SearchLanguage = "searchLanguage",
+  GetStartedNotesTitle = "get_started_notes.title",
+  GetStartedNotesTooltip = "get_started_notes.tooltip",
 }
 
 export type Translations = Record<TranslationKeys, string>;

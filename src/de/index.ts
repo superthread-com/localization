@@ -2305,6 +2305,9 @@ const de = {
   meetingName: "Besprechungsname",
   meetingTime: "Besprechungszeit",
   searchLanguage: "Sprache suchen",
+  ["get_started_notes.title"]: "Erste Schritte mit Notizen",
+  ["get_started_notes.tooltip"]:
+    "Meeting-Transkription und AI-verbesserte Notiz-Erstellung",
 };
 
 export default de as Translations;

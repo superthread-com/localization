@@ -2234,6 +2234,8 @@ const pl = {
   meetingName: "Nazwa spotkania",
   meetingTime: "Czas spotkania",
   searchLanguage: "Wyszukaj język",
+  ["get_started_notes.title"]: "Rozpoczęliśmy notes",
+  ["get_started_notes.tooltip"]: "Transkrypcja dźwięku i ulepszona notatka",
 };
 
 export default pl as Translations;
