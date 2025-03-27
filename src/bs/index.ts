@@ -2244,6 +2244,8 @@ const bs: Translations = {
   searchLanguage: "Pretraži jezik",
   ["get_started_notes.title"]: "Započnite s bilješkama",
   ["get_started_notes.tooltip"]: "Zvučna transkripcija i poboljšane bilješke",
+  transcriptionNotAvailableOnPlan:
+    "Transkripcija nije dostupna na ovom planu. Kliknite da vidite dostupne planove.",
 };
 
 export default bs;

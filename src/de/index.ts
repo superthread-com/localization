@@ -2314,6 +2314,8 @@ const de = {
   ["get_started_notes.title"]: "Erste Schritte mit Notizen",
   ["get_started_notes.tooltip"]:
     "Meeting-Transkription und AI-verbesserte Notiz-Erstellung",
+  transcriptionNotAvailableOnPlan:
+    "Transkription ist in diesem Tarif nicht verfügbar. Klicken Sie, um verfügbare Tarife zu sehen.",
 };
 
 export default de as Translations;

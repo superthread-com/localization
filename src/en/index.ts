@@ -2205,6 +2205,8 @@ const en = {
   ["get_started_notes.title"]: "Get started with notes",
   ["get_started_notes.tooltip"]:
     "Meeting transcription and AI-enhanced note-taking",
+  transcriptionNotAvailableOnPlan:
+    "Transcription is not available on this plan. Click to see available plans",
 };
 
 export default en as Translations;

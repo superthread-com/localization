@@ -2309,6 +2309,8 @@ const fr: Translations = {
   ["get_started_notes.title"]: "Commencer avec les notes",
   ["get_started_notes.tooltip"]:
     "Transcription audio et prise de notes améliorée par l'IA",
+  transcriptionNotAvailableOnPlan:
+    "La transcription n'est pas disponible avec ce forfait. Cliquez pour voir les forfaits disponibles.",
 };
 
 export default fr as Translations;

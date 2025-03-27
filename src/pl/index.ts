@@ -2242,6 +2242,8 @@ const pl = {
   searchLanguage: "Wyszukaj język",
   ["get_started_notes.title"]: "Rozpoczęliśmy notes",
   ["get_started_notes.tooltip"]: "Transkrypcja dźwięku i ulepszona notatka",
+  transcriptionNotAvailableOnPlan:
+    "Transkrypcja nie jest dostępna w tym planie. Kliknij, aby zobaczyć dostępne plany.",
 };
 
 export default pl as Translations;
