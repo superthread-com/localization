@@ -1982,6 +1982,7 @@ export enum TranslationKeys {
   SearchLanguage = "searchLanguage",
   GetStartedNotesTitle = "get_started_notes.title",
   GetStartedNotesTooltip = "get_started_notes.tooltip",
+  TranscriptionNotAvailableOnPlan = "transcriptionNotAvailableOnPlan",
 }
 
 export type Translations = Record<TranslationKeys, string>;
