@@ -2244,6 +2244,9 @@ const pl = {
   ["get_started_notes.tooltip"]: "Transkrypcja dźwięku i ulepszona notatka",
   transcriptionNotAvailableOnPlan:
     "Transkrypcja nie jest dostępna w tym planie. Kliknij, aby zobaczyć dostępne plany.",
+  automaticallyStartTranscription: "Automatycznie zacznij transkrypcję",
+  wheneverICreateANote: "Za każdym razem, gdy tworzę notatkę",
+  onlyWhenITakeNotesForMeeting: "Tylko gdy tworzę notatki na spotkanie",
 };
 
 export default pl as Translations;

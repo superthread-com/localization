@@ -2207,6 +2207,9 @@ const en = {
     "Meeting transcription and AI-enhanced note-taking",
   transcriptionNotAvailableOnPlan:
     "Transcription is not available on this plan. Click to see available plans",
+  automaticallyStartTranscription: "Automatically start transcription",
+  wheneverICreateANote: "Whenever I create a note",
+  onlyWhenITakeNotesForMeeting: "Only when I take notes for a meeting",
 };
 
 export default en as Translations;
