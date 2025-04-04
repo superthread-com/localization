@@ -2311,6 +2311,10 @@ const fr: Translations = {
     "Transcription audio et prise de notes améliorée par l'IA",
   transcriptionNotAvailableOnPlan:
     "La transcription n'est pas disponible avec ce forfait. Cliquez pour voir les forfaits disponibles.",
+  automaticallyStartTranscription: "Démarrer la transcription automatiquement",
+  wheneverICreateANote: "Lorsque je crée une note",
+  onlyWhenITakeNotesForMeeting:
+    "Seulement lorsque je prends des notes pour une réunion",
 };
 
 export default fr as Translations;

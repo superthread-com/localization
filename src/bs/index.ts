@@ -2246,6 +2246,9 @@ const bs: Translations = {
   ["get_started_notes.tooltip"]: "Zvučna transkripcija i poboljšane bilješke",
   transcriptionNotAvailableOnPlan:
     "Transkripcija nije dostupna na ovom planu. Kliknite da vidite dostupne planove.",
+  automaticallyStartTranscription: "Automatski započni transkripciju",
+  wheneverICreateANote: "Kada kreiram bilješku",
+  onlyWhenITakeNotesForMeeting: "Samo kada kreiram bilješke za sastanak",
 };
 
 export default bs;

@@ -2316,6 +2316,9 @@ const de = {
     "Meeting-Transkription und AI-verbesserte Notiz-Erstellung",
   transcriptionNotAvailableOnPlan:
     "Transkription ist in diesem Tarif nicht verfügbar. Klicken Sie, um verfügbare Tarife zu sehen.",
+  automaticallyStartTranscription: "Transkription automatisch starten",
+  wheneverICreateANote: "Wann immer ich eine Notiz erstelle",
+  onlyWhenITakeNotesForMeeting: "Nur wenn ich Notizen für ein Meeting erstelle",
 };
 
 export default de as Translations;

@@ -1983,6 +1983,9 @@ export enum TranslationKeys {
   GetStartedNotesTitle = "get_started_notes.title",
   GetStartedNotesTooltip = "get_started_notes.tooltip",
   TranscriptionNotAvailableOnPlan = "transcriptionNotAvailableOnPlan",
+  AutomaticallyStartTranscription = "automaticallyStartTranscription",
+  WheneverICreateANote = "wheneverICreateANote",
+  OnlyWhenITakeNotesForMeeting = "onlyWhenITakeNotesForMeeting",
 }
 
 export type Translations = Record<TranslationKeys, string>;
