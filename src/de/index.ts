@@ -334,6 +334,7 @@ const de = {
     "Kommentar konnte nicht gelöscht werden, bitte versuche es erneut",
   couldntLoadComments: "Kommentare konnten nicht geladen werden.",
   commentOnPage: "Kommentar zur Seite",
+  commentOn: "Kommentar zu",
   emailPlaceholder: "z.B. du@beispiel.com",
   signOut: "Abmelden",
   leave: "Verlassen",

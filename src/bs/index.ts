@@ -1231,6 +1231,7 @@ const bs: Translations = {
   couldntDeleteComment: "Komentar se ne može obrisati, pokušajte ponovo!",
   couldntLoadComments: "Komentari se ne mogu učitati.",
   commentOnPage: "Komentiraj na stranici",
+  commentOn: "Komentiraj na",
   emailPlaceholder: "npr. yourname@yourcompany.com",
   addProject: "Dodaj prostor",
   roboto: "Roboto",

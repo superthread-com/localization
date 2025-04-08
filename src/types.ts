@@ -292,6 +292,7 @@ export enum TranslationKeys {
   CouldntDeleteComment = "couldntDeleteComment",
   CouldntLoadComments = "couldntLoadComments",
   CommentOnPage = "commentOnPage",
+  CommentOn = "commentOn",
   EmailPlaceholder = "emailPlaceholder",
   SignOut = "signOut",
   Leave = "leave",
@@ -1958,7 +1959,7 @@ export enum TranslationKeys {
   TranscribeHereInsteadPositive = "transcribeHereInsteadPositive",
   NotesAreBetterWithOurApp = "notesAreBetterWithOurApp",
   DownloadTheMacOSApp = "downloadTheMacOSApp",
-  ToTranscribeMeetings = "toTranscribeMeetings",
+  ToTranscribeMeetings = "toTranscribeMeetings"
 }
 
 export type Translations = Record<TranslationKeys, string>;
