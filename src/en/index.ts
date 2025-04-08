@@ -2210,6 +2210,9 @@ const en = {
   automaticallyStartTranscription: "Automatically start transcription",
   wheneverICreateANote: "Whenever I create a note",
   onlyWhenITakeNotesForMeeting: "Only when I take notes for a meeting",
+  learnMore: "Learn more",
+  withAnInteractiveVideoTutorial: "with an interactive video tutorial",
+  newToNotes: "New to notes?",
 };
 
 export default en as Translations;

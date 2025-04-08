@@ -2247,6 +2247,9 @@ const pl = {
   automaticallyStartTranscription: "Automatycznie zacznij transkrypcję",
   wheneverICreateANote: "Za każdym razem, gdy tworzę notatkę",
   onlyWhenITakeNotesForMeeting: "Tylko gdy tworzę notatki na spotkanie",
+  learnMore: "Dowiedz się więcej",
+  withAnInteractiveVideoTutorial: "z interaktywnym filmem instruktażowym",
+  newToNotes: "Nowi w notatkach?",
 };
 
 export default pl as Translations;

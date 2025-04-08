@@ -2319,6 +2319,9 @@ const de = {
   automaticallyStartTranscription: "Transkription automatisch starten",
   wheneverICreateANote: "Wann immer ich eine Notiz erstelle",
   onlyWhenITakeNotesForMeeting: "Nur wenn ich Notizen für ein Meeting erstelle",
+  learnMore: "Mehr erfahren",
+  withAnInteractiveVideoTutorial: "mit einem interaktiven Video-Tutorial",
+  newToNotes: "Neu in Notizen?",
 };
 
 export default de as Translations;

@@ -2249,6 +2249,9 @@ const bs: Translations = {
   automaticallyStartTranscription: "Automatski započni transkripciju",
   wheneverICreateANote: "Kada kreiram bilješku",
   onlyWhenITakeNotesForMeeting: "Samo kada kreiram bilješke za sastanak",
+  learnMore: "Saznaj više",
+  withAnInteractiveVideoTutorial: "sa interaktivnim video vodičem",
+  newToNotes: "Nov u bilješkama?",
 };
 
 export default bs;

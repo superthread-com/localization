@@ -1986,6 +1986,9 @@ export enum TranslationKeys {
   AutomaticallyStartTranscription = "automaticallyStartTranscription",
   WheneverICreateANote = "wheneverICreateANote",
   OnlyWhenITakeNotesForMeeting = "onlyWhenITakeNotesForMeeting",
+  LearnMore = "learnMore",
+  WithAnInteractiveVideoTutorial = "withAnInteractiveVideoTutorial",
+  NewToNotes = "newToNotes",
 }
 
 export type Translations = Record<TranslationKeys, string>;

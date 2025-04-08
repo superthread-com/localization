@@ -2315,6 +2315,9 @@ const fr: Translations = {
   wheneverICreateANote: "Lorsque je crée une note",
   onlyWhenITakeNotesForMeeting:
     "Seulement lorsque je prends des notes pour une réunion",
+  learnMore: "En savoir plus",
+  withAnInteractiveVideoTutorial: "avec un tutoriel vidéo interactif",
+  newToNotes: "Nouveau dans les notes?",
 };
 
 export default fr as Translations;
