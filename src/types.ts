@@ -292,6 +292,7 @@ export enum TranslationKeys {
   CouldntDeleteComment = "couldntDeleteComment",
   CouldntLoadComments = "couldntLoadComments",
   CommentOnPage = "commentOnPage",
+  CommentOn = "commentOn",
   EmailPlaceholder = "emailPlaceholder",
   SignOut = "signOut",
   Leave = "leave",

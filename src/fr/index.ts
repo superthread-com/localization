@@ -332,6 +332,7 @@ const fr: Translations = {
     "Impossible de supprimer le commentaire, veuillez réssayer plus tard!",
   couldntLoadComments: "Impossible de charger les commentaires.",
   commentOnPage: "Commenter sur la page",
+  commentOn: "Commenter sur",
   emailPlaceholder: "e. g. votrenom@votrecompagnie.com",
   signOut: "Se déconnecter",
   leave: "Partir",
