@@ -386,6 +386,8 @@ const en = {
   saveTemplate: "Save template",
   templateNotFound: "Template not found",
   addAssignees: "Add assignees",
+  removeAssignees: "Remove assignees",
+  changeAssignees: "Change assignees",
   setTags: "Set tags",
   selectAll: "Select all",
   createInThisBoard: "Create in this board",
@@ -779,6 +781,7 @@ const en = {
   contactUs: "Contact us",
   letUsKnow: "Let us know if there’s an issue or a question",
   assign: "Assign",
+  unassign: "Unassign",
   pageIsNoLongerShared: "Page is no longer shared to web",
   favourite: "Favourite",
   unfavourite: "Unfavourite",
@@ -2023,6 +2026,15 @@ const en = {
   moveCard: "Move card",
   assignMembers: "Assign members",
   removeMembers: "Remove members",
+  generatingSuggestedActions: "Generating suggested actions",
+  replaceContent: "Replace content",
+  appendContent: "Append content",
+  addDescription: "Add description",
+  addDueDate: "Add due date",
+  setTitle: "Set title",
+  reject: "Reject",
+  accept: "Accept",
+  finaliseDetails: "Finalise details",
   tidyUp: "Tidy up",
   convertTo: "Convert to...",
   newNote: "New note",
@@ -2180,6 +2192,30 @@ const en = {
   notesAreBetterWithOurApp: "Notes are better with our app",
   downloadTheMacOSApp: "Download the macOS app",
   toTranscribeMeetings: "to transcribe meetings",
+  notifyUpcomingMeetingsTitle: "Notify me of upcoming meetings",
+  notifyUpcomingMeetingsDescription:
+    " If a meeting is about to start Superthread will notify you and offer to create a new note.",
+  requiresMacosAppOne: "Requires the",
+  requiresMacosAppTwo: "macOS app.",
+  meetingsMenuBarTitle: "Show upcoming meetings next to the menu bar icon",
+  meetingsMenuBarDescription:
+    "The next meeting on the current day will show next to the Superthread icon in the menu bar.",
+  meetingName: "Meeting name",
+  meetingTime: "Meeting time",
+  searchLanguage: "Search language",
+  ["get_started_notes.title"]: "Get started with notes",
+  ["get_started_notes.tooltip"]:
+    "Meeting transcription and AI-enhanced note-taking",
+  transcriptionNotAvailableOnPlan:
+    "Transcription is not available on this plan. Click to see available plans",
+  automaticallyStartTranscription: "Automatically start transcription",
+  wheneverICreateANote: "Whenever I create a note",
+  onlyWhenITakeNotesForMeeting: "Only when I take notes for a meeting",
+  learnMore: "Learn more",
+  withAnInteractiveVideoTutorial: "with an interactive video tutorial",
+  newToNotes: "New to notes?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "If you create a note from a calendar event up to 5 minutes before the start time, or join a video call from a note",
 };
 
 export default en as Translations;

@@ -397,6 +397,8 @@ const de = {
   saveTemplate: "Vorlage speichern",
   templateNotFound: "Vorlage nicht gefunden",
   addAssignees: "Zuweisungen hinzufügen",
+  removeAssignees: "Zuweisungen entfernen",
+  changeAssignees: "Zuweisungen ändern",
   setTags: "Tags festlegen",
   selectAll: "Alle auswählen",
   createInThisBoard: "In dieser Tafel erstellen",
@@ -810,6 +812,7 @@ const de = {
   contactUs: "Kontaktiere uns",
   letUsKnow: "Lass es uns wissen, wenn es ein Problem oder eine Frage gibt",
   assign: "Zuweisen",
+  unassign: "Zuweisung aufheben",
   pageIsNoLongerShared: "Seite wird nicht mehr im Web geteilt",
   favourite: "Favorit",
   unfavourite: "Nicht mehr favorisieren",
@@ -2124,6 +2127,15 @@ const de = {
   moveCard: "Karte verschieben",
   assignMembers: "Mitglieder zuweisen",
   removeMembers: "Mitglieder entfernen",
+  generatingSuggestedActions: "Vorgeschlagene Aktionen werden generiert",
+  replaceContent: "Inhalt ersetzen",
+  appendContent: "Inhalt anhängen",
+  addDescription: "Beschreibung hinzufügen",
+  addDueDate: "Fälligkeitsdatum hinzufügen",
+  setTitle: "Titel festlegen",
+  reject: "Ablehnen",
+  accept: "Akzeptieren",
+  finaliseDetails: "Details abschließen",
   tidyUp: "Aufräumen",
   convertTo: "Konvertieren zu...",
   newNote: "Neue Notiz",
@@ -2288,6 +2300,31 @@ const de = {
   notesAreBetterWithOurApp: "Notizen sind besser mit unserer App",
   downloadTheMacOSApp: "Download der macOS-App",
   toTranscribeMeetings: "um Treffen zu transkribieren",
+  notifyUpcomingMeetingsTitle:
+    "Benachrichtige mich über bevorstehende Meetings",
+  notifyUpcomingMeetingsDescription:
+    "Wenn ein Meeting gleich beginnt, wird Superthread dich benachrichtigen und anbieten, eine neue Notiz zu erstellen.",
+  requiresMacosAppOne: "Erfordert die",
+  requiresMacosAppTwo: "macOS-App.",
+  meetingsMenuBarTitle: "Zeige bevorstehende Meetings neben dem Menüsymbol",
+  meetingsMenuBarDescription:
+    "Das nächste Meeting des aktuellen Tages wird neben dem Superthread-Symbol in der Menüleiste angezeigt.",
+  meetingName: "Besprechungsname",
+  meetingTime: "Besprechungszeit",
+  searchLanguage: "Sprache suchen",
+  ["get_started_notes.title"]: "Erste Schritte mit Notizen",
+  ["get_started_notes.tooltip"]:
+    "Meeting-Transkription und AI-verbesserte Notiz-Erstellung",
+  transcriptionNotAvailableOnPlan:
+    "Transkription ist in diesem Tarif nicht verfügbar. Klicken Sie, um verfügbare Tarife zu sehen.",
+  automaticallyStartTranscription: "Transkription automatisch starten",
+  wheneverICreateANote: "Wann immer ich eine Notiz erstelle",
+  onlyWhenITakeNotesForMeeting: "Nur wenn ich Notizen für ein Meeting erstelle",
+  learnMore: "Mehr erfahren",
+  withAnInteractiveVideoTutorial: "mit einem interaktiven Video-Tutorial",
+  newToNotes: "Neu in Notizen?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Wenn Sie eine Notiz aus einem Kalenderereignis erstellen, das bis zu 5 Minuten vor dem Startzeitpunkt beginnt, oder einem Videoanruf aus einer Notiz beitreten",
 };
 
 export default de as Translations;

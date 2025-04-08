@@ -395,6 +395,8 @@ const fr: Translations = {
   saveTemplate: "sauvegarder le modèle",
   templateNotFound: "Impossible de trouver ce modèle",
   addAssignees: "Ajouter des cessionnaires",
+  removeAssignees: "Retirer les cessionnaires",
+  changeAssignees: "Changer les cessionnaires",
   setTags: "Définir les tags",
   selectAll: "Tout sélectionner",
   createInThisBoard: "Créer dans ce tableau",
@@ -810,6 +812,7 @@ const fr: Translations = {
   contactUs: "Contactez-nous",
   letUsKnow: "Faites-nous savoir s'il y a un problème ou une question",
   assign: "Attribuer",
+  unassign: "Désassigner",
   pageIsNoLongerShared: "La page n'est plus partagée sur le web",
   favourite: "Favori",
   unfavourite: "Retirer des favoris",
@@ -2116,6 +2119,15 @@ const fr: Translations = {
   moveCard: "Déplacer la carte",
   assignMembers: "Assigner des membres",
   removeMembers: "Supprimer des membres",
+  generatingSuggestedActions: "Génération des actions suggérées",
+  replaceContent: "Remplacer le contenu",
+  appendContent: "Ajouter du contenu",
+  addDescription: "Ajouter une description",
+  addDueDate: "Ajouter une date d'échéance",
+  setTitle: "Définir le titre",
+  reject: "Rejeter",
+  accept: "Accepter",
+  finaliseDetails: "Finaliser les détails",
   tidyUp: "Nettoyer",
   convertTo: "Convertir en...",
   newNote: "Nouvelle note",
@@ -2283,6 +2295,32 @@ const fr: Translations = {
   notesAreBetterWithOurApp: "Les notes sont meilleures avec notre application",
   downloadTheMacOSApp: "Télécharger l'application macOS",
   toTranscribeMeetings: "pour transcrire les réunions",
+  notifyUpcomingMeetingsTitle: "M'avertir des réunions à venir",
+  notifyUpcomingMeetingsDescription:
+    "Si une réunion est sur le point de commencer, Superthread vous notifiera et vous proposera de créer une nouvelle note.",
+  requiresMacosAppOne: "Nécessite l'",
+  requiresMacosAppTwo: "application macOS.",
+  meetingsMenuBarTitle:
+    "Afficher les réunions à venir à côté de l'icône de la barre de menu",
+  meetingsMenuBarDescription:
+    "La prochaine réunion du jour s'affichera à côté de l'icône Superthread dans la barre de menu.",
+  meetingName: "Nom de la réunion",
+  meetingTime: "Heure de la réunion",
+  searchLanguage: "Rechercher une langue",
+  ["get_started_notes.title"]: "Commencer avec les notes",
+  ["get_started_notes.tooltip"]:
+    "Transcription audio et prise de notes améliorée par l'IA",
+  transcriptionNotAvailableOnPlan:
+    "La transcription n'est pas disponible avec ce forfait. Cliquez pour voir les forfaits disponibles.",
+  automaticallyStartTranscription: "Démarrer la transcription automatiquement",
+  wheneverICreateANote: "Lorsque je crée une note",
+  onlyWhenITakeNotesForMeeting:
+    "Seulement lorsque je prends des notes pour une réunion",
+  learnMore: "En savoir plus",
+  withAnInteractiveVideoTutorial: "avec un tutoriel vidéo interactif",
+  newToNotes: "Nouveau dans les notes?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Si vous créez une note à partir d'un événement calendrier jusqu'à 5 minutes avant l'heure de début, ou rejoignez une vidéo appel de note",
 };
 
 export default fr as Translations;
