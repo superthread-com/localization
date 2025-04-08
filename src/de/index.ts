@@ -2324,6 +2324,9 @@ const de = {
   newToNotes: "Neu in Notizen?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "Wenn Sie eine Notiz aus einem Kalenderereignis erstellen, das bis zu 5 Minuten vor dem Startzeitpunkt beginnt, oder einem Videoanruf aus einer Notiz beitreten",
+  instantEmail: "sofortige Email",
+  emailDigest: "Email-Zusammenfassung",
+  instantEmailNotifications: "Sofortige Email-Benachrichtigungen",
 };
 
 export default de as Translations;

@@ -2215,6 +2215,9 @@ const en = {
   newToNotes: "New to notes?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "If you create a note from a calendar event up to 5 minutes before the start time, or join a video call from a note",
+  instantEmail: "instant email",
+  emailDigest: "email digest",
+  instantEmailNotifications: "Instant email notifications",
 };
 
 export default en as Translations;
