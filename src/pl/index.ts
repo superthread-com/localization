@@ -325,6 +325,7 @@ const pl = {
   couldntDeleteComment: "Nie udało się usunąć komentarza, spróbuj ponownie",
   couldntLoadComments: "Nie udało się załadować komentarzy.",
   commentOnPage: "Komentarz do strony",
+  commentOn: "Komentarz do",
   emailPlaceholder: "np. ty@przyklad.com",
   signOut: "Wyloguj się",
   leave: "Opuść",

@@ -324,6 +324,7 @@ const en = {
   couldntDeleteComment: "Could not delete comment, please try again",
   couldntLoadComments: "Could not load comments.",
   commentOnPage: "Comment on page",
+  commentOn: "Comment on",
   emailPlaceholder: "e.g. you@example.com",
   signOut: "Sign Out",
   leave: "Leave",
