@@ -2322,6 +2322,8 @@ const de = {
   learnMore: "Mehr erfahren",
   withAnInteractiveVideoTutorial: "mit einem interaktiven Video-Tutorial",
   newToNotes: "Neu in Notizen?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Wenn Sie eine Notiz aus einem Kalenderereignis erstellen, das bis zu 5 Minuten vor dem Startzeitpunkt beginnt, oder einem Videoanruf aus einer Notiz beitreten",
 };
 
 export default de as Translations;

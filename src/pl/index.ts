@@ -2250,6 +2250,8 @@ const pl = {
   learnMore: "Dowiedz się więcej",
   withAnInteractiveVideoTutorial: "z interaktywnym filmem instruktażowym",
   newToNotes: "Nowi w notatkach?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Jeśli utworzysz notatkę z wydarzenia kalendarza do 5 minut przed rozpoczęciem, lub dołączysz do spotkania video z notatki",
 };
 
 export default pl as Translations;

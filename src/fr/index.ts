@@ -2318,6 +2318,8 @@ const fr: Translations = {
   learnMore: "En savoir plus",
   withAnInteractiveVideoTutorial: "avec un tutoriel vidéo interactif",
   newToNotes: "Nouveau dans les notes?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Si vous créez une note à partir d'un événement calendrier jusqu'à 5 minutes avant l'heure de début, ou rejoignez une vidéo appel de note",
 };
 
 export default fr as Translations;
