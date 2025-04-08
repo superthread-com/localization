@@ -2321,6 +2321,9 @@ const fr: Translations = {
   newToNotes: "Nouveau dans les notes?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "Si vous créez une note à partir d'un événement calendrier jusqu'à 5 minutes avant l'heure de début, ou rejoignez une vidéo appel de note",
+  instantEmail: "email instantané",
+  emailDigest: "résumé des e-mails",
+  instantEmailNotifications: "Notifications par e-mail instantané",
 };
 
 export default fr as Translations;

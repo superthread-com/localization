@@ -2255,6 +2255,9 @@ const bs: Translations = {
   newToNotes: "Nov u bilješkama?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "Ako kreirate bilješku iz kalendarskog događaja do 5 minuta prije početka, ili se pridružite video pozivu iz bilješke",
+  instantEmail: "trenutni email",
+  emailDigest: "sažetak emailova",
+  instantEmailNotifications: "Trenutne obavijesti emailom",
 };
 
 export default bs;

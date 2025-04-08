@@ -1991,6 +1991,9 @@ export enum TranslationKeys {
   WithAnInteractiveVideoTutorial = "withAnInteractiveVideoTutorial",
   NewToNotes = "newToNotes",
   OnlyWhenITakeNotesForMeetingSubtitle = "onlyWhenITakeNotesForMeetingSubtitle",
+  InstantEmail = "instantEmail",
+  EmailDigest = "emailDigest",
+  InstantEmailNotifications = "instantEmailNotifications",
 }
 
 export type Translations = Record<TranslationKeys, string>;

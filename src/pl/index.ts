@@ -2253,6 +2253,9 @@ const pl = {
   newToNotes: "Nowi w notatkach?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "Jeśli utworzysz notatkę z wydarzenia kalendarza do 5 minut przed rozpoczęciem, lub dołączysz do spotkania video z notatki",
+  instantEmail: "natychmiastowy email",
+  emailDigest: "podsumowanie emaili",
+  instantEmailNotifications: "Natychmiastowe powiadomienia emailowe",
 };
 
 export default pl as Translations;
