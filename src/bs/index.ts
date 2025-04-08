@@ -2252,6 +2252,8 @@ const bs: Translations = {
   learnMore: "Saznaj više",
   withAnInteractiveVideoTutorial: "sa interaktivnim video vodičem",
   newToNotes: "Nov u bilješkama?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Ako kreirate bilješku iz kalendarskog događaja do 5 minuta prije početka, ili se pridružite video pozivu iz bilješke",
 };
 
 export default bs;

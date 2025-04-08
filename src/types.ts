@@ -1989,6 +1989,7 @@ export enum TranslationKeys {
   LearnMore = "learnMore",
   WithAnInteractiveVideoTutorial = "withAnInteractiveVideoTutorial",
   NewToNotes = "newToNotes",
+  OnlyWhenITakeNotesForMeetingSubtitle = "onlyWhenITakeNotesForMeetingSubtitle",
 }
 
 export type Translations = Record<TranslationKeys, string>;
