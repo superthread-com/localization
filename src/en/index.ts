@@ -212,7 +212,7 @@ const en = {
   ["billing.roadmapAndProjects"]: "Roadmap & projects",
   ["billing.templates"]: "Templates",
   ["billing.adminRoles"]: "Admin roles",
-  ["billing.unlimitedAiNotes"]: "AI notes",
+  ["billing.unlimitedAiNotes"]: "Unlimited AI notes",
   ["billing.aiSearch"]: "AI search",
   ["billing.ssoAndSaml"]: "SSO & SAML",
   ["billing.perUserPerMonth"]: "/ user / month",
