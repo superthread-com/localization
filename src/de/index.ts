@@ -264,6 +264,8 @@ const de = {
   comment: "Kommentar",
   replyToComment: "Auf Kommentar antworten...",
   writeComment: "Einen Kommentar schreiben...",
+  draftComment: "Entwurfskommentar",
+  finaliseCard: "Karte abschließen",
   comments: "Kommentare",
   createBoard: "Tafel erstellen",
   createPage: "Seite erstellen",

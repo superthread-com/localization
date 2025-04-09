@@ -231,6 +231,8 @@ export enum TranslationKeys {
   ReplyToComment = "replyToComment",
   WriteComment = "writeComment",
   Comments = "comments",
+  DraftComment = "draftComment",
+  FinaliseCard = "finaliseCard",
   CreateBoard = "createBoard",
   CreatePage = "createPage",
   Delete = "delete",

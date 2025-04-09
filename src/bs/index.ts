@@ -8,6 +8,8 @@ const bs: Translations = {
   addComment: "Dodaj komentar",
   comment: "Komentariši",
   writeComment: "Napiši komentar...",
+  draftComment: "Nacrt komentara",
+  finaliseCard: "Završi karticu",
   comments: "KOMENTARI",
   createBoard: "Kreiraj ploču",
   createPage: "Kreiraj stranicu",

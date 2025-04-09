@@ -259,6 +259,8 @@ const pl = {
   comment: "Komentarz",
   replyToComment: "Odpowiedz na komentarz...",
   writeComment: "Napisz komentarz...",
+  draftComment: "Szkic komentarza",
+  finaliseCard: "Zakończ kartę",
   comments: "Komentarze",
   createBoard: "Utwórz tablicę",
   createPage: "Utwórz stronę",

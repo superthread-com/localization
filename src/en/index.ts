@@ -259,6 +259,8 @@ const en = {
   comment: "Comment",
   replyToComment: "Reply to comment...",
   writeComment: "Write a comment...",
+  draftComment: "Draft comment",
+  finaliseCard: "Finalise card",
   comments: "Comments",
   createBoard: "Create board",
   createPage: "Create page",
