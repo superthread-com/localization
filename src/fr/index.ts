@@ -263,6 +263,8 @@ const fr: Translations = {
   comment: "Commenter",
   replyToComment: "Répondre au commentaire...",
   writeComment: "Écrire un commentaire...",
+  draftComment: "Brouillon de commentaire",
+  finaliseCard: "Finaliser la carte",
   comments: "Commentaires",
   createBoard: "Créer un tableau",
   createPage: "Créer une page",
