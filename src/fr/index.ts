@@ -2342,6 +2342,7 @@ const fr: Translations = {
   instantEmail: "email instantané",
   emailDigest: "résumé des e-mails",
   instantEmailNotifications: "Notifications par e-mail instantané",
+  goToLatest: "Aller à la dernière",
 };
 
 export default fr as Translations;

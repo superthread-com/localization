@@ -2236,6 +2236,7 @@ const en = {
   instantEmail: "instant email",
   emailDigest: "email digest",
   instantEmailNotifications: "Instant email notifications",
+  goToLatest: "Go to latest",
 };
 
 export default en as Translations;
