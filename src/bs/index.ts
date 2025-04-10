@@ -2276,6 +2276,7 @@ const bs: Translations = {
   instantEmail: "trenutni email",
   emailDigest: "sažetak emailova",
   instantEmailNotifications: "Trenutne obavijesti emailom",
+  goToLatest: "Idi na najnovije",
 };
 
 export default bs;
