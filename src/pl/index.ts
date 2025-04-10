@@ -2270,6 +2270,7 @@ const pl = {
   instantEmail: "natychmiastowy email",
   emailDigest: "podsumowanie emaili",
   instantEmailNotifications: "Natychmiastowe powiadomienia emailowe",
+  goToLatest: "Przejdź do najnowszej",
 };
 
 export default pl as Translations;

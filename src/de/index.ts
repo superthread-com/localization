@@ -2343,6 +2343,7 @@ const de = {
   instantEmail: "sofortige Email",
   emailDigest: "Email-Zusammenfassung",
   instantEmailNotifications: "Sofortige Email-Benachrichtigungen",
+  goToLatest: "Zum neuesten gehen",
 };
 
 export default de as Translations;

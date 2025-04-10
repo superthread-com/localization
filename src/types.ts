@@ -2009,6 +2009,7 @@ export enum TranslationKeys {
   InstantEmail = "instantEmail",
   EmailDigest = "emailDigest",
   InstantEmailNotifications = "instantEmailNotifications",
+  GoToLatest = "goToLatest",
 }
 
 export type Translations = Record<TranslationKeys, string>;
