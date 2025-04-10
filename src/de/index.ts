@@ -206,7 +206,7 @@ const de = {
   ["billing.dollarPrice"]: "%{price} $",
   ["billing.numberSpaces"]: "%{number} Räume",
   ["billing.numberBoards"]: "%{number} Tafeln",
-  ["billing.fileSizeLimit"]: "%{size} Dateigrößenlimit",
+  ["billing.fileSizeLimit"]: "%{size}MB Dateigrößenlimit",
   ["billing.sprints"]: "Sprints",
   ["billing.projectsAndRoadmap"]: "Projekte & Fahrplan",
   ["billing.ssoAndSaml"]: "SSO & SAML",

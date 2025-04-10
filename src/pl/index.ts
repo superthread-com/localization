@@ -200,7 +200,7 @@ const pl = {
   ["billing.dollarPrice"]: "$%{price}",
   ["billing.numberSpaces"]: "%{number} przestrzeni",
   ["billing.numberBoards"]: "%{number} tablic",
-  ["billing.fileSizeLimit"]: "%{size} limit rozmiaru pliku",
+  ["billing.fileSizeLimit"]: "%{size}MB limit rozmiaru pliku",
   ["billing.sprints"]: "Sprinty",
   ["billing.projectsAndRoadmap"]: "Projekty i mapa drogowa",
   ["billing.ssoAndSaml"]: "SSO i SAML",

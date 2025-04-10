@@ -73,7 +73,7 @@ const fr: Translations = {
   ["billing.dollarPrice"]: "%{price} $",
   ["billing.numberSpaces"]: "%{number} espaces",
   ["billing.numberBoards"]: "%{number} tableaux",
-  ["billing.fileSizeLimit"]: "Limitation de la taille des fichiers à %{size}",
+  ["billing.fileSizeLimit"]: "Limitation de la taille des fichiers à %{size}MB",
   ["billing.sprints"]: "Sprints",
   ["billing.projectsAndRoadmap"]: "Projets et feuille de route",
   ["billing.ssoAndSaml"]: "SSO & SAML",

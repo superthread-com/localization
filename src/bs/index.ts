@@ -1154,7 +1154,7 @@ const bs: Translations = {
   ["billing.dollarPrice"]: "%{price} $",
   ["billing.numberSpaces"]: "%{number} prostora",
   ["billing.numberBoards"]: "%{number} ploča",
-  ["billing.fileSizeLimit"]: "Ograničenje veličine datoteke %{size}",
+  ["billing.fileSizeLimit"]: "Ograničenje veličine datoteke %{size}MB",
   ["billing.sprints"]: "Ciklusi",
   ["billing.projectsAndRoadmap"]: "Projekti i vremenske linije",
   ["billing.ssoAndSaml"]: "SSO i SAML",

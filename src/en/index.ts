@@ -203,7 +203,7 @@ const en = {
   ["billing.dollarPrice"]: "$%{price}",
   ["billing.numberSpaces"]: "%{number} spaces",
   ["billing.numberBoards"]: "%{number} boards",
-  ["billing.fileSizeLimit"]: "%{size} file size limit",
+  ["billing.fileSizeLimit"]: "%{size}MB file size limit",
   ["billing.sprints"]: "Sprints",
   ["billing.projectsAndRoadmap"]: "Projects & roadmap",
   ["billing.ssoAndSaml"]: "SSO & SAML",
