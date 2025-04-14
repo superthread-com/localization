@@ -2223,6 +2223,9 @@ const en = {
     "Meeting transcription and AI-enhanced note-taking",
   transcriptionNotAvailableOnPlan:
     "Transcription is not available on this plan. Click to see available plans",
+  openLinksInDesktopAppTitle: "Open desktop app when you log in",
+  openLinksInDesktopAppDescription:
+    "Automatically open Superthread desktop app when you log in",
   automaticallyStartTranscription: "Automatically start transcription",
   wheneverICreateANote: "Whenever I create a note",
   onlyWhenITakeNotesForMeeting: "Only when I take notes for a meeting",
