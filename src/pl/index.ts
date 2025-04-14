@@ -2190,7 +2190,7 @@ const pl = {
   openTranscribingNote: "Otwórz notatkę transkrypcji",
   notesSettings: "Ustawienia notatek",
   theseSettingsArePersonalToYou: "Te ustawienia są dla Ciebie personalne",
-  transcriptionJargonTitle: "Żargon do transkrypcji",
+  transcriptionJargonTitle: "Żargon",
   transcriptionJargonPlaceholder:
     "Terminy techniczne, nietypowe imiona, nazwy projektów, itp.",
   transcriptionJargonDescription:
@@ -2244,12 +2244,13 @@ const pl = {
   notesAreBetterWithOurApp: "Notatki są lepsze z naszą aplikacją",
   downloadTheMacOSApp: "Pobierz aplikację macOS",
   toTranscribeMeetings: "do transkrypcji spotkań",
-  notifyUpcomingMeetingsTitle: "Powiadom mnie o nadchodzących spotkaniach",
+  notifyUpcomingMeetingsTitle:
+    "Powiadom mnie o nadchodzących spotkaniach w kalendarzu",
   notifyUpcomingMeetingsDescription:
     "Jeśli spotkanie ma się zacząć, Superthread powiadomi Cię i zaproponuje utworzenie nowej notatki.",
-  requiresMacosAppOne: "Wymaga",
-  requiresMacosAppTwo: "aplikacji macOS.",
-  meetingsMenuBarTitle: "Pokaż nadchodzące spotkania obok ikony paska menu",
+  macOSApp: "aplikacji macOS",
+  meetingsMenuBarTitle:
+    "Wyświetl nadchodzące spotkania z kalendarza obok aplikacji na pasku menu",
   meetingsMenuBarDescription:
     "Następne spotkanie w bieżącym dniu pojawi się obok ikony Superthread w pasku menu.",
   meetingName: "Nazwa spotkania",
@@ -2274,6 +2275,9 @@ const pl = {
   emailDigest: "podsumowanie emaili",
   instantEmailNotifications: "Natychmiastowe powiadomienia emailowe",
   goToLatest: "Przejdź do najnowszej",
+  meetingAndTranscriptionSettings: "Ustawienia spotkań i transkrypcji",
+  meetingAndTranscriptionSettingsSubtitle:
+    "Te ustawienia mogą być używane tylko w",
 };
 
 export default pl as Translations;

@@ -2156,7 +2156,7 @@ const en = {
   openTranscribingNote: "Open transcribing note",
   notesSettings: "Notes settings",
   theseSettingsArePersonalToYou: "These settings are personal to you",
-  transcriptionJargonTitle: "Jargon for transcription",
+  transcriptionJargonTitle: "Jargon",
   transcriptionJargonPlaceholder:
     "Tehnical terms, uncommon names, project names, etc.",
   transcriptionJargonDescription:
@@ -2207,12 +2207,12 @@ const en = {
   notesAreBetterWithOurApp: "Notes are better with our app",
   downloadTheMacOSApp: "Download the macOS app",
   toTranscribeMeetings: "to transcribe meetings",
-  notifyUpcomingMeetingsTitle: "Notify me of upcoming meetings",
+  notifyUpcomingMeetingsTitle: "Notify me of upcoming calendar meetings",
   notifyUpcomingMeetingsDescription:
     " If a meeting is about to start Superthread will notify you and offer to create a new note.",
-  requiresMacosAppOne: "Requires the",
-  requiresMacosAppTwo: "macOS app.",
-  meetingsMenuBarTitle: "Show upcoming meetings next to the menu bar icon",
+  macOSApp: "macOS app",
+  meetingsMenuBarTitle:
+    "Show upcoming calendar meetings next to the menu bar app",
   meetingsMenuBarDescription:
     "The next meeting on the current day will show next to the Superthread icon in the menu bar.",
   meetingName: "Meeting name",
@@ -2238,6 +2238,9 @@ const en = {
   emailDigest: "email digest",
   instantEmailNotifications: "Instant email notifications",
   goToLatest: "Go to latest",
+  meetingAndTranscriptionSettings: "Meeting and transcription settings",
+  meetingAndTranscriptionSettingsSubtitle:
+    "These settings can only be used in the",
 };
 
 export default en as Translations;
