@@ -2316,6 +2316,9 @@ const de = {
     "Meeting-Transkription und AI-verbesserte Notiz-Erstellung",
   transcriptionNotAvailableOnPlan:
     "Transkription ist in diesem Tarif nicht verfügbar. Klicken Sie, um verfügbare Tarife zu sehen.",
+  openLinksInDesktopAppTitle: "Desktop-App beim Anmelden öffnen",
+  openLinksInDesktopAppDescription:
+    "Superthread-Desktop-App beim Anmelden automatisch öffnen",
 };
 
 export default de as Translations;

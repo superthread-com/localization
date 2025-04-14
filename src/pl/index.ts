@@ -2244,6 +2244,9 @@ const pl = {
   ["get_started_notes.tooltip"]: "Transkrypcja dźwięku i ulepszona notatka",
   transcriptionNotAvailableOnPlan:
     "Transkrypcja nie jest dostępna w tym planie. Kliknij, aby zobaczyć dostępne plany.",
+  openLinksInDesktopAppTitle: "Otwórz aplikację desktopową przy logowaniu",
+  openLinksInDesktopAppDescription:
+    "Automatycznie otwieraj aplikację desktopową Superthread przy logowaniu",
 };
 
 export default pl as Translations;

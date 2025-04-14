@@ -2311,6 +2311,10 @@ const fr: Translations = {
     "Transcription audio et prise de notes améliorée par l'IA",
   transcriptionNotAvailableOnPlan:
     "La transcription n'est pas disponible avec ce forfait. Cliquez pour voir les forfaits disponibles.",
+  openLinksInDesktopAppTitle:
+    "Ouvrir l'application de bureau lors de la connexion",
+  openLinksInDesktopAppDescription:
+    "Ouvrir automatiquement l'application de bureau Superthread lors de la connexion",
 };
 
 export default fr as Translations;
