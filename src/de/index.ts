@@ -2259,7 +2259,7 @@ const de = {
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
   notesSettings: "Notizeinstellungen",
   theseSettingsArePersonalToYou: "Diese Einstellungen sind persönlich für Sie",
-  transcriptionJargonTitle: "Jargon für Transkription",
+  transcriptionJargonTitle: "Jargon",
   transcriptionJargonPlaceholder:
     "Fachbegriffe, ungewöhnliche Namen, Projektnamen usw.",
   transcriptionJargonDescription:
@@ -2316,12 +2316,14 @@ const de = {
   downloadTheMacOSApp: "Download der macOS-App",
   toTranscribeMeetings: "um Treffen zu transkribieren",
   notifyUpcomingMeetingsTitle:
-    "Benachrichtige mich über bevorstehende Meetings",
+    "Benachrichtige mich über bevorstehende Kalendertreffen",
   notifyUpcomingMeetingsDescription:
     "Wenn ein Meeting gleich beginnt, wird Superthread dich benachrichtigen und anbieten, eine neue Notiz zu erstellen.",
+  macOSApp: "macOS-App",
   requiresMacosAppOne: "Erfordert die",
   requiresMacosAppTwo: "macOS-App.",
-  meetingsMenuBarTitle: "Zeige bevorstehende Meetings neben dem Menüsymbol",
+  meetingsMenuBarTitle:
+    "Zeige bevorstehende Kalendertreffen neben der Menüleisten-App an",
   meetingsMenuBarDescription:
     "Das nächste Meeting des aktuellen Tages wird neben dem Superthread-Symbol in der Menüleiste angezeigt.",
   meetingName: "Besprechungsname",
@@ -2347,6 +2349,10 @@ const de = {
   emailDigest: "Email-Zusammenfassung",
   instantEmailNotifications: "Sofortige Email-Benachrichtigungen",
   goToLatest: "Zum neuesten gehen",
+  meetingAndTranscriptionSettings:
+    "Einstellungen für Meetings und Transkriptionen",
+  meetingAndTranscriptionSettingsSubtitle:
+    "Diese Einstellungen können nur in der verwendet werden",
 };
 
 export default de as Translations;

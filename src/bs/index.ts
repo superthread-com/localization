@@ -2194,7 +2194,7 @@ const bs: Translations = {
   openTranscribingNote: "Otvori bilješku za prepisivanje",
   notesSettings: "Postavke bilješki",
   theseSettingsArePersonalToYou: "Ove postavke su lične za vas",
-  transcriptionJargonTitle: "Žargon za transkripciju",
+  transcriptionJargonTitle: "Žargon",
   transcriptionJargonPlaceholder:
     "Tehnički izrazi, neuobičajena imena, nazivi projekata, itd.",
   transcriptionJargonDescription:
@@ -2247,12 +2247,15 @@ const bs: Translations = {
   notesAreBetterWithOurApp: "Bilješke su bolje s našom aplikacijom",
   downloadTheMacOSApp: "Preuzmi macOS aplikaciju",
   toTranscribeMeetings: "za transkripciju sastanaka",
-  notifyUpcomingMeetingsTitle: "Obavijesti me o nadolazećim sastancima",
+  notifyUpcomingMeetingsTitle:
+    "Obavijesti me o nadolazećim sastancima u kalendaru",
   notifyUpcomingMeetingsDescription:
     "Ako će sastanak uskoro početi, Superthread će vas obavijestiti i ponuditi vam kreiranje nove bilješke.",
+  macOSApp: "macOS aplikaciju",
   requiresMacosAppOne: "Zahjeva",
   requiresMacosAppTwo: "macOS aplikaciju.",
-  meetingsMenuBarTitle: "Prikaži nadolazeće sastanke pored ikone trake menija",
+  meetingsMenuBarTitle:
+    "Prikaži nadolazeće sastanke iz kalendara pored aplikacije u traci izbornika",
   meetingsMenuBarDescription:
     "Sljedeći sastanak tekućeg dana pojavit će se pored Superthread ikone u traci menija.",
   meetingName: "Naziv sastanka",
@@ -2277,6 +2280,9 @@ const bs: Translations = {
   emailDigest: "sažetak emailova",
   instantEmailNotifications: "Trenutne obavijesti emailom",
   goToLatest: "Idi na najnovije",
+  meetingAndTranscriptionSettings: "Postavke sastanka i transkripcije",
+  meetingAndTranscriptionSettingsSubtitle:
+    "Ove postavke se mogu koristiti samo u",
 };
 
 export default bs;

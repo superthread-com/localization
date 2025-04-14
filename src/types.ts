@@ -1989,6 +1989,7 @@ export enum TranslationKeys {
   ToTranscribeMeetings = "toTranscribeMeetings",
   NotifyUpcomingMeetingsTitle = "notifyUpcomingMeetingsTitle",
   NotifyUpcomingMeetingsDescription = "notifyUpcomingMeetingsDescription",
+  MacOSApp = "macOSApp",
   RequiresMacosAppOne = "requiresMacosAppOne",
   RequiresMacosAppTwo = "requiresMacosAppTwo",
   MeetingsMenuBarTitle = "meetingsMenuBarTitle",
@@ -2012,6 +2013,8 @@ export enum TranslationKeys {
   EmailDigest = "emailDigest",
   InstantEmailNotifications = "instantEmailNotifications",
   GoToLatest = "goToLatest",
+  MeetingAndTranscriptionSettings = "meetingAndTranscriptionSettings",
+  MeetingAndTranscriptionSettingsSubtitle = "meetingAndTranscriptionSettingsSubtitle",
 }
 
 export type Translations = Record<TranslationKeys, string>;

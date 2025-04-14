@@ -2254,7 +2254,7 @@ const fr: Translations = {
   openTranscribingNote: "Ouvrir la note en cours de transcription",
   notesSettings: "Paramètres des notes",
   theseSettingsArePersonalToYou: "Ces paramètres vous sont personnels",
-  transcriptionJargonTitle: "Jargon pour la transcription",
+  transcriptionJargonTitle: "Jargon",
   transcriptionJargonPlaceholder:
     "Termes techniques, noms inhabituels, noms de projets, etc.",
   transcriptionJargonDescription:
@@ -2310,13 +2310,15 @@ const fr: Translations = {
   notesAreBetterWithOurApp: "Les notes sont meilleures avec notre application",
   downloadTheMacOSApp: "Télécharger l'application macOS",
   toTranscribeMeetings: "pour transcrire les réunions",
-  notifyUpcomingMeetingsTitle: "M'avertir des réunions à venir",
+  notifyUpcomingMeetingsTitle:
+    "Préviens-moi des réunions à venir dans le calendrier",
   notifyUpcomingMeetingsDescription:
     "Si une réunion est sur le point de commencer, Superthread vous notifiera et vous proposera de créer une nouvelle note.",
+  macOSApp: "application macOS",
   requiresMacosAppOne: "Nécessite l'",
   requiresMacosAppTwo: "application macOS.",
   meetingsMenuBarTitle:
-    "Afficher les réunions à venir à côté de l'icône de la barre de menu",
+    "Affiche les réunions à venir à côté de l'application dans la barre de menu",
   meetingsMenuBarDescription:
     "La prochaine réunion du jour s'affichera à côté de l'icône Superthread dans la barre de menu.",
   meetingName: "Nom de la réunion",
@@ -2344,6 +2346,9 @@ const fr: Translations = {
   emailDigest: "résumé des e-mails",
   instantEmailNotifications: "Notifications par e-mail instantané",
   goToLatest: "Aller à la dernière",
+  meetingAndTranscriptionSettings: "Paramètres de réunion et de transcription",
+  meetingAndTranscriptionSettingsSubtitle:
+    "Ces paramètres ne peuvent être utilisés que dans",
 };
 
 export default fr as Translations;
