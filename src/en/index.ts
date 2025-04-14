@@ -2211,6 +2211,8 @@ const en = {
   notifyUpcomingMeetingsDescription:
     " If a meeting is about to start Superthread will notify you and offer to create a new note.",
   macOSApp: "macOS app",
+  requiresMacosAppOne: "Requires the",
+  requiresMacosAppTwo: "macOS app.",
   meetingsMenuBarTitle:
     "Show upcoming calendar meetings next to the menu bar app",
   meetingsMenuBarDescription:

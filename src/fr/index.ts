@@ -2315,6 +2315,8 @@ const fr: Translations = {
   notifyUpcomingMeetingsDescription:
     "Si une réunion est sur le point de commencer, Superthread vous notifiera et vous proposera de créer une nouvelle note.",
   macOSApp: "application macOS",
+  requiresMacosAppOne: "Nécessite l'",
+  requiresMacosAppTwo: "application macOS.",
   meetingsMenuBarTitle:
     "Affiche les réunions à venir à côté de l'application dans la barre de menu",
   meetingsMenuBarDescription:

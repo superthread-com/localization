@@ -2249,6 +2249,8 @@ const pl = {
   notifyUpcomingMeetingsDescription:
     "Jeśli spotkanie ma się zacząć, Superthread powiadomi Cię i zaproponuje utworzenie nowej notatki.",
   macOSApp: "aplikacji macOS",
+  requiresMacosAppOne: "Wymaga",
+  requiresMacosAppTwo: "aplikacji macOS.",
   meetingsMenuBarTitle:
     "Wyświetl nadchodzące spotkania z kalendarza obok aplikacji na pasku menu",
   meetingsMenuBarDescription:

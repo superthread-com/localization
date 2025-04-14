@@ -2252,6 +2252,8 @@ const bs: Translations = {
   notifyUpcomingMeetingsDescription:
     "Ako će sastanak uskoro početi, Superthread će vas obavijestiti i ponuditi vam kreiranje nove bilješke.",
   macOSApp: "macOS aplikaciju",
+  requiresMacosAppOne: "Zahjeva",
+  requiresMacosAppTwo: "macOS aplikaciju.",
   meetingsMenuBarTitle:
     "Prikaži nadolazeće sastanke iz kalendara pored aplikacije u traci izbornika",
   meetingsMenuBarDescription:

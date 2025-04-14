@@ -2320,6 +2320,8 @@ const de = {
   notifyUpcomingMeetingsDescription:
     "Wenn ein Meeting gleich beginnt, wird Superthread dich benachrichtigen und anbieten, eine neue Notiz zu erstellen.",
   macOSApp: "macOS-App",
+  requiresMacosAppOne: "Erfordert die",
+  requiresMacosAppTwo: "macOS-App.",
   meetingsMenuBarTitle:
     "Zeige bevorstehende Kalendertreffen neben der Menüleisten-App an",
   meetingsMenuBarDescription:

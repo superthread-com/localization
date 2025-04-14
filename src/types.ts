@@ -1990,6 +1990,8 @@ export enum TranslationKeys {
   NotifyUpcomingMeetingsTitle = "notifyUpcomingMeetingsTitle",
   NotifyUpcomingMeetingsDescription = "notifyUpcomingMeetingsDescription",
   MacOSApp = "macOSApp",
+  RequiresMacosAppOne = "requiresMacosAppOne",
+  RequiresMacosAppTwo = "requiresMacosAppTwo",
   MeetingsMenuBarTitle = "meetingsMenuBarTitle",
   MeetingsMenuBarDescription = "meetingsMenuBarDescription",
   MeetingName = "meetingName",
