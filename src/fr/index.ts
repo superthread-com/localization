@@ -28,8 +28,8 @@ const fr: Translations = {
   ["billing.sharePagesOnTheWeb"]: "Partager des pages sur le Web",
   ["billing.50Pages"]: "50 pages",
   ["billing.unlimitedPages"]: "Nombre de pages illimités",
-  ["billing.indexPublishedPages"]:
-    "Indexer les pages publiées dans les moteurs de recherche",
+  ["billing.indexSharedPages"]:
+    "Indexer les pages partagées dans les moteurs de recherche",
   ["billing.privateSpaces"]: "Espaces privés",
   ["billing.timelineListAndBoardView"]: "Vue chronologique, liste et tableau",
   ["billing.guestAccounts"]: "Comptes d'invités",
@@ -70,6 +70,19 @@ const fr: Translations = {
     "Consultez le panneau du plan pour obtenir une estimation du coût par siège.",
   ["billing.10"]: "$10",
   ["billing.12"]: "$12",
+  ["billing.dollarPrice"]: "%{price} $",
+  ["billing.numberSpaces"]: "%{number} espaces",
+  ["billing.numberBoards"]: "%{number} tableaux",
+  ["billing.fileSizeLimit"]: "Limitation de la taille des fichiers à %{size}MB",
+  ["billing.sprints"]: "Sprints",
+  ["billing.projectsAndRoadmap"]: "Projets et feuille de route",
+  ["billing.ssoAndSaml"]: "SSO & SAML",
+  ["billing.unlimitedFileUploads"]: "Téléchargements de fichiers illimités",
+  ["billing.cardAndPageTemplates"]: "Modèles de carte et de page",
+  ["billing.guestUsers"]: "Utilisateurs invités",
+  ["billing.meetingTranscription"]: "Transcription de réunion",
+  ["billing.aiNoteTemplates"]: "Modèles de notes AI",
+  ["billing.askAiSearch"]: "Recherche AI",
   ["billing.perUserPerMonth"]: "/ utilisateur / mois",
   ["billing.billedYearly"]: "Facturé annuellement",
   ["billing.planStatus"]: "Status du plan",
@@ -263,6 +276,8 @@ const fr: Translations = {
   comment: "Commenter",
   replyToComment: "Répondre au commentaire...",
   writeComment: "Écrire un commentaire...",
+  draftComment: "Brouillon de commentaire",
+  finaliseCard: "Finaliser la carte",
   comments: "Commentaires",
   createBoard: "Créer un tableau",
   createPage: "Créer une page",
@@ -332,6 +347,7 @@ const fr: Translations = {
     "Impossible de supprimer le commentaire, veuillez réssayer plus tard!",
   couldntLoadComments: "Impossible de charger les commentaires.",
   commentOnPage: "Commenter sur la page",
+  commentOn: "Commenter sur",
   emailPlaceholder: "e. g. votrenom@votrecompagnie.com",
   signOut: "Se déconnecter",
   leave: "Partir",
@@ -2315,6 +2331,19 @@ const fr: Translations = {
     "Ouvrir l'application de bureau lors de la connexion",
   openLinksInDesktopAppDescription:
     "Ouvrir automatiquement l'application de bureau Superthread lors de la connexion",
+  automaticallyStartTranscription: "Démarrer la transcription automatiquement",
+  wheneverICreateANote: "Lorsque je crée une note",
+  onlyWhenITakeNotesForMeeting:
+    "Seulement lorsque je prends des notes pour une réunion",
+  learnMore: "En savoir plus",
+  withAnInteractiveVideoTutorial: "avec un tutoriel vidéo interactif",
+  newToNotes: "Nouveau dans les notes?",
+  onlyWhenITakeNotesForMeetingSubtitle:
+    "Si vous créez une note à partir d'un événement calendrier jusqu'à 5 minutes avant l'heure de début, ou rejoignez une vidéo appel de note",
+  instantEmail: "email instantané",
+  emailDigest: "résumé des e-mails",
+  instantEmailNotifications: "Notifications par e-mail instantané",
+  goToLatest: "Aller à la dernière",
 };
 
 export default fr as Translations;
