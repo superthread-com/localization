@@ -2243,6 +2243,8 @@ const en = {
   meetingAndTranscriptionSettings: "Meeting and transcription settings",
   meetingAndTranscriptionSettingsSubtitle:
     "These settings can only be used in the",
+  customiseNotesSettingsOne: "Or customise your",
+  customiseNotesSettingsTwo: "notes settings",
 };
 
 export default en as Translations;

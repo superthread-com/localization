@@ -2283,6 +2283,8 @@ const bs: Translations = {
   meetingAndTranscriptionSettings: "Postavke sastanka i transkripcije",
   meetingAndTranscriptionSettingsSubtitle:
     "Ove postavke se mogu koristiti samo u",
+  customiseNotesSettingsOne: "Ili prilagodi",
+  customiseNotesSettingsTwo: "postavke svojih bilješki",
 };
 
 export default bs;
