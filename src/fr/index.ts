@@ -2349,6 +2349,8 @@ const fr: Translations = {
   meetingAndTranscriptionSettings: "Paramètres de réunion et de transcription",
   meetingAndTranscriptionSettingsSubtitle:
     "Ces paramètres ne peuvent être utilisés que dans",
+  customiseNotesSettingsOne: "Ou personnalisez",
+  customiseNotesSettingsTwo: "les paramètres de vos notes",
 };
 
 export default fr as Translations;

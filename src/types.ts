@@ -2015,6 +2015,8 @@ export enum TranslationKeys {
   GoToLatest = "goToLatest",
   MeetingAndTranscriptionSettings = "meetingAndTranscriptionSettings",
   MeetingAndTranscriptionSettingsSubtitle = "meetingAndTranscriptionSettingsSubtitle",
+  CustumiseNotesSettingsOne = "customiseNotesSettingsOne",
+  CustumiseNotesSettingsTwo = "customiseNotesSettingsTwo",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2353,6 +2353,8 @@ const de = {
     "Einstellungen für Meetings und Transkriptionen",
   meetingAndTranscriptionSettingsSubtitle:
     "Diese Einstellungen können nur in der verwendet werden",
+  customiseNotesSettingsOne: "Oder passe",
+  customiseNotesSettingsTwo: "deine Notizeinstellungen an",
 };
 
 export default de as Translations;

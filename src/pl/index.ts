@@ -2280,6 +2280,8 @@ const pl = {
   meetingAndTranscriptionSettings: "Ustawienia spotkań i transkrypcji",
   meetingAndTranscriptionSettingsSubtitle:
     "Te ustawienia mogą być używane tylko w",
+  customiseNotesSettingsOne: "Lub dostosuj",
+  customiseNotesSettingsTwo: "ustawienia notatek",
 };
 
 export default pl as Translations;
