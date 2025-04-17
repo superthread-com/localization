@@ -1672,6 +1672,7 @@ export enum TranslationKeys {
   RenameAttachment = "renameAttachment",
   DeleteAttachment = "deleteAttachment",
   TimelineLayoutDescription = "timelineLayoutDescription",
+  CalendarLayoutDescription = "calendarLayoutDescription",
   UpgradeViewsDescription = "upgradeViewsDescription",
   CreateNewItem = "createNewItem",
   StatusType = "statusType",
@@ -2015,8 +2016,8 @@ export enum TranslationKeys {
   GoToLatest = "goToLatest",
   MeetingAndTranscriptionSettings = "meetingAndTranscriptionSettings",
   MeetingAndTranscriptionSettingsSubtitle = "meetingAndTranscriptionSettingsSubtitle",
-  CustumiseNotesSettingsOne = "customiseNotesSettingsOne",
-  CustumiseNotesSettingsTwo = "customiseNotesSettingsTwo",
+  CustomiseNotesSettingsOne = "customiseNotesSettingsOne",
+  CustomiseNotesSettingsTwo = "customiseNotesSettingsTwo",
 }
 
 export type Translations = Record<TranslationKeys, string>;
