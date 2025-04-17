@@ -1874,6 +1874,8 @@ const pl = {
   deleteAttachment: "Usuń załącznik",
   timelineLayoutDescription:
     "Zaktualizuj plan przestrzeni roboczej, aby korzystać z układu osi czasu.",
+  calendarLayoutDescription:
+    "Zaktualizuj plan przestrzeni roboczej, aby korzystać z układu kalendarza.",
   upgradeViewsDescription:
     "Zaktualizuj plan przestrzeni roboczej, aby zapisywać widoki.",
   createNewItem: "Utwórz nowy element",

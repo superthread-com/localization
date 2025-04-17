@@ -1840,6 +1840,8 @@ const en = {
   deleteAttachment: "Delete attachment",
   timelineLayoutDescription:
     "Upgrade your workspace plan to use the timeline layout.",
+  calendarLayoutDescription:
+    "Upgrade your workspace plan to use the calendar layout.",
   upgradeViewsDescription: "Upgrade your workspace plan to save views.",
   createNewItem: "Create new item",
   statusType: "Status type",

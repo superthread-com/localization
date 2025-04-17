@@ -1930,6 +1930,8 @@ const de = {
   deleteAttachment: "Anhang löschen",
   timelineLayoutDescription:
     "Upgrade deinen Arbeitsbereichsplan, um das Zeitachsenlayout zu verwenden.",
+  calendarLayoutDescription:
+    "Upgrade deinen Arbeitsbereichsplan, um das Kalenderlayout zu verwenden.",
   upgradeViewsDescription:
     "Upgrade deinen Arbeitsbereichsplan, um Ansichten zu speichern.",
   createNewItem: "Neues Element erstellen",
