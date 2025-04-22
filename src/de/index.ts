@@ -2357,6 +2357,7 @@ const de = {
     "Diese Einstellungen können nur in der verwendet werden",
   customiseNotesSettingsOne: "Oder passe",
   customiseNotesSettingsTwo: "deine Notizeinstellungen an",
+  enableSubGroupBy: "Untergruppe nach",
 };
 
 export default de as Translations;

@@ -2018,6 +2018,7 @@ export enum TranslationKeys {
   MeetingAndTranscriptionSettingsSubtitle = "meetingAndTranscriptionSettingsSubtitle",
   CustomiseNotesSettingsOne = "customiseNotesSettingsOne",
   CustomiseNotesSettingsTwo = "customiseNotesSettingsTwo",
+  EnableSubGroupBy = "enableSubGroupBy",
 }
 
 export type Translations = Record<TranslationKeys, string>;

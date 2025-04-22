@@ -2353,6 +2353,7 @@ const fr: Translations = {
     "Ces paramètres ne peuvent être utilisés que dans",
   customiseNotesSettingsOne: "Ou personnalisez",
   customiseNotesSettingsTwo: "les paramètres de vos notes",
+  enableSubGroupBy: "Sous-groupe par",
 };
 
 export default fr as Translations;
