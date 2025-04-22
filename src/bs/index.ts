@@ -2287,6 +2287,7 @@ const bs: Translations = {
     "Ove postavke se mogu koristiti samo u",
   customiseNotesSettingsOne: "Ili prilagodi",
   customiseNotesSettingsTwo: "postavke svojih bilješki",
+  enableSubGroupBy: "Podgrupa po",
 };
 
 export default bs;

@@ -2284,6 +2284,7 @@ const pl = {
     "Te ustawienia mogą być używane tylko w",
   customiseNotesSettingsOne: "Lub dostosuj",
   customiseNotesSettingsTwo: "ustawienia notatek",
+  enableSubGroupBy: "Podgrupa według",
 };
 
 export default pl as Translations;

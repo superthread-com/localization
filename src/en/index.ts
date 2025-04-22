@@ -2247,6 +2247,7 @@ const en = {
     "These settings can only be used in the",
   customiseNotesSettingsOne: "Or customise your",
   customiseNotesSettingsTwo: "notes settings",
+  enableSubGroupBy: "Sub-group by",
 };
 
 export default en as Translations;
