@@ -1191,6 +1191,7 @@ const bs: Translations = {
   ["billing.unlimitedChildCards"]: "Neograničen broj child kartica",
   ["billing.publishPagesToTheWeb"]: "Objavi stranice na webu",
   ["billing.calendarLayout"]: "Raspored kalendara",
+  ["billing.customViews"]: "Prilagođeni pogledi",
   ["billing.advancedSearch"]: "Napredna pretraga",
   ["billing.views"]: "Pogledi",
   ["billing.timelineLayout"]: "Raspored vremenske linije",
