@@ -243,6 +243,7 @@ const de = {
   ["billing.unlimitedChildCards"]: "Unbegrenzte untergeordnete Karten",
   ["billing.publishPagesToTheWeb"]: "Seiten im Web veröffentlichen",
   ["billing.calendarLayout"]: "Kalenderlayout",
+  ["billing.customViews"]: "Benutzerdefinierte Ansichten",
   ["billing.advancedSearch"]: "Erweiterte Suche",
   ["billing.views"]: "Ansichten",
   ["billing.timelineLayout"]: "Zeitachsenlayout",

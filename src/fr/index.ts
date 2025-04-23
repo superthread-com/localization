@@ -110,6 +110,7 @@ const fr: Translations = {
   ["billing.unlimitedChildCards"]: "Cartes enfants illimitées",
   ["billing.publishPagesToTheWeb"]: "Publier des pages sur le Web",
   ["billing.calendarLayout"]: "Mise en page du calendrier",
+  ["billing.customViews"]: "Vues personnalisées",
   ["billing.advancedSearch"]: "Recherche avancée",
   ["billing.views"]: "Vues",
   ["billing.timelineLayout"]: "Mise en page de la chronologie",

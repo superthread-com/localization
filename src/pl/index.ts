@@ -238,6 +238,7 @@ const pl = {
   ["billing.unlimitedChildCards"]: "Nielimitowana liczba kart potomnych",
   ["billing.publishPagesToTheWeb"]: "Publikuj strony w sieci",
   ["billing.calendarLayout"]: "Układ kalendarza",
+  ["billing.customViews"]: "Niestandardowe widoki",
   ["billing.advancedSearch"]: "Zaawansowane wyszukiwanie",
   ["billing.views"]: "Widoki",
   ["billing.timelineLayout"]: "Układ osi czasu",
