@@ -240,6 +240,7 @@ const en = {
   ["billing.unlimitedChildCards"]: "Unlimited child cards",
   ["billing.publishPagesToTheWeb"]: "Publish pages to the web",
   ["billing.calendarLayout"]: "Calendar layout",
+  ["billing.customViews"]: "Custom views",
   ["billing.advancedSearch"]: "Advanced search",
   ["billing.views"]: "Views",
   ["billing.timelineLayout"]: "Timeline layout",

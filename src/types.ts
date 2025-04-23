@@ -214,6 +214,7 @@ export enum TranslationKeys {
   BillingUnlimitedChildCards = "billing.unlimitedChildCards",
   BillingPublishPagesToTheWeb = "billing.publishPagesToTheWeb",
   BillingCalendarLayout = "billing.calendarLayout",
+  BillingCustomViews = "billing.customViews",
   BillingAdvancedSearch = "billing.advancedSearch",
   BillingViews = "billing.views",
   BillingTimelineLayout = "billing.timelineLayout",
