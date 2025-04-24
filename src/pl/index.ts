@@ -2286,6 +2286,8 @@ const pl = {
   customiseNotesSettingsOne: "Lub dostosuj",
   customiseNotesSettingsTwo: "ustawienia notatek",
   enableSubGroupBy: "Podgrupa według",
+  boardLimitReached:
+    "Osiągnięto limit tablic. Możesz usunąć niektóre tablice, aby utworzyć nowe.",
 };
 
 export default pl as Translations;

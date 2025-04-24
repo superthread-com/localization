@@ -2359,6 +2359,8 @@ const de = {
   customiseNotesSettingsOne: "Oder passe",
   customiseNotesSettingsTwo: "deine Notizeinstellungen an",
   enableSubGroupBy: "Untergruppe nach",
+  boardLimitReached:
+    "Das Board-Limit wurde erreicht. Sie können einige Boards löschen, um neue zu erstellen.",
 };
 
 export default de as Translations;

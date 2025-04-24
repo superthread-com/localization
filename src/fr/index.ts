@@ -2355,6 +2355,8 @@ const fr: Translations = {
   customiseNotesSettingsOne: "Ou personnalisez",
   customiseNotesSettingsTwo: "les paramètres de vos notes",
   enableSubGroupBy: "Sous-groupe par",
+  boardLimitReached:
+    "La limite de tableaux a été atteinte. Vous pouvez en supprimer pour en créer de nouveaux.",
 };
 
 export default fr as Translations;

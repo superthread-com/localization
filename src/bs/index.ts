@@ -2289,6 +2289,8 @@ const bs: Translations = {
   customiseNotesSettingsOne: "Ili prilagodi",
   customiseNotesSettingsTwo: "postavke svojih bilješki",
   enableSubGroupBy: "Podgrupa po",
+  boardLimitReached:
+    "Dosegnuto je ograničenje broja tabli. Možete obrisati neke table da biste napravili nove.",
 };
 
 export default bs;
