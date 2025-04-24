@@ -2249,6 +2249,8 @@ const en = {
   customiseNotesSettingsOne: "Or customise your",
   customiseNotesSettingsTwo: "notes settings",
   enableSubGroupBy: "Sub-group by",
+  boardLimitReached:
+    "The board limit has been reached. You can delete some boards to create more.",
 };
 
 export default en as Translations;

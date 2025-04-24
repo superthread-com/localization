@@ -2020,6 +2020,7 @@ export enum TranslationKeys {
   CustomiseNotesSettingsOne = "customiseNotesSettingsOne",
   CustomiseNotesSettingsTwo = "customiseNotesSettingsTwo",
   EnableSubGroupBy = "enableSubGroupBy",
+  BoardLimitReached = "boardLimitReached",
 }
 
 export type Translations = Record<TranslationKeys, string>;
