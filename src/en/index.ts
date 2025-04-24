@@ -2251,6 +2251,15 @@ const en = {
   enableSubGroupBy: "Sub-group by",
   boardLimitReached:
     "The board limit has been reached. You can delete some boards to create more.",
+  alphabetical: "Alphabetical",
+  chronological: "Chronological",
+  numeric: "Numeric",
+  role: "Role",
+  invitesPending: "Invites pending",
+  standardMembers: "Standard members",
+  guests: "Guests",
+  selected: "Selected",
+  bulkActions: "Bulk actions",
 };
 
 export default en as Translations;

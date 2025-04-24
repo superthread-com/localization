@@ -2357,6 +2357,15 @@ const fr: Translations = {
   enableSubGroupBy: "Sous-groupe par",
   boardLimitReached:
     "La limite de tableaux a été atteinte. Vous pouvez en supprimer pour en créer de nouveaux.",
+  alphabetical: "Alphabetique",
+  chronological: "Chronologique",
+  numeric: "Numérique",
+  role: "Rôle",
+  invitesPending: "Invitations en attente",
+  standardMembers: "Membres standards",
+  guests: "Invités",
+  selected: "Sélectionné",
+  bulkActions: "Actions en masse",
 };
 
 export default fr as Translations;

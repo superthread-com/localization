@@ -2021,6 +2021,15 @@ export enum TranslationKeys {
   CustomiseNotesSettingsTwo = "customiseNotesSettingsTwo",
   EnableSubGroupBy = "enableSubGroupBy",
   BoardLimitReached = "boardLimitReached",
+  Alphabetical = "alphabetical",
+  Chronological = "chronological",
+  Numeric = "numeric",
+  Role = "role",
+  InvitesPending = "invitesPending",
+  StandardMembers = "standardMembers",
+  Guests = "guests",
+  Selected = "selected",
+  BulkActions = "bulkActions",
 }
 
 export type Translations = Record<TranslationKeys, string>;
