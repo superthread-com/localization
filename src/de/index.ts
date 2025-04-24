@@ -2361,6 +2361,15 @@ const de = {
   enableSubGroupBy: "Untergruppe nach",
   boardLimitReached:
     "Das Board-Limit wurde erreicht. Sie können einige Boards löschen, um neue zu erstellen.",
+  alphabetical: "Alphabetisch",
+  chronological: "Chronologisch",
+  numeric: "Numerisch",
+  role: "Rolle",
+  invitesPending: "Einladungen ausstehend",
+  standardMembers: "Standardmitglieder",
+  guests: "Gäste",
+  selected: "Ausgewählt",
+  bulkActions: "Massenaktionen",
 };
 
 export default de as Translations;

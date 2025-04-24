@@ -2291,6 +2291,15 @@ const bs: Translations = {
   enableSubGroupBy: "Podgrupa po",
   boardLimitReached:
     "Dosegnuto je ograničenje broja tabli. Možete obrisati neke table da biste napravili nove.",
+  alphabetical: "Alfabetski",
+  chronological: "Hronološki",
+  numeric: "Numerički",
+  role: "Uloga",
+  invitesPending: "Pozivnice na čekanju",
+  standardMembers: "Standardni članovi",
+  guests: "Gosti",
+  selected: "Odabrano",
+  bulkActions: "Masovne akcije",
 };
 
 export default bs;

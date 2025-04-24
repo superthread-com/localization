@@ -2288,6 +2288,15 @@ const pl = {
   enableSubGroupBy: "Podgrupa według",
   boardLimitReached:
     "Osiągnięto limit tablic. Możesz usunąć niektóre tablice, aby utworzyć nowe.",
+  alphabetical: "Alfabetowo",
+  chronological: "Chronologicznie",
+  numeric: "Numerycznie",
+  role: "Rola",
+  invitesPending: "Oczekujące zaproszenia",
+  standardMembers: "Standardowi członkowie",
+  guests: "Goście",
+  selected: "Wybrane",
+  bulkActions: "Masowe akcje",
 };
 
 export default pl as Translations;
