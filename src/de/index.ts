@@ -2370,8 +2370,10 @@ const de = {
   guests: "Gäste",
   selected: "Ausgewählt",
   bulkActions: "Massenaktionen",
-  parentCardWasDeleted:
+  parentCardWasRemoved:
     "Die übergeordnete Karte wurde nachdem die Karte zu einem Projekt hinzugefügt wurde gelöscht.",
+  cardRemovedFromProject:
+    "Die Karte wurde aus dem Projekt entfernt, nachdem die übergeordnete Karte hinzugefügt wurde.",
 };
 
 export default de as Translations;
