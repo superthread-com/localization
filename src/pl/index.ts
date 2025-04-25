@@ -1877,6 +1877,10 @@ const pl = {
     "Zaktualizuj plan przestrzeni roboczej, aby korzystać z układu osi czasu.",
   calendarLayoutDescription:
     "Zaktualizuj plan przestrzeni roboczej, aby korzystać z układu kalendarza.",
+  upgradeTemplatesDescription:
+    "Zaktualizuj plan przestrzeni roboczej, aby korzystać z szablonów.",
+  upgradeRoadmapAndProjectsDescription:
+    "Zaktualizuj plan przestrzeni roboczej, aby korzystać z mapy drogowej i projektów.",
   upgradeViewsDescription:
     "Zaktualizuj plan przestrzeni roboczej, aby zapisywać widoki.",
   createNewItem: "Utwórz nowy element",

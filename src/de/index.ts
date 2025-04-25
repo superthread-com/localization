@@ -1933,6 +1933,10 @@ const de = {
     "Upgrade deinen Arbeitsbereichsplan, um das Zeitachsenlayout zu verwenden.",
   calendarLayoutDescription:
     "Upgrade deinen Arbeitsbereichsplan, um das Kalenderlayout zu verwenden.",
+  upgradeTemplatesDescription:
+    "Upgrade deinen Arbeitsbereichsplan, um Vorlagen zu verwenden.",
+  upgradeRoadmapAndProjectsDescription:
+    "Upgrade deinen Arbeitsbereichsplan, um Roadmaps und Projekte zu verwenden.",
   upgradeViewsDescription:
     "Upgrade deinen Arbeitsbereichsplan, um Ansichten zu speichern.",
   createNewItem: "Neues Element erstellen",
