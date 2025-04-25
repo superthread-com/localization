@@ -2366,10 +2366,8 @@ const fr: Translations = {
   guests: "Invités",
   selected: "Sélectionné",
   bulkActions: "Actions en masse",
-  parentCardWasRemoved:
-    "La carte parente a été supprimée après que la carte ait été ajoutée au projet.",
-  cardRemovedFromProject:
-    "La carte a été supprimée du projet après que la carte parente ait été ajoutée.",
+  parentCardWasRemoved: "La carte parente a été supprimée.",
+  cardRemovedFromProject: "La carte a été supprimée du projet.",
 };
 
 export default fr as Translations;

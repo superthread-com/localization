@@ -2300,10 +2300,8 @@ const bs: Translations = {
   guests: "Gosti",
   selected: "Odabrano",
   bulkActions: "Masovne akcije",
-  parentCardWasRemoved:
-    "Roditeljska kartica je obrisana nakon što je kartica dodana projektu.",
-  cardRemovedFromProject:
-    "Kartica je obrisana iz projekta nakon što je roditeljska kartica dodana.",
+  parentCardWasRemoved: "Roditeljska kartica je obrisana.",
+  cardRemovedFromProject: "Kartica je obrisana iz projekta.",
 };
 
 export default bs;
