@@ -2030,6 +2030,7 @@ export enum TranslationKeys {
   Guests = "guests",
   Selected = "selected",
   BulkActions = "bulkActions",
+  ParentCardWasDeleted = "parentCardWasDeleted"
 }
 
 export type Translations = Record<TranslationKeys, string>;
