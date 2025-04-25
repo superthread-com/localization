@@ -1843,6 +1843,9 @@ const en = {
     "Upgrade your workspace plan to use the timeline layout.",
   calendarLayoutDescription:
     "Upgrade your workspace plan to use the calendar layout.",
+  upgradeTemplatesDescription: "Upgrade your workspace plan to use templates.",
+  upgradeRoadmapAndProjectsDescription:
+    "Upgrade your workspace plan to use roadmaps and projects.",
   upgradeViewsDescription: "Upgrade your workspace plan to save views.",
   createNewItem: "Create new item",
   statusType: "Status type",
