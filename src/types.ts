@@ -1674,6 +1674,8 @@ export enum TranslationKeys {
   DeleteAttachment = "deleteAttachment",
   TimelineLayoutDescription = "timelineLayoutDescription",
   CalendarLayoutDescription = "calendarLayoutDescription",
+  UpgradeTemplatesDescription = "upgradeTemplatesDescription",
+  UpgradeRoadmapAndProjectsDescription = "upgradeRoadmapAndProjectsDescription",
   UpgradeViewsDescription = "upgradeViewsDescription",
   CreateNewItem = "createNewItem",
   StatusType = "statusType",

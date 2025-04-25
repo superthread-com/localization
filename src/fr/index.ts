@@ -1925,6 +1925,10 @@ const fr: Translations = {
     "Mettez à niveau votre plan d'espace de travail pour utiliser la disposition de la chronologie.",
   calendarLayoutDescription:
     "Mettez à niveau votre plan d'espace de travail pour utiliser la disposition du calendrier.",
+  upgradeTemplatesDescription:
+    "Mettez à niveau votre plan d'espace de travail pour utiliser des modèles.",
+  upgradeRoadmapAndProjectsDescription:
+    "Mettez à niveau votre plan d'espace de travail pour utiliser des feuilles de route et des projets.",
   upgradeViewsDescription:
     "Mettez à niveau votre plan d'espace de travail pour enregistrer des vues.",
   createNewItem: "Créer un nouvel élément",

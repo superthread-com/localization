@@ -1878,6 +1878,10 @@ const bs: Translations = {
     "Nadogradite svoj plan radnog prostora da biste koristili raspored vremenske linije.",
   calendarLayoutDescription:
     "Nadogradite svoj plan radnog prostora da biste koristili raspored kalendara.",
+  upgradeTemplatesDescription:
+    "Nadogradite svoj plan radnog prostora da biste koristili šablone.",
+  upgradeRoadmapAndProjectsDescription:
+    "Nadogradite svoj plan radnog prostora da biste koristili vremenske okvire i projekte.",
   upgradeViewsDescription:
     "Nadogradite svoj plan radnog prostora da biste sačuvali poglede.",
   createNewItem: "Kreiraj novi stavku",
