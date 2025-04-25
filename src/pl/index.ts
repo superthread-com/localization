@@ -2297,6 +2297,8 @@ const pl = {
   guests: "Goście",
   selected: "Wybrane",
   bulkActions: "Masowe akcje",
+  parentCardWasDeleted:
+    "Karta nadrzędna została usunięta po dodaniu karty do projektu.",
 };
 
 export default pl as Translations;

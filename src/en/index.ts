@@ -2260,6 +2260,8 @@ const en = {
   guests: "Guests",
   selected: "Selected",
   bulkActions: "Bulk actions",
+  parentCardWasDeleted:
+    "The parent card was deleted after the card was added to the project.",
 };
 
 export default en as Translations;
