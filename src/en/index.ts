@@ -2265,6 +2265,15 @@ const en = {
   bulkActions: "Bulk actions",
   parentCardWasRemoved: "The parent card was removed.",
   cardRemovedFromProject: "The card was removed from the project.",
+  inactiveMembers: "Inactive members",
+  viewOnlyGuests: "View-only guests",
+  memberType: "Member type",
+  noGroup: "No group",
+  showEmptyGroups: "Show empty groups",
+  notJoined: "Not joined",
+  inactive: "Inactive",
+  imported: "Imported",
+  addToSpace: "Add to space",
 };
 
 export default en as Translations;

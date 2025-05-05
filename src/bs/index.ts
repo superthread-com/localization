@@ -2306,6 +2306,15 @@ const bs: Translations = {
   bulkActions: "Masovne akcije",
   parentCardWasRemoved: "Roditeljska kartica je obrisana.",
   cardRemovedFromProject: "Kartica je obrisana iz projekta.",
+  inactiveMembers: "Neaktivni članovi",
+  viewOnlyGuests: "Gosti za čitanje",
+  memberType: "Tip člana",
+  noGroup: "Bez grupe",
+  showEmptyGroups: "Prikaži prazne grupe",
+  notJoined: "Nije pridružen",
+  inactive: "Neaktivan",
+  imported: "Uvezen",
+  addToSpace: "Dodaj u prostor",
 };
 
 export default bs;

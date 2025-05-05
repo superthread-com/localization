@@ -2376,6 +2376,15 @@ const de = {
   bulkActions: "Massenaktionen",
   parentCardWasRemoved: "Die übergeordnete Karte wurde gelöscht.",
   cardRemovedFromProject: "Die Karte wurde aus dem Projekt entfernt.",
+  inactiveMembers: "Inaktive Mitglieder",
+  viewOnlyGuests: "Nur-Lesegäste",
+  memberType: "Mitgliedsart",
+  noGroup: "Keine Gruppe",
+  showEmptyGroups: "Leere Gruppen anzeigen",
+  notJoined: "Nicht beigetreten",
+  inactive: "Inaktiv",
+  imported: "Importiert",
+  addToSpace: "In den Raum hinzufügen",
 };
 
 export default de as Translations;
