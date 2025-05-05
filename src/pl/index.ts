@@ -2303,6 +2303,15 @@ const pl = {
   bulkActions: "Masowe akcje",
   parentCardWasRemoved: "Karta nadrzędna została usunięta.",
   cardRemovedFromProject: "Karta została usunięta z projektu.",
+  inactiveMembers: "Nieaktywni członkowie",
+  viewOnlyGuests: "Tylko do odczytu goście",
+  memberType: "Typ członka",
+  noGroup: "Brak grupy",
+  showEmptyGroups: "Pokaż puste grupy",
+  notJoined: "Nie dołączył",
+  inactive: "Nieaktywny",
+  imported: "Zaimportowany",
+  addToSpace: "Dodaj do przestrzeni",
 };
 
 export default pl as Translations;

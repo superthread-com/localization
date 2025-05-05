@@ -2372,6 +2372,15 @@ const fr: Translations = {
   bulkActions: "Actions en masse",
   parentCardWasRemoved: "La carte parente a été supprimée.",
   cardRemovedFromProject: "La carte a été supprimée du projet.",
+  inactiveMembers: "Membres inactifs",
+  viewOnlyGuests: "Invités en lecture seule",
+  memberType: "Type de membre",
+  noGroup: "Aucun groupe",
+  showEmptyGroups: "Afficher les groupes vides",
+  notJoined: "Non joint",
+  inactive: "Inactif",
+  imported: "Importé",
+  addToSpace: "Ajouter à l'espace",
 };
 
 export default fr as Translations;
