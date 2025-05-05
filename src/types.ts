@@ -2034,6 +2034,15 @@ export enum TranslationKeys {
   BulkActions = "bulkActions",
   ParentCardWasRemoved = "parentCardWasRemoved",
   CardRemovedFromProject = "cardRemovedFromProject",
+  InactiveMembers = "inactiveMembers",
+  ViewOnlyGuests = "viewOnlyGuests",
+  MemberType = "memberType",
+  NoGroup = "noGroup",
+  ShowEmptyGroups = "showEmptyGroups",
+  NotJoined = "notJoined",
+  Inactive = "inactive",
+  Imported = "imported",
+  AddToSpace = "addToSpace",
 }
 
 export type Translations = Record<TranslationKeys, string>;
