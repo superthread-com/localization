@@ -2387,6 +2387,11 @@ const de = {
   addToSpace: "In den Raum hinzufügen",
   memberAddedToSpace: "1 Mitglied zu %{space} hinzugefügt",
   membersAddedToSpace: "%{count} Mitglieder zu %{space} hinzugefügt",
+  pagesHaveAMaximumSizeOnThisPlan:
+    "Seiten haben ein maximales Limit auf diesem Plan. Klicken Sie, um Ihren Plan zu aktualisieren.",
+  pageSize: "Seitengröße",
+  upgradePageSizeDescription:
+    "Erhöhen Sie Ihren Arbeitsbereichsplan, um die Größe Ihrer Seiten zu erhöhen",
 };
 
 export default de as Translations;

@@ -2317,6 +2317,11 @@ const bs: Translations = {
   addToSpace: "Dodaj u prostor",
   memberAddedToSpace: "Dodan 1 član u prostor %{space}",
   membersAddedToSpace: "Dodano %{count} člana u prostor %{space}",
+  pagesHaveAMaximumSizeOnThisPlan:
+    "Stranice imaju maksimalnu veličinu na ovom planu. Kliknite da biste ažurirali svoj plan.",
+  pageSize: "Velicina stranice",
+  upgradePageSizeDescription:
+    "Povećajte plan radnog prostora da biste povećali veličinu stranica",
 };
 
 export default bs;

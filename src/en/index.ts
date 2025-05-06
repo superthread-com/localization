@@ -2276,6 +2276,11 @@ const en = {
   addToSpace: "Add to space",
   memberAddedToSpace: "Added 1 member to %{space} space",
   membersAddedToSpace: "Added %{count} members to %{space} space",
+  pagesHaveAMaximumSizeOnThisPlan:
+    "Pages have a maximum size on this plan. Click to upgrade your plan",
+  pageSize: "Page size",
+  upgradePageSizeDescription:
+    "Upgrade your workspace plan to increase the size of your pages",
 };
 
 export default en as Translations;
