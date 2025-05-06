@@ -2043,6 +2043,8 @@ export enum TranslationKeys {
   Inactive = "inactive",
   Imported = "imported",
   AddToSpace = "addToSpace",
+  MemberAddedToSpace = "memberAddedToSpace",
+  MembersAddedToSpace = "membersAddedToSpace",
 }
 
 export type Translations = Record<TranslationKeys, string>;

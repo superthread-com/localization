@@ -2315,6 +2315,8 @@ const bs: Translations = {
   inactive: "Neaktivan",
   imported: "Uvezen",
   addToSpace: "Dodaj u prostor",
+  memberAddedToSpace: "Dodan 1 član u prostor %{space}",
+  membersAddedToSpace: "Dodano %{count} člana u prostor %{space}",
 };
 
 export default bs;
