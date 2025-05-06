@@ -2381,6 +2381,8 @@ const fr: Translations = {
   inactive: "Inactif",
   imported: "Importé",
   addToSpace: "Ajouter à l'espace",
+  memberAddedToSpace: "Ajouté 1 membre à l'espace %{space}",
+  membersAddedToSpace: "Ajouté %{count} membres à l'espace %{space}",
 };
 
 export default fr as Translations;
