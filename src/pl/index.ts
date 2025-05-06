@@ -2314,6 +2314,11 @@ const pl = {
   addToSpace: "Dodaj do przestrzeni",
   memberAddedToSpace: "Dodano 1 członka do przestrzeni %{space}",
   membersAddedToSpace: "Dodano %{count} członków do przestrzeni %{space}",
+  pagesHaveAMaximumSizeOnThisPlan:
+    "Strony mają maksymalny limit na tym planie. Kliknij, aby zaktualizować swój plan.",
+  pageSize: "Rozmiar strony",
+  upgradePageSizeDescription:
+    "Zwiększ plan przestrzeni roboczej, aby zwiększyć rozmiar stron",
 };
 
 export default pl as Translations;
