@@ -252,6 +252,8 @@ const en = {
     "The workspace payment method will be charged at the end of the month in which they join.",
   ["billing.learnModeAboutBilling"]: "Learn more about billing",
   ["billing.guestViewOnly"]: "Guest – view only",
+  ["billing.daysLeftOnTrial"]: "%{days} left on trial",
+  ["billing.keepPlan"]: "Keep plan",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
@@ -1801,6 +1803,7 @@ const en = {
     "All unfinished cards in this board will be moved into the cancelled status.",
   dontCancel: "Don’t cancel",
   upgradePlan: "Upgrade plan",
+  choosePlan: "Choose plan",
   upgradePrivateSpaceTitle: "Upgrade for private spaces",
   upgradePrivateSpaceDescription:
     "You can create private spaces on a paid plan.",

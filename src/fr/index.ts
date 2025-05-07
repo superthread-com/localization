@@ -123,6 +123,8 @@ const fr: Translations = {
     "Le mode de paiement de l'espace de travail sera débité à la fin du mois au cours duquel ils adhèrent.",
   ["billing.learnModeAboutBilling"]: "En savoir plus sur la facturation.",
   ["billing.guestViewOnly"]: "Invité – en lecture seule",
+  ["billing.daysLeftOnTrial"]: "Il reste %{days} jours d’essai",
+  ["billing.keepPlan"]: "Conserver le plan",
   // cards layout
   cardsLayoutList: "Liste",
   cardsLayoutBoard: "Tableau",
@@ -1883,6 +1885,7 @@ const fr: Translations = {
     "Toutes les cartes non terminées dans ce tableau seront déplacées dans le statut annulé.",
   dontCancel: "Ne pas annuler",
   upgradePlan: "Améliorer le plan",
+  choosePlan: "Choisir le plan",
   upgradePrivateSpaceTitle: "Améliorer pour les espaces privés",
   upgradePrivateSpaceDescription:
     "Vous pouvez créer des espaces privés avec un plan payant.",
