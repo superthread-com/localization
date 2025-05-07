@@ -933,7 +933,7 @@ const bs: Translations = {
   ["myWork.created"]: "Kreirano od %{userName}",
   ["myWork.notes"]: "Bilješke",
   upgradePlan: "Nadogradi plan",
-  choosePlan: "Odaber plan",
+  choosePlan: "Odaberi plan",
   upgradePrivateSpaceTitle: "Nadogradi za korištenje privatnih space-ova",
   upgradePrivateSpaceDescription:
     "Možete kreirati privatne space-ove na plaćenom planu",
