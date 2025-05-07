@@ -256,6 +256,8 @@ const de = {
     "Die Workspace-Zahlungsmethode wird am Ende des Monats belastet, in dem sie beitreten.",
   ["billing.learnModeAboutBilling"]: "Mehr erfahren zur Abrechnung",
   ["billing.guestViewOnly"]: "Gast – nur anzeigen",
+  ["billing.daysLeftOnTrial"]: "Noch %{days} Tage im Testzeitraum",
+  ["billing.keepPlan"]: "Plan behalten",
 
   // global
   ["global.text.create"]: "Erstellen",
@@ -1891,6 +1893,7 @@ const de = {
     "Alle unvollendeten Karten in dieser Tafel werden in den Status „Abgebrochen“ verschoben.",
   dontCancel: "Nicht abbrechen",
   upgradePlan: "Plan upgraden",
+  choosePlan: "Plan auswählen",
   upgradePrivateSpaceTitle: "Upgrade für private Räume",
   upgradePrivateSpaceDescription:
     "Du kannst private Räume nur im kostenpflichtigen Plan erstellen.",
