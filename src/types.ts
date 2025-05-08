@@ -2045,9 +2045,9 @@ export enum TranslationKeys {
   AddToSpace = "addToSpace",
   MemberAddedToSpace = "memberAddedToSpace",
   MembersAddedToSpace = "membersAddedToSpace",
-  PagesHaveAMaximumSizeOnThisPlan = "pagesHaveAMaximumSizeOnThisPlan",
-  PageSize = "pageSize",
-  UpgradePageSizeDescription = "upgradePageSizeDescription",
+  PageUsageDescription = "pageUsageDescription",
+  PageUsage = "pageUsage",
+  PageUsageWarning = "pageUsageWarning",
 }
 
 export type Translations = Record<TranslationKeys, string>;

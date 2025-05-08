@@ -2383,11 +2383,11 @@ const fr: Translations = {
   addToSpace: "Ajouter à l'espace",
   memberAddedToSpace: "Ajouté 1 membre à l'espace %{space}",
   membersAddedToSpace: "Ajouté %{count} membres à l'espace %{space}",
-  pagesHaveAMaximumSizeOnThisPlan:
-    "Les pages ont une taille maximale sur ce plan. Cliquez pour mettre à jour votre plan.",
-  pageSize: "Taille de la page",
-  upgradePageSizeDescription:
-    "Augmentez votre plan de travail pour augmenter la taille de vos pages",
+  pageUsageDescription:
+    "L'utilisation est une combinaison de contenu et d'historique d'édition, et peut continuer à grandir au fil du temps",
+  pageUsage: "Utilisation des pages",
+  pageUsageWarning:
+    "Attention: vos modifications peuvent ne pas être enregistrées si l'utilisation atteint 100%. Considérez la création de sous-pages ou le déplacement vers une nouvelle page",
 };
 
 export default fr as Translations;
