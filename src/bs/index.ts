@@ -2325,6 +2325,7 @@ const bs: Translations = {
   pageSize: "Velicina stranice",
   upgradePageSizeDescription:
     "Povećajte plan radnog prostora da biste povećali veličinu stranica",
+  cannotRemoveSpaceOwner: "Vlasnik prostora ne može biti uklonjen",
 };
 
 export default bs;

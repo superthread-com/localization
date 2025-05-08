@@ -2284,6 +2284,7 @@ const en = {
   pageSize: "Page size",
   upgradePageSizeDescription:
     "Upgrade your workspace plan to increase the size of your pages",
+  cannotRemoveSpaceOwner: "Cannot remove space owner",
 };
 
 export default en as Translations;

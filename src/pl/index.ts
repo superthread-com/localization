@@ -2322,6 +2322,7 @@ const pl = {
   pageSize: "Rozmiar strony",
   upgradePageSizeDescription:
     "Zwiększ plan przestrzeni roboczej, aby zwiększyć rozmiar stron",
+  cannotRemoveSpaceOwner: "Nie można usunąć właściciela przestrzeni",
 };
 
 export default pl as Translations;

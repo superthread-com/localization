@@ -2051,6 +2051,7 @@ export enum TranslationKeys {
   PagesHaveAMaximumSizeOnThisPlan = "pagesHaveAMaximumSizeOnThisPlan",
   PageSize = "pageSize",
   UpgradePageSizeDescription = "upgradePageSizeDescription",
+  CannotRemoveSpaceOwner = "cannotRemoveSpaceOwner",
 }
 
 export type Translations = Record<TranslationKeys, string>;
