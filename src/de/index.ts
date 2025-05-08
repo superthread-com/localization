@@ -2395,6 +2395,7 @@ const de = {
   pageSize: "Seitengröße",
   upgradePageSizeDescription:
     "Erhöhen Sie Ihren Arbeitsbereichsplan, um die Größe Ihrer Seiten zu erhöhen",
+  cannotRemoveSpaceOwner: "Der Raumbesitzer kann nicht entfernt werden",
 };
 
 export default de as Translations;

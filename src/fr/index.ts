@@ -2391,6 +2391,8 @@ const fr: Translations = {
   pageSize: "Taille de la page",
   upgradePageSizeDescription:
     "Augmentez votre plan de travail pour augmenter la taille de vos pages",
+  cannotRemoveSpaceOwner:
+    "Le propriétaire de l'espace ne peut pas être supprimé",
 };
 
 export default fr as Translations;
