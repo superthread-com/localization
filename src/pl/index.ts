@@ -251,6 +251,8 @@ const pl = {
     "Opłata za przestrzeń roboczą zostanie pobrana pod koniec miesiąca, w którym dołączysz do zespołu.",
   ["billing.learnModeAboutBilling"]: "Dowiedz się więcej o rozliczeniach",
   ["billing.guestViewOnly"]: "Gość – tylko do przeglądania",
+  ["billing.daysLeftOnTrial"]: "Pozostało %{days} dni okresu próbnego",
+  ["billing.keepPlan"]: "Zachowaj plan",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",
@@ -1834,6 +1836,7 @@ const pl = {
     "Wszystkie nieukończone karty na tej tablicy zostaną przeniesione do statusu anulowanego.",
   dontCancel: "Nie anuluj",
   upgradePlan: "Zaktualizuj plan",
+  choosePlan: "Wybierz plan",
   upgradePrivateSpaceTitle: "Zaktualizuj, aby uzyskać prywatne przestrzenie",
   upgradePrivateSpaceDescription:
     "Możesz tworzyć prywatne przestrzenie w ramach płatnego planu.",
@@ -2314,6 +2317,7 @@ const pl = {
   addToSpace: "Dodaj do przestrzeni",
   memberAddedToSpace: "Dodano 1 członka do przestrzeni %{space}",
   membersAddedToSpace: "Dodano %{count} członków do przestrzeni %{space}",
+  cannotRemoveSpaceOwner: "Nie można usunąć właściciela przestrzeni",
   pageUsageDescription:
     "Użycie jest kombinacją zawartości i historii edycji, i może nadal rosnąć w czasie",
   pageUsage: "Użycie stron",

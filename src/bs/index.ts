@@ -933,6 +933,7 @@ const bs: Translations = {
   ["myWork.created"]: "Kreirano od %{userName}",
   ["myWork.notes"]: "Bilješke",
   upgradePlan: "Nadogradi plan",
+  choosePlan: "Odaberi plan",
   upgradePrivateSpaceTitle: "Nadogradi za korištenje privatnih space-ova",
   upgradePrivateSpaceDescription:
     "Možete kreirati privatne space-ove na plaćenom planu",
@@ -1204,6 +1205,8 @@ const bs: Translations = {
     "Način plaćanja workspace-a će biti naplaćen na kraju mjeseca u kojem se prihvati poziv.",
   ["billing.learnModeAboutBilling"]: "Saznajte više o naplati",
   ["billing.guestViewOnly"]: "Gosti - samo pregled",
+  ["billing.daysLeftOnTrial"]: "Preostalo je %{days} dana probnog perioda",
+  ["billing.keepPlan"]: "Zadrži plan",
 
   // global
   ["global.text.create"]: "Kreiraj",
@@ -2317,6 +2320,7 @@ const bs: Translations = {
   addToSpace: "Dodaj u prostor",
   memberAddedToSpace: "Dodan 1 član u prostor %{space}",
   membersAddedToSpace: "Dodano %{count} člana u prostor %{space}",
+  cannotRemoveSpaceOwner: "Vlasnik prostora ne može biti uklonjen",
   pageUsageDescription:
     "Korištenje je kombinacija sadržaja i povijesti uređivanja, i može nastaviti rasti tokom vremena",
   pageUsage: "Korištenje stranica",
