@@ -2279,12 +2279,12 @@ const en = {
   addToSpace: "Add to space",
   memberAddedToSpace: "Added 1 member to %{space} space",
   membersAddedToSpace: "Added %{count} members to %{space} space",
-  pagesHaveAMaximumSizeOnThisPlan:
-    "Pages have a maximum size on this plan. Click to upgrade your plan",
-  pageSize: "Page size",
-  upgradePageSizeDescription:
-    "Upgrade your workspace plan to increase the size of your pages",
   cannotRemoveSpaceOwner: "Cannot remove space owner",
+  pageUsageDescription:
+    "Usage is a combination of content and historical edits, and may continue to grow over time",
+  pageUsage: "Page usage",
+  pageUsageWarning:
+    "Warning: your changes may not be saved if usage reaches 100%. Consider creating subpages or moving to a new page",
 };
 
 export default en as Translations;
