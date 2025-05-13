@@ -2052,6 +2052,11 @@ export enum TranslationKeys {
   PageUsageDescription = "pageUsageDescription",
   PageUsage = "pageUsage",
   PageUsageWarning = "pageUsageWarning",
+  JobDescription = "jobDescription",
+  JobDescriptionPlaceholder = "jobDescriptionPlaceholder",
+  LetPeopleKnowWhatYouDo = "letPeopleKnowWhatYouDo",
+  WorkspaceDescriptionLabel = "workspaceDescriptionLabel",
+  WorkspaceDescriptionPlaceholder = "workspaceDescriptionPlaceholder",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2326,6 +2326,12 @@ const bs: Translations = {
   pageUsage: "Korištenje stranica",
   pageUsageWarning:
     "Upozorenje: vaše promjene možda neće biti spremljene ako korištenje dostigne 100%. Razmislite o kreiranju podstranica ili premještanju na novu stranicu",
+  jobDescription: "Opis posla",
+  jobDescriptionPlaceholder: "Unesite opis posla",
+  letPeopleKnowWhatYouDo:
+    "Obavijestite ljude šta radite. Ovo također pomaže Superthreadu da kreira relevantnije poboljšane bilješke.",
+  workspaceDescriptionLabel: "Opis radnog prostora",
+  workspaceDescriptionPlaceholder: "Unesite opis radnog prostora",
 };
 
 export default bs;

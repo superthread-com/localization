@@ -2285,6 +2285,12 @@ const en = {
   pageUsage: "Page usage",
   pageUsageWarning:
     "Warning: your changes may not be saved if usage reaches 100%. Consider creating subpages or moving to a new page",
+  jobDescription: "Job description",
+  jobDescriptionPlaceholder: "Enter job description",
+  letPeopleKnowWhatYouDo:
+    "Let people know what you do. This also helps Superthread create more relevant enhanced notes.",
+  workspaceDescriptionLabel: "Workspace description",
+  workspaceDescriptionPlaceholder: "Enter workspace description",
 };
 
 export default en as Translations;

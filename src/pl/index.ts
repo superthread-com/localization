@@ -2323,6 +2323,12 @@ const pl = {
   pageUsage: "Użycie stron",
   pageUsageWarning:
     "Ostrzeżenie: Twoje zmiany mogą nie zostać zapisane, jeśli użycie osiągnie 100%. Rozważ utworzenie podstron lub przeniesienie do nowej strony",
+  jobDescription: "Opis pracy",
+  jobDescriptionPlaceholder: "Wpisz opis pracy",
+  letPeopleKnowWhatYouDo:
+    "Poinformuj ludzi, co robisz. To również pomaga Superthreadowi tworzyć bardziej odpowiednie ulepszone notatki.",
+  workspaceDescriptionLabel: "Opis pracy",
+  workspaceDescriptionPlaceholder: "Wpisz opis pracy",
 };
 
 export default pl as Translations;
