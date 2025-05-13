@@ -2393,6 +2393,12 @@ const fr: Translations = {
   pageUsage: "Utilisation des pages",
   pageUsageWarning:
     "Attention: vos modifications peuvent ne pas être enregistrées si l'utilisation atteint 100%. Considérez la création de sous-pages ou le déplacement vers une nouvelle page",
+  jobDescription: "Description du travail",
+  jobDescriptionPlaceholder: "Entrez la description du travail",
+  letPeopleKnowWhatYouDo:
+    "Faites savoir aux gens ce que vous faites. Cela aide également Superthread à créer des notes améliorées plus pertinentes.",
+  workspaceDescriptionLabel: "Description du travail",
+  workspaceDescriptionPlaceholder: "Entrez la description du travail",
 };
 
 export default fr as Translations;

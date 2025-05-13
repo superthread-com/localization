@@ -2396,6 +2396,12 @@ const de = {
   pageUsage: "Seitenauslastung",
   pageUsageWarning:
     "Warnung: Ihre Änderungen werden möglicherweise nicht gespeichert, wenn die Verwendung 100% erreicht. Betrachten Sie, ob Sie Unterseiten erstellen oder zu einer neuen Seite wechseln sollten",
+  jobDescription: "Jobbeschreibung",
+  jobDescriptionPlaceholder: "Jobbeschreibung eingeben",
+  letPeopleKnowWhatYouDo:
+    "Lassen Sie Leute wissen, was Sie tun. Dies hilft auch Superthread, relevantere verbesserte Notizen zu erstellen.",
+  workspaceDescriptionLabel: "Arbeitsbereichsbeschreibung",
+  workspaceDescriptionPlaceholder: "Arbeitsbereichsbeschreibung eingeben",
 };
 
 export default de as Translations;
