@@ -252,8 +252,20 @@ const en = {
     "The workspace payment method will be charged at the end of the month in which they join.",
   ["billing.learnModeAboutBilling"]: "Learn more about billing",
   ["billing.guestViewOnly"]: "Guest – view only",
-  ["billing.daysLeftOnTrial"]: "%{days} days left on trial",
+  ["billing.daysLeftOnTrial_one"]: "%{count} day left on trial",
+  ["billing.daysLeftOnTrial_other"]: "%{count} days left on trial",
   ["billing.keepPlan"]: "Keep plan",
+  ["billing.yourTrialEndsSoon"]: "Your trial ends soon",
+  ["billing.thereAreDaysLeftOnYourTrial_one"]:
+    "There are %{count} day left on your %{planName} plan trial.",
+  ["billing.thereAreDaysLeftOnYourTrial_other"]:
+    "There are %{count} days left on your %{planName} plan trial.",
+  ["billing.afterTrialLong"]:
+    "After the trial you’ll be downgraded to the %{planName} plan. You can see which features you’ll lose on the plans page.",
+  ["billing.afterTrialShort"]:
+    "After the trial you’ll be downgraded to the %{planName} plan.",
+  ["billing.contactAdminOrOwner"]: "Contact your admin or owner",
+  ["billing.seeAvailablePlans"]: "See available plans",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",

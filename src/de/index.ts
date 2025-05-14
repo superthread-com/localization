@@ -256,9 +256,21 @@ const de = {
     "Die Workspace-Zahlungsmethode wird am Ende des Monats belastet, in dem sie beitreten.",
   ["billing.learnModeAboutBilling"]: "Mehr erfahren zur Abrechnung",
   ["billing.guestViewOnly"]: "Gast – nur anzeigen",
-  ["billing.daysLeftOnTrial"]: "Noch %{days} Tage im Testzeitraum",
-  ["billing.keepPlan"]: "Plan behalten",
-
+  "billing.daysLeftOnTrial_one": "Noch %{count} Tag im Testzeitraum",
+  "billing.daysLeftOnTrial_other": "Noch %{count} Tage im Testzeitraum",
+  "billing.keepPlan": "Plan behalten",
+  "billing.yourTrialEndsSoon": "Ihr Testzeitraum endet bald",
+  "billing.thereAreDaysLeftOnYourTrial_one":
+    "Es verbleibt %{count} Tag in Ihrem %{planName}-Testplan.",
+  "billing.thereAreDaysLeftOnYourTrial_other":
+    "Es verbleiben %{count} Tage in Ihrem %{planName}-Testplan.",
+  "billing.afterTrialLong":
+    "Nach dem Testzeitraum werden Sie auf den %{planName}-Plan herabgestuft. Sie können auf der Planseite sehen, welche Funktionen Sie verlieren werden.",
+  "billing.afterTrialShort":
+    "Nach dem Testzeitraum werden Sie auf den %{planName}-Plan herabgestuft.",
+  "billing.contactAdminOrOwner":
+    "Kontaktieren Sie Ihren Administrator oder Eigentümer",
+  "billing.seeAvailablePlans": "Verfügbare Pläne anzeigen",
   // global
   ["global.text.create"]: "Erstellen",
   ["option.label.cards"]: "Karten",

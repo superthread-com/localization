@@ -123,8 +123,21 @@ const fr: Translations = {
     "Le mode de paiement de l'espace de travail sera débité à la fin du mois au cours duquel ils adhèrent.",
   ["billing.learnModeAboutBilling"]: "En savoir plus sur la facturation.",
   ["billing.guestViewOnly"]: "Invité – en lecture seule",
-  ["billing.daysLeftOnTrial"]: "Il reste %{days} jours d’essai",
-  ["billing.keepPlan"]: "Conserver le plan",
+  "billing.daysLeftOnTrial_one": "Il reste %{count} jour d'essai",
+  "billing.daysLeftOnTrial_other": "Il reste %{count} jours d'essai",
+  "billing.keepPlan": "Conserver le plan",
+  "billing.yourTrialEndsSoon": "Votre période d'essai se termine bientôt",
+  "billing.thereAreDaysLeftOnYourTrial_one":
+    "Il reste %{count} jour à votre essai du plan %{planName}.",
+  "billing.thereAreDaysLeftOnYourTrial_other":
+    "Il reste %{count} jours à votre essai du plan %{planName}.",
+  "billing.afterTrialLong":
+    "Après la période d'essai, vous serez rétrogradé au plan %{planName}. Vous pouvez voir les fonctionnalités que vous perdrez sur la page des plans.",
+  "billing.afterTrialShort":
+    "Après la période d'essai, vous serez rétrogradé au plan %{planName}.",
+  "billing.contactAdminOrOwner":
+    "Contactez votre administrateur ou propriétaire",
+  "billing.seeAvailablePlans": "Voir les plans disponibles",
   // cards layout
   cardsLayoutList: "Liste",
   cardsLayoutBoard: "Tableau",

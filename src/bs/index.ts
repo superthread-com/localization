@@ -1205,8 +1205,21 @@ const bs: Translations = {
     "Način plaćanja workspace-a će biti naplaćen na kraju mjeseca u kojem se prihvati poziv.",
   ["billing.learnModeAboutBilling"]: "Saznajte više o naplati",
   ["billing.guestViewOnly"]: "Gosti - samo pregled",
-  ["billing.daysLeftOnTrial"]: "Preostalo je %{days} dana probnog perioda",
-  ["billing.keepPlan"]: "Zadrži plan",
+  "billing.daysLeftOnTrial_one": "%{count} dan preostao u probnom periodu",
+  "billing.daysLeftOnTrial_other": "%{count} dana preostalo u probnom periodu",
+  "billing.keepPlan": "Zadrži plan",
+  "billing.yourTrialEndsSoon": "Vaš probni period uskoro završava",
+  "billing.thereAreDaysLeftOnYourTrial_one":
+    "Preostao je %{count} dan vašeg %{planName} probnog plana.",
+  "billing.thereAreDaysLeftOnYourTrial_other":
+    "Preostalo je %{count} dana vašeg %{planName} probnog plana.",
+  "billing.afterTrialLong":
+    "Nakon probnog perioda bićete prebačeni na %{planName} plan. Možete vidjeti koje ćete funkcije izgubiti na stranici planova.",
+  "billing.afterTrialShort":
+    "Nakon probnog perioda bićete prebačeni na %{planName} plan.",
+  "billing.contactAdminOrOwner":
+    "Kontaktirajte svog administratora ili vlasnika",
+  "billing.seeAvailablePlans": "Pogledajte dostupne planove",
 
   // global
   ["global.text.create"]: "Kreiraj",
