@@ -251,8 +251,21 @@ const pl = {
     "Opłata za przestrzeń roboczą zostanie pobrana pod koniec miesiąca, w którym dołączysz do zespołu.",
   ["billing.learnModeAboutBilling"]: "Dowiedz się więcej o rozliczeniach",
   ["billing.guestViewOnly"]: "Gość – tylko do przeglądania",
-  ["billing.daysLeftOnTrial"]: "Pozostało %{days} dni okresu próbnego",
-  ["billing.keepPlan"]: "Zachowaj plan",
+  "billing.daysLeftOnTrial_one": "Pozostał %{count} dzień okresu próbnego",
+  "billing.daysLeftOnTrial_other": "Pozostało %{count} dni okresu próbnego",
+  "billing.keepPlan": "Zachowaj plan",
+  "billing.yourTrialEndsSoon": "Twój okres próbny wkrótce się kończy",
+  "billing.thereAreDaysLeftOnYourTrial_one":
+    "Pozostał %{count} dzień próbnego planu %{planName}.",
+  "billing.thereAreDaysLeftOnYourTrial_other":
+    "Pozostało %{count} dni próbnego planu %{planName}.",
+  "billing.afterTrialLong":
+    "Po okresie próbnym zostaniesz przeniesiony na plan %{planName}. Możesz zobaczyć, które funkcje stracisz na stronie planów.",
+  "billing.afterTrialShort":
+    "Po okresie próbnym zostaniesz przeniesiony na plan %{planName}.",
+  "billing.contactAdminOrOwner":
+    "Skontaktuj się z administratorem lub właścicielem",
+  "billing.seeAvailablePlans": "Zobacz dostępne plany",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",
