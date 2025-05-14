@@ -2330,11 +2330,18 @@ const pl = {
   addToSpace: "Dodaj do przestrzeni",
   memberAddedToSpace: "Dodano 1 członka do przestrzeni %{space}",
   membersAddedToSpace: "Dodano %{count} członków do przestrzeni %{space}",
-  pagesHaveAMaximumSizeOnThisPlan:
-    "Strony mają maksymalny limit na tym planie. Kliknij, aby zaktualizować swój plan.",
-  pageSize: "Rozmiar strony",
-  upgradePageSizeDescription:
-    "Zwiększ plan przestrzeni roboczej, aby zwiększyć rozmiar stron",
+  cannotRemoveSpaceOwner: "Nie można usunąć właściciela przestrzeni",
+  pageUsageDescription:
+    "Użycie jest kombinacją zawartości i historii edycji, i może nadal rosnąć w czasie",
+  pageUsage: "Użycie stron",
+  pageUsageWarning:
+    "Ostrzeżenie: Twoje zmiany mogą nie zostać zapisane, jeśli użycie osiągnie 100%. Rozważ utworzenie podstron lub przeniesienie do nowej strony",
+  jobDescription: "Opis pracy",
+  jobDescriptionPlaceholder: "Wpisz opis pracy",
+  letPeopleKnowWhatYouDo:
+    "Poinformuj ludzi, co robisz. To również pomaga Superthreadowi tworzyć bardziej odpowiednie ulepszone notatki.",
+  workspaceDescriptionLabel: "Opis pracy",
+  workspaceDescriptionPlaceholder: "Wpisz opis pracy",
 };
 
 export default pl as Translations;

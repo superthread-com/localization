@@ -2402,11 +2402,18 @@ const de = {
   addToSpace: "In den Raum hinzufügen",
   memberAddedToSpace: "1 Mitglied zu %{space} hinzugefügt",
   membersAddedToSpace: "%{count} Mitglieder zu %{space} hinzugefügt",
-  pagesHaveAMaximumSizeOnThisPlan:
-    "Seiten haben ein maximales Limit auf diesem Plan. Klicken Sie, um Ihren Plan zu aktualisieren.",
-  pageSize: "Seitengröße",
-  upgradePageSizeDescription:
-    "Erhöhen Sie Ihren Arbeitsbereichsplan, um die Größe Ihrer Seiten zu erhöhen",
+  cannotRemoveSpaceOwner: "Der Raumbesitzer kann nicht entfernt werden",
+  pageUsageDescription:
+    "Verwendung ist eine Kombination aus Inhalt und historischen Änderungen und kann im Laufe der Zeit weiter wachsen",
+  pageUsage: "Seitenauslastung",
+  pageUsageWarning:
+    "Warnung: Ihre Änderungen werden möglicherweise nicht gespeichert, wenn die Verwendung 100% erreicht. Betrachten Sie, ob Sie Unterseiten erstellen oder zu einer neuen Seite wechseln sollten",
+  jobDescription: "Jobbeschreibung",
+  jobDescriptionPlaceholder: "Jobbeschreibung eingeben",
+  letPeopleKnowWhatYouDo:
+    "Lassen Sie Leute wissen, was Sie tun. Dies hilft auch Superthread, relevantere verbesserte Notizen zu erstellen.",
+  workspaceDescriptionLabel: "Arbeitsbereichsbeschreibung",
+  workspaceDescriptionPlaceholder: "Arbeitsbereichsbeschreibung eingeben",
 };
 
 export default de as Translations;

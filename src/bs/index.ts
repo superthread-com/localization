@@ -2333,11 +2333,18 @@ const bs: Translations = {
   addToSpace: "Dodaj u prostor",
   memberAddedToSpace: "Dodan 1 član u prostor %{space}",
   membersAddedToSpace: "Dodano %{count} člana u prostor %{space}",
-  pagesHaveAMaximumSizeOnThisPlan:
-    "Stranice imaju maksimalnu veličinu na ovom planu. Kliknite da biste ažurirali svoj plan.",
-  pageSize: "Velicina stranice",
-  upgradePageSizeDescription:
-    "Povećajte plan radnog prostora da biste povećali veličinu stranica",
+  cannotRemoveSpaceOwner: "Vlasnik prostora ne može biti uklonjen",
+  pageUsageDescription:
+    "Korištenje je kombinacija sadržaja i povijesti uređivanja, i može nastaviti rasti tokom vremena",
+  pageUsage: "Korištenje stranica",
+  pageUsageWarning:
+    "Upozorenje: vaše promjene možda neće biti spremljene ako korištenje dostigne 100%. Razmislite o kreiranju podstranica ili premještanju na novu stranicu",
+  jobDescription: "Opis posla",
+  jobDescriptionPlaceholder: "Unesite opis posla",
+  letPeopleKnowWhatYouDo:
+    "Obavijestite ljude šta radite. Ovo također pomaže Superthreadu da kreira relevantnije poboljšane bilješke.",
+  workspaceDescriptionLabel: "Opis radnog prostora",
+  workspaceDescriptionPlaceholder: "Unesite opis radnog prostora",
 };
 
 export default bs;

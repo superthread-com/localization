@@ -2056,9 +2056,15 @@ export enum TranslationKeys {
   AddToSpace = "addToSpace",
   MemberAddedToSpace = "memberAddedToSpace",
   MembersAddedToSpace = "membersAddedToSpace",
-  PagesHaveAMaximumSizeOnThisPlan = "pagesHaveAMaximumSizeOnThisPlan",
-  PageSize = "pageSize",
-  UpgradePageSizeDescription = "upgradePageSizeDescription",
+  CannotRemoveSpaceOwner = "cannotRemoveSpaceOwner",
+  PageUsageDescription = "pageUsageDescription",
+  PageUsage = "pageUsage",
+  PageUsageWarning = "pageUsageWarning",
+  JobDescription = "jobDescription",
+  JobDescriptionPlaceholder = "jobDescriptionPlaceholder",
+  LetPeopleKnowWhatYouDo = "letPeopleKnowWhatYouDo",
+  WorkspaceDescriptionLabel = "workspaceDescriptionLabel",
+  WorkspaceDescriptionPlaceholder = "workspaceDescriptionPlaceholder",
 }
 
 export type Translations = Record<TranslationKeys, string>;
