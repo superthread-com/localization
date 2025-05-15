@@ -232,8 +232,8 @@ export enum TranslationKeys {
   BillingThereAreDaysLeftOnYourTrialOther = "billing.thereAreDaysLeftOnYourTrial_other",
   BillingAfterTrialLong = "billing.afterTrialLong",
   BillingAfterTrialShort = "billing.afterTrialShort",
-  BillingSeeAvailablePlans = "billing.seeAvailablePlans",
   BillingContactAdminOrOwner = "billing.contactAdminOrOwner",
+  BillingSeeAvailablePlans = "billing.seeAvailablePlans",
   GlobalTextCreate = "global.text.create",
   OptionLabelCards = "option.label.cards",
   OptionLabelPages = "option.label.pages",
@@ -2065,6 +2065,8 @@ export enum TranslationKeys {
   LetPeopleKnowWhatYouDo = "letPeopleKnowWhatYouDo",
   WorkspaceDescriptionLabel = "workspaceDescriptionLabel",
   WorkspaceDescriptionPlaceholder = "workspaceDescriptionPlaceholder",
+  NotesTutorial = "notesTutorial",
+  LearnHowToUseSuperthreadNotes = "learnHowToUseSuperthreadNotes",
 }
 
 export type Translations = Record<TranslationKeys, string>;
