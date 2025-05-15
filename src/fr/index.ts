@@ -2412,6 +2412,8 @@ const fr: Translations = {
     "Faites savoir aux gens ce que vous faites. Cela aide également Superthread à créer des notes améliorées plus pertinentes.",
   workspaceDescriptionLabel: "Description du travail",
   workspaceDescriptionPlaceholder: "Entrez la description du travail",
+  notesTutorial: "Tutoriel notes",
+  learnHowToUseSuperthreadNotes: "Apprenez à utiliser les notes Superthread",
 };
 
 export default fr as Translations;

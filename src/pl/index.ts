@@ -2342,6 +2342,8 @@ const pl = {
     "Poinformuj ludzi, co robisz. To również pomaga Superthreadowi tworzyć bardziej odpowiednie ulepszone notatki.",
   workspaceDescriptionLabel: "Opis pracy",
   workspaceDescriptionPlaceholder: "Wpisz opis pracy",
+  notesTutorial: "Poradnik notesów",
+  learnHowToUseSuperthreadNotes: "Dowiedz się, jak używać notesów Superthread",
 };
 
 export default pl as Translations;

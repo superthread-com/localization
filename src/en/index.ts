@@ -2303,6 +2303,8 @@ const en = {
     "Let people know what you do. This also helps Superthread create more relevant enhanced notes.",
   workspaceDescriptionLabel: "Workspace description",
   workspaceDescriptionPlaceholder: "Enter workspace description",
+  notesTutorial: "Notes tutorial",
+  learnHowToUseSuperthreadNotes: "Learn how to use Superthread notes",
 };
 
 export default en as Translations;
