@@ -2416,6 +2416,8 @@ const de = {
   workspaceDescriptionPlaceholder: "Arbeitsbereichsbeschreibung eingeben",
   notesTutorial: "Notes Tutorial",
   learnHowToUseSuperthreadNotes: "Lerne, wie du Superthread notes verwendest",
+  myTemplates: "Meine Vorlagen",
+  otherTemplates: "Andere Vorlagen",
 };
 
 export default de as Translations;
