@@ -2305,6 +2305,8 @@ const en = {
   workspaceDescriptionPlaceholder: "Enter workspace description",
   notesTutorial: "Notes tutorial",
   learnHowToUseSuperthreadNotes: "Learn how to use Superthread notes",
+  myTemplates: "My templates",
+  otherTemplates: "Other templates",
 };
 
 export default en as Translations;

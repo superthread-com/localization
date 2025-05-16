@@ -2344,6 +2344,8 @@ const pl = {
   workspaceDescriptionPlaceholder: "Wpisz opis pracy",
   notesTutorial: "Poradnik notesów",
   learnHowToUseSuperthreadNotes: "Dowiedz się, jak używać notesów Superthread",
+  myTemplates: "Moje szablony",
+  otherTemplates: "Inne szablony",
 };
 
 export default pl as Translations;

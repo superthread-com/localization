@@ -2067,6 +2067,8 @@ export enum TranslationKeys {
   WorkspaceDescriptionPlaceholder = "workspaceDescriptionPlaceholder",
   NotesTutorial = "notesTutorial",
   LearnHowToUseSuperthreadNotes = "learnHowToUseSuperthreadNotes",
+  MyTemplates = "myTemplates",
+  OtherTemplates = "otherTemplates",
 }
 
 export type Translations = Record<TranslationKeys, string>;

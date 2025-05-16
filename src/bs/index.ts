@@ -2347,6 +2347,8 @@ const bs: Translations = {
   workspaceDescriptionPlaceholder: "Unesite opis radnog prostora",
   notesTutorial: "Vodič za bilješke",
   learnHowToUseSuperthreadNotes: "Saznajte kako koristiti Superthread bilješke",
+  myTemplates: "Moji predlošci",
+  otherTemplates: "Ostali predlošci",
 };
 
 export default bs;

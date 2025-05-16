@@ -2414,6 +2414,8 @@ const fr: Translations = {
   workspaceDescriptionPlaceholder: "Entrez la description du travail",
   notesTutorial: "Tutoriel notes",
   learnHowToUseSuperthreadNotes: "Apprenez à utiliser les notes Superthread",
+  myTemplates: "Mes modèles",
+  otherTemplates: "Autres modèles",
 };
 
 export default fr as Translations;
