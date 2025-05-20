@@ -2435,7 +2435,7 @@ const de = {
   date: "Datum",
   cardDueSoon: "Karte bald fällig",
   cardOverdue: "Karte überfällig",
-  cardAddedToBoardList: "Karte zu einer Karte oder Liste hinzugefügt",
+  cardAddedToBoardList: "Karte zu einem Board oder einer Liste hinzugefügt",
   pageCommentStatusUpdate: "Seitenkommentar als gelöst/ungelöst markiert",
 };
 

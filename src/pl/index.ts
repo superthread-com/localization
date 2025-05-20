@@ -2364,7 +2364,7 @@ const pl = {
   cardOverdue: "Karta jest przekroczona",
   cardAddedToBoardList: "Karta dodana do tablicy lub listy",
   pageCommentStatusUpdate:
-    "Komentarz na stronie oznaczony jako rozwiązany/nie rozwiązany",
+    "Komentarz na stronie oznaczony jako rozwiązany/nierozwiązany",
 };
 
 export default pl as Translations;

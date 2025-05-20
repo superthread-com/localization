@@ -2365,8 +2365,7 @@ const bs: Translations = {
   cardDueSoon: "Kartica završava uskoro",
   cardOverdue: "Kartica je prošla rok",
   cardAddedToBoardList: "Kartica dodana u tablu ili listu",
-  pageCommentStatusUpdate:
-    "Komentar na stranici označen kao riješen/ne riješen",
+  pageCommentStatusUpdate: "Komentar na stranici označen kao riješen/neriješen",
 };
 
 export default bs;
