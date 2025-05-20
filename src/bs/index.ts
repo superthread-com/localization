@@ -2366,7 +2366,7 @@ const bs: Translations = {
   cardOverdue: "Kartica je prošla rok",
   cardAddedToBoardList: "Kartica dodana u tablu ili listu",
   pageCommentStatusUpdate: "Komentar na stranici označen kao riješen/neriješen",
-  meetingNotes: "Bilješke sa sastankom",
+  meetingNotes: "Bilješke sa sastanka",
   regularNotes: "Regularne bilješke",
 };
 
