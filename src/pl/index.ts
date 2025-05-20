@@ -2351,6 +2351,15 @@ const pl = {
   learnHowToUseSuperthreadNotes: "Dowiedz się, jak używać notesów Superthread",
   myTemplates: "Moje szablony",
   otherTemplates: "Inne szablony",
+  meetingDate: "Data spotkania",
+  attendees: "Uczestnicy",
+  withMeeting: "Z spotkaniem",
+  withoutMeeting: "Bez spotkania",
+  futureMeetings: "Nadchodzące spotkania",
+  noMeetingDate: "Brak daty spotkania",
+  noAttendees: "Brak uczestników",
+  metadata: "Metapodaci",
+  date: "Data",
 };
 
 export default pl as Translations;

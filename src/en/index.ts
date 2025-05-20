@@ -2312,6 +2312,15 @@ const en = {
   learnHowToUseSuperthreadNotes: "Learn how to use Superthread notes",
   myTemplates: "My templates",
   otherTemplates: "Other templates",
+  meetingDate: "Meeting date",
+  attendees: "Attendees",
+  withMeeting: "With meeting",
+  withoutMeeting: "Without meeting",
+  futureMeetings: "Future meetings",
+  noMeetingDate: "No meeting date",
+  noAttendees: "No attendees",
+  metadata: "Metadata",
+  date: "Date",
 };
 
 export default en as Translations;
