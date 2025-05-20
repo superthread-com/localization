@@ -2365,6 +2365,8 @@ const pl = {
   cardAddedToBoardList: "Karta dodana do tablicy lub listy",
   pageCommentStatusUpdate:
     "Komentarz na stronie oznaczony jako rozwiązany/nierozwiązany",
+  meetingNotes: "Notatki ze spotkania",
+  regularNotes: "Notatki regularne",
 };
 
 export default pl as Translations;
