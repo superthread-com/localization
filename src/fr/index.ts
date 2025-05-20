@@ -138,6 +138,12 @@ const fr: Translations = {
   "billing.contactAdminOrOwner":
     "Contactez votre administrateur ou propriétaire",
   "billing.seeAvailablePlans": "Voir les plans disponibles",
+  ["billing.yourTrialHasExpired"]: "Votre période d'essai est terminée",
+  ["billing.youHaveBeenDowngradedLong"]:
+    "Vous avez été rétrogradé au plan %{planName}. Vous pouvez voir les fonctionnalités perdues sur la page des offres.",
+  ["billing.youHaveBeenDowngradedShort"]:
+    "Vous avez été rétrogradé au plan %{planName}.",
+
   // cards layout
   cardsLayoutList: "Liste",
   cardsLayoutBoard: "Tableau",

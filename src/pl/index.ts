@@ -266,6 +266,11 @@ const pl = {
   "billing.contactAdminOrOwner":
     "Skontaktuj się z administratorem lub właścicielem",
   "billing.seeAvailablePlans": "Zobacz dostępne plany",
+  ["billing.yourTrialHasExpired"]: "Twój okres próbny dobiegł końca",
+  ["billing.youHaveBeenDowngradedLong"]:
+    "Zostałeś zdegradowany do planu %{planName}. Możesz zobaczyć, które funkcje zostały utracone, na stronie planów.",
+  ["billing.youHaveBeenDowngradedShort"]:
+    "Zostałeś zdegradowany do planu %{planName}.",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",

@@ -266,6 +266,11 @@ const en = {
     "After the trial you’ll be downgraded to the %{planName} plan.",
   ["billing.contactAdminOrOwner"]: "Contact your admin or owner",
   ["billing.seeAvailablePlans"]: "See available plans",
+  ["billing.yourTrialHasExpired"]: "Your trial has expired",
+  ["billing.youHaveBeenDowngradedLong"]:
+    "You have been downgraded to the %{planName} plan. You can see which features you lost on the plans page.",
+  ["billing.youHaveBeenDowngradedShort"]:
+    "You have been downgraded to the %{planName} plan.",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",

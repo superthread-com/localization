@@ -1220,6 +1220,10 @@ const bs: Translations = {
   "billing.contactAdminOrOwner":
     "Kontaktirajte svog administratora ili vlasnika",
   "billing.seeAvailablePlans": "Pogledajte dostupne planove",
+  ["billing.yourTrialHasExpired"]: "Vaš probni period je istekao",
+  ["billing.youHaveBeenDowngradedLong"]:
+    "Prebačeni ste na plan %{planName}. Možete vidjeti koje ste funkcije izgubili na stranici s planovima.",
+  ["billing.youHaveBeenDowngradedShort"]: "Prebačeni ste na plan %{planName}.",
 
   // global
   ["global.text.create"]: "Kreiraj",

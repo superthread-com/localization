@@ -271,6 +271,12 @@ const de = {
   "billing.contactAdminOrOwner":
     "Kontaktieren Sie Ihren Administrator oder Eigentümer",
   "billing.seeAvailablePlans": "Verfügbare Pläne anzeigen",
+  ["billing.yourTrialHasExpired"]: "Ihre Testphase ist abgelaufen",
+  ["billing.youHaveBeenDowngradedLong"]:
+    "Sie wurden auf den %{planName}-Tarif herabgestuft. Auf der Tarifseite können Sie sehen, welche Funktionen Sie verloren haben.",
+  ["billing.youHaveBeenDowngradedShort"]:
+    "Sie wurden auf den %{planName}-Tarif herabgestuft.",
+
   // global
   ["global.text.create"]: "Erstellen",
   ["option.label.cards"]: "Karten",
