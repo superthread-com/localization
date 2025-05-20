@@ -2327,6 +2327,11 @@ const en = {
   pageCommentStatusUpdate: "Page comment is marked as resolved/unresolved",
   meetingNotes: "Meeting notes",
   regularNotes: "Regular notes",
+  editAttendees: "Edit attendees",
+  editMeetingDate: "Edit meeting date",
+  editMeetingTime: "Edit meeting time",
+  meetingDetails: "Meeting details",
+  addMeetingDetails: "Add meeting details",
 };
 
 export default en as Translations;

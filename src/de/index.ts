@@ -2439,6 +2439,11 @@ const de = {
   pageCommentStatusUpdate: "Seitenkommentar als gelöst/ungelöst markiert",
   meetingNotes: "Meeting-Notizen",
   regularNotes: "Reguläre Notizen",
+  editAttendees: "Teilnehmer bearbeiten",
+  editMeetingDate: "Meeting-Datum bearbeiten",
+  editMeetingTime: "Meeting-Zeit bearbeiten",
+  meetingDetails: "Meeting-Details",
+  addMeetingDetails: "Meeting-Details hinzufügen",
 };
 
 export default de as Translations;

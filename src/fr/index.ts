@@ -2437,6 +2437,11 @@ const fr: Translations = {
   pageCommentStatusUpdate: "Commentaire de page marqué comme résolu/non résolu",
   meetingNotes: "Notes de réunion",
   regularNotes: "Notes régulières",
+  editAttendees: "Modifier les participants",
+  editMeetingDate: "Modifier la date du meeting",
+  editMeetingTime: "Modifier l'heure du meeting",
+  meetingDetails: "Détails du meeting",
+  addMeetingDetails: "Ajouter des détails du meeting",
 };
 
 export default fr as Translations;
