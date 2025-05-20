@@ -2321,6 +2321,10 @@ const en = {
   noAttendees: "No attendees",
   metadata: "Metadata",
   date: "Date",
+  cardDueSoon: "Card due soon",
+  cardOverdue: "Card overdue",
+  cardAddedToBoardList: "Card added to a board or a list",
+  pageCommentStatusUpdate: "Page comment is marked as resolved/unresolved",
 };
 
 export default en as Translations;

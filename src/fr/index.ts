@@ -2431,6 +2431,10 @@ const fr: Translations = {
   noAttendees: "Aucun participant",
   metadata: "Métadonnées",
   date: "Date",
+  cardDueSoon: "Carte bientôt échue",
+  cardOverdue: "Carte en retard",
+  cardAddedToBoardList: "Carte ajoutée à un tableau ou une liste",
+  pageCommentStatusUpdate: "Commentaire de page marqué comme résolu/non résolu",
 };
 
 export default fr as Translations;

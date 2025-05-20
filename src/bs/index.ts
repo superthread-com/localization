@@ -2362,6 +2362,11 @@ const bs: Translations = {
   noAttendees: "Nema sudionika",
   metadata: "Metapodaci",
   date: "Datum",
+  cardDueSoon: "Kartica završava uskoro",
+  cardOverdue: "Kartica je prošla rok",
+  cardAddedToBoardList: "Kartica dodana u tablu ili listu",
+  pageCommentStatusUpdate:
+    "Komentar na stranici označen kao riješen/ne riješen",
 };
 
 export default bs;
