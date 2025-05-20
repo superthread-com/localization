@@ -2368,6 +2368,11 @@ const bs: Translations = {
   pageCommentStatusUpdate: "Komentar na stranici označen kao riješen/neriješen",
   meetingNotes: "Bilješke sa sastanka",
   regularNotes: "Regularne bilješke",
+  editAttendees: "Uredi sudionike",
+  editMeetingDate: "Uredi datum sastanka",
+  editMeetingTime: "Uredi vrijeme sastanka",
+  meetingDetails: "Detalji sastanka",
+  addMeetingDetails: "Dodaj detalje sastanka",
 };
 
 export default bs;

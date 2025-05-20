@@ -2367,6 +2367,11 @@ const pl = {
     "Komentarz na stronie oznaczony jako rozwiązany/nierozwiązany",
   meetingNotes: "Notatki ze spotkania",
   regularNotes: "Notatki regularne",
+  editAttendees: "Edytuj uczestników",
+  editMeetingDate: "Edytuj datę spotkania",
+  editMeetingTime: "Edytuj czas spotkania",
+  meetingDetails: "Szczegóły spotkania",
+  addMeetingDetails: "Dodaj szczegóły spotkania",
 };
 
 export default pl as Translations;

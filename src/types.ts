@@ -2085,6 +2085,13 @@ export enum TranslationKeys {
   CardOverdue = "cardOverdue",
   CardAddedToBoardList = "cardAddedToBoardList",
   PageCommentStatusUpdate = "pageCommentStatusUpdate",
+  MeetingNotes = "meetingNotes",
+  RegularNotes = "regularNotes",
+  EditAttendees = "editAttendees",
+  EditMeetingDate = "editMeetingDate",
+  EditMeetingTime = "editMeetingTime",
+  MeetingDetails = "meetingDetails",
+  AddMeetingDetails = "addMeetingDetails",
 }
 
 export type Translations = Record<TranslationKeys, string>;
