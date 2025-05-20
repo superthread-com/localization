@@ -2069,6 +2069,15 @@ export enum TranslationKeys {
   LearnHowToUseSuperthreadNotes = "learnHowToUseSuperthreadNotes",
   MyTemplates = "myTemplates",
   OtherTemplates = "otherTemplates",
+  MeetingDate = "meetingDate",
+  Attendees = "attendees",
+  WithMeeting = "withMeeting",
+  WithoutMeeting = "withoutMeeting",
+  FutureMeetings = "futureMeetings",
+  NoMeetingDate = "noMeetingDate",
+  NoAttendees = "noAttendees",
+  Metadata = "metadata",
+  Date = "date",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2349,6 +2349,15 @@ const bs: Translations = {
   learnHowToUseSuperthreadNotes: "Saznajte kako koristiti Superthread bilješke",
   myTemplates: "Moji predlošci",
   otherTemplates: "Ostali predlošci",
+  meetingDate: "Datum sastanka",
+  attendees: "Sudionici",
+  withMeeting: "Sastanak",
+  withoutMeeting: "Bez sastanka",
+  futureMeetings: "Nadolazeći sastanci",
+  noMeetingDate: "Nema datuma sastanka",
+  noAttendees: "Nema sudionika",
+  metadata: "Metapodaci",
+  date: "Datum",
 };
 
 export default bs;
