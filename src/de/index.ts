@@ -2418,6 +2418,15 @@ const de = {
   learnHowToUseSuperthreadNotes: "Lerne, wie du Superthread notes verwendest",
   myTemplates: "Meine Vorlagen",
   otherTemplates: "Andere Vorlagen",
+  meetingDate: "Meeting-Datum",
+  attendees: "Teilnehmer",
+  withMeeting: "Mit Meeting",
+  withoutMeeting: "Ohne Meeting",
+  futureMeetings: "Zukünftige Meetings",
+  noMeetingDate: "Keine Meeting-Datei",
+  noAttendees: "Keine Teilnehmer",
+  metadata: "Metadaten",
+  date: "Datum",
 };
 
 export default de as Translations;

@@ -2416,6 +2416,15 @@ const fr: Translations = {
   learnHowToUseSuperthreadNotes: "Apprenez à utiliser les notes Superthread",
   myTemplates: "Mes modèles",
   otherTemplates: "Autres modèles",
+  meetingDate: "Date du meeting",
+  attendees: "Participants",
+  withMeeting: "Avec meeting",
+  withoutMeeting: "Sans meeting",
+  futureMeetings: "Meetings futurs",
+  noMeetingDate: "Aucune date de meeting",
+  noAttendees: "Aucun participant",
+  metadata: "Métadonnées",
+  date: "Date",
 };
 
 export default fr as Translations;
