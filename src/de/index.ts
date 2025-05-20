@@ -2437,6 +2437,8 @@ const de = {
   cardOverdue: "Karte überfällig",
   cardAddedToBoardList: "Karte zu einem Board oder einer Liste hinzugefügt",
   pageCommentStatusUpdate: "Seitenkommentar als gelöst/ungelöst markiert",
+  meetingNotes: "Meeting-Notizen",
+  regularNotes: "Reguläre Notizen",
 };
 
 export default de as Translations;

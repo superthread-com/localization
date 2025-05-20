@@ -2325,6 +2325,8 @@ const en = {
   cardOverdue: "Card overdue",
   cardAddedToBoardList: "Card added to a board or a list",
   pageCommentStatusUpdate: "Page comment is marked as resolved/unresolved",
+  meetingNotes: "Meeting notes",
+  regularNotes: "Regular notes",
 };
 
 export default en as Translations;
