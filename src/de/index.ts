@@ -2414,6 +2414,10 @@ const de = {
     "Lassen Sie Leute wissen, was Sie tun. Dies hilft auch Superthread, relevantere verbesserte Notizen zu erstellen.",
   workspaceDescriptionLabel: "Arbeitsbereichsbeschreibung",
   workspaceDescriptionPlaceholder: "Arbeitsbereichsbeschreibung eingeben",
+  notesTutorial: "Notes Tutorial",
+  learnHowToUseSuperthreadNotes: "Lerne, wie du Superthread notes verwendest",
+  myTemplates: "Meine Vorlagen",
+  otherTemplates: "Andere Vorlagen",
 };
 
 export default de as Translations;

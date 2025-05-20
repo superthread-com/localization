@@ -2345,6 +2345,10 @@ const bs: Translations = {
     "Obavijestite ljude šta radite. Ovo također pomaže Superthreadu da kreira relevantnije poboljšane bilješke.",
   workspaceDescriptionLabel: "Opis radnog prostora",
   workspaceDescriptionPlaceholder: "Unesite opis radnog prostora",
+  notesTutorial: "Vodič za bilješke",
+  learnHowToUseSuperthreadNotes: "Saznajte kako koristiti Superthread bilješke",
+  myTemplates: "Moji predlošci",
+  otherTemplates: "Ostali predlošci",
 };
 
 export default bs;
