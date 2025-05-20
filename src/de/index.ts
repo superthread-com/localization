@@ -2433,6 +2433,10 @@ const de = {
   noAttendees: "Keine Teilnehmer",
   metadata: "Metadaten",
   date: "Datum",
+  cardDueSoon: "Karte bald fällig",
+  cardOverdue: "Karte überfällig",
+  cardAddedToBoardList: "Karte zu einem Board oder einer Liste hinzugefügt",
+  pageCommentStatusUpdate: "Seitenkommentar als gelöst/ungelöst markiert",
 };
 
 export default de as Translations;

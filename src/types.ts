@@ -232,11 +232,11 @@ export enum TranslationKeys {
   BillingThereAreDaysLeftOnYourTrialOther = "billing.thereAreDaysLeftOnYourTrial_other",
   BillingAfterTrialLong = "billing.afterTrialLong",
   BillingAfterTrialShort = "billing.afterTrialShort",
-  BillingSeeAvailablePlans = "billing.seeAvailablePlans",
   BillingContactAdminOrOwner = "billing.contactAdminOrOwner",
+  BillingSeeAvailablePlans = "billing.seeAvailablePlans",
   BillingYourTrialHasExpired = "billing.yourTrialHasExpired",
-  BillingYouHaveBeenDowngradedShort = "billing.youHaveBeenDowngradedShort",
   BillingYouHaveBeenDowngradedLong = "billing.youHaveBeenDowngradedLong",
+  BillingYouHaveBeenDowngradedShort = "billing.youHaveBeenDowngradedShort",
   GlobalTextCreate = "global.text.create",
   OptionLabelCards = "option.label.cards",
   OptionLabelPages = "option.label.pages",
@@ -2081,6 +2081,10 @@ export enum TranslationKeys {
   NoAttendees = "noAttendees",
   Metadata = "metadata",
   Date = "date",
+  CardDueSoon = "cardDueSoon",
+  CardOverdue = "cardOverdue",
+  CardAddedToBoardList = "cardAddedToBoardList",
+  PageCommentStatusUpdate = "pageCommentStatusUpdate",
 }
 
 export type Translations = Record<TranslationKeys, string>;

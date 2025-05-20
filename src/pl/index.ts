@@ -2360,6 +2360,11 @@ const pl = {
   noAttendees: "Brak uczestników",
   metadata: "Metapodaci",
   date: "Data",
+  cardDueSoon: "Karta zbliża się do terminu",
+  cardOverdue: "Karta jest przekroczona",
+  cardAddedToBoardList: "Karta dodana do tablicy lub listy",
+  pageCommentStatusUpdate:
+    "Komentarz na stronie oznaczony jako rozwiązany/nierozwiązany",
 };
 
 export default pl as Translations;
