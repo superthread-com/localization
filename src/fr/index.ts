@@ -2442,6 +2442,8 @@ const fr: Translations = {
   editMeetingTime: "Modifier l'heure du meeting",
   meetingDetails: "Détails du meeting",
   addMeetingDetails: "Ajouter des détails du meeting",
+  copyEmail: "Copier l'email",
+  removeAttendee: "Supprimer le participant",
 };
 
 export default fr as Translations;

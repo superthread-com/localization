@@ -2092,6 +2092,8 @@ export enum TranslationKeys {
   EditMeetingTime = "editMeetingTime",
   MeetingDetails = "meetingDetails",
   AddMeetingDetails = "addMeetingDetails",
+  CopyEmail = "copyEmail",
+  RemoveAttendee = "removeAttendee",
 }
 
 export type Translations = Record<TranslationKeys, string>;

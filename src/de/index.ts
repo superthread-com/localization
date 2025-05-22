@@ -2444,6 +2444,8 @@ const de = {
   editMeetingTime: "Meeting-Zeit bearbeiten",
   meetingDetails: "Meeting-Details",
   addMeetingDetails: "Meeting-Details hinzufügen",
+  copyEmail: "Email kopieren",
+  removeAttendee: "Teilnehmer entfernen",
 };
 
 export default de as Translations;

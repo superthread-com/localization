@@ -2373,6 +2373,8 @@ const bs: Translations = {
   editMeetingTime: "Uredi vrijeme sastanka",
   meetingDetails: "Detalji sastanka",
   addMeetingDetails: "Dodaj detalje sastanka",
+  copyEmail: "Kopiraj email",
+  removeAttendee: "Ukloni sudionika",
 };
 
 export default bs;
