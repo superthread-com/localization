@@ -2332,6 +2332,8 @@ const en = {
   editMeetingTime: "Edit meeting time",
   meetingDetails: "Meeting details",
   addMeetingDetails: "Add meeting details",
+  copyEmail: "Copy email",
+  removeAttendee: "Remove attendee",
 };
 
 export default en as Translations;
