@@ -2375,6 +2375,8 @@ const bs: Translations = {
   addMeetingDetails: "Dodaj detalje sastanka",
   copyEmail: "Kopiraj email",
   removeAttendee: "Ukloni sudionika",
+  hours: "Sati",
+  minutes: "Minuta",
 };
 
 export default bs;
