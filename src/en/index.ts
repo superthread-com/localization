@@ -2334,6 +2334,8 @@ const en = {
   addMeetingDetails: "Add meeting details",
   copyEmail: "Copy email",
   removeAttendee: "Remove attendee",
+  hours: "Hours",
+  minutes: "Minutes",
 };
 
 export default en as Translations;

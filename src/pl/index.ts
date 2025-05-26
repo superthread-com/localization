@@ -2374,6 +2374,8 @@ const pl = {
   addMeetingDetails: "Dodaj szczegóły spotkania",
   copyEmail: "Skopiuj email",
   removeAttendee: "Usuń uczestnika",
+  hours: "Godziny",
+  minutes: "Minuty",
 };
 
 export default pl as Translations;
