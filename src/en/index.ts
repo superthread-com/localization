@@ -2336,6 +2336,7 @@ const en = {
   removeAttendee: "Remove attendee",
   hours: "Hours",
   minutes: "Minutes",
+  removeFromWorkspace: "Remove from workspace",
 };
 
 export default en as Translations;

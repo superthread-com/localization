@@ -2096,6 +2096,7 @@ export enum TranslationKeys {
   RemoveAttendee = "removeAttendee",
   Hours = "hours",
   Minutes = "minutes",
+  RemoveFromWorkspace = "removeFromWorkspace",
 }
 
 export type Translations = Record<TranslationKeys, string>;
