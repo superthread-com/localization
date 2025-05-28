@@ -2377,6 +2377,7 @@ const bs: Translations = {
   removeAttendee: "Ukloni sudionika",
   hours: "Sati",
   minutes: "Minuta",
+  removeFromWorkspace: "Ukloni iz radnog prostora",
 };
 
 export default bs;

@@ -2448,6 +2448,7 @@ const de = {
   removeAttendee: "Teilnehmer entfernen",
   hours: "Stunden",
   minutes: "Minuten",
+  removeFromWorkspace: "Vom Arbeitsbereich entfernen",
 };
 
 export default de as Translations;

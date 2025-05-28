@@ -2446,6 +2446,7 @@ const fr: Translations = {
   removeAttendee: "Supprimer le participant",
   hours: "Heures",
   minutes: "Minutes",
+  removeFromWorkspace: "Supprimer du workspace",
 };
 
 export default fr as Translations;
