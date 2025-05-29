@@ -2379,9 +2379,9 @@ const bs: Translations = {
   minutes: "Minuta",
   removeFromWorkspace: "Ukloni iz radnog prostora",
   removeMembersDescription:
-    "Jeste li sigurni da želite ukloniti %{count} člana(a) iz radnog prostora? Ova akcija će odmah ukinuti njihov pristup",
+    "Jeste li sigurni da želite ukloniti %{count} člana/ova iz radnog prostora? Ova akcija će odmah ukinuti njihov pristup",
   cantIncludeYourselfInBulkRemoval:
-    "Ne možete se ukloniti u masovnoj akciji uklonjenja članova",
+    "Ne možete se ukloniti u masovnoj akciji uklanjanja članova",
 };
 
 export default bs;
