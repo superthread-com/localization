@@ -2337,6 +2337,10 @@ const en = {
   hours: "Hours",
   minutes: "Minutes",
   removeFromWorkspace: "Remove from workspace",
+  removeMembersDescription:
+    "Are you sure you want to remove %{count} member(s) from the workspace? This action will revoke their access immediately",
+  cantIncludeYourselfInBulkRemoval:
+    "You can't include yourself in a bulk member removal",
 };
 
 export default en as Translations;
