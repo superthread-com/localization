@@ -2447,6 +2447,10 @@ const fr: Translations = {
   hours: "Heures",
   minutes: "Minutes",
   removeFromWorkspace: "Supprimer du workspace",
+  removeMembersDescription:
+    "Êtes-vous sûr de vouloir supprimer %{count} membre(s) du workspace ? Cette action révoquera immédiatement leur accès",
+  cantIncludeYourselfInBulkRemoval:
+    "Vous ne pouvez pas vous inclure dans une suppression en masse de membres",
 };
 
 export default fr as Translations;

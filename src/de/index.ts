@@ -2449,6 +2449,10 @@ const de = {
   hours: "Stunden",
   minutes: "Minuten",
   removeFromWorkspace: "Vom Arbeitsbereich entfernen",
+  removeMembersDescription:
+    "Bist du sicher, dass du %{count} Mitglied(er) aus dem Arbeitsbereich entfernen möchtest? Diese Aktion wird ihren Zugang sofort widerrufen",
+  cantIncludeYourselfInBulkRemoval:
+    "Du kannst dich nicht in einer Massenmitglieder-Entfernung einschließen",
 };
 
 export default de as Translations;

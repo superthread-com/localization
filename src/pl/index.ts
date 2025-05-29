@@ -2377,6 +2377,10 @@ const pl = {
   hours: "Godziny",
   minutes: "Minuty",
   removeFromWorkspace: "Usuń z obszaru roboczego",
+  removeMembersDescription:
+    "Czy jesteś pewny, że chcesz usunąć %{count} członków z obszaru roboczego? Ta akcja natychmiast odwoła ich dostęp",
+  cantIncludeYourselfInBulkRemoval:
+    "Nie możesz sam siebie uwzględnić w masowej akcji usuwania członków",
 };
 
 export default pl as Translations;
