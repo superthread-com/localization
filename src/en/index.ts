@@ -2341,6 +2341,17 @@ const en = {
     "Are you sure you want to remove %{count} member(s) from the workspace? This action will revoke their access immediately",
   cantIncludeYourselfInBulkRemoval:
     "You can't include yourself in a bulk member removal",
+  changeRole: "Change role",
+  ownerRolesCannotBeModifiedBulkActions:
+    "Owner roles cannot be modified through bulk actions",
+  roleChangesOnlyForActiveMembers:
+    "Role changes are only available for active members of this workspace",
+  allSelectedMembersHaveSelectedRole:
+    "No changes made. All selected members already have the selected role",
+  successfullyChangedRoleForMember:
+    "Successfully changed role for %{count} member",
+  successfullyChangedRolesForMembers:
+    "Successfully changed roles for %{count} members",
 };
 
 export default en as Translations;

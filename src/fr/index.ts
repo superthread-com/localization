@@ -2451,6 +2451,17 @@ const fr: Translations = {
     "Êtes-vous sûr de vouloir supprimer %{count} membre(s) du workspace ? Cette action révoquera immédiatement leur accès",
   cantIncludeYourselfInBulkRemoval:
     "Vous ne pouvez pas vous inclure dans une suppression en masse de membres",
+  changeRole: "Changer le rôle",
+  ownerRolesCannotBeModifiedBulkActions:
+    "Les rôles propriétaires ne peuvent pas être modifiés par les actions en masse",
+  roleChangesOnlyForActiveMembers:
+    "Les changements de rôle ne sont disponibles que pour les membres actifs de cet espace de travail",
+  allSelectedMembersHaveSelectedRole:
+    "Aucun changement. Tous les membres sélectionnés ont déjà le rôle sélectionné",
+  successfullyChangedRoleForMember:
+    "Rôle modifié avec succès pour %{count} membre",
+  successfullyChangedRolesForMembers:
+    "Rôles modifiés avec succès pour %{count} membres",
 };
 
 export default fr as Translations;
