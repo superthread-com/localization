@@ -2099,6 +2099,12 @@ export enum TranslationKeys {
   RemoveFromWorkspace = "removeFromWorkspace",
   RemoveMembersDescription = "removeMembersDescription",
   CantIncludeYourselfInBulkRemoval = "cantIncludeYourselfInBulkRemoval",
+  ChangeRole = "changeRole",
+  OwnerRolesCannotBeModifiedBulkActions = "ownerRolesCannotBeModifiedBulkActions",
+  RoleChangesOnlyForActiveMembers = "roleChangesOnlyForActiveMembers",
+  AllSelectedMembersHaveSelectedRole = "allSelectedMembersHaveSelectedRole",
+  SuccessfullyChangedRoleForMember = "successfullyChangedRoleForMember",
+  SuccessfullyChangedRolesForMembers = "successfullyChangedRolesForMembers",
 }
 
 export type Translations = Record<TranslationKeys, string>;

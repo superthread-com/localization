@@ -2382,6 +2382,17 @@ const bs: Translations = {
     "Jeste li sigurni da želite ukloniti %{count} člana/ova iz radnog prostora? Ova akcija će odmah ukinuti njihov pristup",
   cantIncludeYourselfInBulkRemoval:
     "Ne možete se ukloniti u masovnoj akciji uklanjanja članova",
+  changeRole: "Promijeni ulogu",
+  ownerRolesCannotBeModifiedBulkActions:
+    "Vlasničke uloge ne mogu biti promijenjene putem masovnih akcija",
+  roleChangesOnlyForActiveMembers:
+    "Promjene uloga su dostupne samo za aktivne članove ovog radnog prostora",
+  allSelectedMembersHaveSelectedRole:
+    "Nema promjena. Svi odabrani članovi već imaju odabranu ulogu",
+  successfullyChangedRoleForMember:
+    "Uspješno promijenjena uloga za %{count} člana",
+  successfullyChangedRolesForMembers:
+    "Uspješno promijenjene uloge za %{count} članova",
 };
 
 export default bs;

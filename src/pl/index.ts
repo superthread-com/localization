@@ -2381,6 +2381,17 @@ const pl = {
     "Czy jesteś pewny, że chcesz usunąć %{count} członków z obszaru roboczego? Ta akcja natychmiast odwoła ich dostęp",
   cantIncludeYourselfInBulkRemoval:
     "Nie możesz sam siebie uwzględnić w masowej akcji usuwania członków",
+  changeRole: "Zmień rolę",
+  ownerRolesCannotBeModifiedBulkActions:
+    "Role właścicieli nie mogą być modyfikowane przez masowe akcje",
+  roleChangesOnlyForActiveMembers:
+    "Zmiany roli są dostępne tylko dla aktywnych członków tego obszaru roboczego",
+  allSelectedMembersHaveSelectedRole:
+    "Brak zmian. Wszystkie wybrane członkowie już mają wybraną rolę",
+  successfullyChangedRoleForMember:
+    "Pomyślnie zmieniono rolę dla %{count} członka",
+  successfullyChangedRolesForMembers:
+    "Pomyślnie zmieniono role dla %{count} członków",
 };
 
 export default pl as Translations;

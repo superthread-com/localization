@@ -2453,6 +2453,17 @@ const de = {
     "Bist du sicher, dass du %{count} Mitglied(er) aus dem Arbeitsbereich entfernen möchtest? Diese Aktion wird ihren Zugang sofort widerrufen",
   cantIncludeYourselfInBulkRemoval:
     "Du kannst dich nicht in einer Massenmitglieder-Entfernung einschließen",
+  changeRole: "Rolle ändern",
+  ownerRolesCannotBeModifiedBulkActions:
+    "Besitzerrollen können nicht über Massenaktionen geändert werden",
+  roleChangesOnlyForActiveMembers:
+    "Rollen können nur für aktive Mitglieder dieses Arbeitsbereichs geändert werden",
+  allSelectedMembersHaveSelectedRole:
+    "Keine Änderungen vorgenommen. Alle ausgewählten Mitglieder haben bereits die ausgewählte Rolle",
+  successfullyChangedRoleForMember:
+    "Rolle erfolgreich für %{count} Mitglied geändert",
+  successfullyChangedRolesForMembers:
+    "Rolle erfolgreich für %{count} Mitglieder geändert",
 };
 
 export default de as Translations;
