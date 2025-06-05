@@ -2345,9 +2345,9 @@ const en = {
   ownerRolesCannotBeModifiedBulkActions:
     "Owner roles cannot be modified through bulk actions",
   roleChangesOnlyForActiveMembers:
-    "Role changes are only available for active members of this workspace",
+    "Role changes are only available for active members",
   allSelectedMembersHaveSelectedRole:
-    "No changes made. All selected members already have the selected role",
+    "All selected members already have the selected role",
   successfullyChangedRoleForMember:
     "Successfully changed role for %{count} member",
   successfullyChangedRolesForMembers:

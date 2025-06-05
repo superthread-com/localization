@@ -2457,9 +2457,9 @@ const de = {
   ownerRolesCannotBeModifiedBulkActions:
     "Besitzerrollen können nicht über Massenaktionen geändert werden",
   roleChangesOnlyForActiveMembers:
-    "Rollen können nur für aktive Mitglieder dieses Arbeitsbereichs geändert werden",
+    "Rollen können nur für aktive Mitglieder geändert werden",
   allSelectedMembersHaveSelectedRole:
-    "Keine Änderungen vorgenommen. Alle ausgewählten Mitglieder haben bereits die ausgewählte Rolle",
+    "Alle ausgewählten Mitglieder haben bereits die ausgewählte Rolle",
   successfullyChangedRoleForMember:
     "Rolle erfolgreich für %{count} Mitglied geändert",
   successfullyChangedRolesForMembers:

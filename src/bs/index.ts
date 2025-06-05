@@ -2386,9 +2386,9 @@ const bs: Translations = {
   ownerRolesCannotBeModifiedBulkActions:
     "Vlasničke uloge ne mogu biti promijenjene putem masovnih akcija",
   roleChangesOnlyForActiveMembers:
-    "Promjene uloga su dostupne samo za aktivne članove ovog radnog prostora",
+    "Promjene uloga su dostupne samo za aktivne članove",
   allSelectedMembersHaveSelectedRole:
-    "Nema promjena. Svi odabrani članovi već imaju odabranu ulogu",
+    "Svi odabrani članovi već imaju odabranu ulogu",
   successfullyChangedRoleForMember:
     "Uspješno promijenjena uloga za %{count} člana",
   successfullyChangedRolesForMembers:
