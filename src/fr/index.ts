@@ -2455,9 +2455,9 @@ const fr: Translations = {
   ownerRolesCannotBeModifiedBulkActions:
     "Les rôles propriétaires ne peuvent pas être modifiés par les actions en masse",
   roleChangesOnlyForActiveMembers:
-    "Les changements de rôle ne sont disponibles que pour les membres actifs de cet espace de travail",
+    "Les changements de rôle ne sont disponibles que pour les membres actifs",
   allSelectedMembersHaveSelectedRole:
-    "Aucun changement. Tous les membres sélectionnés ont déjà le rôle sélectionné",
+    "Tous les membres sélectionnés ont déjà le rôle sélectionné",
   successfullyChangedRoleForMember:
     "Rôle modifié avec succès pour %{count} membre",
   successfullyChangedRolesForMembers:

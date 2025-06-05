@@ -2385,9 +2385,9 @@ const pl = {
   ownerRolesCannotBeModifiedBulkActions:
     "Role właścicieli nie mogą być modyfikowane przez masowe akcje",
   roleChangesOnlyForActiveMembers:
-    "Zmiany roli są dostępne tylko dla aktywnych członków tego obszaru roboczego",
+    "Zmiany roli są dostępne tylko dla aktywnych członków",
   allSelectedMembersHaveSelectedRole:
-    "Brak zmian. Wszystkie wybrane członkowie już mają wybraną rolę",
+    "Wszystkie wybrane członkowie już mają wybraną rolę",
   successfullyChangedRoleForMember:
     "Pomyślnie zmieniono rolę dla %{count} członka",
   successfullyChangedRolesForMembers:
