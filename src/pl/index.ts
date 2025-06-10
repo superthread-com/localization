@@ -2405,7 +2405,7 @@ const pl = {
   turnOnCheckinDescription:
     "Wybrane osoby zostaną zapytane o swoją pracę w danym dniu",
   includedPeople: "Uwzględnione osoby",
-  includedPeopleSubtitle: "Wybierz maksymalnie 20 osób",
+  includedPeopleSubtitle: "Wybierz maksymalnie %{numberOfPeople} osób",
   selectMembers: "Wybierz członków",
   noMemberSelected: "Nie wybrano żadnego członka",
   schedule: "Harmonogram",
