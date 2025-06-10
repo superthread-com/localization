@@ -2392,6 +2392,38 @@ const pl = {
     "Pomyślnie zmieniono rolę dla %{count} członka",
   successfullyChangedRolesForMembers:
     "Pomyślnie zmieniono role dla %{count} członków",
+  teamCheckins: "Zameldowania zespołu",
+  teamCheckinsSubtitle:
+    "Superthread może zadawać pytania według harmonogramu i generować podsumowania na podstawie odpowiedzi",
+  searchCheckins: "Szukaj zameldowań",
+  createCheckin: "Utwórz zameldowanie",
+  editCheckin: "Edytuj zameldowanie",
+  noCheckins: "Brak zameldowań",
+  noCheckinsSubtitle: "Możesz utworzyć zameldowanie powyżej",
+  checkinName: "Nazwa zameldowania",
+  turnOnCheckin: "Włącz zameldowanie",
+  turnOnCheckinDescription:
+    "Wybrane osoby zostaną zapytane o swoją pracę w danym dniu",
+  includedPeople: "Uwzględnione osoby",
+  includedPeopleSubtitle: "Wybierz maksymalnie 20 osób",
+  selectMembers: "Wybierz członków",
+  noMemberSelected: "Nie wybrano żadnego członka",
+  schedule: "Harmonogram",
+  startToGenerateReportOne: "Rozpocznij generowanie agendy",
+  startToGenerateReportTwo: "minut po zadaniu pytań",
+  deleteCheckin: "Usuń zameldowanie",
+  deleteCheckinDescription:
+    "Zameldowanie zespołu „%{checkinName}” zostanie usunięte",
+  checkinNamePlaceholder: "np. „Stand-up inżynierów”",
+  timeNextRun: "Czas następnego uruchomienia",
+  timeNextReport: "Czas następnego raportu",
+  timeLastRun: "Czas ostatniego uruchomienia",
+  timeLastReport: "Czas ostatniego raportu",
+  scheduleSubtitle:
+    "Nie będziesz mógł zmienić harmonogramu między uruchomieniem a generowaniem agendy",
+  startAskingQuestionsAt: "Rozpocznij zadawanie pytań o",
+  days: "Dni",
+  agendaDelay: "Opóźnienie agendy zameldowań zespołu",
 };
 
 export default pl as Translations;

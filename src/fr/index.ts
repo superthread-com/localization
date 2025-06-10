@@ -2462,6 +2462,38 @@ const fr: Translations = {
     "Rôle modifié avec succès pour %{count} membre",
   successfullyChangedRolesForMembers:
     "Rôles modifiés avec succès pour %{count} membres",
+  teamCheckins: "Rapports d'équipe",
+  teamCheckinsSubtitle:
+    "Superthread peut poser des questions aux membres selon un planning et générer des résumés basés sur les réponses",
+  searchCheckins: "Rechercher des rapports",
+  createCheckin: "Créer un rapport",
+  editCheckin: "Modifier le rapport",
+  noCheckins: "Aucun rapport",
+  noCheckinsSubtitle: "Vous pouvez créer un rapport ci-dessus",
+  checkinName: "Nom du rapport",
+  turnOnCheckin: "Activer le rapport",
+  turnOnCheckinDescription:
+    "Les personnes sélectionnées recevront des questions sur leur travail du jour",
+  includedPeople: "Personnes incluses",
+  includedPeopleSubtitle: "Sélectionnez jusqu'à %{numberOfPeople} personnes",
+  selectMembers: "Sélectionner des membres",
+  noMemberSelected: "Aucun membre sélectionné",
+  schedule: "Planification",
+  startToGenerateReportOne: "Commencer à générer l'agenda",
+  startToGenerateReportTwo: "minutes après que les questions ont été posées",
+  deleteCheckin: "Supprimer le rapport",
+  deleteCheckinDescription:
+    "Le rapport d'équipe “%{checkinName}” sera supprimé",
+  checkinNamePlaceholder: "ex. “Stand-up d'ingénierie”",
+  timeNextRun: "Heure du prochain démarrage",
+  timeNextReport: "Heure du prochain rapport",
+  timeLastRun: "Heure du dernier démarrage",
+  timeLastReport: "Heure du dernier rapport",
+  scheduleSubtitle:
+    "Vous ne pourrez pas modifier le planning entre le démarrage et la génération de l'agenda",
+  startAskingQuestionsAt: "Commencer à poser des questions à",
+  days: "Jours",
+  agendaDelay: "Délai de génération de l'agenda des rapports d'équipe",
 };
 
 export default fr as Translations;

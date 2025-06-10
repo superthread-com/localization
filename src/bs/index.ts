@@ -2393,6 +2393,37 @@ const bs: Translations = {
     "Uspješno promijenjena uloga za %{count} člana",
   successfullyChangedRolesForMembers:
     "Uspješno promijenjene uloge za %{count} članova",
+  teamCheckins: "Timski izvještaji",
+  teamCheckinsSubtitle:
+    "Superthread može postavljati pitanja ljudima prema rasporedu i generirati sažetke na osnovu odgovora",
+  searchCheckins: "Pretraži izvještaje",
+  createCheckin: "Kreiraj izvještaj",
+  editCheckin: "Uredi izvještaj",
+  noCheckins: "Nema izvještaja",
+  noCheckinsSubtitle: "Možete kreirati izvještaj iznad",
+  checkinName: "Naziv izvještaja",
+  turnOnCheckin: "Uključi izvještaj",
+  turnOnCheckinDescription:
+    "Odabrani ljudi će biti upitani o svom radu za taj dan",
+  includedPeople: "Uključeni ljudi",
+  includedPeopleSubtitle: "Odaberite do %{numberOfPeople} osoba",
+  selectMembers: "Odaberite članove",
+  noMemberSelected: "Nijedan član nije odabran",
+  schedule: "Raspored",
+  startToGenerateReportOne: "Počni generisati agendu",
+  startToGenerateReportTwo: "minuta nakon što su pitanja postavljena",
+  deleteCheckin: "Obriši izvještaj",
+  deleteCheckinDescription: "Timski izvještaj “%{checkinName}” će biti obrisan",
+  checkinNamePlaceholder: "npr. “Inženjerski stand-up”",
+  timeNextRun: "Vrijeme sljedećeg pokretanja",
+  timeNextReport: "Vrijeme sljedećeg izvještaja",
+  timeLastRun: "Vrijeme posljednjeg pokretanja",
+  timeLastReport: "Vrijeme posljednjeg izvještaja",
+  scheduleSubtitle:
+    "Nećete moći promijeniti raspored između početka i generiranja agende",
+  startAskingQuestionsAt: "Počni postavljati pitanja u",
+  days: "Dani",
+  agendaDelay: "Odgađanje agende timskog izvještaja",
 };
 
 export default bs;

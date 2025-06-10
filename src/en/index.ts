@@ -2352,6 +2352,37 @@ const en = {
     "Successfully changed role for %{count} member",
   successfullyChangedRolesForMembers:
     "Successfully changed roles for %{count} members",
+  teamCheckins: "Team check-ins",
+  teamCheckinsSubtitle:
+    "Superthread can ask people questions on a schedule and generate summaries based on the answers",
+  searchCheckins: "Search check-ins",
+  createCheckin: "Create check-in",
+  editCheckin: "Edit check-in",
+  noCheckins: "No check-ins",
+  noCheckinsSubtitle: "You can create a check-in above",
+  checkinName: "Check-in name",
+  turnOnCheckin: "Turn on check-in",
+  turnOnCheckinDescription:
+    "The selected people will be asked questions about their work for that day",
+  includedPeople: "Included people",
+  includedPeopleSubtitle: "Select up to %{numberOfPeople} people",
+  selectMembers: "Select members",
+  noMemberSelected: "No member selected",
+  schedule: "Schedule",
+  startToGenerateReportOne: "Start to generate the agenda",
+  startToGenerateReportTwo: "minutes after questions are asked",
+  deleteCheckin: "Delete check-in",
+  deleteCheckinDescription: "Team check-in “%{checkinName}” will be deleted",
+  checkinNamePlaceholder: "e.g. “Engineering stand-up”",
+  timeNextRun: "Time next run",
+  timeNextReport: "Time next report",
+  timeLastRun: "Time last run",
+  timeLastReport: "Time last report",
+  scheduleSubtitle:
+    "You won't be able to change the schedule between the start of the run and agenda generation",
+  startAskingQuestionsAt: "Start asking questions at",
+  days: "Days",
+  agendaDelay: "Team check-in agenda delay",
 };
 
 export default en as Translations;
