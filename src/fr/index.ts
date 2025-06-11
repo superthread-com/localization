@@ -2494,6 +2494,10 @@ const fr: Translations = {
   startAskingQuestionsAt: "Commencer à poser des questions à",
   days: "Jours",
   agendaDelay: "Délai de génération de l'agenda des rapports d'équipe",
+  upgradePlanToUseRoadmapAndProjectsTitle:
+    "Mettre à niveau votre plan pour utiliser la feuille de route et les projets",
+  upgradePlanToUseRoadmapAndProjectsDescription:
+    "Les projets sont suivis sur la feuille de route. Les projets vous permettent de collecter toutes les cartes liées à un projet en un seul endroit et de maintenir tout le monde informé.",
 };
 
 export default fr as Translations;

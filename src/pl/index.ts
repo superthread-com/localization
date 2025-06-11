@@ -2424,6 +2424,10 @@ const pl = {
   startAskingQuestionsAt: "Rozpocznij zadawanie pytań o",
   days: "Dni",
   agendaDelay: "Opóźnienie agendy zameldowań zespołu",
+  upgradePlanToUseRoadmapAndProjectsTitle:
+    "Uaktualnij swój plan, aby używać mapy drogowej i projektów",
+  upgradePlanToUseRoadmapAndProjectsDescription:
+    "Projekty żyją na mapie drogowej. Projekty umożliwiają zbieranie wszystkich kart związanych z projektem w jednym miejscu i utrzymywanie wszystkich osób na bieżąco.",
 };
 
 export default pl as Translations;
