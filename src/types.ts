@@ -2133,6 +2133,8 @@ export enum TranslationKeys {
   StartAskingQuestionsAt = "startAskingQuestionsAt",
   Days = "days",
   AgendaDelay = "agendaDelay",
+  UpgradePlanToUseRoadmapAndProjectsTitle = "upgradePlanToUseRoadmapAndProjectsTitle",
+  UpgradePlanToUseRoadmapAndProjectsDescription = "upgradePlanToUseRoadmapAndProjectsDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

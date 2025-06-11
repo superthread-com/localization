@@ -2383,6 +2383,10 @@ const en = {
   startAskingQuestionsAt: "Start asking questions at",
   days: "Days",
   agendaDelay: "Team check-in agenda delay",
+  upgradePlanToUseRoadmapAndProjectsTitle:
+    "Upgrade your plan to use the roadmap and projects",
+  upgradePlanToUseRoadmapAndProjectsDescription:
+    "Projects live in the roadmap. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
 };
 
 export default en as Translations;

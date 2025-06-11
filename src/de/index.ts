@@ -2495,6 +2495,10 @@ const de = {
   startAskingQuestionsAt: "Frage stellen um",
   days: "Tage",
   agendaDelay: "Verzögerung der Team-Check-in-Agenda",
+  upgradePlanToUseRoadmapAndProjectsTitle:
+    "Aktualisieren Sie Ihr Abonnement, um die Roadmap und Projekte zu verwenden",
+  upgradePlanToUseRoadmapAndProjectsDescription:
+    "Projekte leben in der Roadmap. Projekte ermöglichen es Ihnen, alle Karten, die zu einem Projekt gehören, an einem Ort zu sammeln und alle Teilnehmer auf dem Laufenden zu halten.",
 };
 
 export default de as Translations;

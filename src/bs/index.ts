@@ -2424,6 +2424,10 @@ const bs: Translations = {
   startAskingQuestionsAt: "Počni postavljati pitanja u",
   days: "Dani",
   agendaDelay: "Odgađanje agende timskog izvještaja",
+  upgradePlanToUseRoadmapAndProjectsTitle:
+    "Nadogradite svoj plan da biste koristili plan rada i projekte",
+  upgradePlanToUseRoadmapAndProjectsDescription:
+    "Projekti se nalaze u planu rada. Projekti vam omogućuju da sve kartice povezane s projektom sakupite na jednom mjestu i održite sve sudionike informisane.",
 };
 
 export default bs;
