@@ -2499,6 +2499,17 @@ const de = {
     "Aktualisieren Sie Ihr Abonnement, um die Roadmap und Projekte zu verwenden",
   upgradePlanToUseRoadmapAndProjectsDescription:
     "Projekte leben in der Roadmap. Projekte ermöglichen es Ihnen, alle Karten, die zu einem Projekt gehören, an einem Ort zu sammeln und alle Teilnehmer auf dem Laufenden zu halten.",
+  weekdays: "Wochentage",
+  weekends: "Wochenende",
+  checkin: "Bericht",
+  checkinFirstMessage:
+    "Ich muss Ihnen einige Fragen zu Ihrem täglichen Teambericht stellen.",
+  teamCheckinCurrentCards: "Hier sind Ihre aktuellen Karten:",
+  teamCheckinProposedReport:
+    "Hier ist mein vorgeschlagener Bericht über Ihre Arbeit:",
+  teamCheckinFinalReport: "Hier ist Ihr endgültiger Bericht für heute:",
+  question: "Frage",
+  submit: "Absenden",
 };
 
 export default de as Translations;

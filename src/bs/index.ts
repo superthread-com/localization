@@ -2428,6 +2428,16 @@ const bs: Translations = {
     "Nadogradite svoj plan da biste koristili plan rada i projekte",
   upgradePlanToUseRoadmapAndProjectsDescription:
     "Projekti se nalaze u planu rada. Projekti vam omogućuju da sve kartice povezane s projektom sakupite na jednom mjestu i održite sve sudionike informisane.",
+  weekdays: "Radni dani",
+  weekends: "Vikend",
+  checkin: "Izvještaj",
+  checkinFirstMessage:
+    "Moram vam postaviti neka pitanja o vašem dnevnom izvještaju.",
+  teamCheckinCurrentCards: "Ovo su vaše trenutne kartice:",
+  teamCheckinProposedReport: "Ovo je moj predloženi izvještaj o vašem radu:",
+  teamCheckinFinalReport: "Ovo je vaš konačni izvještaj za danas:",
+  question: "Pitanje",
+  submit: "Pošalji",
 };
 
 export default bs;

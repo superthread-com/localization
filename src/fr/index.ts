@@ -2498,6 +2498,16 @@ const fr: Translations = {
     "Mettre à niveau votre plan pour utiliser la feuille de route et les projets",
   upgradePlanToUseRoadmapAndProjectsDescription:
     "Les projets sont suivis sur la feuille de route. Les projets vous permettent de collecter toutes les cartes liées à un projet en un seul endroit et de maintenir tout le monde informé.",
+  weekdays: "Jours ouvrés",
+  weekends: "Week-ends",
+  checkin: "Rapport",
+  checkinFirstMessage:
+    "Je dois vous poser quelques questions sur votre rapport d'équipe quotidien.",
+  teamCheckinCurrentCards: "Voici vos cartes actuelles:",
+  teamCheckinProposedReport: "Voici mon rapport proposé sur votre travail:",
+  teamCheckinFinalReport: "Voici votre rapport final pour aujourd'hui:",
+  question: "Question",
+  submit: "Soumettre",
 };
 
 export default fr as Translations;
