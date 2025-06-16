@@ -2387,6 +2387,16 @@ const en = {
     "Upgrade your plan to use the roadmap and projects",
   upgradePlanToUseRoadmapAndProjectsDescription:
     "Projects live in the roadmap. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
+  weekdays: "Weekdays",
+  weekends: "Weekends",
+  checkin: "Check-in",
+  checkinFirstMessage:
+    "I need to ask you some questions about your daily team check-in.",
+  teamCheckinCurrentCards: "Here are your current cards:",
+  teamCheckinProposedReport: "Here’s my proposed report on your work:",
+  teamCheckinFinalReport: "Here’s your final report for today:",
+  question: "Question",
+  submit: "Submit",
 };
 
 export default en as Translations;

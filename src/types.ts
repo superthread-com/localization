@@ -2135,6 +2135,15 @@ export enum TranslationKeys {
   AgendaDelay = "agendaDelay",
   UpgradePlanToUseRoadmapAndProjectsTitle = "upgradePlanToUseRoadmapAndProjectsTitle",
   UpgradePlanToUseRoadmapAndProjectsDescription = "upgradePlanToUseRoadmapAndProjectsDescription",
+  Weekdays = "weekdays",
+  Weekends = "weekends",
+  Checkin = "checkin",
+  CheckinFirstMessage = "checkinFirstMessage",
+  TeamCheckinCurrentCards = "teamCheckinCurrentCards",
+  TeamCheckinProposedReport = "teamCheckinProposedReport",
+  TeamCheckinFinalReport = "teamCheckinFinalReport",
+  Question = "question",
+  Submit = "submit",
 }
 
 export type Translations = Record<TranslationKeys, string>;

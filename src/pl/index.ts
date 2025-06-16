@@ -2428,6 +2428,16 @@ const pl = {
     "Uaktualnij swój plan, aby używać mapy drogowej i projektów",
   upgradePlanToUseRoadmapAndProjectsDescription:
     "Projekty żyją na mapie drogowej. Projekty umożliwiają zbieranie wszystkich kart związanych z projektem w jednym miejscu i utrzymywanie wszystkich osób na bieżąco.",
+  weekdays: "Dni robocze",
+  weekends: "Weekendy",
+  checkin: "Zameldowanie",
+  checkinFirstMessage:
+    "Muszę zadać Ci kilka pytań o Twoje codzienne zameldowanie.",
+  teamCheckinCurrentCards: "Oto Twoje aktualne karty:",
+  teamCheckinProposedReport: "Oto moje zgłoszenie o Twojej pracy:",
+  teamCheckinFinalReport: "Oto Twoje zgłoszenie na dziś:",
+  question: "Pytanie",
+  submit: "Wyślij",
 };
 
 export default pl as Translations;
