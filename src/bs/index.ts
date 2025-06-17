@@ -2438,6 +2438,15 @@ const bs: Translations = {
   teamCheckinFinalReport: "Ovo je vaš konačni izvještaj za danas:",
   question: "Pitanje",
   submit: "Pošalji",
+  previouslyAnswered: "Prethodno odgovoreno:",
+  allQuestionsAnswered: "Sva pitanja su odgovorena.",
+  noReportTitle: "Nema predloženog izvještaja",
+  noReportDescription:
+    "Predloženi izvještaj za vaš timski izvještaj još nije dostupan. Biti ćete obaviješteni kada bude spreman za vaš input.",
+  defaultCheckinQuestion:
+    "Želite li pojasniti nešto u predloženom izvještaju? Ili želite li dodati nešto u njega?",
+  whatChanged: "Šta se promijenilo?",
+  clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
 };
 
 export default bs;

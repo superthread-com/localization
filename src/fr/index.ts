@@ -2508,6 +2508,15 @@ const fr: Translations = {
   teamCheckinFinalReport: "Voici votre rapport final pour aujourd'hui:",
   question: "Question",
   submit: "Soumettre",
+  previouslyAnswered: "Déjà répondu :",
+  allQuestionsAnswered: "Toutes les questions ont été répondues.",
+  noReportTitle: "Aucun rapport disponible",
+  noReportDescription:
+    "Le rapport suggéré pour votre point d'équipe n'est pas encore disponible. Vous serez informé dès qu'il sera prêt à être complété.",
+  defaultCheckinQuestion:
+    "Souhaitez-vous clarifier ou ajouter quelque chose dans le rapport proposé ?",
+  whatChanged: "Qu'est-ce qui a changé ?",
+  clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
 };
 
 export default fr as Translations;

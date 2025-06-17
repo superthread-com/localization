@@ -2144,6 +2144,13 @@ export enum TranslationKeys {
   TeamCheckinFinalReport = "teamCheckinFinalReport",
   Question = "question",
   Submit = "submit",
+  PreviouslyAnswered = "previouslyAnswered",
+  AllQuestionsAnswered = "allQuestionsAnswered",
+  NoReportTitle = "noReportTitle",
+  NoReportDescription = "noReportDescription",
+  DefaultCheckinQuestion = "defaultCheckinQuestion",
+  WhatChanged = "whatChanged",
+  ClarificationQuestionReject = "clarificationQuestionReject",
 }
 
 export type Translations = Record<TranslationKeys, string>;

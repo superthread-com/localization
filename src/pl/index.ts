@@ -2438,6 +2438,15 @@ const pl = {
   teamCheckinFinalReport: "Oto Twoje zgłoszenie na dziś:",
   question: "Pytanie",
   submit: "Wyślij",
+  previouslyAnswered: "Wcześniej udzielono odpowiedzi:",
+  allQuestionsAnswered: "Odpowiedziano na wszystkie pytania.",
+  noReportTitle: "Brak dostępnego raportu",
+  noReportDescription:
+    "Proponowany raport dotyczący spotkania zespołowego nie jest jeszcze dostępny. Otrzymasz powiadomienie, gdy będzie gotowy do twojej edycji.",
+  defaultCheckinQuestion:
+    "Czy chcesz coś wyjaśnić lub dodać w proponowanym raporcie?",
+  whatChanged: "Co się zmieniło?",
+  clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
 };
 
 export default pl as Translations;
