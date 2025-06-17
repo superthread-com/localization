@@ -2510,6 +2510,15 @@ const de = {
   teamCheckinFinalReport: "Hier ist Ihr endgültiger Bericht für heute:",
   question: "Frage",
   submit: "Absenden",
+  previouslyAnswered: "Bereits beantwortet:",
+  allQuestionsAnswered: "Alle Fragen wurden beantwortet.",
+  noReportTitle: "Kein Bericht verfügbar",
+  noReportDescription:
+    "Der vorgeschlagene Bericht für dein Team-Check-in ist noch nicht verfügbar. Du wirst benachrichtigt, sobald er für deine Eingabe bereitsteht.",
+  defaultCheckinQuestion:
+    "Möchtest du etwas im vorgeschlagenen Bericht klären oder hinzufügen?",
+  whatChanged: "Was hat sich verändert?",
+  clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
 };
 
 export default de as Translations;

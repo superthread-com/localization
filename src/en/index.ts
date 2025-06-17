@@ -2397,6 +2397,15 @@ const en = {
   teamCheckinFinalReport: "Here’s your final report for today:",
   question: "Question",
   submit: "Submit",
+  previouslyAnswered: "Previously answered:",
+  allQuestionsAnswered: "All questions have been answered.",
+  noReportTitle: "No suggested report available",
+  noReportDescription:
+    "The suggested report for your team check-in is not available yet. You’ll be notified once it’s ready for your input.",
+  defaultCheckinQuestion:
+    "Do you want to clarify anything in the proposed report? Or do you want to add anything to it?",
+  whatChanged: "What changed?",
+  clarificationQuestionReject: "No, I don't have anything to add",
 };
 
 export default en as Translations;
