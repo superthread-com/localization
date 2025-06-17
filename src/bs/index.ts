@@ -1953,6 +1953,8 @@ const bs: Translations = {
   slackPrivateMessage: "privatna poruka",
   slackPrivateGroup: "privatni razgovor",
   slackPrivateChannel: "privatni kanal",
+  webhookNotificationCardCreatedOnBoard: "Kartica je kreirana na ovoj tabli",
+  webhookNotificationCardMovedToBoard: "Kartica je premještena na ovu tablu",
   webhookNotificationCardAddedBoard: "Kartica dodana/premještena na ploču",
   webhookNotificationCardAddedList: "Kartica dodana/premještena u status",
   webhookNotificationCardCommented:

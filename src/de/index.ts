@@ -2010,6 +2010,8 @@ const de = {
   slackPrivateMessage: "eine private Nachricht",
   slackPrivateGroup: "ein privates Gespräch",
   slackPrivateChannel: "ein privater Kanal",
+  webhookNotificationCardCreatedOnBoard: "Karte auf diesem Board erstellt",
+  webhookNotificationCardMovedToBoard: "Karte auf dieses Board verschoben",
   webhookNotificationCardAddedBoard: "Karte zur Tafel hinzugefügt/verschoben",
   webhookNotificationCardAddedList: "Karte zum Status hinzugefügt/verschoben",
   webhookNotificationCardCommented:

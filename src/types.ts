@@ -1730,6 +1730,8 @@ export enum TranslationKeys {
   SlackPrivateMessage = "slackPrivateMessage",
   SlackPrivateGroup = "slackPrivateGroup",
   SlackPrivateChannel = "slackPrivateChannel",
+  WebhookNotificationCardCreatedOnBoard = "webhookNotificationCardCreatedOnBoard",
+  WebhookNotificationCardMovedToBoard = "webhookNotificationCardMovedToBoard",
   WebhookNotificationCardAddedBoard = "webhookNotificationCardAddedBoard",
   WebhookNotificationCardAddedList = "webhookNotificationCardAddedList",
   WebhookNotificationCardCommented = "webhookNotificationCardCommented",
