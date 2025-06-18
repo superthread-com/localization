@@ -1915,6 +1915,8 @@ const en = {
   slackPrivateMessage: "a private message",
   slackPrivateGroup: "a private conversation",
   slackPrivateChannel: "a private channel",
+  webhookNotificationCardCreatedOnBoard: "Card created on this board",
+  webhookNotificationCardMovedToBoard: "Card moved to this board",
   webhookNotificationCardAddedBoard: "Card added/moved to board",
   webhookNotificationCardAddedList: "Card added/moved to status",
   webhookNotificationCardCommented:

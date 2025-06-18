@@ -1953,6 +1953,8 @@ const pl = {
   slackPrivateMessage: "wiadomość prywatna",
   slackPrivateGroup: "prywatna rozmowa",
   slackPrivateChannel: "prywatny kanał",
+  webhookNotificationCardCreatedOnBoard: "Karta utworzona na tej tablicy",
+  webhookNotificationCardMovedToBoard: "Karta przeniesiona na tę tablicę",
   webhookNotificationCardAddedBoard: "Karta dodana/przeniesiona na tablicę",
   webhookNotificationCardAddedList: "Karta dodana/przeniesiona do statusu",
   webhookNotificationCardCommented:

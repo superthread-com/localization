@@ -2003,6 +2003,8 @@ const fr: Translations = {
   slackPrivateMessage: "un message privé",
   slackPrivateGroup: "une conversation privée",
   slackPrivateChannel: "un canal privé",
+  webhookNotificationCardCreatedOnBoard: "Carte créée sur ce tableau",
+  webhookNotificationCardMovedToBoard: "Carte déplacée vers ce tableau",
   webhookNotificationCardAddedBoard: "Carte ajoutée/déplacée au tableau",
   webhookNotificationCardAddedList: "Carte ajoutée/déplacée au statut",
   webhookNotificationCardCommented:
