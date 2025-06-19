@@ -2503,7 +2503,7 @@ const fr: Translations = {
   weekdays: "Jours ouvrés",
   weekends: "Week-ends",
   checkin: "Rapport",
-  checkinFirstMessage:
+  suggestedCheckinFirstMessage:
     "Je dois vous poser quelques questions sur votre rapport d'équipe quotidien.",
   teamCheckinCurrentCards: "Voici vos cartes actuelles:",
   teamCheckinProposedReport: "Voici mon rapport proposé sur votre travail:",
@@ -2519,6 +2519,15 @@ const fr: Translations = {
     "Souhaitez-vous clarifier ou ajouter quelque chose dans le rapport proposé ?",
   whatChanged: "Qu'est-ce qui a changé ?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
+  reportFromPastTitle: "Ceci est une notification pour un rapport précédent",
+  reportFromPastDescription:
+    "Consultez les notifications pour voir s’il y a un nouveau rapport",
+  userSuggestedReportNotificationSidebar:
+    "Veuillez répondre à ces questions de check-in",
+  userFinalReportNotificationSidebar:
+    "Votre rapport final de check-in est prêt",
+  finalCheckinFirstMessage:
+    "Votre rapport final de check-in a été généré à partir de votre rapport suggéré et des réponses que vous avez fournies.",
 };
 
 export default fr as Translations;

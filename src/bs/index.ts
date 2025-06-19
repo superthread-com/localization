@@ -2433,7 +2433,7 @@ const bs: Translations = {
   weekdays: "Radni dani",
   weekends: "Vikend",
   checkin: "Izvještaj",
-  checkinFirstMessage:
+  suggestedCheckinFirstMessage:
     "Moram vam postaviti neka pitanja o vašem dnevnom izvještaju.",
   teamCheckinCurrentCards: "Ovo su vaše trenutne kartice:",
   teamCheckinProposedReport: "Ovo je moj predloženi izvještaj o vašem radu:",
@@ -2449,6 +2449,14 @@ const bs: Translations = {
     "Želite li pojasniti nešto u predloženom izvještaju? Ili želite li dodati nešto u njega?",
   whatChanged: "Šta se promijenilo?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
+  reportFromPastTitle: "Ovo je obavijest za izvještaj iz prošlosti",
+  reportFromPastDescription:
+    "Pogledajte obavijesti da biste pronašli novu obavijest o izvještaju",
+  userSuggestedReportNotificationSidebar:
+    "Molimo Vas da odgovorite na pitanja za izvještaj",
+  userFinalReportNotificationSidebar: "Vaš konačni izvještaj je spreman",
+  finalCheckinFirstMessage:
+    "Vaš konačni izvještaj je generisan na osnovu vašeg predloženog izvještaja i pitanja koja ste odgovorili.",
 };
 
 export default bs;

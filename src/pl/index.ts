@@ -2433,7 +2433,7 @@ const pl = {
   weekdays: "Dni robocze",
   weekends: "Weekendy",
   checkin: "Zameldowanie",
-  checkinFirstMessage:
+  suggestedCheckinFirstMessage:
     "Muszę zadać Ci kilka pytań o Twoje codzienne zameldowanie.",
   teamCheckinCurrentCards: "Oto Twoje aktualne karty:",
   teamCheckinProposedReport: "Oto moje zgłoszenie o Twojej pracy:",
@@ -2449,6 +2449,15 @@ const pl = {
     "Czy chcesz coś wyjaśnić lub dodać w proponowanym raporcie?",
   whatChanged: "Co się zmieniło?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
+  reportFromPastTitle: "To jest powiadomienie o raporcie z przeszłości",
+  reportFromPastDescription:
+    "Sprawdź powiadomienia, aby zobaczyć, czy pojawił się nowy raport",
+  userSuggestedReportNotificationSidebar:
+    "Proszę odpowiedzieć na te pytania kontrolne",
+  userFinalReportNotificationSidebar:
+    "Twój końcowy raport kontrolny jest gotowy",
+  finalCheckinFirstMessage:
+    "Twój końcowy raport kontrolny został wygenerowany na podstawie zaproponowanego raportu i odpowiedzi na pytania.",
 };
 
 export default pl as Translations;

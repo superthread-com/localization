@@ -2140,7 +2140,7 @@ export enum TranslationKeys {
   Weekdays = "weekdays",
   Weekends = "weekends",
   Checkin = "checkin",
-  CheckinFirstMessage = "checkinFirstMessage",
+  SuggestedCheckinFirstMessage = "suggestedCheckinFirstMessage",
   TeamCheckinCurrentCards = "teamCheckinCurrentCards",
   TeamCheckinProposedReport = "teamCheckinProposedReport",
   TeamCheckinFinalReport = "teamCheckinFinalReport",
@@ -2153,6 +2153,11 @@ export enum TranslationKeys {
   DefaultCheckinQuestion = "defaultCheckinQuestion",
   WhatChanged = "whatChanged",
   ClarificationQuestionReject = "clarificationQuestionReject",
+  ReportFromPastTitle = "reportFromPastTitle",
+  ReportFromPastDescription = "reportFromPastDescription",
+  UserSuggestedReportNotificationSidebar = "userSuggestedReportNotificationSidebar",
+  UserFinalReportNotificationSidebar = "userFinalReportNotificationSidebar",
+  FinalCheckinFirstMessage = "finalCheckinFirstMessage",
 }
 
 export type Translations = Record<TranslationKeys, string>;
