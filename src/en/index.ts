@@ -2392,7 +2392,7 @@ const en = {
   weekdays: "Weekdays",
   weekends: "Weekends",
   checkin: "Check-in",
-  checkinFirstMessage:
+  suggestedCheckinFirstMessage:
     "I need to ask you some questions about your daily team check-in.",
   teamCheckinCurrentCards: "Here are your current cards:",
   teamCheckinProposedReport: "Here’s my proposed report on your work:",
@@ -2408,6 +2408,15 @@ const en = {
     "Do you want to clarify anything in the proposed report? Or do you want to add anything to it?",
   whatChanged: "What changed?",
   clarificationQuestionReject: "No, I don't have anything to add",
+  reportFromPastTitle:
+    "This is a notification for the user report from the past",
+  reportFromPastDescription:
+    "Take a look at the notificaitons to find if there is new report notificatoin",
+  userSuggestedReportNotificationSidebar:
+    "Please answer these check-in questions",
+  userFinalReportNotificationSidebar: "Your final check-in report is ready",
+  finalCheckinFirstMessage:
+    "Your final check-in report has been generated, based on your suggested report and questions that you answered.",
 };
 
 export default en as Translations;
