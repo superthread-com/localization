@@ -2437,6 +2437,8 @@ const en = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Customer support",
   ["onboarding.other"]: "Other",
+  browseArchivedCards: "Browse archived cards",
+  cardIsArchived: "Card is archived",
 };
 
 export default en as Translations;

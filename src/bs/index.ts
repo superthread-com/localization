@@ -2476,6 +2476,8 @@ const bs: Translations = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Korisnička podrška",
   ["onboarding.other"]: "Ostalo",
+  browseArchivedCards: "Pregledaj arhivirane kartice",
+  cardIsArchived: "Kartica je arhivirana",
 };
 
 export default bs;

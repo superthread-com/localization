@@ -2477,6 +2477,8 @@ const pl = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Wsparcie klienta",
   ["onboarding.other"]: "Inne",
+  browseArchivedCards: "Przeglądaj zarchiwizowane karty",
+  cardIsArchived: "Karta jest archiwizowana",
 };
 
 export default pl as Translations;
