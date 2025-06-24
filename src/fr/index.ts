@@ -2528,6 +2528,26 @@ const fr: Translations = {
     "Votre rapport final de check-in est prêt",
   finalCheckinFirstMessage:
     "Votre rapport final de check-in a été généré à partir de votre rapport suggéré et des réponses que vous avez fournies.",
+  getStartedWithSuperthread: "Commencer avec Superthread",
+  whatDoYouIntendToUseSuperthreadFor: "Pour quoi utilisez-vous Superthread ?",
+  thisWillHelpUsTailorYourExperience:
+    "Cela nous aidera à adapter votre expérience à vos besoins.",
+  chooseAUseCase: "Choisir un cas d'utilisation",
+  whereDidYouHearAboutSuperthread:
+    "Où avez-vous entendu parler de Superthread ?",
+  yourFeedbackHelpsUsImproveHowWeReach:
+    "Votre retour nous aide à améliorer la façon dont nous atteignons des gens comme vous.",
+  twitter: "X (Twitter)",
+  reddit: "Reddit",
+  linkedin: "LinkedIn",
+  substack: "Substack",
+  ads: "Réclame",
+  other: "Autre",
+  ["onboarding.software_development"]: "Développement logiciel",
+  ["onboarding.recruitment"]: "Recrutement",
+  ["onboarding.marketing"]: "Marketing",
+  ["onboarding.customer_support"]: "Support client",
+  ["onboarding.other"]: "Autre",
 };
 
 export default fr as Translations;

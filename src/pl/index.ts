@@ -2458,6 +2458,25 @@ const pl = {
     "Twój końcowy raport kontrolny jest gotowy",
   finalCheckinFirstMessage:
     "Twój końcowy raport kontrolny został wygenerowany na podstawie zaproponowanego raportu i odpowiedzi na pytania.",
+  getStartedWithSuperthread: "Rozpocznij pracę z Superthread",
+  whatDoYouIntendToUseSuperthreadFor: "Do czego chcesz użyć Superthread?",
+  thisWillHelpUsTailorYourExperience:
+    "To pomoże nam dostosować Twoje doświadczenie do Twoich potrzeb.",
+  chooseAUseCase: "Wybierz przypadek użycia",
+  whereDidYouHearAboutSuperthread: "Skąd dowiedziałeś się o Superthread?",
+  yourFeedbackHelpsUsImproveHowWeReach:
+    "Twoja opinia pomoże nam poprawić sposób, w jaki dotrzymujemy ludziom, takich jak Ty.",
+  twitter: "X (Twitter)",
+  reddit: "Reddit",
+  linkedin: "LinkedIn",
+  substack: "Substack",
+  ads: "Reklama",
+  other: "Inne",
+  ["onboarding.software_development"]: "Programowanie",
+  ["onboarding.recruitment"]: "Rekrutacja",
+  ["onboarding.marketing"]: "Marketing",
+  ["onboarding.customer_support"]: "Wsparcie klienta",
+  ["onboarding.other"]: "Inne",
 };
 
 export default pl as Translations;

@@ -2158,6 +2158,23 @@ export enum TranslationKeys {
   UserSuggestedReportNotificationSidebar = "userSuggestedReportNotificationSidebar",
   UserFinalReportNotificationSidebar = "userFinalReportNotificationSidebar",
   FinalCheckinFirstMessage = "finalCheckinFirstMessage",
+  GetStartedWithSuperthread = "getStartedWithSuperthread",
+  WhatDoYouIntendToUseSuperthreadFor = "whatDoYouIntendToUseSuperthreadFor",
+  ThisWillHelpUsTailorYourExperience = "thisWillHelpUsTailorYourExperience",
+  ChooseAUseCase = "chooseAUseCase",
+  WhereDidYouHearAboutSuperthread = "whereDidYouHearAboutSuperthread",
+  YourFeedbackHelpsUsImproveHowWeReach = "yourFeedbackHelpsUsImproveHowWeReach",
+  Twitter = "twitter",
+  Reddit = "reddit",
+  Linkedin = "linkedin",
+  Substack = "substack",
+  Ads = "ads",
+  Other = "other",
+  OnboardingSoftwareDevelopment = "onboarding.software_development",
+  OnboardingRecruitment = "onboarding.recruitment",
+  OnboardingMarketing = "onboarding.marketing",
+  OnboardingCustomerSupport = "onboarding.customer_support",
+  OnboardingOther = "onboarding.other",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2531,6 +2531,26 @@ const de = {
     "Ihr abschließender Check-in-Bericht ist bereit",
   finalCheckinFirstMessage:
     "Ihr abschließender Check-in-Bericht wurde basierend auf Ihrem vorgeschlagenen Bericht und den beantworteten Fragen erstellt.",
+  getStartedWithSuperthread: "Erste Schritte mit Superthread",
+  whatDoYouIntendToUseSuperthreadFor:
+    "Mit welchem Zweck möchten Sie Superthread verwenden?",
+  thisWillHelpUsTailorYourExperience:
+    "Dies wird uns helfen, Ihr Erlebnis an Ihre Bedürfnisse anzupassen.",
+  chooseAUseCase: "Wählen Sie eine Verwendung",
+  whereDidYouHearAboutSuperthread: "Wo haben Sie von Superthread gehört?",
+  yourFeedbackHelpsUsImproveHowWeReach:
+    "Ihre Rückmeldung hilft uns, Menschen wie Sie zu erreichen.",
+  twitter: "X (Twitter)",
+  reddit: "Reddit",
+  linkedin: "LinkedIn",
+  substack: "Substack",
+  ads: "Reklame",
+  other: "Andere",
+  ["onboarding.software_development"]: "Softwareentwicklung",
+  ["onboarding.recruitment"]: "Rekrutierung",
+  ["onboarding.marketing"]: "Marketing",
+  ["onboarding.customer_support"]: "Kundenunterstützung",
+  ["onboarding.other"]: "Andere",
 };
 
 export default de as Translations;

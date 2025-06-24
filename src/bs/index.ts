@@ -2457,6 +2457,25 @@ const bs: Translations = {
   userFinalReportNotificationSidebar: "Vaš konačni izvještaj je spreman",
   finalCheckinFirstMessage:
     "Vaš konačni izvještaj je generisan na osnovu vašeg predloženog izvještaja i pitanja koja ste odgovorili.",
+  getStartedWithSuperthread: "Započnite s Superthread-om",
+  whatDoYouIntendToUseSuperthreadFor: "Za šta želite da koristite Superthread?",
+  thisWillHelpUsTailorYourExperience:
+    "Ovo će nam pomoći da vaše iskustvo prilagodimo vašim potrebama.",
+  chooseAUseCase: "Odaberite upotrebu",
+  whereDidYouHearAboutSuperthread: "Gdje ste čuli za Superthread?",
+  yourFeedbackHelpsUsImproveHowWeReach:
+    "Vaše povratne informacije nam pomažu da unaprijedimo način na koji dolazimo do ljudi poput vas.",
+  twitter: "X (Twitter)",
+  reddit: "Reddit",
+  linkedin: "LinkedIn",
+  substack: "Substack",
+  ads: "Reklame",
+  other: "Ostalo",
+  ["onboarding.software_development"]: "Softverski razvoj",
+  ["onboarding.recruitment"]: "Regrutiranje",
+  ["onboarding.marketing"]: "Marketing",
+  ["onboarding.customer_support"]: "Korisnička podrška",
+  ["onboarding.other"]: "Ostalo",
 };
 
 export default bs;
