@@ -2551,6 +2551,8 @@ const de = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Kundenunterstützung",
   ["onboarding.other"]: "Andere",
+  browseArchivedCards: "Archivierte Karten durchsuchen",
+  cardIsArchived: "Karte ist archiviert",
 };
 
 export default de as Translations;

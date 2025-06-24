@@ -2175,6 +2175,8 @@ export enum TranslationKeys {
   OnboardingMarketing = "onboarding.marketing",
   OnboardingCustomerSupport = "onboarding.customer_support",
   OnboardingOther = "onboarding.other",
+  BrowseArchivedCards = "browseArchivedCards",
+  CardIsArchived = "cardIsArchived",
 }
 
 export type Translations = Record<TranslationKeys, string>;

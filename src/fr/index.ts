@@ -2548,6 +2548,8 @@ const fr: Translations = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Support client",
   ["onboarding.other"]: "Autre",
+  browseArchivedCards: "Parcourir les cartes archivées",
+  cardIsArchived: "La carte est archivée",
 };
 
 export default fr as Translations;
