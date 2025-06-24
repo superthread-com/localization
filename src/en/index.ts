@@ -2417,6 +2417,26 @@ const en = {
   userFinalReportNotificationSidebar: "Your final check-in report is ready",
   finalCheckinFirstMessage:
     "Your final check-in report has been generated, based on your suggested report and questions that you answered.",
+  getStartedWithSuperthread: "Get started with Superthread",
+  whatDoYouIntendToUseSuperthreadFor:
+    "What do you intend to use Superthread for?",
+  thisWillHelpUsTailorYourExperience:
+    "This will help us tailor your experience to fit your needs.",
+  chooseAUseCase: "Choose a use-case",
+  whereDidYouHearAboutSuperthread: "Where did you hear about Superthread?",
+  yourFeedbackHelpsUsImproveHowWeReach:
+    "Your feedback helps us improve how we reach people like you.",
+  twitter: "X (Twitter)",
+  reddit: "Reddit",
+  linkedin: "LinkedIn",
+  substack: "Substack",
+  ads: "Ads",
+  other: "Other",
+  ["onboarding.software_development"]: "Software development",
+  ["onboarding.recruitment"]: "Recruitment",
+  ["onboarding.marketing"]: "Marketing",
+  ["onboarding.customer_support"]: "Customer support",
+  ["onboarding.other"]: "Other",
 };
 
 export default en as Translations;
