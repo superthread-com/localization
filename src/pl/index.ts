@@ -2479,6 +2479,8 @@ const pl = {
   ["onboarding.other"]: "Inne",
   browseArchivedCards: "Przeglądaj zarchiwizowane karty",
   cardIsArchived: "Karta jest archiwizowana",
+  yourSessionHasTimedOut: "Twoja sesja wygasła",
+  reloadPage: "Odśwież stronę",
 };
 
 export default pl as Translations;

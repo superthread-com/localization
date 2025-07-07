@@ -2439,6 +2439,8 @@ const en = {
   ["onboarding.other"]: "Other",
   browseArchivedCards: "Browse archived cards",
   cardIsArchived: "Card is archived",
+  yourSessionHasTimedOut: "Your session has timed out",
+  reloadPage: "Reload page",
 };
 
 export default en as Translations;
