@@ -2177,6 +2177,8 @@ export enum TranslationKeys {
   OnboardingOther = "onboarding.other",
   BrowseArchivedCards = "browseArchivedCards",
   CardIsArchived = "cardIsArchived",
+  YourSessionHasTimedOut = "yourSessionHasTimedOut",
+  ReloadPage = "reloadPage",
 }
 
 export type Translations = Record<TranslationKeys, string>;
