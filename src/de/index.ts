@@ -2553,7 +2553,7 @@ const de = {
   ["onboarding.other"]: "Andere",
   browseArchivedCards: "Archivierte Karten durchsuchen",
   cardIsArchived: "Karte ist archiviert",
-  yourSessionHasTimedOut: "Ihre Sitzung ist abgelaufen",
+  yourSessionHasTimedOut: "Ihre Sitzung ist abgelaufen.",
   reloadPage: "Seite neu laden",
 };
 

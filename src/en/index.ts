@@ -2439,7 +2439,7 @@ const en = {
   ["onboarding.other"]: "Other",
   browseArchivedCards: "Browse archived cards",
   cardIsArchived: "Card is archived",
-  yourSessionHasTimedOut: "Your session has timed out",
+  yourSessionHasTimedOut: "Your session has timed out.",
   reloadPage: "Reload page",
 };
 

@@ -2478,7 +2478,7 @@ const bs: Translations = {
   ["onboarding.other"]: "Ostalo",
   browseArchivedCards: "Pregledaj arhivirane kartice",
   cardIsArchived: "Kartica je arhivirana",
-  yourSessionHasTimedOut: "Vaša sesija je istekla",
+  yourSessionHasTimedOut: "Vaša sesija je istekla.",
   reloadPage: "Ponovno učitaj stranicu",
 };
 

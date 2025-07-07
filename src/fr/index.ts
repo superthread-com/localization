@@ -2550,7 +2550,7 @@ const fr: Translations = {
   ["onboarding.other"]: "Autre",
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",
-  yourSessionHasTimedOut: "Votre session a expiré",
+  yourSessionHasTimedOut: "Votre session a expiré.",
   reloadPage: "Recharger la page",
 };
 
