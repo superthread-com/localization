@@ -942,6 +942,8 @@ const bs: Translations = {
   upgradeUserRolesTitle: "Nadogradi za postavljanje korisničkih uloga",
   upgradeUserRolesDescription: "Možete birati ne-admin role na plaćenom planu.",
   upgradedWorkspace: "Vaš workspace je nadograđen",
+  workspaceSubscriptionChanged:
+    "Pretplata vašeg radnog prostora je promijenjena!",
   electronDownloadApp: "Preuzmi aplikaciju",
   electronDownloadAppDescription:
     "Trenutno samo podržavamo macOS. Obavijestite nas da li postoji potražnja i za Windowsom.",

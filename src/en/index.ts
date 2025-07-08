@@ -1830,6 +1830,8 @@ const en = {
   upgradeUserRolesDescription:
     "You can choose non-admin user roles on a paid plan.",
   upgradedWorkspace: "Your workspace has been upgraded!",
+  workspaceSubscriptionChanged:
+    "Your workspace's subscription has been changed!",
   sprintSettings: "Sprint settings",
   electronDownloadApp: "Download the app",
   electronDownloadAppDescription:
@@ -2161,9 +2163,9 @@ const en = {
     "After you’ve done that, please quit and re-open this app, then return here.",
   systemAccessNotAllowedTitle: "Manually allow system audio access",
   systemAccessNotAllowedDesc1:
-    "Microphone access was previously not allowed, so you will need to allow it manually.",
+    "System audio access was previously not allowed, so you will need to allow it manually.",
   systemAccessNotAllowedDesc2:
-    "In macOS, go to System Settings > Privacy & Security > Microphone and allow the “Superthread” app.",
+    "In macOS, go to System Settings > Privacy & Security > Screen & System Audio Recording > System Audio Recording Only and allow the “Superthread” app.",
   systemAccessNotAllowedDesc3:
     "After you’ve done that, please quit and re-open this app, then return here.",
   editNoteTemplate: "Edit note template",

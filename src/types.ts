@@ -1662,6 +1662,7 @@ export enum TranslationKeys {
   UpgradeUserRolesTitle = "upgradeUserRolesTitle",
   UpgradeUserRolesDescription = "upgradeUserRolesDescription",
   UpgradedWorkspace = "upgradedWorkspace",
+  workspaceSubscriptionChanged = "workspaceSubscriptionChanged",
   SprintSettings = "sprintSettings",
   ElectronDownloadApp = "electronDownloadApp",
   ElectronDownloadAppDescription = "electronDownloadAppDescription",
