@@ -2558,6 +2558,7 @@ const de = {
   yourSessionHasTimedOut: "Ihre Sitzung ist abgelaufen.",
   reloadPage: "Seite neu laden",
   moreActions: "Mehr Aktionen",
+  copyCardTitles: "Kartentitel kopieren",
 };
 
 export default de as Translations;

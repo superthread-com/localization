@@ -2444,6 +2444,7 @@ const en = {
   yourSessionHasTimedOut: "Your session has timed out.",
   reloadPage: "Reload page",
   moreActions: "More actions",
+  copyCardTitles: "Copy card titles",
 };
 
 export default en as Translations;

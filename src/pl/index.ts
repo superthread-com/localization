@@ -2484,6 +2484,7 @@ const pl = {
   yourSessionHasTimedOut: "Twoja sesja wygasła.",
   reloadPage: "Odśwież stronę",
   moreActions: "Więcej akcji",
+  copyCardTitles: "Kopiuj tytuły kart",
 };
 
 export default pl as Translations;

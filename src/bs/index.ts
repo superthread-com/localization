@@ -2483,6 +2483,7 @@ const bs: Translations = {
   yourSessionHasTimedOut: "Vaša sesija je istekla.",
   reloadPage: "Ponovno učitaj stranicu",
   moreActions: "Više akcija",
+  copyCardTitles: "Kopiraj naslove kartica",
 };
 
 export default bs;

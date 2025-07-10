@@ -2555,6 +2555,7 @@ const fr: Translations = {
   yourSessionHasTimedOut: "Votre session a expiré.",
   reloadPage: "Recharger la page",
   moreActions: "Plus d'actions",
+  copyCardTitles: "Copier les titres des cartes",
 };
 
 export default fr as Translations;

@@ -2181,6 +2181,7 @@ export enum TranslationKeys {
   YourSessionHasTimedOut = "yourSessionHasTimedOut",
   ReloadPage = "reloadPage",
   MoreActions = "moreActions",
+  CopyCardTitles = "copyCardTitles",
 }
 
 export type Translations = Record<TranslationKeys, string>;
