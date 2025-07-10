@@ -2482,6 +2482,7 @@ const bs: Translations = {
   cardIsArchived: "Kartica je arhivirana",
   yourSessionHasTimedOut: "Vaša sesija je istekla.",
   reloadPage: "Ponovno učitaj stranicu",
+  moreActions: "Više akcija",
 };
 
 export default bs;

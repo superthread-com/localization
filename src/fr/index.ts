@@ -2554,6 +2554,7 @@ const fr: Translations = {
   cardIsArchived: "La carte est archivée",
   yourSessionHasTimedOut: "Votre session a expiré.",
   reloadPage: "Recharger la page",
+  moreActions: "Plus d'actions",
 };
 
 export default fr as Translations;

@@ -2443,6 +2443,7 @@ const en = {
   cardIsArchived: "Card is archived",
   yourSessionHasTimedOut: "Your session has timed out.",
   reloadPage: "Reload page",
+  moreActions: "More actions",
 };
 
 export default en as Translations;
