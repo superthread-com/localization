@@ -2483,6 +2483,7 @@ const pl = {
   cardIsArchived: "Karta jest archiwizowana",
   yourSessionHasTimedOut: "Twoja sesja wygasła.",
   reloadPage: "Odśwież stronę",
+  moreActions: "Więcej akcji",
 };
 
 export default pl as Translations;

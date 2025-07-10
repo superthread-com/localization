@@ -1662,7 +1662,7 @@ export enum TranslationKeys {
   UpgradeUserRolesTitle = "upgradeUserRolesTitle",
   UpgradeUserRolesDescription = "upgradeUserRolesDescription",
   UpgradedWorkspace = "upgradedWorkspace",
-  workspaceSubscriptionChanged = "workspaceSubscriptionChanged",
+  WorkspaceSubscriptionChanged = "workspaceSubscriptionChanged",
   SprintSettings = "sprintSettings",
   ElectronDownloadApp = "electronDownloadApp",
   ElectronDownloadAppDescription = "electronDownloadAppDescription",
@@ -2180,6 +2180,7 @@ export enum TranslationKeys {
   CardIsArchived = "cardIsArchived",
   YourSessionHasTimedOut = "yourSessionHasTimedOut",
   ReloadPage = "reloadPage",
+  MoreActions = "moreActions",
 }
 
 export type Translations = Record<TranslationKeys, string>;
