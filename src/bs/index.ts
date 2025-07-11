@@ -2496,6 +2496,40 @@ const bs: Translations = {
   changingDates: "Mijenjanje datuma",
   changingStatus: "Mijenjanje statusa",
   processed: "Obrađeno",
+  createPAT: "Kreiraj PAT",
+  createPATLong: "Kreiraj personalni pristupni token",
+  patName: "Naziv personalnog pristupnog tokena",
+  patNamePlaceholder: "npr. “Superthread API”",
+  patExpirationTitle: "Vrijeme isteka tokena",
+  patExpirationTimeSubtitle:
+    "Token će automatski isteći nakon odabranog broja dana i više neće biti upotrebljiv.",
+  expirationTimeSelect: "Ovaj token ističe za:",
+  selectExpirationTime: "Odaberi vrijeme isteka",
+  patNoExpirationWarning:
+    "Odabir bez isteka može ostaviti vaš token ranjivim na neograničeno vrijeme ako bude kompromitovan. Tokeni s istekom smanjuju dugoročne sigurnosne rizike.",
+  day: "dan",
+  patDropdownOptionOne: "7 dana",
+  patDropdownOptionTwo: "30 dana",
+  patDropdownOptionThree: "60 dana",
+  patDropdownOptionFour: "90 dana",
+  noExpiration: "Bez isteka",
+  invalidPATExpirationDate: "Datum isteka mora biti u budućnosti",
+  personalAccessTokens: "Personalni pristupni tokeni",
+  personalAccessTokensSubtitle:
+    "Generiši personalni pristupni token za brz pristup Superthread API-ju",
+  searchPATs: "Pretraži tokene",
+  noPATs: "Nema personalnih pristupnih tokena",
+  noPATsSubtitle: "Možete kreirati personalni pristupni token iznad",
+  revokePatConfirmation:
+    "Jeste li sigurni da želite opozvati token “%{patName}”?",
+  lastUsed: "Zadnje korišten",
+  revokePatDescription: "Ova radnja se ne može poništiti.",
+  never: "Nikada",
+  patLimitReachedTooltip: "Dostignut je limit od %{limit} tokena",
+  newPatCreated: "Novi personalni pristupni token je kreiran",
+  newPatCreatedDescription:
+    "Obavezno kopirajte vaš personalni pristupni token sada, jer ga kasnije nećete moći vidjeti!",
+  tokenCopiedToClipboard: "Token je kopiran u međuspremnik",
 };
 
 export default bs;

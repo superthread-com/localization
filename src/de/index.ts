@@ -2573,6 +2573,40 @@ const de = {
   changingDates: "Ändern der Daten",
   changingStatus: "Status ändern",
   processed: "Verarbeitet",
+  createPAT: "PAT erstellen",
+  createPATLong: "Persönlichen Zugriffstoken erstellen",
+  patName: "Name des persönlichen Zugriffstokens",
+  patNamePlaceholder: "z. B. “Superthread API”",
+  patExpirationTitle: "Ablaufzeit des PAT",
+  patExpirationTimeSubtitle:
+    "Der Token läuft nach der gewählten Anzahl an Tagen automatisch ab und ist dann nicht mehr gültig.",
+  expirationTimeSelect: "Dieser Token läuft ab in:",
+  selectExpirationTime: "Ablaufzeit wählen",
+  patNoExpirationWarning:
+    "Ein Token ohne Ablaufdatum bleibt unbegrenzt gültig, was bei Kompromittierung ein Sicherheitsrisiko darstellt. Ein Ablaufdatum reduziert langfristige Risiken.",
+  day: "Tag",
+  patDropdownOptionOne: "7 Tage",
+  patDropdownOptionTwo: "30 Tage",
+  patDropdownOptionThree: "60 Tage",
+  patDropdownOptionFour: "90 Tage",
+  noExpiration: "Kein Ablauf",
+  invalidPATExpirationDate: "Ablaufdatum muss in der Zukunft liegen",
+  personalAccessTokens: "Persönliche Zugriffstokens",
+  personalAccessTokensSubtitle:
+    "Erstellen Sie ein persönliches Zugriffstoken für den schnellen Zugriff auf die Superthread API",
+  searchPATs: "Tokens durchsuchen",
+  noPATs: "Keine persönlichen Zugriffstokens",
+  noPATsSubtitle: "Sie können oben ein persönliches Zugriffstoken erstellen",
+  revokePatConfirmation:
+    "Möchten Sie den Token “%{patName}” wirklich widerrufen?",
+  lastUsed: "Zuletzt verwendet",
+  revokePatDescription: "Diese Aktion kann nicht rückgängig gemacht werden.",
+  never: "Nie",
+  patLimitReachedTooltip: "Limit von %{limit} PATs erreicht",
+  newPatCreated: "Neuer persönlicher Zugriffstoken erstellt",
+  newPatCreatedDescription:
+    "Kopieren Sie den Token jetzt – Sie können ihn später nicht mehr einsehen!",
+  tokenCopiedToClipboard: "Token in die Zwischenablage kopiert",
 };
 
 export default de as Translations;
