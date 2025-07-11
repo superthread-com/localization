@@ -2497,6 +2497,7 @@ const pl = {
   changingDates: "Zmiana dat",
   changingStatus: "Zmiana statusu",
   processed: "Przetworzone",
+  clearSelection: "Wyczyść zaznaczenie",
   createPAT: "Utwórz PAT",
   createPATLong: "Utwórz osobisty token dostępu",
   patName: "Nazwa osobistego tokena dostępu",

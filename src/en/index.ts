@@ -2457,6 +2457,7 @@ const en = {
   changingDates: "Changing dates",
   changingStatus: "Changing status",
   processed: "Processed",
+  clearSelection: "Clear selection",
   createPAT: "Create PAT",
   createPATLong: "Create personal access token",
   patName: "Personal access token name",

@@ -2569,6 +2569,7 @@ const fr: Translations = {
   changingDates: "Modification des dates",
   changingStatus: "Modification du statut",
   processed: "Traité",
+  clearSelection: "Effacer la sélection",
   createPAT: "Créer un PAT",
   createPATLong: "Créer un jeton d’accès personnel",
   patName: "Nom du jeton d’accès personnel",

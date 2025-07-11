@@ -2573,6 +2573,7 @@ const de = {
   changingDates: "Ändern der Daten",
   changingStatus: "Status ändern",
   processed: "Verarbeitet",
+  clearSelection: "Auswahl löschen",
   createPAT: "PAT erstellen",
   createPATLong: "Persönlichen Zugriffstoken erstellen",
   patName: "Name des persönlichen Zugriffstokens",
