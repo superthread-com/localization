@@ -2286,6 +2286,8 @@ const de = {
   currentlyTranscribing: "Wird gerade transkribiert",
   transcribingOnlyAvailableOnMac:
     "Das Transkribieren ist nur in der macOS-App verfügbar",
+  transcribingOnlyAvailableOnNewerMacVersions:
+    "Transkription ist nur auf macOS 14.1 und neueren Versionen verfügbar",
   startTranscription: "Transkription starten",
   stopTranscription: "Transkription stoppen",
   openTranscribingNote: "Notiz zum Transkribieren öffnen",

@@ -2220,6 +2220,8 @@ const bs: Translations = {
   currentlyTranscribing: "Trenutno se prepisuje",
   transcribingOnlyAvailableOnMac:
     "Prepisivanje je dostupno samo u aplikaciji za macOS",
+  transcribingOnlyAvailableOnNewerMacVersions:
+    "Transkripcija je dostupna samo na macOS verziji 14.1 i novijim verzijama",
   startTranscription: "Započni prepisivanje",
   stopTranscription: "Zaustavi prepisivanje",
   openTranscribingNote: "Otvori bilješku za prepisivanje",
