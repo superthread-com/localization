@@ -2193,6 +2193,7 @@ export enum TranslationKeys {
   ChangingDates = "changingDates",
   ChangingStatus = "changingStatus",
   Processed = "processed",
+  ClearSelection = "clearSelection",
 }
 
 export type Translations = Record<TranslationKeys, string>;

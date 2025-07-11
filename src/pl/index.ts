@@ -2497,6 +2497,7 @@ const pl = {
   changingDates: "Zmiana dat",
   changingStatus: "Zmiana statusu",
   processed: "Przetworzone",
+  clearSelection: "Wyczyść zaznaczenie",
 };
 
 export default pl as Translations;

@@ -2457,6 +2457,7 @@ const en = {
   changingDates: "Changing dates",
   changingStatus: "Changing status",
   processed: "Processed",
+  clearSelection: "Clear selection",
 };
 
 export default en as Translations;

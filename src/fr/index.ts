@@ -2569,6 +2569,7 @@ const fr: Translations = {
   changingDates: "Modification des dates",
   changingStatus: "Modification du statut",
   processed: "Traité",
+  clearSelection: "Effacer la sélection",
 };
 
 export default fr as Translations;

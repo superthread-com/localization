@@ -2496,6 +2496,7 @@ const bs: Translations = {
   changingDates: "Mijenjanje datuma",
   changingStatus: "Mijenjanje statusa",
   processed: "Obrađeno",
+  clearSelection: "Očisti odabir",
 };
 
 export default bs;
