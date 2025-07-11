@@ -2495,6 +2495,7 @@ const bs: Translations = {
   changingAssignees: "Mijenjanje članova",
   changingDates: "Mijenjanje datuma",
   changingStatus: "Mijenjanje statusa",
+  processed: "Obrađeno",
 };
 
 export default bs;

@@ -2496,6 +2496,7 @@ const pl = {
   changingAssignees: "Zmiana przypisanych",
   changingDates: "Zmiana dat",
   changingStatus: "Zmiana statusu",
+  processed: "Przetworzone",
 };
 
 export default pl as Translations;
