@@ -2485,6 +2485,16 @@ const bs: Translations = {
   yourSessionHasTimedOut: "Vaša sesija je istekla.",
   reloadPage: "Ponovno učitaj stranicu",
   moreActions: "Više akcija",
+  copyTitles: "Kopiraj naslove",
+  copyTitlesAsLinks: "Kopiraj naslove kao linkove",
+  changingTags: "Mijenjanje oznaka",
+  subscribingToResourceUpdates: "Prijavljivanje na ažuriranja resursa",
+  unsubscribingFromResourceUpdates: "Odjavljivanje sa ažuriranja resursa",
+  removingFromFavourites: "Uklanjanje iz omiljenih",
+  addingToFavourites: "Dodavanje u omiljene",
+  changingAssignees: "Mijenjanje članova",
+  changingDates: "Mijenjanje datuma",
+  changingStatus: "Mijenjanje statusa",
 };
 
 export default bs;

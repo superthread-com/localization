@@ -2182,6 +2182,16 @@ export enum TranslationKeys {
   YourSessionHasTimedOut = "yourSessionHasTimedOut",
   ReloadPage = "reloadPage",
   MoreActions = "moreActions",
+  CopyTitles = "copyTitles",
+  CopyTitlesAsLinks = "copyTitlesAsLinks",
+  ChangingTags = "changingTags",
+  SubscribingToResourceUpdates = "subscribingToResourceUpdates",
+  UnsubscribingFromResourceUpdates = "unsubscribingFromResourceUpdates",
+  RemovingFromFavourites = "removingFromFavourites",
+  AddingToFavourites = "addingToFavourites",
+  ChangingAssignees = "changingAssignees",
+  ChangingDates = "changingDates",
+  ChangingStatus = "changingStatus",
 }
 
 export type Translations = Record<TranslationKeys, string>;

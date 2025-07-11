@@ -2446,6 +2446,16 @@ const en = {
   yourSessionHasTimedOut: "Your session has timed out.",
   reloadPage: "Reload page",
   moreActions: "More actions",
+  copyTitles: "Copy titles",
+  copyTitlesAsLinks: "Copy titles as links",
+  changingTags: "Changing tags",
+  subscribingToResourceUpdates: "Subscribing to resource updates",
+  unsubscribingFromResourceUpdates: "Unsubscribing from resource updates",
+  removingFromFavourites: "Removing from favourites",
+  addingToFavourites: "Adding to favourites",
+  changingAssignees: "Changing assignees",
+  changingDates: "Changing dates",
+  changingStatus: "Changing status",
 };
 
 export default en as Translations;
