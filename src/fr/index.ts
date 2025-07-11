@@ -2570,6 +2570,44 @@ const fr: Translations = {
   changingStatus: "Modification du statut",
   processed: "Traité",
   clearSelection: "Effacer la sélection",
+  createPAT: "Créer un PAT",
+  createPATLong: "Créer un jeton d’accès personnel",
+  patName: "Nom du jeton d’accès personnel",
+  patNamePlaceholder: "ex. “Superthread API”",
+  patExpirationTitle: "Durée de validité du PAT",
+  patExpirationTimeSubtitle:
+    "Le jeton expirera automatiquement après le nombre de jours sélectionné et ne pourra plus être utilisé.",
+  expirationTimeSelect: "Ce jeton expirera dans :",
+  selectExpirationTime: "Sélectionnez une durée de validité",
+  patNoExpirationWarningTitle: "Aucune expiration de jeton",
+  patNoExpirationWarningDescription:
+    "Un jeton sans expiration reste actif indéfiniment, ce qui présente un risque en cas de compromission. Une expiration réduit les risques de sécurité à long terme.",
+  day: "jour",
+  patDropdownOptionOne: "7 jours",
+  patDropdownOptionTwo: "30 jours",
+  patDropdownOptionThree: "60 jours",
+  patDropdownOptionFour: "90 jours",
+  noExpiration: "Pas d’expiration",
+  invalidPATExpirationDate: "La date d’expiration doit être dans le futur",
+  personalAccessTokens: "Jetons d’accès personnels",
+  personalAccessTokensSubtitle:
+    "Générez un jeton d’accès personnel pour un accès rapide à l’API Superthread",
+  searchPATs: "Rechercher des jetons",
+  noPATs: "Aucun jeton d’accès personnel",
+  noPATsSubtitle: "Vous pouvez créer un jeton d’accès personnel ci-dessus",
+  revokePatConfirmation:
+    "Êtes-vous sûr de vouloir révoquer le jeton “%{patName}” ?",
+  lastUsed: "Dernière utilisation",
+  revokePatDescription: "Cette action est irréversible.",
+  never: "Jamais",
+  patLimitReachedTooltip: "Limite de %{limit} PAT atteinte",
+  newPatCreated: "Nouveau jeton d’accès personnel créé",
+  newPatCreatedDescription:
+    "Copiez votre jeton d’accès personnel maintenant, vous ne pourrez plus le voir ensuite !",
+  tokenCopiedToClipboard: "Jeton copié dans le presse-papiers",
+  proceed: "Continuer",
+  copyToken: "Copier le token",
+  timeExpires: "Temps d'expiration",
 };
 
 export default fr as Translations;

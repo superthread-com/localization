@@ -2498,6 +2498,43 @@ const pl = {
   changingStatus: "Zmiana statusu",
   processed: "Przetworzone",
   clearSelection: "Wyczyść zaznaczenie",
+  createPAT: "Utwórz PAT",
+  createPATLong: "Utwórz osobisty token dostępu",
+  patName: "Nazwa osobistego tokena dostępu",
+  patNamePlaceholder: "np. “Superthread API”",
+  patExpirationTitle: "Czas wygaśnięcia tokena",
+  patExpirationTimeSubtitle:
+    "Token automatycznie wygaśnie po wybranej liczbie dni i nie będzie już działać.",
+  expirationTimeSelect: "Ten token wygaśnie za:",
+  selectExpirationTime: "Wybierz czas wygaśnięcia",
+  patNoExpirationWarningTitle: "Brak ostrzeżenia o wygaśnięciu",
+  patNoExpirationWarningDescription:
+    "Token bez daty wygaśnięcia pozostaje aktywny bez końca, co stanowi ryzyko w razie jego przejęcia. Tokeny z datą ważności są bezpieczniejsze na dłuższą metę.",
+  day: "dzień",
+  patDropdownOptionOne: "7 dni",
+  patDropdownOptionTwo: "30 dni",
+  patDropdownOptionThree: "60 dni",
+  patDropdownOptionFour: "90 dni",
+  noExpiration: "Bez daty wygaśnięcia",
+  invalidPATExpirationDate: "Data wygaśnięcia musi być w przyszłości",
+  personalAccessTokens: "Osobiste tokeny dostępu",
+  personalAccessTokensSubtitle:
+    "Wygeneruj osobisty token dostępu, aby szybko korzystać z API Superthread",
+  searchPATs: "Szukaj tokenów",
+  noPATs: "Brak osobistych tokenów dostępu",
+  noPATsSubtitle: "Możesz utworzyć token dostępu powyżej",
+  revokePatConfirmation: "Czy na pewno chcesz unieważnić token “%{patName}”?",
+  lastUsed: "Ostatnio używany",
+  revokePatDescription: "Tej operacji nie można cofnąć.",
+  never: "Nigdy",
+  patLimitReachedTooltip: "Osiągnięto limit %{limit} tokenów",
+  newPatCreated: "Utworzono nowy osobisty token dostępu",
+  newPatCreatedDescription:
+    "Skopiuj swój token teraz — później nie będzie już dostępny!",
+  tokenCopiedToClipboard: "Token skopiowany do schowka",
+  proceed: "Kontynuuj",
+  copyToken: "Kopiuj token",
+  timeExpires: "Czas wygaśnięcia",
 };
 
 export default pl as Translations;
