@@ -2505,7 +2505,8 @@ const bs: Translations = {
     "Token će automatski isteći nakon odabranog broja dana i više neće biti upotrebljiv.",
   expirationTimeSelect: "Ovaj token ističe za:",
   selectExpirationTime: "Odaberi vrijeme isteka",
-  patNoExpirationWarning:
+  patNoExpirationWarningTitle: "Upozorenje o tokenu bez isteka",
+  patNoExpirationWarningDescription:
     "Odabir bez isteka može ostaviti vaš token ranjivim na neograničeno vrijeme ako bude kompromitovan. Tokeni s istekom smanjuju dugoročne sigurnosne rizike.",
   day: "dan",
   patDropdownOptionOne: "7 dana",
@@ -2530,6 +2531,9 @@ const bs: Translations = {
   newPatCreatedDescription:
     "Obavezno kopirajte vaš personalni pristupni token sada, jer ga kasnije nećete moći vidjeti!",
   tokenCopiedToClipboard: "Token je kopiran u međuspremnik",
+  proceed: "Nastavi",
+  copyToken: "Kopiraj token",
+  timeExpires: "Vrijeme isteka",
 };
 
 export default bs;

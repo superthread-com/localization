@@ -2506,7 +2506,8 @@ const pl = {
     "Token automatycznie wygaśnie po wybranej liczbie dni i nie będzie już działać.",
   expirationTimeSelect: "Ten token wygaśnie za:",
   selectExpirationTime: "Wybierz czas wygaśnięcia",
-  patNoExpirationWarning:
+  patNoExpirationWarningTitle: "Brak ostrzeżenia o wygaśnięciu",
+  patNoExpirationWarningDescription:
     "Token bez daty wygaśnięcia pozostaje aktywny bez końca, co stanowi ryzyko w razie jego przejęcia. Tokeny z datą ważności są bezpieczniejsze na dłuższą metę.",
   day: "dzień",
   patDropdownOptionOne: "7 dni",
@@ -2530,6 +2531,9 @@ const pl = {
   newPatCreatedDescription:
     "Skopiuj swój token teraz — później nie będzie już dostępny!",
   tokenCopiedToClipboard: "Token skopiowany do schowka",
+  proceed: "Kontynuuj",
+  copyToken: "Kopiuj token",
+  timeExpires: "Czas wygaśnięcia",
 };
 
 export default pl as Translations;
