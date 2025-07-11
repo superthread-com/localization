@@ -1,6 +1,6 @@
 {
   "name": "@superthread-com/localization",
-  "version": "1.0.229",
+  "version": "1.0.230",
   "description": "Superthread front-end localizations",
   "type": "module",
   "main": "index.js",
