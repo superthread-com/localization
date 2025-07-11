@@ -1958,6 +1958,7 @@ export enum TranslationKeys {
   Transcribe = "transcribe",
   CurrentlyTranscribing = "currentlyTranscribing",
   TranscribingOnlyAvailableOnMac = "transcribingOnlyAvailableOnMac",
+  TranscribingOnlyAvailableOnNewerMacVersions = "transcribingOnlyAvailableOnNewerMacVersions",
   StartTranscription = "startTranscription",
   StopTranscription = "stopTranscription",
   OpenTranscribingNote = "openTranscribingNote",
