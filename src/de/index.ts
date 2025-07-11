@@ -2612,6 +2612,8 @@ const de = {
   proceed: "Weiter",
   copyToken: "Token kopieren",
   timeExpires: "Ablaufzeit",
+  patRevokedSuccessfully: "Token erfolgreich widerrufen",
+  failedToRevokePat: "Token konnte nicht widerrufen werden",
 };
 
 export default de as Translations;
