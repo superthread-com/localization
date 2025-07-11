@@ -2582,7 +2582,8 @@ const de = {
     "Der Token läuft nach der gewählten Anzahl an Tagen automatisch ab und ist dann nicht mehr gültig.",
   expirationTimeSelect: "Dieser Token läuft ab in:",
   selectExpirationTime: "Ablaufzeit wählen",
-  patNoExpirationWarning:
+  patNoExpirationWarningTitle: "Kein Ablaufzeit-Token-Warnhinweis",
+  patNoExpirationWarningDescription:
     "Ein Token ohne Ablaufdatum bleibt unbegrenzt gültig, was bei Kompromittierung ein Sicherheitsrisiko darstellt. Ein Ablaufdatum reduziert langfristige Risiken.",
   day: "Tag",
   patDropdownOptionOne: "7 Tage",
@@ -2607,6 +2608,9 @@ const de = {
   newPatCreatedDescription:
     "Kopieren Sie den Token jetzt – Sie können ihn später nicht mehr einsehen!",
   tokenCopiedToClipboard: "Token in die Zwischenablage kopiert",
+  proceed: "Weiter",
+  copyToken: "Token kopieren",
+  timeExpires: "Ablaufzeit",
 };
 
 export default de as Translations;

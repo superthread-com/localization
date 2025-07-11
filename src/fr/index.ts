@@ -2578,7 +2578,8 @@ const fr: Translations = {
     "Le jeton expirera automatiquement après le nombre de jours sélectionné et ne pourra plus être utilisé.",
   expirationTimeSelect: "Ce jeton expirera dans :",
   selectExpirationTime: "Sélectionnez une durée de validité",
-  patNoExpirationWarning:
+  patNoExpirationWarningTitle: "Aucune expiration de jeton",
+  patNoExpirationWarningDescription:
     "Un jeton sans expiration reste actif indéfiniment, ce qui présente un risque en cas de compromission. Une expiration réduit les risques de sécurité à long terme.",
   day: "jour",
   patDropdownOptionOne: "7 jours",
@@ -2603,6 +2604,9 @@ const fr: Translations = {
   newPatCreatedDescription:
     "Copiez votre jeton d’accès personnel maintenant, vous ne pourrez plus le voir ensuite !",
   tokenCopiedToClipboard: "Jeton copié dans le presse-papiers",
+  proceed: "Continuer",
+  copyToken: "Copier le token",
+  timeExpires: "Temps d'expiration",
 };
 
 export default fr as Translations;

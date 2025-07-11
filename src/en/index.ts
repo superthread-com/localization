@@ -2466,7 +2466,8 @@ const en = {
     "The token will automatically expire after the selected number of days and can no longer be used.",
   expirationTimeSelect: "This token will expire in:",
   selectExpirationTime: "Select expiration time",
-  patNoExpirationWarning:
+  patNoExpirationWarningTitle: "No expiration token warning",
+  patNoExpirationWarningDescription:
     "Choosing no expiration can leave your token vulnerable indefinitely if it's ever compromised. Expiring tokens help reduce long-term security risks.",
   day: "day",
   patDropdownOptionOne: "7 days",
@@ -2490,6 +2491,9 @@ const en = {
   newPatCreatedDescription:
     "Make sure to copy your personal access token now, as you won't be able to see it again!",
   tokenCopiedToClipboard: "Token copied to clipboard",
+  proceed: "Proceed",
+  copyToken: "Copy token",
+  timeExpires: "Time expires",
 };
 
 export default en as Translations;

@@ -2201,7 +2201,8 @@ export enum TranslationKeys {
   PatExpirationTimeSubtitle = "patExpirationTimeSubtitle",
   ExpirationTimeSelect = "expirationTimeSelect",
   SelectExpirationTime = "selectExpirationTime",
-  PatNoExpirationWarning = "patNoExpirationWarning",
+  PatNoExpirationWarningTitle = "patNoExpirationWarningTitle",
+  PatNoExpirationWarningDescription = "patNoExpirationWarningDescription",
   Day = "day",
   PatDropdownOptionOne = "patDropdownOptionOne",
   PatDropdownOptionTwo = "patDropdownOptionTwo",
@@ -2222,6 +2223,9 @@ export enum TranslationKeys {
   NewPatCreated = "newPatCreated",
   NewPatCreatedDescription = "newPatCreatedDescription",
   TokenCopiedToClipboard = "tokenCopiedToClipboard",
+  Proceed = "proceed",
+  CopyToken = "copyToken",
+  TimeExpires = "timeExpires",
 }
 
 export type Translations = Record<TranslationKeys, string>;
