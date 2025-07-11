@@ -2457,6 +2457,39 @@ const en = {
   changingDates: "Changing dates",
   changingStatus: "Changing status",
   processed: "Processed",
+  createPAT: "Create PAT",
+  createPATLong: "Create personal access token",
+  patName: "Personal access token name",
+  patNamePlaceholder: "e.g. “Superthread API”",
+  patExpirationTitle: "PAT expiration time",
+  patExpirationTimeSubtitle:
+    "The token will automatically expire after the selected number of days and can no longer be used.",
+  expirationTimeSelect: "This token will expire in:",
+  selectExpirationTime: "Select expiration time",
+  patNoExpirationWarning:
+    "Choosing no expiration can leave your token vulnerable indefinitely if it's ever compromised. Expiring tokens help reduce long-term security risks.",
+  day: "day",
+  patDropdownOptionOne: "7 days",
+  patDropdownOptionTwo: "30 days",
+  patDropdownOptionThree: "60 days",
+  patDropdownOptionFour: "90 days",
+  noExpiration: "No expiration",
+  invalidPATExpirationDate: "Expiration date needs to be in the future",
+  personalAccessTokens: "Personal access tokens",
+  personalAccessTokensSubtitle:
+    "Generate a personal access token for quick access to the Superthread API",
+  searchPATs: "Search tokens",
+  noPATs: "No personal access tokens",
+  noPATsSubtitle: "You can create a personal access token above",
+  revokePatConfirmation: "Are you sure you want to revoke “%{patName}” token?",
+  lastUsed: "Last used",
+  revokePatDescription: "This action cannot be undone.",
+  never: "Never",
+  patLimitReachedTooltip: "Limit of %{limit} PATs reached",
+  newPatCreated: "New personal access token created",
+  newPatCreatedDescription:
+    "Make sure to copy your personal access token now, as you won't be able to see it again!",
+  tokenCopiedToClipboard: "Token copied to clipboard",
 };
 
 export default en as Translations;
