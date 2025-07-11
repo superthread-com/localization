@@ -2192,6 +2192,7 @@ export enum TranslationKeys {
   ChangingAssignees = "changingAssignees",
   ChangingDates = "changingDates",
   ChangingStatus = "changingStatus",
+  Processed = "processed",
 }
 
 export type Translations = Record<TranslationKeys, string>;

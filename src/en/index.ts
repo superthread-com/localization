@@ -2456,6 +2456,7 @@ const en = {
   changingAssignees: "Changing assignees",
   changingDates: "Changing dates",
   changingStatus: "Changing status",
+  processed: "Processed",
 };
 
 export default en as Translations;

@@ -2572,6 +2572,7 @@ const de = {
   changingAssignees: "Zuweisen zu",
   changingDates: "Ändern der Daten",
   changingStatus: "Status ändern",
+  processed: "Verarbeitet",
 };
 
 export default de as Translations;
