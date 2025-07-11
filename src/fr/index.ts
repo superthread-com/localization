@@ -2555,7 +2555,17 @@ const fr: Translations = {
   yourSessionHasTimedOut: "Votre session a expiré.",
   reloadPage: "Recharger la page",
   moreActions: "Plus d'actions",
-  copyCardTitles: "Copier les titres des cartes",
+  copyTitles: "Copier les titres",
+  copyTitlesAsLinks: "Copier les titres comme des liens",
+  changingTags: "Modification des tags",
+  subscribingToResourceUpdates: "S'abonner aux mises à jour des ressources",
+  unsubscribingFromResourceUpdates:
+    "Se désabonner des mises à jour des ressources",
+  removingFromFavourites: "Supprimer des favoris",
+  addingToFavourites: "Ajouter aux favoris",
+  changingAssignees: "Changer les assignés",
+  changingDates: "Modification des dates",
+  changingStatus: "Modification du statut",
 };
 
 export default fr as Translations;

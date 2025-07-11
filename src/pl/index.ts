@@ -2484,7 +2484,16 @@ const pl = {
   yourSessionHasTimedOut: "Twoja sesja wygasła.",
   reloadPage: "Odśwież stronę",
   moreActions: "Więcej akcji",
-  copyCardTitles: "Kopiuj tytuły kart",
+  copyTitles: "Kopiuj tytuły",
+  copyTitlesAsLinks: "Kopiuj tytuły jako linki",
+  changingTags: "Zmiana tagów",
+  subscribingToResourceUpdates: "Subskrybowanie aktualizacji zasobów",
+  unsubscribingFromResourceUpdates: "Odsubskrybowanie aktualizacji zasobów",
+  removingFromFavourites: "Usuwanie z ulubionych",
+  addingToFavourites: "Dodawanie do ulubionych",
+  changingAssignees: "Zmiana przypisanych",
+  changingDates: "Zmiana dat",
+  changingStatus: "Zmiana statusu",
 };
 
 export default pl as Translations;

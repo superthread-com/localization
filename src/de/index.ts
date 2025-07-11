@@ -2558,7 +2558,18 @@ const de = {
   yourSessionHasTimedOut: "Ihre Sitzung ist abgelaufen.",
   reloadPage: "Seite neu laden",
   moreActions: "Mehr Aktionen",
-  copyCardTitles: "Kartentitel kopieren",
+  copyTitles: "Titel kopieren",
+  copyTitlesAsLinks: "Titel als Links kopieren",
+  changingTags: "Tags ändern",
+  subscribingToResourceUpdates:
+    "Abonnieren Sie Aktualisierungen von Ressourcen",
+  unsubscribingFromResourceUpdates:
+    "Abonnieren Sie Aktualisierungen von Ressourcen",
+  removingFromFavourites: "Aus Favoriten entfernen",
+  addingToFavourites: "Zu Favoriten hinzufügen",
+  changingAssignees: "Zuweisen zu",
+  changingDates: "Ändern der Daten",
+  changingStatus: "Status ändern",
 };
 
 export default de as Translations;
