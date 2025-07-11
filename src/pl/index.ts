@@ -2535,6 +2535,8 @@ const pl = {
   proceed: "Kontynuuj",
   copyToken: "Kopiuj token",
   timeExpires: "Czas wygaśnięcia",
+  patRevokedSuccessfully: "Token został pomyślnie unieważniony",
+  failedToRevokePat: "Nie udało się unieważnić tokenu",
 };
 
 export default pl as Translations;

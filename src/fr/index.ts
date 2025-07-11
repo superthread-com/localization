@@ -2608,6 +2608,8 @@ const fr: Translations = {
   proceed: "Continuer",
   copyToken: "Copier le token",
   timeExpires: "Temps d'expiration",
+  patRevokedSuccessfully: "Jeton révoqué avec succès",
+  failedToRevokePat: "Échec de la révocation du jeton",
 };
 
 export default fr as Translations;
