@@ -2535,6 +2535,8 @@ const bs: Translations = {
   proceed: "Nastavi",
   copyToken: "Kopiraj token",
   timeExpires: "Vrijeme isteka",
+  patRevokedSuccessfully: "Token je uspješno opozvan",
+  failedToRevokePat: "Neuspjelo opozivanje tokena",
 };
 
 export default bs;
