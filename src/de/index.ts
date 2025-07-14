@@ -2287,7 +2287,7 @@ const de = {
   transcribingOnlyAvailableOnMac:
     "Das Transkribieren ist nur in der macOS-App verfügbar",
   transcribingOnlyAvailableOnNewerMacVersions:
-    "Transkription ist nur auf macOS 14.1 und neueren Versionen verfügbar",
+    "Transkription ist nur auf macOS 14.2 und neueren Versionen verfügbar",
   startTranscription: "Transkription starten",
   stopTranscription: "Transkription stoppen",
   openTranscribingNote: "Notiz zum Transkribieren öffnen",
@@ -2615,6 +2615,8 @@ const de = {
   patRevokedSuccessfully: "Token erfolgreich widerrufen",
   failedToRevokePat: "Token konnte nicht widerrufen werden",
   stop: "Stop",
+  online: "Online",
+  disconnected: "Getrennt",
 };
 
 export default de as Translations;

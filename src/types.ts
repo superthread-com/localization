@@ -2230,6 +2230,8 @@ export enum TranslationKeys {
   PatRevokedSuccessfully = "patRevokedSuccessfully",
   FailedToRevokePat = "failedToRevokePat",
   Stop = "stop",
+  Online = "online",
+  Disconnected = "disconnected",
 }
 
 export type Translations = Record<TranslationKeys, string>;

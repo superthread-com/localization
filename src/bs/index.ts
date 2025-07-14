@@ -2221,7 +2221,7 @@ const bs: Translations = {
   transcribingOnlyAvailableOnMac:
     "Prepisivanje je dostupno samo u aplikaciji za macOS",
   transcribingOnlyAvailableOnNewerMacVersions:
-    "Transkripcija je dostupna samo na macOS verziji 14.1 i novijim verzijama",
+    "Transkripcija je dostupna samo na macOS verziji 14.2 i novijim verzijama",
   startTranscription: "Započni prepisivanje",
   stopTranscription: "Zaustavi prepisivanje",
   openTranscribingNote: "Otvori bilješku za prepisivanje",
@@ -2538,6 +2538,8 @@ const bs: Translations = {
   patRevokedSuccessfully: "Token je uspješno opozvan",
   failedToRevokePat: "Neuspjelo opozivanje tokena",
   stop: "Zaustavi",
+  online: "Online",
+  disconnected: "Isključen",
 };
 
 export default bs;

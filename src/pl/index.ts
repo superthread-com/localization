@@ -2218,7 +2218,7 @@ const pl = {
   transcribingOnlyAvailableOnMac:
     "Transkrypcja jest dostępna tylko w aplikacji na macOS",
   transcribingOnlyAvailableOnNewerMacVersions:
-    "Transkrypcja jest dostępna tylko na macOS 14.1 i nowszych wersjach",
+    "Transkrypcja jest dostępna tylko na macOS 14.2 i nowszych wersjach",
   startTranscription: "Rozpocznij transkrypcję",
   stopTranscription: "Zatrzymaj transkrypcję",
   openTranscribingNote: "Otwórz notatkę transkrypcji",
@@ -2538,6 +2538,8 @@ const pl = {
   patRevokedSuccessfully: "Token został pomyślnie unieważniony",
   failedToRevokePat: "Nie udało się unieważnić tokenu",
   stop: "Zatrzymaj",
+  online: "Online",
+  disconnected: "Odłączony",
 };
 
 export default pl as Translations;
