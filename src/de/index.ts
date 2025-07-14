@@ -2614,6 +2614,8 @@ const de = {
   timeExpires: "Ablaufzeit",
   patRevokedSuccessfully: "Token erfolgreich widerrufen",
   failedToRevokePat: "Token konnte nicht widerrufen werden",
+  online: "Online",
+  disconnected: "Getrennt",
 };
 
 export default de as Translations;

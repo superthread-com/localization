@@ -2537,6 +2537,8 @@ const pl = {
   timeExpires: "Czas wygaśnięcia",
   patRevokedSuccessfully: "Token został pomyślnie unieważniony",
   failedToRevokePat: "Nie udało się unieważnić tokenu",
+  online: "Online",
+  disconnected: "Odłączony",
 };
 
 export default pl as Translations;
