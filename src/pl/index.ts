@@ -2537,6 +2537,7 @@ const pl = {
   timeExpires: "Czas wygaśnięcia",
   patRevokedSuccessfully: "Token został pomyślnie unieważniony",
   failedToRevokePat: "Nie udało się unieważnić tokenu",
+  stop: "Zatrzymaj",
   online: "Online",
   disconnected: "Odłączony",
 };
