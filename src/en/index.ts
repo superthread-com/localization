@@ -2497,6 +2497,7 @@ const en = {
   timeExpires: "Time expires",
   patRevokedSuccessfully: "PAT revoked successfully",
   failedToRevokePat: "Failed to revoke PAT",
+  stop: "Stop",
 };
 
 export default en as Translations;

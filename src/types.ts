@@ -2229,6 +2229,7 @@ export enum TranslationKeys {
   TimeExpires = "timeExpires",
   PatRevokedSuccessfully = "patRevokedSuccessfully",
   FailedToRevokePat = "failedToRevokePat",
+  Stop = "stop",
 }
 
 export type Translations = Record<TranslationKeys, string>;

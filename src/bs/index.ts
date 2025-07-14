@@ -2537,6 +2537,7 @@ const bs: Translations = {
   timeExpires: "Vrijeme isteka",
   patRevokedSuccessfully: "Token je uspješno opozvan",
   failedToRevokePat: "Neuspjelo opozivanje tokena",
+  stop: "Zaustavi",
 };
 
 export default bs;

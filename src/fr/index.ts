@@ -2610,6 +2610,7 @@ const fr: Translations = {
   timeExpires: "Temps d'expiration",
   patRevokedSuccessfully: "Jeton révoqué avec succès",
   failedToRevokePat: "Échec de la révocation du jeton",
+  stop: "Arrêter",
 };
 
 export default fr as Translations;
