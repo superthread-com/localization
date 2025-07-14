@@ -1915,7 +1915,7 @@ const fr: Translations = {
     "Vous pouvez choisir des rôles d'utilisateur non administrateurs avec un plan payant.",
   upgradedWorkspace: "Votre compte à été mis à jour!",
   workspaceSubscriptionChanged:
-    "L’abonnement de votre espace de travail a été modifié !",
+    "L’abonnement de votre espace de travail a été modifié",
   sprintSettings: "Paramètres de sprint",
   electronDownloadApp: "Télécharger l'application",
   electronDownloadAppDescription:

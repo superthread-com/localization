@@ -1922,7 +1922,7 @@ const de = {
     "Du kannst nicht-admin Benutzerrollen nur im kostenpflichtigen Plan wählen.",
   upgradedWorkspace: "Dein Arbeitsbereich wurde aktualisiert.",
   workspaceSubscriptionChanged:
-    "Das Abonnement Ihres Arbeitsbereichs wurde geändert!",
+    "Das Abonnement Ihres Arbeitsbereichs wurde geändert",
   sprintSettings: "Sprint-Einstellungen",
   electronDownloadApp: "App herunterladen",
   electronDownloadAppDescription:
