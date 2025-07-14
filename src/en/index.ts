@@ -1831,7 +1831,7 @@ const en = {
     "You can choose non-admin user roles on a paid plan.",
   upgradedWorkspace: "Your workspace has been upgraded!",
   workspaceSubscriptionChanged:
-    "Your workspace's subscription has been changed!",
+    "Your workspace's subscription has been changed",
   sprintSettings: "Sprint settings",
   electronDownloadApp: "Download the app",
   electronDownloadAppDescription:

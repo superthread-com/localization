@@ -1865,7 +1865,7 @@ const pl = {
     "Możesz wybierać role użytkowników niebędących administratorami w ramach płatnego planu.",
   upgradedWorkspace: "Twoja przestrzeń robocza została uaktualniona",
   workspaceSubscriptionChanged:
-    "Subskrypcja Twojego miejsca pracy została zmieniona!",
+    "Subskrypcja Twojego miejsca pracy została zmieniona",
   sprintSettings: "Ustawienia sprintu",
   electronDownloadApp: "Pobierz aplikację",
   electronDownloadAppDescription:
