@@ -2283,7 +2283,7 @@ const fr: Translations = {
   transcribingOnlyAvailableOnMac:
     "La transcription est uniquement disponible dans l'application macOS",
   transcribingOnlyAvailableOnNewerMacVersions:
-    "La transcription est uniquement disponible sur macOS 14.1 et les versions ultérieures",
+    "La transcription est uniquement disponible sur macOS 14.2 et les versions ultérieures",
   startTranscription: "Démarrer la transcription",
   stopTranscription: "Arrêter la transcription",
   openTranscribingNote: "Ouvrir la note en cours de transcription",
