@@ -2537,6 +2537,8 @@ const bs: Translations = {
   timeExpires: "Vrijeme isteka",
   patRevokedSuccessfully: "Token je uspješno opozvan",
   failedToRevokePat: "Neuspjelo opozivanje tokena",
+  online: "Online",
+  disconnected: "Isključen",
 };
 
 export default bs;

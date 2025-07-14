@@ -2610,6 +2610,8 @@ const fr: Translations = {
   timeExpires: "Temps d'expiration",
   patRevokedSuccessfully: "Jeton révoqué avec succès",
   failedToRevokePat: "Échec de la révocation du jeton",
+  online: "En ligne",
+  disconnected: "Déconnecté",
 };
 
 export default fr as Translations;
