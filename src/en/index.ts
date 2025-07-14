@@ -2182,7 +2182,7 @@ const en = {
   transcribingOnlyAvailableOnMac:
     "Transcribing is only available in the macOS app",
   transcribingOnlyAvailableOnNewerMacVersions:
-    "Transcribing is only available on macOS 14.1 and newer versions",
+    "Transcribing is only available on macOS 14.2 and newer versions",
   startTranscription: "Start transcription",
   stopTranscription: "Stop transcription",
   openTranscribingNote: "Open transcribing note",
