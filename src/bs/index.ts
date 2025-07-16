@@ -1228,6 +1228,8 @@ const bs: Translations = {
   ["billing.youHaveBeenDowngradedShort"]: "Prebačeni ste na plan %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
     "Koristiš stari plan: %{planName} (%{planPeriod})",
+  ["billing.legacyDescription"]:
+    "Ova verzija više nije dostupna novim korisnicima. Možeš je i dalje koristiti ili istražiti naše aktuelne planove s novim funkcijama i cijenama.",
 
   // global
   ["global.text.create"]: "Kreiraj",

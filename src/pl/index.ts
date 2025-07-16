@@ -273,6 +273,8 @@ const pl = {
     "Zostałeś zdegradowany do planu %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
     "Korzystasz ze starego planu: %{planName} (%{planPeriod})",
+  ["billing.legacyDescription"]:
+    "Ta wersja nie jest już dostępna dla nowych użytkowników. Możesz nadal z niej korzystać lub zapoznać się z naszymi aktualnymi planami zawierającymi nowe funkcje i ceny.",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",

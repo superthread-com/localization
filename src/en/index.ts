@@ -273,6 +273,9 @@ const en = {
     "You have been downgraded to the %{planName} plan.",
   ["billing.youAreOnLegacyPlan"]:
     "You're on a legacy plan: %{planName} (%{planPeriod})",
+  ["billing.legacyDescription"]:
+    "This version is no longer offered to new users. You can continue using it, or explore our current plans for updated features and pricing.",
+
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
