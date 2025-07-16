@@ -278,6 +278,8 @@ const de = {
     "Sie wurden auf den %{planName}-Tarif herabgestuft.",
   ["billing.youAreOnLegacyPlan"]:
     "Du nutzt einen alten Tarif: %{planName} (%{planPeriod})",
+  ["billing.legacyDescription"]:
+    "Diese Version wird neuen Nutzern nicht mehr angeboten. Du kannst sie weiterhin verwenden oder unsere aktuellen Pläne mit neuen Funktionen und Preisen ansehen.",
 
   // global
   ["global.text.create"]: "Erstellen",

@@ -238,6 +238,7 @@ export enum TranslationKeys {
   BillingYouHaveBeenDowngradedLong = "billing.youHaveBeenDowngradedLong",
   BillingYouHaveBeenDowngradedShort = "billing.youHaveBeenDowngradedShort",
   BillingYouAreOnLegacyPlan = "billing.youAreOnLegacyPlan",
+  BilingLegacyDescription = "billing.legacyDescription",
   GlobalTextCreate = "global.text.create",
   OptionLabelCards = "option.label.cards",
   OptionLabelPages = "option.label.pages",
