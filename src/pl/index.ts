@@ -271,6 +271,8 @@ const pl = {
     "Zostałeś zdegradowany do planu %{planName}. Możesz zobaczyć, które funkcje zostały utracone, na stronie planów.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Zostałeś zdegradowany do planu %{planName}.",
+  ["billing.youAreOnLegacyPlan"]:
+    "Korzystasz ze starego planu: %{planName} (%{planPeriod})",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",

@@ -1226,6 +1226,8 @@ const bs: Translations = {
   ["billing.youHaveBeenDowngradedLong"]:
     "Prebačeni ste na plan %{planName}. Možete vidjeti koje ste funkcije izgubili na stranici s planovima.",
   ["billing.youHaveBeenDowngradedShort"]: "Prebačeni ste na plan %{planName}.",
+  ["billing.youAreOnLegacyPlan"]:
+    "Koristiš stari plan: %{planName} (%{planPeriod})",
 
   // global
   ["global.text.create"]: "Kreiraj",
