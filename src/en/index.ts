@@ -271,6 +271,8 @@ const en = {
     "You have been downgraded to the %{planName} plan. You can see which features you lost on the plans page.",
   ["billing.youHaveBeenDowngradedShort"]:
     "You have been downgraded to the %{planName} plan.",
+  ["billing.youAreOnLegacyPlan"]:
+    "You're on a legacy plan: %{planName} (%{planPeriod})",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
