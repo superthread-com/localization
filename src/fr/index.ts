@@ -2574,16 +2574,16 @@ const fr: Translations = {
   changingStatus: "Modification du statut",
   processed: "Traité",
   clearSelection: "Effacer la sélection",
-  createPAT: "Créer un PAT",
+  createPAT: "Créer un jeton",
   createPATLong: "Créer un jeton d’accès personnel",
-  patName: "Nom du jeton d’accès personnel",
-  patNamePlaceholder: "ex. “Superthread API”",
-  patExpirationTitle: "Durée de validité du PAT",
+  patName: "Nom du jeton",
+  patNamePlaceholder: "Un nom descriptif court...",
+  expiration: "expiration",
   patExpirationTimeSubtitle:
     "Le jeton expirera automatiquement après le nombre de jours sélectionné et ne pourra plus être utilisé.",
   expirationTimeSelect: "Ce jeton expirera dans :",
   selectExpirationTime: "Sélectionnez une durée de validité",
-  patNoExpirationWarningTitle: "Aucune expiration de jeton",
+  patNoExpirationWarningTitle: "Ne jamais faire expirer ce jeton ?",
   patNoExpirationWarningDescription:
     "Un jeton sans expiration reste actif indéfiniment, ce qui présente un risque en cas de compromission. Une expiration réduit les risques de sécurité à long terme.",
   day: "jour",
@@ -2595,19 +2595,20 @@ const fr: Translations = {
   invalidPATExpirationDate: "La date d’expiration doit être dans le futur",
   personalAccessTokens: "Jetons d’accès personnels",
   personalAccessTokensSubtitle:
-    "Générez un jeton d’accès personnel pour un accès rapide à l’API Superthread",
+    "Générez un jeton d’accès personnel pour interagir avec l’API Superthread",
   searchPATs: "Rechercher des jetons",
   noPATs: "Aucun jeton d’accès personnel",
   noPATsSubtitle: "Vous pouvez créer un jeton d’accès personnel ci-dessus",
   revokePatConfirmation:
     "Êtes-vous sûr de vouloir révoquer le jeton “%{patName}” ?",
   lastUsed: "Dernière utilisation",
-  revokePatDescription: "Cette action est irréversible.",
+  revokePatDescription:
+    "Toutes les applications ou scripts utilisant ce jeton ne pourront plus accéder à l’API Superthread. Cette action est irréversible.",
   never: "Jamais",
   patLimitReachedTooltip: "Limite de %{limit} PAT atteinte",
-  newPatCreated: "Nouveau jeton d’accès personnel créé",
-  newPatCreatedDescription:
-    "Copiez votre jeton d’accès personnel maintenant, vous ne pourrez plus le voir ensuite !",
+  newPatCreated: "Copiez votre jeton d’accès personnel",
+  newPatCreatedDescriptionOne: "Assurez-vous de copier votre jeton maintenant.",
+  newPatCreatedDescriptionTwo: "Vous ne pourrez plus le revoir ensuite !",
   tokenCopiedToClipboard: "Jeton copié dans le presse-papiers",
   proceed: "Continuer",
   copyToken: "Copier le token",
@@ -2617,6 +2618,15 @@ const fr: Translations = {
   stop: "Arrêter",
   online: "En ligne",
   disconnected: "Déconnecté",
+  apiAccess: "Accès API",
+  viewDocs: "voir la documentation",
+  createPatSubtitle:
+    "Lors de l’utilisation d’un jeton d’accès personnel pour accéder à l’API, toutes les actions vous sont attribuées personnellement",
+  expirationReminderText:
+    "Nous vous enverrons un e-mail de rappel la veille de l’expiration de votre jeton.",
+  securityAndAccess: "Sécurité & accès",
+  securityAndAccessSubtitle:
+    "Les membres de l’espace de travail peuvent créer des jetons d’accès personnels pour interagir avec l’API Superthread. Les administrateurs peuvent les examiner et les révoquer ici.",
 };
 
 export default fr as Translations;

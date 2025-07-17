@@ -2463,16 +2463,16 @@ const en = {
   changingStatus: "Changing status",
   processed: "Processed",
   clearSelection: "Clear selection",
-  createPAT: "Create PAT",
+  createPAT: "Create token",
   createPATLong: "Create personal access token",
-  patName: "Personal access token name",
-  patNamePlaceholder: "e.g. “Superthread API”",
-  patExpirationTitle: "PAT expiration time",
+  patName: "Token name",
+  patNamePlaceholder: "A short descriptive name...",
+  expiration: "expiration",
   patExpirationTimeSubtitle:
     "The token will automatically expire after the selected number of days and can no longer be used.",
   expirationTimeSelect: "This token will expire in:",
   selectExpirationTime: "Select expiration time",
-  patNoExpirationWarningTitle: "No expiration token warning",
+  patNoExpirationWarningTitle: "Never expire this token?",
   patNoExpirationWarningDescription:
     "Choosing no expiration can leave your token vulnerable indefinitely if it's ever compromised. Expiring tokens help reduce long-term security risks.",
   day: "day",
@@ -2484,18 +2484,19 @@ const en = {
   invalidPATExpirationDate: "Expiration date needs to be in the future",
   personalAccessTokens: "Personal access tokens",
   personalAccessTokensSubtitle:
-    "Generate a personal access token for quick access to the Superthread API",
+    "Generate a personal access token to interact with the Superthread API",
   searchPATs: "Search tokens",
   noPATs: "No personal access tokens",
   noPATsSubtitle: "You can create a personal access token above",
   revokePatConfirmation: "Are you sure you want to revoke “%{patName}” token?",
   lastUsed: "Last used",
-  revokePatDescription: "This action cannot be undone.",
+  revokePatDescription:
+    "Any applications or scripts using this token will no longer be able to access the Superthread API. This action cannot be undone.",
   never: "Never",
   patLimitReachedTooltip: "Limit of %{limit} PATs reached",
-  newPatCreated: "New personal access token created",
-  newPatCreatedDescription:
-    "Make sure to copy your personal access token now, as you won't be able to see it again!",
+  newPatCreated: "Copy your personal access token",
+  newPatCreatedDescriptionOne: "Make sure to copy your token now.",
+  newPatCreatedDescriptionTwo: "You won’t be able to see it again!",
   tokenCopiedToClipboard: "Token copied to clipboard",
   proceed: "Proceed",
   copyToken: "Copy token",
@@ -2505,6 +2506,15 @@ const en = {
   stop: "Stop",
   online: "Online",
   disconnected: "Disconnected",
+  apiAccess: "API access",
+  viewDocs: "view docs",
+  createPatSubtitle:
+    "When using a personal access token to access the API, all action are attributed to you as an individual",
+  expirationReminderText:
+    "We will send you a reminder email the day before your token expires.",
+  securityAndAccess: "Security & access",
+  securityAndAccessSubtitle:
+    "Members of the workspace can create personal access tokens to interact with the Superthread API. Admins can review and revoke them here.",
 };
 
 export default en as Translations;

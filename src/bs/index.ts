@@ -2501,16 +2501,16 @@ const bs: Translations = {
   changingStatus: "Mijenjanje statusa",
   processed: "Obrađeno",
   clearSelection: "Očisti odabir",
-  createPAT: "Kreiraj PAT",
+  createPAT: "Kreiraj token",
   createPATLong: "Kreiraj personalni pristupni token",
-  patName: "Naziv personalnog pristupnog tokena",
-  patNamePlaceholder: "npr. “Superthread API”",
-  patExpirationTitle: "Vrijeme isteka tokena",
+  patName: "Naziv tokena",
+  patNamePlaceholder: "Kratak opisni naziv...",
+  expiration: "Istek",
   patExpirationTimeSubtitle:
     "Token će automatski isteći nakon odabranog broja dana i više neće biti upotrebljiv.",
   expirationTimeSelect: "Ovaj token ističe za:",
   selectExpirationTime: "Odaberi vrijeme isteka",
-  patNoExpirationWarningTitle: "Upozorenje o tokenu bez isteka",
+  patNoExpirationWarningTitle: "Ovaj token nikada ne ističe?",
   patNoExpirationWarningDescription:
     "Odabir bez isteka može ostaviti vaš token ranjivim na neograničeno vrijeme ako bude kompromitovan. Tokeni s istekom smanjuju dugoročne sigurnosne rizike.",
   day: "dan",
@@ -2522,19 +2522,21 @@ const bs: Translations = {
   invalidPATExpirationDate: "Datum isteka mora biti u budućnosti",
   personalAccessTokens: "Personalni pristupni tokeni",
   personalAccessTokensSubtitle:
-    "Generiši personalni pristupni token za brz pristup Superthread API-ju",
+    "Generiši personalni pristupni token za interakciju sa Superthread API-jem",
   searchPATs: "Pretraži tokene",
   noPATs: "Nema personalnih pristupnih tokena",
   noPATsSubtitle: "Možete kreirati personalni pristupni token iznad",
   revokePatConfirmation:
     "Jeste li sigurni da želite opozvati token “%{patName}”?",
   lastUsed: "Zadnje korišten",
-  revokePatDescription: "Ova radnja se ne može poništiti.",
+  revokePatDescription:
+    "Sve aplikacije ili skripte koje koriste ovaj token više neće moći pristupiti Superthread API-ju. Ova radnja se ne može poništiti.",
   never: "Nikada",
   patLimitReachedTooltip: "Dostignut je limit od %{limit} tokena",
-  newPatCreated: "Novi personalni pristupni token je kreiran",
-  newPatCreatedDescription:
-    "Obavezno kopirajte vaš personalni pristupni token sada, jer ga kasnije nećete moći vidjeti!",
+  newPatCreated: "Kopirajte vaš personalni pristupni token",
+  newPatCreatedDescriptionOne:
+    "Obavezno kopirajte vaš personalni pristupni token sada.",
+  newPatCreatedDescriptionTwo: "Nećete ga više moći vidjeti!",
   tokenCopiedToClipboard: "Token je kopiran u međuspremnik",
   proceed: "Nastavi",
   copyToken: "Kopiraj token",
@@ -2544,6 +2546,15 @@ const bs: Translations = {
   stop: "Zaustavi",
   online: "Online",
   disconnected: "Isključen",
+  apiAccess: "Pristup API-ju",
+  viewDocs: "pogledaj dokumentaciju",
+  createPatSubtitle:
+    "Kada koristite personalni pristupni token za pristup API-ju, sve akcije se pripisuju vama kao pojedincu",
+  expirationReminderText:
+    "Dan prije isteka tokena, dobiti ćete email obavijest.",
+  securityAndAccess: "Sigurnost i pristup",
+  securityAndAccessSubtitle:
+    "Članovi radnog prostora mogu kreirati personalne pristupne tokene za interakciju sa API-jem. Admini ih mogu pregledati i opozvati ovdje.",
 };
 
 export default bs;

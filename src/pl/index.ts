@@ -2502,16 +2502,16 @@ const pl = {
   changingStatus: "Zmiana statusu",
   processed: "Przetworzone",
   clearSelection: "Wyczyść zaznaczenie",
-  createPAT: "Utwórz PAT",
+  createPAT: "Utwórz token",
   createPATLong: "Utwórz osobisty token dostępu",
-  patName: "Nazwa osobistego tokena dostępu",
-  patNamePlaceholder: "np. “Superthread API”",
-  patExpirationTitle: "Czas wygaśnięcia tokena",
+  patName: "Nazwa tokena",
+  patNamePlaceholder: "Krótka, opisowa nazwa...",
+  expiration: "wygaśnięcie",
   patExpirationTimeSubtitle:
     "Token automatycznie wygaśnie po wybranej liczbie dni i nie będzie już działać.",
   expirationTimeSelect: "Ten token wygaśnie za:",
   selectExpirationTime: "Wybierz czas wygaśnięcia",
-  patNoExpirationWarningTitle: "Brak ostrzeżenia o wygaśnięciu",
+  patNoExpirationWarningTitle: "Nigdy nie wygasa ten token?",
   patNoExpirationWarningDescription:
     "Token bez daty wygaśnięcia pozostaje aktywny bez końca, co stanowi ryzyko w razie jego przejęcia. Tokeny z datą ważności są bezpieczniejsze na dłuższą metę.",
   day: "dzień",
@@ -2523,18 +2523,19 @@ const pl = {
   invalidPATExpirationDate: "Data wygaśnięcia musi być w przyszłości",
   personalAccessTokens: "Osobiste tokeny dostępu",
   personalAccessTokensSubtitle:
-    "Wygeneruj osobisty token dostępu, aby szybko korzystać z API Superthread",
+    "Wygeneruj osobisty token dostępu, aby korzystać z API Superthread",
   searchPATs: "Szukaj tokenów",
   noPATs: "Brak osobistych tokenów dostępu",
   noPATsSubtitle: "Możesz utworzyć token dostępu powyżej",
   revokePatConfirmation: "Czy na pewno chcesz unieważnić token “%{patName}”?",
   lastUsed: "Ostatnio używany",
-  revokePatDescription: "Tej operacji nie można cofnąć.",
+  revokePatDescription:
+    "Wszystkie aplikacje lub skrypty używające tego tokena stracą dostęp do API Superthread. Tej akcji nie można cofnąć.",
   never: "Nigdy",
   patLimitReachedTooltip: "Osiągnięto limit %{limit} tokenów",
-  newPatCreated: "Utworzono nowy osobisty token dostępu",
-  newPatCreatedDescription:
-    "Skopiuj swój token teraz — później nie będzie już dostępny!",
+  newPatCreated: "Skopiuj swój osobisty token dostępu",
+  newPatCreatedDescriptionOne: "Upewnij się, że teraz skopiujesz swój token.",
+  newPatCreatedDescriptionTwo: "Nie będziesz mógł go zobaczyć ponownie!",
   tokenCopiedToClipboard: "Token skopiowany do schowka",
   proceed: "Kontynuuj",
   copyToken: "Kopiuj token",
@@ -2544,6 +2545,15 @@ const pl = {
   stop: "Zatrzymaj",
   online: "Online",
   disconnected: "Odłączony",
+  apiAccess: "Dostęp do API",
+  viewDocs: "zobacz dokumentację",
+  createPatSubtitle:
+    "Podczas korzystania z osobistego tokena dostępu do API wszystkie działania są przypisane bezpośrednio do Ciebie",
+  expirationReminderText:
+    "Dzień przed wygaśnięciem tokena wyślemy Ci przypomnienie e-mailem.",
+  securityAndAccess: "Bezpieczeństwo i dostęp",
+  securityAndAccessSubtitle:
+    "Członkowie przestrzeni roboczej mogą tworzyć osobiste tokeny dostępu do interakcji z API Superthread. Administratorzy mogą je tutaj przeglądać i cofać.",
 };
 
 export default pl as Translations;
