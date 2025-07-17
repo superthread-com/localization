@@ -2578,16 +2578,16 @@ const de = {
   changingStatus: "Status ändern",
   processed: "Verarbeitet",
   clearSelection: "Auswahl löschen",
-  createPAT: "PAT erstellen",
+  createPAT: "Token erstellen",
   createPATLong: "Persönlichen Zugriffstoken erstellen",
-  patName: "Name des persönlichen Zugriffstokens",
-  patNamePlaceholder: "z. B. “Superthread API”",
-  patExpirationTitle: "Ablaufzeit des PAT",
+  patName: "Token-Name",
+  patNamePlaceholder: "Ein kurzer beschreibender Name...",
+  expiration: "Ablaufdatum",
   patExpirationTimeSubtitle:
     "Der Token läuft nach der gewählten Anzahl an Tagen automatisch ab und ist dann nicht mehr gültig.",
   expirationTimeSelect: "Dieser Token läuft ab in:",
   selectExpirationTime: "Ablaufzeit wählen",
-  patNoExpirationWarningTitle: "Kein Ablaufzeit-Token-Warnhinweis",
+  patNoExpirationWarningTitle: "Diesen Token niemals ablaufen lassen?",
   patNoExpirationWarningDescription:
     "Ein Token ohne Ablaufdatum bleibt unbegrenzt gültig, was bei Kompromittierung ein Sicherheitsrisiko darstellt. Ein Ablaufdatum reduziert langfristige Risiken.",
   day: "Tag",
@@ -2599,19 +2599,21 @@ const de = {
   invalidPATExpirationDate: "Ablaufdatum muss in der Zukunft liegen",
   personalAccessTokens: "Persönliche Zugriffstokens",
   personalAccessTokensSubtitle:
-    "Erstellen Sie ein persönliches Zugriffstoken für den schnellen Zugriff auf die Superthread API",
+    "Erstellen Sie ein persönliches Zugriffstoken, um mit der Superthread-API zu interagieren",
   searchPATs: "Tokens durchsuchen",
   noPATs: "Keine persönlichen Zugriffstokens",
   noPATsSubtitle: "Sie können oben ein persönliches Zugriffstoken erstellen",
   revokePatConfirmation:
     "Möchten Sie den Token “%{patName}” wirklich widerrufen?",
   lastUsed: "Zuletzt verwendet",
-  revokePatDescription: "Diese Aktion kann nicht rückgängig gemacht werden.",
+  revokePatDescription:
+    "Alle Anwendungen oder Skripte, die diesen Token verwenden, können nicht mehr auf die Superthread-API zugreifen. Diese Aktion kann nicht rückgängig gemacht werden.",
   never: "Nie",
   patLimitReachedTooltip: "Limit von %{limit} PATs erreicht",
-  newPatCreated: "Neuer persönlicher Zugriffstoken erstellt",
-  newPatCreatedDescription:
-    "Kopieren Sie den Token jetzt – Sie können ihn später nicht mehr einsehen!",
+  newPatCreated: "Kopieren Sie Ihr persönliches Zugriffstoken",
+  newPatCreatedDescriptionOne:
+    "Stellen Sie sicher, dass Sie Ihr Token jetzt kopieren.",
+  newPatCreatedDescriptionTwo: "Sie werden es später nicht mehr sehen können!",
   tokenCopiedToClipboard: "Token in die Zwischenablage kopiert",
   proceed: "Weiter",
   copyToken: "Token kopieren",
@@ -2621,6 +2623,15 @@ const de = {
   stop: "Stop",
   online: "Online",
   disconnected: "Getrennt",
+  apiAccess: "API-Zugriff",
+  viewDocs: "Dokumentation anzeigen",
+  createPatSubtitle:
+    "Wenn Sie ein persönliches Zugriffstoken zur Nutzung der API verwenden, werden alle Aktionen Ihnen persönlich zugeordnet",
+  expirationReminderText:
+    "Wir senden Ihnen am Tag vor dem Ablauf Ihres Tokens eine Erinnerung per E-Mail.",
+  securityAndAccess: "Sicherheit & Zugriff",
+  securityAndAccessSubtitle:
+    "Mitglieder des Arbeitsbereichs können persönliche Zugriffstokens erstellen, um mit der Superthread-API zu interagieren. Administratoren können sie hier überprüfen und widerrufen.",
 };
 
 export default de as Translations;
