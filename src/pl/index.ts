@@ -2570,6 +2570,7 @@ const pl = {
   changeToViewOnlySpaceTitle: "Zmień na przestrzeń tylko do odczytu?",
   changeToViewOnlySpace:
     "Wszystkie istniejące członkowie tej przestrzeni będą nadal członkami po jej zmianie na tylko do odczytu. Nowi członkowie nie będą mogli dołączyć, chyba że zostaną zaproszeni.",
+  changeToViewOnly: "Zmień na przestrzeń tylko do odczytu",
 };
 
 export default pl as Translations;
