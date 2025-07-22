@@ -2643,6 +2643,7 @@ const fr: Translations = {
   changeToViewOnlySpaceTitle: "Changer en espace en lecture seule ?",
   changeToViewOnlySpace:
     "Tous les membres existants de cet espace resteront membres après sa conversion en espace en lecture seule. Aucun nouveau membre ne pourra rejoindre l'espace, sauf s'il est invité.",
+  changeToViewOnly: "Changer en espace en lecture seule",
 };
 
 export default fr as Translations;

@@ -2570,6 +2570,7 @@ const bs: Translations = {
   changeToViewOnlySpaceTitle: "Promijeni u prostor koji je samo za gledanje?",
   changeToViewOnlySpace:
     "Svi postojeći članovi ovog prostora će i dalje biti članovi nakon što se pretvori u prostor koji je samo za gledanje. Novi članovi se neće moći pridružiti, osim ako su pozvani.",
+  changeToViewOnly: "Promijeni u prostor koji je samo za gledanje",
 };
 
 export default bs;

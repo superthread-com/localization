@@ -2530,6 +2530,7 @@ const en = {
   changeToViewOnlySpaceTitle: "Change to view only space?",
   changeToViewOnlySpace:
     "All existing members of this space will still be members after it is made view only. No new members will be able to join unless they are invited.",
+  changeToViewOnly: "Change to view only",
 };
 
 export default en as Translations;
