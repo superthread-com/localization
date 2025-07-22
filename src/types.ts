@@ -2251,7 +2251,7 @@ export enum TranslationKeys {
   ThisSpaceIsViewOnly = "thisSpaceIsViewOnly",
   UpgradeViewOnlySpacesDescription = "upgradeViewOnlySpacesDescription",
   ChangeToViewOnlySpaceTitle = "changeToViewOnlySpaceTitle",
-  ChangeToViewOnlySpace = "changeToViewOnlySpace"
+  ChangeToViewOnlySpace = "changeToViewOnlySpace",
 }
 
 export type Translations = Record<TranslationKeys, string>;
