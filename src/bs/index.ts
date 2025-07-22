@@ -2555,6 +2555,18 @@ const bs: Translations = {
   securityAndAccess: "Sigurnost i pristup",
   securityAndAccessSubtitle:
     "Članovi radnog prostora mogu kreirati personalne pristupne tokene za interakciju sa API-jem. Admini ih mogu pregledati i opozvati ovdje.",
+  youOnlyHavePermissionToViewContent: "Možete vidjeti sadržaj samo u",
+  namedSpace: "%{space} prostoru",
+  contactEmailToRequestEditAccess:
+    "Kontaktirajte %{email} da biste zatražili pristup za uređivanje.",
+  viewOnly: "Samo za gledanje",
+  viewOnlySubtitle:
+    "Ljudi koji nisu dio prostora i članovi bez prava uređivanja imaju samo pristup za gledanje",
+  canEdit: "Može uređivati",
+  canView: "Može gledati",
+  thisSpaceIsViewOnly: "Ovaj prostor je samo za gledanje",
+  upgradeViewOnlySpacesDescription:
+    "Možete kreirati prostor koji je samo za gledanje na plaćenom planu.",
 };
 
 export default bs;

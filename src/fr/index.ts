@@ -2627,6 +2627,19 @@ const fr: Translations = {
   securityAndAccess: "Sécurité & accès",
   securityAndAccessSubtitle:
     "Les membres de l’espace de travail peuvent créer des jetons d’accès personnels pour interagir avec l’API Superthread. Les administrateurs peuvent les examiner et les révoquer ici.",
+  youOnlyHavePermissionToViewContent:
+    "Vous n'avez que le droit de voir le contenu dans l'",
+  namedSpace: "%{space} espace",
+  contactEmailToRequestEditAccess:
+    "Contactez %{email} pour demander un accès en édition.",
+  viewOnly: "Lecture seule",
+  viewOnlySubtitle:
+    "Les personnes qui ne sont pas membres de l'espace et les membres sans droits d'édition ont un accès en lecture seule",
+  canEdit: "Peut éditer",
+  canView: "Peut voir",
+  thisSpaceIsViewOnly: "Cet espace est en lecture seule",
+  upgradeViewOnlySpacesDescription:
+    "Vous pouvez créer des espaces en lecture seule sur un plan payant.",
 };
 
 export default fr as Translations;
