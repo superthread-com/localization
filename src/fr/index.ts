@@ -2640,6 +2640,9 @@ const fr: Translations = {
   thisSpaceIsViewOnly: "Cet espace est en lecture seule",
   upgradeViewOnlySpacesDescription:
     "Vous pouvez créer des espaces en lecture seule sur un plan payant.",
+  changeToViewOnlySpaceTitle: "Changer en espace en lecture seule ?",
+  changeToViewOnlySpace:
+    "Tous les membres existants de cet espace resteront membres après sa conversion en espace en lecture seule. Aucun nouveau membre ne pourra rejoindre l'espace, sauf s'il est invité.",
 };
 
 export default fr as Translations;

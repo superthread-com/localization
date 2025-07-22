@@ -2645,6 +2645,9 @@ const de = {
   thisSpaceIsViewOnly: "Dieser Arbeitsbereich ist nur ansehbar",
   upgradeViewOnlySpacesDescription:
     "Sie können Ansichts-nur-Raum auf einem bezahlten Plan erstellen.",
+  changeToViewOnlySpaceTitle: "In Ansichts-nur-Raum ändern?",
+  changeToViewOnlySpace:
+    "Alle bestehenden Mitglieder dieses Raums bleiben weiterhin Mitglieder, auch wenn er in einen Ansichts-nur-Raum umgewandelt wird. Neue Mitglieder können sich nicht anmelden, es sei denn, sie werden eingeladen.",
 };
 
 export default de as Translations;

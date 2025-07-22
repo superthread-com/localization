@@ -2567,6 +2567,9 @@ const pl = {
   thisSpaceIsViewOnly: "Ta przestrzeń jest tylko do odczytu",
   upgradeViewOnlySpacesDescription:
     "Możesz tworzyć przestrzenie tylko do odczytu na planie płatnym.",
+  changeToViewOnlySpaceTitle: "Zmień na przestrzeń tylko do odczytu?",
+  changeToViewOnlySpace:
+    "Wszystkie istniejące członkowie tej przestrzeni będą nadal członkami po jej zmianie na tylko do odczytu. Nowi członkowie nie będą mogli dołączyć, chyba że zostaną zaproszeni.",
 };
 
 export default pl as Translations;
