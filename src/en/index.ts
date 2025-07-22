@@ -2527,6 +2527,9 @@ const en = {
   thisSpaceIsViewOnly: "This space is view only",
   upgradeViewOnlySpacesDescription:
     "You can create view only spaces on a paid plan.",
+  changeToViewOnlySpaceTitle: "Change to view only space?",
+  changeToViewOnlySpace:
+    "All existing members of this space will still be members after it is made view only. No new members will be able to join unless they are invited.",
 };
 
 export default en as Translations;

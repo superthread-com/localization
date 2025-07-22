@@ -2567,6 +2567,9 @@ const bs: Translations = {
   thisSpaceIsViewOnly: "Ovaj prostor je samo za gledanje",
   upgradeViewOnlySpacesDescription:
     "Možete kreirati prostor koji je samo za gledanje na plaćenom planu.",
+  changeToViewOnlySpaceTitle: "Promijeni u prostor koji je samo za gledanje?",
+  changeToViewOnlySpace:
+    "Svi postojeći članovi ovog prostora će i dalje biti članovi nakon što se pretvori u prostor koji je samo za gledanje. Novi članovi se neće moći pridružiti, osim ako su pozvani.",
 };
 
 export default bs;
