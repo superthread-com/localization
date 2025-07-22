@@ -2555,7 +2555,7 @@ const bs: Translations = {
   securityAndAccess: "Sigurnost i pristup",
   securityAndAccessSubtitle:
     "Članovi radnog prostora mogu kreirati personalne pristupne tokene za interakciju sa API-jem. Admini ih mogu pregledati i opozvati ovdje.",
-  youOnlyHavePermissionToViewContent: "Možete vidjeti sadržaj samo u",
+  youOnlyHavePermissionToViewContent: "Imate dozvolu da samo gledate sadržaj u",
   namedSpace: "%{space} prostoru",
   contactEmailToRequestEditAccess:
     "Kontaktirajte %{email} da biste zatražili pristup za uređivanje.",
