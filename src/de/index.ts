@@ -2632,6 +2632,19 @@ const de = {
   securityAndAccess: "Sicherheit & Zugriff",
   securityAndAccessSubtitle:
     "Mitglieder des Arbeitsbereichs können persönliche Zugriffstokens erstellen, um mit der Superthread-API zu interagieren. Administratoren können sie hier überprüfen und widerrufen.",
+  youOnlyHavePermissionToViewContent:
+    "Sie haben nur die Berechtigung, Inhalte in der",
+  namedSpace: "%{space} Arbeitsbereich",
+  contactEmailToRequestEditAccess:
+    "Kontaktieren Sie %{email}, um Zugriff auf die Bearbeitung zu beantragen.",
+  viewOnly: "Nur ansehen",
+  viewOnlySubtitle:
+    "Personen, die keine Raummitglieder sind und Mitglieder ohne Bearbeitungsrechte haben nur Ansichtsrecht",
+  canEdit: "Kann bearbeiten",
+  canView: "Kann ansehen",
+  thisSpaceIsViewOnly: "Dieser Arbeitsbereich ist nur ansehbar",
+  upgradeViewOnlySpacesDescription:
+    "Sie können Ansichts-nur-Raum auf einem bezahlten Plan erstellen.",
 };
 
 export default de as Translations;

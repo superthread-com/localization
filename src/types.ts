@@ -2241,6 +2241,15 @@ export enum TranslationKeys {
   ExpirationReminderText = "expirationReminderText",
   SecurityAndAccess = "securityAndAccess",
   SecurityAndAccessSubtitle = "securityAndAccessSubtitle",
+  YouOnlyHavePermissionToViewContent = "youOnlyHavePermissionToViewContent",
+  NamedSpace = "namedSpace",
+  ContactEmailToRequestEditAccess = "contactEmailToRequestEditAccess",
+  ViewOnly = "viewOnly",
+  ViewOnlySubtitle = "viewOnlySubtitle",
+  CanEdit = "canEdit",
+  CanView = "canView",
+  ThisSpaceIsViewOnly = "thisSpaceIsViewOnly",
+  UpgradeViewOnlySpacesDescription = "upgradeViewOnlySpacesDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

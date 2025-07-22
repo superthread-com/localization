@@ -2554,6 +2554,19 @@ const pl = {
   securityAndAccess: "Bezpieczeństwo i dostęp",
   securityAndAccessSubtitle:
     "Członkowie przestrzeni roboczej mogą tworzyć osobiste tokeny dostępu do interakcji z API Superthread. Administratorzy mogą je tutaj przeglądać i cofać.",
+  youOnlyHavePermissionToViewContent:
+    "Masz tylko uprawnienia do przeglądania zawartości w",
+  namedSpace: "%{space} przestrzeni",
+  contactEmailToRequestEditAccess:
+    "Skontaktuj się z %{email} aby poprosić o dostęp do edycji.",
+  viewOnly: "Tylko do odczytu",
+  viewOnlySubtitle:
+    "Osoby, które nie są członkami przestrzeni i członkowie bez uprawnień do edycji mają dostęp tylko do odczytu",
+  canEdit: "Może edytować",
+  canView: "Może oglądać",
+  thisSpaceIsViewOnly: "Ta przestrzeń jest tylko do odczytu",
+  upgradeViewOnlySpacesDescription:
+    "Możesz tworzyć przestrzenie tylko do odczytu na planie płatnym.",
 };
 
 export default pl as Translations;

@@ -2515,6 +2515,18 @@ const en = {
   securityAndAccess: "Security & access",
   securityAndAccessSubtitle:
     "Members of the workspace can create personal access tokens to interact with the Superthread API. Admins can review and revoke them here.",
+  youOnlyHavePermissionToViewContent:
+    "You only have permission to view content in the",
+  namedSpace: "%{space} space",
+  contactEmailToRequestEditAccess: "Contact %{email} to request edit access.",
+  viewOnly: "View only",
+  viewOnlySubtitle:
+    "People who are not space members and members without edit rights have view only access",
+  canEdit: "Can edit",
+  canView: "Can view",
+  thisSpaceIsViewOnly: "This space is view only",
+  upgradeViewOnlySpacesDescription:
+    "You can create view only spaces on a paid plan.",
 };
 
 export default en as Translations;
