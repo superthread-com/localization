@@ -2526,6 +2526,8 @@ const bs: Translations = {
   searchPATs: "Pretraži tokene",
   noPATs: "Nema personalnih pristupnih tokena",
   noPATsSubtitle: "Možete kreirati personalni pristupni token iznad",
+  noPATsSubtitleAdmin:
+    'Možete kreirati personalni pristupni token sa "Pristup API-ju" ekrana',
   revokePatConfirmation:
     "Jeste li sigurni da želite opozvati token “%{patName}”?",
   lastUsed: "Zadnje korišten",

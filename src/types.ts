@@ -2218,6 +2218,7 @@ export enum TranslationKeys {
   SearchPATs = "searchPATs",
   NoPATs = "noPATs",
   NoPATsSubtitle = "noPATsSubtitle",
+  NoPATsSubtitleAdmin = "noPATsSubtitleAdmin",
   RevokePatConfirmation = "revokePatConfirmation",
   LastUsed = "lastUsed",
   RevokePatDescription = "revokePatDescription",

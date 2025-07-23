@@ -2488,6 +2488,8 @@ const en = {
   searchPATs: "Search tokens",
   noPATs: "No personal access tokens",
   noPATsSubtitle: "You can create a personal access token above",
+  noPATsSubtitleAdmin:
+    'You can create a personal access token from the "API access" screen',
   revokePatConfirmation: "Are you sure you want to revoke “%{patName}” token?",
   lastUsed: "Last used",
   revokePatDescription:

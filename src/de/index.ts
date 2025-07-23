@@ -2603,6 +2603,8 @@ const de = {
   searchPATs: "Tokens durchsuchen",
   noPATs: "Keine persönlichen Zugriffstokens",
   noPATsSubtitle: "Sie können oben ein persönliches Zugriffstoken erstellen",
+  noPATsSubtitleAdmin:
+    'Sie können ein persönliches Zugriffstoken von der "API-Zugriff" Seite erstellen',
   revokePatConfirmation:
     "Möchten Sie den Token “%{patName}” wirklich widerrufen?",
   lastUsed: "Zuletzt verwendet",
