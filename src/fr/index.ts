@@ -2599,6 +2599,8 @@ const fr: Translations = {
   searchPATs: "Rechercher des jetons",
   noPATs: "Aucun jeton d’accès personnel",
   noPATsSubtitle: "Vous pouvez créer un jeton d’accès personnel ci-dessus",
+  noPATsSubtitleAdmin:
+    "Vous pouvez créer un jeton d’accès personnel depuis l’écran « Accès API »",
   revokePatConfirmation:
     "Êtes-vous sûr de vouloir révoquer le jeton “%{patName}” ?",
   lastUsed: "Dernière utilisation",

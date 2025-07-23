@@ -2527,6 +2527,7 @@ const pl = {
   searchPATs: "Szukaj tokenów",
   noPATs: "Brak osobistych tokenów dostępu",
   noPATsSubtitle: "Możesz utworzyć token dostępu powyżej",
+  noPATsSubtitleAdmin: 'Możesz utworzyć token dostępu z ekranu "Dostęp do API"',
   revokePatConfirmation: "Czy na pewno chcesz unieważnić token “%{patName}”?",
   lastUsed: "Ostatnio używany",
   revokePatDescription:
