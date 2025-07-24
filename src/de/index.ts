@@ -2651,6 +2651,9 @@ const de = {
   changeToViewOnlySpace:
     "Alle bestehenden Mitglieder dieses Raums bleiben weiterhin Mitglieder, auch wenn er in einen Ansichts-nur-Raum umgewandelt wird. Neue Mitglieder können sich nicht anmelden, es sei denn, sie werden eingeladen.",
   changeToViewOnly: "In Ansichts-nur-Raum ändern",
+  completeSprint: "Sprint beenden",
+  completeSprintWarning:
+    "Alle unvollständigen Karten werden in den nächsten Sprint übertragen. Wenn es keinen nächsten Sprint gibt, wird automatisch ein neuer erstellt.",
 };
 
 export default de as Translations;

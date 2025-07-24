@@ -2572,6 +2572,9 @@ const pl = {
   changeToViewOnlySpace:
     "Wszystkie istniejące członkowie tej przestrzeni będą nadal członkami po jej zmianie na tylko do odczytu. Nowi członkowie nie będą mogli dołączyć, chyba że zostaną zaproszeni.",
   changeToViewOnly: "Zmień na przestrzeń tylko do odczytu",
+  completeSprint: "Zakończ sprint",
+  completeSprintWarning:
+    "Wszystkie niezakończone karty zostaną przeniesione do następnego sprinta. Jeśli nie ma nadchodzącego sprinta, zostanie automatycznie utworzony nowy.",
 };
 
 export default pl as Translations;

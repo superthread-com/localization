@@ -2646,6 +2646,9 @@ const fr: Translations = {
   changeToViewOnlySpace:
     "Tous les membres existants de cet espace resteront membres après sa conversion en espace en lecture seule. Aucun nouveau membre ne pourra rejoindre l'espace, sauf s'il est invité.",
   changeToViewOnly: "Changer en espace en lecture seule",
+  completeSprint: "Terminer le sprint",
+  completeSprintWarning:
+    "Toutes les cartes non terminées seront reportées dans le sprint suivant. Si aucun sprint suivant n'est prévu, un nouveau sprint sera créé automatiquement.",
 };
 
 export default fr as Translations;
