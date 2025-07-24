@@ -2573,6 +2573,9 @@ const bs: Translations = {
   changeToViewOnlySpace:
     "Svi postojeći članovi ovog prostora će i dalje biti članovi nakon što se pretvori u prostor koji je samo za gledanje. Novi članovi se neće moći pridružiti, osim ako su pozvani.",
   changeToViewOnly: "Promijeni u prostor koji je samo za gledanje",
+  completeSprint: "Završi sprint",
+  completeSprintWarning:
+    "Sve nezavršene kartice će biti prebacene u sljedeći sprint. Ako nema nadolazećeg sprinta, jedan će biti kreiran automatski.",
 };
 
 export default bs;

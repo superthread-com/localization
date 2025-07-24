@@ -2533,6 +2533,9 @@ const en = {
   changeToViewOnlySpace:
     "All existing members of this space will still be members after it is made view only. No new members will be able to join unless they are invited.",
   changeToViewOnly: "Change to view only",
+  completeSprint: "Complete sprint",
+  completeSprintWarning:
+    "All unfinished cards will be rolled-over into the next sprint. If there is no upcoming sprint, one will be created automatically.",
 };
 
 export default en as Translations;
