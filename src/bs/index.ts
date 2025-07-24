@@ -2576,6 +2576,8 @@ const bs: Translations = {
   completeSprint: "Završi sprint",
   completeSprintWarning:
     "Sve nezavršene kartice će biti prebacene u sljedeći sprint. Ako nema nadolazećeg sprinta, jedan će biti kreiran automatski.",
+  hideEmptyColumns: "Sakrij prazne kolone",
+  hideEmptyRows: "Sakrij prazne redove",
 };
 
 export default bs;

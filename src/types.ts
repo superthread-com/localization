@@ -2256,6 +2256,8 @@ export enum TranslationKeys {
   ChangeToViewOnly = "changeToViewOnly",
   CompleteSprint = "completeSprint",
   CompleteSprintWarning = "completeSprintWarning",
+  HideEmptyColumns = "hideEmptyColumns",
+  HideEmptyRows = "hideEmptyRows",
 }
 
 export type Translations = Record<TranslationKeys, string>;

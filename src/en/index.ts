@@ -2536,6 +2536,8 @@ const en = {
   completeSprint: "Complete sprint",
   completeSprintWarning:
     "All unfinished cards will be rolled-over into the next sprint. If there is no upcoming sprint, one will be created automatically.",
+  hideEmptyColumns: "Hide empty columns",
+  hideEmptyRows: "Hide empty rows",
 };
 
 export default en as Translations;

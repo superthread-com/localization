@@ -2654,6 +2654,8 @@ const de = {
   completeSprint: "Sprint beenden",
   completeSprintWarning:
     "Alle unvollständigen Karten werden in den nächsten Sprint übertragen. Wenn es keinen nächsten Sprint gibt, wird automatisch ein neuer erstellt.",
+  hideEmptyColumns: "Leere Spalten ausblenden",
+  hideEmptyRows: "Leere Zeilen ausblenden",
 };
 
 export default de as Translations;
