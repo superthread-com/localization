@@ -2575,6 +2575,8 @@ const pl = {
   completeSprint: "Zakończ sprint",
   completeSprintWarning:
     "Wszystkie niezakończone karty zostaną przeniesione do następnego sprinta. Jeśli nie ma nadchodzącego sprinta, zostanie automatycznie utworzony nowy.",
+  hideEmptyColumns: "Ukryj puste kolumny",
+  hideEmptyRows: "Ukryj puste wiersze",
 };
 
 export default pl as Translations;

@@ -2649,6 +2649,8 @@ const fr: Translations = {
   completeSprint: "Terminer le sprint",
   completeSprintWarning:
     "Toutes les cartes non terminées seront reportées dans le sprint suivant. Si aucun sprint suivant n'est prévu, un nouveau sprint sera créé automatiquement.",
+  hideEmptyColumns: "Masquer les colonnes vides",
+  hideEmptyRows: "Masquer les lignes vides",
 };
 
 export default fr as Translations;
