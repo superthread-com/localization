@@ -2580,6 +2580,7 @@ const pl = {
   rememberAssignees: "Pamiętaj przypisania",
   rememberAssigneesTooltip:
     "Zawsze używaj tych przypisań podczas tworzenia kart",
+  recentlyUsedBoards: "Ostatnio używane tablice",
 };
 
 export default pl as Translations;

@@ -2260,6 +2260,7 @@ export enum TranslationKeys {
   HideEmptyRows = "hideEmptyRows",
   RememberAssignees = "rememberAssignees",
   RememberAssigneesTooltip = "rememberAssigneesTooltip",
+  RecentlyUsedBoards = "recentlyUsedBoards",
 }
 
 export type Translations = Record<TranslationKeys, string>;
