@@ -2651,7 +2651,7 @@ const fr: Translations = {
     "Toutes les cartes non terminées seront reportées dans le sprint suivant. Si aucun sprint suivant n'est prévu, un nouveau sprint sera créé automatiquement.",
   hideEmptyColumns: "Masquer les colonnes vides",
   hideEmptyRows: "Masquer les lignes vides",
-  rememberAssignees: "Assignés à mémoriser",
+  rememberAssignees: "Assigné(s) à mémoriser",
   rememberAssigneesTooltip:
     "Toujours utiliser ces assignés lors de la création de cartes",
   recentlyUsedBoards: "Plateaux récemment utilisés",
