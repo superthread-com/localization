@@ -2538,7 +2538,7 @@ const en = {
     "All unfinished cards will be rolled-over into the next sprint. If there is no upcoming sprint, one will be created automatically.",
   hideEmptyColumns: "Hide empty columns",
   hideEmptyRows: "Hide empty rows",
-  rememberAssignees: "Remember assignees",
+  rememberAssignees: "Remember assignee(s)",
   rememberAssigneesTooltip: "Always use these assignees when creating cards",
   recentlyUsedBoards: "Recently used boards",
 };
