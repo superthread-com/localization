@@ -2577,6 +2577,9 @@ const pl = {
     "Wszystkie niezakończone karty zostaną przeniesione do następnego sprinta. Jeśli nie ma nadchodzącego sprinta, zostanie automatycznie utworzony nowy.",
   hideEmptyColumns: "Ukryj puste kolumny",
   hideEmptyRows: "Ukryj puste wiersze",
+  rememberAssignees: "Pamiętaj przypisania",
+  rememberAssigneesTooltip:
+    "Zawsze używaj tych przypisań podczas tworzenia kart",
 };
 
 export default pl as Translations;

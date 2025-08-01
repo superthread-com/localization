@@ -2578,6 +2578,8 @@ const bs: Translations = {
     "Sve nezavršene kartice će biti prebacene u sljedeći sprint. Ako nema nadolazećeg sprinta, jedan će biti kreiran automatski.",
   hideEmptyColumns: "Sakrij prazne kolone",
   hideEmptyRows: "Sakrij prazne redove",
+  rememberAssignees: "Zapamti dodeljene",
+  rememberAssigneesTooltip: "Uvijek koristi ove dodeljene kada kreiraš kartice",
 };
 
 export default bs;

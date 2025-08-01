@@ -2656,6 +2656,9 @@ const de = {
     "Alle unvollständigen Karten werden in den nächsten Sprint übertragen. Wenn es keinen nächsten Sprint gibt, wird automatisch ein neuer erstellt.",
   hideEmptyColumns: "Leere Spalten ausblenden",
   hideEmptyRows: "Leere Zeilen ausblenden",
+  rememberAssignees: "Zuweisungen merken",
+  rememberAssigneesTooltip:
+    "Verwende diese Zuweisungen immer, wenn du Karten erstellst",
 };
 
 export default de as Translations;
