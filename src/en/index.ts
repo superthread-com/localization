@@ -2540,6 +2540,7 @@ const en = {
   hideEmptyRows: "Hide empty rows",
   rememberAssignees: "Remember assignees",
   rememberAssigneesTooltip: "Always use these assignees when creating cards",
+  recentlyUsedBoards: "Recently used boards",
 };
 
 export default en as Translations;
