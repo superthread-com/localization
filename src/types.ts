@@ -2258,6 +2258,8 @@ export enum TranslationKeys {
   CompleteSprintWarning = "completeSprintWarning",
   HideEmptyColumns = "hideEmptyColumns",
   HideEmptyRows = "hideEmptyRows",
+  RememberAssignees = "rememberAssignees",
+  RememberAssigneesTooltip = "rememberAssigneesTooltip",
 }
 
 export type Translations = Record<TranslationKeys, string>;
