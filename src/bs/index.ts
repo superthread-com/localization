@@ -1115,6 +1115,7 @@ const bs: Translations = {
   ["billing.indexSharedPages"]:
     "Indeksirajte dijeljene stranice u pretraživačima",
   ["billing.privateSpaces"]: "Privatni prostori",
+  ["billing.viewOnlySpaces"]: "Prostori samo za gledanje",
   ["billing.timelineListAndBoardView"]: "Vremenske linija, lista i ploča",
   ["billing.guestAccounts"]: "Gost računi",
   ["billing.monthly"]: "Mjesečno",

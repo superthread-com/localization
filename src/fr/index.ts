@@ -31,6 +31,7 @@ const fr: Translations = {
   ["billing.indexSharedPages"]:
     "Indexer les pages partagées dans les moteurs de recherche",
   ["billing.privateSpaces"]: "Espaces privés",
+  ["billing.viewOnlySpaces"]: "Espaces en lecture seule",
   ["billing.timelineListAndBoardView"]: "Vue chronologique, liste et tableau",
   ["billing.guestAccounts"]: "Comptes d'invités",
   ["billing.monthly"]: "Mensuel",
