@@ -1505,9 +1505,6 @@ const en = {
   matchToAnExistingSTUser: "Match to an existing Superthread user",
   createANewUser: "Create a new user (email invite)",
   projectsCannotBeMovedToSpaces: "Projects cannot be moved to spaces",
-  // importEpics: "Import epics",
-  // importEpicsDesc:
-  //   "Epics will be imported in their own separate Superthread board called ‘Epics’.",
   importOpenStories: "Import open stories",
   importOpenStoriesDesc:
     "Unresolved or opened stories will be imported with thier existing states.",
