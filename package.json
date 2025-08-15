@@ -43,6 +43,13 @@
   "author": "@superthread-com",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.11.1"
-  }
+    "@actions/core": "^1.11.1",
+    "dotenv": "^17.2.1",
+    "openai": "^5.12.0"
+  },
+  "bugs": {
+    "url": "https://github.com/superthread-com/localization/issues"
+  },
+  "homepage": "https://github.com/superthread-com/localization#readme",
+  "keywords": []
 }
