@@ -583,8 +583,8 @@ const ptbr = {
   profile: "Perfil",
   settings: "Configurações",
   email: "Email",
-  firstNamePlaceholder: "Digite o primeiro nome",
-  lastNamePlaceholder: "Digite o sobrenome",
+  firstNamePlaceholder: "Digite seu nome",
+  lastNamePlaceholder: "Digite seu sobrenome",
   displayNamePlaceholder: "Digite o nome de exibição",
   profileBasicInfoSubtitle: "Informações pessoais e de contato",
   uploadProfileImageRule:
@@ -858,7 +858,7 @@ const ptbr = {
   pageDuplicateFailed: "Falha ao duplicar página",
   copyOf: "Cópia de",
   displayNameDescription:
-    "Este pode ser seu primeiro nome ou um apelido. Ele será exibido no aplicativo.",
+    "Este pode ser seu primeiro nome ou um apelido. Isso exibido no aplicativo.",
   embedVideo: "Incorporar vídeo do Youtube",
   removePullRequest: "Remover pull request",
   viewOnGitHub: "Ver no GitHub",
@@ -1431,7 +1431,7 @@ const ptbr = {
   removeFromCard: "Remover do cartão",
   displayName: "Nome de exibição",
   firstName: "Primeiro nome",
-  lastName: "Último nome",
+  lastName: "Sobrenome",
   update: "Atualizar",
   openSuperthread: "Abrir Superthread",
   infoNotification: "Notificação de informação",
@@ -2396,7 +2396,7 @@ const ptbr = {
   pageUsage: "Uso da página",
   pageUsageWarning:
     "Aviso: suas alterações podem não ser salvas se o uso atingir 100%. Considere criar subpáginas ou mover para uma nova página",
-  jobDescription: "Descrição do trabalho",
+  jobDescription: "Cargo",
   jobDescriptionPlaceholder: "Insira a descrição do trabalho",
   letPeopleKnowWhatYouDo:
     "Deixe as pessoas saberem o que você faz. Isso também ajuda o Superthread a criar notas aprimoradas mais relevantes.",
