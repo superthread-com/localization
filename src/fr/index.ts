@@ -2656,6 +2656,7 @@ const fr: Translations = {
   rememberAssigneesTooltip:
     "Toujours utiliser ces assignés lors de la création de cartes",
   recentlyUsedBoards: "Plateaux récemment utilisés",
+  recent: "Récent",
 };
 
 export default fr as Translations;

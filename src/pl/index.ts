@@ -2582,6 +2582,7 @@ const pl = {
   rememberAssigneesTooltip:
     "Zawsze używaj tych przypisań podczas tworzenia kart",
   recentlyUsedBoards: "Ostatnio używane tablice",
+  recent: "Ostatnie",
 };
 
 export default pl as Translations;

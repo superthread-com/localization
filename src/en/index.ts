@@ -2539,6 +2539,7 @@ const en = {
   rememberAssignees: "Remember assignee(s)",
   rememberAssigneesTooltip: "Always use these assignees when creating cards",
   recentlyUsedBoards: "Recently used boards",
+  recent: "Recent",
 };
 
 export default en as Translations;

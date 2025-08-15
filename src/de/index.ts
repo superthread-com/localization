@@ -2661,6 +2661,7 @@ const de = {
   rememberAssigneesTooltip:
     "Verwende diese Zuweisungen immer, wenn du Karten erstellst",
   recentlyUsedBoards: "Kürzlich verwendete Boards",
+  recent: "Kürzlich",
 };
 
 export default de as Translations;
