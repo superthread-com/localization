@@ -161,6 +161,7 @@ const en = {
   ["billing.unlimitedPages"]: "Unlimited pages",
   ["billing.indexSharedPages"]: "Index shared pages in search engines",
   ["billing.privateSpaces"]: "Private spaces",
+  ["billing.viewOnlySpaces"]: "View only spaces",
   ["billing.timelineListAndBoardView"]: "Timeline, list, & board view",
   ["billing.guestAccounts"]: "Guest accounts",
   ["billing.monthly"]: "Monthly",

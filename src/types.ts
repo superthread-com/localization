@@ -145,6 +145,7 @@ export enum TranslationKeys {
   BillingUnlimitedPages = "billing.unlimitedPages",
   BillingIndexSharedPages = "billing.indexSharedPages",
   BillingPrivateSpaces = "billing.privateSpaces",
+  BillingViewOnlySpaces = "billing.viewOnlySpaces",
   BillingTimelineListAndBoardView = "billing.timelineListAndBoardView",
   BillingGuestAccounts = "billing.guestAccounts",
   BillingMonthly = "billing.monthly",

@@ -157,6 +157,7 @@ const pl = {
   ["billing.unlimitedPages"]: "Nielimitowana liczba stron",
   ["billing.indexSharedPages"]: "Indeksuj udostępnione strony w wyszukiwarkach",
   ["billing.privateSpaces"]: "Prywatne przestrzenie",
+  ["billing.viewOnlySpaces"]: "Przestrzenie tylko do oglądania",
   ["billing.timelineListAndBoardView"]: "Widok listy osi czasu i tablicy",
   ["billing.guestAccounts"]: "Konta gości",
   ["billing.monthly"]: "Miesięcznie",
