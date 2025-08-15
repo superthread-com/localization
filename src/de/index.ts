@@ -163,6 +163,7 @@ const de = {
   ["billing.indexSharedPages"]:
     "Indexiere freigegebene Seiten in Suchmaschinen",
   ["billing.privateSpaces"]: "Private Räume",
+  ["billing.viewOnlySpaces"]: "Ansichts-nur-Raume",
   ["billing.timelineListAndBoardView"]: "Zeitachse, Liste & Board-Ansicht",
   ["billing.guestAccounts"]: "Gastkonten",
   ["billing.monthly"]: "Monatlich",
