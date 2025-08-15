@@ -2396,7 +2396,7 @@ const ptbr = {
   pageUsage: "Uso da página",
   pageUsageWarning:
     "Aviso: suas alterações podem não ser salvas se o uso atingir 100%. Considere criar subpáginas ou mover para uma nova página",
-  jobDescription: "Descrição do trabalho",
+  jobDescription: "Cargo",
   jobDescriptionPlaceholder: "Insira a descrição do trabalho",
   letPeopleKnowWhatYouDo:
     "Deixe as pessoas saberem o que você faz. Isso também ajuda o Superthread a criar notas aprimoradas mais relevantes.",
