@@ -2583,6 +2583,7 @@ const bs: Translations = {
   rememberAssigneesTooltip:
     "Uvijek koristi ove dodijeljene članove kada kreiraš kartice",
   recentlyUsedBoards: "Nedavno korištene ploče",
+  recent: "Nedavno",
 };
 
 export default bs;
