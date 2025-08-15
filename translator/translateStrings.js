@@ -1,15 +1,15 @@
-require('dotenv').config();
-const fs = require('fs');
-const path = require('path');
-const OpenAI = require('openai');
+require("dotenv").config();
+const fs = require("fs");
+const path = require("path");
+const OpenAI = require("openai");
 
 // ========== Configuration =========
 // Adjust these paths and settings as needed
 
-const TARGET_LANGUAGE = 'Brazilian Portuguese'; // Used in AI prompt for translation
-const LANGUAGE_CODE = 'ptbr'; // Used in the output typscript file and logging e.g. 'es' for Spanish, 'fr' for French
-const LINES_PER_CHUNK = 50;  // Batch size for AI translations, (1 most accurate, >1 faster)
-const INPUT_FILE = '../src/en/index.ts';
+const TARGET_LANGUAGE = "Brazilian Portuguese"; // Used in AI prompt for translation
+const LANGUAGE_CODE = "ptbr"; // Used in the output typscript file and logging e.g. 'es' for Spanish, 'fr' for French
+const LINES_PER_CHUNK = 50; // Batch size for AI translations, (1 most accurate, >1 faster)
+const INPUT_FILE = "../src/en/index.ts";
 const OUTPUT_FILE = `../src/${LANGUAGE_CODE}/translatedOutput.ts`;
 
 const openai = new OpenAI({
@@ -37,7 +37,8 @@ function extractStringsFromFile(content) {
   //   [key]: "value"
   //   Handles all quote styles and multiline template literals.
   //   Key can be [optionalBrackets.optionalQuotes.key]
-  const regex = /(?:\[?\s*(['"`])?([\w.\-]+)\1?\s*\]?)\s*:\s*(['"`])((?:\\.|(?!\3)[^\\])*?)\3/gms;
+  const regex =
+    /(?:\[?\s*(['"`])?([\w.\-]+)\1?\s*\]?)\s*:\s*(['"`])((?:\\.|(?!\3)[^\\])*?)\3/gms;
   let match;
   const strings = [];
   while ((match = regex.exec(content)) !== null) {
@@ -66,16 +67,16 @@ Do not translate code comments like // or /* comments */.
 Do not translate company names, brand names, prices, or technical abbreviations such as 'API' 'h1' or 'h2'.
 Return ONLY the translated strings, in the same order, one per line. Do NOT return the keys or quotes. Do not explain anything.
 
-${texts.join('\n')}
+${texts.join("\n")}
   `.trim();
 }
 
 // === FORCE ALL STRAIGHT QUOTES INSIDE TO CURLY ===
 function forceCurlyQuotesEverywhere(value) {
   // Replace all " with ” (curly double)
-  let fixed = value.replace(/"/g, '”');
+  let fixed = value.replace(/"/g, "”");
   // Replace all ' with ’ (curly single)
-  fixed = fixed.replace(/'/g, '’');
+  fixed = fixed.replace(/'/g, "’");
   return fixed;
 }
 
@@ -83,25 +84,32 @@ async function translateChunk(texts, chunkIndex) {
   const prompt = prepareBatchPrompt(texts);
   try {
     const response = await openai.chat.completions.create({
-      model: 'gpt-4o',
-      messages: [{ role: 'user', content: prompt }],
+      model: "gpt-4o",
+      messages: [{ role: "user", content: prompt }],
       temperature: 0.2,
       max_tokens: 2000,
     });
     const output = response.choices[0].message.content.trim();
-    let split = output.split('\n').map(l => l.trim());
+    let split = output.split("\n").map((l) => l.trim());
     if (split.length !== texts.length) {
-      console.warn(`Chunk ${chunkIndex}: expected ${texts.length} lines but got ${split.length}. Will keep originals for failed lines.`);
+      console.warn(
+        `Chunk ${chunkIndex}: expected ${texts.length} lines but got ${split.length}. Will keep originals for failed lines.`,
+      );
       while (split.length < texts.length) split.push(texts[split.length]);
     }
     // Force curly quotes for all translated strings
     for (let i = 0; i < split.length; i++) {
       split[i] = forceCurlyQuotesEverywhere(split[i]);
-      console.log(`EN: ${texts[i]}\n${LANGUAGE_CODE.toUpperCase()}: ${split[i]}\n---`);
+      console.log(
+        `EN: ${texts[i]}\n${LANGUAGE_CODE.toUpperCase()}: ${split[i]}\n---`,
+      );
     }
     return split;
   } catch (err) {
-    console.error(`Error in chunk ${chunkIndex}:`, err.response?.data || err.message);
+    console.error(
+      `Error in chunk ${chunkIndex}:`,
+      err.response?.data || err.message,
+    );
     return texts;
   }
 }
@@ -116,7 +124,10 @@ function replaceLanguageCode(code, fileContent) {
   // Replace const en = { (with or without spaces/tabs)
   let updated = fileContent.replace(/const\s+en\s*=\s*{/, `const ${code} = {`);
   // Replace export default en as Translations;
-  updated = updated.replace(/export\s+default\s+en\s+as\s+Translations;/, `export default ${code} as Translations;`);
+  updated = updated.replace(
+    /export\s+default\s+en\s+as\s+Translations;/,
+    `export default ${code} as Translations;`,
+  );
   return updated;
 }
 
@@ -124,7 +135,7 @@ function replaceLanguageCode(code, fileContent) {
 
 async function main() {
   const filePath = path.resolve(__dirname, INPUT_FILE);
-  let content = fs.readFileSync(filePath, 'utf8');
+  let content = fs.readFileSync(filePath, "utf8");
 
   const stringObjs = extractStringsFromFile(content);
 
@@ -133,8 +144,8 @@ async function main() {
   const chunked = chunkArray(stringObjs, LINES_PER_CHUNK);
   for (let i = 0; i < chunked.length; i++) {
     const group = chunked[i];
-    const texts = group.map(obj => obj.value);
-    const translations = await translateChunk(texts, i+1); // returns an array
+    const texts = group.map((obj) => obj.value);
+    const translations = await translateChunk(texts, i + 1); // returns an array
     translatedValues.push(...translations);
   }
 
@@ -144,15 +155,18 @@ async function main() {
     const translated = translatedValues[i];
     if (original.trim().length <= 2) continue; // Skip retry for short strings
     if (looksUntranslated(translated, original)) {
-      const retryPrompt = `
+      const retryPrompt =
+        `
 Translate this string from English to ${TARGET_LANGUAGE}, preserving placeholders like %{provider}, {name}, $variable, etc.
 If the string contains curly quotes (“ ” or ‘ ’) in the original, use curly quotes in the translated string as well. Do not translate company names, prices, of technical abbreviations such as 'API'.
 Return ONLY the translated string.
-      `.trim() + '\n' + original;
+      `.trim() +
+        "\n" +
+        original;
       try {
         const response = await openai.chat.completions.create({
-          model: 'gpt-4o',
-          messages: [{ role: 'user', content: retryPrompt }],
+          model: "gpt-4o",
+          messages: [{ role: "user", content: retryPrompt }],
           temperature: 0.2,
           max_tokens: 1500,
         });
@@ -163,7 +177,7 @@ Return ONLY the translated string.
         if (looksUntranslated(retryTranslation, original)) {
           console.log(`Still failed to translate: "${original}"`);
         } else {
-          console.log('Retry worked for:', original);
+          console.log("Retry worked for:", original);
         }
       } catch (err) {
         console.log(`Retry error for "${original}"`, err);
@@ -172,7 +186,7 @@ Return ONLY the translated string.
   }
 
   // 3. Replace in output by index, never skipping!
-  let output = '';
+  let output = "";
   let lastIndex = 0;
   for (let i = 0; i < stringObjs.length; i++) {
     const { start, end, quote, value } = stringObjs[i];
@@ -194,11 +208,11 @@ Return ONLY the translated string.
   const outputDir = path.dirname(path.resolve(__dirname, OUTPUT_FILE));
   fs.mkdirSync(outputDir, { recursive: true });
   output = replaceLanguageCode(LANGUAGE_CODE, output);
-  fs.writeFileSync(path.resolve(__dirname, OUTPUT_FILE), output, 'utf8');
-  console.log('Translation completed! Output written to', OUTPUT_FILE);
+  fs.writeFileSync(path.resolve(__dirname, OUTPUT_FILE), output, "utf8");
+  console.log("Translation completed! Output written to", OUTPUT_FILE);
 }
 
-main().catch(err => {
-  console.error('Error:', err);
+main().catch((err) => {
+  console.error("Error:", err);
   process.exit(1);
 });
