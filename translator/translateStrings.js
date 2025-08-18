@@ -6,8 +6,8 @@ const OpenAI = require("openai");
 // ========== Configuration =========
 // Adjust these paths and settings as needed
 
-const TARGET_LANGUAGE = "Brazilian Portuguese"; // Used in AI prompt for translation
-const LANGUAGE_CODE = "ptbr"; // Used in the output typscript file and logging e.g. 'es' for Spanish, 'fr' for French
+const TARGET_LANGUAGE = "Spanish"; // Used in AI prompt for translation
+const LANGUAGE_CODE = "es"; // Used in the output typscript file and logging e.g. 'es' for Spanish, 'fr' for French
 const LINES_PER_CHUNK = 50; // Batch size for AI translations, (1 most accurate, >1 faster)
 const INPUT_FILE = "../src/en/index.ts";
 const OUTPUT_FILE = `../src/${LANGUAGE_CODE}/translatedOutput.ts`;
