@@ -2,23 +2,25 @@ import { Translations } from "../types";
 
 const es = {
   // onboarding
-  inviteTeamMembersTo: "Invita a los miembros del equipo a tu espacio de trabajo",
+  inviteTeamMembersTo:
+    "Invita a los miembros del equipo a tu espacio de trabajo",
   loggingIn: "Iniciando sesión",
   defaultSpaceName: "General",
   onboardingSpaceName: "Bienvenido 👋",
-  loginCodeSendAgain: "Envía tu código de inicio de sesión de nuevo",
-  loginCodeResent: "Tu código de inicio de sesión ha sido enviado de nuevo.",
+  loginCodeSendAgain: "Envía tu código de inicio de sesión nuevamente",
+  loginCodeResent: "Tu código de inicio de sesión ha sido enviado nuevamente.",
   loginCodeError: "Código de verificación de inicio de sesión incorrecto.",
   loginCodeErrorSending:
     "Hubo un problema al enviar tu código de verificación de inicio de sesión.",
   loginCodeErrorExpired:
     "Tu verificación de inicio de sesión ha expirado, te hemos enviado otro.",
   loginCodeErrorRateLimited:
-    "Has hecho demasiados intentos, por favor intenta de nuevo más tarde.",
+    "Has hecho demasiados intentos, por favor intenta nuevamente más tarde.",
   pickAWorkspaceName: "Elige un nombre para el espacio de trabajo",
   creatingWorkspace: "Creando espacio de trabajo",
   createaSpace: "Crea un espacio",
-  subdomainExists: "Este nombre de espacio de trabajo ya está en uso. Por favor intenta con otro.",
+  subdomainExists:
+    "Este nombre de espacio de trabajo ya está en uso. Por favor intenta con otro.",
   emailLabel: "Tu dirección de correo electrónico",
   passwordLabel: "Contraseña",
   checkEmail: "Revisa tu correo electrónico",
@@ -30,10 +32,10 @@ const es = {
   checkInbox: "Por favor revisa tu bandeja de entrada.",
   teamName: "¿Cuál es el nombre de tu equipo?",
   workspaceNameLabel: "Nombre del espacio de trabajo",
-  workspaceNamePlaceHolder: "ej. Acme industries",
+  workspaceNamePlaceHolder: "por ejemplo, Acme industries",
   spaceNameLabel: "Nombre del espacio",
-  spaceNamePlaceHolder: "ej. web-shop",
-  min3Characters: "Mínimo 3 caracteres.",
+  spaceNamePlaceHolder: "por ejemplo, tienda-web",
+  min3Characters: "Mínimo 3 caracteres de longitud.",
   continueWithProvider: "Continuar con %{provider}",
   welcomeToSuperThread: "Bienvenido a Superthread",
   aWorkspaceIs:
@@ -43,8 +45,8 @@ const es = {
   LoginCode: "Código de inicio de sesión",
   enterLoginCode: "Ingresa el código de inicio de sesión",
   continueWithEmail: "Continuar con Email",
-  registerProvider: "Regístrate con %{provider}",
-  onboardingEmailPlaceholder: "tú@example.com",
+  registerProvider: "Registrarse con %{provider}",
+  onboardingEmailPlaceholder: "tu@ejemplo.com",
   // cards
   cardsLayoutList: "Lista",
   cardsLayoutBoard: "Tablero",
@@ -76,7 +78,7 @@ const es = {
   "slash.display.mention": "Mención",
   "slash.display.codeBlock": "Bloque de código",
   "slash.display.board": "Tablero",
-  "slash.display.callout": "Llamada de atención",
+  "slash.display.callout": "Llamada",
   "slash.search.image": "imagen",
   "slash.search.youtube": "video de youtube",
   "slash.search.checklist": "lista de verificación",
@@ -133,7 +135,7 @@ const es = {
   "editor.uploading": "Subiendo",
   "editor.genericFileError": "Tu archivo no pudo ser subido.",
   // billing
-  ["billing.unlimitedMembers"]: "Miembros de equipo ilimitados",
+  ["billing.unlimitedMembers"]: "Miembros ilimitados del equipo",
   ["billing.unlimitedSpaces"]: "Espacios ilimitados",
   ["billing.unlimitedBoards"]: "Tableros ilimitados",
   ["billing.unlimitedCardsAndPages"]: "Tarjetas y páginas ilimitadas",
@@ -159,10 +161,12 @@ const es = {
   ["billing.sharePagesOnTheWeb"]: "Compartir páginas en la web",
   ["billing.50Pages"]: "50 páginas",
   ["billing.unlimitedPages"]: "Páginas ilimitadas",
-  ["billing.indexSharedPages"]: "Indexar páginas compartidas en motores de búsqueda",
+  ["billing.indexSharedPages"]:
+    "Indexar páginas compartidas en motores de búsqueda",
   ["billing.privateSpaces"]: "Espacios privados",
   ["billing.viewOnlySpaces"]: "Espacios solo de visualización",
-  ["billing.timelineListAndBoardView"]: "Vista de línea de tiempo, lista y tablero",
+  ["billing.timelineListAndBoardView"]:
+    "Vista de línea de tiempo, lista y tablero",
   ["billing.guestAccounts"]: "Cuentas de invitados",
   ["billing.monthly"]: "Mensual",
   ["billing.yearly"]: "Anual (-20%)",
@@ -174,14 +178,15 @@ const es = {
   ["billing.billing"]: "Facturación",
   ["billing.planAndBilling"]: "Plan y Facturación",
   ["billing.paymentMethod"]: "Método de pago",
-  ["billing.cardEndingIn"]: "%{cardType} terminando en %{last4}",
+  ["billing.cardEndingIn"]: "%{cardType} terminada en %{last4}",
   ["billing.manageBillingDetails"]: "Gestionar detalles de facturación",
   ["billing.viewBillingDetails"]: "Ver detalles de facturación",
   ["billing.updatePaymentDetails"]: "Actualizar detalles de pago",
   ["billing.sendNewInvoicesTo"]: "Enviar nuevas facturas a",
   ["billing.previousInvoices"]: "Facturas anteriores",
-  ["billing.plan"]: "Planificar",
-  ["billing.manageWhichPlan"]: "Gestionar qué plan usa el espacio de trabajo",
+  ["billing.plan"]: "Plan",
+  ["billing.manageWhichPlan"]:
+    "Gestionar qué plan utiliza el espacio de trabajo",
   ["billing.standard"]: "Estándar",
   ["billing.changePlan"]: "Cambiar plan",
   ["billing.free"]: "Gratis",
@@ -193,12 +198,11 @@ const es = {
   ["billing.upgradePlan"]: "Mejorar a este plan",
   ["billing.downgradePlan"]: "Degradar a este plan",
   ["billing.downgradeToFree"]: "Degradar a gratis",
-  ["billing.viewYourPaymentMethodInStripe"]:
-    "Ver tu método de pago en Stripe",
+  ["billing.viewYourPaymentMethodInStripe"]: "Ver tu método de pago en Stripe",
   ["billing.weBillTheWorkspacePayment"]:
     "Cobramos al método de pago del espacio de trabajo cuando se acepta una invitación.",
   ["billing.checkThePlanPanel"]:
-    "Consulta el panel del plan para una estimación de costo por asiento.",
+    "Consulta el panel del plan para una estimación del costo por asiento.",
   ["billing.12"]: "$12",
   ["billing.10"]: "$10",
   ["billing.dollarPrice"]: "$%{price}",
@@ -219,13 +223,13 @@ const es = {
   ["billing.planStatus"]: "Estado del plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Tu plan actual no está configurado para renovarse",
-  ["billing.on"]: "Encendido",
+  ["billing.on"]: "Activado",
   ["billing.dateYourWorkspaceWillDowngrade"]:
     "tu espacio de trabajo se degradará al plan Gratis. Hasta entonces, aún puedes invitar a personas a este espacio de trabajo, pero no podrás exceder",
   ["billing.workspaceMembers"]: "miembros del espacio de trabajo",
-  ["billing.turnRenewalBackOn"]: "Reactivar renovación",
+  ["billing.turnRenewalBackOn"]: "Reactivar la renovación",
   ["billing.youCanStillInvite"]:
-    "Aún puedes invitar a personas a este espacio de trabajo, pero no puedes exceder",
+    "Aún puedes invitar personas a este espacio de trabajo, pero no puedes exceder",
   ["billing.workspaceFullError"]:
     "Límite de miembros del espacio de trabajo alcanzado. Un administrador del espacio de trabajo puede aumentarlo.",
   ["billing.genericJoinError"]: "No se pudo unir al espacio de trabajo.",
@@ -246,11 +250,12 @@ const es = {
   ["billing.views"]: "Vistas",
   ["billing.timelineLayout"]: "Diseño de línea de tiempo",
   ["billing.liveChatSupport"]: "Soporte de chat en vivo",
-  ["billing.guestsUsersAreFree"]: "Los usuarios invitados son gratuitos en tu plan actual.",
+  ["billing.guestsUsersAreFree"]:
+    "Los usuarios invitados son gratuitos en tu plan actual.",
   ["billing.newMembersAreBilledProRata"]:
     "Los nuevos miembros se facturan prorrateados por el resto de tu ciclo de facturación anual.",
   ["billing.workspacePaymentMethodWillBeCharged"]:
-    "El método de pago del espacio de trabajo se cargará al final del mes en que se unan.",
+    "El método de pago del espacio de trabajo se cobrará al final del mes en que se unan.",
   ["billing.learnModeAboutBilling"]: "Aprende más sobre facturación",
   ["billing.guestViewOnly"]: "Invitado – solo vista",
   ["billing.daysLeftOnTrial_one"]: "Queda %{count} día de prueba",
@@ -288,7 +293,7 @@ const es = {
   ["search.message.noResults"]: "No encontrado",
   ["global.text.discardDraft"]: "Descartar borrador",
   switchAccount: "Cambiar cuenta",
-  all: "Todo",
+  all: "Todos",
   search: "Buscar",
   searchPlaceholder: "Buscar o hacer una pregunta...",
   close: "Cerrar",
@@ -312,7 +317,7 @@ const es = {
   enterBoardTitle: "Título del tablero",
   create: "Crear",
   join: "Unirse",
-  couldntJoinSpace: "No se pudo unir al espacio, intente de nuevo más tarde.",
+  couldntJoinSpace: "No se pudo unir al espacio, inténtalo de nuevo más tarde.",
   untitled: "Sin título",
   containsNoContent: "No contiene contenido.",
   ama: "AMA",
@@ -322,9 +327,9 @@ const es = {
   visited: "Visitado",
   saved: "Guardado",
   notifications: "Notificaciones",
-  selectWhereWwhenWillNotified: "Elige cómo quieres ser notificado",
+  selectWhereWwhenWillNotified: "Elige cómo deseas ser notificado",
   recivePersonalNotification: "Recibir notificaciones personales en Slack",
-  notifyMe: "Notifícame cuando",
+  notifyMe: "Notificarme cuando",
   save: "Guardar",
   saveChanges: "Guardar cambios",
   archived: "Archivado",
@@ -350,7 +355,8 @@ const es = {
   project: "espacio",
   spaces: "Espacios",
   teamId: "id del equipo",
-  deleteCommentPopupMessage: "¿Estás seguro de que deseas eliminar este comentario?",
+  deleteCommentPopupMessage:
+    "¿Estás seguro de que deseas eliminar este comentario?",
   deleteMessage: "Eliminar comentario",
   archiveResource: "Archivar %{type}",
   restoreResource: "Restaurar %{type}",
@@ -362,11 +368,12 @@ const es = {
   archiveError: "No se pudo archivar %{name} %{type}",
   restoreError: "No se pudo restaurar %{name} %{type}",
   addLink: "Agregar enlace",
-  couldntDeleteComment: "No se pudo eliminar el comentario, por favor intenta de nuevo",
+  couldntDeleteComment:
+    "No se pudo eliminar el comentario, por favor inténtalo de nuevo",
   couldntLoadComments: "No se pudieron cargar los comentarios.",
   commentOnPage: "Comentar en la página",
   commentOn: "Comentar en",
-  emailPlaceholder: "p.ej. tu@ejemplo.com",
+  emailPlaceholder: "p.ej. tu@example.com",
   signOut: "Cerrar sesión",
   leave: "Salir",
   browseAllSpaces: "Explorar todos los espacios",
@@ -376,7 +383,7 @@ const es = {
   zoomOut: "Alejar",
   notFoundPageHeader: "Ha habido un problema...",
   notFoundPageContent:
-    "No estamos muy seguros de qué salió mal. Puedes regresar, o intentar buscar en nuestro Centro de Ayuda si necesitas una mano.",
+    "No estamos muy seguros de qué salió mal. Puedes regresar, o intentar buscar en nuestro Centro de Ayuda si necesitas ayuda.",
   addCard: "Agregar tarjeta",
   addProject: "Agregar proyecto",
   next: "Siguiente",
@@ -403,10 +410,11 @@ const es = {
   hideAllCards: "Ocultar todas las tarjetas",
   showWeekends: "Mostrar fines de semana",
   youCanCreateATemplateAbove: "Puedes crear una plantilla arriba",
-  youCanCreateABoardFrom: "Puedes crear un tablero desde la barra lateral de la aplicación",
+  youCanCreateABoardFrom:
+    "Puedes crear un tablero desde la barra lateral de la aplicación",
   createPageTemplate: "Crear plantilla de página",
   editPageTemplate: "Editar plantilla de página",
-  templateNameAndIcon: "Nombre e ícono de la plantilla",
+  templateNameAndIcon: "Nombre e icono de la plantilla",
   thisIsHowPeopleFindTemplate:
     "Así es como la gente encontrará tu plantilla más tarde",
   shortAndDescriptive: "Corto y descriptivo",
@@ -436,23 +444,25 @@ const es = {
   chooseABoard: "Elige un tablero",
   chooseABoardToUseThisField: "Elige un tablero para usar este campo",
   ifYouLeaveThisPageAnyChangesWillBeLost:
-    "Si abandonas esta página, se perderán los cambios que hayas hecho en esta plantilla.",
-  uploadFailedClickToRetry: "La carga falló, haz clic para reintentar",
+    "Si sales de esta página, se perderán los cambios que hayas hecho en esta plantilla.",
+  uploadFailedClickToRetry: "Carga fallida, haz clic para reintentar",
   areYouSureYouWantToDeleteTheTemplate:
-    '¿Estás seguro de que deseas eliminar la plantilla ”%{templateName}”?',
+    "¿Estás seguro de que deseas eliminar la plantilla ”%{templateName}”?",
   applyTemplate: "Aplicar plantilla",
   noTemplates: "No hay plantillas.",
   manageTemplates: "Gestionar plantillas",
-  uploadFilesForTemplatesIsDisabled: "Las cargas de archivos están deshabilitadas en las plantillas",
+  uploadFilesForTemplatesIsDisabled:
+    "Las cargas de archivos están deshabilitadas en las plantillas",
   uploadFilesIsDisabled: "Las cargas de archivos están deshabilitadas",
   noTagsFoundSelectBoardToSeeTags:
     "No se encontraron etiquetas. Selecciona un tablero para ver las etiquetas disponibles en ese espacio, o",
-  createNewWorkspaceTagInSettings: "crea una nueva etiqueta de espacio de trabajo en la configuración.",
+  createNewWorkspaceTagInSettings:
+    "crea una nueva etiqueta de espacio de trabajo en la configuración.",
   noTitle: "Sin título",
   addChecklist: "Agregar lista de verificación",
   title: "Título",
-  add: "Agregar",
-  addItem: "Agregar nuevo elemento",
+  add: "Añadir",
+  addItem: "Añadir nuevo elemento",
   archiveList: "Archivar lista",
   actions: "Acciones",
   reply: "Responder...",
@@ -478,17 +488,17 @@ const es = {
   paste_image_link: "Pegar enlace de imagen",
   embed_image: "Insertar imagen",
   drag_and_drop: "Arrastrar y soltar",
-  supported_files: "Archivos compatibles",
+  supported_files: "Archivos soportados",
   maximum_size: "Tamaño máximo",
   createNewPage: "Crear nueva página",
   createNewBoard: "Crear nuevo tablero",
   newPage: "Nueva página",
-  addNewPage: "Agregar nueva página",
+  addNewPage: "Añadir nueva página",
   newBoard: "Nuevo tablero",
-  addNewBoard: "Agregar nuevo tablero",
+  addNewBoard: "Añadir nuevo tablero",
   oneColumn: "1 columna",
   twoColumns: "2 columnas",
-  previewStillUpdating: "La vista previa sigue actualizándose...",
+  previewStillUpdating: "Vista previa aún actualizándose...",
   emptyPage: "Página vacía",
   searchSuperthread: "Buscar en Superthread",
   attachFrom: "Adjuntar desde...",
@@ -549,12 +559,16 @@ const es = {
   cardsAddedTo: "Tarjetas únicas añadidas a",
   between: "entre",
   deletedCards: "Las tarjetas eliminadas reducen el conteo",
-  moreCardsAddedThanFinished: "%{number} más tarjetas fueron añadidas que terminadas",
+  moreCardsAddedThanFinished:
+    "%{number} más tarjetas fueron añadidas que terminadas",
   sameNumberOfCardsAddedAndFinished:
-    "Se añadieron y terminaron la misma cantidad de tarjetas",
-  moreCardsFinishedThanAdded: "%{number} más tarjetas fueron terminadas que añadidas",
-  oneMoreCardAddedThanFinished: "Se añadió 1 tarjeta más de las que se terminaron",
-  oneMoreCardFinishedThanAdded: "Se terminó 1 tarjeta más de las que se añadieron",
+    "Se añadieron y terminaron el mismo número de tarjetas",
+  moreCardsFinishedThanAdded:
+    "%{number} más tarjetas fueron terminadas que añadidas",
+  oneMoreCardAddedThanFinished:
+    "Se añadió 1 tarjeta más de las que se terminaron",
+  oneMoreCardFinishedThanAdded:
+    "Se terminó 1 tarjeta más de las que se añadieron",
   convertToCard: "Convertir a tarjeta",
   searchForTag: "Buscar etiqueta",
   createTag: "Crear etiqueta",
@@ -568,13 +582,14 @@ const es = {
   profile: "Perfil",
   settings: "Configuración",
   email: "Correo electrónico",
-  firstNamePlaceholder: "Ingrese el primer nombre",
+  firstNamePlaceholder: "Ingrese el nombre",
   lastNamePlaceholder: "Ingrese el apellido",
   displayNamePlaceholder: "Ingrese el nombre para mostrar",
   profileBasicInfoSubtitle: "Información personal y de contacto",
   uploadProfileImageRule:
-    "La imagen debe ser en formato PNG, GIF o JPG y no mayor a 3MB. Esto se mostrará como tu avatar en toda la aplicación.",
-  workspaceLogo: "Elige un logo para el espacio de trabajo. El tamaño recomendado es 256x256px",
+    "La imagen debe ser en formato PNG, GIF o JPG y no mayor de 3MB. Esto se mostrará como tu avatar en toda la aplicación.",
+  workspaceLogo:
+    "Elige un logo para el espacio de trabajo. El tamaño recomendado es 256x256px",
   logoSaved: "Logo guardado",
   logoRemoved: "Logo eliminado",
   removeCover: "Eliminar portada",
@@ -609,20 +624,22 @@ const es = {
   overdue: "Atrasado",
   continue: "Continuar",
   createdBy: "Creado por",
-  press: "Presione",
+  press: "Presiona",
   toClose: "para cerrar",
   cards: "Tarjetas",
   on: "en",
-  useArrowKeys: "Usar las teclas de flecha",
-  toNavigate: "para navegar, seleccionar con",
+  useArrowKeys: "Usa las teclas de flecha",
+  toNavigate: "para navegar, selecciona con",
   sending: "Enviando enlace de invitación..",
   inviteDoesntExist: "El enlace de invitación no existe.",
   couldntResendLink: "No se pudo reenviar el enlace de invitación.",
-  newInviteLinkSent: "Te enviamos un nuevo enlace de invitación, por favor revisa tu correo electrónico.",
+  newInviteLinkSent:
+    "Te enviamos un nuevo enlace de invitación, por favor revisa tu correo electrónico.",
   inviteLinkAccepted: "El enlace de invitación ya fue aceptado.",
   inviteNoLongerValid:
     "El enlace de invitación ya no es válido. Por favor solicita un nuevo enlace de invitación.",
-  inviteCodeIncorrect: "Enlace de invitación incorrecto. Haz clic abajo para reenviar.",
+  inviteCodeIncorrect:
+    "Enlace de invitación incorrecto. Haz clic abajo para reenviar.",
   thereAreNoFreeSeatsForThisWorkspace:
     "No hay asientos libres para este espacio de trabajo",
   thisWorkspaceCantAcceptAnyMoreMembers:
@@ -691,7 +708,7 @@ const es = {
   cannotSaveUntitledView: "No se puede guardar la vista sin título",
   viewSaved: "vista guardada",
   pagePlaceholder: "Escribe algo...",
-  newViewTitele: "Título de nueva vista",
+  newViewTitele: "Nuevo título de vista",
   ["global.placeholder.pagePlaceholder"]: "Escribe algo...",
   ["global.placeholder.focusedStatePlaceholder"]:
     "@ para mencionar algo, / para comandos...",
@@ -705,7 +722,8 @@ const es = {
   cardPathArchivedBoard: "Esta tarjeta está en un tablero archivado",
   restoreMakeChange: "Haz clic aquí para restaurar",
   boardUpdated: "Tablero actualizado",
-  defaultBoardLayoutChangedTo: "Estilo de diseño predeterminado cambiado a %{layoutStyle}",
+  defaultBoardLayoutChangedTo:
+    "Estilo de diseño predeterminado cambiado a %{layoutStyle}",
   esc: "Esc",
   assignee: "Asignado",
   assignees: "Asignados",
@@ -714,7 +732,8 @@ const es = {
   inviteExternalPeople: "Invitar a personas externas",
   notInThisSpace: "No en este espacio",
   inThisSpace: "En este espacio",
-  notWorkspaceMember: "Esa persona aún no es miembro de este espacio de trabajo",
+  notWorkspaceMember:
+    "Esa persona aún no es miembro de este espacio de trabajo",
   anchorLinkErrorMessage: "No se pudo encontrar ese enlace",
   childCard: "Tarjeta hija",
   parentCards: "Tarjetas padre",
@@ -731,27 +750,29 @@ const es = {
   undo: "Deshacer",
   boardMovedToSpace: "Tablero movido al espacio",
   pageMovedToSpace: "Página movida al espacio",
-  boardNotMoved: "Movimiento de tablero cancelado.",
-  pageNotMoved: "Movimiento de página cancelado.",
+  boardNotMoved: "Movimiento del tablero cancelado.",
+  pageNotMoved: "Movimiento de la página cancelado.",
   newTag: "Nueva etiqueta",
   tagExists: "La etiqueta ya existe",
   toggleSection: "Alternar sección",
-  toggleContent: "Sección vacía. Haz clic para escribir o copiar contenido aquí.",
+  toggleContent:
+    "Sección vacía. Haga clic para escribir o copiar contenido aquí.",
   removeChildCardFail: "Error al eliminar la tarjeta hija",
   moveChildCardFail: "Error al mover la tarjeta hija",
   addChildCardFail: "Error al agregar la tarjeta hija",
   cantRemoveMembers: "No puedes eliminar miembros del espacio predeterminado",
   cantRemoveMembersFromSpace: "No puedes eliminar miembros de este espacio",
   cannotModifyMembers: "No tienes permiso para cambiar miembros",
-  inactiveMembersCannotBeAdded: "No se pueden agregar miembros inactivos a los espacios",
+  inactiveMembersCannotBeAdded:
+    "No se pueden agregar miembros inactivos a los espacios",
   duplicate: "Duplicar",
   setParentCard: "Establecer tarjeta padre",
   duplicateCard: "Duplicar tarjeta",
   duplicateBoard: "Duplicar tablero",
   duplicateBoardDescription:
-    "Cualquier tarjeta en este tablero no será duplicada. Elige un espacio y un nombre para el tablero duplicado.",
+    "Cualquier tarjeta en este tablero no será duplicada. Elija un espacio y un nombre para el tablero duplicado.",
   duplicateTo: "Duplicar a",
-  duplicateDefaultTitle: "Introduce un nuevo título (por defecto el original)",
+  duplicateDefaultTitle: "Ingrese nuevo título (por defecto al original)",
   duplicates: "Duplicados",
   duplicateOf: "Duplicado de",
   markAsBlockedBy: "Marcar como bloqueado por",
@@ -784,10 +805,11 @@ const es = {
   boardDuplicateFailed: "Error al duplicar el tablero",
   viewDuplicateFailed: "Error al duplicar la vista",
   cantUndoneAction: "Esta acción no se puede deshacer.",
-  eachSpaceCanContain: "Cada espacio puede contener tantos tableros como desees",
+  eachSpaceCanContain:
+    "Cada espacio puede contener tantos tableros como desees",
   browseSpaces: "Explorar espacios",
   popupSpaceDescription:
-    "Organiza el trabajo en espacios. Generalmente se nombran según un equipo, proyecto u objetivo de alto nivel.",
+    "Organiza el trabajo en espacios. Suelen nombrarse según un equipo, proyecto u objetivo de alto nivel.",
   eachSpaceCanContainMultiple: "Cada espacio puede contener múltiples",
   pagesLowercase: "páginas",
   kanbanBoards: "tableros kanban",
@@ -802,7 +824,8 @@ const es = {
   copyLink: "Copiar enlace",
   childCardTitleNotUpdated: "Título de la tarjeta hija no actualizado.",
   addNewChildCard: "Agregar nueva tarjeta hija",
-  enterCardTitleOrFind: "Ingresa el título de la tarjeta o encuentra tarjetas existentes",
+  enterCardTitleOrFind:
+    "Introduce el título de la tarjeta o encuentra tarjetas existentes",
   createNewCard: "Crear nueva tarjeta",
   unsplashImage: "Imagen de Unsplash",
   shareToWeb: "Compartir en la web",
@@ -811,8 +834,8 @@ const es = {
   shared: "Compartido",
   openSharedPage: "Abrir página compartida",
   pageIsSetToPrivate: "La página está configurada como privada",
-  profileSettings: "Configuración de perfil",
-  switchWorkspace: "Cambiar espacio de trabajo",
+  profileSettings: "Configuración del perfil",
+  switchWorkspace: "Cambiar de espacio de trabajo",
   archivedItems: "Elementos archivados",
   logOut: "Cerrar sesión",
   helpFeedback: "Ayuda y comentarios",
@@ -826,7 +849,8 @@ const es = {
   pageIsNoLongerShared: "La página ya no está compartida en la web",
   favourite: "Favorito",
   unfavourite: "No favorito",
-  allowSearchEngines: "Permitir que los motores de búsqueda indexen esta página",
+  allowSearchEngines:
+    "Permitir que los motores de búsqueda indexen esta página",
   searchEngineIndexing: "Indexación por motores de búsqueda",
   searchIndexingEnabled: "Indexación de búsqueda habilitada",
   searchIndexingDisabled: "Indexación de búsqueda deshabilitada",
@@ -837,14 +861,14 @@ const es = {
   pageDuplicateFailed: "Error al duplicar la página",
   copyOf: "Copia de",
   displayNameDescription:
-    "Esto podría ser tu nombre, o un apodo. Se mostrará en la aplicación.",
+    "Este podría ser tu nombre, o un apodo. Se mostrará en la aplicación.",
   embedVideo: "Insertar video de Youtube",
   removePullRequest: "Eliminar solicitud de extracción",
   viewOnGitHub: "Ver en GitHub",
   setUpGHIntegration: "Configurar integración con GitHub",
-  integrateSuperthread: "Integra Superthread en tu cliente git favorito.",
+  integrateSuperthread: "Integra Superthread en tu cliente de git favorito.",
   githubIntegradionDescripiton:
-    "Enlaza tarjetas de Superthread a solicitudes de extracción de GitHub. Incluye un ID de tarjeta de Superthread (por ejemplo, C-123) en el nombre de tu rama o en el título de la solicitud de extracción para mostrar automáticamente el estado del PR en la tarjeta.",
+    "Enlaza tarjetas de Superthread a solicitudes de extracción de GitHub. Incluye un ID de tarjeta de Superthread (por ejemplo, C-123) en el nombre de tu rama o título de la solicitud de extracción para mostrar automáticamente el estado del PR en la tarjeta.",
   connectGithub: "Conectar GitHub",
   connectedAccounts: "Cuentas conectadas",
   integrationConnectedToSuperthread:
@@ -870,8 +894,8 @@ const es = {
   runImport: "Ejecutar la importación",
   quickImport: "Importación rápida",
   importBoardIntoExsistingSpace: "Importación personalizada",
-  start: "Comenzar",
-  started: "Comenzado",
+  start: "Iniciar",
+  started: "Iniciado",
   DontImport: "No importar",
   map: "Mapear",
   dontImportUsers: "No importar usuarios",
@@ -881,7 +905,7 @@ const es = {
   inviteByEmail: "Invitar por correo electrónico",
   users: "Usuarios",
   options: "Opciones",
-  chooseAditionslOptions: "Elige opciones adicionales",
+  chooseAditionslOptions: "Elija opciones adicionales",
   importAttachments: "Importar archivos adjuntos",
   includeCardCoverImages: "Incluir imágenes de portada de tarjetas",
   importInProgress: "Importación en progreso",
@@ -893,22 +917,25 @@ const es = {
   showCompleted: "Mostrar completados",
   details: "Detalles",
   finish: "Finalizar",
-  validEmail: "Por favor, introduce una dirección de correo electrónico válida.",
+  validEmail:
+    "Por favor, introduce una dirección de correo electrónico válida.",
   emailAdresses: "Direcciones de correo electrónico, separadas por comas",
   person1Email: "persona1@example.com, persona2@example.com…",
-  addToSpaces: "Añadir a espacios",
-  addSpaces: "Añadir espacios",
+  addToSpaces: "Agregar a espacios",
+  addSpaces: "Agregar espacios",
   browseProjects: "Explorar todos los espacios",
   createAndBrowseSpaces: "Explorar y crear espacios",
   nameIsRequired: "Se requiere un nombre",
-  noProjectFound: "No hay más espacios para añadir",
-  memberExplanation: "Los miembros pueden explorar y unirse a cualquier espacio en el espacio de trabajo",
-  adminExplanation: "Los administradores tienen más acceso a la configuración del espacio de trabajo",
+  noProjectFound: "No hay más espacios para agregar",
+  memberExplanation:
+    "Los miembros pueden explorar y unirse a cualquier espacio en el espacio de trabajo",
+  adminExplanation:
+    "Los administradores tienen más acceso a la configuración del espacio de trabajo",
   guestExplanation:
-    "Los invitados tienen acceso limitado al espacio de trabajo y solo ven los espacios a los que están añadidos",
+    "Los invitados tienen acceso limitado al espacio de trabajo y solo ven los espacios a los que están agregados",
   connect: "Conectar",
-  selectBoardImport: "Seleccionar tableros que deseas importar",
-  selectUsersImport: "Seleccionar usuarios que deseas importar",
+  selectBoardImport: "Seleccionar los tableros que deseas importar",
+  selectUsersImport: "Seleccionar los usuarios que deseas importar",
   notImportArchivedIssues: "No importaremos problemas archivados.",
   importTasksIntoSuperthread: "Importa tus tareas existentes en Superthread.",
   connectAccount: "Conecta tu cuenta",
@@ -926,9 +953,11 @@ const es = {
   account: "Cuenta",
   importers: "Importadores",
   general: "General",
-  manageWorkspaceSettings: "Administrar configuraciones generales del espacio de trabajo",
+  manageWorkspaceSettings:
+    "Administrar la configuración general del espacio de trabajo",
   dangerZone: "Zona de peligro",
-  notOwnerOrAdmin: "No eres propietario ni administrador de este espacio de trabajo",
+  notOwnerOrAdmin:
+    "No eres propietario ni administrador de este espacio de trabajo",
   archiveWorkspace: "Archivar espacio de trabajo",
   archiveWorkspaceDescription:
     "Todos los miembros perderán acceso a un espacio de trabajo si se archiva. Cualquier contenido compartido públicamente seguirá estando disponible.",
@@ -942,7 +971,7 @@ const es = {
   avatarAppearance: "Apariencia del avatar",
   uploadImage: "Subir imagen",
   successfullySaved: "Guardado exitosamente",
-  errorSave: "Tus cambios no pudieron ser guardados",
+  errorSave: "Tus cambios no se pudieron guardar",
   copyURL: "Copiar URL",
   copyUrl: "Copiar URL al portapapeles",
   copyCardUrl: "Copiar URL de la tarjeta al portapapeles",
@@ -956,9 +985,9 @@ const es = {
   unsubscribe: "Darse de baja",
   pullRequestAutomation: "Automatización de pull request",
   prAutomationDescription:
-    "Mover tarjetas en Superthread cuando se actualicen pull requests en GitHub.",
+    "Mover tarjetas en Superthread cuando se actualizan pull requests en GitHub.",
   whenACardIsLinkedToPR: "Cuando una tarjeta está vinculada a un pull request",
-  whenPRTargetsTheBranch: "Cuando el pull request tiene como objetivo la rama",
+  whenPRTargetsTheBranch: "Cuando el pull request apunta a la rama",
   addBranchSpecificAutomation: "Agregar automatización específica de la rama",
   automationMustHaveBranchName:
     "Una automatización debe tener un nombre de rama. Estas reglas serán ignoradas.",
@@ -966,21 +995,24 @@ const es = {
     "Ya existe una automatización para ese nombre de rama. Estas reglas serán ignoradas.",
   invalidGitBranchName:
     "Ese no es un nombre de rama válido. Estas reglas serán ignoradas.",
-  branchSpecificAutomationAdded: "Automatización específica de la rama añadida.",
-  branchSpecificAutomationUpdated: "Automatización específica de la rama actualizada.",
-  branchSpecificAutomationRemoved: "Automatización específica de la rama eliminada.",
+  branchSpecificAutomationAdded:
+    "Automatización específica de la rama añadida.",
+  branchSpecificAutomationUpdated:
+    "Automatización específica de la rama actualizada.",
+  branchSpecificAutomationRemoved:
+    "Automatización específica de la rama eliminada.",
   deleteAutomation: "Eliminar automatización",
   deleteThisAutomation: "Eliminar esta automatización",
   deleteAutomationConfirmation:
-    "Este conjunto de reglas será eliminado y no se podrá recuperar.",
-  whenPRChangesTo: "Cuando el PR cambie a",
+    "Este conjunto de reglas se eliminará y no se podrá recuperar.",
+  whenPRChangesTo: "Cuando el PR cambia a",
   moveCardToList: "Mover tarjeta a la lista",
   doNotMove: "No mover",
-  draftPROpened: "PR de borrador abierto",
+  draftPROpened: "PR en borrador abierto",
   pROpened: "PR abierto",
   pRReviewRequest: "Solicitud de revisión de PR",
   pRMerged: "PR fusionado",
-  pRClosed: "PR cerrado",
+  pRClosed: "PR cerrada",
   noListInBoard: "No hay listas en este tablero",
   unassigned: "No asignado",
   viewParentCard: "Ver tarjeta principal",
@@ -989,7 +1021,8 @@ const es = {
   goToParentCard: "Ir a la tarjeta principal",
   discardAndClose: "Descartar y cerrar",
   changeStatus: "Cambiar estado",
-  createCardsInSelectedBoard: "Siempre crear tarjetas en el tablero seleccionado",
+  createCardsInSelectedBoard:
+    "Siempre crear tarjetas en el tablero seleccionado",
   createCardIn: "Crear tarjeta en",
   maxFileSize: "Tamaño máx. de archivo: 5MB",
   addAttachment: "Agregar adjunto",
@@ -1001,7 +1034,7 @@ const es = {
   cardComments: "Comentarios de la tarjeta",
   pageComments: "Comentarios de la página (incluyendo respuestas en hilos)",
   movedBetweenSpaces: "Movido a un espacio diferente",
-  addedToASpace: "Te agregó a un espacio",
+  addedToASpace: "Te añadió a un espacio",
   noduedate: "Sin fecha de vencimiento",
   ["now+2d"]: "2 días a partir de ahora",
   ["now+3d"]: "3 días a partir de ahora",
@@ -1030,20 +1063,22 @@ const es = {
   ["now-1y"]: "hace 1 año",
   anywhereYouAreMentioned:
     "En cualquier lugar donde se te mencione (independientemente del estado de suscripción, etc.)",
-  anyCommentsOnResources: "Cualquier comentario sobre recursos a los que estás suscrito.",
+  anyCommentsOnResources:
+    "Cualquier comentario sobre recursos a los que estás suscrito.",
   ifYouAreMemberOfABoard: "Si eres miembro de un tablero:",
   manageMembers: "Gestionar miembros",
   manageWhoHasAccess: "Gestionar quién tiene acceso a este espacio de trabajo",
   active: "Activo",
   suspended: "Suspendido",
-  inviteMembers: "Invitar miembros",
-  inviteToWorkspace: "Invitar personas al espacio de trabajo %{workspaceName}",
+  inviteMembers: "Invitar a miembros",
+  inviteToWorkspace:
+    "Invitar a personas al espacio de trabajo %{workspaceName}",
   emailAddress: "Dirección de correo electrónico",
   inviteAs: "Invitar como",
   teamMembers: "Miembros del equipo",
   gitHubConnected: "GitHub conectado con éxito",
   nothingToShow: "Nada que mostrar aquí",
-  findTagsOrCreateNew: "Encontrar etiquetas o crear nuevas",
+  findTagsOrCreateNew: "Buscar etiquetas o crear nuevas",
   deleteTag: "Eliminar etiqueta",
   addNewBoardOrPage: "Agregar nuevo tablero o página",
   spaceSettings: "Configuración del espacio",
@@ -1072,11 +1107,11 @@ const es = {
   transferOwnership: "Transferir propiedad",
   transferSpaceOwnershipConfirmed: "Propiedad del espacio transferida",
   transferSpaceOwnershipShort:
-    "Debes transferir la propiedad antes de poder irte",
+    "Debes transferir la propiedad antes de poder salir",
   transferSpaceOwnershipDescription:
     "Si haces a %{name} el propietario de este espacio, ya no serás el propietario y serás cambiado a miembro.",
   transferSpaceOwnershipBeforeLeaving:
-    "Debes hacer a otra persona el propietario de este espacio antes de poder dejarlo. Ve a la configuración del espacio para hacer a otra persona el propietario.",
+    "Debes hacer a alguien más el propietario de este espacio antes de poder salir de él. Ve a la configuración del espacio para hacer a alguien más el propietario.",
   confirm: "Confirmar",
   revoke: "Revocar",
   notFound: "No encontrado",
@@ -1110,14 +1145,17 @@ const es = {
   merge: "Fusionar",
   theSpace: "El espacio",
   haveSameTags: "tiene etiquetas con el mismo nombre.",
-  doYouWantToMerge: "¿Quieres fusionar estas en la nueva etiqueta del espacio de trabajo?",
-  tagWithThisNameWorkspace: "Ya existe una etiqueta de espacio de trabajo con este nombre",
+  doYouWantToMerge:
+    "¿Quieres fusionarlas en la nueva etiqueta del espacio de trabajo?",
+  tagWithThisNameWorkspace:
+    "Ya existe una etiqueta de espacio de trabajo con este nombre",
   tagWithThisNameSpace: "Ya existe una etiqueta con este nombre en el espacio",
   editTag: "Editar etiqueta",
   workspaceTags: "Etiquetas del espacio de trabajo",
   manageTags: "Administrar etiquetas que se comparten en todos los espacios",
   youCantUndo: "No puedes deshacer esta acción.",
-  merge2spaceTags: "¿Con el mismo nombre en la etiqueta del espacio de trabajo?",
+  merge2spaceTags:
+    "¿Con el mismo nombre en la etiqueta del espacio de trabajo?",
   areYouSureYouWantToDelete:
     "¿Estás seguro de que deseas eliminar el/la “%{resourceTitle}” %{resourceType}?",
   uploaded: "Subido",
@@ -1129,23 +1167,26 @@ const es = {
   cardDescription: "Descripción de la tarjeta...",
   editAsignees: "Editar asignados",
   actionFailed: "Acción fallida",
-  thisBoardIsEmpty: "Este tablero está vacío. Por favor, crea una lista primero.",
+  thisBoardIsEmpty:
+    "Este tablero está vacío. Por favor, crea una lista primero.",
   changesAreSavedAuto: "Cambios guardados automáticamente",
   untitledCard: "Tarjeta sin título",
   editAssignees: "Editar asignados",
   showChildCards: "Mostrar tarjetas secundarias",
   hideChildCards: "Ocultar tarjetas secundarias",
-  createAndManageSpaces: "Crear y administrar espacios",
+  createAndManageSpaces: "Crear y gestionar espacios",
   thereAreNoListInBoard: "No hay listas en el tablero.",
   pageMovedToParent: "Página movida al padre",
   subscribedToResourceUpdates: "Suscrito a las actualizaciones de %{name}",
-  unsubscribedFromResourceUpdates: "No suscrito de las actualizaciones de %{name}",
-  subscribingToResourceUpdatesFailed: "Error al suscribirse a las actualizaciones de %{name}",
+  unsubscribedFromResourceUpdates:
+    "No suscrito a las actualizaciones de %{name}",
+  subscribingToResourceUpdatesFailed:
+    "Error al suscribirse a las actualizaciones de %{name}",
   unsubscribingFromResourceUpdatesFailed:
-    "Error al cancelar la suscripción de las actualizaciones de %{name}",
+    "Error al cancelar la suscripción a las actualizaciones de %{name}",
   couldntArchiveCard: "No se pudo archivar la tarjeta.",
-  cardRestored: "La tarjeta se ha restaurado",
-  dueOn: "Para el",
+  cardRestored: "La tarjeta ha sido restaurada",
+  dueOn: "Fecha de vencimiento",
   today: "Hoy",
   yesterday: "Ayer",
   attached: "adjunto",
@@ -1173,7 +1214,8 @@ const es = {
   theEpicDescription: "la descripción del proyecto",
   theEpicTitle: "el título del proyecto",
   ["quickPage.title.attachImageFrom"]: "Adjuntar imagen desde...",
-  ["quickPage.title.attachCoverImageFrom"]: "Adjuntar imagen de portada desde...",
+  ["quickPage.title.attachCoverImageFrom"]:
+    "Adjuntar imagen de portada desde...",
   chooseWorkspaceToConnectIntegration:
     "Elige un espacio de trabajo para conectar con %{integrationName}",
   connectSuperthreadWith: "Conectar Superthread con %{integrationName}",
@@ -1188,11 +1230,11 @@ const es = {
   youMayBeSharing:
     "Puedes estar compartiendo información sensible con este sitio o aplicación. Siempre puedes ver o eliminar el acceso en tu",
   stSettings: "configuración de Superthread",
-  seeIntegration: "Ver de %{integrationName}",
+  seeIntegration: "Ver %{integrationName}’s",
   privacyPolicy: "Política de Privacidad",
   termsOfService: "Términos de Servicio",
   makeSureYouTrust: "Asegúrate de confiar en %{integrationName}",
-  integrationIsRequesting: "%{integrationName} está solicitando acceso al",
+  integrationIsRequesting: "%{integrationName} está solicitando acceso a la",
   previewStInSlack: "Previsualizar enlaces de Superthread en Slack",
   lookingForSlackNotifications: "¿Buscas notificaciones de Slack?",
   turnThemOnInYour: "Actívalas en tu",
@@ -1216,14 +1258,15 @@ const es = {
   deleted: "%{name} eliminado",
   leaveNamedSpace: "¿Dejar el espacio %{name}?",
   leaveNamedPrivateSpace: "¿Dejar el espacio privado %{name}?",
-  deleteAndLeaveNamedPrivateSpace: "¿Eliminar y dejar el espacio privado %{name}?",
+  deleteAndLeaveNamedPrivateSpace:
+    "¿Eliminar y dejar el espacio privado %{name}?",
   youLeftNamedSpace: "Dejaste el espacio %{name}.",
   youCannotLeaveTheSpace: "No puedes dejar este espacio",
   joinSpace: "Unirse al espacio",
   joinThisSpace: "Unirse a este espacio",
   hasUnsupportedFileType: "tiene un tipo de archivo no compatible",
-  maxAllowedImageSize: "El tamaño máximo permitido de la imagen es",
-  maxAllowedImageResolution: "La resolución máxima permitida de la imagen es",
+  maxAllowedImageSize: "El tamaño máximo permitido de imagen es",
+  maxAllowedImageResolution: "La resolución máxima permitida de imagen es",
   movedFromSpace: "movido del espacio",
   untitledPage: "Página sin título",
   hideChildPages: "Ocultar subpáginas",
@@ -1244,23 +1287,24 @@ const es = {
   addedSuccesfully: "añadido a favoritos",
   clickToUpdate: "Haz clic para actualizar",
   NewVersionAvailable: "Una nueva versión de la aplicación está disponible",
-  addedChildCard: "añadió tarjeta hija",
-  removedChildCard: "eliminó tarjeta hija",
-  removedChecklist: "eliminó lista de verificación",
-  addedChecklist: "creó lista de verificación",
-  addedChecklists: "creó listas de verificación",
+  addedChildCard: "tarjeta hija añadida",
+  removedChildCard: "tarjeta hija eliminada",
+  removedChecklist: "lista de verificación eliminada",
+  addedChecklist: "lista de verificación creada",
+  addedChecklists: "listas de verificación creadas",
   markedAsIncomplete: "marcado como incompleto",
   completedChecklistItem: "completado",
-  addedParentCard: "añadió tarjeta padre",
-  removedParentCard: "eliminó tarjeta padre",
-  changedParentCardFrom: "cambió tarjeta padre de",
+  addedParentCard: "tarjeta padre añadida",
+  removedParentCard: "tarjeta padre eliminada",
+  changedParentCardFrom: "tarjeta padre cambiada de",
   deleteFolder: "Eliminar carpeta",
   renameFolder: "Renombrar carpeta",
   lockSidebar: "Mantener la barra lateral abierta",
   hideSidebar: "Ocultar barra lateral",
   appearance: "Apariencia",
-  changeHowSuperthreadLooksAndFeels: "Cambiar cómo se ve y se siente Superthread",
-  matchSistemSettings: "Coincidir con la configuración del sistema",
+  changeHowSuperthreadLooksAndFeels:
+    "Cambiar cómo se ve y se siente Superthread",
+  matchSistemSettings: "Emparejar con la configuración del sistema",
   darkMode: "Modo oscuro",
   lightMode: "Modo claro",
   darkGreyMode: "Modo gris oscuro",
@@ -1296,22 +1340,24 @@ const es = {
   showUnresolved: "Mostrar no resueltos",
   showResolved: "Mostrar resueltos",
   noNotifications: "No hay notificaciones",
-  noNewNotifications: "No hay notificaciones nuevas",
+  noNewNotifications: "No hay nuevas notificaciones",
   noUnresolvedNotifications: "No hay notificaciones no resueltas",
   youCanShow: "Puedes mostrar",
   notificationsInstead: "notificaciones en su lugar",
   subscribeToGetNotifications:
-    "Suscríbete a algo y serás notificado de la actividad",
+    "Suscríbete a algo y se te notificará de la actividad",
   selectANotificationToViewIt: "Selecciona una notificación para verla",
   youCanMarkANotificationAs: "Puedes marcar una notificación como",
   unreadOr: "no leída o",
   resolveIt: "resolverla",
   inboxNotificationsAreUnresolved:
-    "Las notificaciones están no resueltas hasta que las resuelvas",
-  notificationsAreNew: "Las notificaciones son nuevas si no las has visto antes",
+    "Las notificaciones no están resueltas hasta que las resuelvas",
+  notificationsAreNew:
+    "Las notificaciones son nuevas si no las has visto antes",
   wantNotificationsIn: "¿Quieres notificaciones en",
   slaskQuestionMarkVisit: "Slack? Visita",
-  noCardsMatchChosenFilter: "No hay tarjetas que coincidan con los filtros elegidos",
+  noCardsMatchChosenFilter:
+    "No hay tarjetas que coincidan con los filtros elegidos",
   noCardsFound: "No se encontraron tarjetas",
   boardMoved: "Tablero movido",
   pageMoved: "Página movida",
@@ -1329,7 +1375,8 @@ const es = {
   privateSpace: "Espacio privado",
   everything: "Todo",
   taskIsOverdue: "La tarea está atrasada",
-  endDateIsBeforeStartDate: "La fecha de finalización es anterior a la fecha de inicio",
+  endDateIsBeforeStartDate:
+    "La fecha de finalización es anterior a la fecha de inicio",
   moveCardIntoBoard: "Tarjeta movida al tablero",
   inList: "en la lista",
   searchForParentCard: "Buscar tarjeta principal",
@@ -1344,7 +1391,8 @@ const es = {
   groupBy: "Agrupar por",
   subpageCreated: "Subpágina creada",
   tableOfContents: "Tabla de contenidos",
-  editWorkspaceTagsInSettings: "Editar etiquetas del espacio de trabajo en la configuración",
+  editWorkspaceTagsInSettings:
+    "Editar etiquetas del espacio de trabajo en la configuración",
   sideDocked: "Lateral acoplado",
   modalOverlay: "Superposición modal",
   cardLayout: "Diseño de tarjeta",
@@ -1357,8 +1405,10 @@ const es = {
   defaultBoardLayoutDescription:
     "Todos verán este diseño por defecto. Esta configuración se puede cambiar más tarde.",
   boardDescription: "Las tarjetas están agrupadas en columnas",
-  listDescription: "Las tarjetas están en una lista vertical, dividida en grupos",
-  timelineDescription: "Una línea de tiempo basada en las fechas de inicio y vencimiento",
+  listDescription:
+    "Las tarjetas están en una lista vertical, dividida en grupos",
+  timelineDescription:
+    "Una línea de tiempo basada en fechas de inicio y vencimiento",
   calendarDescription: "Las tarjetas se colocan en su fecha de vencimiento",
   boardName: "Nombre del tablero",
   memberRemoved: "Miembro eliminado",
@@ -1368,9 +1418,11 @@ const es = {
   largestEstimate: "Estimación más grande",
   STIsMostUseful: "Superthread es más útil cuando trabajas con otros.",
   readOnly: "Solo lectura",
-  boardWillNotShowOnPublicPage: "Este tablero no se mostrará en la página pública",
+  boardWillNotShowOnPublicPage:
+    "Este tablero no se mostrará en la página pública",
   removeBoard: "Eliminar tablero",
-  noSprints: "Los sprints se enumerarán aquí desde el más reciente hasta el más antiguo",
+  noSprints:
+    "Los sprints se enumerarán aquí desde el más reciente hasta el más antiguo",
   noNonSprintBoardsInThisSpace: "No hay tableros no sprint en este espacio",
   inviteToWorkspaceDescription:
     "Para agregar miembros existentes a un espacio, ve a la configuración del espacio",
@@ -1396,7 +1448,8 @@ const es = {
   errorNotification: "Notificación de error",
   alertNotification: "Notificación de alerta",
   successNotification: "Notificación de éxito",
-  SignInIntoExistingWorkspace: "Iniciar sesión en espacio de trabajo existente",
+  SignInIntoExistingWorkspace:
+    "Iniciar sesión en el espacio de trabajo existente",
   preferences: "Preferencias",
   pages: "Páginas",
   gridView: "Vista de cuadrícula",
@@ -1407,15 +1460,18 @@ const es = {
   or: "O",
   add_collaborators: "Agregar colaboradores",
   selectWorkspace: "Seleccionar un espacio de trabajo",
-  selectWorkspaceIntegrations: "Seleccionar un espacio de trabajo para la integración",
+  selectWorkspaceIntegrations:
+    "Seleccionar un espacio de trabajo para la integración",
   change: "Cambiar",
   createNewWorkspace: "Crear nuevo espacio de trabajo",
-  notSeeingYourWorkspace: "¿No ves tu espacio de trabajo? Prueba con un correo electrónico diferente:",
+  notSeeingYourWorkspace:
+    "¿No ves tu espacio de trabajo? Prueba con un correo electrónico diferente:",
   dismiss: "Descartar",
   load: "Cargar",
   youAlreadyHave: "Ya tienes",
   openBoard: "Abrir tablero",
-  cardCannotBeMovedDirectlyToSpace: "La tarjeta no se puede mover directamente al espacio.",
+  cardCannotBeMovedDirectlyToSpace:
+    "La tarjeta no se puede mover directamente al espacio.",
   clickToRename: "Haz clic para renombrar",
   info: "Información",
   clearAllFilters: "Limpiar todos los filtros",
@@ -1429,7 +1485,8 @@ const es = {
   newestFirst: "El más reciente primero",
   oldestFirst: "El más antiguo primero",
   pageCreated: "Página creada",
-  ["quickPage.label.setAsDefaultSpace"]: "Establecer como espacio predeterminado",
+  ["quickPage.label.setAsDefaultSpace"]:
+    "Establecer como espacio predeterminado",
   createNewList: "Crear nueva lista",
   enterListName: "Ingresar nombre de la lista",
   listStatus: "Estado de la lista",
@@ -1438,7 +1495,7 @@ const es = {
   you: "tú",
   cannotModidyListStatus:
     "No se puede modificar el estado de la lista cuando hay %{resourceType} añadidos",
-  onlineAgain: "Estás de nuevo en línea",
+  onlineAgain: "Estás de vuelta en línea",
   youAreOffline: "Estás sin conexión",
   exploring: "Explorando",
   deactivated: "desactivado",
@@ -1452,33 +1509,40 @@ const es = {
   electronOpenLinksInDesktopApp: "Abrir enlaces en la aplicación de escritorio",
   electronAutoOpenLinksInDesktopApp:
     "Abrir automáticamente enlaces de Superthread en la aplicación de escritorio",
-  electronCurrentLinkOpenedInApp: "El enlace actual se abrió en la aplicación de escritorio",
+  electronCurrentLinkOpenedInApp:
+    "El enlace actual se abrió en la aplicación de escritorio",
   electronAppIsInstalled: "Parece que tienes la aplicación instalada",
   electronUserMentioned: "te mencionó",
-  electronResourceMoved: "movió un",
-  electronMemberAdded: "te añadió a un",
-  electronMemberRemoved: "te eliminó de un",
+  electronResourceMoved: "movió un(a)",
+  electronMemberAdded: "te añadió a un(a)",
+  electronMemberRemoved: "te eliminó de un(a)",
   electronCommentAdded: "añadió un nuevo comentario",
-  electronResourceArchived: "archivó un",
+  electronResourceArchived: "archivó un(a)",
   electronUserReacted: "reaccionó:",
   results: "Resultados",
   tasks: "Tareas",
-  updateAppToEditPage: "Por favor, actualiza la aplicación para editar esta página",
+  updateAppToEditPage:
+    "Por favor, actualiza la aplicación para editar esta página",
   electronRecentlyViewed: "Visto recientemente",
   electronOpenDesktopApp: "Abrir la aplicación de escritorio",
   electronRedirectingToApp: "Redirigiendo a la aplicación de escritorio...",
-  updateAppToEditComment: "Por favor, actualiza la aplicación para editar este comentario",
-  updateAppToEditCard: "Por favor, actualiza la aplicación para editar esta tarjeta",
+  updateAppToEditComment:
+    "Por favor, actualiza la aplicación para editar este comentario",
+  updateAppToEditCard:
+    "Por favor, actualiza la aplicación para editar esta tarjeta",
   connectToImporter: "Conectar a %{importerName}",
   accessToken: "token de acceso",
   installationCloudHostname: "instalación / nombre de host en la nube",
-  findInYour: "Encuentra en tu",
-  emailAddressYouUseFor: "Dirección de correo electrónico utilizada para tu cuenta de %{importerName}",
-  selectWhich: "Selecciona cuál",
-  selectBoardsToImport: "Selecciona %{boardEq} del que deseas importar %{cardEq}",
+  findInYour: "Encontrar en tu",
+  emailAddressYouUseFor:
+    "Dirección de correo electrónico utilizada para tu cuenta de %{importerName}",
+  selectWhich: "Seleccionar cuál",
+  selectBoardsToImport:
+    "Selecciona %{boardEq} del que deseas importar %{cardEq}",
   importYourExistingNameToST:
     "Importa tu %{boardEq} existente de %{importerName} a Superthread",
-  jiraBoardMapingSubtitle: "Selecciona qué tableros deseas importar desde Jira.",
+  jiraBoardMapingSubtitle:
+    "Selecciona qué tableros deseas importar desde Jira.",
   trelloBoardMapingSubtitle:
     "Selecciona qué tableros deseas importar desde Trello.",
   shortcutBoardMapingSubtitle:
@@ -1495,9 +1559,9 @@ const es = {
     "Elige qué tableros importar y a qué espacios deben ser importados.",
   shortcutCustomImportText:
     "Elige qué tableros ‘team-workflow’ importar y a qué espacios deben ser importados.",
-  superthreadSpace: "Espacio de Superthread",
+  superthreadSpace: "Espacio Superthread",
   mapImporterUsersToSTUSers:
-    "Asocia usuarios de %{importerName} a usuarios de Superthread (o invita a los que faltan) para preservar miembros de tarjetas, creadores y actividad.",
+    "Asocia usuarios de %{importerName} a usuarios de Superthread (o invita a los que falten) para preservar miembros de tarjetas, creadores y actividad.",
   startImport: "Iniciar importación",
   wellLetYouKnowWhenImportFinishes:
     "Te informaremos cuando la importación termine",
@@ -1505,20 +1569,21 @@ const es = {
   dontImportThisUser: "No importar este usuario",
   matchToAnExistingSTUser: "Emparejar con un usuario existente de Superthread",
   createANewUser: "Crear un nuevo usuario (invitación por correo electrónico)",
-  projectsCannotBeMovedToSpaces: "Los proyectos no pueden ser movidos a espacios",
+  projectsCannotBeMovedToSpaces:
+    "Los proyectos no pueden ser movidos a espacios",
   importOpenStories: "Importar historias abiertas",
   importOpenStoriesDesc:
     "Las historias no resueltas o abiertas se importarán con sus estados existentes.",
   importStaleStories: "Importar historias obsoletas",
   importStaleStoriesDesc:
-    "Las historias que no se han abierto en más de 6 meses se consideran obsoletas. Se importarán al archivo y pueden desarchivarse más tarde.",
+    "Las historias que no se han abierto en más de 6 meses se consideran obsoletas. Se importarán al archivo y se podrán desarchivar más tarde.",
   wedLikeToTake: "Nos gustaría tomar",
   thirtySeconds: "30 segundos",
   toShowYouAround: "para mostrarte alrededor",
   getStarted: "Comenzar",
   youCanAlways:
     "Siempre puedes volver a visitar este tutorial desde la sección de ayuda en la barra lateral",
-  youreGoodToGo: "Estás listo para empezar.",
+  youreGoodToGo: "Estás listo para comenzar.",
   quickStart: "Tutorial de inicio rápido",
   getToKnow: "Conoce Superthread en 30 segundos",
   desktopApp: "Aplicación de escritorio",
@@ -1531,12 +1596,12 @@ const es = {
   addADescription: "Agregar una descripción",
   showingNumberOfSpaces:
     "Mostrando %{num} resultado de %{totalNum} espacios totales",
-  noResultsFoundFor: 'No se encontraron resultados para ”%{query}”',
+  noResultsFoundFor: "No se encontraron resultados para ”%{query}”",
   changeDescription: "Cambiar descripción",
   contents: "Contenidos",
   createSpaceSubtitle:
     "Los espacios contienen tableros, tareas y páginas relacionadas. Podrías tener un espacio por equipo o por área de negocio.",
-  spaceNameAndIcon: "Nombre e ícono del espacio",
+  spaceNameAndIcon: "Nombre e icono del espacio",
   somethingShortAndClear: "Algo corto y claro",
   youCanChangeThisLater: "Puedes cambiar esto más tarde",
   descritionOptional: "Descripción (opcional)",
@@ -1544,7 +1609,7 @@ const es = {
   addPeopleToSpaceOptional: "Agregar personas a este espacio (opcional)",
   addPeople: "Agregar personas",
   addPeopleSubtitle:
-    "Si invitas a personas que no son parte del espacio de trabajo %{workspaceName}, se añadirán a él.",
+    "Si invitas a personas que no son parte del espacio de trabajo %{workspaceName}, se agregarán a él.",
   openSpace: "Abrir espacio",
   openSpaceSubtitle:
     "Todos los miembros de tu espacio de trabajo pueden explorar y unirse a espacios abiertos",
@@ -1553,11 +1618,12 @@ const es = {
   inviteNewPeople: "Invitar a nuevas personas",
   inviteeEmailAddress: "Dirección de correo electrónico del invitado",
   inviteSectionSubtitle:
-    "Serán invitados a todo el espacio de trabajo, no solo a este espacio.",
-  couldntCreateSpace: "No se pudo crear el espacio, por favor intenta de nuevo.",
+    "Se les invitará a todo el espacio de trabajo, no solo a este espacio.",
+  couldntCreateSpace:
+    "No se pudo crear el espacio, por favor intenta de nuevo.",
   spaceCreated: "Espacio creado.",
-  emailAlreadyAdded: "Correo electrónico ya añadido",
-  addingSomeMembersFailed: "Error al añadir algunos miembros",
+  emailAlreadyAdded: "Correo electrónico ya agregado",
+  addingSomeMembersFailed: "Error al agregar algunos miembros",
   founder: "Fundador",
   director: "Director",
   teamLead: "Líder de equipo",
@@ -1578,7 +1644,7 @@ const es = {
   customerSupport: "Soporte al cliente",
   humanResources: "Recursos humanos",
   socialMedia: "Redes sociales",
-  wordOfMouth: "De boca en boca",
+  wordOfMouth: "Boca a boca",
   searchEngine: "Motor de búsqueda",
   advertising: "Publicidad",
   searchForSpaceOrBoard: "Buscar espacio o tablero",
@@ -1593,14 +1659,17 @@ const es = {
   ["memberNoResults.created"]: "No hay tarjetas creadas por %{userName}",
   newCard: "Nueva tarjeta",
   addedCommentHiddenByFilter: "El comentario añadido está oculto por el filtro",
-  createdCardHiddenByFilter: "La tarjeta creada puede estar oculta por el filtro",
+  createdCardHiddenByFilter:
+    "La tarjeta creada puede estar oculta por el filtro",
   viewWork: "Ver trabajo",
   removeFromSpace: "Eliminar del espacio",
   assignedInThisBoard: "Asignado en este tablero",
   layout: "Diseño",
-  createdCardMovedSortOrder: "La tarjeta creada puede ser movida por el orden de clasificación",
+  createdCardMovedSortOrder:
+    "La tarjeta creada puede ser movida por el orden de clasificación",
   createCardGroupBy: "Tarjeta añadida a %{list}.",
-  canNotMoveCardInsameBoard: "No se puede mover la tarjeta en el mismo tablero.",
+  canNotMoveCardInsameBoard:
+    "No se puede mover la tarjeta en el mismo tablero.",
   latestReply: "Última respuesta",
   replyLabel: "Responder",
   totalReplies: "respuestas totales",
@@ -1610,7 +1679,8 @@ const es = {
   showReplies: "Mostrar respuestas",
   oneReply: "responder",
   discardComment: "¿Descartar comentario?",
-  areYouSureYouWantToDiscard: "¿Estás seguro de que quieres descartar tu comentario?",
+  areYouSureYouWantToDiscard:
+    "¿Estás seguro de que quieres descartar tu comentario?",
   skipToEnd: "Saltar al final",
   priority: "Prioridad",
   noPriority: "Sin prioridad",
@@ -1621,8 +1691,8 @@ const es = {
   priorities: "Prioridades",
   changedThePriorityFrom: "cambió la prioridad de",
   changedTheEstimateFrom: "cambió la estimación de",
-  setThePriorityTo: "estableció la prioridad en",
-  setTheEstimateTo: "estableció la estimación en",
+  setThePriorityTo: "estableció la prioridad a",
+  setTheEstimateTo: "estableció la estimación a",
   removedTheEstimate: "eliminó la estimación",
   thereAreNoPages: "No hay páginas en este espacio.",
   createNewPageOrDrag:
@@ -1637,7 +1707,7 @@ const es = {
   noResultsForThatName: "No hay resultados para ese nombre",
   youCan: "Puedes",
   createASpace: "crear un espacio",
-  named: 'llamado ”%{query}”',
+  named: "llamado ”%{query}”",
   estimate: "Estimación",
   onePoint: "1 punto",
   numberOfPoints: "%{num} puntos",
@@ -1650,13 +1720,14 @@ const es = {
   settingsProjectsPreferencesSubtitle:
     "Estos ajustes afectarán a todos los miembros del espacio",
   howCardsAreEstimated: "Cómo se estiman las tarjetas en este espacio",
-  disableCardEstimationForThisSpace: "Desactivar la estimación de tarjetas para este espacio",
+  disableCardEstimationForThisSpace:
+    "Desactivar la estimación de tarjetas para este espacio",
   fibonacciPoints: "Puntos de Fibonacci",
   exponentialPoints: "Puntos exponenciales",
   tshirtSizes: "Tamaños de camiseta",
   setEstimate: "Establecer estimación",
   emailNotificationHelperText:
-    "Un correo electrónico cada día de la semana con notificaciones que no has visto desde el último correo",
+    "Un correo electrónico cada día laborable con notificaciones que no has visto desde el último correo",
   estimated: "estimado",
   cardSpaceEstimationTurnedOff:
     "Esta tarjeta pertenece a un espacio con la estimación desactivada",
@@ -1672,7 +1743,8 @@ const es = {
     "Luego elige los filtros que deseas en la barra de filtros",
   cannotCreateViewOnMobile: "No puedes crear una vista en el móvil.",
   viewCardInBoard: "Ver tarjeta en su propio tablero",
-  guestsMustBeAddedToOneSpace: "Los invitados deben ser añadidos a al menos un espacio",
+  guestsMustBeAddedToOneSpace:
+    "Los invitados deben ser añadidos a al menos un espacio",
   createCard: "Crear tarjeta",
   suggestedBasedOnTitle: "Sugerido basado en el título",
   acceptSuggestion: "Aceptar sugerencia",
@@ -1680,12 +1752,13 @@ const es = {
   suggestionPlaceholderText: "Sugerencia...",
   changeEmail: "Cambiar correo electrónico",
   logOutAndContinue: "Cerrar sesión y continuar",
-  confirmAccountOwnership: "Confirmar la propiedad de la cuenta",
+  confirmAccountOwnership: "Confirmar propiedad de la cuenta",
   reauthenticateEmailDescription:
     "Para mantener tu cuenta segura, necesitamos que inicies sesión de nuevo. Luego podrás elegir una nueva dirección de correo electrónico y completar el proceso.",
   enterANewEmail: "Introduce una nueva dirección de correo electrónico:",
   resendLoginCode: "Reenviar código de inicio de sesión",
-  emailAddressTakenByAnotherUser: "Dirección de correo electrónico utilizada por otro usuario",
+  emailAddressTakenByAnotherUser:
+    "Dirección de correo electrónico utilizada por otro usuario",
   assistant: "Asistente",
   changeTone: "Cambiar tono",
   simplify: "Simplificar",
@@ -1694,7 +1767,7 @@ const es = {
   generate: "Generar",
   replaceText: "Reemplazar texto",
   insertBelow: "Insertar abajo",
-  assistanceWith: "¿Qué necesitas que te ayude?",
+  assistanceWith: "¿Con qué necesitas ayuda?",
   copiedToClipboard: "Copiado al portapapeles",
   academic: "Académico",
   casual: "Informal",
@@ -1742,30 +1815,36 @@ const es = {
   ["create_subpage.title"]: "Crear una subpágina",
   ["create_subpage.tooltip"]:
     "Las subpáginas viven dentro de otras páginas y te ayudan a estructurar tus documentos",
-  ["add_page_icon.title"]: "Agregar un ícono de página",
+  ["add_page_icon.title"]: "Agregar un icono de página",
   ["add_page_icon.tooltip"]:
-    "Un ícono de página te ayuda a encontrar la página nuevamente en la búsqueda y la barra lateral",
+    "Un icono de página te ayuda a encontrar la página de nuevo en la búsqueda y la barra lateral",
   ["add_page_cover.title"]: "Agregar una imagen de portada de página",
-  ["add_page_cover.tooltip"]: "Establece el tono de una página con una imagen de portada",
+  ["add_page_cover.tooltip"]:
+    "Establece el tono de una página con una imagen de portada",
   ["quick_card_shortcut.title"]: "Atajo rápido para tarjeta (C)",
-  ["quick_card_shortcut.tooltip"]: "Presiona la tecla C en cualquier lugar para crear una tarjeta",
+  ["quick_card_shortcut.tooltip"]:
+    "Presiona la tecla C en cualquier lugar para crear una tarjeta",
   ["quick_page_shortcut.title"]: "Atajo rápido para página (P)",
-  ["quick_page_shortcut.tooltip"]: "Presiona la tecla P en cualquier lugar para crear una página",
+  ["quick_page_shortcut.tooltip"]:
+    "Presiona la tecla P en cualquier lugar para crear una página",
   ["create_card.title"]: "Crear una tarjeta",
-  ["create_card.tooltip"]: "Crea una tarjeta para cada tarea que quieras seguir",
+  ["create_card.tooltip"]:
+    "Crea una tarjeta para cada tarea que quieras seguir",
   ["comment_on_card.title"]: "Comentar en una tarjeta",
   ["comment_on_card.tooltip"]:
     "Escribe actualizaciones o anota tus pensamientos en una tarjeta",
-  ["search_shortcut.title"]: "Encuentra algo con ⌘+K",
+  ["search_shortcut.title"]: "Buscar algo con ⌘+K",
   ["search_shortcut.tooltip"]:
-    "Abre rápidamente la búsqueda universal en cualquier lugar con este atajo",
-  ["create_board.title"]: "Crea un tablero",
-  ["create_board.tooltip"]: "Rastrea el trabajo de un sub-equipo o proyecto",
-  ["upload_avatar.title"]: "Sube un avatar",
-  ["upload_avatar.tooltip"]: "Ayuda a las personas a reconocerte en la aplicación",
-  ["create_page.title"]: "Crea una página",
+    "Abrir rápidamente la búsqueda universal en cualquier lugar con este atajo",
+  ["create_board.title"]: "Crear un tablero",
+  ["create_board.tooltip"]:
+    "Seguimiento del trabajo de un subequipo o proyecto",
+  ["upload_avatar.title"]: "Subir avatar",
+  ["upload_avatar.tooltip"]:
+    "Ayuda a las personas a reconocerte en la aplicación",
+  ["create_page.title"]: "Crear una página",
   ["create_page.tooltip"]: "Captura conocimientos e ideas con páginas",
-  ["set_your_name.title"]: "Establece tu nombre",
+  ["set_your_name.title"]: "Establecer tu nombre",
   ["set_your_name.tooltip"]: "Tu nombre se usará en toda la aplicación",
   aCardMustHaveATitle: "Una tarjeta debe tener un título",
   showAll: "Mostrar todo",
@@ -1778,19 +1857,21 @@ const es = {
   inviteNewMembers: "Invitar nuevos miembros",
   spaceDetails: "Detalles del espacio",
   makeBoardFullWidth: "Hacer el tablero de ancho completo",
-  askAiAssistantSearch: "Preguntar a la IA basándose en tus tarjetas, páginas y notas",
+  askAiAssistantSearch:
+    "Preguntar a la IA basándose en tus tarjetas, páginas y notas",
   backToSearchResults: "Volver a los resultados de búsqueda",
   sources: "Fuentes",
   askAiQuestionLong: "La pregunta debe tener al menos 10 caracteres.",
   spaceSprintsSettings: "Configuración de sprints del espacio %{space}",
   turnOnSprintsForThisSpace: "Activar sprints para este espacio",
   turnOnSprintsDesc:
-    "Se añadirá una sección de “Sprints” a la barra lateral de este espacio. Un sprint es un tablero con una fecha de inicio y fin. Cuando se complete un sprint, el siguiente comenzará automáticamente.",
+    "Se añadirá una sección de “Sprints” a la barra lateral para este espacio. Un sprint es un tablero con una fecha de inicio y fin. Cuando se completa un sprint, el siguiente comenzará automáticamente.",
   ownersAdminsCanTurnOnSprints:
     "Solo los propietarios del espacio de trabajo, administradores y el creador del espacio pueden cambiar esta configuración",
   onlyOwnerOfPrivateSpace:
     "Solo el propietario de un espacio privado puede cambiar esta configuración",
-  onlySpaceOwnerCanModifyMembers: "Solo los propietarios pueden cambiar los miembros del espacio",
+  onlySpaceOwnerCanModifyMembers:
+    "Solo los propietarios pueden cambiar los miembros del espacio",
   cannotModifySpaceOwner: "No puedes hacer cambios al propietario del espacio",
   sprintLength: "Duración del sprint",
   weeks: "semanas",
@@ -1814,10 +1895,11 @@ const es = {
   changeSprintDatesFor: "Cambiar fechas para %{sprintName}",
   cancelSprint: "Cancelar sprint",
   changeDates: "Cambiar fechas",
-  chooseNewStartAndEndDates: "Elige una nueva fecha de inicio o fin para %{sprintName}",
+  chooseNewStartAndEndDates:
+    "Elige una nueva fecha de inicio o fin para %{sprintName}",
   renameSprintDescription: "Introduce un nuevo nombre para el sprint.",
   startDateIsEarlierThanPreviousEndDate:
-    "La fecha de inicio se superpone con la fecha de finalización del sprint anterior",
+    "La fecha de inicio se superpone con la fecha de fin del sprint anterior",
   enterSprintName: "Introduce el nombre del sprint",
   cancelSprintWarning:
     "Todas las tarjetas no terminadas en este tablero se moverán al estado cancelado.",
@@ -1836,9 +1918,9 @@ const es = {
   workspaceSubscriptionChanged:
     "La suscripción de tu espacio de trabajo ha sido cambiada",
   sprintSettings: "Configuración del sprint",
-  electronDownloadApp: "Descargar la aplicación",
+  electronDownloadApp: "Descargar la app",
   electronDownloadAppDescription:
-    "Solo soportamos macOS. Háznos saber si hay demanda para una aplicación de Windows.",
+    "Solo soportamos macOS. Háznos saber si hay demanda para una app de Windows.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
   mailCopiedToClipboard: "Correo electrónico copiado al portapapeles",
@@ -1853,13 +1935,14 @@ const es = {
   prStateMerged: "%{count} fusionado",
   invitingPeopleToWorkspace:
     "Solo los administradores pueden invitar a nuevas personas a este espacio de trabajo",
-  upgradePublicPageIndexingTitle: "Mejorar para la indexación en motores de búsqueda",
+  upgradePublicPageIndexingTitle:
+    "Mejorar para la indexación de motores de búsqueda",
   upgradePublicPageIndexingDescription:
-    "Puedes activar la indexación en motores de búsqueda en un plan de pago.",
+    "Puedes activar la indexación de motores de búsqueda en un plan de pago.",
   shortcutWarningText:
     "Cualquier historia de Shortcut no asignada a un equipo no será importada.",
   coolDown: "Enfriamiento",
-  noBoardsOrPages: "No hay tableros o páginas",
+  noBoardsOrPages: "No hay tableros ni páginas",
   language: "Idioma",
   usersWork: "Trabajo de %{name}",
   renameAttachment: "Renombrar adjunto",
@@ -1868,52 +1951,57 @@ const es = {
     "Mejora el plan de tu espacio de trabajo para usar el diseño de línea de tiempo.",
   calendarLayoutDescription:
     "Mejora el plan de tu espacio de trabajo para usar el diseño de calendario.",
-  upgradeTemplatesDescription: "Mejora el plan de tu espacio de trabajo para usar plantillas.",
+  upgradeTemplatesDescription:
+    "Mejora el plan de tu espacio de trabajo para usar plantillas.",
   upgradeRoadmapAndProjectsDescription:
     "Mejora el plan de tu espacio de trabajo para usar hojas de ruta y proyectos.",
-  upgradeViewsDescription: "Mejora el plan de tu espacio de trabajo para guardar vistas.",
+  upgradeViewsDescription:
+    "Mejora el plan de tu espacio de trabajo para guardar vistas.",
   createNewItem: "Crear nuevo elemento",
   statusType: "Tipo de estado",
   spaceLimitReached:
     "Se ha alcanzado el límite de espacio. Puedes eliminar algunos espacios para crear más.",
   freePlanUsageLimits: "Límites de uso del plan gratuito",
-  item: "Artículo",
+  item: "Elemento",
   usage: "Uso",
   limitReachedLong:
-    "Si se alcanza un límite, necesitarás eliminar artículos o actualizar el plan antes de que se puedan crear nuevos artículos.",
+    "Si se alcanza un límite, necesitarás eliminar elementos o actualizar el plan antes de que se puedan crear nuevos elementos.",
   limitReached: "Límite alcanzado",
   resourceAndContentWillBeDeleted:
-    'El %{resourceType} ”%{resourceTitle}” y su contenido serán eliminados permanentemente para todos. Esto no se puede deshacer.',
+    "El %{resourceType} ”%{resourceTitle}” y su contenido serán eliminados permanentemente para todos. Esto no se puede deshacer.",
   resourceWillBeDeleted:
-    'El %{resourceType} ”%{resourceTitle}” será eliminado permanentemente para todos. Esto no se puede deshacer.',
+    "El %{resourceType} ”%{resourceTitle}” será eliminado permanentemente para todos. Esto no se puede deshacer.",
   epicWillBeDeleted:
-    'El %{resourceType} ”%{resourceTitle}” será eliminado permanentemente. Esto no se puede deshacer. Cualquier tarjeta que se haya añadido al proyecto no será eliminada.',
+    "El %{resourceType} ”%{resourceTitle}” será eliminado permanentemente. Esto no se puede deshacer. Cualquier tarjeta que se haya añadido al proyecto no será eliminada.",
   listNameLabel: "Nombre de la lista",
   deleteList: "Eliminar lista",
-  itemName: "Nombre del artículo",
+  itemName: "Nombre del elemento",
   moveCardIntoSprint: "Tarjeta movida al sprint %{sprintName}",
   addView: "Agregar vista",
   timeCreatedSort: "Hora de creación",
   timeUpdatedSort: "Hora de actualización",
   dueDateSort: "Fecha de vencimiento",
   noSprintsLabel: "No hay sprints",
-  createdViaEmailFrom: "creado vía email desde",
+  createdViaEmailFrom: "creado vía correo electrónico desde",
   couldNotBeVerified: "No se pudo verificar",
-  createCardsViaEmailTitle: "Crear tarjetas en este tablero vía email",
+  createCardsViaEmailTitle:
+    "Crear tarjetas en este tablero vía correo electrónico",
   createCardsViaEmailDescription:
-    "Crear una tarjeta en este tablero si alguien envía un mensaje a una dirección de email.",
-  onlyCurrentAddressWillWork: "Solo funcionará la dirección que se muestra actualmente.",
+    "Crear una tarjeta en este tablero si alguien envía un mensaje a una dirección de correo electrónico.",
+  onlyCurrentAddressWillWork:
+    "Solo funcionará la dirección que se muestra actualmente.",
   regenerate: "Regenerar",
-  emailCopiedToClipboard: "Email copiado al portapapeles",
-  emailRegenerated: "Email regenerado",
-  slackChannelNotifications: "Notificaciones de canal de Slack",
+  emailCopiedToClipboard: "Correo electrónico copiado al portapapeles",
+  emailRegenerated: "Correo electrónico regenerado",
+  slackChannelNotifications: "Notificaciones del canal de Slack",
   slackChannelNotificationsTitle:
     "Enviar notificaciones sobre tarjetas en este tablero a un canal de Slack",
   slackChannelNotificationsDescriptionDisabled:
     "Se abrirá una ventana de Slack y te pedirá que elijas un canal",
   slackChannelNotificationsDescriptionEnabled:
     "Las notificaciones de este tablero se envían a %{channel} en Slack.",
-  slackIntegrationError: "No se pudo habilitar la integración con Slack. Por favor, inténtalo de nuevo",
+  slackIntegrationError:
+    "No se pudo habilitar la integración con Slack. Por favor, inténtalo de nuevo",
   boardDoesNotExists: "Ese tablero no existe",
   boardActivity: "Actividad del tablero",
   sendTo: "Enviar a",
@@ -1925,8 +2013,9 @@ const es = {
   webhookNotificationCardAddedBoard: "Tarjeta añadida/movida al tablero",
   webhookNotificationCardAddedList: "Tarjeta añadida/movida al estado",
   webhookNotificationCardCommented:
-    "Comentario dejado en tarjeta en tablero (excluyendo respuestas)",
-  webhookNotificationCardDueDate: "La fecha de vencimiento de la tarjeta es pronto/atrasada",
+    "Comentario dejado en la tarjeta en el tablero (excluyendo respuestas)",
+  webhookNotificationCardDueDate:
+    "La fecha de vencimiento de la tarjeta es pronto/vencida",
   folder: "Carpeta",
   yourSpaces: "Tus espacios",
   quoteReply: "Citar y responder",
@@ -1936,10 +2025,10 @@ const es = {
   activeSprintText: "Actual",
   loadMoreSprints: "Cargar más sprints",
   try: "Intentar",
-  ["add_workspace_logo.title"]: "Añadir un logo al espacio de trabajo",
+  ["add_workspace_logo.title"]: "Agregar un logo al espacio de trabajo",
   ["add_workspace_logo.tooltip"]: "Subir un logo",
   ["customise_your_profile.title"]: "Personaliza tu perfil",
-  ["customise_your_profile.tooltip"]: "Añadir una foto de perfil",
+  ["customise_your_profile.tooltip"]: "Agregar una foto de perfil",
   ["import_tasks.title"]: "Importar tareas",
   ["import_tasks.tooltip"]: "Importar desde Trello, Jira, o Shortcut",
   ["view_keyboard_shortcuts.title"]: "Ver atajos de teclado",
@@ -1949,43 +2038,46 @@ const es = {
   seeAllWorkspaces: "Ver todos los espacios de trabajo",
   workspaceSettings: "Configuración del espacio de trabajo",
   switchToRecentWorkspace: "Cambiar al espacio de trabajo reciente",
-  icon: "Ícono",
-  addToSprint: "Añadir al sprint",
-  addToProject: "Añadir al proyecto",
+  icon: "Icono",
+  addToSprint: "Agregar al sprint",
+  addToProject: "Agregar al proyecto",
   goToProject: "Ir al proyecto",
-  addTags: "Añadir etiquetas",
+  addTags: "Agregar etiquetas",
   cancelled: "Cancelado",
   sprintBoards: "Tableros de sprint",
   sprintSettingsBoardsDescription:
     "Estas configuraciones se aplican a todos los sprints en este espacio",
   addedCard: "Tarjeta añadida",
   removedCard: "Tarjeta eliminada",
-  addNewCard: "Añadir nueva tarjeta",
-  addExistingCard: "Añadir tarjeta existente",
+  addNewCard: "Agregar nueva tarjeta",
+  addExistingCard: "Agregar tarjeta existente",
   changeEpicOrParent: "Cambiar proyecto o padre",
   cardAlreadyHasEpicOrParent:
-    "La tarjeta elegida ya tiene un proyecto o tarjeta padre. Serán cambiados si la añades a este proyecto.",
+    "La tarjeta elegida ya tiene un proyecto o tarjeta padre. Serán cambiados si la agregas a este proyecto.",
   changeEpic: "Cambiar proyecto",
-  childCardIsPartOfEpic: 'La tarjeta hija es parte del proyecto ”%{epicName}”.',
+  childCardIsPartOfEpic: "La tarjeta hija es parte del proyecto ”%{epicName}”.",
   parentCardHasNoEpic: "La tarjeta padre no tiene proyecto.",
   parentCardIsPartOfEpic:
-    'La tarjeta padre es parte del proyecto ”%{epicName}”.',
+    "La tarjeta padre es parte del proyecto ”%{epicName}”.",
   childCardsEpicWillBeRemoved:
     "El proyecto de la tarjeta hija se eliminará si continúas.",
   childCardsEpicWillChangeToParents:
     "El proyecto de la tarjeta hija cambiará al proyecto de la tarjeta padre si continúas.",
   removeEpic: "Eliminar proyecto",
   epicWillNoLongerBeAssociated:
-    'La tarjeta hija ya no estará asociada con el proyecto ”%{epicName}” si la eliminas de su tarjeta padre.',
+    "La tarjeta hija ya no estará asociada con el proyecto ”%{epicName}” si la eliminas de su tarjeta padre.",
   childCardAlreadyHasParent:
     "La tarjeta hija ya tiene un padre. El padre se cambiará a esta tarjeta si continúas.",
   cardsDirectlyAddedToEpicCantHaveParent:
-    "Las tarjetas añadidas directamente a proyectos no pueden tener tarjetas padre",
-  epicNoTagsFound: "No se encontraron etiquetas. Los proyectos solo pueden usar etiquetas del espacio de trabajo",
+    "Las tarjetas añadidas directamente a los proyectos no pueden tener tarjetas padre",
+  epicNoTagsFound:
+    "No se encontraron etiquetas. Los proyectos solo pueden usar etiquetas del espacio de trabajo",
   cannotChangeStatusForCardsInFinishedSprint:
-    "No se puede cambiar el estado de las tarjetas en un sprint terminado",
-  cannotChangeStatusForArchivedCards: "No se puede cambiar el estado de las tarjetas archivadas",
-  cantMoveArchivedCardToSprint: "No se puede mover una tarjeta archivada al sprint",
+    "No se puede cambiar el estado de las tarjetas en un sprint finalizado",
+  cannotChangeStatusForArchivedCards:
+    "No se puede cambiar el estado de las tarjetas archivadas",
+  cantMoveArchivedCardToSprint:
+    "No se puede mover la tarjeta archivada al sprint",
   relatedTo: "Relacionado con",
   changePriority: "Cambiar prioridad",
   changeEstimate: "Cambiar estimación",
@@ -1995,7 +2087,7 @@ const es = {
   pastSprints: "Sprints pasados",
   currentAndPlannedSprints: "Sprints actuales y planificados",
   seeAllSprints: "Ver todos los sprints",
-  currentAndNextSprint: "Actual y siguiente sprint",
+  currentAndNextSprint: "Actual y próximo sprint",
   branchSpecificAutomationAddFailed:
     "Error al agregar nueva automatización específica de rama.",
   branchSpecificAutomationUpdateFailed:
@@ -2003,7 +2095,7 @@ const es = {
   branchSpecificAutomationRemoveFailed:
     "Error al eliminar la automatización específica de rama.",
   thereAreNoCurrentOrPlannedSprints: "No hay sprints actuales o planificados",
-  thereIsNoCurrentOrNextSprint: "No hay sprint actual o siguiente",
+  thereIsNoCurrentOrNextSprint: "No hay sprint actual o próximo",
   movedCardFrom: "Tarjeta movida de",
   movedEpicFrom: "Proyecto movido de",
   rolledCardFrom: "Tarjeta revertida de",
@@ -2025,39 +2117,40 @@ const es = {
     "Organiza el trabajo en períodos de tiempo para que puedas planificar más fácilmente",
   filterYourWorkspaceToCreateViews:
     "Filtra tu espacio de trabajo para crear vistas y compártelas con tu equipo",
-  turnOnSprints: "Activa los sprints",
+  turnOnSprints: "Activar sprints",
   cardViews: "Vistas de tarjeta",
   convert: "Convertir",
-  convertCardToEpic: "Convertir tarjeta en proyecto",
-  couldNotConvertCardToEpic: "No se pudo convertir la tarjeta en proyecto",
-  cardSuccessfullyConvertedToEpic: "Tarjeta convertida exitosamente en proyecto",
+  convertCardToEpic: "Convertir tarjeta a proyecto",
+  couldNotConvertCardToEpic: "No se pudo convertir la tarjeta a proyecto",
+  cardSuccessfullyConvertedToEpic: "Tarjeta convertida exitosamente a proyecto",
   convertedCardWillLose:
-    "Si conviertes esta tarjeta en un proyecto, perderá su %{arr, list}.",
-  convertedThisCardToEpic: "convirtió esta tarjeta en un proyecto",
+    "Si conviertes esta tarjeta a un proyecto, perderá su %{arr, list}.",
+  convertedThisCardToEpic: "convirtió esta tarjeta a un proyecto",
   spaceLevelTags: "etiquetas a nivel de espacio",
   effortEstimate: "estimación de esfuerzo",
   existingEpic: "proyecto existente",
-  roadmapMustHaveAtLeastOneStatus: "La hoja de ruta debe tener al menos un estado",
+  roadmapMustHaveAtLeastOneStatus:
+    "La hoja de ruta debe tener al menos un estado",
   chosenPageIsAlreadySubpage:
     "La página elegida ya es una subpágina de la página actual",
   searchForResults: "Busca para mostrar resultados",
   parentCardIs: "La tarjeta padre es...",
   projectIs: "El proyecto es...",
   convertedTo: "convertido a",
-  moveToCompletedSprint: "¿Mover al sprint completado?",
+  moveToCompletedSprint: "¿Mover a sprint completado?",
   onlyDoneCardsCanBeMovedToCompletedSprint:
-    "Solo las tarjetas “Hechas” pueden moverse a un sprint completado. Esta tarjeta se cambiará a “Hecha” y se moverá.",
+    "Solo las tarjetas “Hechas” pueden ser movidas a un sprint completado. Esta tarjeta se cambiará a “Hecha” y se moverá.",
   removeCardFromProject: "Eliminar tarjeta del proyecto",
   roadmapOpenedInTheBackground: "Hoja de ruta abierta en segundo plano",
   unfavouriteCurrentSprint: "Desmarcar como favorito el sprint actual",
   favouriteCurrentSprint: "Marcar como favorito el sprint actual",
-  unfavouriteNextSprint: "Desmarcar como favorito el siguiente sprint",
-  favouriteNextSprint: "Marcar como favorito el siguiente sprint",
+  unfavouriteNextSprint: "Desmarcar como favorito el próximo sprint",
+  favouriteNextSprint: "Marcar como favorito el próximo sprint",
   unfavouriteSprintName: "Desmarcar como favorito %{sprintName}",
   favouriteSprintName: "Marcar como favorito %{sprintName}",
   currentSprint: "Sprint actual",
   parentWillBeRemovedIfAddToProject:
-    "La tarjeta principal se eliminará si agregas esta tarjeta a un proyecto, ya que las tarjetas heredan proyectos de las tarjetas principales",
+    "La tarjeta principal se eliminará si añades esta tarjeta a un proyecto, ya que las tarjetas heredan proyectos de las tarjetas principales",
   cannotArchiveCardFromSprint: "No se puede archivar la tarjeta de un sprint",
   sprintCompleted: "Sprint completado",
   sprintCancelled: "Sprint cancelado",
@@ -2069,7 +2162,7 @@ const es = {
   noChanges: "Sin cambios",
   changes: "Cambios",
   cardUpdatedSuccessfully: "Tarjeta actualizada con éxito",
-  commentAddedSuccessfully: "Comentario agregado con éxito",
+  commentAddedSuccessfully: "Comentario añadido con éxito",
   updateCard: "Actualizar tarjeta",
   moveCard: "Mover tarjeta",
   assignMembers: "Asignar miembros",
@@ -2077,8 +2170,8 @@ const es = {
   generatingSuggestedActions: "Generando acciones sugeridas",
   replaceContent: "Reemplazar contenido",
   appendContent: "Agregar contenido",
-  addDescription: "Agregar descripción",
-  addDueDate: "Agregar fecha de vencimiento",
+  addDescription: "Añadir descripción",
+  addDueDate: "Añadir fecha de vencimiento",
   setTitle: "Establecer título",
   reject: "Rechazar",
   accept: "Aceptar",
@@ -2103,7 +2196,7 @@ const es = {
   createdCards: "Tarjetas creadas",
   noTranscriptAvailable: "No hay transcripción disponible",
   enhanceNotesUsingMacApp:
-    "Superthread puede transcribir audio de tus reuniones para generar notas mejoradas. La transcripción solo está disponible en la aplicación de escritorio Superthread para macOS.",
+    "Superthread puede transcribir audio de tus reuniones para generar notas mejoradas. La transcripción solo está disponible en la aplicación de escritorio de Superthread para macOS.",
   downloadApp: "Descargar aplicación",
   enhance: "Mejorar",
   macIntel: "Mac Intel",
@@ -2124,7 +2217,8 @@ const es = {
   addCardsToProject: "Agregar tarjetas a este proyecto",
   projectEmptyStateDescription:
     "Un proyecto es una gran pieza de trabajo compuesta por muchas tarjetas de todo el espacio de trabajo. Crea un proyecto en una columna o edita los estados predeterminados.",
-  cardInProjectEmptyStateFooter: "Una tarjeta solo puede pertenecer a un proyecto",
+  cardInProjectEmptyStateFooter:
+    "Una tarjeta solo puede pertenecer a un proyecto",
   addCardsThatContributeToProject:
     "Agrega tarjetas que contribuyan a este proyecto. Puedes",
   noProject: "Sin proyecto",
@@ -2144,15 +2238,16 @@ const es = {
   meetingContextPlaceholder:
     "Proporciona una visión general de la reunión y lo que deseas obtener de ella...",
   meetingContextDescription:
-    "Esto ayuda a Superthread a entender en qué enfocarse al mejorar tus notas",
+    "Esto ayuda a Superthread a entender en qué centrarse al mejorar tus notas",
   duplicateTemplate: "Plantilla duplicada",
   favouriteTemplates: "Plantillas favoritas",
   introduction: "Introducción",
   sampleSectionDescription:
     "Captura cualquier punto de conversación interesante de la charla inicial al comienzo de la reunión. Ignora las discusiones sobre el clima.",
-  allowSuperthreadToTranscribe: "Permitir que Superthread transcriba tus reuniones",
+  allowSuperthreadToTranscribe:
+    "Permitir que Superthread transcriba tus reuniones",
   superthreadCanEnhance:
-    "Superthread puede mejorar tus notas transcribiendo audio directamente desde tu laptop, sin necesidad de bots de reunión. Funciona para reuniones presenciales y virtuales, con control total sobre cuándo está activo. Tu audio nunca se almacena ni se utiliza para otra cosa.",
+    "Superthread puede mejorar tus notas transcribiendo audio directamente desde tu portátil, sin necesidad de bots de reunión. Funciona para reuniones presenciales y virtuales, con control total sobre cuándo está activado. Tu audio nunca se almacena ni se utiliza para nada más.",
   transcribeYourVoice: "Transcribir tu voz",
   transcribeOthersVoice: "Transcribir la voz de otros",
   allowMicrophoneCapture: "Permitir captura de micrófono",
@@ -2164,7 +2259,8 @@ const es = {
     "En macOS, ve a Configuración del Sistema > Privacidad y Seguridad > Micrófono y permite la aplicación “Superthread”.",
   microphoneAccessNotAllowedDesc3:
     "Después de hacer eso, por favor cierra y vuelve a abrir esta aplicación, luego regresa aquí.",
-  systemAccessNotAllowedTitle: "Permitir acceso al audio del sistema manualmente",
+  systemAccessNotAllowedTitle:
+    "Permitir acceso al audio del sistema manualmente",
   systemAccessNotAllowedDesc1:
     "El acceso al audio del sistema no fue permitido anteriormente, por lo que necesitarás permitirlo manualmente.",
   systemAccessNotAllowedDesc2:
@@ -2181,7 +2277,7 @@ const es = {
   resume: "Reanudar",
   pause: "Pausar",
   transcribe: "Transcribir",
-  currentlyTranscribing: "Transcribiendo actualmente",
+  currentlyTranscribing: "Actualmente transcribiendo",
   transcribingOnlyAvailableOnMac:
     "La transcripción solo está disponible en la aplicación de macOS",
   transcribingOnlyAvailableOnNewerMacVersions:
@@ -2203,7 +2299,7 @@ const es = {
   messageAgentAssistant: "Mensaje al asistente de agente",
   initialAgentMessage:
     "Estoy aquí para ayudarte a escribir instrucciones para tu agente. Déjame saber qué quieres que haga.",
-  agentMessageError: "Ocurrió un error. Por favor, inténtalo de nuevo.",
+  agentMessageError: "Se produjo un error. Por favor, inténtalo de nuevo.",
   agentInstructions: "Instrucciones del agente",
   version: "Versión",
   templateWithChildCardsNotAllowed:
@@ -2221,17 +2317,21 @@ const es = {
   calendarAccountConnected: "Cuenta de calendario conectada",
   disconnect: "Desconectar",
   showCalendarMeetingsUpTo: "Mostrar reuniones del calendario hasta",
-  dayAheadInNotesList: "un día antes en la lista de notas",
+  dayAheadInNotesList: "día antes en la lista de notas",
   daysAheadInNotesList: "días antes en la lista de notas",
-  eventTypesToIncludeInNotesList: "Tipos de eventos para incluir en la lista de notas",
-  ["calendar.all_day"]: "Eventos de todo el día, incluidos eventos de varios días",
+  eventTypesToIncludeInNotesList:
+    "Tipos de eventos a incluir en la lista de notas",
+  ["calendar.all_day"]:
+    "Eventos de todo el día, incluidos eventos de varios días",
   ["calendar.event_link"]: "Eventos sin enlace de reunión",
   ["calendar.participants"]: "Eventos con solo un participante",
-  createNoteFromUpcomingMeeting: "Crear una nota a partir de una reunión próxima",
-  noUpcomingMeetings: "No hay reuniones próximas. Puedes cambiar el marco de tiempo en",
+  createNoteFromUpcomingMeeting:
+    "Crear una nota a partir de una reunión próxima",
+  noUpcomingMeetings:
+    "No hay reuniones próximas. Puedes cambiar el marco de tiempo en",
   seeUpcomingMeetings: "Ver reuniones próximas aquí con el",
   searchForAnApp: "Buscar una aplicación...",
-  meetingAppsWatched: "%{num} aplicaciones de reuniones vistas",
+  meetingAppsWatched: "%{num} aplicaciones de reuniones observadas",
   automaticMeetingDetectionTitle: "Detección automática de reuniones",
   automaticMeetingDetectionDescription:
     "Superthread detecta cuando una aplicación de reuniones está usando el micrófono y te notifica para crear una nota",
@@ -2242,11 +2342,12 @@ const es = {
   notesAreBetterWithOurApp: "Las notas son mejores con nuestra aplicación",
   downloadTheMacOSApp: "Descargar la aplicación para macOS",
   toTranscribeMeetings: "para transcribir reuniones",
-  notifyUpcomingMeetingsTitle: "Notificarme de reuniones de calendario próximas",
+  notifyUpcomingMeetingsTitle:
+    "Notificarme de reuniones de calendario próximas",
   notifyUpcomingMeetingsDescription:
-    "Si una reunión está a punto de comenzar, Superthread te notificará y te ofrecerá crear una nueva nota.",
+    "Si una reunión está a punto de comenzar, Superthread te notificará y ofrecerá crear una nueva nota.",
   macOSApp: "aplicación para macOS",
-  requiresMacosAppOne: "Requiere el",
+  requiresMacosAppOne: "Requiere la",
   requiresMacosAppTwo: "aplicación para macOS.",
   meetingsMenuBarTitle:
     "Mostrar reuniones de calendario próximas junto a la aplicación de la barra de menú",
@@ -2254,13 +2355,14 @@ const es = {
     "La próxima reunión del día actual se mostrará junto al icono de Superthread en la barra de menú.",
   meetingName: "Nombre de la reunión",
   meetingTime: "Hora de la reunión",
-  searchLanguage: "Buscar idioma",
+  searchLanguage: "Idioma de búsqueda",
   ["get_started_notes.title"]: "Comienza con las notas",
   ["get_started_notes.tooltip"]:
     "Transcripción de reuniones y toma de notas mejorada con IA",
   transcriptionNotAvailableOnPlan:
     "La transcripción no está disponible en este plan. Haz clic para ver los planes disponibles",
-  openLinksInDesktopAppTitle: "Abrir la aplicación de escritorio al iniciar sesión",
+  openLinksInDesktopAppTitle:
+    "Abrir la aplicación de escritorio al iniciar sesión",
   openLinksInDesktopAppDescription:
     "Abrir automáticamente la aplicación de escritorio de Superthread al iniciar sesión",
   automaticallyStartTranscription: "Iniciar transcripción automáticamente",
@@ -2271,9 +2373,9 @@ const es = {
   newToNotes: "¿Nuevo en las notas?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "Si creas una nota a partir de un evento de calendario hasta 5 minutos antes de la hora de inicio, o te unes a una videollamada desde una nota",
-  instantEmail: "correo electrónico instantáneo",
-  emailDigest: "resumen de correo electrónico",
-  instantEmailNotifications: "Notificaciones instantáneas por correo electrónico",
+  instantEmail: "correo instantáneo",
+  emailDigest: "resumen de correo",
+  instantEmailNotifications: "Notificaciones de correo instantáneo",
   goToLatest: "Ir al último",
   meetingAndTranscriptionSettings: "Configuración de reuniones y transcripción",
   meetingAndTranscriptionSettingsSubtitle:
@@ -2295,7 +2397,7 @@ const es = {
   parentCardWasRemoved: "La tarjeta principal fue eliminada.",
   cardRemovedFromProject: "La tarjeta fue eliminada del proyecto.",
   inactiveMembers: "Miembros inactivos",
-  viewOnlyGuests: "Invitados solo de visualización",
+  viewOnlyGuests: "Invitados con solo vista",
   memberType: "Tipo de miembro",
   noGroup: "Sin grupo",
   showEmptyGroups: "Mostrar grupos vacíos",
@@ -2303,20 +2405,21 @@ const es = {
   inactive: "Inactivo",
   imported: "Importado",
   addToSpace: "Agregar al espacio",
-  memberAddedToSpace: "Se agregó 1 miembro al espacio %{space}",
-  membersAddedToSpace: "Se agregaron %{count} miembros al espacio %{space}",
+  memberAddedToSpace: "Se añadió 1 miembro al espacio %{space}",
+  membersAddedToSpace: "Se añadieron %{count} miembros al espacio %{space}",
   cannotRemoveSpaceOwner: "No se puede eliminar al propietario del espacio",
   pageUsageDescription:
     "El uso es una combinación de contenido y ediciones históricas, y puede seguir creciendo con el tiempo",
   pageUsage: "Uso de la página",
   pageUsageWarning:
-    "Advertencia: es posible que tus cambios no se guarden si el uso alcanza el 100%. Considera crear subpáginas o mover a una nueva página",
+    "Advertencia: tus cambios pueden no guardarse si el uso alcanza el 100%. Considera crear subpáginas o moverte a una nueva página",
   jobDescription: "Descripción del trabajo",
-  jobDescriptionPlaceholder: "Ingresa la descripción del trabajo",
+  jobDescriptionPlaceholder: "Introduce la descripción del trabajo",
   letPeopleKnowWhatYouDo:
-    "Haz saber a las personas lo que haces. Esto también ayuda a Superthread a crear notas mejoradas más relevantes.",
+    "Deja que la gente sepa lo que haces. Esto también ayuda a Superthread a crear notas mejoradas más relevantes.",
   workspaceDescriptionLabel: "Descripción del espacio de trabajo",
-  workspaceDescriptionPlaceholder: "Ingresa la descripción del espacio de trabajo",
+  workspaceDescriptionPlaceholder:
+    "Introduce la descripción del espacio de trabajo",
   notesTutorial: "Tutorial de notas",
   learnHowToUseSuperthreadNotes: "Aprende a usar las notas de Superthread",
   myTemplates: "Mis plantillas",
@@ -2330,10 +2433,11 @@ const es = {
   noAttendees: "Sin asistentes",
   metadata: "Metadatos",
   date: "Fecha",
-  cardDueSoon: "Tarjeta con vencimiento próximo",
+  cardDueSoon: "Tarjeta próxima a vencer",
   cardOverdue: "Tarjeta vencida",
-  cardAddedToBoardList: "Tarjeta agregada a un tablero o una lista",
-  pageCommentStatusUpdate: "El comentario de la página está marcado como resuelto/no resuelto",
+  cardAddedToBoardList: "Tarjeta añadida a un tablero o una lista",
+  pageCommentStatusUpdate:
+    "El comentario de la página está marcado como resuelto/no resuelto",
   meetingNotes: "Notas de la reunión",
   regularNotes: "Notas regulares",
   editAttendees: "Editar asistentes",
@@ -2372,7 +2476,7 @@ const es = {
   checkinName: "Nombre de la revisión",
   turnOnCheckin: "Activar revisión",
   turnOnCheckinDescription:
-    "A las personas seleccionadas se les harán preguntas sobre su trabajo para ese día",
+    "Se les harán preguntas a las personas seleccionadas sobre su trabajo de ese día",
   includedPeople: "Personas incluidas",
   includedPeopleSubtitle: "Selecciona hasta %{numberOfPeople} personas",
   selectMembers: "Seleccionar miembros",
@@ -2381,7 +2485,8 @@ const es = {
   startToGenerateReportOne: "Comenzar a generar la agenda",
   startToGenerateReportTwo: "minutos después de que se hagan las preguntas",
   deleteCheckin: "Eliminar revisión",
-  deleteCheckinDescription: "La revisión del equipo “%{checkinName}” será eliminada",
+  deleteCheckinDescription:
+    "La revisión del equipo “%{checkinName}” será eliminada",
   checkinNamePlaceholder: "por ejemplo, “Reunión de pie de ingeniería”",
   timeNextRun: "Hora de la próxima ejecución",
   timeNextReport: "Hora del próximo informe",
@@ -2400,19 +2505,19 @@ const es = {
   weekends: "Fines de semana",
   checkin: "Revisión",
   suggestedCheckinFirstMessage:
-    "Necesito hacerte algunas preguntas sobre tu revisión diaria del equipo.",
+    "Necesito hacerte algunas preguntas sobre la revisión diaria de tu equipo.",
   teamCheckinCurrentCards: "Aquí están tus tarjetas actuales:",
   teamCheckinProposedReport: "Aquí está mi informe propuesto sobre tu trabajo:",
   teamCheckinFinalReport: "Aquí está tu informe final para hoy:",
   question: "Pregunta",
   submit: "Enviar",
-  previouslyAnswered: "Respondido previamente:",
+  previouslyAnswered: "Respondido anteriormente:",
   allQuestionsAnswered: "Todas las preguntas han sido respondidas.",
   noReportTitle: "No hay informe sugerido disponible",
   noReportDescription:
-    "El informe sugerido para la reunión de tu equipo aún no está disponible. Se te notificará una vez que esté listo para tu revisión.",
+    "El informe sugerido para el registro de tu equipo aún no está disponible. Se te notificará una vez que esté listo para tu entrada.",
   defaultCheckinQuestion:
-    "¿Quieres aclarar algo en el informe propuesto? ¿O quieres añadir algo?",
+    "¿Quieres aclarar algo en el informe propuesto? ¿O quieres añadir algo a él?",
   whatChanged: "¿Qué cambió?",
   clarificationQuestionReject: "No, no tengo nada que añadir",
   reportFromPastTitle:
@@ -2425,8 +2530,7 @@ const es = {
   finalCheckinFirstMessage:
     "Tu informe final de registro ha sido generado, basado en tu informe sugerido y las preguntas que respondiste.",
   getStartedWithSuperthread: "Comienza con Superthread",
-  whatDoYouIntendToUseSuperthreadFor:
-    "¿Para qué piensas usar Superthread?",
+  whatDoYouIntendToUseSuperthreadFor: "¿Para qué piensas usar Superthread?",
   thisWillHelpUsTailorYourExperience:
     "Esto nos ayudará a adaptar tu experiencia a tus necesidades.",
   chooseAUseCase: "Elige un caso de uso",
@@ -2452,10 +2556,11 @@ const es = {
   copyTitles: "Copiar títulos",
   copyTitlesAsLinks: "Copiar títulos como enlaces",
   changingTags: "Cambiando etiquetas",
-  subscribingToResourceUpdates: "Suscribirse a actualizaciones de recursos",
-  unsubscribingFromResourceUpdates: "Darse de baja de actualizaciones de recursos",
-  removingFromFavourites: "Eliminar de favoritos",
-  addingToFavourites: "Añadir a favoritos",
+  subscribingToResourceUpdates: "Suscribiéndose a actualizaciones de recursos",
+  unsubscribingFromResourceUpdates:
+    "Dándose de baja de actualizaciones de recursos",
+  removingFromFavourites: "Eliminando de favoritos",
+  addingToFavourites: "Añadiendo a favoritos",
   changingAssignees: "Cambiando asignados",
   changingDates: "Cambiando fechas",
   changingStatus: "Cambiando estado",
@@ -2467,7 +2572,7 @@ const es = {
   patNamePlaceholder: "Un nombre descriptivo corto...",
   expiration: "expiración",
   patExpirationTimeSubtitle:
-    "El token expirará automáticamente después del número de días seleccionado y ya no se podrá usar.",
+    "El token expirará automáticamente después del número de días seleccionado y ya no podrá ser utilizado.",
   expirationTimeSelect: "Este token expirará en:",
   selectExpirationTime: "Seleccionar tiempo de expiración",
   patNoExpirationWarningTitle: "¿Nunca expirar este token?",
@@ -2479,7 +2584,7 @@ const es = {
   patDropdownOptionThree: "60 días",
   patDropdownOptionFour: "90 días",
   noExpiration: "Sin expiración",
-  invalidPATExpirationDate: "La fecha de expiración debe estar en el futuro",
+  invalidPATExpirationDate: "La fecha de expiración debe ser en el futuro",
   personalAccessTokens: "Tokens de acceso personal",
   personalAccessTokensSubtitle:
     "Genera un token de acceso personal para interactuar con la API de Superthread",
@@ -2487,8 +2592,9 @@ const es = {
   noPATs: "No hay tokens de acceso personal",
   noPATsSubtitle: "Puedes crear un token de acceso personal arriba",
   noPATsSubtitleAdmin:
-    'Puedes crear un token de acceso personal desde la pantalla de ”Acceso API”',
-  revokePatConfirmation: "¿Estás seguro de que deseas revocar el token “%{patName}”?",
+    "Puedes crear un token de acceso personal desde la pantalla ”Acceso API”",
+  revokePatConfirmation:
+    "¿Estás seguro de que deseas revocar el token “%{patName}”?",
   lastUsed: "Último uso",
   revokePatDescription:
     "Cualquier aplicación o script que use este token ya no podrá acceder a la API de Superthread. Esta acción no se puede deshacer.",
@@ -2498,7 +2604,7 @@ const es = {
   newPatCreatedDescriptionOne: "Asegúrate de copiar tu token ahora.",
   newPatCreatedDescriptionTwo: "¡No podrás verlo de nuevo!",
   tokenCopiedToClipboard: "Token copiado al portapapeles",
-  proceed: "Continuar",
+  proceed: "Proceder",
   copyToken: "Copiar token",
   timeExpires: "El tiempo expira",
   patRevokedSuccessfully: "PAT revocado con éxito",
@@ -2518,10 +2624,11 @@ const es = {
   youOnlyHavePermissionToViewContent:
     "Solo tienes permiso para ver contenido en el",
   namedSpace: "espacio %{space}",
-  contactEmailToRequestEditAccess: "Contacta a %{email} para solicitar acceso de edición.",
-  viewOnly: "Solo ver",
+  contactEmailToRequestEditAccess:
+    "Contacta a %{email} para solicitar acceso de edición.",
+  viewOnly: "Solo vista",
   viewOnlySubtitle:
-    "Las personas que no son miembros del espacio y los miembros sin derechos de edición tienen acceso solo de visualización",
+    "Las personas que no son miembros del espacio y los miembros sin derechos de edición tienen acceso solo de vista",
   canEdit: "Puede editar",
   canView: "Puede ver",
   thisSpaceIsViewOnly: "Este espacio es solo de visualización",
@@ -2529,7 +2636,7 @@ const es = {
     "Puedes crear espacios solo de visualización en un plan de pago.",
   changeToViewOnlySpaceTitle: "¿Cambiar a espacio solo de visualización?",
   changeToViewOnlySpace:
-    "Todos los miembros existentes de este espacio seguirán siendo miembros después de que se haga solo de visualización. No podrán unirse nuevos miembros a menos que sean invitados.",
+    "Todos los miembros existentes de este espacio seguirán siendo miembros después de que se haga solo de visualización. No se podrán unir nuevos miembros a menos que sean invitados.",
   changeToViewOnly: "Cambiar a solo de visualización",
   completeSprint: "Completar sprint",
   completeSprintWarning:
