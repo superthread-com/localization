@@ -1224,7 +1224,7 @@ const ptbr = {
   youMayBeSharing:
     "Você pode estar compartilhando informações sensíveis com este site ou aplicativo. Você sempre pode ver ou remover o acesso nas suas",
   stSettings: "configurações do Superthread",
-  seeIntegration: "Veja a",
+  seeIntegration: "Veja a %{integrationName}",
   privacyPolicy: "Política de Privacidade",
   termsOfService: "Termos de Serviço",
   makeSureYouTrust: "Certifique-se de confiar em %{integrationName}",
