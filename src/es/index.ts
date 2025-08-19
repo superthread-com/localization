@@ -448,7 +448,7 @@ const es = {
   uploadFailedClickToRetry: "Carga fallida, haz clic para reintentar",
   areYouSureYouWantToDeleteTheTemplate:
     "¿Estás seguro de que deseas eliminar la plantilla ”%{templateName}”?",
-  applyTemplate: "Aplicar plantill
+  applyTemplate: "Aplicar plantilla",
   noTemplates: "Sin plantillas.",
   manageTemplates: "Gestionar plantillas",
   uploadFilesForTemplatesIsDisabled:
