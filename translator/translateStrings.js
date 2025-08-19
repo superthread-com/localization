@@ -250,14 +250,22 @@ async function main() {
 
       // === CHANGED LOGGING: show the string, not the ID ===
       if (!samePlaceholders(original, tr)) {
-        console.warn(`Retry kept placeholder mismatch:\nEN: ${original}\n${LANGUAGE_CODE.toUpperCase()}: ${tr}\n---`);
+        console.warn(
+          `Retry kept placeholder mismatch:\nEN: ${original}\n${LANGUAGE_CODE.toUpperCase()}: ${tr}\n---`,
+        );
       } else if (looksUntranslated(tr, original)) {
-        console.warn(`Retry still looks untranslated:\nEN: ${original}\n${LANGUAGE_CODE.toUpperCase()}: ${tr}\n---`);
+        console.warn(
+          `Retry still looks untranslated:\nEN: ${original}\n${LANGUAGE_CODE.toUpperCase()}: ${tr}\n---`,
+        );
       } else {
-        console.log(`Retry OK:\nEN: ${original}\n${LANGUAGE_CODE.toUpperCase()}: ${tr}\n---`);
+        console.log(
+          `Retry OK:\nEN: ${original}\n${LANGUAGE_CODE.toUpperCase()}: ${tr}\n---`,
+        );
       }
     } catch (err) {
-      console.warn(`Retry error for string:\nEN: ${original}\nError: ${err.message || err}`);
+      console.warn(
+        `Retry error for string:\nEN: ${original}\nError: ${err.message || err}`,
+      );
     }
   }
 
