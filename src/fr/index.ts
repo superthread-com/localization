@@ -2621,6 +2621,12 @@ const fr: Translations = {
   stop: "Arrêter",
   online: "En ligne",
   disconnected: "Déconnecté",
+  copyAsMarkdown: "Copier le contenu en Markdown",
+  copiedAsMarkdown: "Copié en Markdown",
+  checklists: "Listes de contrôle",
+  duplicateCards: "Cartes en double",
+  blockedByCards: "Bloqué par des cartes",
+  blockingCards: "Cartes bloquantes",
   apiAccess: "Accès API",
   viewDocs: "voir la documentation",
   createPatSubtitle:
@@ -2658,12 +2664,5 @@ const fr: Translations = {
   recentlyUsedBoards: "Plateaux récemment utilisés",
   recent: "Récent",
 };
-
-  copyAsMarkdown: "Copier le contenu en Markdown",
-  copiedAsMarkdown: "Copié en Markdown",
-  checklists: "Listes de contrôle",
-  duplicateCards: "Cartes en double",
-  blockedByCards: "Bloqué par des cartes",
-  blockingCards: "Cartes bloquantes",
 
 export default fr as Translations;
