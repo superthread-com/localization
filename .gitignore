@@ -33,3 +33,4 @@ Thumbs.db
 secrets.txt
 config.ini
 translator/.env
+translator/node_modules/.bin/openai
