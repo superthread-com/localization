@@ -18,7 +18,8 @@ const id = {
   pickAWorkspaceName: "Pilih nama ruang kerja",
   creatingWorkspace: "Membuat ruang kerja",
   createaSpace: "Buat ruang",
-  subdomainExists: "Nama ruang kerja ini sudah digunakan. Silakan coba yang lain.",
+  subdomainExists:
+    "Nama ruang kerja ini sudah digunakan. Silakan coba yang lain.",
   emailLabel: "Alamat email Anda",
   passwordLabel: "Kata sandi",
   checkEmail: "Periksa email Anda",
@@ -159,7 +160,8 @@ const id = {
   ["billing.sharePagesOnTheWeb"]: "Bagikan halaman di web",
   ["billing.50Pages"]: "50 halaman",
   ["billing.unlimitedPages"]: "Halaman tanpa batas",
-  ["billing.indexSharedPages"]: "Indeks halaman yang dibagikan di mesin pencari",
+  ["billing.indexSharedPages"]:
+    "Indeks halaman yang dibagikan di mesin pencari",
   ["billing.privateSpaces"]: "Ruang pribadi",
   ["billing.viewOnlySpaces"]: "Ruang hanya lihat",
   ["billing.timelineListAndBoardView"]: "Tampilan garis waktu, daftar, & papan",
@@ -246,7 +248,8 @@ const id = {
   ["billing.views"]: "Tampilan",
   ["billing.timelineLayout"]: "Tata letak garis waktu",
   ["billing.liveChatSupport"]: "Dukungan obrolan langsung",
-  ["billing.guestsUsersAreFree"]: "Pengguna tamu gratis pada paket Anda saat ini.",
+  ["billing.guestsUsersAreFree"]:
+    "Pengguna tamu gratis pada paket Anda saat ini.",
   ["billing.newMembersAreBilledProRata"]:
     "Anggota baru ditagih secara pro-rata untuk sisa siklus penagihan tahunan Anda.",
   ["billing.workspacePaymentMethodWillBeCharged"]:
@@ -439,11 +442,12 @@ const id = {
     "Jika Anda meninggalkan halaman ini, perubahan apa pun yang Anda buat pada template ini akan hilang.",
   uploadFailedClickToRetry: "Unggahan gagal, klik untuk mencoba lagi",
   areYouSureYouWantToDeleteTheTemplate:
-    'Apakah Anda yakin ingin menghapus template ”%{templateName}”?',
+    "Apakah Anda yakin ingin menghapus template ”%{templateName}”?",
   applyTemplate: "Terapkan template",
   noTemplates: "Tidak ada template.",
   manageTemplates: "Kelola template",
-  uploadFilesForTemplatesIsDisabled: "Unggahan file dinonaktifkan dalam template",
+  uploadFilesForTemplatesIsDisabled:
+    "Unggahan file dinonaktifkan dalam template",
   uploadFilesIsDisabled: "Unggahan file dinonaktifkan",
   noTagsFoundSelectBoardToSeeTags:
     "Tidak ada tag yang ditemukan. Pilih papan untuk melihat tag yang tersedia di ruang itu, atau",
@@ -549,12 +553,16 @@ const id = {
   cardsAddedTo: "Kartu unik ditambahkan ke",
   between: "antara",
   deletedCards: "Kartu yang dihapus mengurangi jumlah",
-  moreCardsAddedThanFinished: "%{number} lebih banyak kartu ditambahkan daripada selesai",
+  moreCardsAddedThanFinished:
+    "%{number} lebih banyak kartu ditambahkan daripada selesai",
   sameNumberOfCardsAddedAndFinished:
     "Jumlah kartu yang sama ditambahkan dan selesai",
-  moreCardsFinishedThanAdded: "%{number} lebih banyak kartu selesai daripada ditambahkan",
-  oneMoreCardAddedThanFinished: "1 kartu lebih banyak ditambahkan daripada diselesaikan",
-  oneMoreCardFinishedThanAdded: "1 kartu lebih banyak diselesaikan daripada ditambahkan",
+  moreCardsFinishedThanAdded:
+    "%{number} lebih banyak kartu selesai daripada ditambahkan",
+  oneMoreCardAddedThanFinished:
+    "1 kartu lebih banyak ditambahkan daripada diselesaikan",
+  oneMoreCardFinishedThanAdded:
+    "1 kartu lebih banyak diselesaikan daripada ditambahkan",
   convertToCard: "Ubah menjadi kartu",
   searchForTag: "Cari tag",
   createTag: "Buat tag",
@@ -574,7 +582,8 @@ const id = {
   profileBasicInfoSubtitle: "Info pribadi dan kontak",
   uploadProfileImageRule:
     "Gambar harus dalam format PNG, GIF, atau JPG tidak lebih besar dari 3MB. Ini akan ditampilkan sebagai avatar Anda di seluruh aplikasi.",
-  workspaceLogo: "Pilih logo ruang kerja. Ukuran yang direkomendasikan adalah 256x256px",
+  workspaceLogo:
+    "Pilih logo ruang kerja. Ukuran yang direkomendasikan adalah 256x256px",
   logoSaved: "Logo disimpan",
   logoRemoved: "Logo dihapus",
   removeCover: "Hapus sampul",
@@ -618,11 +627,13 @@ const id = {
   sending: "Mengirim tautan undangan..",
   inviteDoesntExist: "Tautan undangan tidak ada.",
   couldntResendLink: "Tidak dapat mengirim ulang tautan undangan.",
-  newInviteLinkSent: "Kami telah mengirimkan tautan undangan baru, silakan periksa email Anda.",
+  newInviteLinkSent:
+    "Kami telah mengirimkan tautan undangan baru, silakan periksa email Anda.",
   inviteLinkAccepted: "Tautan undangan sudah diterima.",
   inviteNoLongerValid:
     "Tautan undangan tidak lagi valid. Silakan minta tautan undangan baru.",
-  inviteCodeIncorrect: "Tautan undangan salah. Klik di bawah untuk mengirim ulang.",
+  inviteCodeIncorrect:
+    "Tautan undangan salah. Klik di bawah untuk mengirim ulang.",
   thereAreNoFreeSeatsForThisWorkspace:
     "Tidak ada kursi gratis untuk ruang kerja ini",
   thisWorkspaceCantAcceptAnyMoreMembers:
@@ -705,7 +716,8 @@ const id = {
   cardPathArchivedBoard: "Kartu ini ada di papan yang diarsipkan",
   restoreMakeChange: "Klik di sini untuk memulihkan",
   boardUpdated: "Papan diperbarui",
-  defaultBoardLayoutChangedTo: "Tata letak default diubah menjadi %{layoutStyle}",
+  defaultBoardLayoutChangedTo:
+    "Tata letak default diubah menjadi %{layoutStyle}",
   esc: "Esc",
   assignee: "Penugasan",
   assignees: "Penugasan-penugasan",
@@ -736,14 +748,17 @@ const id = {
   newTag: "Tag baru",
   tagExists: "Tag sudah ada",
   toggleSection: "Toggle bagian",
-  toggleContent: "Bagian kosong. Klik untuk menulis atau menyalin konten di sini.",
+  toggleContent:
+    "Bagian kosong. Klik untuk menulis atau menyalin konten di sini.",
   removeChildCardFail: "Gagal menghapus kartu anak",
   moveChildCardFail: "Gagal memindahkan kartu anak",
   addChildCardFail: "Gagal menambahkan kartu anak",
   cantRemoveMembers: "Anda tidak dapat menghapus anggota dari ruang default",
-  cantRemoveMembersFromSpace: "Anda tidak dapat menghapus anggota dari ruang ini",
+  cantRemoveMembersFromSpace:
+    "Anda tidak dapat menghapus anggota dari ruang ini",
   cannotModifyMembers: "Anda tidak memiliki izin untuk mengubah anggota",
-  inactiveMembersCannotBeAdded: "Anggota tidak aktif tidak dapat ditambahkan ke ruang",
+  inactiveMembersCannotBeAdded:
+    "Anggota tidak aktif tidak dapat ditambahkan ke ruang",
   duplicate: "Duplikasi",
   setParentCard: "Setel kartu induk",
   duplicateCard: "Duplikasi kartu",
@@ -784,7 +799,8 @@ const id = {
   boardDuplicateFailed: "Gagal menggandakan papan",
   viewDuplicateFailed: "Gagal menduplikasi tampilan",
   cantUndoneAction: "Tindakan ini tidak dapat dibatalkan.",
-  eachSpaceCanContain: "Setiap ruang dapat memuat sebanyak mungkin papan yang Anda inginkan",
+  eachSpaceCanContain:
+    "Setiap ruang dapat memuat sebanyak mungkin papan yang Anda inginkan",
   browseSpaces: "Jelajahi ruang",
   popupSpaceDescription:
     "Mengatur pekerjaan dalam ruang. Mereka biasanya dinamai sesuai dengan tim, proyek, atau tujuan tingkat tinggi.",
@@ -806,7 +822,8 @@ const id = {
   createNewCard: "Buat kartu baru",
   unsplashImage: "Gambar Unsplash",
   shareToWeb: "Bagikan ke web",
-  publishesSubpagesButNoComments: "Menerbitkan subhalaman, tetapi tidak komentar",
+  publishesSubpagesButNoComments:
+    "Menerbitkan subhalaman, tetapi tidak komentar",
   pageIsSharedToWeb: "Halaman dibagikan ke web",
   shared: "Dibagikan",
   openSharedPage: "Buka halaman bersama",
@@ -842,7 +859,8 @@ const id = {
   removePullRequest: "Hapus permintaan tarik",
   viewOnGitHub: "Lihat di GitHub",
   setUpGHIntegration: "Atur integrasi GitHub",
-  integrateSuperthread: "Integrasikan Superthread ke dalam klien git favorit Anda.",
+  integrateSuperthread:
+    "Integrasikan Superthread ke dalam klien git favorit Anda.",
   githubIntegradionDescripiton:
     "Hubungkan kartu Superthread ke permintaan tarik GitHub. Sertakan ID kartu Superthread (misalnya C-123) dalam nama cabang atau judul permintaan tarik Anda untuk secara otomatis menampilkan status PR di kartu.",
   connectGithub: "Hubungkan GitHub",
@@ -902,7 +920,8 @@ const id = {
   createAndBrowseSpaces: "Jelajahi dan buat ruang",
   nameIsRequired: "Nama diperlukan",
   noProjectFound: "Tidak ada ruang lagi untuk ditambahkan",
-  memberExplanation: "Anggota dapat menjelajahi dan bergabung dengan ruang mana pun di ruang kerja",
+  memberExplanation:
+    "Anggota dapat menjelajahi dan bergabung dengan ruang mana pun di ruang kerja",
   adminExplanation: "Admin memiliki akses lebih ke pengaturan ruang kerja",
   guestExplanation:
     "Tamu memiliki akses terbatas ke ruang kerja dan hanya melihat ruang yang mereka tambahkan",
@@ -1030,7 +1049,8 @@ const id = {
   ["now-1y"]: "1 tahun yang lalu",
   anywhereYouAreMentioned:
     "Di mana pun Anda disebutkan (terlepas dari status berlangganan dll.)",
-  anyCommentsOnResources: "Komentar apa pun pada sumber daya yang Anda langgani.",
+  anyCommentsOnResources:
+    "Komentar apa pun pada sumber daya yang Anda langgani.",
   ifYouAreMemberOfABoard: "Jika Anda adalah anggota dari sebuah papan:",
   manageMembers: "Kelola anggota",
   manageWhoHasAccess: "Kelola siapa yang memiliki akses ke ruang kerja ini",
@@ -1110,7 +1130,8 @@ const id = {
   merge: "Gabung",
   theSpace: "Ruang",
   haveSameTags: "memiliki tag dengan nama yang sama.",
-  doYouWantToMerge: "Apakah Anda ingin menggabungkan ini ke dalam tag ruang kerja baru?",
+  doYouWantToMerge:
+    "Apakah Anda ingin menggabungkan ini ke dalam tag ruang kerja baru?",
   tagWithThisNameWorkspace: "Tag ruang kerja dengan nama ini sudah ada",
   tagWithThisNameSpace: "Tag dengan nama ini sudah ada di ruang",
   editTag: "Sunting tag",
@@ -1216,7 +1237,8 @@ const id = {
   deleted: "%{name} dihapus",
   leaveNamedSpace: "Tinggalkan ruang %{name}?",
   leaveNamedPrivateSpace: "Tinggalkan ruang pribadi %{name}?",
-  deleteAndLeaveNamedPrivateSpace: "Hapus dan tinggalkan ruang pribadi %{name}?",
+  deleteAndLeaveNamedPrivateSpace:
+    "Hapus dan tinggalkan ruang pribadi %{name}?",
   youLeftNamedSpace: "Anda meninggalkan ruang %{name}.",
   youCannotLeaveTheSpace: "Anda tidak dapat meninggalkan ruang ini",
   joinSpace: "Bergabung dengan ruang",
@@ -1308,10 +1330,12 @@ const id = {
   resolveIt: "menyelesaikannya",
   inboxNotificationsAreUnresolved:
     "Notifikasi belum selesai sampai Anda menyelesaikannya",
-  notificationsAreNew: "Notifikasi baru jika Anda belum pernah melihatnya sebelumnya",
+  notificationsAreNew:
+    "Notifikasi baru jika Anda belum pernah melihatnya sebelumnya",
   wantNotificationsIn: "Ingin notifikasi di",
   slaskQuestionMarkVisit: "Slack? Kunjungi",
-  noCardsMatchChosenFilter: "Tidak ada kartu yang cocok dengan filter yang dipilih",
+  noCardsMatchChosenFilter:
+    "Tidak ada kartu yang cocok dengan filter yang dipilih",
   noCardsFound: "Tidak ada kartu ditemukan",
   boardMoved: "Papan dipindahkan",
   pageMoved: "Halaman dipindahkan",
@@ -1357,7 +1381,8 @@ const id = {
   defaultBoardLayoutDescription:
     "Semua orang akan melihat tata letak ini secara default. Pengaturan ini dapat diubah nanti.",
   boardDescription: "Kartu dikelompokkan ke dalam kolom",
-  listDescription: "Kartu berada dalam daftar vertikal, dibagi menjadi kelompok",
+  listDescription:
+    "Kartu berada dalam daftar vertikal, dibagi menjadi kelompok",
   timelineDescription: "Garis waktu berdasarkan tanggal mulai dan jatuh tempo",
   calendarDescription: "Kartu ditempatkan pada tanggal jatuh temponya",
   boardName: "Nama papan",
@@ -1366,11 +1391,14 @@ const id = {
   earliestDueDate: "Tanggal jatuh tempo paling awal",
   highestPriority: "Prioritas tertinggi",
   largestEstimate: "Estimasi terbesar",
-  STIsMostUseful: "Superthread paling berguna saat Anda bekerja dengan orang lain.",
+  STIsMostUseful:
+    "Superthread paling berguna saat Anda bekerja dengan orang lain.",
   readOnly: "Hanya baca",
-  boardWillNotShowOnPublicPage: "Papan ini tidak akan ditampilkan di halaman publik",
+  boardWillNotShowOnPublicPage:
+    "Papan ini tidak akan ditampilkan di halaman publik",
   removeBoard: "Hapus papan",
-  noSprints: "Sprint akan dicantumkan di sini dari yang terbaru ke yang paling awal",
+  noSprints:
+    "Sprint akan dicantumkan di sini dari yang terbaru ke yang paling awal",
   noNonSprintBoardsInThisSpace: "Tidak ada papan non-sprint di ruang ini",
   inviteToWorkspaceDescription:
     "Untuk menambahkan anggota yang ada ke ruang, pergi ke pengaturan ruang",
@@ -1410,12 +1438,14 @@ const id = {
   selectWorkspaceIntegrations: "Pilih ruang kerja untuk integrasi",
   change: "Ubah",
   createNewWorkspace: "Buat ruang kerja baru",
-  notSeeingYourWorkspace: "Tidak melihat ruang kerja Anda? Coba email yang berbeda:",
+  notSeeingYourWorkspace:
+    "Tidak melihat ruang kerja Anda? Coba email yang berbeda:",
   dismiss: "Abaikan",
   load: "Muat",
   youAlreadyHave: "Anda sudah memiliki",
   openBoard: "Buka papan",
-  cardCannotBeMovedDirectlyToSpace: "Kartu tidak dapat dipindahkan langsung ke dalam ruang.",
+  cardCannotBeMovedDirectlyToSpace:
+    "Kartu tidak dapat dipindahkan langsung ke dalam ruang.",
   clickToRename: "Klik untuk mengganti nama",
   info: "Informasi",
   clearAllFilters: "Hapus semua filter",
@@ -1467,13 +1497,15 @@ const id = {
   electronRecentlyViewed: "Baru-baru ini dilihat",
   electronOpenDesktopApp: "Buka aplikasi desktop",
   electronRedirectingToApp: "Mengarahkan ke aplikasi desktop...",
-  updateAppToEditComment: "Silakan perbarui aplikasi untuk mengedit komentar ini",
+  updateAppToEditComment:
+    "Silakan perbarui aplikasi untuk mengedit komentar ini",
   updateAppToEditCard: "Silakan perbarui aplikasi untuk mengedit kartu ini",
   connectToImporter: "Hubungkan ke %{importerName}",
   accessToken: "token akses",
   installationCloudHostname: "hostname instalasi / cloud",
   findInYour: "Temukan di",
-  emailAddressYouUseFor: "Alamat email yang digunakan untuk akun %{importerName} Anda",
+  emailAddressYouUseFor:
+    "Alamat email yang digunakan untuk akun %{importerName} Anda",
   selectWhich: "Pilih yang mana",
   selectBoardsToImport: "Pilih %{boardEq} yang ingin Anda impor %{cardEq} dari",
   importYourExistingNameToST:
@@ -1531,7 +1563,7 @@ const id = {
   addADescription: "Tambahkan deskripsi",
   showingNumberOfSpaces:
     "Menampilkan %{num} hasil dari %{totalNum} total ruang",
-  noResultsFoundFor: 'Tidak ada hasil ditemukan untuk ”%{query}”',
+  noResultsFoundFor: "Tidak ada hasil ditemukan untuk ”%{query}”",
   changeDescription: "Ubah deskripsi",
   contents: "Isi",
   createSpaceSubtitle:
@@ -1589,18 +1621,23 @@ const id = {
   ["myWork.notes"]: "Catatan",
   ["myWorkNoResults.created"]: "Tidak ada kartu yang dibuat oleh Anda",
   ["myWorkNoResults.assigned"]: "Tidak ada kartu yang ditugaskan kepada Anda",
-  ["memberNoResults.assigned"]: "Tidak ada kartu yang ditugaskan kepada %{userName}",
+  ["memberNoResults.assigned"]:
+    "Tidak ada kartu yang ditugaskan kepada %{userName}",
   ["memberNoResults.created"]: "Tidak ada kartu yang dibuat oleh %{userName}",
   newCard: "Kartu baru",
-  addedCommentHiddenByFilter: "Komentar yang ditambahkan disembunyikan oleh filter",
-  createdCardHiddenByFilter: "Kartu yang dibuat mungkin disembunyikan oleh filter",
+  addedCommentHiddenByFilter:
+    "Komentar yang ditambahkan disembunyikan oleh filter",
+  createdCardHiddenByFilter:
+    "Kartu yang dibuat mungkin disembunyikan oleh filter",
   viewWork: "Lihat pekerjaan",
   removeFromSpace: "Hapus dari ruang",
   assignedInThisBoard: "Ditugaskan di papan ini",
   layout: "Tata letak",
-  createdCardMovedSortOrder: "Kartu yang dibuat mungkin dipindahkan oleh urutan penyortiran",
+  createdCardMovedSortOrder:
+    "Kartu yang dibuat mungkin dipindahkan oleh urutan penyortiran",
   createCardGroupBy: "Kartu ditambahkan ke %{list}.",
-  canNotMoveCardInsameBoard: "Tidak dapat memindahkan kartu di papan yang sama.",
+  canNotMoveCardInsameBoard:
+    "Tidak dapat memindahkan kartu di papan yang sama.",
   latestReply: "Balasan terbaru",
   replyLabel: "Balas",
   totalReplies: "total balasan",
@@ -1637,7 +1674,7 @@ const id = {
   noResultsForThatName: "Tidak ada hasil untuk nama itu",
   youCan: "Anda dapat",
   createASpace: "membuat ruang",
-  named: 'dengan nama ”%{query}”',
+  named: "dengan nama ”%{query}”",
   estimate: "Estimasi",
   onePoint: "1 poin",
   numberOfPoints: "%{num} poin",
@@ -1650,7 +1687,8 @@ const id = {
   settingsProjectsPreferencesSubtitle:
     "Pengaturan ini akan mempengaruhi semua anggota ruang",
   howCardsAreEstimated: "Cara kartu diperkirakan dalam ruang ini",
-  disableCardEstimationForThisSpace: "Nonaktifkan estimasi kartu untuk ruang ini",
+  disableCardEstimationForThisSpace:
+    "Nonaktifkan estimasi kartu untuk ruang ini",
   fibonacciPoints: "Poin Fibbonaci",
   exponentialPoints: "Poin eksponensial",
   tshirtSizes: "Ukuran kaos",
@@ -1672,7 +1710,8 @@ const id = {
     "Kemudian pilih filter yang Anda inginkan di bilah filter",
   cannotCreateViewOnMobile: "Anda tidak dapat membuat tampilan di ponsel.",
   viewCardInBoard: "Lihat kartu di papan sendiri",
-  guestsMustBeAddedToOneSpace: "Tamu harus ditambahkan ke setidaknya satu ruang",
+  guestsMustBeAddedToOneSpace:
+    "Tamu harus ditambahkan ke setidaknya satu ruang",
   createCard: "Buat kartu",
   suggestedBasedOnTitle: "Disarankan berdasarkan judul",
   acceptSuggestion: "Terima saran",
@@ -1734,8 +1773,7 @@ const id = {
   ["add_child_card.tooltip"]:
     "Kartu anak membantu Anda memecah pekerjaan menjadi tugas yang lebih kecil",
   ["visit_inbox.title"]: "Periksa kotak masuk Anda",
-  ["visit_inbox.tooltip"]:
-    "Lacak semua yang Anda berlangganan di kotak masuk",
+  ["visit_inbox.tooltip"]: "Lacak semua yang Anda berlangganan di kotak masuk",
   ["move_page.title"]: "Pindahkan halaman",
   ["move_page.tooltip"]:
     "Seret halaman di bilah samping untuk memindahkannya ke mana pun Anda inginkan",
@@ -1746,13 +1784,17 @@ const id = {
   ["add_page_icon.tooltip"]:
     "Ikon halaman membantu Anda menemukan halaman lagi dalam pencarian dan bilah samping",
   ["add_page_cover.title"]: "Tambahkan gambar sampul halaman",
-  ["add_page_cover.tooltip"]: "Tentukan suasana untuk halaman dengan gambar sampul",
+  ["add_page_cover.tooltip"]:
+    "Tentukan suasana untuk halaman dengan gambar sampul",
   ["quick_card_shortcut.title"]: "Jalan pintas kartu cepat (C)",
-  ["quick_card_shortcut.tooltip"]: "Tekan tombol C di mana saja untuk membuat kartu",
+  ["quick_card_shortcut.tooltip"]:
+    "Tekan tombol C di mana saja untuk membuat kartu",
   ["quick_page_shortcut.title"]: "Jalan pintas halaman cepat (P)",
-  ["quick_page_shortcut.tooltip"]: "Tekan tombol P di mana saja untuk membuat halaman",
+  ["quick_page_shortcut.tooltip"]:
+    "Tekan tombol P di mana saja untuk membuat halaman",
   ["create_card.title"]: "Buat kartu",
-  ["create_card.tooltip"]: "Buat kartu untuk setiap tugas yang ingin Anda lacak",
+  ["create_card.tooltip"]:
+    "Buat kartu untuk setiap tugas yang ingin Anda lacak",
   ["comment_on_card.title"]: "Komentari kartu",
   ["comment_on_card.tooltip"]:
     "Tulis pembaruan atau catat pemikiran Anda pada kartu",
@@ -1778,7 +1820,8 @@ const id = {
   inviteNewMembers: "Undang anggota baru",
   spaceDetails: "Detail ruang",
   makeBoardFullWidth: "Jadikan papan lebar penuh",
-  askAiAssistantSearch: "Tanyakan AI berdasarkan kartu, halaman, dan catatan Anda",
+  askAiAssistantSearch:
+    "Tanyakan AI berdasarkan kartu, halaman, dan catatan Anda",
   backToSearchResults: "Kembali ke hasil pencarian",
   sources: "Sumber",
   askAiQuestionLong: "Pertanyaan harus memiliki setidaknya 10 karakter.",
@@ -1790,8 +1833,10 @@ const id = {
     "Hanya pemilik ruang kerja, admin, dan pembuat ruang yang dapat mengubah pengaturan ini",
   onlyOwnerOfPrivateSpace:
     "Hanya pemilik ruang pribadi yang dapat mengubah pengaturan ini",
-  onlySpaceOwnerCanModifyMembers: "Hanya pemilik yang dapat mengubah anggota ruang",
-  cannotModifySpaceOwner: "Anda tidak dapat membuat perubahan pada pemilik ruang",
+  onlySpaceOwnerCanModifyMembers:
+    "Hanya pemilik yang dapat mengubah anggota ruang",
+  cannotModifySpaceOwner:
+    "Anda tidak dapat membuat perubahan pada pemilik ruang",
   sprintLength: "Lama sprint",
   weeks: "minggu",
   sprintStartOn: "Sprint dimulai pada",
@@ -1814,7 +1859,8 @@ const id = {
   changeSprintDatesFor: "Ubah tanggal untuk %{sprintName}",
   cancelSprint: "Batalkan sprint",
   changeDates: "Ubah tanggal",
-  chooseNewStartAndEndDates: "Pilih tanggal mulai atau akhir baru untuk %{sprintName}",
+  chooseNewStartAndEndDates:
+    "Pilih tanggal mulai atau akhir baru untuk %{sprintName}",
   renameSprintDescription: "Masukkan nama baru untuk sprint.",
   startDateIsEarlierThanPreviousEndDate:
     "Tanggal mulai bertabrakan dengan tanggal akhir sprint sebelumnya",
@@ -1833,8 +1879,7 @@ const id = {
   upgradeUserRolesDescription:
     "Anda dapat memilih peran pengguna non-admin pada rencana berbayar.",
   upgradedWorkspace: "Ruang kerja Anda telah ditingkatkan!",
-  workspaceSubscriptionChanged:
-    "Keanggotaan ruang kerja Anda telah diubah",
+  workspaceSubscriptionChanged: "Keanggotaan ruang kerja Anda telah diubah",
   sprintSettings: "Pengaturan sprint",
   electronDownloadApp: "Unduh aplikasi",
   electronDownloadAppDescription:
@@ -1868,10 +1913,12 @@ const id = {
     "Tingkatkan rencana ruang kerja Anda untuk menggunakan tata letak garis waktu.",
   calendarLayoutDescription:
     "Tingkatkan rencana ruang kerja Anda untuk menggunakan tata letak kalender.",
-  upgradeTemplatesDescription: "Tingkatkan rencana ruang kerja Anda untuk menggunakan template.",
+  upgradeTemplatesDescription:
+    "Tingkatkan rencana ruang kerja Anda untuk menggunakan template.",
   upgradeRoadmapAndProjectsDescription:
     "Tingkatkan rencana ruang kerja Anda untuk menggunakan peta jalan dan proyek.",
-  upgradeViewsDescription: "Tingkatkan rencana ruang kerja Anda untuk menyimpan tampilan.",
+  upgradeViewsDescription:
+    "Tingkatkan rencana ruang kerja Anda untuk menyimpan tampilan.",
   createNewItem: "Buat item baru",
   statusType: "Jenis status",
   spaceLimitReached:
@@ -1883,11 +1930,11 @@ const id = {
     "Jika batas tercapai, Anda perlu menghapus item atau meningkatkan paket sebelum item baru dapat dibuat.",
   limitReached: "Batas tercapai",
   resourceAndContentWillBeDeleted:
-    '%{resourceType} ”%{resourceTitle}” dan isinya akan dihapus secara permanen untuk semua orang. Ini tidak dapat dibatalkan.',
+    "%{resourceType} ”%{resourceTitle}” dan isinya akan dihapus secara permanen untuk semua orang. Ini tidak dapat dibatalkan.",
   resourceWillBeDeleted:
-    '%{resourceType} ”%{resourceTitle}” akan dihapus secara permanen untuk semua orang. Ini tidak dapat dibatalkan.',
+    "%{resourceType} ”%{resourceTitle}” akan dihapus secara permanen untuk semua orang. Ini tidak dapat dibatalkan.",
   epicWillBeDeleted:
-    '%{resourceType} ”%{resourceTitle}” akan dihapus secara permanen. Ini tidak dapat dibatalkan. Kartu apa pun yang telah ditambahkan ke proyek tidak akan dihapus.',
+    "%{resourceType} ”%{resourceTitle}” akan dihapus secara permanen. Ini tidak dapat dibatalkan. Kartu apa pun yang telah ditambahkan ke proyek tidak akan dihapus.",
   listNameLabel: "Nama daftar",
   deleteList: "Hapus daftar",
   itemName: "Nama item",
@@ -1902,7 +1949,8 @@ const id = {
   createCardsViaEmailTitle: "Buat kartu di papan ini melalui email",
   createCardsViaEmailDescription:
     "Buat kartu di papan ini jika ada yang mengirim pesan ke alamat email.",
-  onlyCurrentAddressWillWork: "Hanya alamat yang saat ini ditampilkan yang akan berfungsi.",
+  onlyCurrentAddressWillWork:
+    "Hanya alamat yang saat ini ditampilkan yang akan berfungsi.",
   regenerate: "Regenerasi",
   emailCopiedToClipboard: "Email disalin ke clipboard",
   emailRegenerated: "Email di-regenerasi",
@@ -1913,7 +1961,8 @@ const id = {
     "Jendela Slack akan terbuka dan meminta Anda untuk memilih saluran",
   slackChannelNotificationsDescriptionEnabled:
     "Notifikasi dari papan ini dikirim ke %{channel} di Slack.",
-  slackIntegrationError: "Tidak dapat mengaktifkan integrasi Slack. Silakan coba lagi",
+  slackIntegrationError:
+    "Tidak dapat mengaktifkan integrasi Slack. Silakan coba lagi",
   boardDoesNotExists: "Papan tersebut tidak ada",
   boardActivity: "Aktivitas papan",
   sendTo: "Kirim ke",
@@ -1926,7 +1975,8 @@ const id = {
   webhookNotificationCardAddedList: "Kartu ditambahkan/dipindahkan ke status",
   webhookNotificationCardCommented:
     "Komentar ditinggalkan pada kartu di papan (tidak termasuk balasan)",
-  webhookNotificationCardDueDate: "Tanggal jatuh tempo kartu segera/lewat waktu",
+  webhookNotificationCardDueDate:
+    "Tanggal jatuh tempo kartu segera/lewat waktu",
   folder: "Folder",
   yourSpaces: "Ruang Anda",
   quoteReply: "Kutip dan balas",
@@ -1966,26 +2016,29 @@ const id = {
   cardAlreadyHasEpicOrParent:
     "Kartu yang dipilih sudah memiliki proyek atau kartu induk. Mereka akan diubah jika Anda menambahkannya ke proyek ini.",
   changeEpic: "Ubah proyek",
-  childCardIsPartOfEpic: 'Kartu anak adalah bagian dari proyek ”%{epicName}”.',
+  childCardIsPartOfEpic: "Kartu anak adalah bagian dari proyek ”%{epicName}”.",
   parentCardHasNoEpic: "Kartu induk tidak memiliki proyek.",
   parentCardIsPartOfEpic:
-    'Kartu induk adalah bagian dari proyek ”%{epicName}”.',
+    "Kartu induk adalah bagian dari proyek ”%{epicName}”.",
   childCardsEpicWillBeRemoved:
     "Proyek kartu anak akan dihapus jika Anda melanjutkan.",
   childCardsEpicWillChangeToParents:
     "Proyek kartu anak akan berubah menjadi proyek kartu induk jika Anda melanjutkan.",
   removeEpic: "Hapus proyek",
   epicWillNoLongerBeAssociated:
-    'Kartu anak tidak akan lagi terkait dengan proyek ”%{epicName}” jika Anda menghapusnya dari kartu induknya.',
+    "Kartu anak tidak akan lagi terkait dengan proyek ”%{epicName}” jika Anda menghapusnya dari kartu induknya.",
   childCardAlreadyHasParent:
     "Kartu anak sudah memiliki induk. Induk akan diubah ke kartu ini jika Anda melanjutkan.",
   cardsDirectlyAddedToEpicCantHaveParent:
     "Kartu yang ditambahkan langsung ke proyek tidak dapat memiliki kartu induk",
-  epicNoTagsFound: "Tidak ada tag ditemukan. Proyek hanya dapat menggunakan tag ruang kerja",
+  epicNoTagsFound:
+    "Tidak ada tag ditemukan. Proyek hanya dapat menggunakan tag ruang kerja",
   cannotChangeStatusForCardsInFinishedSprint:
     "Tidak dapat mengubah status untuk kartu dalam sprint yang sudah selesai",
-  cannotChangeStatusForArchivedCards: "Tidak dapat mengubah status untuk kartu yang diarsipkan",
-  cantMoveArchivedCardToSprint: "Tidak dapat memindahkan kartu yang diarsipkan ke sprint",
+  cannotChangeStatusForArchivedCards:
+    "Tidak dapat mengubah status untuk kartu yang diarsipkan",
+  cantMoveArchivedCardToSprint:
+    "Tidak dapat memindahkan kartu yang diarsipkan ke sprint",
   relatedTo: "Terkait dengan",
   changePriority: "Ubah prioritas",
   changeEstimate: "Ubah perkiraan",
@@ -2002,7 +2055,8 @@ const id = {
     "Gagal memperbarui otomatisasi khusus cabang.",
   branchSpecificAutomationRemoveFailed:
     "Gagal menghapus otomatisasi khusus cabang.",
-  thereAreNoCurrentOrPlannedSprints: "Tidak ada sprint saat ini atau yang direncanakan",
+  thereAreNoCurrentOrPlannedSprints:
+    "Tidak ada sprint saat ini atau yang direncanakan",
   thereIsNoCurrentOrNextSprint: "Tidak ada sprint saat ini atau berikutnya",
   movedCardFrom: "Pindahkan kartu dari",
   movedEpicFrom: "Pindahkan proyek dari",
@@ -2037,7 +2091,8 @@ const id = {
   spaceLevelTags: "tanda tingkat ruang",
   effortEstimate: "estimasi usaha",
   existingEpic: "proyek yang ada",
-  roadmapMustHaveAtLeastOneStatus: "Peta jalan harus memiliki setidaknya satu status",
+  roadmapMustHaveAtLeastOneStatus:
+    "Peta jalan harus memiliki setidaknya satu status",
   chosenPageIsAlreadySubpage:
     "Halaman yang dipilih sudah menjadi subhalaman dari halaman saat ini",
   searchForResults: "Cari untuk menampilkan hasil",
@@ -2124,7 +2179,8 @@ const id = {
   addCardsToProject: "Tambahkan kartu ke proyek ini",
   projectEmptyStateDescription:
     "Sebuah proyek adalah pekerjaan besar yang terdiri dari banyak kartu dari seluruh ruang kerja. Buat proyek di kolom, atau edit status default.",
-  cardInProjectEmptyStateFooter: "Sebuah kartu hanya dapat menjadi bagian dari satu proyek",
+  cardInProjectEmptyStateFooter:
+    "Sebuah kartu hanya dapat menjadi bagian dari satu proyek",
   addCardsThatContributeToProject:
     "Tambahkan kartu yang berkontribusi pada proyek ini. Anda dapat",
   noProject: "Tidak ada proyek",
@@ -2150,7 +2206,8 @@ const id = {
   introduction: "Pengantar",
   sampleSectionDescription:
     "Tangkap poin pembicaraan menarik dari obrolan ringan di awal pertemuan. Abaikan diskusi tentang cuaca.",
-  allowSuperthreadToTranscribe: "Izinkan Superthread untuk mentranskripsi pertemuan Anda",
+  allowSuperthreadToTranscribe:
+    "Izinkan Superthread untuk mentranskripsi pertemuan Anda",
   superthreadCanEnhance:
     "Superthread dapat meningkatkan catatan Anda dengan mentranskripsi audio langsung dari laptop Anda, tidak perlu bot pertemuan. Ini bekerja untuk pertemuan tatap muka dan virtual, dengan kontrol penuh kapan diaktifkan. Audio Anda tidak pernah disimpan atau digunakan untuk hal lain.",
   transcribeYourVoice: "Transkripsikan suara Anda",
@@ -2212,7 +2269,8 @@ const id = {
   noteCopiedToClipboard: "Catatan disalin ke clipboard",
   copyTranscriptToClipboard: "Salin transkrip ke clipboard",
   transcriptCopiedToClipboard: "Transkrip disalin ke clipboard",
-  anyoneWithThisLinkCanViewNote: "Siapa pun dengan tautan ini dapat melihat catatan",
+  anyoneWithThisLinkCanViewNote:
+    "Siapa pun dengan tautan ini dapat melihat catatan",
   notesEnhancedBySuperthread: "Catatan ditingkatkan oleh Superthread",
   connectGoogleCalendar: "Hubungkan Google Calendar",
   googleCalendarIntegration: "Integrasi Google Calendar",
@@ -2223,12 +2281,14 @@ const id = {
   showCalendarMeetingsUpTo: "Tampilkan rapat kalender hingga",
   dayAheadInNotesList: "hari ke depan dalam daftar catatan",
   daysAheadInNotesList: "hari ke depan dalam daftar catatan",
-  eventTypesToIncludeInNotesList: "Jenis acara yang akan disertakan dalam daftar catatan",
+  eventTypesToIncludeInNotesList:
+    "Jenis acara yang akan disertakan dalam daftar catatan",
   ["calendar.all_day"]: "Acara sepanjang hari, termasuk acara multi-hari",
   ["calendar.event_link"]: "Acara tanpa tautan rapat",
   ["calendar.participants"]: "Acara dengan hanya satu peserta",
   createNoteFromUpcomingMeeting: "Buat catatan dari rapat mendatang",
-  noUpcomingMeetings: "Tidak ada rapat mendatang. Anda dapat mengubah jangka waktu di",
+  noUpcomingMeetings:
+    "Tidak ada rapat mendatang. Anda dapat mengubah jangka waktu di",
   seeUpcomingMeetings: "Lihat rapat mendatang di sini dengan",
   searchForAnApp: "Cari aplikasi...",
   meetingAppsWatched: "%{num} aplikasi rapat dipantau",
@@ -2318,7 +2378,8 @@ const id = {
   workspaceDescriptionLabel: "Deskripsi ruang kerja",
   workspaceDescriptionPlaceholder: "Masukkan deskripsi ruang kerja",
   notesTutorial: "Tutorial catatan",
-  learnHowToUseSuperthreadNotes: "Pelajari cara menggunakan catatan Superthread",
+  learnHowToUseSuperthreadNotes:
+    "Pelajari cara menggunakan catatan Superthread",
   myTemplates: "Template saya",
   otherTemplates: "Template lainnya",
   meetingDate: "Tanggal rapat",
@@ -2333,7 +2394,8 @@ const id = {
   cardDueSoon: "Kartu jatuh tempo segera",
   cardOverdue: "Kartu terlambat",
   cardAddedToBoardList: "Kartu ditambahkan ke papan atau daftar",
-  pageCommentStatusUpdate: "Komentar halaman ditandai sebagai diselesaikan/belum diselesaikan",
+  pageCommentStatusUpdate:
+    "Komentar halaman ditandai sebagai diselesaikan/belum diselesaikan",
   meetingNotes: "Catatan rapat",
   regularNotes: "Catatan reguler",
   editAttendees: "Sunting peserta",
@@ -2402,7 +2464,8 @@ const id = {
   suggestedCheckinFirstMessage:
     "Saya perlu menanyakan beberapa pertanyaan tentang check-in tim harian Anda.",
   teamCheckinCurrentCards: "Ini adalah kartu Anda saat ini:",
-  teamCheckinProposedReport: "Ini adalah laporan yang saya usulkan tentang pekerjaan Anda:",
+  teamCheckinProposedReport:
+    "Ini adalah laporan yang saya usulkan tentang pekerjaan Anda:",
   teamCheckinFinalReport: "Ini adalah laporan akhir Anda untuk hari ini:",
   question: "Pertanyaan",
   submit: "Kirim",
@@ -2414,7 +2477,8 @@ const id = {
   defaultCheckinQuestion:
     "Apakah Anda ingin menjelaskan sesuatu dalam laporan yang diusulkan? Atau apakah Anda ingin menambahkan sesuatu ke dalamnya?",
   whatChanged: "Apa yang berubah?",
-  clarificationQuestionReject: "Tidak, saya tidak memiliki apa pun untuk ditambahkan",
+  clarificationQuestionReject:
+    "Tidak, saya tidak memiliki apa pun untuk ditambahkan",
   reportFromPastTitle:
     "Ini adalah pemberitahuan untuk laporan pengguna dari masa lalu",
   reportFromPastDescription:
@@ -2430,7 +2494,8 @@ const id = {
   thisWillHelpUsTailorYourExperience:
     "Ini akan membantu kami menyesuaikan pengalaman Anda agar sesuai dengan kebutuhan Anda.",
   chooseAUseCase: "Pilih kasus penggunaan",
-  whereDidYouHearAboutSuperthread: "Dari mana Anda mendengar tentang Superthread?",
+  whereDidYouHearAboutSuperthread:
+    "Dari mana Anda mendengar tentang Superthread?",
   yourFeedbackHelpsUsImproveHowWeReach:
     "Umpan balik Anda membantu kami meningkatkan cara kami menjangkau orang seperti Anda.",
   twitter: "X (Twitter)",
@@ -2453,7 +2518,8 @@ const id = {
   copyTitlesAsLinks: "Salin judul sebagai tautan",
   changingTags: "Mengubah tag",
   subscribingToResourceUpdates: "Berlangganan pembaruan sumber daya",
-  unsubscribingFromResourceUpdates: "Berhenti berlangganan dari pembaruan sumber daya",
+  unsubscribingFromResourceUpdates:
+    "Berhenti berlangganan dari pembaruan sumber daya",
   removingFromFavourites: "Menghapus dari favorit",
   addingToFavourites: "Menambahkan ke favorit",
   changingAssignees: "Mengubah penugasan",
@@ -2487,7 +2553,7 @@ const id = {
   noPATs: "Tidak ada token akses pribadi",
   noPATsSubtitle: "Anda dapat membuat token akses pribadi di atas",
   noPATsSubtitleAdmin:
-    'Anda dapat membuat token akses pribadi dari layar ”Akses API”',
+    "Anda dapat membuat token akses pribadi dari layar ”Akses API”",
   revokePatConfirmation: "Apakah Anda yakin ingin mencabut token “%{patName}”?",
   lastUsed: "Terakhir digunakan",
   revokePatDescription:
