@@ -163,6 +163,7 @@ const de = {
   ["billing.indexSharedPages"]:
     "Indexiere freigegebene Seiten in Suchmaschinen",
   ["billing.privateSpaces"]: "Private Räume",
+  ["billing.viewOnlySpaces"]: "Ansichts-nur-Raume",
   ["billing.timelineListAndBoardView"]: "Zeitachse, Liste & Board-Ansicht",
   ["billing.guestAccounts"]: "Gastkonten",
   ["billing.monthly"]: "Monatlich",
@@ -2578,16 +2579,16 @@ const de = {
   changingStatus: "Status ändern",
   processed: "Verarbeitet",
   clearSelection: "Auswahl löschen",
-  createPAT: "PAT erstellen",
+  createPAT: "Token erstellen",
   createPATLong: "Persönlichen Zugriffstoken erstellen",
-  patName: "Name des persönlichen Zugriffstokens",
-  patNamePlaceholder: "z. B. “Superthread API”",
-  patExpirationTitle: "Ablaufzeit des PAT",
+  patName: "Token-Name",
+  patNamePlaceholder: "Ein kurzer beschreibender Name...",
+  expiration: "Ablaufdatum",
   patExpirationTimeSubtitle:
     "Der Token läuft nach der gewählten Anzahl an Tagen automatisch ab und ist dann nicht mehr gültig.",
   expirationTimeSelect: "Dieser Token läuft ab in:",
   selectExpirationTime: "Ablaufzeit wählen",
-  patNoExpirationWarningTitle: "Kein Ablaufzeit-Token-Warnhinweis",
+  patNoExpirationWarningTitle: "Diesen Token niemals ablaufen lassen?",
   patNoExpirationWarningDescription:
     "Ein Token ohne Ablaufdatum bleibt unbegrenzt gültig, was bei Kompromittierung ein Sicherheitsrisiko darstellt. Ein Ablaufdatum reduziert langfristige Risiken.",
   day: "Tag",
@@ -2599,19 +2600,23 @@ const de = {
   invalidPATExpirationDate: "Ablaufdatum muss in der Zukunft liegen",
   personalAccessTokens: "Persönliche Zugriffstokens",
   personalAccessTokensSubtitle:
-    "Erstellen Sie ein persönliches Zugriffstoken für den schnellen Zugriff auf die Superthread API",
+    "Erstellen Sie ein persönliches Zugriffstoken, um mit der Superthread-API zu interagieren",
   searchPATs: "Tokens durchsuchen",
   noPATs: "Keine persönlichen Zugriffstokens",
   noPATsSubtitle: "Sie können oben ein persönliches Zugriffstoken erstellen",
+  noPATsSubtitleAdmin:
+    'Sie können ein persönliches Zugriffstoken von der "API-Zugriff" Seite erstellen',
   revokePatConfirmation:
     "Möchten Sie den Token “%{patName}” wirklich widerrufen?",
   lastUsed: "Zuletzt verwendet",
-  revokePatDescription: "Diese Aktion kann nicht rückgängig gemacht werden.",
+  revokePatDescription:
+    "Alle Anwendungen oder Skripte, die diesen Token verwenden, können nicht mehr auf die Superthread-API zugreifen. Diese Aktion kann nicht rückgängig gemacht werden.",
   never: "Nie",
   patLimitReachedTooltip: "Limit von %{limit} PATs erreicht",
-  newPatCreated: "Neuer persönlicher Zugriffstoken erstellt",
-  newPatCreatedDescription:
-    "Kopieren Sie den Token jetzt – Sie können ihn später nicht mehr einsehen!",
+  newPatCreated: "Kopieren Sie Ihr persönliches Zugriffstoken",
+  newPatCreatedDescriptionOne:
+    "Stellen Sie sicher, dass Sie Ihr Token jetzt kopieren.",
+  newPatCreatedDescriptionTwo: "Sie werden es später nicht mehr sehen können!",
   tokenCopiedToClipboard: "Token in die Zwischenablage kopiert",
   proceed: "Weiter",
   copyToken: "Token kopieren",
@@ -2627,6 +2632,42 @@ const de = {
   duplicateCards: "Doppelte Karten",
   blockedByCards: "Blockiert durch Karten",
   blockingCards: "Blockierende Karten",
+  apiAccess: "API-Zugriff",
+  viewDocs: "Dokumentation anzeigen",
+  createPatSubtitle:
+    "Wenn Sie ein persönliches Zugriffstoken zur Nutzung der API verwenden, werden alle Aktionen Ihnen persönlich zugeordnet",
+  expirationReminderText:
+    "Wir senden Ihnen am Tag vor dem Ablauf Ihres Tokens eine Erinnerung per E-Mail.",
+  securityAndAccess: "Sicherheit & Zugriff",
+  securityAndAccessSubtitle:
+    "Mitglieder des Arbeitsbereichs können persönliche Zugriffstokens erstellen, um mit der Superthread-API zu interagieren. Administratoren können sie hier überprüfen und widerrufen.",
+  youOnlyHavePermissionToViewContent:
+    "Sie haben nur die Berechtigung, Inhalte in der",
+  namedSpace: "%{space} Arbeitsbereich",
+  contactEmailToRequestEditAccess:
+    "Kontaktieren Sie %{email}, um Zugriff auf die Bearbeitung zu beantragen.",
+  viewOnly: "Nur ansehen",
+  viewOnlySubtitle:
+    "Personen, die keine Raummitglieder sind und Mitglieder ohne Bearbeitungsrechte haben nur Ansichtsrecht",
+  canEdit: "Kann bearbeiten",
+  canView: "Kann ansehen",
+  thisSpaceIsViewOnly: "Dieser Arbeitsbereich ist nur ansehbar",
+  upgradeViewOnlySpacesDescription:
+    "Sie können Ansichts-nur-Raum auf einem bezahlten Plan erstellen.",
+  changeToViewOnlySpaceTitle: "In Ansichts-nur-Raum ändern?",
+  changeToViewOnlySpace:
+    "Alle bestehenden Mitglieder dieses Raums bleiben weiterhin Mitglieder, auch wenn er in einen Ansichts-nur-Raum umgewandelt wird. Neue Mitglieder können sich nicht anmelden, es sei denn, sie werden eingeladen.",
+  changeToViewOnly: "In Ansichts-nur-Raum ändern",
+  completeSprint: "Sprint beenden",
+  completeSprintWarning:
+    "Alle unvollständigen Karten werden in den nächsten Sprint übertragen. Wenn es keinen nächsten Sprint gibt, wird automatisch ein neuer erstellt.",
+  hideEmptyColumns: "Leere Spalten ausblenden",
+  hideEmptyRows: "Leere Zeilen ausblenden",
+  rememberAssignees: "Zuweisung(en) merken",
+  rememberAssigneesTooltip:
+    "Verwende diese Zuweisungen immer, wenn du Karten erstellst",
+  recentlyUsedBoards: "Kürzlich verwendete Boards",
+  recent: "Kürzlich",
 };
 
 export default de as Translations;

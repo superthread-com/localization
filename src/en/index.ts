@@ -161,6 +161,7 @@ const en = {
   ["billing.unlimitedPages"]: "Unlimited pages",
   ["billing.indexSharedPages"]: "Index shared pages in search engines",
   ["billing.privateSpaces"]: "Private spaces",
+  ["billing.viewOnlySpaces"]: "View only spaces",
   ["billing.timelineListAndBoardView"]: "Timeline, list, & board view",
   ["billing.guestAccounts"]: "Guest accounts",
   ["billing.monthly"]: "Monthly",
@@ -1505,9 +1506,6 @@ const en = {
   matchToAnExistingSTUser: "Match to an existing Superthread user",
   createANewUser: "Create a new user (email invite)",
   projectsCannotBeMovedToSpaces: "Projects cannot be moved to spaces",
-  // importEpics: "Import epics",
-  // importEpicsDesc:
-  //   "Epics will be imported in their own separate Superthread board called ‘Epics’.",
   importOpenStories: "Import open stories",
   importOpenStoriesDesc:
     "Unresolved or opened stories will be imported with thier existing states.",
@@ -2465,16 +2463,16 @@ const en = {
   changingStatus: "Changing status",
   processed: "Processed",
   clearSelection: "Clear selection",
-  createPAT: "Create PAT",
+  createPAT: "Create token",
   createPATLong: "Create personal access token",
-  patName: "Personal access token name",
-  patNamePlaceholder: "e.g. “Superthread API”",
-  patExpirationTitle: "PAT expiration time",
+  patName: "Token name",
+  patNamePlaceholder: "A short descriptive name...",
+  expiration: "expiration",
   patExpirationTimeSubtitle:
     "The token will automatically expire after the selected number of days and can no longer be used.",
   expirationTimeSelect: "This token will expire in:",
   selectExpirationTime: "Select expiration time",
-  patNoExpirationWarningTitle: "No expiration token warning",
+  patNoExpirationWarningTitle: "Never expire this token?",
   patNoExpirationWarningDescription:
     "Choosing no expiration can leave your token vulnerable indefinitely if it's ever compromised. Expiring tokens help reduce long-term security risks.",
   day: "day",
@@ -2486,18 +2484,21 @@ const en = {
   invalidPATExpirationDate: "Expiration date needs to be in the future",
   personalAccessTokens: "Personal access tokens",
   personalAccessTokensSubtitle:
-    "Generate a personal access token for quick access to the Superthread API",
+    "Generate a personal access token to interact with the Superthread API",
   searchPATs: "Search tokens",
   noPATs: "No personal access tokens",
   noPATsSubtitle: "You can create a personal access token above",
+  noPATsSubtitleAdmin:
+    'You can create a personal access token from the "API access" screen',
   revokePatConfirmation: "Are you sure you want to revoke “%{patName}” token?",
   lastUsed: "Last used",
-  revokePatDescription: "This action cannot be undone.",
+  revokePatDescription:
+    "Any applications or scripts using this token will no longer be able to access the Superthread API. This action cannot be undone.",
   never: "Never",
   patLimitReachedTooltip: "Limit of %{limit} PATs reached",
-  newPatCreated: "New personal access token created",
-  newPatCreatedDescription:
-    "Make sure to copy your personal access token now, as you won't be able to see it again!",
+  newPatCreated: "Copy your personal access token",
+  newPatCreatedDescriptionOne: "Make sure to copy your token now.",
+  newPatCreatedDescriptionTwo: "You won’t be able to see it again!",
   tokenCopiedToClipboard: "Token copied to clipboard",
   proceed: "Proceed",
   copyToken: "Copy token",
@@ -2513,6 +2514,40 @@ const en = {
   duplicateCards: "Duplicate cards",
   blockedByCards: "Blocked by cards",
   blockingCards: "Blocking cards",
+  apiAccess: "API access",
+  viewDocs: "view docs",
+  createPatSubtitle:
+    "When using a personal access token to access the API, all action are attributed to you as an individual",
+  expirationReminderText:
+    "We will send you a reminder email the day before your token expires.",
+  securityAndAccess: "Security & access",
+  securityAndAccessSubtitle:
+    "Members of the workspace can create personal access tokens to interact with the Superthread API. Admins can review and revoke them here.",
+  youOnlyHavePermissionToViewContent:
+    "You only have permission to view content in the",
+  namedSpace: "%{space} space",
+  contactEmailToRequestEditAccess: "Contact %{email} to request edit access.",
+  viewOnly: "View only",
+  viewOnlySubtitle:
+    "People who are not space members and members without edit rights have view only access",
+  canEdit: "Can edit",
+  canView: "Can view",
+  thisSpaceIsViewOnly: "This space is view only",
+  upgradeViewOnlySpacesDescription:
+    "You can create view only spaces on a paid plan.",
+  changeToViewOnlySpaceTitle: "Change to view only space?",
+  changeToViewOnlySpace:
+    "All existing members of this space will still be members after it is made view only. No new members will be able to join unless they are invited.",
+  changeToViewOnly: "Change to view only",
+  completeSprint: "Complete sprint",
+  completeSprintWarning:
+    "All unfinished cards will be rolled-over into the next sprint. If there is no upcoming sprint, one will be created automatically.",
+  hideEmptyColumns: "Hide empty columns",
+  hideEmptyRows: "Hide empty rows",
+  rememberAssignees: "Remember assignee(s)",
+  rememberAssigneesTooltip: "Always use these assignees when creating cards",
+  recentlyUsedBoards: "Recently used boards",
+  recent: "Recent",
 };
 
 export default en as Translations;

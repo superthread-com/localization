@@ -157,6 +157,7 @@ const pl = {
   ["billing.unlimitedPages"]: "Nielimitowana liczba stron",
   ["billing.indexSharedPages"]: "Indeksuj udostępnione strony w wyszukiwarkach",
   ["billing.privateSpaces"]: "Prywatne przestrzenie",
+  ["billing.viewOnlySpaces"]: "Przestrzenie tylko do oglądania",
   ["billing.timelineListAndBoardView"]: "Widok listy osi czasu i tablicy",
   ["billing.guestAccounts"]: "Konta gości",
   ["billing.monthly"]: "Miesięcznie",
@@ -2502,16 +2503,16 @@ const pl = {
   changingStatus: "Zmiana statusu",
   processed: "Przetworzone",
   clearSelection: "Wyczyść zaznaczenie",
-  createPAT: "Utwórz PAT",
+  createPAT: "Utwórz token",
   createPATLong: "Utwórz osobisty token dostępu",
-  patName: "Nazwa osobistego tokena dostępu",
-  patNamePlaceholder: "np. “Superthread API”",
-  patExpirationTitle: "Czas wygaśnięcia tokena",
+  patName: "Nazwa tokena",
+  patNamePlaceholder: "Krótka, opisowa nazwa...",
+  expiration: "wygaśnięcie",
   patExpirationTimeSubtitle:
     "Token automatycznie wygaśnie po wybranej liczbie dni i nie będzie już działać.",
   expirationTimeSelect: "Ten token wygaśnie za:",
   selectExpirationTime: "Wybierz czas wygaśnięcia",
-  patNoExpirationWarningTitle: "Brak ostrzeżenia o wygaśnięciu",
+  patNoExpirationWarningTitle: "Nigdy nie wygasa ten token?",
   patNoExpirationWarningDescription:
     "Token bez daty wygaśnięcia pozostaje aktywny bez końca, co stanowi ryzyko w razie jego przejęcia. Tokeny z datą ważności są bezpieczniejsze na dłuższą metę.",
   day: "dzień",
@@ -2523,18 +2524,20 @@ const pl = {
   invalidPATExpirationDate: "Data wygaśnięcia musi być w przyszłości",
   personalAccessTokens: "Osobiste tokeny dostępu",
   personalAccessTokensSubtitle:
-    "Wygeneruj osobisty token dostępu, aby szybko korzystać z API Superthread",
+    "Wygeneruj osobisty token dostępu, aby korzystać z API Superthread",
   searchPATs: "Szukaj tokenów",
   noPATs: "Brak osobistych tokenów dostępu",
   noPATsSubtitle: "Możesz utworzyć token dostępu powyżej",
+  noPATsSubtitleAdmin: 'Możesz utworzyć token dostępu z ekranu "Dostęp do API"',
   revokePatConfirmation: "Czy na pewno chcesz unieważnić token “%{patName}”?",
   lastUsed: "Ostatnio używany",
-  revokePatDescription: "Tej operacji nie można cofnąć.",
+  revokePatDescription:
+    "Wszystkie aplikacje lub skrypty używające tego tokena stracą dostęp do API Superthread. Tej akcji nie można cofnąć.",
   never: "Nigdy",
   patLimitReachedTooltip: "Osiągnięto limit %{limit} tokenów",
-  newPatCreated: "Utworzono nowy osobisty token dostępu",
-  newPatCreatedDescription:
-    "Skopiuj swój token teraz — później nie będzie już dostępny!",
+  newPatCreated: "Skopiuj swój osobisty token dostępu",
+  newPatCreatedDescriptionOne: "Upewnij się, że teraz skopiujesz swój token.",
+  newPatCreatedDescriptionTwo: "Nie będziesz mógł go zobaczyć ponownie!",
   tokenCopiedToClipboard: "Token skopiowany do schowka",
   proceed: "Kontynuuj",
   copyToken: "Kopiuj token",
@@ -2550,6 +2553,42 @@ const pl = {
   duplicateCards: "Zduplikowane karty",
   blockedByCards: "Zablokowane przez karty",
   blockingCards: "Blokujące karty",
+  apiAccess: "Dostęp do API",
+  viewDocs: "zobacz dokumentację",
+  createPatSubtitle:
+    "Podczas korzystania z osobistego tokena dostępu do API wszystkie działania są przypisane bezpośrednio do Ciebie",
+  expirationReminderText:
+    "Dzień przed wygaśnięciem tokena wyślemy Ci przypomnienie e-mailem.",
+  securityAndAccess: "Bezpieczeństwo i dostęp",
+  securityAndAccessSubtitle:
+    "Członkowie przestrzeni roboczej mogą tworzyć osobiste tokeny dostępu do interakcji z API Superthread. Administratorzy mogą je tutaj przeglądać i cofać.",
+  youOnlyHavePermissionToViewContent:
+    "Masz tylko uprawnienia do przeglądania zawartości w",
+  namedSpace: "%{space} przestrzeni",
+  contactEmailToRequestEditAccess:
+    "Skontaktuj się z %{email} aby poprosić o dostęp do edycji.",
+  viewOnly: "Tylko do odczytu",
+  viewOnlySubtitle:
+    "Osoby, które nie są członkami przestrzeni i członkowie bez uprawnień do edycji mają dostęp tylko do odczytu",
+  canEdit: "Może edytować",
+  canView: "Może oglądać",
+  thisSpaceIsViewOnly: "Ta przestrzeń jest tylko do odczytu",
+  upgradeViewOnlySpacesDescription:
+    "Możesz tworzyć przestrzenie tylko do odczytu na planie płatnym.",
+  changeToViewOnlySpaceTitle: "Zmień na przestrzeń tylko do odczytu?",
+  changeToViewOnlySpace:
+    "Wszystkie istniejące członkowie tej przestrzeni będą nadal członkami po jej zmianie na tylko do odczytu. Nowi członkowie nie będą mogli dołączyć, chyba że zostaną zaproszeni.",
+  changeToViewOnly: "Zmień na przestrzeń tylko do odczytu",
+  completeSprint: "Zakończ sprint",
+  completeSprintWarning:
+    "Wszystkie niezakończone karty zostaną przeniesione do następnego sprinta. Jeśli nie ma nadchodzącego sprinta, zostanie automatycznie utworzony nowy.",
+  hideEmptyColumns: "Ukryj puste kolumny",
+  hideEmptyRows: "Ukryj puste wiersze",
+  rememberAssignees: "Pamiętaj przypisania",
+  rememberAssigneesTooltip:
+    "Zawsze używaj tych przypisań podczas tworzenia kart",
+  recentlyUsedBoards: "Ostatnio używane tablice",
+  recent: "Ostatnie",
 };
 
 export default pl as Translations;
