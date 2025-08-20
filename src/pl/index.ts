@@ -2544,6 +2544,12 @@ const pl = {
   stop: "Zatrzymaj",
   online: "Online",
   disconnected: "Odłączony",
+  copyAsMarkdown: "Kopiuj treść jako Markdown",
+  copiedAsMarkdown: "Skopiowano jako Markdown",
+  checklists: "Listy kontrolne",
+  duplicateCards: "Zduplikowane karty",
+  blockedByCards: "Zablokowane przez karty",
+  blockingCards: "Blokujące karty",
 };
 
 export default pl as Translations;

@@ -2619,4 +2619,11 @@ const fr: Translations = {
   disconnected: "Déconnecté",
 };
 
+  copyAsMarkdown: "Copier le contenu en Markdown",
+  copiedAsMarkdown: "Copié en Markdown",
+  checklists: "Listes de contrôle",
+  duplicateCards: "Cartes en double",
+  blockedByCards: "Bloqué par des cartes",
+  blockingCards: "Cartes bloquantes",
+
 export default fr as Translations;

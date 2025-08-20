@@ -2544,6 +2544,12 @@ const bs: Translations = {
   stop: "Zaustavi",
   online: "Online",
   disconnected: "Isključen",
+  copyAsMarkdown: "Kopiraj sadržaj kao Markdown",
+  copiedAsMarkdown: "Kopirano kao Markdown",
+  checklists: "Liste za provjeru",
+  duplicateCards: "Duple kartice",
+  blockedByCards: "Blokirano karticama",
+  blockingCards: "Blokirajuće kartice",
 };
 
 export default bs;

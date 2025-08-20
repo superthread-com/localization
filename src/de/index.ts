@@ -2621,6 +2621,12 @@ const de = {
   stop: "Stop",
   online: "Online",
   disconnected: "Getrennt",
+  copyAsMarkdown: "Inhalt als Markdown kopieren",
+  copiedAsMarkdown: "Als Markdown kopiert",
+  checklists: "Checklisten",
+  duplicateCards: "Doppelte Karten",
+  blockedByCards: "Blockiert durch Karten",
+  blockingCards: "Blockierende Karten",
 };
 
 export default de as Translations;

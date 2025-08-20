@@ -1944,6 +1944,8 @@ const en = {
   ["customise_your_profile.tooltip"]: "Add a profile photo",
   ["import_tasks.title"]: "Import tasks",
   ["import_tasks.tooltip"]: "Import from Trello, Jira, or Shortcut",
+  ["connect_gcal.title"]: "Connect Google Calendar",
+  ["connect_gcal.tooltip"]: "Enable Google Calendar integration",
   ["view_keyboard_shortcuts.title"]: "View keyboard shortcuts",
   ["view_keyboard_shortcuts.tooltip"]: "Open keyboard cheat sheet",
   ["connect_slack.title"]: "Connect Slack",
@@ -2505,6 +2507,12 @@ const en = {
   stop: "Stop",
   online: "Online",
   disconnected: "Disconnected",
+  copyAsMarkdown: "Copy content as Markdown",
+  copiedAsMarkdown: "Copied as Markdown",
+  checklists: "Checklists",
+  duplicateCards: "Duplicate cards",
+  blockedByCards: "Blocked by cards",
+  blockingCards: "Blocking cards",
 };
 
 export default en as Translations;

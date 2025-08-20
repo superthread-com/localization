@@ -2234,6 +2234,12 @@ export enum TranslationKeys {
   Stop = "stop",
   Online = "online",
   Disconnected = "disconnected",
+  CopyAsMarkdown = "copyAsMarkdown",
+  CopiedAsMarkdown = "copiedAsMarkdown",
+  Checklists = "checklists",
+  DuplicateCards = "duplicateCards",
+  BlockedByCards = "blockedByCards",
+  BlockingCards = "blockingCards",
 }
 
 export type Translations = Record<TranslationKeys, string>;
