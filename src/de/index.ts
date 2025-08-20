@@ -2662,6 +2662,12 @@ const de = {
     "Verwende diese Zuweisungen immer, wenn du Karten erstellst",
   recentlyUsedBoards: "Kürzlich verwendete Boards",
   recent: "Kürzlich",
+  copyAsMarkdown: "Inhalt als Markdown kopieren",
+  copiedAsMarkdown: "Als Markdown kopiert",
+  checklists: "Checklisten",
+  duplicateCards: "Doppelte Karten",
+  blockedByCards: "Blockiert durch Karten",
+  blockingCards: "Blockierende Karten",
 };
 
 export default de as Translations;

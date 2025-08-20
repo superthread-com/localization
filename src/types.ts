@@ -2263,6 +2263,12 @@ export enum TranslationKeys {
   RememberAssigneesTooltip = "rememberAssigneesTooltip",
   RecentlyUsedBoards = "recentlyUsedBoards",
   Recent = "recent",
+  CopyAsMarkdown = "copyAsMarkdown",
+  CopiedAsMarkdown = "copiedAsMarkdown",
+  Checklists = "checklists",
+  DuplicateCards = "duplicateCards",
+  BlockedByCards = "blockedByCards",
+  BlockingCards = "blockingCards",
 }
 
 export type Translations = Record<TranslationKeys, string>;

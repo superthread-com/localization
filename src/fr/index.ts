@@ -2657,6 +2657,12 @@ const fr: Translations = {
     "Toujours utiliser ces assignés lors de la création de cartes",
   recentlyUsedBoards: "Plateaux récemment utilisés",
   recent: "Récent",
+  copyAsMarkdown: "Copier le contenu en Markdown",
+  copiedAsMarkdown: "Copié en Markdown",
+  checklists: "Listes de contrôle",
+  duplicateCards: "Cartes en double",
+  blockedByCards: "Bloqué par des cartes",
+  blockingCards: "Cartes bloquantes",
 };
 
 export default fr as Translations;

@@ -2540,6 +2540,12 @@ const en = {
   rememberAssigneesTooltip: "Always use these assignees when creating cards",
   recentlyUsedBoards: "Recently used boards",
   recent: "Recent",
+  copyAsMarkdown: "Copy content as Markdown",
+  copiedAsMarkdown: "Copied as Markdown",
+  checklists: "Checklists",
+  duplicateCards: "Duplicate cards",
+  blockedByCards: "Blocked by cards",
+  blockingCards: "Blocking cards",
 };
 
 export default en as Translations;

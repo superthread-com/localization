@@ -2631,6 +2631,12 @@ const ptbr = {
   rememberAssignees: "Lembrar responsável(is)",
   rememberAssigneesTooltip: "Sempre use esses responsáveis ao criar cartões",
   recentlyUsedBoards: "Quadros usados recentemente",
+  copyAsMarkdown: "Copiar conteúdo como Markdown",
+  copiedAsMarkdown: "Copiado como Markdown",
+  checklists: "Listas de verificação",
+  duplicateCards: "Cartões duplicados",
+  blockedByCards: "Bloqueado por cartões",
+  blockingCards: "Cartões que bloqueiam",
 };
 
 export default ptbr as Translations;
