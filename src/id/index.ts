@@ -567,9 +567,7 @@ const id = {
   versionHistory: "Riwayat Versi",
   profile: "Profil",
   settings: "Pengaturan",
-  email: "Sure, here is the translation:
-
-Sure, here is the translation:",
+  email: "Email",
   firstNamePlaceholder: "Masukkan nama depan",
   lastNamePlaceholder: "Masukkan nama belakang",
   displayNamePlaceholder: "Masukkan nama tampilan",
