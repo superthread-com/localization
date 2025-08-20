@@ -2584,6 +2584,12 @@ const bs: Translations = {
     "Uvijek koristi ove dodijeljene članove kada kreiraš kartice",
   recentlyUsedBoards: "Nedavno korištene ploče",
   recent: "Nedavno",
+  copyAsMarkdown: "Kopiraj sadržaj kao Markdown",
+  copiedAsMarkdown: "Kopirano kao Markdown",
+  checklists: "Čekliste",
+  duplicateCards: "Duplikati kartica",
+  blockedByCards: "Blokirano od kartica",
+  blockingCards: "Kartice koje blokiraju",
 };
 
 export default bs;

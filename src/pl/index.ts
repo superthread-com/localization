@@ -2583,6 +2583,12 @@ const pl = {
     "Zawsze używaj tych przypisań podczas tworzenia kart",
   recentlyUsedBoards: "Ostatnio używane tablice",
   recent: "Ostatnie",
+  copyAsMarkdown: "Kopiuj treść jako Markdown",
+  copiedAsMarkdown: "Skopiowano jako Markdown",
+  checklists: "Listy kontrolne",
+  duplicateCards: "Zduplikowane karty",
+  blockedByCards: "Zablokowane przez karty",
+  blockingCards: "Karty blokujące",
 };
 
 export default pl as Translations;

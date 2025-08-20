@@ -2647,6 +2647,12 @@ const es = {
   rememberAssigneesTooltip: "Usar siempre estos asignados al crear tarjetas",
   recentlyUsedBoards: "Tableros usados recientemente",
   recent: "Reciente",
+  copyAsMarkdown: "Copiar contenido como Markdown",
+  copiedAsMarkdown: "Copiado como Markdown",
+  checklists: "Listas de verificación",
+  duplicateCards: "Tarjetas duplicadas",
+  blockedByCards: "Bloqueado por tarjetas",
+  blockingCards: "Tarjetas que bloquean",
 };
 
 export default es as Translations;
