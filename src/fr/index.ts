@@ -2663,6 +2663,12 @@ const fr: Translations = {
   duplicateCards: "Cartes en double",
   blockedByCards: "Bloqué par des cartes",
   blockingCards: "Cartes bloquantes",
+  allChangesSavedToSuperthread:
+    "Toutes les modifications ont été enregistrées dans Superthread",
+  synced: "Synchronisé",
+  syncing: "Synchronisation",
+  aFewSecondsAgo: "il y a quelques secondes",
+  lastSynced: "Dernière synchronisation",
 };
 
 export default fr as Translations;

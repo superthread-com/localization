@@ -2590,6 +2590,11 @@ const bs: Translations = {
   duplicateCards: "Duplikati kartica",
   blockedByCards: "Blokirano od kartica",
   blockingCards: "Kartice koje blokiraju",
+  allChangesSavedToSuperthread: "Sve promjene su spremljene u Superthread-u",
+  synced: "Spremljeno",
+  syncing: "Spremanje",
+  aFewSecondsAgo: "prije nekoliko sekundi",
+  lastSynced: "Zadnji put spremljeno",
 };
 
 export default bs;

@@ -2668,6 +2668,12 @@ const de = {
   duplicateCards: "Doppelte Karten",
   blockedByCards: "Blockiert durch Karten",
   blockingCards: "Blockierende Karten",
+  allChangesSavedToSuperthread:
+    "Alle Änderungen wurden in Superthread gespeichert",
+  synced: "Synchronisiert",
+  syncing: "Synchronisieren",
+  aFewSecondsAgo: "vor ein paar Sekunden",
+  lastSynced: "Zuletzt synchronisiert",
 };
 
 export default de as Translations;
