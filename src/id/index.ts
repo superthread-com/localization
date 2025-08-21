@@ -2612,6 +2612,11 @@ const id = {
   duplicateCards: "Duplikasi kartu",
   blockedByCards: "Diblokir oleh kartu",
   blockingCards: "Memblokir kartu",
+  allChangesSavedToSuperthread: "Semua perubahan disimpan di Superthread",
+  synced: "Disinkronisasi",
+  syncing: "Menyinkronisasi",
+  aFewSecondsAgo: "beberapa detik yang lalu",
+  lastSynced: "Terakhir disinkronisasi",
 };
 
 export default id as Translations;

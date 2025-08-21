@@ -2637,6 +2637,12 @@ const ptbr = {
   duplicateCards: "Cartões duplicados",
   blockedByCards: "Bloqueado por cartões",
   blockingCards: "Cartões que bloqueiam",
+  allChangesSavedToSuperthread:
+    "Todas as alterações foram salvas no Superthread",
+  synced: "Sincronizado",
+  syncing: "Sincronizando",
+  aFewSecondsAgo: "há alguns segundos",
+  lastSynced: "Última sincronização",
 };
 
 export default ptbr as Translations;

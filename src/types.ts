@@ -2269,6 +2269,11 @@ export enum TranslationKeys {
   DuplicateCards = "duplicateCards",
   BlockedByCards = "blockedByCards",
   BlockingCards = "blockingCards",
+  AllChangesSavedToSuperthread = "allChangesSavedToSuperthread",
+  Synced = "synced",
+  Syncing = "syncing",
+  AFewSecondsAgo = "aFewSecondsAgo",
+  LastSynced = "lastSynced",
 }
 
 export type Translations = Record<TranslationKeys, string>;

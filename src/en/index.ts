@@ -2546,6 +2546,11 @@ const en = {
   duplicateCards: "Duplicate cards",
   blockedByCards: "Blocked by cards",
   blockingCards: "Blocking cards",
+  allChangesSavedToSuperthread: "All changes saved to Superthread",
+  synced: "Synced",
+  syncing: "Syncing",
+  aFewSecondsAgo: "a few seconds ago",
+  lastSynced: "Last synced",
 };
 
 export default en as Translations;
