@@ -217,6 +217,8 @@ const id = {
   ["billing.aiNoteTemplates"]: "Template catatan AI",
   ["billing.askAiSearch"]: "Tanya pencarian AI",
   ["billing.perUserPerMonth"]: "/ pengguna / bulan",
+  ["billing.perUserPerYear"]: "/ pengguna / tahun",
+  ["billing.inAppLiveChatSupport"]: "Dukungan obrolan langsung di aplikasi",
   ["billing.billedYearly"]: "ditagih tahunan",
   ["billing.planStatus"]: "Status rencana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

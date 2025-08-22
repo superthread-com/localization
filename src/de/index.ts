@@ -218,6 +218,8 @@ const de = {
   ["billing.aiNoteTemplates"]: "KI-Notizvorlagen",
   ["billing.askAiSearch"]: "KI-Suchanfragen",
   ["billing.perUserPerMonth"]: "/ Benutzer / Monat",
+  ["billing.perUserPerYear"]: "/ Benutzer / Jahr",
+  ["billing.inAppLiveChatSupport"]: "In-app Live-Chat-Support",
   ["billing.billedYearly"]: "jährlich abgerechnet",
   ["billing.planStatus"]: "Planstatus",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

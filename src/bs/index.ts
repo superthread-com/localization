@@ -1169,6 +1169,8 @@ const bs: Translations = {
   ["billing.aiNoteTemplates"]: "AI predlošci bilješki",
   ["billing.askAiSearch"]: "Pretraži AI",
   ["billing.perUserPerMonth"]: "/ korisnik / mjesec",
+  ["billing.perUserPerYear"]: "/ korisnik / godini",
+  ["billing.inAppLiveChatSupport"]: "In-app live chat podrška",
   ["billing.billedYearly"]: "naplaćuje se godišnje",
   ["billing.planStatus"]: "Status plana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

@@ -193,6 +193,8 @@ export enum TranslationKeys {
   BillingAiNoteTemplates = "billing.aiNoteTemplates",
   BillingAskAiSearch = "billing.askAiSearch",
   BillingPerUserPerMonth = "billing.perUserPerMonth",
+  BillingPerUserPerYear = "billing.perUserPerYear",
+  BillingInAppLiveChatSupport = "billing.inAppLiveChatSupport",
   BillingBilledYearly = "billing.billedYearly",
   BillingPlanStatus = "billing.planStatus",
   BillingYourCurrentPlanIsNotSetToRenew = "billing.yourCurrentPlanIsNotSetToRenew",
