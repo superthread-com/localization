@@ -220,6 +220,8 @@ const ptbr = {
   ["billing.perUserPerMonth"]: "/ usuário / mês",
   ["billing.perUserPerYear"]: "/ usuário / ano",
   ["billing.inAppLiveChatSupport"]: "Suporte por chat ao vivo no aplicativo",
+  ["billing.timelineListAndCalendar"]:
+    "Layout de linha do tempo, lista e calendário",
   ["billing.billedYearly"]: "cobrado anualmente",
   ["billing.planStatus"]: "Status do plano",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

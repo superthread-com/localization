@@ -1171,6 +1171,7 @@ const bs: Translations = {
   ["billing.perUserPerMonth"]: "/ korisnik / mjesec",
   ["billing.perUserPerYear"]: "/ korisnik / godini",
   ["billing.inAppLiveChatSupport"]: "In-app live chat podrška",
+  ["billing.timelineListAndCalendar"]: "Vremenske linije, liste i kalendari",
   ["billing.billedYearly"]: "naplaćuje se godišnje",
   ["billing.planStatus"]: "Status plana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

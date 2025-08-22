@@ -220,6 +220,7 @@ const de = {
   ["billing.perUserPerMonth"]: "/ Benutzer / Monat",
   ["billing.perUserPerYear"]: "/ Benutzer / Jahr",
   ["billing.inAppLiveChatSupport"]: "In-app Live-Chat-Support",
+  ["billing.timelineListAndCalendar"]: "Zeitachse, Liste & Kalender-Layouts",
   ["billing.billedYearly"]: "jährlich abgerechnet",
   ["billing.planStatus"]: "Planstatus",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

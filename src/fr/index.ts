@@ -88,6 +88,8 @@ const fr: Translations = {
   ["billing.perUserPerYear"]: "/ utilisateur / année",
   ["billing.inAppLiveChatSupport"]:
     "Assistance par chat en direct dans l'application",
+  ["billing.timelineListAndCalendar"]:
+    "Mise en page de la chronologie, de la liste et du calendrier",
   ["billing.billedYearly"]: "Facturé annuellement",
   ["billing.planStatus"]: "Status du plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

@@ -214,6 +214,7 @@ const pl = {
   ["billing.perUserPerMonth"]: "/ użytkownik / miesiąc",
   ["billing.perUserPerYear"]: "/ użytkownik / rok",
   ["billing.inAppLiveChatSupport"]: "Wsparcie przez czat na żywo w aplikacji",
+  ["billing.timelineListAndCalendar"]: "Układ osi czasu, listy i kalendarza",
   ["billing.billedYearly"]: "rozliczane rocznie",
   ["billing.planStatus"]: "Status planu",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
