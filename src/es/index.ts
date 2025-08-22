@@ -2659,7 +2659,7 @@ const es = {
   syncing: "Sincronizando",
   aFewSecondsAgo: "hace unos segundos",
   lastSynced: "Última sincronización",
-  transcriptionIndicatorTitle: "Indicador de transcripción",
+  transcriptionIndicatorTitle: "Mostrar el indicador de reunión en vivo",
   transcriptionIndicatorDescription:
     "El indicador de la reunión flota sobre tu pantalla y muestra cuando la transcripción está activa",
 };

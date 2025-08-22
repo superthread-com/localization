@@ -2669,7 +2669,7 @@ const fr: Translations = {
   syncing: "Synchronisation",
   aFewSecondsAgo: "il y a quelques secondes",
   lastSynced: "Dernière synchronisation",
-  transcriptionIndicatorTitle: "Indicateur de transcription",
+  transcriptionIndicatorTitle: "Afficher l’indicateur de réunion en direct",
   transcriptionIndicatorDescription:
     "L'indicateur de réunion flotte au-dessus de votre écran et indique lorsque la transcription est active",
 };

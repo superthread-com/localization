@@ -2551,7 +2551,7 @@ const en = {
   syncing: "Syncing",
   aFewSecondsAgo: "a few seconds ago",
   lastSynced: "Last synced",
-  transcriptionIndicatorTitle: "Transcription indicator",
+  transcriptionIndicatorTitle: "Show the live meeting indicator",
   transcriptionIndicatorDescription:
     "The meeting indicator floats on top of your screen and shows when transcription is active",
 };

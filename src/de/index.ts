@@ -2674,7 +2674,7 @@ const de = {
   syncing: "Synchronisieren",
   aFewSecondsAgo: "vor ein paar Sekunden",
   lastSynced: "Zuletzt synchronisiert",
-  transcriptionIndicatorTitle: "Transkriptionsanzeige",
+  transcriptionIndicatorTitle: "Live-Meeting-Indikator anzeigen",
   transcriptionIndicatorDescription:
     "Der Meeting-Indikator schwebt über deinem Bildschirm und zeigt an, wenn die Transkription aktiv ist",
 };
