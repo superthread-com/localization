@@ -2274,6 +2274,8 @@ export enum TranslationKeys {
   Syncing = "syncing",
   AFewSecondsAgo = "aFewSecondsAgo",
   LastSynced = "lastSynced",
+  TranscriptionIndicatorTitle = "transcriptionIndicatorTitle",
+  TranscriptionIndicatorDescription = "transcriptionIndicatorDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2595,6 +2595,9 @@ const pl = {
   syncing: "Synchronizacja",
   aFewSecondsAgo: "przed chwilą",
   lastSynced: "Ostatnia synchronizacja",
+  transcriptionIndicatorTitle: "Pokaż wskaźnik spotkania na żywo",
+  transcriptionIndicatorDescription:
+    "Wskaźnik spotkania unosi się nad ekranem i pokazuje, kiedy transkrypcja jest aktywna",
 };
 
 export default pl as Translations;
