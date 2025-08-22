@@ -195,6 +195,7 @@ export enum TranslationKeys {
   BillingPerUserPerMonth = "billing.perUserPerMonth",
   BillingPerUserPerYear = "billing.perUserPerYear",
   BillingInAppLiveChatSupport = "billing.inAppLiveChatSupport",
+  BillingTimelineListAndCalendar = "billing.timelineListAndCalendar",
   BillingBilledYearly = "billing.billedYearly",
   BillingPlanStatus = "billing.planStatus",
   BillingYourCurrentPlanIsNotSetToRenew = "billing.yourCurrentPlanIsNotSetToRenew",

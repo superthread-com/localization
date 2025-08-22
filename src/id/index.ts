@@ -219,6 +219,8 @@ const id = {
   ["billing.perUserPerMonth"]: "/ pengguna / bulan",
   ["billing.perUserPerYear"]: "/ pengguna / tahun",
   ["billing.inAppLiveChatSupport"]: "Dukungan obrolan langsung di aplikasi",
+  ["billing.timelineListAndCalendar"]:
+    "Tata letak garis waktu, daftar, & kalender",
   ["billing.billedYearly"]: "ditagih tahunan",
   ["billing.planStatus"]: "Status rencana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

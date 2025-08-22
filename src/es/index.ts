@@ -221,6 +221,8 @@ const es = {
   ["billing.perUserPerMonth"]: "/ usuario / mes",
   ["billing.perUserPerYear"]: "/ usuario / año",
   ["billing.inAppLiveChatSupport"]: "Soporte de chat en vivo en la aplicación",
+  ["billing.timelineListAndCalendar"]:
+    "Diseño de línea de tiempo, lista y calendario",
   ["billing.billedYearly"]: "facturado anualmente",
   ["billing.planStatus"]: "Estado del plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
