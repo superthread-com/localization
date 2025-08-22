@@ -2617,6 +2617,9 @@ const id = {
   syncing: "Menyinkronisasi",
   aFewSecondsAgo: "beberapa detik yang lalu",
   lastSynced: "Terakhir disinkronisasi",
+  transcriptionIndicatorTitle: "Indikator transkripsi",
+  transcriptionIndicatorDescription:
+    "Indikator rapat melayang di atas layar Anda dan menunjukkan saat transkripsi aktif",
 };
 
 export default id as Translations;

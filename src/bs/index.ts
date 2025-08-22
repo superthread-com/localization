@@ -2595,6 +2595,9 @@ const bs: Translations = {
   syncing: "Spremanje",
   aFewSecondsAgo: "prije nekoliko sekundi",
   lastSynced: "Zadnji put spremljeno",
+  transcriptionIndicatorTitle: "Indikator transkripcije",
+  transcriptionIndicatorDescription:
+    "Indikator sastanka se prikazuje iznad vašeg ekrana i pokazuje kada je transkripcija aktivna",
 };
 
 export default bs;

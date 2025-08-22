@@ -2643,6 +2643,9 @@ const ptbr = {
   syncing: "Sincronizando",
   aFewSecondsAgo: "há alguns segundos",
   lastSynced: "Última sincronização",
+  transcriptionIndicatorTitle: "Indicador de transcrição",
+  transcriptionIndicatorDescription:
+    "O indicador da reunião flutua sobre a sua tela e mostra quando a transcrição está ativa",
 };
 
 export default ptbr as Translations;

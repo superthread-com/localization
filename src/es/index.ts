@@ -2659,6 +2659,9 @@ const es = {
   syncing: "Sincronizando",
   aFewSecondsAgo: "hace unos segundos",
   lastSynced: "Última sincronización",
+  transcriptionIndicatorTitle: "Indicador de transcripción",
+  transcriptionIndicatorDescription:
+    "El indicador de la reunión flota sobre tu pantalla y muestra cuando la transcripción está activa",
 };
 
 export default es as Translations;
