@@ -85,6 +85,9 @@ const fr: Translations = {
   ["billing.aiNoteTemplates"]: "Modèles de notes AI",
   ["billing.askAiSearch"]: "Recherche AI",
   ["billing.perUserPerMonth"]: "/ utilisateur / mois",
+  ["billing.perUserPerYear"]: "/ utilisateur / année",
+  ["billing.inAppLiveChatSupport"]:
+    "Assistance par chat en direct dans l'application",
   ["billing.billedYearly"]: "Facturé annuellement",
   ["billing.planStatus"]: "Status du plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

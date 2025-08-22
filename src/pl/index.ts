@@ -212,6 +212,8 @@ const pl = {
   ["billing.aiNoteTemplates"]: "Szablony notatek AI",
   ["billing.askAiSearch"]: "Wyszukiwanie AI",
   ["billing.perUserPerMonth"]: "/ użytkownik / miesiąc",
+  ["billing.perUserPerYear"]: "/ użytkownik / rok",
+  ["billing.inAppLiveChatSupport"]: "Wsparcie przez czat na żywo w aplikacji",
   ["billing.billedYearly"]: "rozliczane rocznie",
   ["billing.planStatus"]: "Status planu",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:

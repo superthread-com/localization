@@ -218,6 +218,8 @@ const ptbr = {
   ["billing.aiNoteTemplates"]: "Modelos de notas de IA",
   ["billing.askAiSearch"]: "Perguntar à busca de IA",
   ["billing.perUserPerMonth"]: "/ usuário / mês",
+  ["billing.perUserPerYear"]: "/ usuário / ano",
+  ["billing.inAppLiveChatSupport"]: "Suporte por chat ao vivo no aplicativo",
   ["billing.billedYearly"]: "cobrado anualmente",
   ["billing.planStatus"]: "Status do plano",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
