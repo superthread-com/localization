@@ -2680,6 +2680,7 @@ const de = {
   transcriptionIndicatorTitle: "Live-Meeting-Indikator anzeigen",
   transcriptionIndicatorDescription:
     "Der Meeting-Indikator schwebt über deinem Bildschirm und zeigt an, wenn die Transkription aktiv ist",
+  seeDetailedFeaturesComparison: "Detaillierte Funktionsvergleich anzeigen",
 };
 
 export default de as Translations;

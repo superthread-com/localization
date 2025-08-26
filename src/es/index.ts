@@ -2666,6 +2666,7 @@ const es = {
   transcriptionIndicatorTitle: "Mostrar el indicador de reunión en vivo",
   transcriptionIndicatorDescription:
     "El indicador de la reunión flota sobre tu pantalla y muestra cuando la transcripción está activa",
+  seeDetailedFeaturesComparison: "Ver comparación de características detallada",
 };
 
 export default es as Translations;

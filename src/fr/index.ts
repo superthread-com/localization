@@ -2677,6 +2677,8 @@ const fr: Translations = {
   transcriptionIndicatorTitle: "Afficher l’indicateur de réunion en direct",
   transcriptionIndicatorDescription:
     "L'indicateur de réunion flotte au-dessus de votre écran et indique lorsque la transcription est active",
+  seeDetailedFeaturesComparison:
+    "Voir la comparaison des fonctionnalités détaillée",
 };
 
 export default fr as Translations;

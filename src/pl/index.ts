@@ -2601,6 +2601,7 @@ const pl = {
   transcriptionIndicatorTitle: "Pokaż wskaźnik spotkania na żywo",
   transcriptionIndicatorDescription:
     "Wskaźnik spotkania unosi się nad ekranem i pokazuje, kiedy transkrypcja jest aktywna",
+  seeDetailedFeaturesComparison: "Zobacz szczegółową porównanie funkcji",
 };
 
 export default pl as Translations;

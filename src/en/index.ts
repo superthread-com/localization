@@ -215,9 +215,6 @@ const en = {
   ["billing.aiNoteTemplates"]: "AI note templates",
   ["billing.askAiSearch"]: "Ask AI search",
   ["billing.perUserPerMonth"]: "/ user / month",
-  ["billing.perUserPerYear"]: "/ user / year",
-  ["billing.inAppLiveChatSupport"]: "In-app live chat support",
-  ["billing.timelineListAndCalendar"]: "Timeline, list, & calendar layouts",
   ["billing.billedYearly"]: "billed yearly",
   ["billing.planStatus"]: "Plan status",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
@@ -2557,6 +2554,7 @@ const en = {
   transcriptionIndicatorTitle: "Show the live meeting indicator",
   transcriptionIndicatorDescription:
     "The meeting indicator floats on top of your screen and shows when transcription is active",
+  seeDetailedFeaturesComparison: "See detailed features comparison",
 };
 
 export default en as Translations;

@@ -2601,6 +2601,7 @@ const bs: Translations = {
   transcriptionIndicatorTitle: "Prikaži indikator uživo sastanka",
   transcriptionIndicatorDescription:
     "Indikator sastanka se prikazuje iznad vašeg ekrana i pokazuje kada je transkripcija aktivna",
+  seeDetailedFeaturesComparison: "Pogledaj detaljnu uporedbu funkcija",
 };
 
 export default bs;
