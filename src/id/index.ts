@@ -2624,6 +2624,7 @@ const id = {
   transcriptionIndicatorTitle: "Tampilkan indikator rapat langsung",
   transcriptionIndicatorDescription:
     "Indikator rapat melayang di atas layar Anda dan menunjukkan saat transkripsi aktif",
+  seeDetailedFeaturesComparison: "Lihat perbandingan fitur yang lebih detail",
 };
 
 export default id as Translations;

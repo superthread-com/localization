@@ -2650,6 +2650,7 @@ const ptbr = {
   transcriptionIndicatorTitle: "Mostrar o indicador de reunião ao vivo",
   transcriptionIndicatorDescription:
     "O indicador da reunião flutua sobre a sua tela e mostra quando a transcrição está ativa",
+  seeDetailedFeaturesComparison: "Ver comparação de recursos detalhada",
 };
 
 export default ptbr as Translations;
