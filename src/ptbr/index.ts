@@ -2651,6 +2651,8 @@ const ptbr = {
   transcriptionIndicatorDescription:
     "O indicador da reunião flutua sobre a sua tela e mostra quando a transcrição está ativa",
   seeDetailedFeaturesComparison: "Ver comparação de recursos detalhada",
+  parentPage: "Página pai",
+  childPages: "Páginas filhas",
 };
 
 export default ptbr as Translations;

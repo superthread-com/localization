@@ -2679,6 +2679,8 @@ const fr: Translations = {
     "L'indicateur de réunion flotte au-dessus de votre écran et indique lorsque la transcription est active",
   seeDetailedFeaturesComparison:
     "Voir la comparaison des fonctionnalités détaillée",
+  parentPage: "Page parente",
+  childPages: "Pages enfants",
 };
 
 export default fr as Translations;

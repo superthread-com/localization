@@ -2667,6 +2667,8 @@ const es = {
   transcriptionIndicatorDescription:
     "El indicador de la reunión flota sobre tu pantalla y muestra cuando la transcripción está activa",
   seeDetailedFeaturesComparison: "Ver comparación de características detallada",
+  parentPage: "Página principal",
+  childPages: "Páginas secundarias",
 };
 
 export default es as Translations;
