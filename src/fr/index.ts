@@ -2680,7 +2680,7 @@ const fr: Translations = {
   seeDetailedFeaturesComparison:
     "Voir la comparaison des fonctionnalités détaillée",
   parentPage: "Page parente",
-  childPages: "Pages enfants",
+  subPages: "Pages enfants",
 };
 
 export default fr as Translations;

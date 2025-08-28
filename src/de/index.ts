@@ -2682,7 +2682,7 @@ const de = {
     "Der Meeting-Indikator schwebt über deinem Bildschirm und zeigt an, wenn die Transkription aktiv ist",
   seeDetailedFeaturesComparison: "Detaillierte Funktionsvergleich anzeigen",
   parentPage: "Übergeordnete Seite",
-  childPages: "Unterseiten",
+  subPages: "Unterseiten",
 };
 
 export default de as Translations;

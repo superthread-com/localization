@@ -2603,7 +2603,7 @@ const bs: Translations = {
     "Indikator sastanka se prikazuje iznad vašeg ekrana i pokazuje kada je transkripcija aktivna",
   seeDetailedFeaturesComparison: "Pogledaj detaljnu uporedbu funkcija",
   parentPage: "Roditeljska stranica",
-  childPages: "Podstranice",
+  subPages: "Podstranice",
 };
 
 export default bs;
