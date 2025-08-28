@@ -2559,7 +2559,7 @@ const en = {
     "The meeting indicator floats on top of your screen and shows when transcription is active",
   seeDetailedFeaturesComparison: "See detailed features comparison",
   parentPage: "Parent page",
-  subPages: "Sub pages",
+  subPages: "Subpages",
 };
 
 export default en as Translations;
