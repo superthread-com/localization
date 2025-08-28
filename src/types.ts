@@ -2280,6 +2280,8 @@ export enum TranslationKeys {
   TranscriptionIndicatorTitle = "transcriptionIndicatorTitle",
   TranscriptionIndicatorDescription = "transcriptionIndicatorDescription",
   SeeDetailedFeaturesComparison = "seeDetailedFeaturesComparison",
+  ParentPage = "parentPage",
+  SubPages = "subPages",
 }
 
 export type Translations = Record<TranslationKeys, string>;

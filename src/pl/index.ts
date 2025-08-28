@@ -2602,6 +2602,8 @@ const pl = {
   transcriptionIndicatorDescription:
     "Wskaźnik spotkania unosi się nad ekranem i pokazuje, kiedy transkrypcja jest aktywna",
   seeDetailedFeaturesComparison: "Zobacz szczegółową porównanie funkcji",
+  parentPage: "Strona nadrzędna",
+  subPages: "Podstrony",
 };
 
 export default pl as Translations;
