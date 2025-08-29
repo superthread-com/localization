@@ -1950,7 +1950,7 @@ const en = {
   ["connect_slack.title"]: "Connect Slack",
   ["connect_slack.tooltip"]: "Turn on Slack notifications",
   seeAllWorkspaces: "See all workspaces",
-  workspaceSettings: "Workspace settings",
+  workspaceSettings: "Settings & preferences",
   switchToRecentWorkspace: "Switch to recent workspace",
   icon: "Icon",
   addToSprint: "Add to sprint",

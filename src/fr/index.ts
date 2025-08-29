@@ -2044,7 +2044,7 @@ const fr: Translations = {
   ["connect_slack.title"]: "Connecter Slack",
   ["connect_slack.tooltip"]: "Activer les notifications Slack",
   seeAllWorkspaces: "Voir tous les espaces de travail",
-  workspaceSettings: "Paramètres de l'espace de travail",
+  workspaceSettings: "Paramètres et préférences",
   switchToRecentWorkspace: "Passer à l'espace de travail récent",
   icon: "Icône",
   addToSprint: "Ajouter au sprint",

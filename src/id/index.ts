@@ -2001,7 +2001,7 @@ const id = {
   ["connect_slack.title"]: "Hubungkan Slack",
   ["connect_slack.tooltip"]: "Nyala notifikasi Slack",
   seeAllWorkspaces: "Lihat semua ruang kerja",
-  workspaceSettings: "Pengaturan ruang kerja",
+  workspaceSettings: "Pengaturan & preferensi",
   switchToRecentWorkspace: "Beralih ke ruang kerja terbaru",
   icon: "Ikon",
   addToSprint: "Tambahkan ke sprint",
