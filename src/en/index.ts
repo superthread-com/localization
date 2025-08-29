@@ -2560,6 +2560,11 @@ const en = {
   seeDetailedFeaturesComparison: "See detailed features comparison",
   parentPage: "Parent page",
   subPages: "Subpages",
+  chatWithHuman: "Chat with a human",
+  chatWithHumanDescription: "Live chat with the Superthread team",
+  helpCentre: "Help centre",
+  helpAndAiSupport: "Help articles and AI support",
+  upgradeGoSquaredDescription: "Upgrade your plan to have in-app chat support",
 };
 
 export default en as Translations;

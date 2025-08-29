@@ -2604,6 +2604,12 @@ const pl = {
   seeDetailedFeaturesComparison: "Zobacz szczegółową porównanie funkcji",
   parentPage: "Strona nadrzędna",
   subPages: "Podstrony",
+  chatWithHuman: "Czatuj z człowiekiem",
+  chatWithHumanDescription: "Czat na żywo z zespołem Superthread",
+  helpCentre: "Centrum pomocy",
+  helpAndAiSupport: "Artykuły pomocy i wsparcie AI",
+  upgradeGoSquaredDescription:
+    "Uaktualnij plan, aby uzyskać wsparcie czatu w aplikacji",
 };
 
 export default pl as Translations;

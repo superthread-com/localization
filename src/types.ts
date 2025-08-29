@@ -2282,6 +2282,11 @@ export enum TranslationKeys {
   SeeDetailedFeaturesComparison = "seeDetailedFeaturesComparison",
   ParentPage = "parentPage",
   SubPages = "subPages",
+  ChatWithHuman = "chatWithHuman",
+  ChatWithHumanDescription = "chatWithHumanDescription",
+  HelpCentre = "helpCentre",
+  HelpAndAiSupport = "helpAndAiSupport",
+  UpgradeGoSquaredDescription = "upgradeGoSquaredDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

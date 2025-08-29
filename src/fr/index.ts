@@ -2681,6 +2681,12 @@ const fr: Translations = {
     "Voir la comparaison des fonctionnalités détaillée",
   parentPage: "Page parente",
   subPages: "Pages enfants",
+  chatWithHuman: "Discuter avec un humain",
+  chatWithHumanDescription: "Chat en direct avec l'équipe Superthread",
+  helpCentre: "Centre d'aide",
+  helpAndAiSupport: "Articles d'aide et support IA",
+  upgradeGoSquaredDescription:
+    "Améliorez votre plan pour bénéficier du support via chat intégré",
 };
 
 export default fr as Translations;
