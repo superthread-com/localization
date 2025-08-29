@@ -2653,6 +2653,12 @@ const ptbr = {
   seeDetailedFeaturesComparison: "Ver comparação de recursos detalhada",
   parentPage: "Página pai",
   subPages: "Páginas filhas",
+  chatWithHuman: "Conversar com um humano",
+  chatWithHumanDescription: "Chat ao vivo com a equipe da Superthread",
+  helpCentre: "Central de ajuda",
+  helpAndAiSupport: "Artigos de ajuda e suporte com IA",
+  upgradeGoSquaredDescription:
+    "Atualize seu plano para ter suporte por chat no app",
 };
 
 export default ptbr as Translations;

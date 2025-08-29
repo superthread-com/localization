@@ -2627,6 +2627,12 @@ const id = {
   seeDetailedFeaturesComparison: "Lihat perbandingan fitur yang lebih detail",
   parentPage: "Halaman induk",
   subPages: "Halaman anak",
+  chatWithHuman: "Ngobrol dengan manusia",
+  chatWithHumanDescription: "Ngobrol langsung dengan tim Superthread",
+  helpCentre: "Pusat bantuan",
+  helpAndAiSupport: "Artikel bantuan dan dukungan AI",
+  upgradeGoSquaredDescription:
+    "Tingkatkan paket Anda untuk dukungan obrolan dalam aplikasi",
 };
 
 export default id as Translations;

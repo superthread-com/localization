@@ -2683,6 +2683,12 @@ const de = {
   seeDetailedFeaturesComparison: "Detaillierte Funktionsvergleich anzeigen",
   parentPage: "Übergeordnete Seite",
   subPages: "Unterseiten",
+  chatWithHuman: "Mit einem Menschen chatten",
+  chatWithHumanDescription: "Live-Chat mit dem Superthread-Team",
+  helpCentre: "Hilfezentrum",
+  helpAndAiSupport: "Hilfeartikel und KI-Unterstützung",
+  upgradeGoSquaredDescription:
+    "Aktualisieren Sie Ihren Plan für In-App-Chat-Support",
 };
 
 export default de as Translations;

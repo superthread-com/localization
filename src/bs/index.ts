@@ -2604,6 +2604,12 @@ const bs: Translations = {
   seeDetailedFeaturesComparison: "Pogledaj detaljnu uporedbu funkcija",
   parentPage: "Roditeljska stranica",
   subPages: "Podstranice",
+  chatWithHuman: "Razgovaraj sa osobom",
+  chatWithHumanDescription: "Uživo razgovarajte sa Superthread timom",
+  helpCentre: "Centar za pomoć",
+  helpAndAiSupport: "Članci za pomoć i AI podrška",
+  upgradeGoSquaredDescription:
+    "Nadogradite svoj plan za podršku chat-a u aplikaciji",
 };
 
 export default bs;

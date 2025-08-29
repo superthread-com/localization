@@ -2669,6 +2669,12 @@ const es = {
   seeDetailedFeaturesComparison: "Ver comparación de características detallada",
   parentPage: "Página principal",
   subPages: "Páginas secundarias",
+  chatWithHuman: "Chatear con una persona",
+  chatWithHumanDescription: "Chat en vivo con el equipo de Superthread",
+  helpCentre: "Centro de ayuda",
+  helpAndAiSupport: "Artículos de ayuda y soporte de IA",
+  upgradeGoSquaredDescription:
+    "Mejora tu plan para tener soporte de chat dentro de la aplicación",
 };
 
 export default es as Translations;
