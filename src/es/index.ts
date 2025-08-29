@@ -2040,7 +2040,7 @@ const es = {
   ["connect_slack.title"]: "Conectar Slack",
   ["connect_slack.tooltip"]: "Activar notificaciones de Slack",
   seeAllWorkspaces: "Ver todos los espacios de trabajo",
-  workspaceSettings: "Configuración del espacio de trabajo",
+  workspaceSettings: "Configuración y preferencias",
   switchToRecentWorkspace: "Cambiar al espacio de trabajo reciente",
   icon: "Icono",
   addToSprint: "Agregar al sprint",

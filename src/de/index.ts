@@ -2048,7 +2048,7 @@ const de = {
   ["connect_slack.title"]: "Slack verbinden",
   ["connect_slack.tooltip"]: "Aktiviere Slack-Benachrichtigungen",
   seeAllWorkspaces: "Alle Arbeitsbereiche anzeigen",
-  workspaceSettings: "Arbeitsbereichseinstellungen",
+  workspaceSettings: "Einstellungen und Präferenzen",
   switchToRecentWorkspace: "Zu zuletzt verwendetem Arbeitsbereich wechseln",
   icon: "Icon",
   addToSprint: "Zum Sprint hinzufügen",

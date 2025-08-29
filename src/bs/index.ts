@@ -1988,7 +1988,7 @@ const bs: Translations = {
   ["connect_slack.title"]: "Poveži Slack",
   ["connect_slack.tooltip"]: "Uključi Slack obavještenja",
   seeAllWorkspaces: "Pregledaj sve radne prostore",
-  workspaceSettings: "Postavke radnog prostora",
+  workspaceSettings: "Postavke i preferencije",
   switchToRecentWorkspace: "Prebacite se na nedavni radni prostor",
   icon: "Ikona",
   addToSprint: "Dodaj u ciklus",

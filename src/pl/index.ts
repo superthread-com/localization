@@ -1990,7 +1990,7 @@ const pl = {
   ["connect_slack.title"]: "Połącz ze Slack",
   ["connect_slack.tooltip"]: "Włącz powiadomienia Slack",
   seeAllWorkspaces: "Zobacz wszystkie przestrzenie robocze",
-  workspaceSettings: "Ustawienia przestrzeni roboczej",
+  workspaceSettings: "Ustawienia i preferencje",
   switchToRecentWorkspace: "Przełącz na ostatnią przestrzeń roboczą",
   icon: "Ikona",
   addToSprint: "Dodaj do sprintu",

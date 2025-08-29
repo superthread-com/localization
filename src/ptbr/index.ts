@@ -2024,7 +2024,7 @@ const ptbr = {
   ["connect_slack.title"]: "Conectar Slack",
   ["connect_slack.tooltip"]: "Ativar notificações do Slack",
   seeAllWorkspaces: "Ver todos os espaços de trabalho",
-  workspaceSettings: "Configurações do espaço de trabalho",
+  workspaceSettings: "Configurações e preferências",
   switchToRecentWorkspace: "Mudar para o espaço de trabalho recente",
   icon: "Ícone",
   addToSprint: "Adicionar ao sprint",
