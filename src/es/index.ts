@@ -2675,6 +2675,7 @@ const es = {
   helpAndAiSupport: "Artículos de ayuda y soporte de IA",
   upgradeGoSquaredDescription:
     "Mejora tu plan para tener soporte de chat dentro de la aplicación",
+  searchActions: "Buscar acciones",
 };
 
 export default es as Translations;

@@ -2689,6 +2689,7 @@ const de = {
   helpAndAiSupport: "Hilfeartikel und KI-Unterstützung",
   upgradeGoSquaredDescription:
     "Aktualisieren Sie Ihren Plan für In-App-Chat-Support",
+  searchActions: "Aktionen durchsuchen",
 };
 
 export default de as Translations;

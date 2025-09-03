@@ -2610,6 +2610,7 @@ const pl = {
   helpAndAiSupport: "Artykuły pomocy i wsparcie AI",
   upgradeGoSquaredDescription:
     "Uaktualnij plan, aby uzyskać wsparcie czatu w aplikacji",
+  searchActions: "Szukaj akcji",
 };
 
 export default pl as Translations;
