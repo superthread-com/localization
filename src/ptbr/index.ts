@@ -2659,6 +2659,7 @@ const ptbr = {
   helpAndAiSupport: "Artigos de ajuda e suporte com IA",
   upgradeGoSquaredDescription:
     "Atualize seu plano para ter suporte por chat no app",
+  searchActions: "Pesquisar ações",
 };
 
 export default ptbr as Translations;

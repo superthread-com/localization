@@ -2687,6 +2687,7 @@ const fr: Translations = {
   helpAndAiSupport: "Articles d'aide et support IA",
   upgradeGoSquaredDescription:
     "Améliorez votre plan pour bénéficier du support via chat intégré",
+  searchActions: "Rechercher des actions",
 };
 
 export default fr as Translations;
