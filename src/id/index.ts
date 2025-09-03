@@ -2633,6 +2633,7 @@ const id = {
   helpAndAiSupport: "Artikel bantuan dan dukungan AI",
   upgradeGoSquaredDescription:
     "Tingkatkan paket Anda untuk dukungan obrolan dalam aplikasi",
+  searchActions: "Cari tindakan",
 };
 
 export default id as Translations;

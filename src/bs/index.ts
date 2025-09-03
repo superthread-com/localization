@@ -2610,6 +2610,7 @@ const bs: Translations = {
   helpAndAiSupport: "Članci za pomoć i AI podrška",
   upgradeGoSquaredDescription:
     "Nadogradite svoj plan za podršku chat-a u aplikaciji",
+  searchActions: "Pretraži akcije",
 };
 
 export default bs;
