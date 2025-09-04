@@ -4,8 +4,8 @@ const path = require("path");
 const OpenAI = require("openai");
 
 // ========== USER VARIABLES ==========
-const TARGET_LANGUAGE = "Spanish"; // Used in AI prompt for translation
-const LANGUAGE_CODE = "es"; // Used in the output typscript file and logging e.g. 'es' for Spanish, 'fr' for French
+const TARGET_LANGUAGE = "Chinese simplified"; // Used in AI prompt for translation
+const LANGUAGE_CODE = "zh-hans"; // Used in the output typscript file and logging e.g. 'es' for Spanish, 'fr' for French
 const LINES_PER_CHUNK = 50; // Batch size for AI translations, (1 most accurate, >1 faster)
 const INPUT_FILE = "../src/en/index.ts";
 const OUTPUT_FILE = `../src/${LANGUAGE_CODE}/translatedOutput.ts`;
@@ -106,6 +106,7 @@ RULES (IMPORTANT):
 - ALWAYS translate time/duration phrases like "2 days from now", "1 week from now", etc., keeping numbers the same.
 - The translation MUST contain exactly the SAME placeholders as the input (e.g., %{integrationName}); preserve them verbatim.
 - Do NOT include quotes, keys, or extra commentary.
+- Do NOT translate the word Superthread.
 - Do not translate company names, brand names, prices, or technical abbreviations such as 'API' 'h1' or 'h2'.
 
 INPUT:
@@ -124,6 +125,7 @@ RULES:
 - The translation MUST contain exactly these placeholders: ${placeholders.length ? placeholders.join(", ") : "(none)"}.
 - Preserve placeholders verbatim.
 - If the input shows \\n, keep it as \\n literally.
+- Do NOT translate the word Superthread.
 - Do not translate company names, brand names, prices, or technical abbreviations such as 'API' 'h1' or 'h2'.
 
 

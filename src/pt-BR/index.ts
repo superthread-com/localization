@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const ptbr = {
+const ptBR = {
   // onboarding
   inviteTeamMembersTo:
     "Convide membros da equipe para o seu espaço de trabalho",

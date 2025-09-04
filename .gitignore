@@ -34,3 +34,4 @@ secrets.txt
 config.ini
 translator/.env
 translator/node_modules/.bin/openai
+translator/node_modules/*
