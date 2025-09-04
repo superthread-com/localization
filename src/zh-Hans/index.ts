@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const zhhans = {
+const zhHans = {
   // onboarding
   inviteTeamMembersTo: "邀请团队成员加入您的工作区",
   loggingIn: "正在登录",
@@ -2424,4 +2424,4 @@ const zhhans = {
   searchActions: "搜索操作",
 };
 
-export default zhhans as Translations;
+export default zhHans as Translations;
