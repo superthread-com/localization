@@ -2662,4 +2662,4 @@ const ptBR = {
   searchActions: "Pesquisar ações",
 };
 
-export default ptbr as Translations;
+export default ptBR as Translations;
