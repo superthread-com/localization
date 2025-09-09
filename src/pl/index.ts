@@ -2102,7 +2102,7 @@ const pl = {
   sprintCancelled: "Sprint anulowany",
   sprintDatesChanged: "Daty sprintu zmienione",
   myWorkAndNotes: "Moja praca i notatki",
-  notes: "Notatki",
+  notes: "Moje notatki",
   suggestedActions: "Sugerowane działania",
   noSuggestedActions: "Brak sugerowanych działań",
   noChanges: "Brak zmian",

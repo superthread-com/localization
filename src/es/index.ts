@@ -2160,7 +2160,7 @@ const es = {
   sprintCancelled: "Sprint cancelado",
   sprintDatesChanged: "Fechas del sprint cambiadas",
   myWorkAndNotes: "Mi trabajo y notas",
-  notes: "Notas",
+  notes: "Mis notas",
   suggestedActions: "Acciones sugeridas",
   noSuggestedActions: "No hay acciones sugeridas",
   noChanges: "Sin cambios",

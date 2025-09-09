@@ -1961,7 +1961,7 @@ const zhHans = {
   sprintCancelled: "冲刺已取消",
   sprintDatesChanged: "冲刺日期已更改",
   myWorkAndNotes: "我的工作和笔记",
-  notes: "笔记",
+  notes: "我的笔记",
   suggestedActions: "建议的操作",
   noSuggestedActions: "无建议的操作",
   noChanges: "无更改",
