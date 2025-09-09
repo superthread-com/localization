@@ -2688,6 +2688,7 @@ const fr: Translations = {
   upgradeGoSquaredDescription:
     "Améliorez votre plan pour bénéficier du support via chat intégré",
   searchActions: "Rechercher des actions",
+  myNotes: "Mes notes",
 };
 
 export default fr as Translations;

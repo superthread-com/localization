@@ -2288,6 +2288,7 @@ export enum TranslationKeys {
   HelpAndAiSupport = "helpAndAiSupport",
   UpgradeGoSquaredDescription = "upgradeGoSquaredDescription",
   SearchActions = "searchActions",
+  MyNotes = "myNotes",
 }
 
 export type Translations = Record<TranslationKeys, string>;

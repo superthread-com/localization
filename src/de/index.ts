@@ -2690,6 +2690,7 @@ const de = {
   upgradeGoSquaredDescription:
     "Aktualisieren Sie Ihren Plan für In-App-Chat-Support",
   searchActions: "Aktionen durchsuchen",
+  myNotes: "Meine Notizen",
 };
 
 export default de as Translations;

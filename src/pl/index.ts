@@ -2611,6 +2611,7 @@ const pl = {
   upgradeGoSquaredDescription:
     "Uaktualnij plan, aby uzyskać wsparcie czatu w aplikacji",
   searchActions: "Szukaj akcji",
+  myNotes: "Moje notatki",
 };
 
 export default pl as Translations;

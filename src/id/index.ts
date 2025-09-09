@@ -2634,6 +2634,7 @@ const id = {
   upgradeGoSquaredDescription:
     "Tingkatkan paket Anda untuk dukungan obrolan dalam aplikasi",
   searchActions: "Cari tindakan",
+  myNotes: "Catatan saya",
 };
 
 export default id as Translations;

@@ -2611,6 +2611,7 @@ const bs: Translations = {
   upgradeGoSquaredDescription:
     "Nadogradite svoj plan za podršku chat-a u aplikaciji",
   searchActions: "Pretraži akcije",
+  myNotes: "Moje bilješke",
 };
 
 export default bs;
