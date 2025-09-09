@@ -9,12 +9,9 @@ const zhHant = {
   loginCodeSendAgain: "再次發送您的登錄代碼",
   loginCodeResent: "您的登錄代碼已再次發送。",
   loginCodeError: "登錄驗證碼錯誤。",
-  loginCodeErrorSending:
-    "發送您的登錄驗證碼時出現問題。",
-  loginCodeErrorExpired:
-    "您的登錄驗證已過期，我們已發送另一個。",
-  loginCodeErrorRateLimited:
-    "您嘗試的次數過多，請稍後再試。",
+  loginCodeErrorSending: "發送您的登錄驗證碼時出現問題。",
+  loginCodeErrorExpired: "您的登錄驗證已過期，我們已發送另一個。",
+  loginCodeErrorRateLimited: "您嘗試的次數過多，請稍後再試。",
   pickAWorkspaceName: "選擇一個工作區名稱",
   creatingWorkspace: "正在創建工作區",
   createaSpace: "創建一個空間",
@@ -36,10 +33,8 @@ const zhHant = {
   min3Characters: "至少3個字符長。",
   continueWithProvider: "繼續使用%{provider}",
   welcomeToSuperThread: "歡迎來到Superthread",
-  aWorkspaceIs:
-    "工作區通常以您的組織命名。您不能稍後更改此名稱。",
-  youCanChangeThis:
-    "您可以稍後更改此名稱並創建任意多的空間。",
+  aWorkspaceIs: "工作區通常以您的組織命名。您不能稍後更改此名稱。",
+  youCanChangeThis: "您可以稍後更改此名稱並創建任意多的空間。",
   LoginCode: "登錄代碼",
   enterLoginCode: "輸入登錄代碼",
   continueWithEmail: "繼續使用電子郵件",
@@ -167,8 +162,7 @@ const zhHant = {
   ["billing.monthly"]: "每月",
   ["billing.yearly"]: "每年 (-20%)",
   ["billing.currentPlan"]: "目前的方案",
-  ["billing.yourChosenPaymentMethodIs"]:
-    "您選擇的付款方式是 %{method}",
+  ["billing.yourChosenPaymentMethodIs"]: "您選擇的付款方式是 %{method}",
   ["billing.thisIsThePaymentMethod"]:
     "這是我們將用於未來付款的付款方式。您可以隨時更改。",
   ["billing.billing"]: "帳單",
@@ -193,12 +187,10 @@ const zhHant = {
   ["billing.upgradePlan"]: "升級至此方案",
   ["billing.downgradePlan"]: "降級至此方案",
   ["billing.downgradeToFree"]: "降級至免費",
-  ["billing.viewYourPaymentMethodInStripe"]:
-    "在 Stripe 中查看您的付款方式",
+  ["billing.viewYourPaymentMethodInStripe"]: "在 Stripe 中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:
     "當邀請被接受時，我們會向工作區的付款方式收費。",
-  ["billing.checkThePlanPanel"]:
-    "查看方案面板以獲取每個席位的成本估算。",
+  ["billing.checkThePlanPanel"]: "查看方案面板以獲取每個席位的成本估算。",
   ["billing.12"]: "$12",
   ["billing.10"]: "$10",
   ["billing.dollarPrice"]: "$%{price}",
@@ -220,15 +212,13 @@ const zhHant = {
   ["billing.timelineListAndCalendar"]: "時間軸、列表和日曆佈局",
   ["billing.billedYearly"]: "按年計費",
   ["billing.planStatus"]: "方案狀態",
-  ["billing.yourCurrentPlanIsNotSetToRenew"]:
-    "您的當前方案未設置為自動續訂",
+  ["billing.yourCurrentPlanIsNotSetToRenew"]: "您的當前方案未設置為自動續訂",
   ["billing.on"]: "開啟",
   ["billing.dateYourWorkspaceWillDowngrade"]:
     "您的工作區將降級至免費方案。在此之前，您仍然可以邀請人員加入此工作區，但您將無法超過",
   ["billing.workspaceMembers"]: "工作區成員",
   ["billing.turnRenewalBackOn"]: "重新開啟續訂",
-  ["billing.youCanStillInvite"]:
-    "您仍然可以邀請人員加入此工作區，但您不能超過",
+  ["billing.youCanStillInvite"]: "您仍然可以邀請人員加入此工作區，但您不能超過",
   ["billing.workspaceFullError"]:
     "已達工作區成員上限。工作區管理員可以提高上限。",
   ["billing.genericJoinError"]: "無法加入工作區。",
@@ -266,15 +256,13 @@ const zhHant = {
     "您的 %{planName} 方案試用還剩 %{count} 天。",
   ["billing.afterTrialLong"]:
     "試用結束後，您將被降級至 %{planName} 方案。您可以在方案頁面查看您將失去的功能。",
-  ["billing.afterTrialShort"]:
-    "試用結束後，您將被降級至 %{planName} 方案。",
+  ["billing.afterTrialShort"]: "試用結束後，您將被降級至 %{planName} 方案。",
   ["billing.contactAdminOrOwner"]: "聯繫您的管理員或擁有者",
   ["billing.seeAvailablePlans"]: "查看可用方案",
   ["billing.yourTrialHasExpired"]: "您的試用已過期",
   ["billing.youHaveBeenDowngradedLong"]:
     "您已被降級至 %{planName} 方案。您可以在方案頁面查看您失去的功能。",
-  ["billing.youHaveBeenDowngradedShort"]:
-    "您已被降級至 %{planName} 方案。",
+  ["billing.youHaveBeenDowngradedShort"]: "您已被降級至 %{planName} 方案。",
   ["billing.youAreOnLegacyPlan"]:
     "您使用的是舊版方案：%{planName} (%{planPeriod})",
   ["billing.legacyDescription"]:
@@ -336,14 +324,11 @@ const zhHant = {
   unwatch: "取消關注",
   cardArchived: "卡片已封存。",
   cardArchivedByCard: "卡片已封存。",
-  cardArchivedByList:
-    "卡片屬於已封存的列表。移至活動列表以恢復。",
-  cardArchivedByBoard:
-    "卡片屬於已封存的看板。移動到活動看板以恢復。",
+  cardArchivedByList: "卡片屬於已封存的列表。移至活動列表以恢復。",
+  cardArchivedByBoard: "卡片屬於已封存的看板。移動到活動看板以恢復。",
   epicArchived: "專案已封存。",
   epicArchivedByEpic: "專案已封存。",
-  epicArchivedByList:
-    "專案屬於已封存的列表。移動到活動列表以恢復。",
+  epicArchivedByList: "專案屬於已封存的列表。移動到活動列表以恢復。",
   boardArchived: "看板已封存。",
   isArchived: "已封存",
   pageArchived: "頁面已封存。",
@@ -391,10 +376,8 @@ const zhHant = {
   templates: "範本",
   cardTemplates: "卡片範本",
   pageTemplates: "頁面範本",
-  saveCardContentYouRepeatedlyUse:
-    "儲存您重複使用的內容，並在創建卡片時應用",
-  savePageContentYouRepeatedlyUse:
-    "儲存您重複使用的內容，並在創建頁面時應用",
+  saveCardContentYouRepeatedlyUse: "儲存您重複使用的內容，並在創建卡片時應用",
+  savePageContentYouRepeatedlyUse: "儲存您重複使用的內容，並在創建頁面時應用",
   createCardTemplate: "創建卡片模板",
   editCardTemplate: "編輯卡片模板",
   searchTemplates: "搜尋模板",
@@ -410,15 +393,12 @@ const zhHant = {
   createPageTemplate: "創建頁面模板",
   editPageTemplate: "編輯頁面模板",
   templateNameAndIcon: "模板名稱和圖標",
-  thisIsHowPeopleFindTemplate:
-    "這是人們稍後找到您的模板的方式",
+  thisIsHowPeopleFindTemplate: "這是人們稍後找到您的模板的方式",
   shortAndDescriptive: "簡短且具描述性",
   templateNameCannotBeEmpty: "模板名稱不能為空",
   templateSpace: "模板空間",
-  whichSpacesWillThisTemplateBeAvailableIn:
-    "此模板將在哪些空間中可用？",
-  templateSpaceShouldHaveAtLeastOneSpaceSelected:
-    "模板空間應至少選擇一個空間",
+  whichSpacesWillThisTemplateBeAvailableIn: "此模板將在哪些空間中可用？",
+  templateSpaceShouldHaveAtLeastOneSpaceSelected: "模板空間應至少選擇一個空間",
   noSpacesFound: "未找到空間。",
   allSpaces: "所有空間",
   peopleWillBeAbleToEditThisAfterTheyApplyTheTemplate:
@@ -442,7 +422,7 @@ const zhHant = {
     "如果您離開此頁面，您對此模板所做的任何更改將會丟失。",
   uploadFailedClickToRetry: "上傳失敗，點擊重試",
   areYouSureYouWantToDeleteTheTemplate:
-    '您確定要刪除 ”%{templateName}” 模板嗎？',
+    "您確定要刪除 ”%{templateName}” 模板嗎？",
   applyTemplate: "應用模板",
   noTemplates: "沒有模板。",
   manageTemplates: "管理模板",
@@ -506,8 +486,7 @@ const zhHant = {
   cardStatus: "卡片狀態",
   makeItPrivate: "設為私人",
   thisSpaceIsPrivate: "此空間為私人",
-  privateSpaceDescription:
-    "當空間設為私人時，只有受邀者才能加入。",
+  privateSpaceDescription: "當空間設為私人時，只有受邀者才能加入。",
   boards: "看板",
   boardsCount_one: "%{count} 個看板",
   boardsCount_other: "%{count} 個看板",
@@ -553,8 +532,7 @@ const zhHant = {
   between: "之間",
   deletedCards: "刪除的卡片會減少計數",
   moreCardsAddedThanFinished: "比完成的多%{number}張卡片被新增",
-  sameNumberOfCardsAddedAndFinished:
-    "新增和完成的卡片數量相同",
+  sameNumberOfCardsAddedAndFinished: "新增和完成的卡片數量相同",
   moreCardsFinishedThanAdded: "比新增的多%{number}張卡片被完成",
   oneMoreCardAddedThanFinished: "比完成的多1張卡片被新增",
   oneMoreCardFinishedThanAdded: "比新增的多1張卡片被完成",
@@ -589,9 +567,9 @@ const zhHant = {
   cancelSearch: "取消搜尋",
   computer: "電腦",
   setDueDate: "設定截止日期",
-  months:
+  months: "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月",
+  monthsAbbreviation:
     "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月",
-  monthsAbbreviation: "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月",
   daysAbbreviation: "週一,週二,週三,週四,週五,週六,週日",
   daysAbbreviationLong: "週一,週二,週三,週四,週五,週六,週日",
   weekDays: "星期一,星期二,星期三,星期四,星期五,星期六,星期日",
@@ -623,18 +601,15 @@ const zhHant = {
   couldntResendLink: "無法重新發送邀請鏈接。",
   newInviteLinkSent: "我們已向您發送新的邀請鏈接，請檢查您的電子郵件。",
   inviteLinkAccepted: "邀請鏈接已被接受。",
-  inviteNoLongerValid:
-    "邀請鏈接已失效。請請求新的邀請鏈接。",
+  inviteNoLongerValid: "邀請鏈接已失效。請請求新的邀請鏈接。",
   inviteCodeIncorrect: "邀請鏈接不正確。點擊下方重新發送。",
-  thereAreNoFreeSeatsForThisWorkspace:
-    "此工作區沒有空閒席位",
+  thereAreNoFreeSeatsForThisWorkspace: "此工作區沒有空閒席位",
   thisWorkspaceCantAcceptAnyMoreMembers:
     "此工作區無法接受更多成員。工作區管理員可以提高限制，或者現有成員可以離開工作區以騰出席位。",
   spaceAccess: "空間訪問",
   changeToPrivateSpace:
     "此空間的所有現有成員在轉為私人後仍將是成員。除非被邀請，否則無法加入新成員。",
-  changeToOpenSpace:
-    "工作區的所有成員都可以找到並加入此空間，並查看其內容。",
+  changeToOpenSpace: "工作區的所有成員都可以找到並加入此空間，並查看其內容。",
   changeToPrivate: "更改為私人",
   changeToOpen: "更改為公開",
   changeToPrivateSpaceTitle: "更改為私人空間？",
@@ -698,8 +673,7 @@ const zhHant = {
   ["global.placeholder.pagePlaceholder"]: "寫點什麼...",
   ["global.placeholder.focusedStatePlaceholder"]:
     "@ 提及任何內容，/ 用於命令...",
-  ["global.placeholder.focusedStatePlaceholderMobile"]:
-    "@ 提及，/ 用於命令...",
+  ["global.placeholder.focusedStatePlaceholderMobile"]: "@ 提及，/ 用於命令...",
   checkListItemPlaceholder: "@ 提及任何內容...",
   viewAll: "查看全部",
   filterByUnread: "按未讀過濾",
@@ -789,8 +763,7 @@ const zhHant = {
   cantUndoneAction: "此操作無法撤銷。",
   eachSpaceCanContain: "每個空間可以包含任意多的看板",
   browseSpaces: "瀏覽空間",
-  popupSpaceDescription:
-    "在空間中組織工作。通常以團隊、專案或高階目標命名。",
+  popupSpaceDescription: "在空間中組織工作。通常以團隊、專案或高階目標命名。",
   eachSpaceCanContainMultiple: "每個空間可以包含多個",
   pagesLowercase: "頁面",
   kanbanBoards: "看板",
@@ -839,8 +812,7 @@ const zhHant = {
   pageDuplicated: "頁面已複製",
   pageDuplicateFailed: "複製頁面失敗",
   copyOf: "的副本",
-  displayNameDescription:
-    "這可以是您的名字或暱稱。它將顯示在應用程式中。",
+  displayNameDescription: "這可以是您的名字或暱稱。它將顯示在應用程式中。",
   embedVideo: "嵌入 Youtube 視頻",
   removePullRequest: "移除拉取請求",
   viewOnGitHub: "在 GitHub 上查看",
@@ -850,8 +822,7 @@ const zhHant = {
     "將 Superthread 卡片連結到 GitHub 拉取請求。在分支名稱或拉取請求標題中包含 Superthread 卡片 ID（例如 C-123），以自動在卡片中顯示 PR 狀態。",
   connectGithub: "連接 GitHub",
   connectedAccounts: "已連接帳戶",
-  integrationConnectedToSuperthread:
-    "%{integrationName} 已連接到 Superthread",
+  integrationConnectedToSuperthread: "%{integrationName} 已連接到 Superthread",
   enabledBy: "啟用者",
   select: "選擇",
   integrations: "整合",
@@ -907,8 +878,7 @@ const zhHant = {
   noProjectFound: "沒有更多空間可添加",
   memberExplanation: "成員可以瀏覽並加入工作區中的任何空間",
   adminExplanation: "管理員對工作區設置有更多訪問權限",
-  guestExplanation:
-    "訪客對工作區的訪問有限，只能看到他們被添加到的空間",
+  guestExplanation: "訪客對工作區的訪問有限，只能看到他們被添加到的空間",
   connect: "連接",
   selectBoardImport: "選擇您想匯入的看板",
   selectUsersImport: "選擇您想匯入的用戶",
@@ -963,19 +933,16 @@ const zhHant = {
   whenACardIsLinkedToPR: "當卡片連結到拉取請求時",
   whenPRTargetsTheBranch: "當拉取請求針對分支時",
   addBranchSpecificAutomation: "添加分支特定的自動化",
-  automationMustHaveBranchName:
-    "自動化必須有一個分支名稱。這些規則將被忽略。",
+  automationMustHaveBranchName: "自動化必須有一個分支名稱。這些規則將被忽略。",
   addBranchSpecificAutomationErrorAlreadyExists:
     "已經有一個自動化用於該分支名稱。這些規則將被忽略。",
-  invalidGitBranchName:
-    "這不是有效的分支名稱。這些規則將被忽略。",
+  invalidGitBranchName: "這不是有效的分支名稱。這些規則將被忽略。",
   branchSpecificAutomationAdded: "分支特定的自動化已添加。",
   branchSpecificAutomationUpdated: "分支特定的自動化已更新。",
   branchSpecificAutomationRemoved: "分支特定的自動化已移除。",
   deleteAutomation: "刪除自動化",
   deleteThisAutomation: "刪除此自動化",
-  deleteAutomationConfirmation:
-    "這些規則將被刪除且無法恢復。",
+  deleteAutomationConfirmation: "這些規則將被刪除且無法恢復。",
   whenPRChangesTo: "當 PR 更改為",
   moveCardToList: "將卡片移至列表",
   doNotMove: "不要移動",
@@ -1031,8 +998,7 @@ const zhHant = {
   ["now-3M"]: "3 個月前",
   ["now-6M"]: "6 個月前",
   ["now-1y"]: "1 年前",
-  anywhereYouAreMentioned:
-    "任何提到你的地方（無論是否訂閱等）",
+  anywhereYouAreMentioned: "任何提到你的地方（無論是否訂閱等）",
   anyCommentsOnResources: "你訂閱的資源上的任何評論。",
   ifYouAreMemberOfABoard: "如果你是看板的成員：",
   manageMembers: "管理成員",
@@ -1066,16 +1032,13 @@ const zhHant = {
     "你是此私人空間中唯一的人。如果你離開，將無人能夠訪問。如果你的組織仍需要訪問，請在離開前邀請其他人。",
   whenYouLeaveAPrivateSpace:
     "當你離開私人空間時，你將無法再看到其任何看板或頁面。要重新加入，你需要再次被邀請。",
-  youCanRejoinThePublicSpace:
-    "你可以從空間屏幕重新加入該空間。",
-  areYouSureYouWantToRevoke:
-    "你確定要撤銷他們對此工作區的邀請嗎？",
+  youCanRejoinThePublicSpace: "你可以從空間屏幕重新加入該空間。",
+  areYouSureYouWantToRevoke: "你確定要撤銷他們對此工作區的邀請嗎？",
   areYouSureYouWantToTransferOwnership:
     "你確定要轉讓此工作區的所有權嗎？只有新所有者能夠撤銷此操作。",
   transferOwnership: "轉讓所有權",
   transferSpaceOwnershipConfirmed: "空間所有權已轉讓",
-  transferSpaceOwnershipShort:
-    "你必須先轉讓所有權才能離開",
+  transferSpaceOwnershipShort: "你必須先轉讓所有權才能離開",
   transferSpaceOwnershipDescription:
     "如果你將 %{name} 設為此空間的所有者，你將不再是所有者，並將被更改為成員。",
   transferSpaceOwnershipBeforeLeaving:
@@ -1085,12 +1048,10 @@ const zhHant = {
   notFound: "未找到",
   itemNotFound: "未找到項目",
   urlDoesntLeadAnywhere: "該 URL 無法引導至任何地方",
-  itemMightBeDeleted:
-    "該項目可能已被刪除，或者你可能無權訪問",
+  itemMightBeDeleted: "該項目可能已被刪除，或者你可能無權訪問",
   deleteItem: "刪除 %{item}",
   deleteSpace: "刪除空間",
-  ifYouWantToDeleteSpace:
-    "如果你想刪除此空間，請在下方輸入其名稱。",
+  ifYouWantToDeleteSpace: "如果你想刪除此空間，請在下方輸入其名稱。",
   ifYouWantToDeleteResource:
     "如果你想刪除此 %{resourceType}，請在下方輸入其名稱。",
   ifYouWantToArchiveResource:
@@ -1144,8 +1105,7 @@ const zhHant = {
   subscribedToResourceUpdates: "已訂閱 %{name} 更新",
   unsubscribedFromResourceUpdates: "已取消訂閱 %{name} 更新",
   subscribingToResourceUpdatesFailed: "訂閱 %{name} 更新失敗",
-  unsubscribingFromResourceUpdatesFailed:
-    "取消訂閱 %{name} 更新失敗",
+  unsubscribingFromResourceUpdatesFailed: "取消訂閱 %{name} 更新失敗",
   couldntArchiveCard: "無法歸檔卡片。",
   cardRestored: "卡片已恢復",
   dueOn: "到期日",
@@ -1188,8 +1148,7 @@ const zhHant = {
   allow: "允許",
   integrationWillHave:
     "%{integrationName} 將擁有讀寫您工作區中卡片、看板和頁面的權限。",
-  youMayBeSharing:
-    "您可能會與此網站或應用程式分享敏感資訊。您可以隨時在您的",
+  youMayBeSharing: "您可能會與此網站或應用程式分享敏感資訊。您可以隨時在您的",
   stSettings: "Superthread 設定中查看或移除存取權",
   seeIntegration: "查看 %{integrationName} 的",
   privacyPolicy: "隱私政策",
@@ -1209,8 +1168,7 @@ const zhHant = {
     "協作文件包含文字、圖片、markdown和內嵌評論。做筆記、撰寫規格、建立維基或公開分享資訊。",
   filterAcrossTheEntire:
     "在整個工作區中篩選以創建分配給您的所有卡片視圖，或創建全局錯誤待辦清單。視圖可以是私人或與團隊共享。",
-  useFiltersToCreate:
-    "使用篩選器創建自定義視圖，只顯示您想查看的卡片",
+  useFiltersToCreate: "使用篩選器創建自定義視圖，只顯示您想查看的卡片",
   kanbanBoardsUc: "看板",
   importYourExistingTasksFrom: "從中導入您現有的任務",
   importTasks: "導入任務",
@@ -1303,14 +1261,12 @@ const zhHant = {
   noUnresolvedNotifications: "沒有未解決的通知",
   youCanShow: "您可以顯示",
   notificationsInstead: "通知代替",
-  subscribeToGetNotifications:
-    "訂閱某些內容，您將收到活動通知",
+  subscribeToGetNotifications: "訂閱某些內容，您將收到活動通知",
   selectANotificationToViewIt: "選擇一個通知以查看",
   youCanMarkANotificationAs: "您可以將通知標記為",
   unreadOr: "未讀或",
   resolveIt: "解決它",
-  inboxNotificationsAreUnresolved:
-    "通知會保持未解決狀態，直到您解決它們",
+  inboxNotificationsAreUnresolved: "通知會保持未解決狀態，直到您解決它們",
   notificationsAreNew: "如果您之前未見過通知，它們就是新的",
   wantNotificationsIn: "想要通知在",
   slaskQuestionMarkVisit: "Slack？訪問",
@@ -1327,8 +1283,7 @@ const zhHant = {
   reactionsToYourComments: "對您評論的反應",
   youWereRemoved: "您已被移除",
   fromPrivateSpace: "從私人空間",
-  privateSpaceDesc:
-    "此空間是私人的，因此您無法查看其名稱或內容",
+  privateSpaceDesc: "此空間是私人的，因此您無法查看其名稱或內容",
   privateSpace: "私人空間",
   everything: "所有內容",
   taskIsOverdue: "任務已逾期",
@@ -1357,8 +1312,7 @@ const zhHant = {
   resetLayoutToBoardDefault: "重置佈局為看板默認",
   alreadyOpen: "%{resource}已經打開",
   defaultBoardLayout: "默認看板佈局",
-  defaultBoardLayoutDescription:
-    "每個人將默認看到此佈局。此設置可以稍後更改。",
+  defaultBoardLayoutDescription: "每個人將默認看到此佈局。此設置可以稍後更改。",
   boardDescription: "卡片被分組到列中",
   listDescription: "卡片在垂直列表中，分成多組",
   timelineDescription: "根據開始和截止日期的時間線",
@@ -1375,8 +1329,7 @@ const zhHant = {
   removeBoard: "移除板子",
   noSprints: "Sprints將從最新到最早列出在這裡",
   noNonSprintBoardsInThisSpace: "此空間中沒有非sprint看板",
-  inviteToWorkspaceDescription:
-    "若要將現有成員添加到空間，請前往空間設置",
+  inviteToWorkspaceDescription: "若要將現有成員添加到空間，請前往空間設置",
   alreadyMembersOfWorkspace:
     "有些人已經在工作區中。他們將被添加到下面選擇的任何相關空間。",
   information: "資訊",
@@ -1439,8 +1392,7 @@ const zhHant = {
   print: "列印",
   reactedWith: "回應了",
   you: "您",
-  cannotModidyListStatus:
-    "當已添加%{resourceType}時，無法修改列表狀態",
+  cannotModidyListStatus: "當已添加%{resourceType}時，無法修改列表狀態",
   onlineAgain: "您已重新連線",
   youAreOffline: "您已離線",
   exploring: "探索中",
@@ -1453,8 +1405,7 @@ const zhHant = {
   electronOpenInApp: "在應用中打開",
   electronOpenInDesktopApp: "在桌面應用中打開",
   electronOpenLinksInDesktopApp: "在桌面應用中打開鏈接",
-  electronAutoOpenLinksInDesktopApp:
-    "自動在桌面應用中打開Superthread鏈接",
+  electronAutoOpenLinksInDesktopApp: "自動在桌面應用中打開Superthread鏈接",
   electronCurrentLinkOpenedInApp: "當前鏈接已在桌面應用中打開",
   electronAppIsInstalled: "看起來您已安裝應用",
   electronUserMentioned: "提到您",
@@ -1482,36 +1433,30 @@ const zhHant = {
   importYourExistingNameToST:
     "將您現有的%{importerName} %{boardEq}匯入到Superthread",
   jiraBoardMapingSubtitle: "選擇您想從Jira匯入的看板。",
-  trelloBoardMapingSubtitle:
-    "選擇您想從Trello匯入的看板。",
-  shortcutBoardMapingSubtitle:
-    "選擇要從中匯入故事的團隊和工作流程。",
+  trelloBoardMapingSubtitle: "選擇您想從Trello匯入的看板。",
+  shortcutBoardMapingSubtitle: "選擇要從中匯入故事的團隊和工作流程。",
   jiraQuickImportText:
     "所有團隊將被匯入到一個名為‘jira-import’的空間。您可以輕鬆地從那裡重新命名和重新組織您的看板。",
   trelloQuickImportText:
     "所有團隊將被匯入到一個名為‘trello-import’的空間。您可以輕鬆地從那裡重新命名和重新組織您的看板。",
   shortcutQuickImportText:
     "每個‘team-workflow’看板將被匯入到一個名為‘shortcut-import’的空間。您可以輕鬆地從那裡重新命名和重新組織您的看板。",
-  jiraCustomImportText:
-    "選擇要匯入的看板，以及它們應該被匯入到哪些空間。",
-  trelloCustomImportText:
-    "選擇要匯入的看板，以及它們應該被匯入到哪些空間。",
+  jiraCustomImportText: "選擇要匯入的看板，以及它們應該被匯入到哪些空間。",
+  trelloCustomImportText: "選擇要匯入的看板，以及它們應該被匯入到哪些空間。",
   shortcutCustomImportText:
     "選擇要匯入的‘team-workflow’看板，以及它們應該被匯入到哪些空間。",
   superthreadSpace: "Superthread空間",
   mapImporterUsersToSTUSers:
     "將%{importerName}用戶映射到Superthread用戶（或邀請缺失的用戶）以保留卡片成員、創建者和活動。",
   startImport: "開始匯入",
-  wellLetYouKnowWhenImportFinishes:
-    "匯入完成時，我們會通知您",
+  wellLetYouKnowWhenImportFinishes: "匯入完成時，我們會通知您",
   feelFreeToContuinueUsingST: "隨時繼續使用Superthread",
   dontImportThisUser: "不要匯入此用戶",
   matchToAnExistingSTUser: "匹配到現有的Superthread用戶",
   createANewUser: "創建新用戶（電子郵件邀請）",
   projectsCannotBeMovedToSpaces: "專案無法移動到空間",
   importOpenStories: "匯入開放的故事",
-  importOpenStoriesDesc:
-    "未解決或已開啟的故事將以其現有狀態匯入。",
+  importOpenStoriesDesc: "未解決或已開啟的故事將以其現有狀態匯入。",
   importStaleStories: "匯入過時的故事",
   importStaleStoriesDesc:
     "超過6個月未開啟的故事被視為過時。它們將被匯入到存檔中，並可以稍後取消存檔。",
@@ -1519,8 +1464,7 @@ const zhHant = {
   thirtySeconds: "30秒",
   toShowYouAround: "帶您四處看看",
   getStarted: "開始使用",
-  youCanAlways:
-    "您可以隨時從側邊欄的幫助部分重新訪問此教程",
+  youCanAlways: "您可以隨時從側邊欄的幫助部分重新訪問此教程",
   youreGoodToGo: "您可以開始了。",
   quickStart: "快速入門教程",
   getToKnow: "在30秒內了解Superthread",
@@ -1532,9 +1476,8 @@ const zhHant = {
   searchSpaces: "搜尋空間",
   createSpace: "建立空間",
   addADescription: "新增描述",
-  showingNumberOfSpaces:
-    "顯示 %{totalNum} 個空間中的 %{num} 個結果",
-  noResultsFoundFor: '未找到 ”%{query}” 的結果',
+  showingNumberOfSpaces: "顯示 %{totalNum} 個空間中的 %{num} 個結果",
+  noResultsFoundFor: "未找到 ”%{query}” 的結果",
   changeDescription: "更改描述",
   contents: "內容",
   createSpaceSubtitle:
@@ -1549,14 +1492,12 @@ const zhHant = {
   addPeopleSubtitle:
     "如果您邀請不屬於 %{workspaceName} 工作區的人，他們將被添加到其中。",
   openSpace: "開放空間",
-  openSpaceSubtitle:
-    "工作區的所有成員都可以瀏覽和加入開放空間",
+  openSpaceSubtitle: "工作區的所有成員都可以瀏覽和加入開放空間",
   privateSpaceSubtitle:
     "工作區成員無法查看或加入私人空間，除非他們被現有成員邀請",
   inviteNewPeople: "邀請新成員",
   inviteeEmailAddress: "被邀請者的電子郵件地址",
-  inviteSectionSubtitle:
-    "他們將被邀請加入整個工作區，而不僅僅是這個空間。",
+  inviteSectionSubtitle: "他們將被邀請加入整個工作區，而不僅僅是這個空間。",
   couldntCreateSpace: "無法創建空間，請再試一次。",
   spaceCreated: "空間已創建。",
   emailAlreadyAdded: "電子郵件已添加",
@@ -1628,11 +1569,9 @@ const zhHant = {
   setTheEstimateTo: "將估算設為",
   removedTheEstimate: "移除估算",
   thereAreNoPages: "此空間中沒有頁面。",
-  createNewPageOrDrag:
-    "在側邊欄中建立新頁面，或將現有頁面拖入此空間。",
+  createNewPageOrDrag: "在側邊欄中建立新頁面，或將現有頁面拖入此空間。",
   thereAreNoBoards: "此空間中沒有看板。",
-  createNewBoardOrDrag:
-    "在側邊欄中建立新看板，或將現有看板拖入此空間。",
+  createNewBoardOrDrag: "在側邊欄中建立新看板，或將現有看板拖入此空間。",
   commentsOnly: "僅評論",
   activityOnly: "僅活動",
   seeCardsWithThisTag:
@@ -1640,7 +1579,7 @@ const zhHant = {
   noResultsForThatName: "該名稱沒有結果",
   youCan: "您可以",
   createASpace: "創建一個空間",
-  named: '命名為 ”%{query}”',
+  named: "命名為 ”%{query}”",
   estimate: "估算",
   onePoint: "1 點",
   numberOfPoints: "%{num} 點",
@@ -1650,8 +1589,7 @@ const zhHant = {
   large: "大",
   extraLarge: "特大",
   noEstimate: "無估算",
-  settingsProjectsPreferencesSubtitle:
-    "這些設定將影響空間的所有成員",
+  settingsProjectsPreferencesSubtitle: "這些設定將影響空間的所有成員",
   howCardsAreEstimated: "此空間中卡片的估算方式",
   disableCardEstimationForThisSpace: "禁用此空間的卡片估算",
   fibonacciPoints: "斐波那契點數",
@@ -1661,8 +1599,7 @@ const zhHant = {
   emailNotificationHelperText:
     "每個工作日發送一封包含您自上次電子郵件以來未查看通知的電子郵件",
   estimated: "已估算",
-  cardSpaceEstimationTurnedOff:
-    "此卡片屬於已關閉估算的空間",
+  cardSpaceEstimationTurnedOff: "此卡片屬於已關閉估算的空間",
   totalEstimatePointsTooltipContent:
     "在 %{numOfCards} 張卡片中共估算 %{totalPoints} 點",
   estimates: "估算",
@@ -1671,8 +1608,7 @@ const zhHant = {
   createACard: "創建卡片",
   archivedCardsAreHidden: "已存檔的卡片被隱藏",
   enterANameAbove: "在上方輸入名稱",
-  chooseFiltersYouWouldLike:
-    "然後在篩選欄中選擇您想要的篩選器",
+  chooseFiltersYouWouldLike: "然後在篩選欄中選擇您想要的篩選器",
   cannotCreateViewOnMobile: "您無法在移動設備上創建視圖。",
   viewCardInBoard: "在其自己的看板中查看卡片",
   guestsMustBeAddedToOneSpace: "訪客必須至少被添加到一個空間",
@@ -1713,8 +1649,7 @@ const zhHant = {
   searchTimezone: "搜尋時區",
   changeYourTimezoneInProfile: "在個人資料中更改您的時區。",
   enableNotificationsFirst: "首先啟用 %{type} 通知",
-  turnOnAIAssitantInFormatingToolbar:
-    "在文字格式工具欄中開啟 AI 助手",
+  turnOnAIAssitantInFormatingToolbar: "在文字格式工具欄中開啟 AI 助手",
   superthreadSendingDataTo:
     "請注意，如果您為工作區啟用此功能，即表示您同意 Superthread 傳送數據至",
   experimentalFeatureMayChangeFunctionality:
@@ -1725,29 +1660,21 @@ const zhHant = {
   ["create_space.title"]: "創建一個空間",
   ["create_space.tooltip"]: "為您的團隊工作創建一個家",
   ["create_private_space.title"]: "創建私人空間",
-  ["create_private_space.tooltip"]:
-    "只有您邀請的人才能看到私人空間",
+  ["create_private_space.tooltip"]: "只有您邀請的人才能看到私人空間",
   ["invite_user.title"]: "邀請其他人",
-  ["invite_user.tooltip"]:
-    "邀請您的團隊成員加入工作區，以便他們可以跟蹤工作",
+  ["invite_user.tooltip"]: "邀請您的團隊成員加入工作區，以便他們可以跟蹤工作",
   ["mention_anything.title"]: "提及某事",
-  ["mention_anything.tooltip"]:
-    "使用 @ 鍵在任何可以書寫的地方提及某事",
+  ["mention_anything.tooltip"]: "使用 @ 鍵在任何可以書寫的地方提及某事",
   ["add_child_card.title"]: "添加子卡片",
-  ["add_child_card.tooltip"]:
-    "子卡片幫助您將工作分解為更小的任務",
+  ["add_child_card.tooltip"]: "子卡片幫助您將工作分解為更小的任務",
   ["visit_inbox.title"]: "檢查您的收件箱",
-  ["visit_inbox.tooltip"]:
-    "在收件箱中跟蹤您訂閱的所有內容",
+  ["visit_inbox.tooltip"]: "在收件箱中跟蹤您訂閱的所有內容",
   ["move_page.title"]: "移動頁面",
-  ["move_page.tooltip"]:
-    "在側邊欄中拖動頁面以隨意移動",
+  ["move_page.tooltip"]: "在側邊欄中拖動頁面以隨意移動",
   ["create_subpage.title"]: "創建子頁面",
-  ["create_subpage.tooltip"]:
-    "子頁面存在於其他頁面內，幫助您結構化文檔",
+  ["create_subpage.tooltip"]: "子頁面存在於其他頁面內，幫助您結構化文檔",
   ["add_page_icon.title"]: "添加頁面圖標",
-  ["add_page_icon.tooltip"]:
-    "頁面圖標幫助您在搜尋和側邊欄中再次找到頁面",
+  ["add_page_icon.tooltip"]: "頁面圖標幫助您在搜尋和側邊欄中再次找到頁面",
   ["add_page_cover.title"]: "添加頁面封面圖片",
   ["add_page_cover.tooltip"]: "用封面圖片設置頁面的基調",
   ["quick_card_shortcut.title"]: "快速卡片快捷鍵 (C)",
@@ -1757,11 +1684,9 @@ const zhHant = {
   ["create_card.title"]: "創建卡片",
   ["create_card.tooltip"]: "為每個您想追蹤的任務建立卡片",
   ["comment_on_card.title"]: "在卡片上評論",
-  ["comment_on_card.tooltip"]:
-    "在卡片上寫下更新或記錄您的想法",
+  ["comment_on_card.tooltip"]: "在卡片上寫下更新或記錄您的想法",
   ["search_shortcut.title"]: "使用 ⌘+K 找到某些東西",
-  ["search_shortcut.tooltip"]:
-    "使用此快捷鍵快速在任何地方打開全域搜尋",
+  ["search_shortcut.tooltip"]: "使用此快捷鍵快速在任何地方打開全域搜尋",
   ["create_board.title"]: "建立看板",
   ["create_board.tooltip"]: "追蹤子團隊或專案的工作",
   ["upload_avatar.title"]: "上傳頭像",
@@ -1791,8 +1716,7 @@ const zhHant = {
     "將在此空間的側邊欄中添加一個“衝刺”部分。衝刺是一個具有開始和結束日期的看板。當一個衝刺完成後，下一個將自動開始。",
   ownersAdminsCanTurnOnSprints:
     "只有工作區擁有者、管理員和空間創建者可以更改此設置",
-  onlyOwnerOfPrivateSpace:
-    "只有私人空間的擁有者可以更改此設置",
+  onlyOwnerOfPrivateSpace: "只有私人空間的擁有者可以更改此設置",
   onlySpaceOwnerCanModifyMembers: "只有擁有者可以更改空間成員",
   cannotModifySpaceOwner: "您無法更改空間擁有者",
   sprintLength: "衝刺長度",
@@ -1819,25 +1743,20 @@ const zhHant = {
   changeDates: "更改日期",
   chooseNewStartAndEndDates: "選擇%{sprintName}的新開始或結束日期",
   renameSprintDescription: "輸入衝刺的新名稱。",
-  startDateIsEarlierThanPreviousEndDate:
-    "開始日期與上一個衝刺的結束日期重疊",
+  startDateIsEarlierThanPreviousEndDate: "開始日期與上一個衝刺的結束日期重疊",
   enterSprintName: "輸入衝刺名稱",
-  cancelSprintWarning:
-    "此看板中所有未完成的卡片將被移至取消狀態。",
+  cancelSprintWarning: "此看板中所有未完成的卡片將被移至取消狀態。",
   dontCancel: "不要取消",
   upgradePlan: "升級計劃",
   choosePlan: "選擇計劃",
   upgradePrivateSpaceTitle: "升級以獲得私人空間",
-  upgradePrivateSpaceDescription:
-    "您可以在付費計劃中創建私人空間。",
+  upgradePrivateSpaceDescription: "您可以在付費計劃中創建私人空間。",
   upgradePlanBadgeTooltip:
     "只有擁有者（%{spaceOwner}）和管理員可以更改工作區計劃",
   upgradeUserRolesTitle: "升級以獲得用戶角色",
-  upgradeUserRolesDescription:
-    "您可以在付費計劃中選擇非管理員用戶角色。",
+  upgradeUserRolesDescription: "您可以在付費計劃中選擇非管理員用戶角色。",
   upgradedWorkspace: "您的工作區已升級！",
-  workspaceSubscriptionChanged:
-    "您的工作區訂閱已更改",
+  workspaceSubscriptionChanged: "您的工作區訂閱已更改",
   sprintSettings: "衝刺設置",
   electronDownloadApp: "下載應用程式",
   electronDownloadAppDescription:
@@ -1848,49 +1767,41 @@ const zhHant = {
   cardsWithNoSprint: "沒有衝刺的卡片",
   showCardsFrom: "顯示卡片來自",
   yourColor: "您的顏色",
-  thisColorWillHelp:
-    "此顏色將幫助其他人識別您在某些地方。",
+  thisColorWillHelp: "此顏色將幫助其他人識別您在某些地方。",
   logo: "標誌",
   prStateOpen: "%{count}個開啟",
   prStateClosed: "%{count}個關閉",
   prStateMerged: "%{count}個合併",
-  invitingPeopleToWorkspace:
-    "只有管理員可以邀請新成員加入此工作區",
+  invitingPeopleToWorkspace: "只有管理員可以邀請新成員加入此工作區",
   upgradePublicPageIndexingTitle: "升級以進行搜索引擎索引",
-  upgradePublicPageIndexingDescription:
-    "您可以在付費計劃中開啟搜索引擎索引。",
-  shortcutWarningText:
-    "任何未分配給團隊的Shortcut故事將不會被導入。",
+  upgradePublicPageIndexingDescription: "您可以在付費計劃中開啟搜索引擎索引。",
+  shortcutWarningText: "任何未分配給團隊的Shortcut故事將不會被導入。",
   coolDown: "冷卻",
   noBoardsOrPages: "沒有看板或頁面",
   language: "語言",
   usersWork: "%{name}的工作",
   renameAttachment: "重命名附件",
   deleteAttachment: "刪除附件",
-  timelineLayoutDescription:
-    "升級您的工作區計劃以使用時間線佈局。",
-  calendarLayoutDescription:
-    "升級您的工作區計劃以使用日曆佈局。",
+  timelineLayoutDescription: "升級您的工作區計劃以使用時間線佈局。",
+  calendarLayoutDescription: "升級您的工作區計劃以使用日曆佈局。",
   upgradeTemplatesDescription: "升級您的工作區計劃以使用模板。",
   upgradeRoadmapAndProjectsDescription:
     "升級您的工作區計劃以使用路線圖和項目。",
   upgradeViewsDescription: "升級您的工作區計劃以保存視圖。",
   createNewItem: "創建新項目",
   statusType: "狀態類型",
-  spaceLimitReached:
-    "已達到空間限制。您可以刪除一些空間以創建更多。",
+  spaceLimitReached: "已達到空間限制。您可以刪除一些空間以創建更多。",
   freePlanUsageLimits: "免費方案使用限制",
   item: "項目",
   usage: "使用情況",
-  limitReachedLong:
-    "如果達到限制，您需要刪除項目或升級方案才能創建新項目。",
+  limitReachedLong: "如果達到限制，您需要刪除項目或升級方案才能創建新項目。",
   limitReached: "已達到限制",
   resourceAndContentWillBeDeleted:
-    '%{resourceType} ”%{resourceTitle}” 及其內容將被永久刪除，無法恢復。',
+    "%{resourceType} ”%{resourceTitle}” 及其內容將被永久刪除，無法恢復。",
   resourceWillBeDeleted:
-    '%{resourceType} ”%{resourceTitle}” 將被永久刪除，無法恢復。',
+    "%{resourceType} ”%{resourceTitle}” 將被永久刪除，無法恢復。",
   epicWillBeDeleted:
-    '%{resourceType} ”%{resourceTitle}” 將被永久刪除，無法恢復。任何已添加到項目的卡片將不會被刪除。',
+    "%{resourceType} ”%{resourceTitle}” 將被永久刪除，無法恢復。任何已添加到項目的卡片將不會被刪除。",
   listNameLabel: "列表名稱",
   deleteList: "刪除列表",
   itemName: "項目名稱",
@@ -1910,8 +1821,7 @@ const zhHant = {
   emailCopiedToClipboard: "電子郵件已複製到剪貼板",
   emailRegenerated: "電子郵件已重新生成",
   slackChannelNotifications: "Slack 頻道通知",
-  slackChannelNotificationsTitle:
-    "將此看板中的卡片通知發送到 Slack 頻道",
+  slackChannelNotificationsTitle: "將此看板中的卡片通知發送到 Slack 頻道",
   slackChannelNotificationsDescriptionDisabled:
     "將打開一個 Slack 窗口並要求您選擇一個頻道",
   slackChannelNotificationsDescriptionEnabled:
@@ -1927,8 +1837,7 @@ const zhHant = {
   webhookNotificationCardMovedToBoard: "卡片已移動到此看板",
   webhookNotificationCardAddedBoard: "卡片已添加/移動到看板",
   webhookNotificationCardAddedList: "卡片已添加/移動到狀態",
-  webhookNotificationCardCommented:
-    "在看板上的卡片留下的評論（不包括回覆）",
+  webhookNotificationCardCommented: "在看板上的卡片留下的評論（不包括回覆）",
   webhookNotificationCardDueDate: "卡片到期日即將到來/已過期",
   folder: "文件夾",
   yourSpaces: "您的空間",
@@ -1959,8 +1868,7 @@ const zhHant = {
   addTags: "新增標籤",
   cancelled: "已取消",
   sprintBoards: "短衝看板",
-  sprintSettingsBoardsDescription:
-    "這些設定適用於此空間中的所有短衝",
+  sprintSettingsBoardsDescription: "這些設定適用於此空間中的所有短衝",
   addedCard: "已新增卡片",
   removedCard: "已移除卡片",
   addNewCard: "新增新卡片",
@@ -1969,24 +1877,20 @@ const zhHant = {
   cardAlreadyHasEpicOrParent:
     "選擇的卡片已經有專案或父卡片。如果您將其新增到此專案，它們將被更改。",
   changeEpic: "更改專案",
-  childCardIsPartOfEpic: '子卡片是專案 ”%{epicName}” 的一部分。',
+  childCardIsPartOfEpic: "子卡片是專案 ”%{epicName}” 的一部分。",
   parentCardHasNoEpic: "父卡片沒有專案。",
-  parentCardIsPartOfEpic:
-    '父卡片是專案 ”%{epicName}” 的一部分。',
-  childCardsEpicWillBeRemoved:
-    "如果您繼續，子卡片的專案將被移除。",
+  parentCardIsPartOfEpic: "父卡片是專案 ”%{epicName}” 的一部分。",
+  childCardsEpicWillBeRemoved: "如果您繼續，子卡片的專案將被移除。",
   childCardsEpicWillChangeToParents:
     "如果您繼續，子卡片的專案將更改為父卡片的專案。",
   removeEpic: "移除專案",
   epicWillNoLongerBeAssociated:
-    '如果您將子卡片從其父卡片中移除，它將不再與專案 ”%{epicName}” 關聯。',
+    "如果您將子卡片從其父卡片中移除，它將不再與專案 ”%{epicName}” 關聯。",
   childCardAlreadyHasParent:
     "子卡片已經有父項。如果您繼續，父項將更改為此卡片。",
-  cardsDirectlyAddedToEpicCantHaveParent:
-    "直接新增到專案的卡片不能有父卡片",
+  cardsDirectlyAddedToEpicCantHaveParent: "直接新增到專案的卡片不能有父卡片",
   epicNoTagsFound: "未找到標籤。專案只能使用工作區標籤",
-  cannotChangeStatusForCardsInFinishedSprint:
-    "無法更改已完成短衝中的卡片狀態",
+  cannotChangeStatusForCardsInFinishedSprint: "無法更改已完成短衝中的卡片狀態",
   cannotChangeStatusForArchivedCards: "無法更改已封存卡片的狀態",
   cantMoveArchivedCardToSprint: "無法將已封存的卡片移動到短衝",
   relatedTo: "相關於",
@@ -1999,12 +1903,9 @@ const zhHant = {
   currentAndPlannedSprints: "當前和計劃中的短衝",
   seeAllSprints: "查看所有短衝",
   currentAndNextSprint: "當前和下一個短衝",
-  branchSpecificAutomationAddFailed:
-    "無法新增分支特定的自動化。",
-  branchSpecificAutomationUpdateFailed:
-    "無法更新分支特定的自動化。",
-  branchSpecificAutomationRemoveFailed:
-    "無法移除分支特定的自動化。",
+  branchSpecificAutomationAddFailed: "無法新增分支特定的自動化。",
+  branchSpecificAutomationUpdateFailed: "無法更新分支特定的自動化。",
+  branchSpecificAutomationRemoveFailed: "無法移除分支特定的自動化。",
   thereAreNoCurrentOrPlannedSprints: "沒有當前或計劃中的短衝",
   thereIsNoCurrentOrNextSprint: "沒有當前或下一個短衝",
   movedCardFrom: "已將卡片從",
@@ -2020,12 +1921,9 @@ const zhHant = {
   pageMovedTo: "頁面已移動到",
   thisSpaceIsEmpty: "此空間為空",
   createSomethingToGetStarted: "創建一些內容以開始",
-  visualiseYourWorkflow:
-    "可視化您的工作流程、追蹤工作並保持井然有序",
-  captureImportantInformation:
-    "捕捉重要信息，與他人協作，並分享至網絡",
-  organiseWorkIntoSprints:
-    "將工作組織成一段段時間，以便更輕鬆地計劃",
+  visualiseYourWorkflow: "可視化您的工作流程、追蹤工作並保持井然有序",
+  captureImportantInformation: "捕捉重要信息，與他人協作，並分享至網絡",
+  organiseWorkIntoSprints: "將工作組織成一段段時間，以便更輕鬆地計劃",
   filterYourWorkspaceToCreateViews:
     "篩選您的工作空間以創建視圖，並與您的團隊分享",
   turnOnSprints: "開啟短衝",
@@ -2034,15 +1932,13 @@ const zhHant = {
   convertCardToEpic: "將卡片轉換為專案",
   couldNotConvertCardToEpic: "無法將卡片轉換為專案",
   cardSuccessfullyConvertedToEpic: "卡片成功轉換為專案",
-  convertedCardWillLose:
-    "如果您將此卡片轉換為專案，它將失去其%{arr, list}。",
+  convertedCardWillLose: "如果您將此卡片轉換為專案，它將失去其%{arr, list}。",
   convertedThisCardToEpic: "將此卡片轉換為專案",
   spaceLevelTags: "空間級標籤",
   effortEstimate: "工作量估算",
   existingEpic: "現有專案",
   roadmapMustHaveAtLeastOneStatus: "路線圖必須至少有一個狀態",
-  chosenPageIsAlreadySubpage:
-    "選擇的頁面已經是當前頁面的子頁面",
+  chosenPageIsAlreadySubpage: "選擇的頁面已經是當前頁面的子頁面",
   searchForResults: "搜索以顯示結果",
   parentCardIs: "父卡片是...",
   projectIs: "專案是...",
@@ -2128,12 +2024,10 @@ const zhHant = {
   projectEmptyStateDescription:
     "專案是一項由工作區中多張卡片組成的大型工作。在欄中創建專案，或編輯預設狀態。",
   cardInProjectEmptyStateFooter: "一張卡片只能屬於一個專案",
-  addCardsThatContributeToProject:
-    "添加有助於此專案的卡片。您可以",
+  addCardsThatContributeToProject: "添加有助於此專案的卡片。您可以",
   noProject: "無專案",
   noteTemplates: "筆記範本",
-  noteTemplatesSettingsSubtitle:
-    "使用範本快速更改筆記格式",
+  noteTemplatesSettingsSubtitle: "使用範本快速更改筆記格式",
   noNoteTemplates: "無筆記範本",
   createNoteTemplate: "創建筆記範本",
   sections: "部分",
@@ -2144,8 +2038,7 @@ const zhHant = {
   deletedTemplate: "範本已刪除",
   autoEnhanced: "自動增強",
   meetingContext: "會議背景",
-  meetingContextPlaceholder:
-    "提供會議概述以及您希望從中獲得的內容...",
+  meetingContextPlaceholder: "提供會議概述以及您希望從中獲得的內容...",
   meetingContextDescription:
     "這有助於 Superthread 瞭解在增強您的筆記時應專注於什麼",
   duplicateTemplate: "複製範本",
@@ -2161,15 +2054,13 @@ const zhHant = {
   allowMicrophoneCapture: "允許麥克風捕捉",
   allowSystemAudioCapture: "允許系統音頻捕捉",
   microphoneAccessNotAllowedTitle: "手動允許麥克風訪問",
-  microphoneAccessNotAllowedDesc1:
-    "之前未允許麥克風訪問，因此您需要手動允許。",
+  microphoneAccessNotAllowedDesc1: "之前未允許麥克風訪問，因此您需要手動允許。",
   microphoneAccessNotAllowedDesc2:
     "在 macOS 中，前往系統設定 > 隱私與安全性 > 麥克風，然後允許“Superthread”應用程式。",
   microphoneAccessNotAllowedDesc3:
     "完成後，請退出並重新開啟此應用程式，然後返回此處。",
   systemAccessNotAllowedTitle: "手動允許系統音訊存取",
-  systemAccessNotAllowedDesc1:
-    "系統音訊存取先前未被允許，因此您需要手動允許。",
+  systemAccessNotAllowedDesc1: "系統音訊存取先前未被允許，因此您需要手動允許。",
   systemAccessNotAllowedDesc2:
     "在 macOS 中，前往系統設定 > 隱私與安全性 > 螢幕與系統音訊錄製 > 僅系統音訊錄製，然後允許“Superthread”應用程式。",
   systemAccessNotAllowedDesc3:
@@ -2185,8 +2076,7 @@ const zhHant = {
   pause: "暫停",
   transcribe: "轉錄",
   currentlyTranscribing: "目前正在轉錄",
-  transcribingOnlyAvailableOnMac:
-    "轉錄僅在 macOS 應用程式中可用",
+  transcribingOnlyAvailableOnMac: "轉錄僅在 macOS 應用程式中可用",
   transcribingOnlyAvailableOnNewerMacVersions:
     "轉錄僅在 macOS 14.2 及更新版本中可用",
   startTranscription: "開始轉錄",
@@ -2195,8 +2085,7 @@ const zhHant = {
   notesSettings: "筆記設定",
   theseSettingsArePersonalToYou: "這些設定是個人專屬的",
   transcriptionJargonTitle: "術語",
-  transcriptionJargonPlaceholder:
-    "技術術語、不常見的名稱、專案名稱等。",
+  transcriptionJargonPlaceholder: "技術術語、不常見的名稱、專案名稱等。",
   transcriptionJargonDescription:
     "添加任何您認為音訊轉錄可能有問題的詞。用逗號分隔詞語。",
   selectANote: "選擇一個筆記",
@@ -2204,8 +2093,7 @@ const zhHant = {
   deleteSection: "刪除部分",
   untitledSection: "未命名部分",
   messageAgentAssistant: "訊息代理助手",
-  initialAgentMessage:
-    "我在這裡幫助您為代理撰寫指令。讓我知道您希望它做什麼。",
+  initialAgentMessage: "我在這裡幫助您為代理撰寫指令。讓我知道您希望它做什麼。",
   agentMessageError: "發生錯誤。請再試一次。",
   agentInstructions: "代理指令",
   version: "版本",
@@ -2251,21 +2139,17 @@ const zhHant = {
   macOSApp: "macOS 應用程式",
   requiresMacosAppOne: "需要",
   requiresMacosAppTwo: "macOS 應用程式。",
-  meetingsMenuBarTitle:
-    "在選單列應用程式旁顯示即將到來的日曆會議",
+  meetingsMenuBarTitle: "在選單列應用程式旁顯示即將到來的日曆會議",
   meetingsMenuBarDescription:
     "當天的下一個會議將顯示在選單列的 Superthread 圖標旁。",
   meetingName: "會議名稱",
   meetingTime: "會議時間",
   searchLanguage: "搜尋語言",
   ["get_started_notes.title"]: "開始使用筆記",
-  ["get_started_notes.tooltip"]:
-    "會議轉錄和 AI 增強筆記",
-  transcriptionNotAvailableOnPlan:
-    "此方案不提供轉錄功能。點擊查看可用方案",
+  ["get_started_notes.tooltip"]: "會議轉錄和 AI 增強筆記",
+  transcriptionNotAvailableOnPlan: "此方案不提供轉錄功能。點擊查看可用方案",
   openLinksInDesktopAppTitle: "登入時開啟桌面應用程式",
-  openLinksInDesktopAppDescription:
-    "登入時自動開啟 Superthread 桌面應用程式",
+  openLinksInDesktopAppDescription: "登入時自動開啟 Superthread 桌面應用程式",
   automaticallyStartTranscription: "自動開始轉錄",
   wheneverICreateANote: "每當我創建筆記時",
   onlyWhenITakeNotesForMeeting: "僅當我為會議做筆記時",
@@ -2279,13 +2163,11 @@ const zhHant = {
   instantEmailNotifications: "即時電子郵件通知",
   goToLatest: "前往最新",
   meetingAndTranscriptionSettings: "會議和轉錄設置",
-  meetingAndTranscriptionSettingsSubtitle:
-    "這些設置只能在",
+  meetingAndTranscriptionSettingsSubtitle: "這些設置只能在",
   customiseNotesSettingsOne: "或自定義您的",
   customiseNotesSettingsTwo: "筆記設置",
   enableSubGroupBy: "子組依據",
-  boardLimitReached:
-    "已達到看板限制。您可以刪除一些看板以創建更多。",
+  boardLimitReached: "已達到看板限制。您可以刪除一些看板以創建更多。",
   alphabetical: "按字母順序",
   chronological: "按時間順序",
   numeric: "數字",
@@ -2351,19 +2233,13 @@ const zhHant = {
   removeFromWorkspace: "從工作區移除",
   removeMembersDescription:
     "您確定要從工作區移除 %{count} 位成員嗎？此操作將立即撤銷他們的訪問權限",
-  cantIncludeYourselfInBulkRemoval:
-    "您不能將自己包括在批量成員移除中",
+  cantIncludeYourselfInBulkRemoval: "您不能將自己包括在批量成員移除中",
   changeRole: "更改角色",
-  ownerRolesCannotBeModifiedBulkActions:
-    "無法通過批量操作修改擁有者角色",
-  roleChangesOnlyForActiveMembers:
-    "角色更改僅適用於活躍成員",
-  allSelectedMembersHaveSelectedRole:
-    "所有選定的成員已經擁有選定的角色",
-  successfullyChangedRoleForMember:
-    "成功更改 %{count} 位成員的角色",
-  successfullyChangedRolesForMembers:
-    "成功更改 %{count} 位成員的角色",
+  ownerRolesCannotBeModifiedBulkActions: "無法通過批量操作修改擁有者角色",
+  roleChangesOnlyForActiveMembers: "角色更改僅適用於活躍成員",
+  allSelectedMembersHaveSelectedRole: "所有選定的成員已經擁有選定的角色",
+  successfullyChangedRoleForMember: "成功更改 %{count} 位成員的角色",
+  successfullyChangedRolesForMembers: "成功更改 %{count} 位成員的角色",
   teamCheckins: "團隊簽到",
   teamCheckinsSubtitle:
     "Superthread 可以按計劃詢問人們問題，並根據答案生成摘要",
@@ -2374,8 +2250,7 @@ const zhHant = {
   noCheckinsSubtitle: "您可以在上方創建簽到",
   checkinName: "簽到名稱",
   turnOnCheckin: "開啟簽到",
-  turnOnCheckinDescription:
-    "選定的人將被詢問當天的工作問題",
+  turnOnCheckinDescription: "選定的人將被詢問當天的工作問題",
   includedPeople: "包含的人",
   includedPeopleSubtitle: "最多選擇 %{numberOfPeople} 人",
   selectMembers: "選擇成員",
@@ -2390,20 +2265,17 @@ const zhHant = {
   timeNextReport: "下次報告時間",
   timeLastRun: "上次運行時間",
   timeLastReport: "上次報告時間",
-  scheduleSubtitle:
-    "在運行開始和議程生成之間，您將無法更改排程",
+  scheduleSubtitle: "在運行開始和議程生成之間，您將無法更改排程",
   startAskingQuestionsAt: "開始詢問問題的時間",
   days: "天",
   agendaDelay: "團隊簽到議程延遲",
-  upgradePlanToUseRoadmapAndProjectsTitle:
-    "升級您的計劃以使用路線圖和項目",
+  upgradePlanToUseRoadmapAndProjectsTitle: "升級您的計劃以使用路線圖和項目",
   upgradePlanToUseRoadmapAndProjectsDescription:
     "項目存在於路線圖中。項目讓您可以將所有與項目相關的卡片集中在一個地方，並讓每個人保持最新狀態。",
   weekdays: "工作日",
   weekends: "週末",
   checkin: "簽到",
-  suggestedCheckinFirstMessage:
-    "我需要問您一些關於您每日團隊簽到的問題。",
+  suggestedCheckinFirstMessage: "我需要問您一些關於您每日團隊簽到的問題。",
   teamCheckinCurrentCards: "這是您目前的卡片：",
   teamCheckinProposedReport: "這是我對您工作的建議報告：",
   teamCheckinFinalReport: "這是您今天的最終報告：",
@@ -2418,18 +2290,14 @@ const zhHant = {
     "您想澄清建議報告中的任何內容嗎？或者您想添加任何內容嗎？",
   whatChanged: "有什麼變化？",
   clarificationQuestionReject: "不，我沒有要添加的內容",
-  reportFromPastTitle:
-    "這是來自過去的用戶報告通知",
-  reportFromPastDescription:
-    "查看通知以查找是否有新的報告通知",
-  userSuggestedReportNotificationSidebar:
-    "請回答這些檢查問題",
+  reportFromPastTitle: "這是來自過去的用戶報告通知",
+  reportFromPastDescription: "查看通知以查找是否有新的報告通知",
+  userSuggestedReportNotificationSidebar: "請回答這些檢查問題",
   userFinalReportNotificationSidebar: "您的最終檢查報告已準備好",
   finalCheckinFirstMessage:
     "您的最終檢查報告已生成，基於您的建議報告和您回答的問題。",
   getStartedWithSuperthread: "開始使用Superthread",
-  whatDoYouIntendToUseSuperthreadFor:
-    "您打算將Superthread用於什麼？",
+  whatDoYouIntendToUseSuperthreadFor: "您打算將Superthread用於什麼？",
   thisWillHelpUsTailorYourExperience:
     "這將幫助我們根據您的需求量身定制您的體驗。",
   chooseAUseCase: "選擇一個使用案例",
@@ -2469,8 +2337,7 @@ const zhHant = {
   patName: "權杖名稱",
   patNamePlaceholder: "簡短描述名稱...",
   expiration: "到期",
-  patExpirationTimeSubtitle:
-    "權杖將在選定的天數後自動過期，並且不能再使用。",
+  patExpirationTimeSubtitle: "權杖將在選定的天數後自動過期，並且不能再使用。",
   expirationTimeSelect: "此權杖將在以下時間過期：",
   selectExpirationTime: "選擇到期時間",
   patNoExpirationWarningTitle: "永不讓此權杖過期？",
@@ -2484,13 +2351,11 @@ const zhHant = {
   noExpiration: "無到期",
   invalidPATExpirationDate: "到期日期需要在未來",
   personalAccessTokens: "個人存取權杖",
-  personalAccessTokensSubtitle:
-    "生成個人存取權杖以與 Superthread API 互動",
+  personalAccessTokensSubtitle: "生成個人存取權杖以與 Superthread API 互動",
   searchPATs: "搜尋權杖",
   noPATs: "無個人存取權杖",
   noPATsSubtitle: "您可以在上方建立個人存取權杖",
-  noPATsSubtitleAdmin:
-    '您可以從“API 存取”畫面建立個人存取權杖',
+  noPATsSubtitleAdmin: "您可以從“API 存取”畫面建立個人存取權杖",
   revokePatConfirmation: "您確定要撤銷“%{patName}”權杖嗎？",
   lastUsed: "上次使用",
   revokePatDescription:
@@ -2511,25 +2376,20 @@ const zhHant = {
   disconnected: "已斷線",
   apiAccess: "API 存取",
   viewDocs: "查看文件",
-  createPatSubtitle:
-    "使用個人存取權杖存取 API 時，所有操作都歸因於您個人",
-  expirationReminderText:
-    "我們會在您的權杖到期前一天發送提醒電子郵件給您。",
+  createPatSubtitle: "使用個人存取權杖存取 API 時，所有操作都歸因於您個人",
+  expirationReminderText: "我們會在您的權杖到期前一天發送提醒電子郵件給您。",
   securityAndAccess: "安全性與存取",
   securityAndAccessSubtitle:
     "工作區的成員可以建立個人存取權杖以與 Superthread API 互動。管理員可以在此處檢視和撤銷它們。",
-  youOnlyHavePermissionToViewContent:
-    "您只有權限查看內容",
+  youOnlyHavePermissionToViewContent: "您只有權限查看內容",
   namedSpace: "%{space} 空間",
   contactEmailToRequestEditAccess: "聯絡 %{email} 以請求編輯存取權。",
   viewOnly: "僅限檢視",
-  viewOnlySubtitle:
-    "不是空間成員的人和沒有編輯權限的成員只能檢視",
+  viewOnlySubtitle: "不是空間成員的人和沒有編輯權限的成員只能檢視",
   canEdit: "可以編輯",
   canView: "可以檢視",
   thisSpaceIsViewOnly: "此空間僅限檢視",
-  upgradeViewOnlySpacesDescription:
-    "您可以在付費方案中創建僅限檢視的空間。",
+  upgradeViewOnlySpacesDescription: "您可以在付費方案中創建僅限檢視的空間。",
   changeToViewOnlySpaceTitle: "更改為僅限檢視空間？",
   changeToViewOnlySpace:
     "此空間的所有現有成員在更改為僅限檢視後仍將是成員。除非被邀請，否則無法加入新成員。",
