@@ -2122,7 +2122,7 @@ const id = {
   sprintCancelled: "Sprint dibatalkan",
   sprintDatesChanged: "Tanggal sprint diubah",
   myWorkAndNotes: "Pekerjaan & catatan saya",
-  notes: "Catatan",
+  notes: "Catatan saya",
   suggestedActions: "Tindakan yang disarankan",
   noSuggestedActions: "Tidak ada tindakan yang disarankan",
   noChanges: "Tidak ada perubahan",

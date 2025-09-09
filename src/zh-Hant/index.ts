@@ -1962,7 +1962,7 @@ const zhHant = {
   sprintCancelled: "短衝已取消",
   sprintDatesChanged: "短衝日期已更改",
   myWorkAndNotes: "我的工作與筆記",
-  notes: "筆記",
+  notes: "我的筆記",
   suggestedActions: "建議的操作",
   noSuggestedActions: "沒有建議的操作",
   noChanges: "沒有變更",

@@ -2066,7 +2066,7 @@ const en = {
   sprintCancelled: "Sprint cancelled",
   sprintDatesChanged: "Sprint dates changed",
   myWorkAndNotes: "My work & notes",
-  notes: "Notes",
+  notes: "My notes",
   suggestedActions: "Suggested actions",
   noSuggestedActions: "No suggested actions",
   noChanges: "No changes",

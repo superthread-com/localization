@@ -2166,7 +2166,7 @@ const fr: Translations = {
   sprintCancelled: "Sprint annulé",
   sprintDatesChanged: "Dates du sprint modifiées",
   myWorkAndNotes: "Mon travail et mes notes",
-  notes: "Notes",
+  notes: "Mes notes",
   suggestedActions: "Actions suggérées",
   noSuggestedActions: "Aucune action suggérée",
   noChanges: "Aucun changement",
