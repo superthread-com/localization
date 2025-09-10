@@ -2426,6 +2426,7 @@ const zhHant = {
   helpAndAiSupport: "幫助文章和AI支持",
   upgradeGoSquaredDescription: "升級您的方案以獲得應用內聊天支持",
   searchActions: "搜索操作",
+  teamSpaces: "團隊空間",
 };
 
 export default zhHant as Translations;
