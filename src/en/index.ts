@@ -2566,6 +2566,7 @@ const en = {
   helpAndAiSupport: "Help articles and AI support",
   upgradeGoSquaredDescription: "Upgrade your plan to have in-app chat support",
   searchActions: "Search actions",
+  teamSpaces: "Team spaces",
 };
 
 export default en as Translations;

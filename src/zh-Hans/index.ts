@@ -2422,6 +2422,7 @@ const zhHans = {
   helpAndAiSupport: "帮助文章和AI支持",
   upgradeGoSquaredDescription: "升级您的计划以获得应用内聊天支持",
   searchActions: "搜索操作",
+  teamSpaces: "团队空间",
 };
 
 export default zhHans as Translations;

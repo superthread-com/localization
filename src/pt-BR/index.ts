@@ -2660,6 +2660,7 @@ const ptBR = {
   upgradeGoSquaredDescription:
     "Atualize seu plano para ter suporte por chat no app",
   searchActions: "Pesquisar ações",
+  teamSpaces: "Espaços de trabalho",
 };
 
 export default ptBR as Translations;

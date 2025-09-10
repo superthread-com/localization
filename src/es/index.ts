@@ -2676,6 +2676,7 @@ const es = {
   upgradeGoSquaredDescription:
     "Mejora tu plan para tener soporte de chat dentro de la aplicación",
   searchActions: "Buscar acciones",
+  teamSpaces: "Espacios de trabajo",
 };
 
 export default es as Translations;
