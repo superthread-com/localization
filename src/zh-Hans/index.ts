@@ -2426,6 +2426,13 @@ const zhHans = {
   upgradeGoSquaredDescription: "升级您的计划以获得应用内聊天支持",
   searchActions: "搜索操作",
   teamSpaces: "团队空间",
+  highToLow: "从高到低",
+  lowToHigh: "从低到高",
+  largestFirst: "最大优先",
+  smallestFirst: "最小优先",
+  descending: "降序",
+  ascending: "升序",
+  orderBy: "排序方式",
 };
 
 export default zhHans as Translations;

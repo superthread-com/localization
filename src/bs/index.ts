@@ -2616,6 +2616,13 @@ const bs: Translations = {
     "Nadogradite svoj plan za podršku chat-a u aplikaciji",
   searchActions: "Pretraži akcije",
   teamSpaces: "Timski prostori",
+  highToLow: "Od najvećeg do najmanjeg",
+  lowToHigh: "Od najmanjeg do najvećeg",
+  largestFirst: "Najveće prvo",
+  smallestFirst: "Najmanje prvo",
+  descending: "Opadajuće",
+  ascending: "Rastuće",
+  orderBy: "Poredaj po",
 };
 
 export default bs;

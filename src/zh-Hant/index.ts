@@ -2430,6 +2430,13 @@ const zhHant = {
   upgradeGoSquaredDescription: "升級您的方案以獲得應用內聊天支持",
   searchActions: "搜索操作",
   teamSpaces: "團隊空間",
+  highToLow: "從高到低",
+  lowToHigh: "從低到高",
+  largestFirst: "最大優先",
+  smallestFirst: "最小優先",
+  descending: "降序",
+  ascending: "升序",
+  orderBy: "排序方式",
 };
 
 export default zhHant as Translations;

@@ -2291,6 +2291,13 @@ export enum TranslationKeys {
   UpgradeGoSquaredDescription = "upgradeGoSquaredDescription",
   SearchActions = "searchActions",
   TeamSpaces = "teamSpaces",
+  HighToLow = "highToLow",
+  LowToHigh = "lowToHigh",
+  LargestFirst = "largestFirst",
+  SmallestFirst = "smallestFirst",
+  Descending = "descending",
+  Ascending = "ascending",
+  OrderBy = "orderBy",
 }
 
 export type Translations = Record<TranslationKeys, string>;
