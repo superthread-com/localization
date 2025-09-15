@@ -2683,6 +2683,7 @@ const es = {
   smallestFirst: "Menor primero",
   descending: "Descendente",
   ascending: "Ascendente",
+  orderBy: "Ordenar por",
 };
 
 export default es as Translations;

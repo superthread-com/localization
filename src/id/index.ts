@@ -2641,6 +2641,7 @@ const id = {
   smallestFirst: "Terkecil terlebih dahulu",
   descending: "Menurun",
   ascending: "Meningkat",
+  orderBy: "Urutkan berdasarkan",
 };
 
 export default id as Translations;

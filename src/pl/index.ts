@@ -2618,6 +2618,7 @@ const pl = {
   smallestFirst: "Najmniejsze najpierw",
   descending: "Malejące",
   ascending: "Rosnące",
+  orderBy: "Sortuj po",
 };
 
 export default pl as Translations;
