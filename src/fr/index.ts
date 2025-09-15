@@ -2689,6 +2689,12 @@ const fr: Translations = {
     "Améliorez votre plan pour bénéficier du support via chat intégré",
   searchActions: "Rechercher des actions",
   teamSpaces: "Espaces de travail",
+  highToLow: "De haut en bas",
+  lowToHigh: "De bas en haut",
+  largestFirst: "Le plus grand en premier",
+  smallestFirst: "Le plus petit en premier",
+  descending: "Décroissant",
+  ascending: "Croissant",
 };
 
 export default fr as Translations;

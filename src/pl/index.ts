@@ -2612,6 +2612,12 @@ const pl = {
     "Uaktualnij plan, aby uzyskać wsparcie czatu w aplikacji",
   searchActions: "Szukaj akcji",
   teamSpaces: "Przestrzenie zespołu",
+  highToLow: "Od największego do najmniejszego",
+  lowToHigh: "Od najmniejszego do największego",
+  largestFirst: "Największe najpierw",
+  smallestFirst: "Najmniejsze najpierw",
+  descending: "Malejące",
+  ascending: "Rosnące",
 };
 
 export default pl as Translations;

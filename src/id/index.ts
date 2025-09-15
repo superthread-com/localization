@@ -2635,6 +2635,12 @@ const id = {
     "Tingkatkan paket Anda untuk dukungan obrolan dalam aplikasi",
   searchActions: "Cari tindakan",
   teamSpaces: "Ruang tim",
+  highToLow: "Dari tinggi ke rendah",
+  lowToHigh: "Dari rendah ke tinggi",
+  largestFirst: "Terbesar terlebih dahulu",
+  smallestFirst: "Terkecil terlebih dahulu",
+  descending: "Menurun",
+  ascending: "Meningkat",
 };
 
 export default id as Translations;
