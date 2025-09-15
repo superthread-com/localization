@@ -2196,7 +2196,7 @@ const en = {
   theseSettingsArePersonalToYou: "These settings are personal to you",
   transcriptionJargonTitle: "Jargon",
   transcriptionJargonPlaceholder:
-    "Tehnical terms, uncommon names, project names, etc.",
+    "Technical terms, uncommon names, project names, etc.",
   transcriptionJargonDescription:
     "Add any words you think audio transcription might have a problem with. Separate words with commas.",
   selectANote: "Select a note",
