@@ -26,6 +26,10 @@ const ptBR = {
   checkEmail: "Verifique seu e-mail",
   haveSent: "Enviamos um",
   weSentALoginCode: "Enviamos um código de login para:",
+  ifEmailIsValidWeSentYouACode:
+    "Se este email for válido e puder ser alterado, um OTP foi enviado.",
+  genericEmailUpdateError:
+    "Houve um problema ao atualizar seu endereço de email. Tente novamente.",
   sixDigit: "Código de login de 6 dígitos",
   sixDigits: "6 dígitos",
   confTo: "para",

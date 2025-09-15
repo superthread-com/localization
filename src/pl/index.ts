@@ -20,6 +20,10 @@ const pl = {
   checkEmail: "Sprawdź swoją skrzynkę pocztową",
   haveSent: "Wysłaliśmy ",
   weSentALoginCode: "Wysłaliśmy kod logowania na adres:",
+  ifEmailIsValidWeSentYouACode:
+    "Jeśli ten adres email jest prawidłowy i może zostać zmieniony, OTP został wysłany.",
+  genericEmailUpdateError:
+    "Wystąpił problem z aktualizacją Twojego adresu email. Spróbuj ponownie.",
   sixDigit: "6-cyfrowy kod logowania",
   sixDigits: "6 cyfr",
   confTo: "do",

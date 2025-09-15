@@ -25,6 +25,10 @@ const de = {
   checkEmail: "Überprüfe deine E-Mails",
   haveSent: "Wir haben einen ",
   weSentALoginCode: "Wir haben einen Anmeldecode an gesendet:",
+  ifEmailIsValidWeSentYouACode:
+    "Wenn diese E-Mail gültig ist und geändert werden kann, wurde ein OTP gesendet.",
+  genericEmailUpdateError:
+    "Es gab ein Problem beim Aktualisieren Ihrer E-Mail-Adresse. Bitte versuchen Sie es erneut.",
   sixDigit: "6-stelliger Anmeldecode",
   sixDigits: "6 Ziffern",
   confTo: "an",

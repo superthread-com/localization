@@ -25,6 +25,10 @@ const id = {
   checkEmail: "Periksa email Anda",
   haveSent: "Kami telah mengirimkan",
   weSentALoginCode: "Kami mengirimkan kode masuk ke:",
+  ifEmailIsValidWeSentYouACode:
+    "Jika email ini valid dan dapat diubah, OTP telah dikirim.",
+  genericEmailUpdateError:
+    "Ada masalah saat memperbarui alamat email Anda. Silakan coba lagi.",
   sixDigit: "Kode masuk 6 digit",
   sixDigits: "6 digit",
   confTo: "ke",

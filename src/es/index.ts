@@ -26,6 +26,10 @@ const es = {
   checkEmail: "Revisa tu correo electrónico",
   haveSent: "Te hemos enviado un",
   weSentALoginCode: "Enviamos un código de inicio de sesión a:",
+  ifEmailIsValidWeSentYouACode:
+    "Si este correo electrónico es válido y se puede cambiar, se ha enviado un OTP.",
+  genericEmailUpdateError:
+    "Hubo un problema al actualizar tu dirección de correo electrónico. Por favor, inténtalo de nuevo.",
   sixDigit: "Código de inicio de sesión de 6 dígitos",
   sixDigits: "6 dígitos",
   confTo: "a",

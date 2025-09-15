@@ -21,6 +21,9 @@ const zhHans = {
   checkEmail: "检查您的电子邮件",
   haveSent: "我们已发送一个",
   weSentALoginCode: "我们已发送登录代码至：",
+  ifEmailIsValidWeSentYouACode:
+    "如果此电子邮件有效且可以更改，已发送一次性密码。",
+  genericEmailUpdateError: "更新您的电子邮件地址时出现问题。请重试。",
   sixDigit: "6位数登录代码",
   sixDigits: "6位数",
   confTo: "至",

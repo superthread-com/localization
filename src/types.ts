@@ -18,6 +18,8 @@ export enum TranslationKeys {
   CheckEmail = "checkEmail",
   HaveSent = "haveSent",
   WeSentALoginCode = "weSentALoginCode",
+  IfEmailIsValidWeSentYouACode = "ifEmailIsValidWeSentYouACode",
+  GenericEmailUpdateError = "genericEmailUpdateError",
   SixDigit = "sixDigit",
   SixDigits = "sixDigits",
   ConfTo = "confTo",
