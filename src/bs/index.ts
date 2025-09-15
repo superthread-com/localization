@@ -2618,6 +2618,7 @@ const bs: Translations = {
   smallestFirst: "Najmanje prvo",
   descending: "Opadajuće",
   ascending: "Rastuće",
+  orderBy: "Poredaj po",
 };
 
 export default bs;

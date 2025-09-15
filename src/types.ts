@@ -2295,6 +2295,7 @@ export enum TranslationKeys {
   SmallestFirst = "smallestFirst",
   Descending = "descending",
   Ascending = "ascending",
+  OrderBy = "orderBy",
 }
 
 export type Translations = Record<TranslationKeys, string>;

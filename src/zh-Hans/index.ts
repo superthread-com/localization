@@ -2429,6 +2429,7 @@ const zhHans = {
   smallestFirst: "最小优先",
   descending: "降序",
   ascending: "升序",
+  orderBy: "排序方式",
 };
 
 export default zhHans as Translations;

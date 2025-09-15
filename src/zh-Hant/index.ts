@@ -2433,6 +2433,7 @@ const zhHant = {
   smallestFirst: "最小優先",
   descending: "降序",
   ascending: "升序",
+  orderBy: "排序方式",
 };
 
 export default zhHant as Translations;

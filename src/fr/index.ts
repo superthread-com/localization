@@ -2695,6 +2695,7 @@ const fr: Translations = {
   smallestFirst: "Le plus petit en premier",
   descending: "Décroissant",
   ascending: "Croissant",
+  orderBy: "Trier par",
 };
 
 export default fr as Translations;

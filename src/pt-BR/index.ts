@@ -2667,6 +2667,7 @@ const ptBR = {
   smallestFirst: "Menor primeiro",
   descending: "Descendente",
   ascending: "Ascendente",
+  orderBy: "Ordenar por",
 };
 
 export default ptBR as Translations;
