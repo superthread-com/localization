@@ -2661,6 +2661,12 @@ const ptBR = {
     "Atualize seu plano para ter suporte por chat no app",
   searchActions: "Pesquisar ações",
   teamSpaces: "Espaços de trabalho",
+  highToLow: "De alto para baixo",
+  lowToHigh: "De baixo para alto",
+  largestFirst: "Maior primeiro",
+  smallestFirst: "Menor primeiro",
+  descending: "Descendente",
+  ascending: "Ascendente",
 };
 
 export default ptBR as Translations;

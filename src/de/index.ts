@@ -2691,6 +2691,12 @@ const de = {
     "Aktualisieren Sie Ihren Plan für In-App-Chat-Support",
   searchActions: "Aktionen durchsuchen",
   teamSpaces: "Team-Räume",
+  highToLow: "Von hoch zu niedrig",
+  lowToHigh: "Von niedrig zu hoch",
+  largestFirst: "Größte zuerst",
+  smallestFirst: "Kleinste zuerst",
+  descending: "Absteigend",
+  ascending: "Aufsteigend",
 };
 
 export default de as Translations;

@@ -2677,6 +2677,12 @@ const es = {
     "Mejora tu plan para tener soporte de chat dentro de la aplicación",
   searchActions: "Buscar acciones",
   teamSpaces: "Espacios de trabajo",
+  highToLow: "De alto a bajo",
+  lowToHigh: "De bajo a alto",
+  largestFirst: "Mayor primero",
+  smallestFirst: "Menor primero",
+  descending: "Descendente",
+  ascending: "Ascendente",
 };
 
 export default es as Translations;

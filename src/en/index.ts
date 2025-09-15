@@ -2567,6 +2567,12 @@ const en = {
   upgradeGoSquaredDescription: "Upgrade your plan to have in-app chat support",
   searchActions: "Search actions",
   teamSpaces: "Team spaces",
+  highToLow: "High to low",
+  lowToHigh: "Low to high",
+  largestFirst: "Largest first",
+  smallestFirst: "Smallest first",
+  descending: "Descending",
+  ascending: "Ascending",
 };
 
 export default en as Translations;
