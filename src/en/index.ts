@@ -24,6 +24,10 @@ const en = {
   checkEmail: "Check your email",
   haveSent: "We’ve sent a ",
   weSentALoginCode: "We sent a login code to:",
+  ifEmailIsValidWeSentYouACode:
+    "If this email is valid and can be changed to, an OTP has been sent.",
+  genericEmailUpdateError:
+    "There was a problem updating your email address. Please try again.",
   sixDigit: "6 digit login code",
   sixDigits: "6 digits",
   confTo: "to",

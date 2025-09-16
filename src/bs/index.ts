@@ -982,6 +982,10 @@ const bs: Translations = {
   subdomainExists:
     "Ovo ime radnog prostora je već zauzeto. Molimo pokušajte ponovo.",
   weSentALoginCode: "Poslali smo kod za prijavu na:",
+  ifEmailIsValidWeSentYouACode:
+    "Ako je ovaj email valjan i može biti promijenjen, OTP je poslan.",
+  genericEmailUpdateError:
+    "Došlo je do problema sa ažuriranjem vaše email adrese. Molimo pokušajte ponovo.",
   sixDigits: "6 cifara kod",
   confTo: "na",
   checkInbox: "Molimo provjerite Vaš inbox.",
