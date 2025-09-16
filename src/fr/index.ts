@@ -2696,6 +2696,12 @@ const fr: Translations = {
   descending: "Décroissant",
   ascending: "Croissant",
   orderBy: "Trier par",
+  workspaceURL: "URL de l’espace de travail",
+  newWorkspaceURL: "Nouvelle URL de l’espace de travail",
+  changeWorkspaceURL: "Modifier l’URL de l’espace de travail",
+  changeWorkspaceURLWarning:
+    "La modification de l’URL de l’espace de travail rompra tous les liens vers les cartes, pages et tableaux partagés en dehors de Superthread (par exemple dans des e-mails, sur Slack ou sur des sites externes).",
+  enterWorkspaceURL: "Saisir l’URL de l’espace de travail",
 };
 
 export default fr as Translations;

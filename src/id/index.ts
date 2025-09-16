@@ -2642,6 +2642,12 @@ const id = {
   descending: "Menurun",
   ascending: "Meningkat",
   orderBy: "Urutkan berdasarkan",
+  workspaceURL: "URL ruang kerja",
+  newWorkspaceURL: "URL ruang kerja baru",
+  changeWorkspaceURL: "Ubah URL ruang kerja",
+  changeWorkspaceURLWarning:
+    "Mengubah URL ruang kerja akan merusak semua tautan ke kartu, halaman, dan papan yang Anda bagikan di luar Superthread (misalnya di email, Slack, atau situs eksternal).",
+  enterWorkspaceURL: "Masukkan URL ruang kerja",
 };
 
 export default id as Translations;

@@ -2619,6 +2619,12 @@ const pl = {
   descending: "Malejące",
   ascending: "Rosnące",
   orderBy: "Sortuj po",
+  workspaceURL: "Adres URL przestrzeni roboczej",
+  newWorkspaceURL: "Nowy adres URL przestrzeni roboczej",
+  changeWorkspaceURL: "Zmień adres URL przestrzeni roboczej",
+  changeWorkspaceURLWarning:
+    "Zmiana adresu URL przestrzeni roboczej spowoduje przerwanie wszystkich linków do kart, stron i tablic udostępnionych poza Superthread (np. w e-mailach, Slacku lub na stronach zewnętrznych).",
+  enterWorkspaceURL: "Wprowadź adres URL przestrzeni roboczej",
 };
 
 export default pl as Translations;

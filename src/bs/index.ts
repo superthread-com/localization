@@ -2619,6 +2619,12 @@ const bs: Translations = {
   descending: "Opadajuće",
   ascending: "Rastuće",
   orderBy: "Poredaj po",
+  workspaceURL: "URL radnog prostora",
+  newWorkspaceURL: "Novi URL radnog prostora",
+  changeWorkspaceURL: "Promijeni URL radnog prostora",
+  changeWorkspaceURLWarning:
+    "Promjena URL-a radnog prostora će prekinuti sve linkove ka karticama, stranicama i tablama koje ste dijelili izvan Superthread-a (na primjer u e-mailovima, Slacku ili na vanjskim stranicama).",
+  enterWorkspaceURL: "Unesite URL radnog prostora",
 };
 
 export default bs;

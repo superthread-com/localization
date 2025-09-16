@@ -2668,6 +2668,12 @@ const ptBR = {
   descending: "Descendente",
   ascending: "Ascendente",
   orderBy: "Ordenar por",
+  workspaceURL: "URL do espaço de trabalho",
+  newWorkspaceURL: "Nova URL do espaço de trabalho",
+  changeWorkspaceURL: "Alterar URL do espaço de trabalho",
+  changeWorkspaceURLWarning:
+    "Alterar a URL do espaço de trabalho quebrará todos os links para cartões, páginas e quadros que você compartilhou fora do Superthread (por exemplo, em e-mails, Slack ou sites externos).",
+  enterWorkspaceURL: "Digite a URL do espaço de trabalho",
 };
 
 export default ptBR as Translations;

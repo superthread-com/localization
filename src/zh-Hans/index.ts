@@ -2430,6 +2430,12 @@ const zhHans = {
   descending: "降序",
   ascending: "升序",
   orderBy: "排序方式",
+  workspaceURL: "工作区 URL",
+  newWorkspaceURL: "新的工作区 URL",
+  changeWorkspaceURL: "更改工作区 URL",
+  changeWorkspaceURLWarning:
+    "更改工作区 URL 将会导致在 Superthread 外部（例如邮件、Slack 或外部网站）共享的卡片、页面和看板的链接失效。",
+  enterWorkspaceURL: "输入工作区 URL",
 };
 
 export default zhHans as Translations;
