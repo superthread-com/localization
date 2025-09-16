@@ -2702,6 +2702,12 @@ const de = {
   descending: "Absteigend",
   ascending: "Aufsteigend",
   orderBy: "Sortieren nach",
+  workspaceURL: "Arbeitsbereichs-URL",
+  newWorkspaceURL: "Neue Arbeitsbereichs-URL",
+  changeWorkspaceURL: "Arbeitsbereichs-URL ändern",
+  changeWorkspaceURLWarning:
+    "Das Ändern der Arbeitsbereichs-URL wird alle Links zu Karten, Seiten und Boards ungültig machen, die Sie außerhalb von Superthread geteilt haben (z. B. in E-Mails, Slack oder auf externen Websites).",
+  enterWorkspaceURL: "Arbeitsbereichs-URL eingeben",
 };
 
 export default de as Translations;

@@ -2298,6 +2298,11 @@ export enum TranslationKeys {
   Descending = "descending",
   Ascending = "ascending",
   OrderBy = "orderBy",
+  WorkspaceURL = "workspaceURL",
+  NewWorspaceURL = "newWorkspaceURL",
+  ChangeWorkspaceURL = "changeWorkspaceURL",
+  ChangeWorkspaceURLWarning = "changeWorkspaceURLWarning",
+  EnterWorkspaceURL = "enterWorkspaceURL",
 }
 
 export type Translations = Record<TranslationKeys, string>;

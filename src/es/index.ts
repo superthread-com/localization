@@ -2688,6 +2688,12 @@ const es = {
   descending: "Descendente",
   ascending: "Ascendente",
   orderBy: "Ordenar por",
+  workspaceURL: "URL del espacio de trabajo",
+  newWorkspaceURL: "Nueva URL del espacio de trabajo",
+  changeWorkspaceURL: "Cambiar URL del espacio de trabajo",
+  changeWorkspaceURLWarning:
+    "Cambiar la URL del espacio de trabajo romperá todos los enlaces a tarjetas, páginas y tableros que hayas compartido fuera de Superthread (por ejemplo, en correos electrónicos, Slack o sitios externos).",
+  enterWorkspaceURL: "Introduce la URL del espacio de trabajo",
 };
 
 export default es as Translations;

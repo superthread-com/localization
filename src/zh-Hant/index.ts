@@ -2437,6 +2437,12 @@ const zhHant = {
   descending: "降序",
   ascending: "升序",
   orderBy: "排序方式",
+  workspaceURL: "工作區 URL",
+  newWorkspaceURL: "新的工作區 URL",
+  changeWorkspaceURL: "更改工作區 URL",
+  changeWorkspaceURLWarning:
+    "更改工作區 URL 將會導致在 Superthread 外部（例如郵件、Slack 或外部網站）分享的卡片、頁面和看板的連結失效。",
+  enterWorkspaceURL: "輸入工作區 URL",
 };
 
 export default zhHant as Translations;
