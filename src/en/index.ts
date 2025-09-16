@@ -2574,6 +2574,12 @@ const en = {
   descending: "Descending",
   ascending: "Ascending",
   orderBy: "Order by",
+  workspaceURL: "Workspace URL",
+  newWorkspaceURL: "New workspace URL",
+  changeWorkspaceURL: "Change workspace URL",
+  changeWorkspaceURLWarning:
+    "Changing the workspace URL will break any links to cards, pages, and boards that you've shared outside of Superthread (for example in emails, Slack, or external sites).",
+  enterWorkspaceURL: "Enter workspace URL",
 };
 
 export default en as Translations;
