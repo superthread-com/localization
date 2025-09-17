@@ -2301,6 +2301,8 @@ export enum TranslationKeys {
   IncludedMembers = "includedMembers",
   CustomInstructions = "customInstructions",
   CustomInstructionsSubtitle = "customInstructionsSubtitle",
+  GenerateReport = "generateReport",
+  GenerateReportAt = "generateReportAt",
 }
 
 export type Translations = Record<TranslationKeys, string>;
