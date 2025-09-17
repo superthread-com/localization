@@ -2629,6 +2629,12 @@ const bs: Translations = {
   changeWorkspaceURLWarning:
     "Promjena URL-a radnog prostora će prekinuti sve linkove ka karticama, stranicama i tablama koje ste dijelili izvan Superthread-a (na primjer u e-mailovima, Slacku ili na vanjskim stranicama).",
   enterWorkspaceURL: "Unesite URL radnog prostora",
+  workspaceNameDescription:
+    "Ovo se prikazuje na vrhu bočne trake, u menijima i e-mailovima. Većina ljudi ovdje postavi naziv svoje kompanije ili organizacije.",
+  workspaceURLDescription:
+    "URL radnog prostora može sadržavati samo mala slova, brojeve i crtice. Promjena će prekinuti sve postojeće linkove koje ste dijelili izvan Superthread-a, pa je bolje da to ne radite često.",
+  workspaceDescriptionDescription:
+    "Jednostavno objašnjenje čime se vaša kompanija/organizacija bavi. Ovo pomaže u pružanju konteksta prilikom korištenja Superthread AI funkcija, kao što su sažeci bilješki sa sastanaka.",
 };
 
 export default bs;

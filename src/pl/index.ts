@@ -2629,6 +2629,12 @@ const pl = {
   changeWorkspaceURLWarning:
     "Zmiana adresu URL przestrzeni roboczej spowoduje przerwanie wszystkich linków do kart, stron i tablic udostępnionych poza Superthread (np. w e-mailach, Slacku lub na stronach zewnętrznych).",
   enterWorkspaceURL: "Wprowadź adres URL przestrzeni roboczej",
+  workspaceNameDescription:
+    "To jest wyświetlane na górze paska bocznego, w menu i e-mailach. Większość osób ustawia to na nazwę swojej firmy lub organizacji.",
+  workspaceURLDescription:
+    "Adres URL przestrzeni roboczej może składać się tylko z małych liter, cyfr i łączników. Jego zmiana spowoduje przerwanie wszystkich istniejących linków, które zostały udostępnione poza Superthread, więc lepiej tego nie robić zbyt często.",
+  workspaceDescriptionDescription:
+    "Proste wyjaśnienie, czym zajmuje się twoja firma/organizacja. To pomaga w kontekście przy korzystaniu z funkcji Superthread AI, takich jak podsumowania notatek ze spotkań.",
 };
 
 export default pl as Translations;

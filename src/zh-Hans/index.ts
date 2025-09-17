@@ -2439,6 +2439,12 @@ const zhHans = {
   changeWorkspaceURLWarning:
     "更改工作区 URL 将会导致在 Superthread 外部（例如邮件、Slack 或外部网站）共享的卡片、页面和看板的链接失效。",
   enterWorkspaceURL: "输入工作区 URL",
+  workspaceNameDescription:
+    "此内容显示在侧边栏顶部、菜单和电子邮件中。大多数人会将其设置为公司或组织的名称。",
+  workspaceURLDescription:
+    "工作区 URL 只能包含小写字母、数字和连字符。更改它会导致您在 Superthread 外部共享的所有现有链接失效，因此最好不要经常更改。",
+  workspaceDescriptionDescription:
+    "对您的公司/组织所做工作的简单说明。这有助于在使用 Superthread AI 功能（例如会议记录摘要）时提供上下文。",
 };
 
 export default zhHans as Translations;

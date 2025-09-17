@@ -2584,6 +2584,12 @@ const en = {
   changeWorkspaceURLWarning:
     "Changing the workspace URL will break any links to cards, pages, and boards that you've shared outside of Superthread (for example in emails, Slack, or external sites).",
   enterWorkspaceURL: "Enter workspace URL",
+  workspaceNameDescription:
+    "This is displayed at the top of the sidebar, in menus, and emails. Most people set it to the name of their company or organisation.",
+  workspaceURLDescription:
+    "The workspace URL can only consist of lower-case letters, numbers, and hyphens. Changing it will break any existing links that you have shared outside of Superthread, so it’s wise not to do this very often.",
+  workspaceDescriptionDescription:
+    "A simple explanation of what your company/organisation does. This helps provide context when using Superthread AI features such as meeting note summaries.",
 };
 
 export default en as Translations;
