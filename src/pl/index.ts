@@ -2636,6 +2636,8 @@ const pl = {
   customInstructions: "Instrukcje niestandardowe",
   customInstructionsSubtitle:
     "Te instrukcje pomagają nam generować twój końcowy raport",
+  generateReport: "Generuj raport",
+  generateReportAt: "Generuj raport o",
 };
 
 export default pl as Translations;

@@ -2582,6 +2582,8 @@ const en = {
   customInstructions: "Custom instructions",
   customInstructionsSubtitle:
     "These instructions help us generate your final report",
+  generateReport: "Generate report",
+  generateReportAt: "Generate report at",
 };
 
 export default en as Translations;

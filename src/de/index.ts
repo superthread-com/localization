@@ -2707,6 +2707,8 @@ const de = {
   customInstructions: "Benutzerdefinierte Anweisungen",
   customInstructionsSubtitle:
     "Diese Anweisungen helfen uns, Ihren endgültigen Bericht zu generieren",
+  generateReport: "Bericht generieren",
+  generateReportAt: "Bericht generieren um",
 };
 
 export default de as Translations;

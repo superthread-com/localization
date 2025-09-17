@@ -2703,6 +2703,8 @@ const fr: Translations = {
   customInstructions: "Instructions personnalisées",
   customInstructionsSubtitle:
     "Ces instructions nous aident à générer votre rapport final",
+  generateReport: "Générer un rapport",
+  generateReportAt: "Générer un rapport à",
 };
 
 export default fr as Translations;
