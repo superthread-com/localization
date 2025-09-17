@@ -2473,18 +2473,6 @@ const es = {
     "Rol cambiado exitosamente para %{count} miembro",
   successfullyChangedRolesForMembers:
     "Roles cambiados exitosamente para %{count} miembros",
-  teamCheckins: "Revisiones del equipo",
-  teamCheckinsSubtitle:
-    "Superthread puede hacer preguntas a las personas en un horario y generar resúmenes basados en las respuestas",
-  searchCheckins: "Buscar revisiones",
-  createCheckin: "Crear revisión",
-  editCheckin: "Editar revisión",
-  noCheckins: "No hay revisiones",
-  noCheckinsSubtitle: "Puedes crear una revisión arriba",
-  checkinName: "Nombre de la revisión",
-  turnOnCheckin: "Activar revisión",
-  turnOnCheckinDescription:
-    "Se les harán preguntas a las personas seleccionadas sobre su trabajo de ese día",
   includedPeople: "Personas incluidas",
   includedPeopleSubtitle: "Selecciona hasta %{numberOfPeople} personas",
   selectMembers: "Seleccionar miembros",
@@ -2492,16 +2480,12 @@ const es = {
   schedule: "Programar",
   startToGenerateReportOne: "Comenzar a generar la agenda",
   startToGenerateReportTwo: "minutos después de que se hagan las preguntas",
-  deleteCheckin: "Eliminar revisión",
-  deleteCheckinDescription:
-    "La revisión del equipo “%{checkinName}” será eliminada",
-  checkinNamePlaceholder: "por ejemplo, “Reunión de pie de ingeniería”",
   timeNextRun: "Hora de la próxima ejecución",
   timeNextReport: "Hora del próximo informe",
   timeLastRun: "Hora de la última ejecución",
   timeLastReport: "Hora del último informe",
   scheduleSubtitle:
-    "No podrás cambiar el horario entre el inicio de la ejecución y la generación de la agenda",
+    "No podrás cambiar el horario una vez que el informe comience a generarse.",
   startAskingQuestionsAt: "Comenzar a hacer preguntas a las",
   days: "Días",
   agendaDelay: "Retraso de la agenda de revisión del equipo",
@@ -2511,12 +2495,6 @@ const es = {
     "Los proyectos viven en la hoja de ruta. Los proyectos te permiten recopilar todas las tarjetas relacionadas con un proyecto en un solo lugar y mantener a todos actualizados.",
   weekdays: "Días laborables",
   weekends: "Fines de semana",
-  checkin: "Revisión",
-  suggestedCheckinFirstMessage:
-    "Necesito hacerte algunas preguntas sobre la revisión diaria de tu equipo.",
-  teamCheckinCurrentCards: "Aquí están tus tarjetas actuales:",
-  teamCheckinProposedReport: "Aquí está mi informe propuesto sobre tu trabajo:",
-  teamCheckinFinalReport: "Aquí está tu informe final para hoy:",
   question: "Pregunta",
   submit: "Enviar",
   previouslyAnswered: "Respondido anteriormente:",
@@ -2524,8 +2502,6 @@ const es = {
   noReportTitle: "No hay informe sugerido disponible",
   noReportDescription:
     "El informe sugerido para el registro de tu equipo aún no está disponible. Se te notificará una vez que esté listo para tu entrada.",
-  defaultCheckinQuestion:
-    "¿Quieres aclarar algo en el informe propuesto? ¿O quieres añadir algo a él?",
   whatChanged: "¿Qué cambió?",
   clarificationQuestionReject: "No, no tengo nada que añadir",
   reportFromPastTitle:
@@ -2535,8 +2511,6 @@ const es = {
   userSuggestedReportNotificationSidebar:
     "Por favor, responde a estas preguntas de registro",
   userFinalReportNotificationSidebar: "Tu informe final de registro está listo",
-  finalCheckinFirstMessage:
-    "Tu informe final de registro ha sido generado, basado en tu informe sugerido y las preguntas que respondiste.",
   getStartedWithSuperthread: "Comienza con Superthread",
   whatDoYouIntendToUseSuperthreadFor: "¿Para qué piensas usar Superthread?",
   thisWillHelpUsTailorYourExperience:
@@ -2700,6 +2674,23 @@ const es = {
     "La URL del espacio de trabajo solo puede contener letras minúsculas, números y guiones. Cambiarla romperá todos los enlaces existentes que hayas compartido fuera de Superthread, por lo que no es recomendable hacerlo con frecuencia.",
   workspaceDescriptionDescription:
     "Una explicación sencilla de lo que hace tu empresa/organización. Esto ayuda a proporcionar contexto al usar funciones de IA de Superthread como resúmenes de notas de reuniones.",
+  teamReports: "Informes del equipo",
+  teamReportsSubtitle:
+    "Superthread puede generar informes personalizados basados en el trabajo de tu equipo",
+  searchReports: "Buscar informes",
+  createReport: "Crear informe",
+  editReport: "Editar informe",
+  deleteReport: "Eliminar informe",
+  deleteReportDescription: "El informe “%{reportName}” será eliminado aquí",
+  noReports: "No hay informes",
+  noReportsSubtitle: "Puedes crear un informe arriba",
+  reportName: "Nombre del informe",
+  reportNamePlaceholder: "por ejemplo, “Stand-up de ingeniería“",
+  enabled: "Activado",
+  includedMembers: "Miembros incluidos",
+  customInstructions: "Instrucciones personalizadas",
+  customInstructionsSubtitle:
+    "Estas instrucciones nos ayudan a generar tu informe final",
 };
 
 export default es as Translations;

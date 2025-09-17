@@ -2368,18 +2368,6 @@ const en = {
     "Successfully changed role for %{count} member",
   successfullyChangedRolesForMembers:
     "Successfully changed roles for %{count} members",
-  teamCheckins: "Team check-ins",
-  teamCheckinsSubtitle:
-    "Superthread can ask people questions on a schedule and generate summaries based on the answers",
-  searchCheckins: "Search check-ins",
-  createCheckin: "Create check-in",
-  editCheckin: "Edit check-in",
-  noCheckins: "No check-ins",
-  noCheckinsSubtitle: "You can create a check-in above",
-  checkinName: "Check-in name",
-  turnOnCheckin: "Turn on check-in",
-  turnOnCheckinDescription:
-    "The selected people will be asked questions about their work for that day",
   includedPeople: "Included people",
   includedPeopleSubtitle: "Select up to %{numberOfPeople} people",
   selectMembers: "Select members",
@@ -2387,15 +2375,12 @@ const en = {
   schedule: "Schedule",
   startToGenerateReportOne: "Start to generate the agenda",
   startToGenerateReportTwo: "minutes after questions are asked",
-  deleteCheckin: "Delete check-in",
-  deleteCheckinDescription: "Team check-in “%{checkinName}” will be deleted",
-  checkinNamePlaceholder: "e.g. “Engineering stand-up”",
   timeNextRun: "Time next run",
   timeNextReport: "Time next report",
   timeLastRun: "Time last run",
   timeLastReport: "Time last report",
   scheduleSubtitle:
-    "You won't be able to change the schedule between the start of the run and agenda generation",
+    "You won't be able to change the schedule once the report starts generating.",
   startAskingQuestionsAt: "Start asking questions at",
   days: "Days",
   agendaDelay: "Team check-in agenda delay",
@@ -2405,12 +2390,6 @@ const en = {
     "Projects live in the roadmap. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
   weekdays: "Weekdays",
   weekends: "Weekends",
-  checkin: "Check-in",
-  suggestedCheckinFirstMessage:
-    "I need to ask you some questions about your daily team check-in.",
-  teamCheckinCurrentCards: "Here are your current cards:",
-  teamCheckinProposedReport: "Here’s my proposed report on your work:",
-  teamCheckinFinalReport: "Here’s your final report for today:",
   question: "Question",
   submit: "Submit",
   previouslyAnswered: "Previously answered:",
@@ -2418,8 +2397,6 @@ const en = {
   noReportTitle: "No suggested report available",
   noReportDescription:
     "The suggested report for your team check-in is not available yet. You’ll be notified once it’s ready for your input.",
-  defaultCheckinQuestion:
-    "Do you want to clarify anything in the proposed report? Or do you want to add anything to it?",
   whatChanged: "What changed?",
   clarificationQuestionReject: "No, I don't have anything to add",
   reportFromPastTitle:
@@ -2429,8 +2406,6 @@ const en = {
   userSuggestedReportNotificationSidebar:
     "Please answer these check-in questions",
   userFinalReportNotificationSidebar: "Your final check-in report is ready",
-  finalCheckinFirstMessage:
-    "Your final check-in report has been generated, based on your suggested report and questions that you answered.",
   getStartedWithSuperthread: "Get started with Superthread",
   whatDoYouIntendToUseSuperthreadFor:
     "What do you intend to use Superthread for?",
@@ -2590,6 +2565,23 @@ const en = {
     "The workspace URL can only consist of lower-case letters, numbers, and hyphens. Changing it will break any existing links that you have shared outside of Superthread, so it’s wise not to do this very often.",
   workspaceDescriptionDescription:
     "A simple explanation of what your company/organisation does. This helps provide context when using Superthread AI features such as meeting note summaries.",
+  teamReports: "Team reports",
+  teamReportsSubtitle:
+    "Superthread can generate custom reports based on your team's work",
+  searchReports: "Search reports",
+  createReport: "Create report",
+  editReport: "Edit report",
+  deleteReport: "Delete report",
+  deleteReportDescription: "Report “%{reportName}” will be deleted",
+  noReports: "No reports",
+  noReportsSubtitle: "You can create a report above",
+  reportName: "Report name",
+  reportNamePlaceholder: "e.g. “Engineering stand-up“",
+  enabled: "Enabled",
+  includedMembers: "Included members",
+  customInstructions: "Custom instructions",
+  customInstructionsSubtitle:
+    "These instructions help us generate your final report",
 };
 
 export default en as Translations;

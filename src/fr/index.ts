@@ -2482,18 +2482,6 @@ const fr: Translations = {
     "Rôle modifié avec succès pour %{count} membre",
   successfullyChangedRolesForMembers:
     "Rôles modifiés avec succès pour %{count} membres",
-  teamCheckins: "Rapports d'équipe",
-  teamCheckinsSubtitle:
-    "Superthread peut poser des questions aux membres selon un planning et générer des résumés basés sur les réponses",
-  searchCheckins: "Rechercher des rapports",
-  createCheckin: "Créer un rapport",
-  editCheckin: "Modifier le rapport",
-  noCheckins: "Aucun rapport",
-  noCheckinsSubtitle: "Vous pouvez créer un rapport ci-dessus",
-  checkinName: "Nom du rapport",
-  turnOnCheckin: "Activer le rapport",
-  turnOnCheckinDescription:
-    "Les personnes sélectionnées recevront des questions sur leur travail du jour",
   includedPeople: "Personnes incluses",
   includedPeopleSubtitle: "Sélectionnez jusqu'à %{numberOfPeople} personnes",
   selectMembers: "Sélectionner des membres",
@@ -2501,16 +2489,12 @@ const fr: Translations = {
   schedule: "Planification",
   startToGenerateReportOne: "Commencer à générer l'agenda",
   startToGenerateReportTwo: "minutes après que les questions ont été posées",
-  deleteCheckin: "Supprimer le rapport",
-  deleteCheckinDescription:
-    "Le rapport d'équipe “%{checkinName}” sera supprimé",
-  checkinNamePlaceholder: "ex. “Stand-up d'ingénierie”",
   timeNextRun: "Heure du prochain démarrage",
   timeNextReport: "Heure du prochain rapport",
   timeLastRun: "Heure du dernier démarrage",
   timeLastReport: "Heure du dernier rapport",
   scheduleSubtitle:
-    "Vous ne pourrez pas modifier le planning entre le démarrage et la génération de l'agenda",
+    "Vous ne pourrez pas modifier le planning une fois que le rapport commencera à être généré.",
   startAskingQuestionsAt: "Commencer à poser des questions à",
   days: "Jours",
   agendaDelay: "Délai de génération de l'agenda des rapports d'équipe",
@@ -2520,12 +2504,6 @@ const fr: Translations = {
     "Les projets sont suivis sur la feuille de route. Les projets vous permettent de collecter toutes les cartes liées à un projet en un seul endroit et de maintenir tout le monde informé.",
   weekdays: "Jours ouvrés",
   weekends: "Week-ends",
-  checkin: "Rapport",
-  suggestedCheckinFirstMessage:
-    "Je dois vous poser quelques questions sur votre rapport d'équipe quotidien.",
-  teamCheckinCurrentCards: "Voici vos cartes actuelles:",
-  teamCheckinProposedReport: "Voici mon rapport proposé sur votre travail:",
-  teamCheckinFinalReport: "Voici votre rapport final pour aujourd'hui:",
   question: "Question",
   submit: "Soumettre",
   previouslyAnswered: "Déjà répondu :",
@@ -2533,8 +2511,6 @@ const fr: Translations = {
   noReportTitle: "Aucun rapport disponible",
   noReportDescription:
     "Le rapport suggéré pour votre point d'équipe n'est pas encore disponible. Vous serez informé dès qu'il sera prêt à être complété.",
-  defaultCheckinQuestion:
-    "Souhaitez-vous clarifier ou ajouter quelque chose dans le rapport proposé ?",
   whatChanged: "Qu'est-ce qui a changé ?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
   reportFromPastTitle: "Ceci est une notification pour un rapport précédent",
@@ -2544,8 +2520,6 @@ const fr: Translations = {
     "Veuillez répondre à ces questions de check-in",
   userFinalReportNotificationSidebar:
     "Votre rapport final de check-in est prêt",
-  finalCheckinFirstMessage:
-    "Votre rapport final de check-in a été généré à partir de votre rapport suggéré et des réponses que vous avez fournies.",
   getStartedWithSuperthread: "Commencer avec Superthread",
   whatDoYouIntendToUseSuperthreadFor: "Pour quoi utilisez-vous Superthread ?",
   thisWillHelpUsTailorYourExperience:
@@ -2712,6 +2686,23 @@ const fr: Translations = {
     "L’URL de l’espace de travail ne peut contenir que des lettres minuscules, des chiffres et des traits d’union. La modifier rompra tous les liens existants que vous avez partagés en dehors de Superthread, il est donc conseillé de ne pas le faire trop souvent.",
   workspaceDescriptionDescription:
     "Une explication simple de ce que fait votre entreprise/organisation. Cela aide à fournir du contexte lors de l’utilisation des fonctionnalités d’IA de Superthread, comme les résumés de notes de réunion.",
+  teamReports: "Rapports d'équipe",
+  teamReportsSubtitle:
+    "Superthread peut générer des rapports personnalisés basés sur le travail de votre équipe",
+  searchReports: "Rechercher des rapports",
+  createReport: "Créer un rapport",
+  editReport: "Modifier un rapport",
+  deleteReport: "Supprimer un rapport",
+  deleteReportDescription: "Le rapport “%{reportName}” sera supprimé",
+  noReports: "Aucun rapport",
+  noReportsSubtitle: "Vous pouvez créer un rapport ci-dessus",
+  reportName: "Nom du rapport",
+  reportNamePlaceholder: "ex. “Stand-up d'ingénierie“",
+  enabled: "Activé",
+  includedMembers: "Membres inclus",
+  customInstructions: "Instructions personnalisées",
+  customInstructionsSubtitle:
+    "Ces instructions nous aident à générer votre rapport final",
 };
 
 export default fr as Translations;
