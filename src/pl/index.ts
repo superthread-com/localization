@@ -2099,6 +2099,14 @@ const pl = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Tylko karty z statusu „Zrobione” mogą zostać przeniesione do ukończonego sprintu. Ta karta zostanie zmieniona na „Zrobione” i przeniesiona.",
   removeCardFromProject: "Usuń kartę z projektu",
+  roadmapOpenedInTheBackground: "Roadmap otwarta w tle",
+  unfavouriteCurrentSprint: "Usuń jako ulubiony sprint",
+  favouriteCurrentSprint: "Dodaj jako ulubiony sprint",
+  unfavouriteNextSprint: "Usuń jako ulubiony sprint",
+  favouriteNextSprint: "Dodaj jako ulubiony sprint",
+  unfavouriteSprintName: "Usuń jako ulubiony sprint",
+  favouriteSprintName: "Dodaj jako ulubiony sprint",
+  currentSprint: "Obecny sprint",
   parentWillBeRemovedIfAddToProject:
     "Karta macierzysta zostanie usunięta, jeśli dodasz tę kartę do projektu, ponieważ karty dziedziczą projekty z kart macierzystych",
   cannotArchiveCardFromSprint: "Nie można zarchiwizować karty ze sprintu",
@@ -2410,18 +2418,6 @@ const pl = {
     "Pomyślnie zmieniono rolę dla %{count} członka",
   successfullyChangedRolesForMembers:
     "Pomyślnie zmieniono role dla %{count} członków",
-  teamCheckins: "Zameldowania zespołu",
-  teamCheckinsSubtitle:
-    "Superthread może zadawać pytania według harmonogramu i generować podsumowania na podstawie odpowiedzi",
-  searchCheckins: "Szukaj zameldowań",
-  createCheckin: "Utwórz zameldowanie",
-  editCheckin: "Edytuj zameldowanie",
-  noCheckins: "Brak zameldowań",
-  noCheckinsSubtitle: "Możesz utworzyć zameldowanie powyżej",
-  checkinName: "Nazwa zameldowania",
-  turnOnCheckin: "Włącz zameldowanie",
-  turnOnCheckinDescription:
-    "Wybrane osoby zostaną zapytane o swoją pracę w danym dniu",
   includedPeople: "Uwzględnione osoby",
   includedPeopleSubtitle: "Wybierz maksymalnie %{numberOfPeople} osób",
   selectMembers: "Wybierz członków",
@@ -2429,16 +2425,13 @@ const pl = {
   schedule: "Harmonogram",
   startToGenerateReportOne: "Rozpocznij generowanie agendy",
   startToGenerateReportTwo: "minut po zadaniu pytań",
-  deleteCheckin: "Usuń zameldowanie",
-  deleteCheckinDescription:
-    "Zameldowanie zespołu „%{checkinName}” zostanie usunięte",
   checkinNamePlaceholder: "np. „Stand-up inżynierów”",
   timeNextRun: "Czas następnego uruchomienia",
   timeNextReport: "Czas następnego raportu",
   timeLastRun: "Czas ostatniego uruchomienia",
   timeLastReport: "Czas ostatniego raportu",
   scheduleSubtitle:
-    "Nie będziesz mógł zmienić harmonogramu między uruchomieniem a generowaniem agendy",
+    "Nie będziesz mógł zmienić harmonogramu setelah laporan dimulai.",
   startAskingQuestionsAt: "Rozpocznij zadawanie pytań o",
   days: "Dni",
   agendaDelay: "Opóźnienie agendy zameldowań zespołu",
@@ -2449,11 +2442,6 @@ const pl = {
   weekdays: "Dni robocze",
   weekends: "Weekendy",
   checkin: "Zameldowanie",
-  suggestedCheckinFirstMessage:
-    "Muszę zadać Ci kilka pytań o Twoje codzienne zameldowanie.",
-  teamCheckinCurrentCards: "Oto Twoje aktualne karty:",
-  teamCheckinProposedReport: "Oto moje zgłoszenie o Twojej pracy:",
-  teamCheckinFinalReport: "Oto Twoje zgłoszenie na dziś:",
   question: "Pytanie",
   submit: "Wyślij",
   previouslyAnswered: "Wcześniej udzielono odpowiedzi:",
@@ -2461,8 +2449,6 @@ const pl = {
   noReportTitle: "Brak dostępnego raportu",
   noReportDescription:
     "Proponowany raport dotyczący spotkania zespołowego nie jest jeszcze dostępny. Otrzymasz powiadomienie, gdy będzie gotowy do twojej edycji.",
-  defaultCheckinQuestion:
-    "Czy chcesz coś wyjaśnić lub dodać w proponowanym raporcie?",
   whatChanged: "Co się zmieniło?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
   reportFromPastTitle: "To jest powiadomienie o raporcie z przeszłości",
@@ -2472,8 +2458,6 @@ const pl = {
     "Proszę odpowiedzieć na te pytania kontrolne",
   userFinalReportNotificationSidebar:
     "Twój końcowy raport kontrolny jest gotowy",
-  finalCheckinFirstMessage:
-    "Twój końcowy raport kontrolny został wygenerowany na podstawie zaproponowanego raportu i odpowiedzi na pytania.",
   getStartedWithSuperthread: "Rozpocznij pracę z Superthread",
   whatDoYouIntendToUseSuperthreadFor: "Do czego chcesz użyć Superthread?",
   thisWillHelpUsTailorYourExperience:
@@ -2635,6 +2619,23 @@ const pl = {
     "Adres URL przestrzeni roboczej może składać się tylko z małych liter, cyfr i łączników. Jego zmiana spowoduje przerwanie wszystkich istniejących linków, które zostały udostępnione poza Superthread, więc lepiej tego nie robić zbyt często.",
   workspaceDescriptionDescription:
     "Proste wyjaśnienie, czym zajmuje się twoja firma/organizacja. To pomaga w kontekście przy korzystaniu z funkcji Superthread AI, takich jak podsumowania notatek ze spotkań.",
+  teamReports: "Raporty zespołu",
+  teamReportsSubtitle:
+    "Superthread może generować niestandardowe raporty na podstawie pracy twojego zespołu",
+  searchReports: "Szukaj raportów",
+  createReport: "Utwórz raport",
+  editReport: "Edytuj raport",
+  deleteReport: "Usuń raport",
+  deleteReportDescription: "Raport “%{reportName}” zostanie usunięty",
+  noReports: "Brak raportów",
+  noReportsSubtitle: "Możesz utworzyć raport powyżej",
+  reportName: "Nazwa raportu",
+  reportNamePlaceholder: "np. “Stand-up inżynierów“",
+  enabled: "Włączony",
+  includedMembers: "Uwzględnione członkowie",
+  customInstructions: "Instrukcje niestandardowe",
+  customInstructionsSubtitle:
+    "Te instrukcje pomagają nam generować twój końcowy raport",
 };
 
 export default pl as Translations;

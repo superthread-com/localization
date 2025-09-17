@@ -2431,18 +2431,6 @@ const id = {
     "Berhasil mengubah peran untuk %{count} anggota",
   successfullyChangedRolesForMembers:
     "Berhasil mengubah peran untuk %{count} anggota",
-  teamCheckins: "Check-in tim",
-  teamCheckinsSubtitle:
-    "Superthread dapat menanyakan pertanyaan kepada orang-orang sesuai jadwal dan menghasilkan ringkasan berdasarkan jawaban",
-  searchCheckins: "Cari check-in",
-  createCheckin: "Buat check-in",
-  editCheckin: "Sunting check-in",
-  noCheckins: "Tidak ada check-in",
-  noCheckinsSubtitle: "Anda dapat membuat check-in di atas",
-  checkinName: "Nama check-in",
-  turnOnCheckin: "Nyalakan check-in",
-  turnOnCheckinDescription:
-    "Orang yang dipilih akan ditanyai pertanyaan tentang pekerjaan mereka untuk hari itu",
   includedPeople: "Orang yang disertakan",
   includedPeopleSubtitle: "Pilih hingga %{numberOfPeople} orang",
   selectMembers: "Pilih anggota",
@@ -2450,15 +2438,13 @@ const id = {
   schedule: "Jadwal",
   startToGenerateReportOne: "Mulai untuk menghasilkan agenda",
   startToGenerateReportTwo: "menit setelah pertanyaan diajukan",
-  deleteCheckin: "Hapus check-in",
-  deleteCheckinDescription: "Check-in tim “%{checkinName}” akan dihapus",
   checkinNamePlaceholder: "Contoh: “Engineering stand-up”",
   timeNextRun: "Waktu lari berikutnya",
   timeNextReport: "Waktu laporan berikutnya",
   timeLastRun: "Waktu lari terakhir",
   timeLastReport: "Waktu laporan terakhir",
   scheduleSubtitle:
-    "Anda tidak akan dapat mengubah jadwal antara awal lari dan pembuatan agenda",
+    "Anda tidak akan dapat mengubah jadwal setelah laporan dimulai.",
   startAskingQuestionsAt: "Mulai menanyakan pertanyaan pada",
   days: "Hari",
   agendaDelay: "Penundaan agenda check-in tim",
@@ -2469,12 +2455,6 @@ const id = {
   weekdays: "Hari kerja",
   weekends: "Akhir pekan",
   checkin: "Periksa masuk",
-  suggestedCheckinFirstMessage:
-    "Saya perlu menanyakan beberapa pertanyaan tentang check-in tim harian Anda.",
-  teamCheckinCurrentCards: "Ini adalah kartu Anda saat ini:",
-  teamCheckinProposedReport:
-    "Ini adalah laporan yang saya usulkan tentang pekerjaan Anda:",
-  teamCheckinFinalReport: "Ini adalah laporan akhir Anda untuk hari ini:",
   question: "Pertanyaan",
   submit: "Kirim",
   previouslyAnswered: "Sebelumnya dijawab:",
@@ -2482,8 +2462,6 @@ const id = {
   noReportTitle: "Tidak ada laporan yang disarankan tersedia",
   noReportDescription:
     "Laporan yang disarankan untuk check-in tim Anda belum tersedia. Anda akan diberitahu setelah siap untuk masukan Anda.",
-  defaultCheckinQuestion:
-    "Apakah Anda ingin menjelaskan sesuatu dalam laporan yang diusulkan? Atau apakah Anda ingin menambahkan sesuatu ke dalamnya?",
   whatChanged: "Apa yang berubah?",
   clarificationQuestionReject:
     "Tidak, saya tidak memiliki apa pun untuk ditambahkan",
@@ -2494,8 +2472,6 @@ const id = {
   userSuggestedReportNotificationSidebar:
     "Silakan jawab pertanyaan check-in ini",
   userFinalReportNotificationSidebar: "Laporan check-in akhir Anda sudah siap",
-  finalCheckinFirstMessage:
-    "Laporan check-in akhir Anda telah dihasilkan, berdasarkan laporan yang disarankan dan pertanyaan yang Anda jawab.",
   getStartedWithSuperthread: "Mulai dengan Superthread",
   whatDoYouIntendToUseSuperthreadFor:
     "Apa yang Anda maksudkan untuk menggunakan Superthread?",
@@ -2658,6 +2634,23 @@ const id = {
     "URL ruang kerja hanya boleh terdiri dari huruf kecil, angka, dan tanda hubung. Mengubahnya akan merusak semua tautan yang sudah Anda bagikan di luar Superthread, jadi sebaiknya jangan sering-sering dilakukan.",
   workspaceDescriptionDescription:
     "Penjelasan sederhana tentang apa yang dilakukan perusahaan/organisasi Anda. Ini membantu memberikan konteks saat menggunakan fitur AI Superthread seperti ringkasan catatan rapat.",
+  teamReports: "Laporan tim",
+  teamReportsSubtitle:
+    "Superthread dapat menghasilkan laporan kustom berdasarkan pekerjaan tim Anda",
+  searchReports: "Cari laporan",
+  createReport: "Buat laporan",
+  editReport: "Sunting laporan",
+  deleteReport: "Hapus laporan",
+  deleteReportDescription: "Laporan “%{reportName}” akan dihapus",
+  noReports: "Tidak ada laporan",
+  noReportsSubtitle: "Anda dapat membuat laporan di atas",
+  reportName: "Nama laporan",
+  reportNamePlaceholder: "contoh: “Stand-up engineering“",
+  enabled: "Aktif",
+  includedMembers: "Anggota yang disertakan",
+  customInstructions: "Instruksi kustom",
+  customInstructionsSubtitle:
+    "Instruksi ini membantu kami menghasilkan laporan akhir Anda",
 };
 
 export default id as Translations;

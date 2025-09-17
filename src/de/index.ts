@@ -2482,18 +2482,6 @@ const de = {
     "Rolle erfolgreich für %{count} Mitglied geändert",
   successfullyChangedRolesForMembers:
     "Rolle erfolgreich für %{count} Mitglieder geändert",
-  teamCheckins: "Team-Check-ins",
-  teamCheckinsSubtitle:
-    "Superthread kann Personen nach einem Zeitplan Fragen stellen und basierend auf den Antworten Zusammenfassungen erstellen",
-  searchCheckins: "Check-ins durchsuchen",
-  createCheckin: "Check-in erstellen",
-  editCheckin: "Check-in bearbeiten",
-  noCheckins: "Keine Check-ins",
-  noCheckinsSubtitle: "Du kannst oben ein Check-in erstellen",
-  checkinName: "Name des Check-ins",
-  turnOnCheckin: "Check-in aktivieren",
-  turnOnCheckinDescription:
-    "Die ausgewählten Personen werden zu ihrer Arbeit an diesem Tag befragt",
   includedPeople: "Einbezogene Personen",
   includedPeopleSubtitle: "Wähle bis zu %{numberOfPeople} Personen aus",
   selectMembers: "Mitglieder auswählen",
@@ -2501,8 +2489,6 @@ const de = {
   schedule: "Zeitplan",
   startToGenerateReportOne: "Beginne mit der Erstellung der Agenda",
   startToGenerateReportTwo: "Minuten nachdem die Fragen gestellt wurden",
-  deleteCheckin: "Check-in löschen",
-  deleteCheckinDescription: "Team-Check-in “%{checkinName}” wird gelöscht",
   checkinNamePlaceholder: "z.B. “Ingenieursstand-up”",
   timeNextRun: "Nächster Start",
   timeNextReport: "Nächster Bericht",
@@ -2520,12 +2506,6 @@ const de = {
   weekdays: "Wochentage",
   weekends: "Wochenende",
   checkin: "Bericht",
-  suggestedCheckinFirstMessage:
-    "Ich muss Ihnen einige Fragen zu Ihrem täglichen Teambericht stellen.",
-  teamCheckinCurrentCards: "Hier sind Ihre aktuellen Karten:",
-  teamCheckinProposedReport:
-    "Hier ist mein vorgeschlagener Bericht über Ihre Arbeit:",
-  teamCheckinFinalReport: "Hier ist Ihr endgültiger Bericht für heute:",
   question: "Frage",
   submit: "Absenden",
   previouslyAnswered: "Bereits beantwortet:",
@@ -2533,8 +2513,6 @@ const de = {
   noReportTitle: "Kein Bericht verfügbar",
   noReportDescription:
     "Der vorgeschlagene Bericht für dein Team-Check-in ist noch nicht verfügbar. Du wirst benachrichtigt, sobald er für deine Eingabe bereitsteht.",
-  defaultCheckinQuestion:
-    "Möchtest du etwas im vorgeschlagenen Bericht klären oder hinzufügen?",
   whatChanged: "Was hat sich verändert?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
   reportFromPastTitle:
@@ -2545,8 +2523,6 @@ const de = {
     "Bitte beantworten Sie diese Check-in-Fragen",
   userFinalReportNotificationSidebar:
     "Ihr abschließender Check-in-Bericht ist bereit",
-  finalCheckinFirstMessage:
-    "Ihr abschließender Check-in-Bericht wurde basierend auf Ihrem vorgeschlagenen Bericht und den beantworteten Fragen erstellt.",
   getStartedWithSuperthread: "Erste Schritte mit Superthread",
   whatDoYouIntendToUseSuperthreadFor:
     "Mit welchem Zweck möchten Sie Superthread verwenden?",
@@ -2714,6 +2690,23 @@ const de = {
     "Die Arbeitsbereichs-URL darf nur aus Kleinbuchstaben, Zahlen und Bindestrichen bestehen. Eine Änderung macht alle bestehenden Links ungültig, die Sie außerhalb von Superthread geteilt haben. Deshalb sollte dies nicht zu oft geändert werden.",
   workspaceDescriptionDescription:
     "Eine einfache Erklärung dessen, was Ihr Unternehmen/Ihre Organisation macht. Dies hilft, Kontext bereitzustellen, wenn Sie Superthread-KI-Funktionen wie Sitzungsnotizen-Zusammenfassungen verwenden.",
+  teamReports: "Team-Berichte",
+  teamReportsSubtitle:
+    "Superthread kann benutzerdefinierte Berichte basierend auf der Arbeit Ihres Teams generieren",
+  searchReports: "Berichte suchen",
+  createReport: "Bericht erstellen",
+  editReport: "Bericht bearbeiten",
+  deleteReport: "Bericht löschen",
+  deleteReportDescription: "Bericht “%{reportName}” wird gelöscht",
+  noReports: "Keine Berichte",
+  noReportsSubtitle: "Sie können einen Bericht oben erstellen",
+  reportName: "Berichtname",
+  reportNamePlaceholder: "z.B. “Ingenieursstand-up“",
+  enabled: "Aktiviert",
+  includedMembers: "Einbezogene Mitglieder",
+  customInstructions: "Benutzerdefinierte Anweisungen",
+  customInstructionsSubtitle:
+    "Diese Anweisungen helfen uns, Ihren endgültigen Bericht zu generieren",
 };
 
 export default de as Translations;

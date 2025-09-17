@@ -2411,18 +2411,6 @@ const bs: Translations = {
     "Uspješno promijenjena uloga za %{count} člana",
   successfullyChangedRolesForMembers:
     "Uspješno promijenjene uloge za %{count} članova",
-  teamCheckins: "Timski izvještaji",
-  teamCheckinsSubtitle:
-    "Superthread može postavljati pitanja ljudima prema rasporedu i generirati sažetke na osnovu odgovora",
-  searchCheckins: "Pretraži izvještaje",
-  createCheckin: "Kreiraj izvještaj",
-  editCheckin: "Uredi izvještaj",
-  noCheckins: "Nema izvještaja",
-  noCheckinsSubtitle: "Možete kreirati izvještaj iznad",
-  checkinName: "Naziv izvještaja",
-  turnOnCheckin: "Uključi izvještaj",
-  turnOnCheckinDescription:
-    "Odabrani ljudi će biti upitani o svom radu za taj dan",
   includedPeople: "Uključeni ljudi",
   includedPeopleSubtitle: "Odaberite do %{numberOfPeople} osoba",
   selectMembers: "Odaberite članove",
@@ -2430,15 +2418,12 @@ const bs: Translations = {
   schedule: "Raspored",
   startToGenerateReportOne: "Počni generisati agendu",
   startToGenerateReportTwo: "minuta nakon što su pitanja postavljena",
-  deleteCheckin: "Obriši izvještaj",
-  deleteCheckinDescription: "Timski izvještaj “%{checkinName}” će biti obrisan",
-  checkinNamePlaceholder: "npr. “Inženjerski stand-up”",
   timeNextRun: "Vrijeme sljedećeg pokretanja",
   timeNextReport: "Vrijeme sljedećeg izvještaja",
   timeLastRun: "Vrijeme posljednjeg pokretanja",
   timeLastReport: "Vrijeme posljednjeg izvještaja",
   scheduleSubtitle:
-    "Nećete moći promijeniti raspored između početka i generiranja agende",
+    "Nećete moći promijeniti raspored nakon što je izvještaj započeo generirati.",
   startAskingQuestionsAt: "Počni postavljati pitanja u",
   days: "Dani",
   agendaDelay: "Odgađanje agende timskog izvještaja",
@@ -2448,12 +2433,6 @@ const bs: Translations = {
     "Projekti se nalaze u planu rada. Projekti vam omogućuju da sve kartice povezane s projektom sakupite na jednom mjestu i održite sve sudionike informisane.",
   weekdays: "Radni dani",
   weekends: "Vikend",
-  checkin: "Izvještaj",
-  suggestedCheckinFirstMessage:
-    "Moram vam postaviti neka pitanja o vašem dnevnom izvještaju.",
-  teamCheckinCurrentCards: "Ovo su vaše trenutne kartice:",
-  teamCheckinProposedReport: "Ovo je moj predloženi izvještaj o vašem radu:",
-  teamCheckinFinalReport: "Ovo je vaš konačni izvještaj za danas:",
   question: "Pitanje",
   submit: "Pošalji",
   previouslyAnswered: "Prethodno odgovoreno:",
@@ -2461,8 +2440,6 @@ const bs: Translations = {
   noReportTitle: "Nema predloženog izvještaja",
   noReportDescription:
     "Predloženi izvještaj za vaš timski izvještaj još nije dostupan. Biti ćete obaviješteni kada bude spreman za vaš input.",
-  defaultCheckinQuestion:
-    "Želite li pojasniti nešto u predloženom izvještaju? Ili želite li dodati nešto u njega?",
   whatChanged: "Šta se promijenilo?",
   clarificationQuestionReject: "No, I don't have anything to add", // this is the answer sent to AI so it needs to be in english
   reportFromPastTitle: "Ovo je obavijest za izvještaj iz prošlosti",
@@ -2471,8 +2448,6 @@ const bs: Translations = {
   userSuggestedReportNotificationSidebar:
     "Molimo Vas da odgovorite na pitanja za izvještaj",
   userFinalReportNotificationSidebar: "Vaš konačni izvještaj je spreman",
-  finalCheckinFirstMessage:
-    "Vaš konačni izvještaj je generisan na osnovu vašeg predloženog izvještaja i pitanja koja ste odgovorili.",
   getStartedWithSuperthread: "Započnite s Superthread-om",
   whatDoYouIntendToUseSuperthreadFor: "Za šta želite da koristite Superthread?",
   thisWillHelpUsTailorYourExperience:
@@ -2635,6 +2610,23 @@ const bs: Translations = {
     "URL radnog prostora može sadržavati samo mala slova, brojeve i crtice. Promjena će prekinuti sve postojeće linkove koje ste dijelili izvan Superthread-a, pa je bolje da to ne radite često.",
   workspaceDescriptionDescription:
     "Jednostavno objašnjenje čime se vaša kompanija/organizacija bavi. Ovo pomaže u pružanju konteksta prilikom korištenja Superthread AI funkcija, kao što su sažeci bilješki sa sastanaka.",
+  teamReports: "Timski izvještaji",
+  teamReportsSubtitle:
+    "Superthread može generirati prilagođene izvještaje na osnovu rada vašeg tima",
+  searchReports: "Pretraži izvještaje",
+  createReport: "Kreiraj izvještaj",
+  editReport: "Uredi izvještaj",
+  deleteReport: "Obriši izvještaj",
+  deleteReportDescription: "Izvještaj “%{reportName}” će biti obrisan",
+  noReports: "Nema izvještaja",
+  noReportsSubtitle: "Možete kreirati izvještaj iznad",
+  reportName: "Naziv izvještaja",
+  reportNamePlaceholder: "npr. “Inženjerski stand-up“",
+  enabled: "Aktivirano",
+  includedMembers: "Uključeni ljudi",
+  customInstructions: "Prilagođene instrukcije",
+  customInstructionsSubtitle:
+    "Ove instrukcije nam pomažu generirati vaš konačni izvještaj",
 };
 
 export default bs;

@@ -168,6 +168,7 @@ const ptBR = {
   ["billing.indexSharedPages"]:
     "Indexar páginas compartilhadas em mecanismos de busca",
   ["billing.privateSpaces"]: "Espaços privados",
+  ["billing.viewOnlySpaces"]: "Espaços de visualização apenas",
   ["billing.timelineListAndBoardView"]:
     "Visualização de linha do tempo, lista e quadro",
   ["billing.guestAccounts"]: "Contas de convidados",
@@ -2455,18 +2456,6 @@ const ptBR = {
     "Função alterada com sucesso para %{count} membro",
   successfullyChangedRolesForMembers:
     "Funções alteradas com sucesso para %{count} membros",
-  teamCheckins: "Check-ins da equipe",
-  teamCheckinsSubtitle:
-    "Superthread pode fazer perguntas às pessoas em um cronograma e gerar resumos com base nas respostas",
-  searchCheckins: "Pesquisar check-ins",
-  createCheckin: "Criar check-in",
-  editCheckin: "Editar check-in",
-  noCheckins: "Sem check-ins",
-  noCheckinsSubtitle: "Você pode criar um check-in acima",
-  checkinName: "Nome do check-in",
-  turnOnCheckin: "Ativar check-in",
-  turnOnCheckinDescription:
-    "As pessoas selecionadas serão questionadas sobre seu trabalho naquele dia",
   includedPeople: "Pessoas incluídas",
   includedPeopleSubtitle: "Selecione até %{numberOfPeople} pessoas",
   selectMembers: "Selecionar membros",
@@ -2474,16 +2463,13 @@ const ptBR = {
   schedule: "Agendar",
   startToGenerateReportOne: "Comece a gerar a agenda",
   startToGenerateReportTwo: "minutos após as perguntas serem feitas",
-  deleteCheckin: "Excluir check-in",
-  deleteCheckinDescription:
-    "O check-in da equipe “%{checkinName}” será excluído",
   checkinNamePlaceholder: "por exemplo, “Reunião de engenharia”",
   timeNextRun: "Hora da próxima execução",
   timeNextReport: "Hora do próximo relatório",
   timeLastRun: "Hora da última execução",
   timeLastReport: "Hora do último relatório",
   scheduleSubtitle:
-    "Você não poderá alterar o cronograma entre o início da execução e a geração da agenda",
+    "Você não poderá alterar o cronograma uma vez que o relatório começar a ser gerado.",
   startAskingQuestionsAt: "Comece a fazer perguntas às",
   days: "Dias",
   agendaDelay: "Atraso na agenda do check-in da equipe",
@@ -2494,12 +2480,6 @@ const ptBR = {
   weekdays: "Dias da semana",
   weekends: "Fins de semana",
   checkin: "Check-in",
-  suggestedCheckinFirstMessage:
-    "Preciso fazer algumas perguntas sobre o check-in diário da sua equipe.",
-  teamCheckinCurrentCards: "Aqui estão seus cartões atuais:",
-  teamCheckinProposedReport:
-    "Aqui está meu relatório proposto sobre seu trabalho:",
-  teamCheckinFinalReport: "Aqui está seu relatório final para hoje:",
   question: "Pergunta",
   submit: "Enviar",
   previouslyAnswered: "Respondido anteriormente:",
@@ -2507,8 +2487,6 @@ const ptBR = {
   noReportTitle: "Nenhum relatório sugerido disponível",
   noReportDescription:
     "O relatório sugerido para o check-in da sua equipe ainda não está disponível. Você será notificado assim que estiver pronto para sua contribuição.",
-  defaultCheckinQuestion:
-    "Você quer esclarecer algo no relatório proposto? Ou você quer adicionar algo a ele?",
   whatChanged: "O que mudou?",
   clarificationQuestionReject: "Não, não tenho nada a acrescentar",
   reportFromPastTitle:
@@ -2519,8 +2497,6 @@ const ptBR = {
     "Por favor, responda a estas perguntas de check-in",
   userFinalReportNotificationSidebar:
     "Seu relatório final de check-in está pronto",
-  finalCheckinFirstMessage:
-    "Seu relatório final de check-in foi gerado, com base no seu relatório sugerido e nas perguntas que você respondeu.",
   getStartedWithSuperthread: "Comece com o Superthread",
   whatDoYouIntendToUseSuperthreadFor:
     "Para que você pretende usar o Superthread?",
@@ -2639,6 +2615,7 @@ const ptBR = {
   rememberAssignees: "Lembrar responsável(is)",
   rememberAssigneesTooltip: "Sempre use esses responsáveis ao criar cartões",
   recentlyUsedBoards: "Quadros usados recentemente",
+  recent: "Recentes",
   copyAsMarkdown: "Copiar conteúdo como Markdown",
   copiedAsMarkdown: "Copiado como Markdown",
   checklists: "Listas de verificação",
@@ -2684,6 +2661,23 @@ const ptBR = {
     "A URL do espaço de trabalho só pode conter letras minúsculas, números e hífens. Alterá-la quebrará todos os links existentes que você compartilhou fora do Superthread, então é recomendável não fazer isso com frequência.",
   workspaceDescriptionDescription:
     "Uma explicação simples do que sua empresa/organização faz. Isso ajuda a fornecer contexto ao usar recursos de IA do Superthread, como resumos de atas de reuniões.",
+  teamReports: "Relatórios da  equipe",
+  teamReportsSubtitle:
+    "Superthread pode gerar relatórios personalizados baseados no trabalho da sua equipe",
+  searchReports: "Pesquisar relatórios",
+  createReport: "Criar relatório",
+  editReport: "Editar relatório",
+  deleteReport: "Excluir relatório",
+  deleteReportDescription: "Relatório “%{reportName}” será excluído",
+  noReports: "Nenhum relatório",
+  noReportsSubtitle: "Você pode criar um relatório acima",
+  reportName: "Nome do relatório",
+  reportNamePlaceholder: "por exemplo, “Reunião de engenharia“",
+  enabled: "Ativado",
+  includedMembers: "Membros incluídos",
+  customInstructions: "Instruções personalizadas",
+  customInstructionsSubtitle:
+    "Essas instruções nos ajudam a gerar seu relatório final",
 };
 
 export default ptBR as Translations;
