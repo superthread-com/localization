@@ -21,6 +21,9 @@ const zhHant = {
   checkEmail: "檢查您的電子郵件",
   haveSent: "我們已發送一個",
   weSentALoginCode: "我們已將登錄代碼發送至：",
+  ifEmailIsValidWeSentYouACode:
+    "如果此電子郵件有效且可以更改，已發送一次性密碼。",
+  genericEmailUpdateError: "更新您的電子郵件地址時出現問題。請重試。",
   sixDigit: "6位數登錄代碼",
   sixDigits: "6位數",
   confTo: "至",

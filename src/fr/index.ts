@@ -210,6 +210,10 @@ const fr: Translations = {
   checkEmail: "Regardez dans votre email",
   haveSent: "Nous avons envoyé un ",
   weSentALoginCode: "Nous avons envoyé un code d'accès à:",
+  ifEmailIsValidWeSentYouACode:
+    "Si cet email est valide et peut être modifié, un OTP a été envoyé.",
+  genericEmailUpdateError:
+    "Il y a eu un problème lors de la mise à jour de votre adresse email. Veuillez réessayer.",
   sixDigit: "Un code d'accès à 6 chiffres",
   sixDigits: "6 chiffres",
   confTo: "à",
