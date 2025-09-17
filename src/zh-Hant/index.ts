@@ -2443,6 +2443,8 @@ const zhHant = {
   includedMembers: "包含的成員",
   customInstructions: "自定義指令",
   customInstructionsSubtitle: "這些指令幫助我們生成您的最終報告",
+  generateReport: "生成報告",
+  generateReportAt: "生成報告在",
 };
 
 export default zhHant as Translations;

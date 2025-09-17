@@ -2651,6 +2651,8 @@ const id = {
   customInstructions: "Instruksi kustom",
   customInstructionsSubtitle:
     "Instruksi ini membantu kami menghasilkan laporan akhir Anda",
+  generateReport: "Generate laporan",
+  generateReportAt: "Generate laporan pada",
 };
 
 export default id as Translations;

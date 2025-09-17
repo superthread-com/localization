@@ -2678,6 +2678,8 @@ const ptBR = {
   customInstructions: "Instruções personalizadas",
   customInstructionsSubtitle:
     "Essas instruções nos ajudam a gerar seu relatório final",
+  generateReport: "Gerar relatório",
+  generateReportAt: "Gerar relatório em",
 };
 
 export default ptBR as Translations;

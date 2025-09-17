@@ -2627,6 +2627,8 @@ const bs: Translations = {
   customInstructions: "Prilagođene instrukcije",
   customInstructionsSubtitle:
     "Ove instrukcije nam pomažu generirati vaš konačni izvještaj",
+  generateReport: "Generiraj izvještaj",
+  generateReportAt: "Generiraj izvještaj u",
 };
 
 export default bs;
