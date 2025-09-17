@@ -2706,6 +2706,12 @@ const fr: Translations = {
   changeWorkspaceURLWarning:
     "La modification de l’URL de l’espace de travail rompra tous les liens vers les cartes, pages et tableaux partagés en dehors de Superthread (par exemple dans des e-mails, sur Slack ou sur des sites externes).",
   enterWorkspaceURL: "Saisir l’URL de l’espace de travail",
+  workspaceNameDescription:
+    "Ceci est affiché en haut de la barre latérale, dans les menus et les e-mails. La plupart des gens y mettent le nom de leur entreprise ou organisation.",
+  workspaceURLDescription:
+    "L’URL de l’espace de travail ne peut contenir que des lettres minuscules, des chiffres et des traits d’union. La modifier rompra tous les liens existants que vous avez partagés en dehors de Superthread, il est donc conseillé de ne pas le faire trop souvent.",
+  workspaceDescriptionDescription:
+    "Une explication simple de ce que fait votre entreprise/organisation. Cela aide à fournir du contexte lors de l’utilisation des fonctionnalités d’IA de Superthread, comme les résumés de notes de réunion.",
 };
 
 export default fr as Translations;

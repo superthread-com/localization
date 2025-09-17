@@ -2652,6 +2652,12 @@ const id = {
   changeWorkspaceURLWarning:
     "Mengubah URL ruang kerja akan merusak semua tautan ke kartu, halaman, dan papan yang Anda bagikan di luar Superthread (misalnya di email, Slack, atau situs eksternal).",
   enterWorkspaceURL: "Masukkan URL ruang kerja",
+  workspaceNameDescription:
+    "Ini ditampilkan di bagian atas sidebar, dalam menu, dan email. Kebanyakan orang mengaturnya ke nama perusahaan atau organisasinya.",
+  workspaceURLDescription:
+    "URL ruang kerja hanya boleh terdiri dari huruf kecil, angka, dan tanda hubung. Mengubahnya akan merusak semua tautan yang sudah Anda bagikan di luar Superthread, jadi sebaiknya jangan sering-sering dilakukan.",
+  workspaceDescriptionDescription:
+    "Penjelasan sederhana tentang apa yang dilakukan perusahaan/organisasi Anda. Ini membantu memberikan konteks saat menggunakan fitur AI Superthread seperti ringkasan catatan rapat.",
 };
 
 export default id as Translations;

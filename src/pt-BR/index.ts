@@ -2678,6 +2678,12 @@ const ptBR = {
   changeWorkspaceURLWarning:
     "Alterar a URL do espaço de trabalho quebrará todos os links para cartões, páginas e quadros que você compartilhou fora do Superthread (por exemplo, em e-mails, Slack ou sites externos).",
   enterWorkspaceURL: "Digite a URL do espaço de trabalho",
+  workspaceNameDescription:
+    "Isso é exibido no topo da barra lateral, nos menus e nos e-mails. A maioria das pessoas define isso como o nome da sua empresa ou organização.",
+  workspaceURLDescription:
+    "A URL do espaço de trabalho só pode conter letras minúsculas, números e hífens. Alterá-la quebrará todos os links existentes que você compartilhou fora do Superthread, então é recomendável não fazer isso com frequência.",
+  workspaceDescriptionDescription:
+    "Uma explicação simples do que sua empresa/organização faz. Isso ajuda a fornecer contexto ao usar recursos de IA do Superthread, como resumos de atas de reuniões.",
 };
 
 export default ptBR as Translations;

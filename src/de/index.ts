@@ -2708,6 +2708,12 @@ const de = {
   changeWorkspaceURLWarning:
     "Das Ändern der Arbeitsbereichs-URL wird alle Links zu Karten, Seiten und Boards ungültig machen, die Sie außerhalb von Superthread geteilt haben (z. B. in E-Mails, Slack oder auf externen Websites).",
   enterWorkspaceURL: "Arbeitsbereichs-URL eingeben",
+  workspaceNameDescription:
+    "Dies wird oben in der Seitenleiste, in Menüs und in E-Mails angezeigt. Die meisten Leute setzen hier den Namen ihres Unternehmens oder ihrer Organisation.",
+  workspaceURLDescription:
+    "Die Arbeitsbereichs-URL darf nur aus Kleinbuchstaben, Zahlen und Bindestrichen bestehen. Eine Änderung macht alle bestehenden Links ungültig, die Sie außerhalb von Superthread geteilt haben. Deshalb sollte dies nicht zu oft geändert werden.",
+  workspaceDescriptionDescription:
+    "Eine einfache Erklärung dessen, was Ihr Unternehmen/Ihre Organisation macht. Dies hilft, Kontext bereitzustellen, wenn Sie Superthread-KI-Funktionen wie Sitzungsnotizen-Zusammenfassungen verwenden.",
 };
 
 export default de as Translations;

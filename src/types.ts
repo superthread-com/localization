@@ -2303,6 +2303,9 @@ export enum TranslationKeys {
   ChangeWorkspaceURL = "changeWorkspaceURL",
   ChangeWorkspaceURLWarning = "changeWorkspaceURLWarning",
   EnterWorkspaceURL = "enterWorkspaceURL",
+  WorkspaceNameDescription = "workspaceNameDescription",
+  WorkspaceURLDescription = "workspaceURLDescription",
+  WorkspaceDescriptionDescription = "workspaceDescriptionDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;
