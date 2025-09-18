@@ -2705,6 +2705,7 @@ const fr: Translations = {
     "Ces instructions nous aident à générer votre rapport final",
   generateReport: "Générer un rapport",
   generateReportAt: "Générer un rapport à",
+  teamReport: "Rapport d'équipe",
 };
 
 export default fr as Translations;

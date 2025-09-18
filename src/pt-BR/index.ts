@@ -2680,6 +2680,7 @@ const ptBR = {
     "Essas instruções nos ajudam a gerar seu relatório final",
   generateReport: "Gerar relatório",
   generateReportAt: "Gerar relatório em",
+  teamReport: "Relatório da equipe",
 };
 
 export default ptBR as Translations;

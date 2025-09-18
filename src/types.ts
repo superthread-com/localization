@@ -2303,6 +2303,7 @@ export enum TranslationKeys {
   CustomInstructionsSubtitle = "customInstructionsSubtitle",
   GenerateReport = "generateReport",
   GenerateReportAt = "generateReportAt",
+  TeamReport = "teamReport",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2442,6 +2442,7 @@ const zhHans = {
   customInstructionsSubtitle: "这些指令帮助我们生成您的最终报告",
   generateReport: "生成报告",
   generateReportAt: "生成报告在",
+  teamReport: "团队报告",
 };
 
 export default zhHans as Translations;

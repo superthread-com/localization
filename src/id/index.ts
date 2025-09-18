@@ -2653,6 +2653,7 @@ const id = {
     "Instruksi ini membantu kami menghasilkan laporan akhir Anda",
   generateReport: "Generate laporan",
   generateReportAt: "Generate laporan pada",
+  teamReport: "Laporan tim",
 };
 
 export default id as Translations;

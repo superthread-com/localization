@@ -2693,6 +2693,7 @@ const es = {
     "Estas instrucciones nos ayudan a generar tu informe final",
   generateReport: "Generar informe",
   generateReportAt: "Generar informe en",
+  teamReport: "Informe del equipo",
 };
 
 export default es as Translations;
