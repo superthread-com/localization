@@ -2629,6 +2629,7 @@ const bs: Translations = {
     "Ove instrukcije nam pomažu generirati vaš konačni izvještaj",
   generateReport: "Generiraj izvještaj",
   generateReportAt: "Generiraj izvještaj u",
+  teamReport: "Timski izvještaj",
 };
 
 export default bs;

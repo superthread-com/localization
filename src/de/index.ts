@@ -2709,6 +2709,7 @@ const de = {
     "Diese Anweisungen helfen uns, Ihren endgültigen Bericht zu generieren",
   generateReport: "Bericht generieren",
   generateReportAt: "Bericht generieren um",
+  teamReport: "Team-Bericht",
 };
 
 export default de as Translations;

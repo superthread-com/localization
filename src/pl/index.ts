@@ -2638,6 +2638,7 @@ const pl = {
     "Te instrukcje pomagają nam generować twój końcowy raport",
   generateReport: "Generuj raport",
   generateReportAt: "Generuj raport o",
+  teamReport: "Raport zespołu",
 };
 
 export default pl as Translations;

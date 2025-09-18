@@ -2584,6 +2584,7 @@ const en = {
     "These instructions help us generate your final report",
   generateReport: "Generate report",
   generateReportAt: "Generate report at",
+  teamReport: "Team report",
 };
 
 export default en as Translations;
