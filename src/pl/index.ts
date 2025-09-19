@@ -37,7 +37,7 @@ const pl = {
   continueWithProvider: "Kontynuuj z %{provider}",
   welcomeToSuperThread: "Witamy w SuperThread",
   aWorkspaceIs:
-    "Przestrzeń robocza jest zazwyczaj nazwana na cześć twojej organizacji. Nie możesz później zmienić tej nazwy.",
+    "Przestrzeń robocza jest zazwyczaj nazwana na cześć twojej organizacji lub firma. Możesz później zmienić tej nazwy.",
   youCanChangeThis:
     "Możesz to później zmienić i utworzyć dowolną liczbę przestrzeni.",
   LoginCode: "Kod logowania",

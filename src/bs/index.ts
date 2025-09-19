@@ -994,7 +994,7 @@ const bs: Translations = {
   continueWithProvider: "Nastavi sa %{provider}-om",
   welcomeToSuperThread: "Dobrodošli u Superthread",
   aWorkspaceIs:
-    "Workspace se obično imenuje prema vašoj organizaciji ili velikom samostalnom timu. Ovo ime kasnije ne možete promijeniti, ali možete imati više od jednog workspace-a.",
+    "Workspace se obično imenuje prema vašoj organizaciji ili kompanija. Ovo ime kasnije možete promijeniti.",
   youCanChangeThis:
     "Ovo možete kasnije promijeniti i napraviti prostora koliko želite.",
   LoginCode: "Kod za prijavu",

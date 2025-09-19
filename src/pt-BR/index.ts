@@ -43,7 +43,7 @@ const ptBR = {
   continueWithProvider: "Continuar com %{provider}",
   welcomeToSuperThread: "Bem-vindo(a) ao Superthread",
   aWorkspaceIs:
-    "Um espaço de trabalho geralmente é nomeado com o nome da sua organização. Você não pode mudar este nome depois.",
+    "Um espaço de trabalho geralmente é nomeado com o nome da sua organização ou empresa. Você pode mudar este nome depois.",
   youCanChangeThis:
     "Você pode mudar isso mais tarde e criar quantos espaços quiser.",
   LoginCode: "Código de login",

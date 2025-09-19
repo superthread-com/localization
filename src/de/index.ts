@@ -42,7 +42,7 @@ const de = {
   continueWithProvider: "Mit %{provider} fortfahren",
   welcomeToSuperThread: "Willkommen auf Superthread",
   aWorkspaceIs:
-    "Ein Arbeitsbereich ist normalerweise nach deiner Organisation benannt. Du kannst dieses Name später nicht ändern.",
+    "Ein Arbeitsbereich ist normalerweise nach deiner Organisation oder Firma benannt. Du kannst dieses Name später ändern.",
   youCanChangeThis:
     "Du kannst dies später ändern und so viele Räume erstellen, wie du möchtest.",
   LoginCode: "Anmeldecode",

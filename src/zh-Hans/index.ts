@@ -36,7 +36,7 @@ const zhHans = {
   min3Characters: "至少3个字符。",
   continueWithProvider: "继续使用%{provider}",
   welcomeToSuperThread: "欢迎来到 Superthread",
-  aWorkspaceIs: "工作区通常以您的组织命名。您以后无法更改此名称。",
+  aWorkspaceIs: "工作区通常以您的组织或公司名称命名。您可以稍后更改此名称。",
   youCanChangeThis: "您可以稍后更改此项并创建任意数量的空间。",
   LoginCode: "登录代码",
   enterLoginCode: "输入登录代码",

@@ -227,7 +227,7 @@ const fr: Translations = {
   continueWithProvider: "Continuer avec %{provider}",
   welcomeToSuperThread: "Bienvenue à Superthread",
   aWorkspaceIs:
-    "L'espace de travail est souvent nommé après votre compagnie ou votre organisation. Vous n'allez pas pouvoir changer ce nom, mais vous pouvez avoir plusieurs espaces de travail.",
+    "L'espace de travail est souvent nommé après votre compagnie ou votre organisation. Vous pouvez modifier cela ultérieurement.",
   youCanChangeThis:
     "Vous pouvez changer ça plus tard et créer autant d'espaces que vous voulez.",
   LoginCode: "Code d'accès",
