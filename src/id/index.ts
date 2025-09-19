@@ -42,7 +42,7 @@ const id = {
   continueWithProvider: "Lanjutkan dengan %{provider}",
   welcomeToSuperThread: "Selamat datang di Superthread",
   aWorkspaceIs:
-    "Ruang kerja biasanya dinamai sesuai organisasi Anda. Anda tidak dapat mengubah nama ini nanti.",
+    "Ruang kerja biasanya diberi nama sesuai dengan organisasi atau perusahaan Anda. Anda dapat mengubah nama ini nanti.",
   youCanChangeThis:
     "Anda dapat mengubah ini nanti dan membuat sebanyak mungkin ruang yang Anda inginkan.",
   LoginCode: "Kode masuk",

@@ -41,7 +41,7 @@ const en = {
   continueWithProvider: "Continue with %{provider}",
   welcomeToSuperThread: "Welcome to Superthread",
   aWorkspaceIs:
-    "A workspace is usually named after your organisation. You cannot change this name later.",
+    "A workspace is usually named after your company or organisation. You can change this later.",
   youCanChangeThis:
     "You can change this later and create as many spaces as you like.",
   LoginCode: "Login code",

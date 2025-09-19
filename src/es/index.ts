@@ -43,7 +43,7 @@ const es = {
   continueWithProvider: "Continuar con %{provider}",
   welcomeToSuperThread: "Bienvenido a Superthread",
   aWorkspaceIs:
-    "Un espacio de trabajo generalmente lleva el nombre de tu organización. No puedes cambiar este nombre más tarde.",
+    "Un espacio de trabajo suele llevar el nombre de su organización o empresa. Puede cambiar este nombre más adelante.",
   youCanChangeThis:
     "Puedes cambiar esto más tarde y crear tantos espacios como desees.",
   LoginCode: "Código de inicio de sesión",
