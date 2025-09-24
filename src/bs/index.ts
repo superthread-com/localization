@@ -2630,6 +2630,7 @@ const bs: Translations = {
   generateReport: "Generiraj izvještaj",
   generateReportAt: "Generiraj izvještaj u",
   teamReport: "Timski izvještaj",
+  customAiGeneratedReports: "Prilagođeni AI generisani izvještaji",
 };
 
 export default bs;

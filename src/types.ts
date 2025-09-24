@@ -2304,6 +2304,7 @@ export enum TranslationKeys {
   GenerateReport = "generateReport",
   GenerateReportAt = "generateReportAt",
   TeamReport = "teamReport",
+  CustomAiGeneratedReports = "customAiGeneratedReports",
 }
 
 export type Translations = Record<TranslationKeys, string>;
