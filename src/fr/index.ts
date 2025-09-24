@@ -2706,6 +2706,7 @@ const fr: Translations = {
   generateReport: "Générer un rapport",
   generateReportAt: "Générer un rapport à",
   teamReport: "Rapport d'équipe",
+  customAiGeneratedReports: "Rapports personnalisés générés par IA",
 };
 
 export default fr as Translations;

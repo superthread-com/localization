@@ -2654,6 +2654,7 @@ const id = {
   generateReport: "Generate laporan",
   generateReportAt: "Generate laporan pada",
   teamReport: "Laporan tim",
+  customAiGeneratedReports: "Laporan kustom yang dihasilkan oleh AI",
 };
 
 export default id as Translations;

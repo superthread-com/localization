@@ -2710,6 +2710,7 @@ const de = {
   generateReport: "Bericht generieren",
   generateReportAt: "Bericht generieren um",
   teamReport: "Team-Bericht",
+  customAiGeneratedReports: "Benutzerdefinierte AI-generierte Berichte",
 };
 
 export default de as Translations;

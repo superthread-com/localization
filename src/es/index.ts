@@ -2694,6 +2694,7 @@ const es = {
   generateReport: "Generar informe",
   generateReportAt: "Generar informe en",
   teamReport: "Informe del equipo",
+  customAiGeneratedReports: "Informes personalizados generados por IA",
 };
 
 export default es as Translations;

@@ -2446,6 +2446,7 @@ const zhHant = {
   generateReport: "生成報告",
   generateReportAt: "生成報告在",
   teamReport: "團隊報告",
+  customAiGeneratedReports: "自定義 AI 生成的報告",
 };
 
 export default zhHant as Translations;
