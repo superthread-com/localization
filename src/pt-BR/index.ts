@@ -2682,6 +2682,8 @@ const ptBR = {
   generateReportAt: "Gerar relatório em",
   teamReport: "Relatório da equipe",
   customAiGeneratedReports: "Relatórios personalizados gerados por IA",
+  recentInstructions: "Instruções recentes",
+  instructionsForAi: "Instruções para IA",
 };
 
 export default ptBR as Translations;

@@ -2711,6 +2711,8 @@ const de = {
   generateReportAt: "Bericht generieren um",
   teamReport: "Team-Bericht",
   customAiGeneratedReports: "Benutzerdefinierte AI-generierte Berichte",
+  recentInstructions: "Kürzliche Anweisungen",
+  instructionsForAi: "Anweisungen für AI",
 };
 
 export default de as Translations;

@@ -2586,6 +2586,8 @@ const en = {
   generateReportAt: "Generate report at",
   teamReport: "Team report",
   customAiGeneratedReports: "Custom AI generated reports",
+  recentInstructions: "Recent instructions",
+  instructionsForAi: "Instructions for AI",
 };
 
 export default en as Translations;
