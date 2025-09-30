@@ -2444,6 +2444,8 @@ const zhHans = {
   generateReportAt: "生成报告在",
   teamReport: "团队报告",
   customAiGeneratedReports: "自定义 AI 生成的报告",
+  recentInstructions: "最近指令",
+  instructionsForAi: "指令用于 AI",
 };
 
 export default zhHans as Translations;

@@ -2640,6 +2640,8 @@ const pl = {
   generateReportAt: "Generuj raport o",
   teamReport: "Raport zespołu",
   customAiGeneratedReports: "Niestandardowe raporty generowane przez AI",
+  recentInstructions: "Ostatnie instrukcje",
+  instructionsForAi: "Instrukcje dla AI",
 };
 
 export default pl as Translations;

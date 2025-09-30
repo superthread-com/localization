@@ -2631,6 +2631,8 @@ const bs: Translations = {
   generateReportAt: "Generiraj izvještaj u",
   teamReport: "Timski izvještaj",
   customAiGeneratedReports: "Prilagođeni AI generisani izvještaji",
+  recentInstructions: "Nedavne instrukcije",
+  instructionsForAi: "Instrukcije za AI",
 };
 
 export default bs;
