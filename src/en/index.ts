@@ -2588,6 +2588,9 @@ const en = {
   customAiGeneratedReports: "Custom AI generated reports",
   recentInstructions: "Recent instructions",
   instructionsForAi: "Instructions for AI",
+  accountRole: "Account role",
+  doNotGroup: "Do not group",
+  membersRemoved: "Removed %{count} member(s)",
 };
 
 export default en as Translations;

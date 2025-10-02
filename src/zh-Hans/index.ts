@@ -2446,6 +2446,9 @@ const zhHans = {
   customAiGeneratedReports: "自定义 AI 生成的报告",
   recentInstructions: "最近指令",
   instructionsForAi: "指令用于 AI",
+  accountRole: "账户角色",
+  doNotGroup: "不分组",
+  membersRemoved: "已移除 %{count} 个成员",
 };
 
 export default zhHans as Translations;

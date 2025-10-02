@@ -2307,6 +2307,9 @@ export enum TranslationKeys {
   CustomAiGeneratedReports = "customAiGeneratedReports",
   RecentInstructions = "recentInstructions",
   InstructionsForAi = "instructionsForAi",
+  AccountRole = "accountRole",
+  DoNotGroup = "doNotGroup",
+  MembersRemoved = "membersRemoved",
 }
 
 export type Translations = Record<TranslationKeys, string>;
