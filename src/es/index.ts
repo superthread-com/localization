@@ -2697,6 +2697,9 @@ const es = {
   customAiGeneratedReports: "Informes personalizados generados por IA",
   recentInstructions: "Instrucciones recientes",
   instructionsForAi: "Instrucciones para IA",
+  accountRole: "Rol de cuenta",
+  doNotGroup: "No agrupar",
+  membersRemoved: "Se eliminaron %{count} miembro(s)",
 };
 
 export default es as Translations;

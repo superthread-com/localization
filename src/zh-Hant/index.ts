@@ -2449,6 +2449,9 @@ const zhHant = {
   customAiGeneratedReports: "自定義 AI 生成的報告",
   recentInstructions: "最近指令",
   instructionsForAi: "指令用于 AI",
+  accountRole: "帳戶角色",
+  doNotGroup: "不分組",
+  membersRemoved: "已移除 %{count} 個成員",
 };
 
 export default zhHant as Translations;

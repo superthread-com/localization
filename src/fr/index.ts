@@ -2709,6 +2709,9 @@ const fr: Translations = {
   customAiGeneratedReports: "Rapports personnalisés générés par IA",
   recentInstructions: "Instructions récentes",
   instructionsForAi: "Instructions pour l'IA",
+  accountRole: "Rôle du compte",
+  doNotGroup: "Ne pas grouper",
+  membersRemoved: "%{count} membre(s) supprimé(s)",
 };
 
 export default fr as Translations;

@@ -2657,6 +2657,9 @@ const id = {
   customAiGeneratedReports: "Laporan kustom yang dihasilkan oleh AI",
   recentInstructions: "Instruksi terbaru",
   instructionsForAi: "Instruksi untuk AI",
+  accountRole: "Peran akun",
+  doNotGroup: "Jangan kelompokkan",
+  membersRemoved: "Menghapus %{count} anggota",
 };
 
 export default id as Translations;

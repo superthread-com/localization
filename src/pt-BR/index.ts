@@ -2684,6 +2684,9 @@ const ptBR = {
   customAiGeneratedReports: "Relatórios personalizados gerados por IA",
   recentInstructions: "Instruções recentes",
   instructionsForAi: "Instruções para IA",
+  accountRole: "Função da conta",
+  doNotGroup: "Não agrupar",
+  membersRemoved: "%{count} membro(s) removido(s)",
 };
 
 export default ptBR as Translations;

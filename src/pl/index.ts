@@ -2642,6 +2642,9 @@ const pl = {
   customAiGeneratedReports: "Niestandardowe raporty generowane przez AI",
   recentInstructions: "Ostatnie instrukcje",
   instructionsForAi: "Instrukcje dla AI",
+  accountRole: "Rola konta",
+  doNotGroup: "Nie grupuj",
+  membersRemoved: "Usunięto %{count} członka/ów",
 };
 
 export default pl as Translations;

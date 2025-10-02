@@ -2713,6 +2713,9 @@ const de = {
   customAiGeneratedReports: "Benutzerdefinierte AI-generierte Berichte",
   recentInstructions: "Kürzliche Anweisungen",
   instructionsForAi: "Anweisungen für AI",
+  accountRole: "Kontorolle",
+  doNotGroup: "Nicht gruppieren",
+  membersRemoved: "%{count} Mitglied(er) entfernt",
 };
 
 export default de as Translations;

@@ -2633,6 +2633,9 @@ const bs: Translations = {
   customAiGeneratedReports: "Prilagođeni AI generisani izvještaji",
   recentInstructions: "Nedavne instrukcije",
   instructionsForAi: "Instrukcije za AI",
+  accountRole: "Uloga računa",
+  doNotGroup: "Ne grupiraj",
+  membersRemoved: "Uklonjeno %{count} član(ova)",
 };
 
 export default bs;
