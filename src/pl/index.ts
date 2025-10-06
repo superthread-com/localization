@@ -2645,6 +2645,9 @@ const pl = {
   accountRole: "Rola konta",
   doNotGroup: "Nie grupuj",
   membersRemoved: "Usunięto %{count} członka/ów",
+  youAreAboutToAddMemberToPrivateSpace:
+    'Zaraz dodasz członka do prywatnej przestrzeni. Będzie on mógł zobaczyć całą zawartość tej przestrzeni. Jeśli naciśniesz "Potwierdź", członek zostanie dodany do przestrzeni, a właściciel przestrzeni otrzyma e-mail.',
+  addMemberToPrivateSpace: "Dodać członka do prywatnej przestrzeni?",
 };
 
 export default pl as Translations;

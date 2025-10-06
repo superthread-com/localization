@@ -2700,6 +2700,9 @@ const es = {
   accountRole: "Rol de cuenta",
   doNotGroup: "No agrupar",
   membersRemoved: "Se eliminaron %{count} miembro(s)",
+  youAreAboutToAddMemberToPrivateSpace:
+    'Estás a punto de añadir un miembro a un espacio privado. Podrá ver todo el contenido de este espacio. Si pulsas "Confirmar", el miembro se añadirá al espacio y se enviará un correo electrónico al propietario del espacio.',
+  addMemberToPrivateSpace: "¿Añadir un miembro al espacio privado?",
 };
 
 export default es as Translations;

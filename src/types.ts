@@ -2310,6 +2310,8 @@ export enum TranslationKeys {
   AccountRole = "accountRole",
   DoNotGroup = "doNotGroup",
   MembersRemoved = "membersRemoved",
+  YouAreAboutToAddMemberToPrivateSpace = "youAreAboutToAddMemberToPrivateSpace",
+  AddMemberToPrivateSpace = "addMemberToPrivateSpace",
 }
 
 export type Translations = Record<TranslationKeys, string>;

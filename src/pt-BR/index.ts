@@ -2687,6 +2687,9 @@ const ptBR = {
   accountRole: "Função da conta",
   doNotGroup: "Não agrupar",
   membersRemoved: "%{count} membro(s) removido(s)",
+  youAreAboutToAddMemberToPrivateSpace:
+    'Você está prestes a adicionar um membro a um espaço privado. Ele poderá ver todo o conteúdo dentro deste espaço. Se você pressionar "Confirmar", o membro será adicionado ao espaço e um e-mail será enviado ao proprietário do espaço.',
+  addMemberToPrivateSpace: "Adicionar membro ao espaço privado?",
 };
 
 export default ptBR as Translations;

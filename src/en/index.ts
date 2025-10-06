@@ -2591,6 +2591,9 @@ const en = {
   accountRole: "Account role",
   doNotGroup: "Do not group",
   membersRemoved: "Removed %{count} member(s)",
+  youAreAboutToAddMemberToPrivateSpace:
+    'You are about to add a member to a private space. They will be able to see all content within this space. If you press "Confirm", the member will be added to the space and email will be sent to the space owner.',
+  addMemberToPrivateSpace: "Add member to private space?",
 };
 
 export default en as Translations;

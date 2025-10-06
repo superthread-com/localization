@@ -2452,6 +2452,9 @@ const zhHant = {
   accountRole: "帳戶角色",
   doNotGroup: "不分組",
   membersRemoved: "已移除 %{count} 個成員",
+  youAreAboutToAddMemberToPrivateSpace:
+    '您即將新增成員到私人空間。他們將能夠查看此空間內的所有內容。若您按下 "確認"，該成員將被加入此空間，並會向空間擁有者發送電子郵件。',
+  addMemberToPrivateSpace: "新增成員到私人空間？",
 };
 
 export default zhHant as Translations;
