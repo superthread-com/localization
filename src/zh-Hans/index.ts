@@ -2449,6 +2449,9 @@ const zhHans = {
   accountRole: "账户角色",
   doNotGroup: "不分组",
   membersRemoved: "已移除 %{count} 个成员",
+  youAreAboutToAddMemberToPrivateSpace:
+    '您即将向私人空间添加成员。他们将能够查看该空间内的所有内容。如果您点击 "确认"，该成员将被添加到该空间，并会向空间所有者发送电子邮件。',
+  addMemberToPrivateSpace: "添加成员到私人空间？",
 };
 
 export default zhHans as Translations;

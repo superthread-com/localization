@@ -2660,6 +2660,9 @@ const id = {
   accountRole: "Peran akun",
   doNotGroup: "Jangan kelompokkan",
   membersRemoved: "Menghapus %{count} anggota",
+  youAreAboutToAddMemberToPrivateSpace:
+    'Anda akan menambahkan anggota ke ruang pribadi. Mereka akan dapat melihat semua konten di dalam ruang ini. Jika Anda menekan "Konfirmasi", anggota akan ditambahkan ke ruang dan email akan dikirimkan ke pemilik ruang.',
+  addMemberToPrivateSpace: "Tambahkan anggota ke ruang pribadi?",
 };
 
 export default id as Translations;

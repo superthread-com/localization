@@ -2636,6 +2636,9 @@ const bs: Translations = {
   accountRole: "Uloga računa",
   doNotGroup: "Ne grupiraj",
   membersRemoved: "Uklonjeno %{count} član(ova)",
+  youAreAboutToAddMemberToPrivateSpace:
+    'Upravo ćete dodati člana u privatni prostor. Moći će vidjeti sav sadržaj unutar tog prostora. Ako pritisnete "Potvrdi", član će biti dodan u prostor i e-mail će biti poslan vlasniku prostora.',
+  addMemberToPrivateSpace: "Dodati člana u privatni prostor?",
 };
 
 export default bs;

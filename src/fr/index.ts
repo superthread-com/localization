@@ -2712,6 +2712,9 @@ const fr: Translations = {
   accountRole: "Rôle du compte",
   doNotGroup: "Ne pas grouper",
   membersRemoved: "%{count} membre(s) supprimé(s)",
+  youAreAboutToAddMemberToPrivateSpace:
+    'Vous êtes sur le point d’ajouter un membre à un espace privé. Il pourra voir tout le contenu de cet espace. Si vous appuyez sur "Confirmer", le membre sera ajouté à l’espace et un e-mail sera envoyé au propriétaire de l’espace.',
+  addMemberToPrivateSpace: "Ajouter un membre à l’espace privé ?",
 };
 
 export default fr as Translations;
