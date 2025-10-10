@@ -2714,7 +2714,13 @@ const fr: Translations = {
   membersRemoved: "%{count} membre(s) supprimé(s)",
   youAreAboutToAddMemberToPrivateSpace:
     'Vous êtes sur le point d’ajouter un membre à un espace privé. Il pourra voir tout le contenu de cet espace. Si vous appuyez sur "Confirmer", le membre sera ajouté à l’espace et un e-mail sera envoyé au propriétaire de l’espace.',
-  addMemberToPrivateSpace: "Ajouter un membre à l’espace privé ?",
+  addMemberToPrivateSpace: "Ajouter un membre à l'espace privé ?",
+  cardCoverImageSettingsTitle: "Images de fond des cartes",
+  cardCoverToggleTitle: "Afficher les images de fond sur les cartes",
+  cardCoverToggleDescription:
+    "Cela vous donnera la possibilité d'afficher des images de fond sur les cartes. En activant cette option, la première image des pièces jointes sera automatiquement définie comme image de fond de la carte par défaut.",
+  removeCoverImage: "Supprimer l'image de fond",
+  setAsCoverImage: "Définir comme image de fond",
 };
 
 export default fr as Translations;

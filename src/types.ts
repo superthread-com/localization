@@ -2312,6 +2312,11 @@ export enum TranslationKeys {
   MembersRemoved = "membersRemoved",
   YouAreAboutToAddMemberToPrivateSpace = "youAreAboutToAddMemberToPrivateSpace",
   AddMemberToPrivateSpace = "addMemberToPrivateSpace",
+  CardCoverImageSettingsTitle = "cardCoverImageSettingsTitle",
+  CardCoverToggleTitle = "cardCoverToggleTitle",
+  CardCoverToggleDescription = "cardCoverToggleDescription",
+  RemoveCoverImage = "removeCoverImage",
+  SetAsCoverImage = "setAsCoverImage",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2719,6 +2719,12 @@ const de = {
   youAreAboutToAddMemberToPrivateSpace:
     'Sie sind dabei, ein Mitglied zu einem privaten Bereich hinzuzufügen. Es wird in der Lage sein, alle Inhalte in diesem Bereich zu sehen. Wenn Sie auf "Bestätigen" klicken, wird das Mitglied dem Bereich hinzugefügt und eine E-Mail wird an den Eigentümer des Bereichs gesendet.',
   addMemberToPrivateSpace: "Mitglied zu privatem Bereich hinzufügen?",
+  cardCoverImageSettingsTitle: "Karten-Hintergrundbilder",
+  cardCoverToggleTitle: "Hintergrundbilder auf Karten anzeigen",
+  cardCoverToggleDescription:
+    "Dies gibt Ihnen die Möglichkeit, Hintergrundbilder auf Karten anzuzeigen. Wenn dies aktiviert ist, wird standardmäßig das erste Bild aus den Anhängen als Hintergrundbild der Karte festgelegt.",
+  removeCoverImage: "Hintergrundbild entfernen",
+  setAsCoverImage: "Als Hintergrundbild festlegen",
 };
 
 export default de as Translations;

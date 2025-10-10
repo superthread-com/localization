@@ -2594,6 +2594,12 @@ const en = {
   youAreAboutToAddMemberToPrivateSpace:
     'You are about to add a member to a private space. They will be able to see all content within this space. If you press "Confirm", the member will be added to the space and email will be sent to the space owner.',
   addMemberToPrivateSpace: "Add member to private space?",
+  cardCoverImageSettingsTitle: "Card cover images",
+  cardCoverToggleTitle: "Display cover images on cards",
+  cardCoverToggleDescription:
+    "This will give you the option to display cover images on cards. By turning this on it will initailly set the first image from attachments as the cover image by default.",
+  removeCoverImage: "Remove cover image",
+  setAsCoverImage: "Set as cover image",
 };
 
 export default en as Translations;
