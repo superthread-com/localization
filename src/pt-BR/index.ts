@@ -2690,6 +2690,12 @@ const ptBR = {
   youAreAboutToAddMemberToPrivateSpace:
     'Você está prestes a adicionar um membro a um espaço privado. Ele poderá ver todo o conteúdo dentro deste espaço. Se você pressionar "Confirmar", o membro será adicionado ao espaço e um e-mail será enviado ao proprietário do espaço.',
   addMemberToPrivateSpace: "Adicionar membro ao espaço privado?",
+  cardCoverImageSettingsTitle: "Imagens de fundo dos cartões",
+  cardCoverToggleTitle: "Exibir imagens de fundo nos cartões",
+  cardCoverToggleDescription:
+    "Isso lhe dará a opção de exibir imagens de fundo nos cartões. Ao ativar isso, a primeira imagem dos anexos será automaticamente definida como imagem de fundo do cartão por padrão.",
+  removeCoverImage: "Remover imagem de fundo",
+  setAsCoverImage: "Definir como imagem de fundo",
 };
 
 export default ptBR as Translations;

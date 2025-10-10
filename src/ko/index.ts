@@ -2568,6 +2568,12 @@ const ko = {
   youAreAboutToAddMemberToPrivateSpace:
     "비공개 공간에 구성원을 추가하려고 합니다. 이들은 이 공간 내의 모든 콘텐츠를 볼 수 있습니다. ”확인”을 누르면 구성원이 공간에 추가되고 공간 소유자에게 이메일이 전송됩니다.",
   addMemberToPrivateSpace: "비공개 공간에 구성원을 추가하시겠습니까?",
+  cardCoverImageSettingsTitle: "카드 배경 이미지",
+  cardCoverToggleTitle: "카드에 배경 이미지 표시",
+  cardCoverToggleDescription:
+    "이 기능을 통해 카드에 배경 이미지를 표시할 수 있습니다. 이 기능을 켜면 기본적으로 첨부 파일의 첫 번째 이미지가 카드의 배경 이미지로 자동 설정됩니다.",
+  removeCoverImage: "배경 이미지 제거",
+  setAsCoverImage: "배경 이미지로 설정",
 };
 
 export default ko as Translations;

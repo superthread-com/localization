@@ -2648,6 +2648,12 @@ const pl = {
   youAreAboutToAddMemberToPrivateSpace:
     'Zaraz dodasz członka do prywatnej przestrzeni. Będzie on mógł zobaczyć całą zawartość tej przestrzeni. Jeśli naciśniesz "Potwierdź", członek zostanie dodany do przestrzeni, a właściciel przestrzeni otrzyma e-mail.',
   addMemberToPrivateSpace: "Dodać członka do prywatnej przestrzeni?",
+  cardCoverImageSettingsTitle: "Obrazy tła kart",
+  cardCoverToggleTitle: "Wyświetlaj obrazy tła na kartach",
+  cardCoverToggleDescription:
+    "To da Ci możliwość wyświetlania obrazów tła na kartach. Po włączeniu tej opcji, pierwszy obraz z załączników zostanie automatycznie ustawiony jako obraz tła karty domyślnie.",
+  removeCoverImage: "Usuń obraz tła",
+  setAsCoverImage: "Ustaw jako obraz tła",
 };
 
 export default pl as Translations;

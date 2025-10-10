@@ -2639,6 +2639,12 @@ const bs: Translations = {
   youAreAboutToAddMemberToPrivateSpace:
     'Upravo ćete dodati člana u privatni prostor. Moći će vidjeti sav sadržaj unutar tog prostora. Ako pritisnete "Potvrdi", član će biti dodan u prostor i e-mail će biti poslan vlasniku prostora.',
   addMemberToPrivateSpace: "Dodati člana u privatni prostor?",
+  cardCoverImageSettingsTitle: "Pozadinske slike kartica",
+  cardCoverToggleTitle: "Prikaži pozadinske slike na karticama",
+  cardCoverToggleDescription:
+    "Ovo će vam dati opciju da prikažete pozadinske slike na karticama. Ako je ovo uključeno, prva slika iz privrtaka će biti postavljena kao pozadinska slika kartice po automatizmu.",
+  removeCoverImage: "Ukloni pozadinsku sliku",
+  setAsCoverImage: "Postavi kao pozadinsku sliku",
 };
 
 export default bs;

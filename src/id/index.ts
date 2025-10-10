@@ -2663,6 +2663,12 @@ const id = {
   youAreAboutToAddMemberToPrivateSpace:
     'Anda akan menambahkan anggota ke ruang pribadi. Mereka akan dapat melihat semua konten di dalam ruang ini. Jika Anda menekan "Konfirmasi", anggota akan ditambahkan ke ruang dan email akan dikirimkan ke pemilik ruang.',
   addMemberToPrivateSpace: "Tambahkan anggota ke ruang pribadi?",
+  cardCoverImageSettingsTitle: "Gambar latar belakang kartu",
+  cardCoverToggleTitle: "Tampilkan gambar latar belakang pada kartu",
+  cardCoverToggleDescription:
+    "Ini akan memberi Anda opsi untuk menampilkan gambar latar belakang pada kartu. Dengan mengaktifkan ini, gambar pertama dari lampiran akan secara otomatis diatur sebagai gambar latar belakang kartu secara default.",
+  removeCoverImage: "Hapus gambar latar belakang",
+  setAsCoverImage: "Atur sebagai gambar latar belakang",
 };
 
 export default id as Translations;

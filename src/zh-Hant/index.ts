@@ -2455,6 +2455,12 @@ const zhHant = {
   youAreAboutToAddMemberToPrivateSpace:
     '您即將新增成員到私人空間。他們將能夠查看此空間內的所有內容。若您按下 "確認"，該成員將被加入此空間，並會向空間擁有者發送電子郵件。',
   addMemberToPrivateSpace: "新增成員到私人空間？",
+  cardCoverImageSettingsTitle: "卡片背景圖片",
+  cardCoverToggleTitle: "在卡片上顯示背景圖片",
+  cardCoverToggleDescription:
+    "這將為您提供在卡片上顯示背景圖片的選項。啟用此功能後，預設情況下，附件中的第一張圖片將自動設為卡片的背景圖片。",
+  removeCoverImage: "移除背景圖片",
+  setAsCoverImage: "設為背景圖片",
 };
 
 export default zhHant as Translations;
