@@ -2312,6 +2312,9 @@ export enum TranslationKeys {
   MembersRemoved = "membersRemoved",
   YouAreAboutToAddMemberToPrivateSpace = "youAreAboutToAddMemberToPrivateSpace",
   AddMemberToPrivateSpace = "addMemberToPrivateSpace",
+  Versions = "versions",
+  RestoreThisVersionConfirmTitle = "restoreThisVersionConfirmTitle",
+  RestoreThisVersionConfirmDescription = "restoreThisVersionConfirmDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

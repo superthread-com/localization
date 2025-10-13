@@ -2690,6 +2690,10 @@ const ptBR = {
   youAreAboutToAddMemberToPrivateSpace:
     'Você está prestes a adicionar um membro a um espaço privado. Ele poderá ver todo o conteúdo dentro deste espaço. Se você pressionar "Confirmar", o membro será adicionado ao espaço e um e-mail será enviado ao proprietário do espaço.',
   addMemberToPrivateSpace: "Adicionar membro ao espaço privado?",
+  versions: "Versões",
+  restoreThisVersionConfirmTitle: "Restaurar esta versão?",
+  restoreThisVersionConfirmDescription:
+    "Sua página atual será substituída por esta versão de %{date}.",
 };
 
 export default ptBR as Translations;

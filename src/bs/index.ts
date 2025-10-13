@@ -2639,6 +2639,10 @@ const bs: Translations = {
   youAreAboutToAddMemberToPrivateSpace:
     'Upravo ćete dodati člana u privatni prostor. Moći će vidjeti sav sadržaj unutar tog prostora. Ako pritisnete "Potvrdi", član će biti dodan u prostor i e-mail će biti poslan vlasniku prostora.',
   addMemberToPrivateSpace: "Dodati člana u privatni prostor?",
+  versions: "Verzije",
+  restoreThisVersionConfirmTitle: "Vratiti ovu verziju?",
+  restoreThisVersionConfirmDescription:
+    "Vaša trenutna stranica će biti zamijenjena ovom verzijom od %{date}.",
 };
 
 export default bs;

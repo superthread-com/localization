@@ -2582,7 +2582,8 @@ const en = {
   customInstructions: "Custom instructions",
   customInstructionsSubtitle:
     "These instructions help us generate your final report",
-  generateReport: "Generate report",
+  generateReport:
+    "Generate Are you sure you want to restore this version? This will create a new version with the content from this version.report",
   generateReportAt: "Generate report at",
   teamReport: "Team report",
   customAiGeneratedReports: "Custom AI generated reports",
@@ -2594,6 +2595,10 @@ const en = {
   youAreAboutToAddMemberToPrivateSpace:
     'You are about to add a member to a private space. They will be able to see all content within this space. If you press "Confirm", the member will be added to the space and email will be sent to the space owner.',
   addMemberToPrivateSpace: "Add member to private space?",
+  versions: "Versions",
+  restoreThisVersionConfirmTitle: "Restore this version?",
+  restoreThisVersionConfirmDescription:
+    "Your current page will be replaced with this version from %{date}.",
 };
 
 export default en as Translations;
