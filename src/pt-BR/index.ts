@@ -2694,6 +2694,12 @@ const ptBR = {
   restoreThisVersionConfirmTitle: "Restaurar esta versão?",
   restoreThisVersionConfirmDescription:
     "Sua página atual será substituída por esta versão de %{date}.",
+  cardCoverImageSettingsTitle: "Imagens de fundo dos cartões",
+  cardCoverToggleTitle: "Exibir imagens de fundo nos cartões",
+  cardCoverToggleDescription:
+    "Isso lhe dará a opção de exibir imagens de fundo nos cartões. Ao ativar isso, a primeira imagem dos anexos será automaticamente definida como imagem de fundo do cartão por padrão.",
+  removeCoverImage: "Remover imagem de fundo",
+  setAsCoverImage: "Definir como imagem de fundo",
 };
 
 export default ptBR as Translations;

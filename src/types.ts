@@ -2315,6 +2315,11 @@ export enum TranslationKeys {
   Versions = "versions",
   RestoreThisVersionConfirmTitle = "restoreThisVersionConfirmTitle",
   RestoreThisVersionConfirmDescription = "restoreThisVersionConfirmDescription",
+  CardCoverImageSettingsTitle = "cardCoverImageSettingsTitle",
+  CardCoverToggleTitle = "cardCoverToggleTitle",
+  CardCoverToggleDescription = "cardCoverToggleDescription",
+  RemoveCoverImage = "removeCoverImage",
+  SetAsCoverImage = "setAsCoverImage",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2707,6 +2707,12 @@ const es = {
   restoreThisVersionConfirmTitle: "¿Restaurar esta versión?",
   restoreThisVersionConfirmDescription:
     "Tu página actual será reemplazada por esta versión de %{date}.",
+  cardCoverImageSettingsTitle: "Imágenes de fondo de tarjetas",
+  cardCoverToggleTitle: "Mostrar imágenes de fondo en las tarjetas",
+  cardCoverToggleDescription:
+    "Esto te dará la opción de mostrar imágenes de fondo en las tarjetas. Al activar esto, se establecerá automáticamente la primera imagen de los archivos adjuntos como imagen de fondo de la tarjeta por defecto.",
+  removeCoverImage: "Quitar imagen de fondo",
+  setAsCoverImage: "Establecer como imagen de fondo",
 };
 
 export default es as Translations;

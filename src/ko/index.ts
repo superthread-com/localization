@@ -2572,6 +2572,12 @@ const ko = {
   restoreThisVersionConfirmTitle: "이 버전을 복원할까요?",
   restoreThisVersionConfirmDescription:
     "현재 페이지가 %{date}의 이 버전으로 대체됩니다.",
+  cardCoverImageSettingsTitle: "카드 배경 이미지",
+  cardCoverToggleTitle: "카드에 배경 이미지 표시",
+  cardCoverToggleDescription:
+    "이 기능을 통해 카드에 배경 이미지를 표시할 수 있습니다. 이 기능을 켜면 기본적으로 첨부 파일의 첫 번째 이미지가 카드의 배경 이미지로 자동 설정됩니다.",
+  removeCoverImage: "배경 이미지 제거",
+  setAsCoverImage: "배경 이미지로 설정",
 };
 
 export default ko as Translations;

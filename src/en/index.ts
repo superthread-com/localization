@@ -2599,6 +2599,12 @@ const en = {
   restoreThisVersionConfirmTitle: "Restore this version?",
   restoreThisVersionConfirmDescription:
     "Your current page will be replaced with this version from %{date}.",
+  cardCoverImageSettingsTitle: "Card cover images",
+  cardCoverToggleTitle: "Display cover images on cards",
+  cardCoverToggleDescription:
+    "This will give you the option to display cover images on cards. By turning this on it will initailly set the first image from attachments as the cover image by default.",
+  removeCoverImage: "Remove cover image",
+  setAsCoverImage: "Set as cover image",
 };
 
 export default en as Translations;

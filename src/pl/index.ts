@@ -2652,6 +2652,12 @@ const pl = {
   restoreThisVersionConfirmTitle: "Przywrócić tę wersję?",
   restoreThisVersionConfirmDescription:
     "Twoja obecna strona zostanie zastąpiona tą wersją z %{date}.",
+  cardCoverImageSettingsTitle: "Obrazy tła kart",
+  cardCoverToggleTitle: "Wyświetlaj obrazy tła na kartach",
+  cardCoverToggleDescription:
+    "To da Ci możliwość wyświetlania obrazów tła na kartach. Po włączeniu tej opcji, pierwszy obraz z załączników zostanie automatycznie ustawiony jako obraz tła karty domyślnie.",
+  removeCoverImage: "Usuń obraz tła",
+  setAsCoverImage: "Ustaw jako obraz tła",
 };
 
 export default pl as Translations;

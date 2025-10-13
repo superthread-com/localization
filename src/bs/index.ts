@@ -2643,6 +2643,12 @@ const bs: Translations = {
   restoreThisVersionConfirmTitle: "Vratiti ovu verziju?",
   restoreThisVersionConfirmDescription:
     "Vaša trenutna stranica će biti zamijenjena ovom verzijom od %{date}.",
+  cardCoverImageSettingsTitle: "Pozadinske slike kartica",
+  cardCoverToggleTitle: "Prikaži pozadinske slike na karticama",
+  cardCoverToggleDescription:
+    "Ovo će vam dati opciju da prikažete pozadinske slike na karticama. Ako je ovo uključeno, prva slika iz privrtaka će biti postavljena kao pozadinska slika kartice po automatizmu.",
+  removeCoverImage: "Ukloni pozadinsku sliku",
+  setAsCoverImage: "Postavi kao pozadinsku sliku",
 };
 
 export default bs;

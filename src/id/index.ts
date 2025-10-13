@@ -2667,6 +2667,12 @@ const id = {
   restoreThisVersionConfirmTitle: "Pulihkan versi ini?",
   restoreThisVersionConfirmDescription:
     "Halaman saat ini akan digantikan oleh versi dari %{date}.",
+  cardCoverImageSettingsTitle: "Gambar latar belakang kartu",
+  cardCoverToggleTitle: "Tampilkan gambar latar belakang pada kartu",
+  cardCoverToggleDescription:
+    "Ini akan memberi Anda opsi untuk menampilkan gambar latar belakang pada kartu. Dengan mengaktifkan ini, gambar pertama dari lampiran akan secara otomatis diatur sebagai gambar latar belakang kartu secara default.",
+  removeCoverImage: "Hapus gambar latar belakang",
+  setAsCoverImage: "Atur sebagai gambar latar belakang",
 };
 
 export default id as Translations;

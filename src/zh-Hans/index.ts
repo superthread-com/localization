@@ -2456,6 +2456,12 @@ const zhHans = {
   restoreThisVersionConfirmTitle: "恢复此版本？",
   restoreThisVersionConfirmDescription:
     "您当前的页面将被来自 %{date} 的此版本替换。",
+  cardCoverImageSettingsTitle: "卡片背景图片",
+  cardCoverToggleTitle: "在卡片上显示背景图片",
+  cardCoverToggleDescription:
+    "这将为您提供在卡片上显示背景图片的选项。启用此功能后，默认情况下，附件中的第一张图片将自动设置为卡片的背景图片。",
+  removeCoverImage: "移除背景图片",
+  setAsCoverImage: "设为背景图片",
 };
 
 export default zhHans as Translations;

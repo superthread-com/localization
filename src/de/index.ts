@@ -2723,6 +2723,12 @@ const de = {
   restoreThisVersionConfirmTitle: "Diese Version wiederherstellen?",
   restoreThisVersionConfirmDescription:
     "Ihre aktuelle Seite wird durch diese Version vom %{date} ersetzt.",
+  cardCoverImageSettingsTitle: "Karten-Hintergrundbilder",
+  cardCoverToggleTitle: "Hintergrundbilder auf Karten anzeigen",
+  cardCoverToggleDescription:
+    "Dies gibt Ihnen die Möglichkeit, Hintergrundbilder auf Karten anzuzeigen. Wenn dies aktiviert ist, wird standardmäßig das erste Bild aus den Anhängen als Hintergrundbild der Karte festgelegt.",
+  removeCoverImage: "Hintergrundbild entfernen",
+  setAsCoverImage: "Als Hintergrundbild festlegen",
 };
 
 export default de as Translations;
