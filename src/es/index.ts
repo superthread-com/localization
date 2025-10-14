@@ -2703,6 +2703,10 @@ const es = {
   youAreAboutToAddMemberToPrivateSpace:
     'Estás a punto de añadir un miembro a un espacio privado. Podrá ver todo el contenido de este espacio. Si pulsas "Confirmar", el miembro se añadirá al espacio y se enviará un correo electrónico al propietario del espacio.',
   addMemberToPrivateSpace: "¿Añadir un miembro al espacio privado?",
+  versions: "Versiones",
+  restoreThisVersionConfirmTitle: "¿Restaurar esta versión?",
+  restoreThisVersionConfirmDescription:
+    "Tu página actual será reemplazada por esta versión de %{date}.",
   cardCoverImageSettingsTitle: "Imágenes de fondo de tarjetas",
   cardCoverToggleTitle: "Mostrar imágenes de fondo en las tarjetas",
   cardCoverToggleDescription:

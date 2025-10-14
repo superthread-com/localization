@@ -2648,6 +2648,10 @@ const pl = {
   youAreAboutToAddMemberToPrivateSpace:
     'Zaraz dodasz członka do prywatnej przestrzeni. Będzie on mógł zobaczyć całą zawartość tej przestrzeni. Jeśli naciśniesz "Potwierdź", członek zostanie dodany do przestrzeni, a właściciel przestrzeni otrzyma e-mail.',
   addMemberToPrivateSpace: "Dodać członka do prywatnej przestrzeni?",
+  versions: "Wersje",
+  restoreThisVersionConfirmTitle: "Przywrócić tę wersję?",
+  restoreThisVersionConfirmDescription:
+    "Twoja obecna strona zostanie zastąpiona tą wersją z %{date}.",
   cardCoverImageSettingsTitle: "Obrazy tła kart",
   cardCoverToggleTitle: "Wyświetlaj obrazy tła na kartach",
   cardCoverToggleDescription:

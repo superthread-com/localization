@@ -2568,6 +2568,10 @@ const ko = {
   youAreAboutToAddMemberToPrivateSpace:
     "비공개 공간에 구성원을 추가하려고 합니다. 이들은 이 공간 내의 모든 콘텐츠를 볼 수 있습니다. ”확인”을 누르면 구성원이 공간에 추가되고 공간 소유자에게 이메일이 전송됩니다.",
   addMemberToPrivateSpace: "비공개 공간에 구성원을 추가하시겠습니까?",
+  versions: "버전",
+  restoreThisVersionConfirmTitle: "이 버전을 복원할까요?",
+  restoreThisVersionConfirmDescription:
+    "현재 페이지가 %{date}의 이 버전으로 대체됩니다.",
   cardCoverImageSettingsTitle: "카드 배경 이미지",
   cardCoverToggleTitle: "카드에 배경 이미지 표시",
   cardCoverToggleDescription:

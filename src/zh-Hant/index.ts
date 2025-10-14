@@ -2455,6 +2455,10 @@ const zhHant = {
   youAreAboutToAddMemberToPrivateSpace:
     '您即將新增成員到私人空間。他們將能夠查看此空間內的所有內容。若您按下 "確認"，該成員將被加入此空間，並會向空間擁有者發送電子郵件。',
   addMemberToPrivateSpace: "新增成員到私人空間？",
+  versions: "版本",
+  restoreThisVersionConfirmTitle: "恢復此版本？",
+  restoreThisVersionConfirmDescription:
+    "您目前的頁面將被來自 %{date} 的此版本取代。",
   cardCoverImageSettingsTitle: "卡片背景圖片",
   cardCoverToggleTitle: "在卡片上顯示背景圖片",
   cardCoverToggleDescription:

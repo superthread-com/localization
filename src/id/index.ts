@@ -2663,6 +2663,10 @@ const id = {
   youAreAboutToAddMemberToPrivateSpace:
     'Anda akan menambahkan anggota ke ruang pribadi. Mereka akan dapat melihat semua konten di dalam ruang ini. Jika Anda menekan "Konfirmasi", anggota akan ditambahkan ke ruang dan email akan dikirimkan ke pemilik ruang.',
   addMemberToPrivateSpace: "Tambahkan anggota ke ruang pribadi?",
+  versions: "Versi",
+  restoreThisVersionConfirmTitle: "Pulihkan versi ini?",
+  restoreThisVersionConfirmDescription:
+    "Halaman saat ini akan digantikan oleh versi dari %{date}.",
   cardCoverImageSettingsTitle: "Gambar latar belakang kartu",
   cardCoverToggleTitle: "Tampilkan gambar latar belakang pada kartu",
   cardCoverToggleDescription:
