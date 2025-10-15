@@ -2605,6 +2605,10 @@ const en = {
     "This will give you the option to display cover images on cards. By turning this on it will initailly set the first image from attachments as the cover image by default.",
   removeCoverImage: "Remove cover image",
   setAsCoverImage: "Set as cover image",
+  meetingStart: "Meeting start",
+  meetingEnd: "Meeting end",
+  meetingLinks: "Meeting links",
+  meetingOrganizer: "Meeting organizer",
 };
 
 export default en as Translations;

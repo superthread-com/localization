@@ -2673,6 +2673,10 @@ const id = {
     "Ini akan memberi Anda opsi untuk menampilkan gambar latar belakang pada kartu. Dengan mengaktifkan ini, gambar pertama dari lampiran akan secara otomatis diatur sebagai gambar latar belakang kartu secara default.",
   removeCoverImage: "Hapus gambar latar belakang",
   setAsCoverImage: "Atur sebagai gambar latar belakang",
+  meetingStart: "Mulai rapat",
+  meetingEnd: "Akhir rapat",
+  meetingLinks: "Tautan rapat",
+  meetingOrganizer: "Penyelenggara rapat",
 };
 
 export default id as Translations;

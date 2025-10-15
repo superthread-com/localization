@@ -2713,6 +2713,10 @@ const es = {
     "Esto te dará la opción de mostrar imágenes de fondo en las tarjetas. Al activar esto, se establecerá automáticamente la primera imagen de los archivos adjuntos como imagen de fondo de la tarjeta por defecto.",
   removeCoverImage: "Quitar imagen de fondo",
   setAsCoverImage: "Establecer como imagen de fondo",
+  meetingStart: "Inicio de la reunión",
+  meetingEnd: "Fin de la reunión",
+  meetingLinks: "Enlaces de la reunión",
+  meetingOrganizer: "Organizador de la reunión",
 };
 
 export default es as Translations;

@@ -2649,6 +2649,10 @@ const bs: Translations = {
     "Ovo će vam dati opciju da prikažete pozadinske slike na karticama. Ako je ovo uključeno, prva slika iz privrtaka će biti postavljena kao pozadinska slika kartice po automatizmu.",
   removeCoverImage: "Ukloni pozadinsku sliku",
   setAsCoverImage: "Postavi kao pozadinsku sliku",
+  meetingStart: "Početak sastanka",
+  meetingEnd: "Kraj sastanka",
+  meetingLinks: "Linkovi sastanka",
+  meetingOrganizer: "Organizator sastanka",
 };
 
 export default bs;

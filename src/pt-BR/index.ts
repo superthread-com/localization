@@ -2700,6 +2700,10 @@ const ptBR = {
     "Isso lhe dará a opção de exibir imagens de fundo nos cartões. Ao ativar isso, a primeira imagem dos anexos será automaticamente definida como imagem de fundo do cartão por padrão.",
   removeCoverImage: "Remover imagem de fundo",
   setAsCoverImage: "Definir como imagem de fundo",
+  meetingStart: "Início da reunião",
+  meetingEnd: "Fim da reunião",
+  meetingLinks: "Links da reunião",
+  meetingOrganizer: "Organizador da reunião",
 };
 
 export default ptBR as Translations;

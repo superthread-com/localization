@@ -2719,13 +2719,16 @@ const fr: Translations = {
   restoreThisVersionConfirmTitle: "Restaurer cette version ?",
   restoreThisVersionConfirmDescription:
     "Votre page actuelle sera remplacée par cette version du %{date}.",
-  addMemberToPrivateSpace: "Ajouter un membre à l'espace privé ?",
   cardCoverImageSettingsTitle: "Images de fond des cartes",
   cardCoverToggleTitle: "Afficher les images de fond sur les cartes",
   cardCoverToggleDescription:
     "Cela vous donnera la possibilité d'afficher des images de fond sur les cartes. En activant cette option, la première image des pièces jointes sera automatiquement définie comme image de fond de la carte par défaut.",
   removeCoverImage: "Supprimer l'image de fond",
   setAsCoverImage: "Définir comme image de fond",
+  meetingStart: "Début de la réunion",
+  meetingEnd: "Fin de la réunion",
+  meetingLinks: "Liens de la réunion",
+  meetingOrganizer: "Organisateur de la réunion",
 };
 
 export default fr as Translations;

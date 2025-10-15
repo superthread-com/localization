@@ -2465,6 +2465,10 @@ const zhHant = {
     "這將為您提供在卡片上顯示背景圖片的選項。啟用此功能後，預設情況下，附件中的第一張圖片將自動設為卡片的背景圖片。",
   removeCoverImage: "移除背景圖片",
   setAsCoverImage: "設為背景圖片",
+  meetingStart: "會議開始",
+  meetingEnd: "會議結束",
+  meetingLinks: "會議連結",
+  meetingOrganizer: "會議主辦人",
 };
 
 export default zhHant as Translations;

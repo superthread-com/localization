@@ -2729,6 +2729,10 @@ const de = {
     "Dies gibt Ihnen die Möglichkeit, Hintergrundbilder auf Karten anzuzeigen. Wenn dies aktiviert ist, wird standardmäßig das erste Bild aus den Anhängen als Hintergrundbild der Karte festgelegt.",
   removeCoverImage: "Hintergrundbild entfernen",
   setAsCoverImage: "Als Hintergrundbild festlegen",
+  meetingStart: "Besprechungsbeginn",
+  meetingEnd: "Besprechungsende",
+  meetingLinks: "Besprechungslinks",
+  meetingOrganizer: "Besprechungsorganisator",
 };
 
 export default de as Translations;
