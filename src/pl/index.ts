@@ -2658,6 +2658,10 @@ const pl = {
     "To da Ci możliwość wyświetlania obrazów tła na kartach. Po włączeniu tej opcji, pierwszy obraz z załączników zostanie automatycznie ustawiony jako obraz tła karty domyślnie.",
   removeCoverImage: "Usuń obraz tła",
   setAsCoverImage: "Ustaw jako obraz tła",
+  meetingStart: "Początek spotkania",
+  meetingEnd: "Koniec spotkania",
+  meetingLinks: "Linki do spotkania",
+  meetingOrganiser: "Organizator spotkania",
 };
 
 export default pl as Translations;

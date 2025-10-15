@@ -2462,6 +2462,10 @@ const zhHans = {
     "这将为您提供在卡片上显示背景图片的选项。启用此功能后，默认情况下，附件中的第一张图片将自动设置为卡片的背景图片。",
   removeCoverImage: "移除背景图片",
   setAsCoverImage: "设为背景图片",
+  meetingStart: "会议开始",
+  meetingEnd: "会议结束",
+  meetingLinks: "会议链接",
+  meetingOrganiser: "会议组织者",
 };
 
 export default zhHans as Translations;

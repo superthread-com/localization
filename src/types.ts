@@ -2320,6 +2320,10 @@ export enum TranslationKeys {
   CardCoverToggleDescription = "cardCoverToggleDescription",
   RemoveCoverImage = "removeCoverImage",
   SetAsCoverImage = "setAsCoverImage",
+  MeetingStart = "meetingStart",
+  MeetingEnd = "meetingEnd",
+  MeetingLinks = "meetingLinks",
+  MeetingOrganiser = "meetingOrganiser",
 }
 
 export type Translations = Record<TranslationKeys, string>;
