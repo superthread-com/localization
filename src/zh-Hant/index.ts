@@ -2468,7 +2468,7 @@ const zhHant = {
   meetingStart: "會議開始",
   meetingEnd: "會議結束",
   meetingLinks: "會議連結",
-  meetingOrganizer: "會議主辦人",
+  meetingOrganiser: "會議主辦人",
 };
 
 export default zhHant as Translations;

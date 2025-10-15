@@ -2728,7 +2728,7 @@ const fr: Translations = {
   meetingStart: "Début de la réunion",
   meetingEnd: "Fin de la réunion",
   meetingLinks: "Liens de la réunion",
-  meetingOrganizer: "Organisateur de la réunion",
+  meetingOrganiser: "Organisateur de la réunion",
 };
 
 export default fr as Translations;

@@ -2652,7 +2652,7 @@ const bs: Translations = {
   meetingStart: "Početak sastanka",
   meetingEnd: "Kraj sastanka",
   meetingLinks: "Linkovi sastanka",
-  meetingOrganizer: "Organizator sastanka",
+  meetingOrganiser: "Organizator sastanka",
 };
 
 export default bs;

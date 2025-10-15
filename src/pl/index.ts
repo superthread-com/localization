@@ -2661,7 +2661,7 @@ const pl = {
   meetingStart: "Początek spotkania",
   meetingEnd: "Koniec spotkania",
   meetingLinks: "Linki do spotkania",
-  meetingOrganizer: "Organizator spotkania",
+  meetingOrganiser: "Organizator spotkania",
 };
 
 export default pl as Translations;

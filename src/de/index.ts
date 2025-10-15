@@ -2732,7 +2732,7 @@ const de = {
   meetingStart: "Besprechungsbeginn",
   meetingEnd: "Besprechungsende",
   meetingLinks: "Besprechungslinks",
-  meetingOrganizer: "Besprechungsorganisator",
+  meetingOrganiser: "Besprechungsorganisator",
 };
 
 export default de as Translations;

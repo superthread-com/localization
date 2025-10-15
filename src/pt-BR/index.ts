@@ -2703,7 +2703,7 @@ const ptBR = {
   meetingStart: "Início da reunião",
   meetingEnd: "Fim da reunião",
   meetingLinks: "Links da reunião",
-  meetingOrganizer: "Organizador da reunião",
+  meetingOrganiser: "Organizador da reunião",
 };
 
 export default ptBR as Translations;

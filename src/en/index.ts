@@ -2608,7 +2608,7 @@ const en = {
   meetingStart: "Meeting start",
   meetingEnd: "Meeting end",
   meetingLinks: "Meeting links",
-  meetingOrganizer: "Meeting organizer",
+  meetingOrganiser: "Meeting organiser",
 };
 
 export default en as Translations;

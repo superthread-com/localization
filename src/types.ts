@@ -2323,7 +2323,7 @@ export enum TranslationKeys {
   MeetingStart = "meetingStart",
   MeetingEnd = "meetingEnd",
   MeetingLinks = "meetingLinks",
-  MeetingOrganizer = "meetingOrganizer",
+  MeetingOrganiser = "meetingOrganiser",
 }
 
 export type Translations = Record<TranslationKeys, string>;

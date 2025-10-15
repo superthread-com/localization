@@ -2676,7 +2676,7 @@ const id = {
   meetingStart: "Mulai rapat",
   meetingEnd: "Akhir rapat",
   meetingLinks: "Tautan rapat",
-  meetingOrganizer: "Penyelenggara rapat",
+  meetingOrganiser: "Penyelenggara rapat",
 };
 
 export default id as Translations;

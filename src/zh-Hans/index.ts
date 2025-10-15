@@ -2465,7 +2465,7 @@ const zhHans = {
   meetingStart: "会议开始",
   meetingEnd: "会议结束",
   meetingLinks: "会议链接",
-  meetingOrganizer: "会议组织者",
+  meetingOrganiser: "会议组织者",
 };
 
 export default zhHans as Translations;
