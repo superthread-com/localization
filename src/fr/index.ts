@@ -2729,6 +2729,7 @@ const fr: Translations = {
   meetingEnd: "Fin de la réunion",
   meetingLinks: "Liens de la réunion",
   meetingOrganiser: "Organisateur de la réunion",
+  coverImageRemoved: "Image de fond supprimée",
 };
 
 export default fr as Translations;

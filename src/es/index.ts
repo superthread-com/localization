@@ -2717,6 +2717,7 @@ const es = {
   meetingEnd: "Fin de la reunión",
   meetingLinks: "Enlaces de la reunión",
   meetingOrganiser: "Organizador de la reunión",
+  coverImageRemoved: "Imagen de fondo eliminada",
 };
 
 export default es as Translations;

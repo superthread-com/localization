@@ -2582,6 +2582,7 @@ const ko = {
   meetingEnd: "회의 종료",
   meetingLinks: "회의 링크",
   meetingOrganiser: "회의 주최자",
+  coverImageRemoved: "배경 이미지가 제거되었습니다",
 };
 
 export default ko as Translations;

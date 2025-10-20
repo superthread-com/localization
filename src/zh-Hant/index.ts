@@ -2469,6 +2469,7 @@ const zhHant = {
   meetingEnd: "會議結束",
   meetingLinks: "會議連結",
   meetingOrganiser: "會議主辦人",
+  coverImageRemoved: "背景圖片已移除",
 };
 
 export default zhHant as Translations;

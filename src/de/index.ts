@@ -2724,7 +2724,7 @@ const de = {
   restoreThisVersionConfirmDescription:
     "Ihre aktuelle Seite wird durch diese Version vom %{date} ersetzt.",
   cardCoverImageSettingsTitle: "Karten-Hintergrundbilder",
-  cardCoverToggleTitle: "Hintergrundbilder auf Karten anzeigen",
+  cardCoverToggleTitle: "Hintergrsundbilder auf Karten anzeigen",
   cardCoverToggleDescription:
     "Dies gibt Ihnen die Möglichkeit, Hintergrundbilder auf Karten anzuzeigen. Wenn dies aktiviert ist, wird standardmäßig das erste Bild aus den Anhängen als Hintergrundbild der Karte festgelegt.",
   removeCoverImage: "Hintergrundbild entfernen",
@@ -2733,6 +2733,7 @@ const de = {
   meetingEnd: "Besprechungsende",
   meetingLinks: "Besprechungslinks",
   meetingOrganiser: "Besprechungsorganisator",
+  coverImageRemoved: "Hintergrundbild entfernt",
 };
 
 export default de as Translations;

@@ -2653,6 +2653,7 @@ const bs: Translations = {
   meetingEnd: "Kraj sastanka",
   meetingLinks: "Linkovi sastanka",
   meetingOrganiser: "Organizator sastanka",
+  coverImageRemoved: "Pozadinska slika je uklonjena",
 };
 
 export default bs;

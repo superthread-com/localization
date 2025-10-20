@@ -2677,6 +2677,7 @@ const id = {
   meetingEnd: "Akhir rapat",
   meetingLinks: "Tautan rapat",
   meetingOrganiser: "Penyelenggara rapat",
+  coverImageRemoved: "Gambar latar belakang dihapus",
 };
 
 export default id as Translations;
