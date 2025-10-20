@@ -2705,6 +2705,7 @@ const ptBR = {
   meetingLinks: "Links da reunião",
   meetingOrganiser: "Organizador da reunião",
   coverImageRemoved: "Imagem de fundo removida",
+  coverImageSet: "Imagem de fundo definida",
 };
 
 export default ptBR as Translations;

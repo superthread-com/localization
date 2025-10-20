@@ -2610,6 +2610,7 @@ const en = {
   meetingLinks: "Meeting links",
   meetingOrganiser: "Meeting organiser",
   coverImageRemoved: "Cover image removed",
+  coverImageSet: "Cover image set",
 };
 
 export default en as Translations;

@@ -2583,6 +2583,7 @@ const ko = {
   meetingLinks: "회의 링크",
   meetingOrganiser: "회의 주최자",
   coverImageRemoved: "배경 이미지가 제거되었습니다",
+  coverImageSet: "배경 이미지가 설정되었습니다",
 };
 
 export default ko as Translations;

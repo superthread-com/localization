@@ -2325,6 +2325,7 @@ export enum TranslationKeys {
   MeetingLinks = "meetingLinks",
   MeetingOrganiser = "meetingOrganiser",
   CoverImageRemoved = "coverImageRemoved",
+  CoverImageSet = "coverImageSet",
 }
 
 export type Translations = Record<TranslationKeys, string>;
