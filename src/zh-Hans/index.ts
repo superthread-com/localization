@@ -2467,6 +2467,7 @@ const zhHans = {
   meetingLinks: "会议链接",
   meetingOrganiser: "会议组织者",
   coverImageRemoved: "背景图片已移除",
+  coverImageSet: "背景图片已设置",
 };
 
 export default zhHans as Translations;

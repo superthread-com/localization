@@ -2663,6 +2663,7 @@ const pl = {
   meetingLinks: "Linki do spotkania",
   meetingOrganiser: "Organizator spotkania",
   coverImageRemoved: "Obraz tła został usunięty",
+  coverImageSet: "Obraz tła został ustawiony",
 };
 
 export default pl as Translations;

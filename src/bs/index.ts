@@ -2654,6 +2654,7 @@ const bs: Translations = {
   meetingLinks: "Linkovi sastanka",
   meetingOrganiser: "Organizator sastanka",
   coverImageRemoved: "Pozadinska slika je uklonjena",
+  coverImageSet: "Pozadinska slika je postavljena",
 };
 
 export default bs;

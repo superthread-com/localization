@@ -2734,6 +2734,7 @@ const de = {
   meetingLinks: "Besprechungslinks",
   meetingOrganiser: "Besprechungsorganisator",
   coverImageRemoved: "Hintergrundbild entfernt",
+  coverImageSet: "Hintergrundbild festgelegt",
 };
 
 export default de as Translations;

@@ -2718,6 +2718,7 @@ const es = {
   meetingLinks: "Enlaces de la reunión",
   meetingOrganiser: "Organizador de la reunión",
   coverImageRemoved: "Imagen de fondo eliminada",
+  coverImageSet: "Imagen de fondo establecida",
 };
 
 export default es as Translations;

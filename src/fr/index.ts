@@ -2730,6 +2730,7 @@ const fr: Translations = {
   meetingLinks: "Liens de la réunion",
   meetingOrganiser: "Organisateur de la réunion",
   coverImageRemoved: "Image de fond supprimée",
+  coverImageSet: "Image de fond définie",
 };
 
 export default fr as Translations;
