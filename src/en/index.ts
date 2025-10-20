@@ -2609,6 +2609,7 @@ const en = {
   meetingEnd: "Meeting end",
   meetingLinks: "Meeting links",
   meetingOrganiser: "Meeting organiser",
+  coverImageRemoved: "Cover image removed",
 };
 
 export default en as Translations;

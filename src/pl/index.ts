@@ -2662,6 +2662,7 @@ const pl = {
   meetingEnd: "Koniec spotkania",
   meetingLinks: "Linki do spotkania",
   meetingOrganiser: "Organizator spotkania",
+  coverImageRemoved: "Obraz tła został usunięty",
 };
 
 export default pl as Translations;
