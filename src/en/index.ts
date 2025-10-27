@@ -2582,8 +2582,7 @@ const en = {
   customInstructions: "Custom instructions",
   customInstructionsSubtitle:
     "These instructions help us generate your final report",
-  generateReport:
-    "Generate Are you sure you want to restore this version? This will create a new version with the content from this version.report",
+  generateReport: "Generate report",
   generateReportAt: "Generate report at",
   teamReport: "Team report",
   customAiGeneratedReports: "Custom AI generated reports",
