@@ -2719,6 +2719,9 @@ const fr: Translations = {
   restoreThisVersionConfirmTitle: "Restaurer cette version ?",
   restoreThisVersionConfirmDescription:
     "Votre page actuelle sera remplacée par cette version du %{date}.",
+  versionSuccessfullyRestored: "Version restaurée avec succès",
+  versionRestoredBy: "Version restaurée par %{userName}",
+  failedToRestoreVersion: "Échec de la restauration de la version",
   cardCoverImageSettingsTitle: "Images de fond des cartes",
   cardCoverToggleTitle: "Afficher les images de fond sur les cartes",
   cardCoverToggleDescription:

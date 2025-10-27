@@ -2572,6 +2572,9 @@ const ko = {
   restoreThisVersionConfirmTitle: "이 버전을 복원할까요?",
   restoreThisVersionConfirmDescription:
     "현재 페이지가 %{date}의 이 버전으로 대체됩니다.",
+  versionSuccessfullyRestored: "버전이 성공적으로 복원됨",
+  versionRestoredBy: "%{userName}에 의해 버전 복원됨",
+  failedToRestoreVersion: "버전 복원 실패",
   cardCoverImageSettingsTitle: "카드 배경 이미지",
   cardCoverToggleTitle: "카드에 배경 이미지 표시",
   cardCoverToggleDescription:

@@ -2667,6 +2667,9 @@ const id = {
   restoreThisVersionConfirmTitle: "Pulihkan versi ini?",
   restoreThisVersionConfirmDescription:
     "Halaman saat ini akan digantikan oleh versi dari %{date}.",
+  versionSuccessfullyRestored: "Versi berhasil dipulihkan",
+  versionRestoredBy: "Versi dipulihkan oleh %{userName}",
+  failedToRestoreVersion: "Gagal memulihkan versi",
   cardCoverImageSettingsTitle: "Gambar latar belakang kartu",
   cardCoverToggleTitle: "Tampilkan gambar latar belakang pada kartu",
   cardCoverToggleDescription:

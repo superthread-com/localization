@@ -2711,6 +2711,9 @@ const es = {
   cardCoverToggleTitle: "Mostrar imágenes de fondo en las tarjetas",
   cardCoverToggleDescription:
     "Esto te dará la opción de mostrar imágenes de fondo en las tarjetas. Al activar esto, se establecerá automáticamente la primera imagen de los archivos adjuntos como imagen de fondo de la tarjeta por defecto.",
+  versionSuccessfullyRestored: "Versión restaurada con éxito",
+  versionRestoredBy: "Versión restaurada por %{userName}",
+  failedToRestoreVersion: "Error al restaurar la versión",
   removeCoverImage: "Quitar imagen de fondo",
   setAsCoverImage: "Establecer como imagen de fondo",
   meetingStart: "Inicio de la reunión",
