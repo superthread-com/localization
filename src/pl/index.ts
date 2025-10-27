@@ -2652,6 +2652,9 @@ const pl = {
   restoreThisVersionConfirmTitle: "Przywrócić tę wersję?",
   restoreThisVersionConfirmDescription:
     "Twoja obecna strona zostanie zastąpiona tą wersją z %{date}.",
+  versionSuccessfullyRestored: "Wersja przywrócona pomyślnie",
+  versionRestoredBy: "Wersja przywrócona przez %{userName}",
+  failedToRestoreVersion: "Nie udało się przywrócić wersji",
   cardCoverImageSettingsTitle: "Obrazy tła kart",
   cardCoverToggleTitle: "Wyświetlaj obrazy tła na kartach",
   cardCoverToggleDescription:

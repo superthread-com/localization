@@ -2694,6 +2694,9 @@ const ptBR = {
   restoreThisVersionConfirmTitle: "Restaurar esta versão?",
   restoreThisVersionConfirmDescription:
     "Sua página atual será substituída por esta versão de %{date}.",
+  versionSuccessfullyRestored: "Versão restaurada com sucesso",
+  versionRestoredBy: "Versão restaurada por %{userName}",
+  failedToRestoreVersion: "Falha ao restaurar versão",
   cardCoverImageSettingsTitle: "Imagens de fundo dos cartões",
   cardCoverToggleTitle: "Exibir imagens de fundo nos cartões",
   cardCoverToggleDescription:

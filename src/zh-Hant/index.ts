@@ -2459,6 +2459,9 @@ const zhHant = {
   restoreThisVersionConfirmTitle: "恢復此版本？",
   restoreThisVersionConfirmDescription:
     "您目前的頁面將被來自 %{date} 的此版本取代。",
+  versionSuccessfullyRestored: "版本恢復成功",
+  versionRestoredBy: "版本由 %{userName} 恢復",
+  failedToRestoreVersion: "恢復版本失敗",
   cardCoverImageSettingsTitle: "卡片背景圖片",
   cardCoverToggleTitle: "在卡片上顯示背景圖片",
   cardCoverToggleDescription:

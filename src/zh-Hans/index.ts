@@ -2456,6 +2456,9 @@ const zhHans = {
   restoreThisVersionConfirmTitle: "恢复此版本？",
   restoreThisVersionConfirmDescription:
     "您当前的页面将被来自 %{date} 的此版本替换。",
+  versionSuccessfullyRestored: "版本恢复成功",
+  versionRestoredBy: "版本由 %{userName} 恢复",
+  failedToRestoreVersion: "恢复版本失败",
   cardCoverImageSettingsTitle: "卡片背景图片",
   cardCoverToggleTitle: "在卡片上显示背景图片",
   cardCoverToggleDescription:
