@@ -2599,7 +2599,7 @@ const en = {
   restoreThisVersionConfirmDescription:
     "Your current page will be replaced with this version from %{date}.",
   versionSuccessfullyRestored: "Version successfully restored",
-  versionRestoredBy: "Verion restored by %{userName}",
+  versionRestoredBy: "Version restored by %{userName}",
   failedToRestoreVersion: "Failed to restore version",
   cardCoverImageSettingsTitle: "Card cover images",
   cardCoverToggleTitle: "Display cover images on cards",
