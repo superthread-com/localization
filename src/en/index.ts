@@ -2601,6 +2601,7 @@ const en = {
   versionSuccessfullyRestored: "Version successfully restored",
   versionRestoredBy: "Version restored by %{userName}",
   failedToRestoreVersion: "Failed to restore version",
+  currentVersion: "Current version",
   cardCoverImageSettingsTitle: "Card cover images",
   cardCoverToggleTitle: "Display cover images on cards",
   cardCoverToggleDescription:

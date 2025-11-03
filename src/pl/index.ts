@@ -2655,6 +2655,7 @@ const pl = {
   versionSuccessfullyRestored: "Wersja przywrócona pomyślnie",
   versionRestoredBy: "Wersja przywrócona przez %{userName}",
   failedToRestoreVersion: "Nie udało się przywrócić wersji",
+  currentVersion: "Aktualna wersja",
   cardCoverImageSettingsTitle: "Obrazy tła kart",
   cardCoverToggleTitle: "Wyświetlaj obrazy tła na kartach",
   cardCoverToggleDescription:
