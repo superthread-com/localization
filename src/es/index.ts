@@ -2714,6 +2714,8 @@ const es = {
   versionSuccessfullyRestored: "Versión restaurada con éxito",
   versionRestoredBy: "Versión restaurada por %{userName}",
   currentVersion: "Versión actual",
+  versionLockedDescription:
+    "Por favor, actualiza tu plan para ver versiones anteriores a %{days} días",
   failedToRestoreVersion: "Error al restaurar la versión",
   removeCoverImage: "Quitar imagen de fondo",
   setAsCoverImage: "Establecer como imagen de fondo",

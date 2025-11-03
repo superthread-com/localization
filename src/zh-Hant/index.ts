@@ -2463,6 +2463,7 @@ const zhHant = {
   versionRestoredBy: "版本由 %{userName} 恢復",
   failedToRestoreVersion: "恢復版本失敗",
   currentVersion: "當前版本",
+  versionLockedDescription: "請升級您的計劃以查看超過 %{days} 天的版本",
   cardCoverImageSettingsTitle: "卡片背景圖片",
   cardCoverToggleTitle: "在卡片上顯示背景圖片",
   cardCoverToggleDescription:

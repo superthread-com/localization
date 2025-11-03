@@ -2723,6 +2723,8 @@ const fr: Translations = {
   versionRestoredBy: "Version restaurée par %{userName}",
   failedToRestoreVersion: "Échec de la restauration de la version",
   currentVersion: "Version actuelle",
+  versionLockedDescription:
+    "Veuillez mettre à niveau votre plan pour afficher les versions antérieures à %{days} jours",
   cardCoverImageSettingsTitle: "Images de fond des cartes",
   cardCoverToggleTitle: "Afficher les images de fond sur les cartes",
   cardCoverToggleDescription:

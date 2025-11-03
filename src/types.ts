@@ -2319,6 +2319,7 @@ export enum TranslationKeys {
   VersionRestoredBy = "versionRestoredBy",
   FailedToRestoreVersion = "failedToRestoreVersion",
   CurrentVersion = "currentVersion",
+  versionLockedDescription = "versionLockedDescription",
   CardCoverImageSettingsTitle = "cardCoverImageSettingsTitle",
   CardCoverToggleTitle = "cardCoverToggleTitle",
   CardCoverToggleDescription = "cardCoverToggleDescription",
