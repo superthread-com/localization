@@ -2656,7 +2656,8 @@ const pl = {
   versionRestoredBy: "Wersja przywrócona przez %{userName}",
   failedToRestoreVersion: "Nie udało się przywrócić wersji",
   currentVersion: "Aktualna wersja",
-  versionLockedDescription: "Proszę zaktualizować plan, aby wyświetlić wersje starsze niż %{days} dni",
+  versionLockedDescription:
+    "Proszę zaktualizować plan, aby wyświetlić wersje starsze niż %{days} dni",
   cardCoverImageSettingsTitle: "Obrazy tła kart",
   cardCoverToggleTitle: "Wyświetlaj obrazy tła na kartach",
   cardCoverToggleDescription:

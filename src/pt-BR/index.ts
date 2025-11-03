@@ -2698,7 +2698,8 @@ const ptBR = {
   versionRestoredBy: "Versão restaurada por %{userName}",
   failedToRestoreVersion: "Falha ao restaurar versão",
   currentVersion: "Versão atual",
-  versionLockedDescription: "Por favor, atualize seu plano para visualizar versões anteriores a %{days} dias",
+  versionLockedDescription:
+    "Por favor, atualize seu plano para visualizar versões anteriores a %{days} dias",
   cardCoverImageSettingsTitle: "Imagens de fundo dos cartões",
   cardCoverToggleTitle: "Exibir imagens de fundo nos cartões",
   cardCoverToggleDescription:

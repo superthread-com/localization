@@ -2576,7 +2576,8 @@ const ko = {
   versionRestoredBy: "%{userName}에 의해 버전 복원됨",
   failedToRestoreVersion: "버전 복원 실패",
   currentVersion: "현재 버전",
-  versionLockedDescription: "플랜을 업그레이드하시면 %{days}일보다 오래된 버전을 볼 수 있습니다",
+  versionLockedDescription:
+    "플랜을 업그레이드하시면 %{days}일보다 오래된 버전을 볼 수 있습니다",
   cardCoverImageSettingsTitle: "카드 배경 이미지",
   cardCoverToggleTitle: "카드에 배경 이미지 표시",
   cardCoverToggleDescription:
