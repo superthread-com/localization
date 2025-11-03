@@ -2670,6 +2670,7 @@ const id = {
   versionSuccessfullyRestored: "Versi berhasil dipulihkan",
   versionRestoredBy: "Versi dipulihkan oleh %{userName}",
   failedToRestoreVersion: "Gagal memulihkan versi",
+  currentVersion: "Versi saat ini",
   cardCoverImageSettingsTitle: "Gambar latar belakang kartu",
   cardCoverToggleTitle: "Tampilkan gambar latar belakang pada kartu",
   cardCoverToggleDescription:

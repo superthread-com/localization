@@ -2723,6 +2723,7 @@ const de = {
   restoreThisVersionConfirmTitle: "Diese Version wiederherstellen?",
   restoreThisVersionConfirmDescription:
     "Ihre aktuelle Seite wird durch diese Version vom %{date} ersetzt.",
+  currentVersion: "Aktuelle Version",
   cardCoverImageSettingsTitle: "Karten-Hintergrundbilder",
   cardCoverToggleTitle: "Hintergrsundbilder auf Karten anzeigen",
   cardCoverToggleDescription:

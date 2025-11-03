@@ -2643,6 +2643,7 @@ const bs: Translations = {
   restoreThisVersionConfirmTitle: "Vratiti ovu verziju?",
   restoreThisVersionConfirmDescription:
     "Vaša trenutna stranica će biti zamijenjena ovom verzijom od %{date}.",
+  currentVersion: "Trenutna verzija",
   cardCoverImageSettingsTitle: "Pozadinske slike kartica",
   cardCoverToggleTitle: "Prikaži pozadinske slike na karticama",
   cardCoverToggleDescription:

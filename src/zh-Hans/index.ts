@@ -2459,6 +2459,7 @@ const zhHans = {
   versionSuccessfullyRestored: "版本恢复成功",
   versionRestoredBy: "版本由 %{userName} 恢复",
   failedToRestoreVersion: "恢复版本失败",
+  currentVersion: "当前版本",
   cardCoverImageSettingsTitle: "卡片背景图片",
   cardCoverToggleTitle: "在卡片上显示背景图片",
   cardCoverToggleDescription:
