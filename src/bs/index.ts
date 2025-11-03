@@ -2644,6 +2644,7 @@ const bs: Translations = {
   restoreThisVersionConfirmDescription:
     "Vaša trenutna stranica će biti zamijenjena ovom verzijom od %{date}.",
   currentVersion: "Trenutna verzija",
+  versionLockedDescription: "Molimo nadogradite svoj plan da biste vidjeli verzije starije od %{days} dana",
   cardCoverImageSettingsTitle: "Pozadinske slike kartica",
   cardCoverToggleTitle: "Prikaži pozadinske slike na karticama",
   cardCoverToggleDescription:

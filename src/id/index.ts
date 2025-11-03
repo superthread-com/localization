@@ -2671,6 +2671,7 @@ const id = {
   versionRestoredBy: "Versi dipulihkan oleh %{userName}",
   failedToRestoreVersion: "Gagal memulihkan versi",
   currentVersion: "Versi saat ini",
+  versionLockedDescription: "Silakan tingkatkan paket Anda untuk melihat versi yang lebih lama dari %{days} hari",
   cardCoverImageSettingsTitle: "Gambar latar belakang kartu",
   cardCoverToggleTitle: "Tampilkan gambar latar belakang pada kartu",
   cardCoverToggleDescription:

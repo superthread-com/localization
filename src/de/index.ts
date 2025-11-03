@@ -2724,6 +2724,7 @@ const de = {
   restoreThisVersionConfirmDescription:
     "Ihre aktuelle Seite wird durch diese Version vom %{date} ersetzt.",
   currentVersion: "Aktuelle Version",
+  versionLockedDescription: "Bitte aktualisieren Sie Ihren Plan, um Versionen älter als %{days} Tage anzuzeigen",
   cardCoverImageSettingsTitle: "Karten-Hintergrundbilder",
   cardCoverToggleTitle: "Hintergrsundbilder auf Karten anzeigen",
   cardCoverToggleDescription:
