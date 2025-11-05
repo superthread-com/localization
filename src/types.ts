@@ -2331,6 +2331,16 @@ export enum TranslationKeys {
   MeetingOrganiser = "meetingOrganiser",
   CoverImageRemoved = "coverImageRemoved",
   CoverImageSet = "coverImageSet",
+  AnyoneWithThisLinkCanViewBoard = "anyoneWithThisLinkCanViewBoard",
+  CreateAViewOnlyVersionOfBoard = "createAViewOnlyVersionOfBoard",
+  BoardIsSharedPublicly = "boardIsSharedPublicly",
+  LearnMoreAboutPublicBoards = "learnMoreAboutPublicBoards",
+  TrySuperthread = "trySuperthread",
+  ShowBoardInfo = "showBoardInfo",
+  WeCouldntFindThatBoard = "weCouldntFindThatBoard",
+  ItMayHaveBeenUnpublished = "itMayHaveBeenUnpublished",
+  AllInOneProjectManagement = "allInOneProjectManagement",
+  TryItNow = "tryItNow",
 }
 
 export type Translations = Record<TranslationKeys, string>;

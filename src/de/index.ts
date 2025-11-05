@@ -2741,6 +2741,20 @@ const de = {
   meetingOrganiser: "Besprechungsorganisator",
   coverImageRemoved: "Hintergrundbild entfernt",
   coverImageSet: "Hintergrundbild festgelegt",
+  anyoneWithThisLinkCanViewBoard:
+    "Jeder mit diesem Link kann das Board ansehen",
+  createAViewOnlyVersionOfBoard:
+    "Erstelle eine schreibgeschützte Version des Boards auf einem teilbaren Link",
+  boardIsSharedPublicly: "Dieses Board wird öffentlich im Web geteilt.",
+  learnMoreAboutPublicBoards:
+    "Erfahren Sie mehr über Superthread-öffentliche Boards",
+  trySuperthread: "Superthread ausprobieren",
+  showBoardInfo: "Board-Info anzeigen",
+  weCouldntFindThatBoard: "Wir konnten dieses Board nicht finden",
+  itMayHaveBeenUnpublished:
+    "Es wurde möglicherweise nicht veröffentlicht, oder die URL ist falsch.",
+  allInOneProjectManagement: "Alles-in-einem-Projektmanagement.",
+  tryItNow: "Jetzt ausprobieren",
 };
 
 export default de as Translations;

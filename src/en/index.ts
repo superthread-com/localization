@@ -2616,6 +2616,18 @@ const en = {
   meetingOrganiser: "Meeting organiser",
   coverImageRemoved: "Cover image removed",
   coverImageSet: "Cover image set",
+  anyoneWithThisLinkCanViewBoard: "Anyone with this link can view the board",
+  createAViewOnlyVersionOfBoard:
+    "Create a view-only version of the board on a shareable link",
+  boardIsSharedPublicly: "This board is shared publicly on the web.",
+  learnMoreAboutPublicBoards: "Learn more about Superthread public boards",
+  trySuperthread: "Try Superthread",
+  showBoardInfo: "Show board info",
+  weCouldntFindThatBoard: "We couldn't find that board",
+  itMayHaveBeenUnpublished:
+    "It may have been unpublished, or the URL may be wrong.",
+  allInOneProjectManagement: "All-in-one project management.",
+  tryItNow: "Try it now",
 };
 
 export default en as Translations;
