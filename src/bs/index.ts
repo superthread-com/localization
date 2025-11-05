@@ -2661,6 +2661,17 @@ const bs: Translations = {
   meetingOrganiser: "Organizator sastanka",
   coverImageRemoved: "Pozadinska slika je uklonjena",
   coverImageSet: "Pozadinska slika je postavljena",
+  anyoneWithThisLinkCanViewBoard: "Svako ko ima ovaj link može vidjeti ploču",
+  createAViewOnlyVersionOfBoard:
+    "Kreirajte verziju ploče samo za pregled na dijeljivom linku",
+  boardIsSharedPublicly: "Ova ploča je javno dijeljena na web-u.",
+  learnMoreAboutPublicBoards: "Saznajte više o Superthread javnim pločama",
+  trySuperthread: "Isprobajte Superthread",
+  showBoardInfo: "Prikaži informacije o ploči",
+  weCouldntFindThatBoard: "Nismo mogli pronaći tu ploču",
+  itMayHaveBeenUnpublished: "Možda je poništena objava, ili je URL pogrešan.",
+  allInOneProjectManagement: "Sve-u-jednom upravljanje projektima.",
+  tryItNow: "Isprobajte sada",
 };
 
 export default bs;

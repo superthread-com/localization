@@ -2590,6 +2590,18 @@ const ko = {
   meetingOrganiser: "회의 주최자",
   coverImageRemoved: "배경 이미지가 제거되었습니다",
   coverImageSet: "배경 이미지가 설정되었습니다",
+  anyoneWithThisLinkCanViewBoard:
+    "이 링크가 있는 사람은 누구나 보드를 볼 수 있습니다",
+  createAViewOnlyVersionOfBoard:
+    "공유 가능한 링크에서 보드의 보기 전용 버전을 만드세요",
+  boardIsSharedPublicly: "이 보드는 웹에서 공개적으로 공유됩니다.",
+  learnMoreAboutPublicBoards: "Superthread 공개 보드에 대해 자세히 알아보기",
+  trySuperthread: "Superthread 체험하기",
+  showBoardInfo: "보드 정보 표시",
+  weCouldntFindThatBoard: "해당 보드를 찾을 수 없습니다",
+  itMayHaveBeenUnpublished: "게시가 취소되었거나 URL이 잘못되었을 수 있습니다.",
+  allInOneProjectManagement: "올인원 프로젝트 관리.",
+  tryItNow: "지금 체험하기",
 };
 
 export default ko as Translations;

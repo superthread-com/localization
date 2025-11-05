@@ -2473,6 +2473,16 @@ const zhHans = {
   meetingOrganiser: "会议组织者",
   coverImageRemoved: "背景图片已移除",
   coverImageSet: "背景图片已设置",
+  anyoneWithThisLinkCanViewBoard: "任何拥有此链接的人都可以查看看板",
+  createAViewOnlyVersionOfBoard: "在可分享的链接上创建看板的仅查看版本",
+  boardIsSharedPublicly: "此看板已在网络上公开分享。",
+  learnMoreAboutPublicBoards: "了解更多关于 Superthread 公开看板的信息",
+  trySuperthread: "试用 Superthread",
+  showBoardInfo: "显示看板信息",
+  weCouldntFindThatBoard: "我们找不到那个看板",
+  itMayHaveBeenUnpublished: "它可能已被取消发布，或者 URL 错误。",
+  allInOneProjectManagement: "一体化项目管理。",
+  tryItNow: "立即试用",
 };
 
 export default zhHans as Translations;

@@ -2685,6 +2685,20 @@ const id = {
   meetingOrganiser: "Penyelenggara rapat",
   coverImageRemoved: "Gambar latar belakang dihapus",
   coverImageSet: "Gambar latar belakang disetel",
+  anyoneWithThisLinkCanViewBoard:
+    "Siapa saja dengan tautan ini dapat melihat papan",
+  createAViewOnlyVersionOfBoard:
+    "Buat versi papan yang hanya dapat dilihat pada tautan yang dapat dibagikan",
+  boardIsSharedPublicly: "Papan ini dibagikan secara publik di web.",
+  learnMoreAboutPublicBoards:
+    "Pelajari lebih lanjut tentang papan publik Superthread",
+  trySuperthread: "Coba Superthread",
+  showBoardInfo: "Tampilkan info papan",
+  weCouldntFindThatBoard: "Kami tidak dapat menemukan papan itu",
+  itMayHaveBeenUnpublished:
+    "Mungkin telah tidak dipublikasikan, atau URL-nya salah.",
+  allInOneProjectManagement: "Manajemen proyek all-in-one.",
+  tryItNow: "Coba sekarang",
 };
 
 export default id as Translations;

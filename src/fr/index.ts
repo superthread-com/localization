@@ -2737,6 +2737,20 @@ const fr: Translations = {
   meetingOrganiser: "Organisateur de la réunion",
   coverImageRemoved: "Image de fond supprimée",
   coverImageSet: "Image de fond définie",
+  anyoneWithThisLinkCanViewBoard:
+    "Toute personne disposant de ce lien peut voir le tableau",
+  createAViewOnlyVersionOfBoard:
+    "Créer une version en lecture seule du tableau sur un lien partageable",
+  boardIsSharedPublicly: "Ce tableau est partagé publiquement sur le web.",
+  learnMoreAboutPublicBoards:
+    "En savoir plus sur les tableaux publics Superthread",
+  trySuperthread: "Essayer Superthread",
+  showBoardInfo: "Afficher les informations du tableau",
+  weCouldntFindThatBoard: "Nous n'avons pas pu trouver ce tableau",
+  itMayHaveBeenUnpublished:
+    "Il se peut qu'il ait été dépublié, ou que l'URL soit erronée.",
+  allInOneProjectManagement: "Gestion de projet tout-en-un.",
+  tryItNow: "Essayez-le maintenant",
 };
 
 export default fr as Translations;

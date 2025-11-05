@@ -2476,6 +2476,16 @@ const zhHant = {
   meetingOrganiser: "會議主辦人",
   coverImageRemoved: "背景圖片已移除",
   coverImageSet: "背景圖片已設定",
+  anyoneWithThisLinkCanViewBoard: "任何擁有此連結的人都可以查看看板",
+  createAViewOnlyVersionOfBoard: "在可分享的連結上建立看板的僅查看版本",
+  boardIsSharedPublicly: "此看板已在網路公開分享。",
+  learnMoreAboutPublicBoards: "深入瞭解 Superthread 公開看板",
+  trySuperthread: "試用 Superthread",
+  showBoardInfo: "顯示看板資訊",
+  weCouldntFindThatBoard: "我們找不到該看板",
+  itMayHaveBeenUnpublished: "它可能已被取消發佈，或 URL 錯誤。",
+  allInOneProjectManagement: "一體化專案管理。",
+  tryItNow: "立即試用",
 };
 
 export default zhHant as Translations;

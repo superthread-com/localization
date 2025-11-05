@@ -2712,6 +2712,20 @@ const ptBR = {
   meetingOrganiser: "Organizador da reunião",
   coverImageRemoved: "Imagem de fundo removida",
   coverImageSet: "Imagem de fundo definida",
+  anyoneWithThisLinkCanViewBoard:
+    "Qualquer pessoa com este link pode visualizar o quadro",
+  createAViewOnlyVersionOfBoard:
+    "Criar uma versão somente para visualização do quadro em um link compartilhável",
+  boardIsSharedPublicly: "Este quadro é compartilhado publicamente na web.",
+  learnMoreAboutPublicBoards:
+    "Saiba mais sobre os quadros públicos do Superthread",
+  trySuperthread: "Experimente o Superthread",
+  showBoardInfo: "Mostrar informações do quadro",
+  weCouldntFindThatBoard: "Não conseguimos encontrar esse quadro",
+  itMayHaveBeenUnpublished:
+    "Pode ter sido despublicado ou a URL pode estar errada.",
+  allInOneProjectManagement: "Gerenciamento de projetos tudo em um.",
+  tryItNow: "Experimente agora",
 };
 
 export default ptBR as Translations;
