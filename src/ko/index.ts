@@ -2602,6 +2602,7 @@ const ko = {
   itMayHaveBeenUnpublished: "게시가 취소되었거나 URL이 잘못되었을 수 있습니다.",
   allInOneProjectManagement: "올인원 프로젝트 관리.",
   tryItNow: "지금 체험하기",
+  thisPublicBoardIsViewOnly: "이 공개 보드는 보기 전용입니다.",
 };
 
 export default ko as Translations;

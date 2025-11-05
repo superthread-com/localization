@@ -2483,6 +2483,7 @@ const zhHans = {
   itMayHaveBeenUnpublished: "它可能已被取消发布，或者 URL 错误。",
   allInOneProjectManagement: "一体化项目管理。",
   tryItNow: "立即试用",
+  thisPublicBoardIsViewOnly: "此公共板仅供查看。",
 };
 
 export default zhHans as Translations;

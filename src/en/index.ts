@@ -2628,6 +2628,7 @@ const en = {
     "It may have been unpublished, or the URL may be wrong.",
   allInOneProjectManagement: "All-in-one project management.",
   tryItNow: "Try it now",
+  thisPublicBoardIsViewOnly: "This public board is view only.",
 };
 
 export default en as Translations;

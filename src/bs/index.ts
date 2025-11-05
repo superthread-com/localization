@@ -2672,6 +2672,7 @@ const bs: Translations = {
   itMayHaveBeenUnpublished: "Možda je poništena objava, ili je URL pogrešan.",
   allInOneProjectManagement: "Sve-u-jednom upravljanje projektima.",
   tryItNow: "Isprobajte sada",
+  thisPublicBoardIsViewOnly: "Ova javna ploča je samo za pregled.",
 };
 
 export default bs;

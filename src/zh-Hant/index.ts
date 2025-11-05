@@ -2486,6 +2486,7 @@ const zhHant = {
   itMayHaveBeenUnpublished: "它可能已被取消發佈，或 URL 錯誤。",
   allInOneProjectManagement: "一體化專案管理。",
   tryItNow: "立即試用",
+  thisPublicBoardIsViewOnly: "此公共板僅供查看。",
 };
 
 export default zhHant as Translations;

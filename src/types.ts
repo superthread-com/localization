@@ -2319,7 +2319,7 @@ export enum TranslationKeys {
   VersionRestoredBy = "versionRestoredBy",
   FailedToRestoreVersion = "failedToRestoreVersion",
   CurrentVersion = "currentVersion",
-  versionLockedDescription = "versionLockedDescription",
+  VersionLockedDescription = "versionLockedDescription",
   CardCoverImageSettingsTitle = "cardCoverImageSettingsTitle",
   CardCoverToggleTitle = "cardCoverToggleTitle",
   CardCoverToggleDescription = "cardCoverToggleDescription",
@@ -2341,6 +2341,7 @@ export enum TranslationKeys {
   ItMayHaveBeenUnpublished = "itMayHaveBeenUnpublished",
   AllInOneProjectManagement = "allInOneProjectManagement",
   TryItNow = "tryItNow",
+  ThisPublicBoardIsViewOnly = "thisPublicBoardIsViewOnly",
 }
 
 export type Translations = Record<TranslationKeys, string>;

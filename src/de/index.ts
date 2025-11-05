@@ -2755,6 +2755,7 @@ const de = {
     "Es wurde möglicherweise nicht veröffentlicht, oder die URL ist falsch.",
   allInOneProjectManagement: "Alles-in-einem-Projektmanagement.",
   tryItNow: "Jetzt ausprobieren",
+  thisPublicBoardIsViewOnly: "Dieses öffentliche Board ist schreibgeschützt.",
 };
 
 export default de as Translations;
