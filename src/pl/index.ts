@@ -2684,6 +2684,7 @@ const pl = {
     "Może została cofnięta z publikacji lub adres URL jest błędny.",
   allInOneProjectManagement: "Wszystko w jednym zarządzanie projektami.",
   tryItNow: "Wypróbuj teraz",
+  thisPublicBoardIsViewOnly: "Ta publiczna tablica jest tylko do odczytu.",
 };
 
 export default pl as Translations;

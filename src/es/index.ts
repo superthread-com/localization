@@ -2739,6 +2739,7 @@ const es = {
     "Puede que haya sido despublicado, o la URL puede estar equivocada.",
   allInOneProjectManagement: "Gestión de proyectos todo en uno.",
   tryItNow: "Pruébalo ahora",
+  thisPublicBoardIsViewOnly: "Este tablero público es de solo lectura.",
 };
 
 export default es as Translations;

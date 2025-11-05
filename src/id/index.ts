@@ -2699,6 +2699,7 @@ const id = {
     "Mungkin telah tidak dipublikasikan, atau URL-nya salah.",
   allInOneProjectManagement: "Manajemen proyek all-in-one.",
   tryItNow: "Coba sekarang",
+  thisPublicBoardIsViewOnly: "Papan publik ini hanya dapat dilihat.",
 };
 
 export default id as Translations;

@@ -2751,6 +2751,7 @@ const fr: Translations = {
     "Il se peut qu'il ait été dépublié, ou que l'URL soit erronée.",
   allInOneProjectManagement: "Gestion de projet tout-en-un.",
   tryItNow: "Essayez-le maintenant",
+  thisPublicBoardIsViewOnly: "Ce tableau public est en lecture seule.",
 };
 
 export default fr as Translations;

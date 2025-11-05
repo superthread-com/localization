@@ -2726,6 +2726,7 @@ const ptBR = {
     "Pode ter sido despublicado ou a URL pode estar errada.",
   allInOneProjectManagement: "Gerenciamento de projetos tudo em um.",
   tryItNow: "Experimente agora",
+  thisPublicBoardIsViewOnly: "Este quadro público é apenas para visualização.",
 };
 
 export default ptBR as Translations;
