@@ -1864,6 +1864,25 @@ const fr: Translations = {
     "Capturez les connaissances et les idées avec des pages",
   ["set_your_name.title"]: "Définir votre nom",
   ["set_your_name.tooltip"]: "Votre nom sera utilisé dans toute l'application",
+  ["create_quick_card.title"]: "Raccourci carte rapide (C)",
+  ["create_quick_card.tooltip"]:
+    "Appuyez sur la touche C n'importe où pour créer une carte",
+  ["create_quick_page.title"]: "Raccourci page rapide (P)",
+  ["create_quick_page.tooltip"]:
+    "Appuyez sur la touche P n'importe où pour créer une page",
+  ["open_search_modal.title"]: "Trouver quelque chose avec ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Ouvrez rapidement la recherche n'importe où pour retrouver vos ressources",
+  ["check_your_notifications.title"]:
+    "Consultez votre boîte de réception pour les notifications",
+  ["check_your_notifications.tooltip"]:
+    "Suivez tout ce à quoi vous êtes abonné dans la boîte de réception",
+  ["change_board_layout.title"]: "Essayez différentes dispositions de tableau",
+  ["change_board_layout.tooltip"]:
+    "Découvrez comment différentes dispositions peuvent vous aider à organiser votre travail",
+  ["try_slash_command.title"]: "Essayez une commande slash",
+  ["try_slash_command.tooltip"]:
+    "Tapez / pour voir la liste des commandes disponibles",
   aCardMustHaveATitle: "Une carte doit avoir un titre",
   showAll: "Tout afficher",
   showLess: "Afficher moins",

@@ -1759,6 +1759,22 @@ const ko = {
   ["create_page.tooltip"]: "페이지로 지식과 생각을 캡처하세요",
   ["set_your_name.title"]: "이름 설정",
   ["set_your_name.tooltip"]: "앱 전반에서 사용자의 이름이 사용됩니다",
+  ["create_quick_card.title"]: "빠른 카드 단축키 (C)",
+  ["create_quick_card.tooltip"]: "어디서든 C 키를 눌러 카드를 만드세요",
+  ["create_quick_page.title"]: "빠른 페이지 단축키 (P)",
+  ["create_quick_page.tooltip"]: "어디서든 P 키를 눌러 페이지를 생성하세요",
+  ["open_search_modal.title"]: "⌘+K로 무언가 찾기",
+  ["open_search_modal.tooltip"]:
+    "어디서나 검색을 빠르게 열어 리소스를 찾아보세요",
+  ["check_your_notifications.title"]: "알림을 위해 받은 편지함을 확인하세요",
+  ["check_your_notifications.tooltip"]:
+    "구독 중인 모든 내용을 받은 편지함에서 확인하세요",
+  ["change_board_layout.title"]: "다양한 보드 레이아웃을 시도해 보세요",
+  ["change_board_layout.tooltip"]:
+    "서로 다른 레이아웃이 업무 관리에 어떻게 도움이 되는지 확인하세요",
+  ["try_slash_command.title"]: "슬래시 명령을 사용해 보세요",
+  ["try_slash_command.tooltip"]:
+    "/ 를 입력해 사용 가능한 명령 목록을 확인하세요",
   aCardMustHaveATitle: "카드는 반드시 제목이 있어야 합니다",
   showAll: "모두 보기",
   showLess: "간단히 보기",

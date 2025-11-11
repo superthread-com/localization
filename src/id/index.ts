@@ -1817,6 +1817,25 @@ const id = {
   ["create_page.tooltip"]: "Tangkap pengetahuan dan pemikiran dengan halaman",
   ["set_your_name.title"]: "Atur nama Anda",
   ["set_your_name.tooltip"]: "Nama Anda akan digunakan di seluruh aplikasi",
+  ["create_quick_card.title"]: "Jalan pintas kartu cepat (C)",
+  ["create_quick_card.tooltip"]:
+    "Tekan tombol C di mana saja untuk membuat kartu",
+  ["create_quick_page.title"]: "Jalan pintas halaman cepat (P)",
+  ["create_quick_page.tooltip"]:
+    "Tekan tombol P di mana saja untuk membuat halaman",
+  ["open_search_modal.title"]: "Temukan sesuatu dengan ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Buka pencarian dengan cepat di mana saja untuk mencari sumber daya Anda",
+  ["check_your_notifications.title"]:
+    "Periksa kotak masuk Anda untuk notifikasi",
+  ["check_your_notifications.tooltip"]:
+    "Lacak semua yang Anda ikuti di kotak masuk",
+  ["change_board_layout.title"]: "Coba tata letak papan yang berbeda",
+  ["change_board_layout.tooltip"]:
+    "Temukan bagaimana tata letak yang berbeda dapat membantu Anda mengelola pekerjaan",
+  ["try_slash_command.title"]: "Coba perintah slash",
+  ["try_slash_command.tooltip"]:
+    "Ketik / untuk melihat daftar perintah yang tersedia",
   aCardMustHaveATitle: "Kartu harus memiliki judul",
   showAll: "Tampilkan semua",
   showLess: "Tampilkan lebih sedikit",
