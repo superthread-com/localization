@@ -2496,6 +2496,22 @@ const pl = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Wsparcie klienta",
   ["onboarding.other"]: "Inne",
+  ["onboardingListTasks.committed.heading"]:
+    "Jakie zadanie masz jeszcze nierozpoczęte?",
+  ["onboardingListTasks.started.heading"]: "Jakie zadanie masz już rozpoczęte?",
+  ["onboardingListTasks.completed.heading"]:
+    "Jakie zadanie masz już ukończone?",
+  ["onboardingListTasks.committed.0"]: "Oceń Superthread dla mojego zespołu 🧐",
+  ["onboardingListTasks.committed.1"]: "Anuluj moją subskrypcję Trello 🙈",
+  ["onboardingListTasks.committed.2"]: "Kup pączki dla zespołu 🍩",
+  ["onboardingListTasks.started.0"]: "Moja góra wydatków 🤑",
+  ["onboardingListTasks.started.1"]: "Planowanie mojej następnej podróży 🏝️️",
+  ["onboardingListTasks.started.2"]: "Zdobycie K2 🏔️",
+  ["onboardingListTasks.completed.0"]: "Odnowiona subskrypcja ChatGPT ✨",
+  ["onboardingListTasks.completed.1"]:
+    "Opublikowano 100% autentyczny (bez AI) post na LinkedIn",
+  ["onboardingListTasks.completed.2"]:
+    "Zatrudnić prawdziwego menedżera mediów społecznościowych 😅",
   browseArchivedCards: "Przeglądaj zarchiwizowane karty",
   cardIsArchived: "Karta jest archiwizowana",
   yourSessionHasTimedOut: "Twoja sesja wygasła.",

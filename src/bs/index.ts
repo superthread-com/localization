@@ -2484,6 +2484,21 @@ const bs: Translations = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Korisnička podrška",
   ["onboarding.other"]: "Ostalo",
+  ["onboardingListTasks.committed.heading"]:
+    "Koji je zadatak koji još nisi započeo?",
+  ["onboardingListTasks.started.heading"]: "Koji je zadatak koji si započeo?",
+  ["onboardingListTasks.completed.heading"]: "Koji je zadatak koji si završio?",
+  ["onboardingListTasks.committed.0"]: "Procijeni Superthread za moj tim 🧐",
+  ["onboardingListTasks.committed.1"]: "Otkaži moju Trello pretplatu 🙈",
+  ["onboardingListTasks.committed.2"]: "Kupi krofne za tim 🍩",
+  ["onboardingListTasks.started.0"]: "Moja gomila troškova 🤑",
+  ["onboardingListTasks.started.1"]: "Planiram svoje sljedeće putovanje 🏝️️",
+  ["onboardingListTasks.started.2"]: "Popeti se na K2 🏔️",
+  ["onboardingListTasks.completed.0"]: "Obnovljena ChatGPT pretplata ✨",
+  ["onboardingListTasks.completed.1"]:
+    "Objavio 100% autentičan (ne AI) LinkedIn post",
+  ["onboardingListTasks.completed.2"]:
+    "Zaposli pravog menadžera društvenih mreža 😅",
   browseArchivedCards: "Pregledaj arhivirane kartice",
   cardIsArchived: "Kartica je arhivirana",
   yourSessionHasTimedOut: "Vaša sesija je istekla.",

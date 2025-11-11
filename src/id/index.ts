@@ -2512,6 +2512,22 @@ const id = {
   ["onboarding.marketing"]: "Pemasaran",
   ["onboarding.customer_support"]: "Dukungan pelanggan",
   ["onboarding.other"]: "Lainnya",
+  ["onboardingListTasks.committed.heading"]: "Tugas apa yang belum kamu mulai?",
+  ["onboardingListTasks.started.heading"]: "Tugas apa yang sudah kamu mulai?",
+  ["onboardingListTasks.completed.heading"]:
+    "Tugas apa yang sudah kamu selesaikan?",
+  ["onboardingListTasks.committed.0"]: "Evaluasi Superthread untuk timku 🧐",
+  ["onboardingListTasks.committed.1"]: "Batalkan langganan Trello saya 🙈",
+  ["onboardingListTasks.committed.2"]: "Belikan donat untuk tim 🍩",
+  ["onboardingListTasks.started.0"]: "Gunungan pengeluaran saya 🤑",
+  ["onboardingListTasks.started.1"]:
+    "Merencanakan perjalanan saya berikutnya 🏝️️",
+  ["onboardingListTasks.started.2"]: "Mencapai puncak K2 🏔️",
+  ["onboardingListTasks.completed.0"]: "Langganan ChatGPT diperpanjang ✨",
+  ["onboardingListTasks.completed.1"]:
+    "Memposting LinkedIn 100% autentik (tanpa AI)",
+  ["onboardingListTasks.completed.2"]:
+    "Mempekerjakan manajer media sosial sungguhan 😅",
   browseArchivedCards: "Jelajahi kartu yang diarsipkan",
   cardIsArchived: "Kartu diarsipkan",
   yourSessionHasTimedOut: "Sesi Anda telah berakhir.",
