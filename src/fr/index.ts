@@ -2540,6 +2540,21 @@ const fr: Translations = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Support client",
   ["onboarding.other"]: "Autre",
+  ["onboardingListTasks.committed.heading"]:
+    "Quelle tâche n’as-tu pas encore commencée?",
+  ["onboardingListTasks.started.heading"]: "Quelle tâche as-tu commencée?",
+  ["onboardingListTasks.completed.heading"]: "Quelle tâche as-tu terminée?",
+  ["onboardingListTasks.committed.0"]: "Évaluer Superthread pour mon équipe 🧐",
+  ["onboardingListTasks.committed.1"]: "Annuler mon abonnement Trello 🙈",
+  ["onboardingListTasks.committed.2"]: "Acheter des donuts pour l’équipe 🍩",
+  ["onboardingListTasks.started.0"]: "Ma montagne de dépenses 🤑",
+  ["onboardingListTasks.started.1"]: "Planifier mon prochain voyage 🏝️️",
+  ["onboardingListTasks.started.2"]: "Gravir le K2 🏔️",
+  ["onboardingListTasks.completed.0"]: "Abonnement ChatGPT renouvelé ✨",
+  ["onboardingListTasks.completed.1"]:
+    "Publié un post LinkedIn 100% authentique (sans IA)",
+  ["onboardingListTasks.completed.2"]:
+    "Embaucher un vrai social media manager 😅",
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",
   yourSessionHasTimedOut: "Votre session a expiré.",

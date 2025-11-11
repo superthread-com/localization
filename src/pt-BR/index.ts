@@ -2517,6 +2517,22 @@ const ptBR = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Suporte ao cliente",
   ["onboarding.other"]: "Outro",
+  ["onboardingListTasks.committed.heading"]:
+    "Qual tarefa você ainda não começou?",
+  ["onboardingListTasks.started.heading"]: "Qual tarefa você começou?",
+  ["onboardingListTasks.completed.heading"]: "Qual tarefa você concluiu?",
+  ["onboardingListTasks.committed.0"]:
+    "Avaliar o Superthread para minha equipe 🧐",
+  ["onboardingListTasks.committed.1"]: "Cancelar minha assinatura do Trello 🙈",
+  ["onboardingListTasks.committed.2"]: "Comprar donuts para a equipe 🍩",
+  ["onboardingListTasks.started.0"]: "Minha montanha de despesas 🤑",
+  ["onboardingListTasks.started.1"]: "Planejar minha próxima viagem 🏝️️",
+  ["onboardingListTasks.started.2"]: "Chegar ao cume do K2 🏔️",
+  ["onboardingListTasks.completed.0"]: "Assinatura do ChatGPT renovada ✨",
+  ["onboardingListTasks.completed.1"]:
+    "Publiquei um post no LinkedIn 100% autêntico (sem IA)",
+  ["onboardingListTasks.completed.2"]:
+    "Contratar um gerente de mídias sociais de verdade 😅",
   browseArchivedCards: "Navegar por cartões arquivados",
   cardIsArchived: "Cartão está arquivado",
   yourSessionHasTimedOut: "Sua sessão expirou.",
