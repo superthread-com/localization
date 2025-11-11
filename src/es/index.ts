@@ -1854,6 +1854,25 @@ const es = {
   ["create_page.tooltip"]: "Captura conocimientos e ideas con páginas",
   ["set_your_name.title"]: "Establecer tu nombre",
   ["set_your_name.tooltip"]: "Tu nombre se usará en toda la aplicación",
+  ["create_quick_card.title"]: "Atajo rápido para tarjeta (C)",
+  ["create_quick_card.tooltip"]:
+    "Presiona la tecla C en cualquier lugar para crear una tarjeta",
+  ["create_quick_page.title"]: "Atajo rápido para página (P)",
+  ["create_quick_page.tooltip"]:
+    "Presiona la tecla P en cualquier lugar para crear una página",
+  ["open_search_modal.title"]: "Encuentra algo con ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Abre rápidamente la búsqueda en cualquier lugar para encontrar tus recursos",
+  ["check_your_notifications.title"]:
+    "Revisa tu bandeja de entrada para ver las notificaciones",
+  ["check_your_notifications.tooltip"]:
+    "Mantén un seguimiento de todo a lo que estás suscrito en la bandeja de entrada",
+  ["change_board_layout.title"]: "Prueba diferentes diseños de tablero",
+  ["change_board_layout.tooltip"]:
+    "Descubre cómo diferentes diseños pueden ayudarte a gestionar tu trabajo",
+  ["try_slash_command.title"]: "Prueba un comando slash",
+  ["try_slash_command.tooltip"]:
+    "Escribe / para ver la lista de comandos disponibles",
   aCardMustHaveATitle: "Una tarjeta debe tener un título",
   showAll: "Mostrar todo",
   showLess: "Mostrar menos",
