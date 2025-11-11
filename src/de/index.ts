@@ -1863,6 +1863,25 @@ const de = {
   ["create_page.tooltip"]: "Erfasse Wissen und Gedanken mit Seiten.",
   ["set_your_name.title"]: "Deinen Namen festlegen",
   ["set_your_name.tooltip"]: "Dein Name wird in der gesamten App verwendet.",
+  ["create_quick_card.title"]: "Schnellkarten-Shortcut (C)",
+  ["create_quick_card.tooltip"]:
+    "Drücke die C-Taste überall, um eine Karte zu erstellen.",
+  ["create_quick_page.title"]: "Schnellseiten-Shortcut (P)",
+  ["create_quick_page.tooltip"]:
+    "Drücke die P-Taste überall, um eine Seite zu erstellen.",
+  ["open_search_modal.title"]: "Finde etwas mit ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Öffne überall schnell die Suche, um deine Ressourcen zu durchsuchen.",
+  ["check_your_notifications.title"]:
+    "Prüfe deinen Posteingang auf Benachrichtigungen.",
+  ["check_your_notifications.tooltip"]:
+    "Behalte alles im Blick, was du abonniert hast, indem du den Posteingang nutzt.",
+  ["change_board_layout.title"]: "Probiere verschiedene Board-Layouts aus",
+  ["change_board_layout.tooltip"]:
+    "Entdecke, wie unterschiedliche Layouts dir helfen können, deine Arbeit zu organisieren.",
+  ["try_slash_command.title"]: "Probiere einen Slash-Befehl aus",
+  ["try_slash_command.tooltip"]:
+    "Tippe /, um eine Liste der verfügbaren Befehle zu sehen.",
   aCardMustHaveATitle: "Eine Karte muss einen Titel haben.",
   showAll: "Alle anzeigen",
   showLess: "Weniger anzeigen",

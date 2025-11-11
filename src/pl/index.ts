@@ -1808,6 +1808,25 @@ const pl = {
   ["create_page.tooltip"]: "Zapisuj wiedzę i myśli za pomocą stron",
   ["set_your_name.title"]: "Ustaw swoje imię",
   ["set_your_name.tooltip"]: "Twoje imię będzie widoczne w całej aplikacji",
+  ["create_quick_card.title"]: "Skrót do szybkiego utworzenia karty (C)",
+  ["create_quick_card.tooltip"]:
+    "Naciśnij klawisz C w dowolnym miejscu, aby utworzyć kartę",
+  ["create_quick_page.title"]: "Skrót do szybkiego utworzenia strony (P)",
+  ["create_quick_page.tooltip"]:
+    "Naciśnij klawisz P w dowolnym miejscu, aby utworzyć stronę",
+  ["open_search_modal.title"]: "Znajdź coś za pomocą ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Szybko otwórz wyszukiwanie w dowolnym miejscu, aby przeszukać swoje zasoby",
+  ["check_your_notifications.title"]:
+    "Sprawdź skrzynkę odbiorczą, aby zobaczyć powiadomienia",
+  ["check_your_notifications.tooltip"]:
+    "Śledź wszystko, co subskrybujesz, w skrzynce odbiorczej",
+  ["change_board_layout.title"]: "Wypróbuj różne układy tablicy",
+  ["change_board_layout.tooltip"]:
+    "Odkryj, jak różne układy mogą pomóc Ci zarządzać pracą",
+  ["try_slash_command.title"]: "Wypróbuj polecenie ze slashem",
+  ["try_slash_command.tooltip"]:
+    "Wpisz /, aby zobaczyć listę dostępnych poleceń",
   aCardMustHaveATitle: "Karta musi mieć tytuł",
   showAll: "Pokaż wszystko",
   showLess: "Pokaż mniej",

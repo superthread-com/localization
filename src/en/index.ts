@@ -1774,6 +1774,21 @@ const en = {
   ["create_page.tooltip"]: "Capture knowledge and thoughts with pages",
   ["set_your_name.title"]: "Set your name",
   ["set_your_name.tooltip"]: "Your name will be used throughout the app",
+  ["create_quick_card.title"]: "Quick card shortcut (C)",
+  ["create_quick_card.tooltip"]: "Tap the C key anywhere to create a card",
+  ["create_quick_page.title"]: "Quick page shortcut (P)",
+  ["create_quick_page.tooltip"]: "Tap the P key anywhere to create a page",
+  ["open_search_modal.title"]: "Find something with ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Quickly open search anywhere to search for your resources",
+  ["check_your_notifications.title"]: "Check your inbox for notifications",
+  ["check_your_notifications.tooltip"]:
+    "Keep track of everything you’re subscribed to in the inbox",
+  ["change_board_layout.title"]: "Try different board layouts",
+  ["change_board_layout.tooltip"]:
+    "Discover how different layouts can help you manage your work",
+  ["try_slash_command.title"]: "Try a slash command",
+  ["try_slash_command.tooltip"]: "Type / to see a list of available commands",
   aCardMustHaveATitle: "A card must have a title",
   showAll: "Show all",
   showLess: "Show less",

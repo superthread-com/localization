@@ -1839,6 +1839,25 @@ const ptBR = {
   ["create_page.tooltip"]: "Capture conhecimento e pensamentos com páginas",
   ["set_your_name.title"]: "Defina seu nome",
   ["set_your_name.tooltip"]: "Seu nome será usado em todo o aplicativo",
+  ["create_quick_card.title"]: "Atalho rápido para cartão (C)",
+  ["create_quick_card.tooltip"]:
+    "Toque na tecla C em qualquer lugar para criar um cartão",
+  ["create_quick_page.title"]: "Atalho rápido para página (P)",
+  ["create_quick_page.tooltip"]:
+    "Toque na tecla P em qualquer lugar para criar uma página",
+  ["open_search_modal.title"]: "Encontre algo com ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Abra rapidamente a busca em qualquer lugar para procurar seus recursos",
+  ["check_your_notifications.title"]:
+    "Verifique sua caixa de entrada para notificações",
+  ["check_your_notifications.tooltip"]:
+    "Acompanhe tudo em que você se inscreveu na caixa de entrada",
+  ["change_board_layout.title"]: "Experimente diferentes layouts de quadro",
+  ["change_board_layout.tooltip"]:
+    "Descubra como layouts diferentes podem ajudar você a organizar seu trabalho",
+  ["try_slash_command.title"]: "Experimente um comando barra",
+  ["try_slash_command.tooltip"]:
+    "Digite / para ver a lista de comandos disponíveis",
   aCardMustHaveATitle: "Um cartão deve ter um título",
   showAll: "Mostrar tudo",
   showLess: "Mostrar menos",

@@ -1838,6 +1838,23 @@ const bs: Translations = {
   ["create_page.tooltip"]: "Zabilježite znanje i misli sa stranicama",
   ["set_your_name.title"]: "Postavi svoje ime",
   ["set_your_name.tooltip"]: "Vaše ime će se koristiti u cijeloj aplikaciji",
+  ["create_quick_card.title"]: "Prečica za brzu karticu (C)",
+  ["create_quick_card.tooltip"]:
+    "Pritisni tipku C bilo gdje da napraviš karticu",
+  ["create_quick_page.title"]: "Prečica za brzu stranicu (P)",
+  ["create_quick_page.tooltip"]:
+    "Pritisni tipku P bilo gdje da napraviš stranicu",
+  ["open_search_modal.title"]: "Pronađi nešto pomoću ⌘+K",
+  ["open_search_modal.tooltip"]:
+    "Brzo otvori pretragu bilo gdje kako bi pronašao svoje resurse",
+  ["check_your_notifications.title"]: "Provjeri prijemnu poštu za obavještenja",
+  ["check_your_notifications.tooltip"]:
+    "Prati sve na šta si pretplaćen u prijemnoj pošti",
+  ["change_board_layout.title"]: "Isprobaj različite rasporede ploče",
+  ["change_board_layout.tooltip"]:
+    "Otkrij kako ti različiti rasporedi mogu pomoći da upravljaš radom",
+  ["try_slash_command.title"]: "Isprobaj slash komandu",
+  ["try_slash_command.tooltip"]: "Upiši / da vidiš listu dostupnih komandi",
   aCardMustHaveATitle: "Kartica mora imati naslov",
   showAll: "Prikaži sve",
   showLess: "Prikaži manje",
