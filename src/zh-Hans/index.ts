@@ -2510,6 +2510,16 @@ const zhHans = {
   allInOneProjectManagement: "一体化项目管理。",
   tryItNow: "立即试用",
   thisPublicBoardIsViewOnly: "此公共板仅供查看。",
+  customiseSidebar: "自定义侧边栏",
+  customiseSidebarFavouritesDescriptionOne: "您标记的卡片、页面、看板或视图",
+  customiseSidebarFavouritesDescriptionTwo: "将显示在此处。",
+  customiseSidebarYourSpacesDescription:
+    "您所属的空间将显示在此处。加入或离开空间以编辑此部分。",
+  sidebarUpdated: "侧边栏已更新",
+  myProfile: "我的个人资料",
+  sectionHiddenFromSidebar: "从侧边栏隐藏的部分",
+  pin: "固定",
+  sectionPinnedToSidebar: "固定到侧边栏的部分",
 };
 
 export default zhHans as Translations;

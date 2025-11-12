@@ -2789,6 +2789,17 @@ const fr: Translations = {
   allInOneProjectManagement: "Gestion de projet tout-en-un.",
   tryItNow: "Essayez-le maintenant",
   thisPublicBoardIsViewOnly: "Ce tableau public est en lecture seule.",
+  customiseSidebar: "Personnaliser la barre latérale",
+  customiseSidebarFavouritesDescriptionOne:
+    "Les cartes, pages, tableaux ou vues que vous",
+  customiseSidebarFavouritesDescriptionTwo: "s'afficheront ici.",
+  customiseSidebarYourSpacesDescription:
+    "Les espaces dont vous êtes membre sont affichés ici. Rejoignez ou quittez des espaces pour modifier cette section.",
+  sidebarUpdated: "Barre latérale mise à jour",
+  myProfile: "Mon profil",
+  sectionHiddenFromSidebar: "Section masquée de la barre latérale",
+  pin: "Épingler",
+  sectionPinnedToSidebar: "Section épinglée à la barre latérale",
 };
 
 export default fr as Translations;

@@ -2795,6 +2795,17 @@ const de = {
   allInOneProjectManagement: "Alles-in-einem-Projektmanagement.",
   tryItNow: "Jetzt ausprobieren",
   thisPublicBoardIsViewOnly: "Dieses öffentliche Board ist schreibgeschützt.",
+  customiseSidebar: "Sidebar anpassen",
+  customiseSidebarFavouritesDescriptionOne:
+    "Karten, Seiten, Boards oder Ansichten, die Sie",
+  customiseSidebarFavouritesDescriptionTwo: "werden hier angezeigt.",
+  customiseSidebarYourSpacesDescription:
+    "Arbeitsbereiche, in denen Sie Mitglied sind, werden hier angezeigt. Treten Sie Arbeitsbereichen bei oder verlassen Sie sie, um diesen Abschnitt zu bearbeiten.",
+  sidebarUpdated: "Sidebar aktualisiert",
+  myProfile: "Mein Profil",
+  sectionHiddenFromSidebar: "Abschnitt aus Sidebar ausgeblendet",
+  pin: "Anheften",
+  sectionPinnedToSidebar: "Abschnitt an Sidebar angeheftet",
 };
 
 export default de as Translations;

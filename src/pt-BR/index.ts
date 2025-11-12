@@ -2765,6 +2765,17 @@ const ptBR = {
   allInOneProjectManagement: "Gerenciamento de projetos tudo em um.",
   tryItNow: "Experimente agora",
   thisPublicBoardIsViewOnly: "Este quadro público é apenas para visualização.",
+  customiseSidebar: "Personalizar barra lateral",
+  customiseSidebarFavouritesDescriptionOne:
+    "Cartões, páginas, quadros ou visualizações que você",
+  customiseSidebarFavouritesDescriptionTwo: "serão exibidos aqui.",
+  customiseSidebarYourSpacesDescription:
+    "Os espaços dos quais você é membro são exibidos aqui. Entre ou saia de espaços para editar esta seção.",
+  sidebarUpdated: "Barra lateral atualizada",
+  myProfile: "Meu perfil",
+  sectionHiddenFromSidebar: "Seção oculta da barra lateral",
+  pin: "Fixar",
+  sectionPinnedToSidebar: "Seção fixada na barra lateral",
 };
 
 export default ptBR as Translations;

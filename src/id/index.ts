@@ -2738,6 +2738,17 @@ const id = {
   allInOneProjectManagement: "Manajemen proyek all-in-one.",
   tryItNow: "Coba sekarang",
   thisPublicBoardIsViewOnly: "Papan publik ini hanya dapat dilihat.",
+  customiseSidebar: "Sesuaikan bilah samping",
+  customiseSidebarFavouritesDescriptionOne:
+    "Kartu, halaman, papan, atau tampilan yang Anda",
+  customiseSidebarFavouritesDescriptionTwo: "akan ditampilkan di sini.",
+  customiseSidebarYourSpacesDescription:
+    "Ruang yang Anda ikuti ditampilkan di sini. Bergabung atau keluar dari ruang untuk mengedit bagian ini.",
+  sidebarUpdated: "Bilah samping diperbarui",
+  myProfile: "Profil saya",
+  sectionHiddenFromSidebar: "Bagian disembunyikan dari bilah samping",
+  pin: "Sematkan",
+  sectionPinnedToSidebar: "Bagian disematkan ke bilah samping",
 };
 
 export default id as Translations;

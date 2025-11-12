@@ -2776,6 +2776,17 @@ const es = {
   allInOneProjectManagement: "Gestión de proyectos todo en uno.",
   tryItNow: "Pruébalo ahora",
   thisPublicBoardIsViewOnly: "Este tablero público es de solo lectura.",
+  customiseSidebar: "Personalizar barra lateral",
+  customiseSidebarFavouritesDescriptionOne:
+    "Tarjetas, páginas, tableros o vistas que",
+  customiseSidebarFavouritesDescriptionTwo: "se mostrarán aquí.",
+  customiseSidebarYourSpacesDescription:
+    "Los espacios de los que eres miembro se muestran aquí. Únete o abandona espacios para editar esta sección.",
+  sidebarUpdated: "Barra lateral actualizada",
+  myProfile: "Mi perfil",
+  sectionHiddenFromSidebar: "Sección oculta de la barra lateral",
+  pin: "Fijar",
+  sectionPinnedToSidebar: "Sección fijada a la barra lateral",
 };
 
 export default es as Translations;

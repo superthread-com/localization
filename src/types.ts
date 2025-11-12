@@ -2368,6 +2368,15 @@ export enum TranslationKeys {
   AllInOneProjectManagement = "allInOneProjectManagement",
   TryItNow = "tryItNow",
   ThisPublicBoardIsViewOnly = "thisPublicBoardIsViewOnly",
+  CustomiseSidebar = "customiseSidebar",
+  CustomiseSidebarFavouritesDescriptionOne = "customiseSidebarFavouritesDescriptionOne",
+  CustomiseSidebarFavouritesDescriptionTwo = "customiseSidebarFavouritesDescriptionTwo",
+  CustomiseSidebarYourSpacesDescription = "customiseSidebarYourSpacesDescription",
+  SidebarUpdated = "sidebarUpdated",
+  MyProfile = "myProfile",
+  SectionHiddenFromSidebar = "sectionHiddenFromSidebar",
+  Pin = "pin",
+  SectionPinnedToSidebar = "sectionPinnedToSidebar",
 }
 
 export type Translations = Record<TranslationKeys, string>;
