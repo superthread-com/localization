@@ -2463,9 +2463,11 @@ const en = {
   ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
   ["onboarding.quote.1"]: "He who fails to plan is planning to fail.",
   ["onboarding.quote.author.1"]: "Winston Churchill",
-  ["onboarding.quote.2"]: "The most difficult thing is the decision to act, the rest is merely tenacity.",
+  ["onboarding.quote.2"]:
+    "The most difficult thing is the decision to act, the rest is merely tenacity.",
   ["onboarding.quote.author.2"]: "Amelia Earhart",
-  ["onboarding.quote.3"]: "For every minute spent organizing, an hour is earned.",
+  ["onboarding.quote.3"]:
+    "For every minute spent organizing, an hour is earned.",
   ["onboarding.quote.author.3"]: "Benjamin Franklin",
   ["onboarding.quote.4"]: "Talent wins games, but teamwork wins championships.",
   ["onboarding.quote.author.4"]: "Michael Jordan",

@@ -2531,17 +2531,23 @@ const id = {
     "Memposting LinkedIn 100% autentik (tanpa AI)",
   ["onboardingListTasks.completed.2"]:
     "Mempekerjakan manajer media sosial sungguhan 😅",
-  ["onboarding.quote.0"]: "Rencana itu tidak berharga, tetapi perencanaan adalah segalanya.",
+  ["onboarding.quote.0"]:
+    "Rencana itu tidak berharga, tetapi perencanaan adalah segalanya.",
   ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
-  ["onboarding.quote.1"]: "Dia yang gagal membuat rencana sedang merencanakan untuk gagal.",
+  ["onboarding.quote.1"]:
+    "Dia yang gagal membuat rencana sedang merencanakan untuk gagal.",
   ["onboarding.quote.author.1"]: "Winston Churchill",
-  ["onboarding.quote.2"]: "Hal yang paling sulit adalah keputusan untuk bertindak, sisanya hanyalah ketekunan.",
+  ["onboarding.quote.2"]:
+    "Hal yang paling sulit adalah keputusan untuk bertindak, sisanya hanyalah ketekunan.",
   ["onboarding.quote.author.2"]: "Amelia Earhart",
-  ["onboarding.quote.3"]: "Setiap menit yang dihabiskan untuk mengatur akan menghasilkan satu jam tambahan.",
+  ["onboarding.quote.3"]:
+    "Setiap menit yang dihabiskan untuk mengatur akan menghasilkan satu jam tambahan.",
   ["onboarding.quote.author.3"]: "Benjamin Franklin",
-  ["onboarding.quote.4"]: "Bakat memenangkan pertandingan, tetapi kerja sama tim memenangkan kejuaraan.",
+  ["onboarding.quote.4"]:
+    "Bakat memenangkan pertandingan, tetapi kerja sama tim memenangkan kejuaraan.",
   ["onboarding.quote.author.4"]: "Michael Jordan",
-  ["onboarding.quote.5"]: "Hidup benar-benar dimulai ketika kamu menata rumahmu.",
+  ["onboarding.quote.5"]:
+    "Hidup benar-benar dimulai ketika kamu menata rumahmu.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
   browseArchivedCards: "Jelajahi kartu yang diarsipkan",
   cardIsArchived: "Kartu diarsipkan",

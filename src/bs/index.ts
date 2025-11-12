@@ -2506,11 +2506,14 @@ const bs: Translations = {
   ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
   ["onboarding.quote.1"]: "Onaj ko ne planira, planira neuspjeh.",
   ["onboarding.quote.author.1"]: "Winston Churchill",
-  ["onboarding.quote.2"]: "Najteža stvar je donijeti odluku da se djeluje, ostalo je samo upornost.",
+  ["onboarding.quote.2"]:
+    "Najteža stvar je donijeti odluku da se djeluje, ostalo je samo upornost.",
   ["onboarding.quote.author.2"]: "Amelia Earhart",
-  ["onboarding.quote.3"]: "Za svaku minutu provedenu u organizaciji, dobija se sat vremena.",
+  ["onboarding.quote.3"]:
+    "Za svaku minutu provedenu u organizaciji, dobija se sat vremena.",
   ["onboarding.quote.author.3"]: "Benjamin Franklin",
-  ["onboarding.quote.4"]: "Talent pobjeđuje utakmice, ali timski rad osvaja prvenstva.",
+  ["onboarding.quote.4"]:
+    "Talent pobjeđuje utakmice, ali timski rad osvaja prvenstva.",
   ["onboarding.quote.author.4"]: "Michael Jordan",
   ["onboarding.quote.5"]: "Život zaista počinje kada dovedeš svoj dom u red.",
   ["onboarding.quote.author.5"]: "Marie Kondo",

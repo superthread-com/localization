@@ -2436,7 +2436,8 @@ const ko = {
   ["onboarding.quote.author.0"]: "드와이트 D. 아이젠하워",
   ["onboarding.quote.1"]: "계획하지 않는 자는 실패를 계획하는 것이다.",
   ["onboarding.quote.author.1"]: "윈스턴 처칠",
-  ["onboarding.quote.2"]: "가장 어려운 것은 행동하기로 결정하는 것이다. 나머지는 단지 끈기일 뿐이다.",
+  ["onboarding.quote.2"]:
+    "가장 어려운 것은 행동하기로 결정하는 것이다. 나머지는 단지 끈기일 뿐이다.",
   ["onboarding.quote.author.2"]: "아멜리아 에어하트",
   ["onboarding.quote.3"]: "정리하는 데 1분을 쓰면, 1시간을 버는 것이다.",
   ["onboarding.quote.author.3"]: "벤저민 프랭클린",

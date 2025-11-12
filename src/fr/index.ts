@@ -2577,17 +2577,22 @@ const fr: Translations = {
     "Publié un post LinkedIn 100% authentique (sans IA)",
   ["onboardingListTasks.completed.2"]:
     "Embaucher un vrai social media manager 😅",
-  ["onboarding.quote.0"]: "Les plans sont inutiles, mais la planification est essentielle.",
+  ["onboarding.quote.0"]:
+    "Les plans sont inutiles, mais la planification est essentielle.",
   ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
   ["onboarding.quote.1"]: "Celui qui ne planifie pas planifie son échec.",
   ["onboarding.quote.author.1"]: "Winston Churchill",
-  ["onboarding.quote.2"]: "La chose la plus difficile est de prendre la décision d’agir, le reste n’est qu’obstination.",
+  ["onboarding.quote.2"]:
+    "La chose la plus difficile est de prendre la décision d’agir, le reste n’est qu’obstination.",
   ["onboarding.quote.author.2"]: "Amelia Earhart",
-  ["onboarding.quote.3"]: "Chaque minute passée à s’organiser fait gagner une heure.",
+  ["onboarding.quote.3"]:
+    "Chaque minute passée à s’organiser fait gagner une heure.",
   ["onboarding.quote.author.3"]: "Benjamin Franklin",
-  ["onboarding.quote.4"]: "Le talent gagne des matchs, mais le travail d’équipe gagne des championnats.",
+  ["onboarding.quote.4"]:
+    "Le talent gagne des matchs, mais le travail d’équipe gagne des championnats.",
   ["onboarding.quote.author.4"]: "Michael Jordan",
-  ["onboarding.quote.5"]: "La vie commence véritablement quand on met de l’ordre chez soi.",
+  ["onboarding.quote.5"]:
+    "La vie commence véritablement quand on met de l’ordre chez soi.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",

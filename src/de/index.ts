@@ -2586,13 +2586,17 @@ const de = {
   ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
   ["onboarding.quote.1"]: "Wer es versäumt zu planen, plant zu scheitern.",
   ["onboarding.quote.author.1"]: "Winston Churchill",
-  ["onboarding.quote.2"]: "Das Schwierigste ist, die Entscheidung zu handeln, der Rest ist nur Beharrlichkeit.",
+  ["onboarding.quote.2"]:
+    "Das Schwierigste ist, die Entscheidung zu handeln, der Rest ist nur Beharrlichkeit.",
   ["onboarding.quote.author.2"]: "Amelia Earhart",
-  ["onboarding.quote.3"]: "Für jede Minute, die man mit Organisieren verbringt, gewinnt man eine Stunde.",
+  ["onboarding.quote.3"]:
+    "Für jede Minute, die man mit Organisieren verbringt, gewinnt man eine Stunde.",
   ["onboarding.quote.author.3"]: "Benjamin Franklin",
-  ["onboarding.quote.4"]: "Talent gewinnt Spiele, aber Teamarbeit gewinnt Meisterschaften.",
+  ["onboarding.quote.4"]:
+    "Talent gewinnt Spiele, aber Teamarbeit gewinnt Meisterschaften.",
   ["onboarding.quote.author.4"]: "Michael Jordan",
-  ["onboarding.quote.5"]: "Das Leben beginnt wirklich, wenn du dein Zuhause in Ordnung bringst.",
+  ["onboarding.quote.5"]:
+    "Das Leben beginnt wirklich, wenn du dein Zuhause in Ordnung bringst.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
   browseArchivedCards: "Archivierte Karten durchsuchen",
   cardIsArchived: "Karte ist archiviert",
