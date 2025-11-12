@@ -2635,6 +2635,17 @@ const ko = {
   allInOneProjectManagement: "올인원 프로젝트 관리.",
   tryItNow: "지금 체험하기",
   thisPublicBoardIsViewOnly: "이 공개 보드는 보기 전용입니다.",
+  customiseSidebar: "사이드바 사용자 지정",
+  customiseSidebarFavouritesDescriptionOne:
+    "즐겨찾기한 카드, 페이지, 보드 또는 보기",
+  customiseSidebarFavouritesDescriptionTwo: "가 여기에 표시됩니다.",
+  customiseSidebarYourSpacesDescription:
+    "멤버인 스페이스가 여기에 표시됩니다. 이 섹션을 편집하려면 스페이스에 참여하거나 나가세요.",
+  sidebarUpdated: "사이드바 업데이트됨",
+  myProfile: "내 프로필",
+  sectionHiddenFromSidebar: "사이드바에서 숨겨진 섹션",
+  pin: "고정",
+  sectionPinnedToSidebar: "사이드바에 고정된 섹션",
 };
 
 export default ko as Translations;

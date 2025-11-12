@@ -2662,6 +2662,17 @@ const en = {
   allInOneProjectManagement: "All-in-one project management.",
   tryItNow: "Try it now",
   thisPublicBoardIsViewOnly: "This public board is view only.",
+  customiseSidebar: "Customise sidebar",
+  customiseSidebarFavouritesDescriptionOne:
+    "Cards, pages, boards, or views that you",
+  customiseSidebarFavouritesDescriptionTwo: "will show here.",
+  customiseSidebarYourSpacesDescription:
+    "Spaces you are a member of are shown here. Join or leave spaces to edit this section.",
+  sidebarUpdated: "Sidebar updated",
+  myProfile: "My profile",
+  sectionHiddenFromSidebar: "Section hidden from sidebar",
+  pin: "Pin",
+  sectionPinnedToSidebar: "Section pinned to sidebar",
 };
 
 export default en as Translations;

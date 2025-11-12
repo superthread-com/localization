@@ -2723,6 +2723,17 @@ const pl = {
   allInOneProjectManagement: "Wszystko w jednym zarządzanie projektami.",
   tryItNow: "Wypróbuj teraz",
   thisPublicBoardIsViewOnly: "Ta publiczna tablica jest tylko do odczytu.",
+  customiseSidebar: "Dostosuj pasek boczny",
+  customiseSidebarFavouritesDescriptionOne:
+    "Karty, strony, tablice lub widoki, które",
+  customiseSidebarFavouritesDescriptionTwo: "zostaną tutaj wyświetlone.",
+  customiseSidebarYourSpacesDescription:
+    "Przestrzenie, w których jesteś członkiem, są tutaj wyświetlane. Dołącz do przestrzeni lub opuść je, aby edytować tę sekcję.",
+  sidebarUpdated: "Pasek boczny zaktualizowany",
+  myProfile: "Mój profil",
+  sectionHiddenFromSidebar: "Sekcja ukryta z paska bocznego",
+  pin: "Przypnij",
+  sectionPinnedToSidebar: "Sekcja przypięta do paska bocznego",
 };
 
 export default pl as Translations;

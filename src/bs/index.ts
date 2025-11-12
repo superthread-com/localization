@@ -2708,6 +2708,17 @@ const bs: Translations = {
   allInOneProjectManagement: "Sve-u-jednom upravljanje projektima.",
   tryItNow: "Isprobajte sada",
   thisPublicBoardIsViewOnly: "Ova javna ploča je samo za pregled.",
+  customiseSidebar: "Prilagodite bočnu traku",
+  customiseSidebarFavouritesDescriptionOne:
+    "Kartice, stranice, ploče ili prikazi koje",
+  customiseSidebarFavouritesDescriptionTwo: "će se prikazati ovdje.",
+  customiseSidebarYourSpacesDescription:
+    "Prostori kojima ste član prikazani su ovdje. Pridružite se ili napustite prostore da biste uredili ovaj odjeljak.",
+  sidebarUpdated: "Bočna traka ažurirana",
+  myProfile: "Moj profil",
+  sectionHiddenFromSidebar: "Odjeljak skriven iz bočne trake",
+  pin: "Zakači",
+  sectionPinnedToSidebar: "Odjeljak zakačen na bočnu traku",
 };
 
 export default bs;

@@ -2514,6 +2514,16 @@ const zhHant = {
   allInOneProjectManagement: "一體化專案管理。",
   tryItNow: "立即試用",
   thisPublicBoardIsViewOnly: "此公共板僅供查看。",
+  customiseSidebar: "自訂側邊欄",
+  customiseSidebarFavouritesDescriptionOne: "您標記的卡片、頁面、看板或檢視",
+  customiseSidebarFavouritesDescriptionTwo: "將顯示在此處。",
+  customiseSidebarYourSpacesDescription:
+    "您所屬的空間將顯示在此處。加入或離開空間以編輯此部分。",
+  sidebarUpdated: "側邊欄已更新",
+  myProfile: "我的個人資料",
+  sectionHiddenFromSidebar: "從側邊欄隱藏的部分",
+  pin: "釘選",
+  sectionPinnedToSidebar: "釘選到側邊欄的部分",
 };
 
 export default zhHant as Translations;
