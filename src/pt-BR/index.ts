@@ -2555,6 +2555,21 @@ const ptBR = {
     "Publiquei um post no LinkedIn 100% autêntico (sem IA)",
   ["onboardingListTasks.completed.2"]:
     "Contratar um gerente de mídias sociais de verdade 😅",
+  ["onboarding.quote.0"]: "Planos são inúteis, mas o ato de planejar é tudo.",
+  ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
+  ["onboarding.quote.1"]: "Quem falha em planejar está planejando falhar.",
+  ["onboarding.quote.author.1"]: "Winston Churchill",
+  ["onboarding.quote.2"]:
+    "A coisa mais difícil é decidir agir; o resto é apenas tenacidade.",
+  ["onboarding.quote.author.2"]: "Amelia Earhart",
+  ["onboarding.quote.3"]: "A cada minuto gasto organizando, ganha-se uma hora.",
+  ["onboarding.quote.author.3"]: "Benjamin Franklin",
+  ["onboarding.quote.4"]:
+    "O talento vence jogos, mas o trabalho em equipe vence campeonatos.",
+  ["onboarding.quote.author.4"]: "Michael Jordan",
+  ["onboarding.quote.5"]:
+    "A vida realmente começa quando você coloca sua casa em ordem.",
+  ["onboarding.quote.author.5"]: "Marie Kondo",
   browseArchivedCards: "Navegar por cartões arquivados",
   cardIsArchived: "Cartão está arquivado",
   yourSessionHasTimedOut: "Sua sessão expirou.",
