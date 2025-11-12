@@ -1818,8 +1818,8 @@ const de = {
   ["invite_user.title"]: "Jemanden einladen",
   ["invite_user.tooltip"]:
     "Lade deine Teamkollegen in den Arbeitsbereich ein, damit sie ihre Arbeit verfolgen können",
-  ["mention_anything.title"]: "Etwas erwähnen",
-  ["mention_anything.tooltip"]:
+  ["mention_something.title"]: "Etwas erwähnen",
+  ["mention_something.tooltip"]:
     "Verwende die @-Taste, um etwas zu erwähnen, überall dort, wo du schreiben kannst",
   ["add_child_card.title"]: "Eine Unterkarte hinzufügen",
   ["add_child_card.tooltip"]:

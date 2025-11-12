@@ -1774,8 +1774,8 @@ const id = {
   ["invite_user.title"]: "Undang orang lain",
   ["invite_user.tooltip"]:
     "Undang rekan tim Anda ke ruang kerja agar mereka dapat melacak pekerjaan mereka",
-  ["mention_anything.title"]: "Sebutkan sesuatu",
-  ["mention_anything.tooltip"]:
+  ["mention_something.title"]: "Sebutkan sesuatu",
+  ["mention_something.tooltip"]:
     "Gunakan tombol @ untuk menyebutkan sesuatu, di mana saja Anda bisa menulis",
   ["add_child_card.title"]: "Tambahkan kartu anak",
   ["add_child_card.tooltip"]:

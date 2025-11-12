@@ -1666,8 +1666,8 @@ const zhHans = {
   ["invite_user.title"]: "邀请其他人",
   ["invite_user.tooltip"]:
     "邀请您的团队成员加入工作区，以便他们可以跟踪他们的工作",
-  ["mention_anything.title"]: "提及某事",
-  ["mention_anything.tooltip"]: "使用 @ 键在任何可以写的地方提及某事",
+  ["mention_something.title"]: "提及某事",
+  ["mention_something.tooltip"]: "使用 @ 键在任何可以写的地方提及某事",
   ["add_child_card.title"]: "添加子卡片",
   ["add_child_card.tooltip"]: "子卡片帮助您将工作分解为更小的任务",
   ["visit_inbox.title"]: "检查您的收件箱",

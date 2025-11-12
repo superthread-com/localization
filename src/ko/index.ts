@@ -1720,8 +1720,8 @@ const ko = {
   ["invite_user.title"]: "다른 사람 초대",
   ["invite_user.tooltip"]:
     "팀원을 작업 공간에 초대하여 그들의 작업을 추적할 수 있도록 하세요",
-  ["mention_anything.title"]: "무언가 언급하기",
-  ["mention_anything.tooltip"]:
+  ["mention_something.title"]: "무언가 언급하기",
+  ["mention_something.tooltip"]:
     "어디서든지 @ 키를 사용하여 무언가를 언급하세요",
   ["add_child_card.title"]: "하위 카드 추가",
   ["add_child_card.tooltip"]:

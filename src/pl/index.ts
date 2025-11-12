@@ -1765,8 +1765,8 @@ const pl = {
   ["invite_user.title"]: "Zaproś kogoś",
   ["invite_user.tooltip"]:
     "Zaproś swoich współpracowników do przestrzeni roboczej, aby mogli śledzić swoją pracę",
-  ["mention_anything.title"]: "Wspomnij coś",
-  ["mention_anything.tooltip"]:
+  ["mention_something.title"]: "Wspomnij coś",
+  ["mention_something.tooltip"]:
     "Użyj klawisza @, aby wspomnieć coś, gdziekolwiek możesz pisać",
   ["add_child_card.title"]: "Dodaj kartę podrzędną",
   ["add_child_card.tooltip"]:

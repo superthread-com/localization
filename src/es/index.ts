@@ -1808,8 +1808,8 @@ const es = {
   ["invite_user.title"]: "Invita a alguien más",
   ["invite_user.tooltip"]:
     "Invita a tus compañeros de equipo al espacio de trabajo para que puedan seguir su trabajo",
-  ["mention_anything.title"]: "Menciona algo",
-  ["mention_anything.tooltip"]:
+  ["mention_something.title"]: "Menciona algo",
+  ["mention_something.tooltip"]:
     "Usa la tecla @ para mencionar algo, en cualquier lugar donde puedas escribir",
   ["add_child_card.title"]: "Agregar una tarjeta hija",
   ["add_child_card.tooltip"]:
