@@ -1820,6 +1820,9 @@ const fr: Translations = {
   ["mention_anything.title"]: "Mentionner quelque chose",
   ["mention_anything.tooltip"]:
     "Utilisez la touche @ pour mentionner quelque chose, où que vous écriviez",
+  ["mention_something.title"]: "Mentionner quelque chose",
+  ["mention_something.tooltip"]:
+    "Utilisez la touche @ pour mentionner quelque chose, où que vous écriviez",
   ["add_child_card.title"]: "Ajouter une carte enfant",
   ["add_child_card.tooltip"]:
     "Les cartes enfant vous aident à diviser le travail en tâches plus petites",

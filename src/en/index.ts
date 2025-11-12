@@ -1737,6 +1737,9 @@ const en = {
   ["mention_anything.title"]: "Mention something",
   ["mention_anything.tooltip"]:
     "Use the @ key to mention something, anywhere you can write",
+  ["mention_something.title"]: "Mention something",
+  ["mention_something.tooltip"]:
+    "Use the @ key to mention something, anywhere you can write",
   ["add_child_card.title"]: "Add a child card",
   ["add_child_card.tooltip"]:
     "Child cards help you break work down into smaller tasks",

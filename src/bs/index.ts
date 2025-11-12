@@ -1798,6 +1798,9 @@ const bs: Translations = {
   ["mention_anything.title"]: "Spomeni nešto",
   ["mention_anything.tooltip"]:
     "Koristite znak @ da spomenete nešto, bilo gdje gdje možete pisati",
+  ["mention_something.title"]: "Spomeni nešto",
+  ["mention_something.tooltip"]:
+    "Koristite znak @ da spomenete nešto, bilo gdje gdje možete pisati",
   ["add_child_card.title"]: "Dodaj child karticu",
   ["add_child_card.tooltip"]:
     "Child kartice vam pomažu da podijelite posao na manje zadatke",

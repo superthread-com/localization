@@ -1723,6 +1723,9 @@ const ko = {
   ["mention_anything.title"]: "무언가 언급하기",
   ["mention_anything.tooltip"]:
     "어디서든지 @ 키를 사용하여 무언가를 언급하세요",
+  ["mention_something.title"]: "무언가 언급하기",
+  ["mention_something.tooltip"]:
+    "어디서든지 @ 키를 사용하여 무언가를 언급하세요",
   ["add_child_card.title"]: "하위 카드 추가",
   ["add_child_card.tooltip"]:
     "하위 카드는 작업을 더 작은 작업으로 나누는 데 도움이 됩니다",

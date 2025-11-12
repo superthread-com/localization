@@ -1821,6 +1821,9 @@ const de = {
   ["mention_anything.title"]: "Etwas erwähnen",
   ["mention_anything.tooltip"]:
     "Verwende die @-Taste, um etwas zu erwähnen, überall dort, wo du schreiben kannst",
+  ["mention_something.title"]: "Etwas erwähnen",
+  ["mention_something.tooltip"]:
+    "Verwende die @-Taste, um etwas zu erwähnen, überall dort, wo du schreiben kannst",
   ["add_child_card.title"]: "Eine Unterkarte hinzufügen",
   ["add_child_card.tooltip"]:
     "Unterkarten helfen dir, die Arbeit in kleinere Aufgaben zu unterteilen",

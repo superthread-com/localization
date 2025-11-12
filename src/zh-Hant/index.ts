@@ -1668,6 +1668,8 @@ const zhHant = {
   ["invite_user.tooltip"]: "邀請您的團隊成員加入工作區，以便他們可以跟蹤工作",
   ["mention_anything.title"]: "提及某事",
   ["mention_anything.tooltip"]: "使用 @ 鍵在任何可以書寫的地方提及某事",
+  ["mention_something.title"]: "提及某事",
+  ["mention_something.tooltip"]: "使用 @ 鍵在任何可以書寫的地方提及某事",
   ["add_child_card.title"]: "添加子卡片",
   ["add_child_card.tooltip"]: "子卡片幫助您將工作分解為更小的任務",
   ["visit_inbox.title"]: "檢查您的收件箱",

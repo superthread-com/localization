@@ -1811,6 +1811,9 @@ const es = {
   ["mention_anything.title"]: "Menciona algo",
   ["mention_anything.tooltip"]:
     "Usa la tecla @ para mencionar algo, en cualquier lugar donde puedas escribir",
+  ["mention_something.title"]: "Menciona algo",
+  ["mention_something.tooltip"]:
+    "Usa la tecla @ para mencionar algo, en cualquier lugar donde puedas escribir",
   ["add_child_card.title"]: "Agregar una tarjeta hija",
   ["add_child_card.tooltip"]:
     "Las tarjetas hijas te ayudan a descomponer el trabajo en tareas más pequeñas",

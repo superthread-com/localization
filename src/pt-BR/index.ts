@@ -1797,6 +1797,9 @@ const ptBR = {
   ["mention_anything.title"]: "Mencione algo",
   ["mention_anything.tooltip"]:
     "Use a tecla @ para mencionar algo, em qualquer lugar que você possa escrever",
+  ["mention_something.title"]: "Mencione algo",
+  ["mention_something.tooltip"]:
+    "Use a tecla @ para mencionar algo, em qualquer lugar que você possa escrever",
   ["add_child_card.title"]: "Adicionar um cartão filho",
   ["add_child_card.tooltip"]:
     "Cartões filhos ajudam a dividir o trabalho em tarefas menores",

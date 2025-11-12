@@ -1768,6 +1768,9 @@ const pl = {
   ["mention_anything.title"]: "Wspomnij coś",
   ["mention_anything.tooltip"]:
     "Użyj klawisza @, aby wspomnieć coś, gdziekolwiek możesz pisać",
+  ["mention_something.title"]: "Wspomnij coś",
+  ["mention_something.tooltip"]:
+    "Użyj klawisza @, aby wspomnieć coś, gdziekolwiek możesz pisać",
   ["add_child_card.title"]: "Dodaj kartę podrzędną",
   ["add_child_card.tooltip"]:
     "Karty podrzędne pomagają podzielić pracę na mniejsze zadania",
