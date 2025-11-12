@@ -1795,6 +1795,9 @@ const bs: Translations = {
   ["invite_user.title"]: "Pozovi nekoga drugog",
   ["invite_user.tooltip"]:
     "Pozovi svoje kolege u radni prostor kako bi mogli pratiti svoj rad",
+  ["mention_anything.title"]: "Spomeni nešto",
+  ["mention_anything.tooltip"]:
+    "Koristite znak @ da spomenete nešto, bilo gdje gdje možete pisati",
   ["mention_something.title"]: "Spomeni nešto",
   ["mention_something.tooltip"]:
     "Koristite znak @ da spomenete nešto, bilo gdje gdje možete pisati",

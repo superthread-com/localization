@@ -1734,6 +1734,9 @@ const en = {
   ["invite_user.title"]: "Invite someone else",
   ["invite_user.tooltip"]:
     "Invite your team-mates to the workspace so they can track their work",
+  ["mention_anything.title"]: "Mention something",
+  ["mention_anything.tooltip"]:
+    "Use the @ key to mention something, anywhere you can write",
   ["mention_something.title"]: "Mention something",
   ["mention_something.tooltip"]:
     "Use the @ key to mention something, anywhere you can write",

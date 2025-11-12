@@ -1582,6 +1582,8 @@ export enum TranslationKeys {
   CreatePrivateSpaceTooltip = "create_private_space.tooltip",
   InviteUserTitle = "invite_user.title",
   InviteUserTooltip = "invite_user.tooltip",
+  MentionAnythingTitle = "mention_anything.title",
+  MentionAnythingTooltip = "mention_anything.tooltip",
   MentionSomethingTitle = "mention_something.title",
   MentionSomethingTooltip = "mention_something.tooltip",
   AddChildCardTitle = "add_child_card.title",

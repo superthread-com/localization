@@ -1794,6 +1794,9 @@ const ptBR = {
   ["invite_user.title"]: "Convide outra pessoa",
   ["invite_user.tooltip"]:
     "Convide seus colegas de equipe para o espaço de trabalho para que possam acompanhar seu trabalho",
+  ["mention_anything.title"]: "Mencione algo",
+  ["mention_anything.tooltip"]:
+    "Use a tecla @ para mencionar algo, em qualquer lugar que você possa escrever",
   ["mention_something.title"]: "Mencione algo",
   ["mention_something.tooltip"]:
     "Use a tecla @ para mencionar algo, em qualquer lugar que você possa escrever",

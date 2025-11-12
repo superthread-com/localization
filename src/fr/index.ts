@@ -1817,6 +1817,9 @@ const fr: Translations = {
   ["invite_user.title"]: "Inviter quelqu'un d'autre",
   ["invite_user.tooltip"]:
     "Invitez vos coéquipiers à l'espace de travail pour qu'ils puissent suivre leur travail",
+  ["mention_anything.title"]: "Mentionner quelque chose",
+  ["mention_anything.tooltip"]:
+    "Utilisez la touche @ pour mentionner quelque chose, où que vous écriviez",
   ["mention_something.title"]: "Mentionner quelque chose",
   ["mention_something.tooltip"]:
     "Utilisez la touche @ pour mentionner quelque chose, où que vous écriviez",
