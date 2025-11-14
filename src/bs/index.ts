@@ -2734,6 +2734,8 @@ const bs: Translations = {
   sectionHiddenFromSidebar: "Odjeljak skriven iz bočne trake",
   pin: "Zakači",
   sectionPinnedToSidebar: "Odjeljak zakačen na bočnu traku",
+  worksapceSettings: "Postavke radnog prostora",
+  hideFromSidebar: "Sakrij iz bočne trake",
 };
 
 export default bs;

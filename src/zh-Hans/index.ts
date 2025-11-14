@@ -2532,6 +2532,8 @@ const zhHans = {
   sectionHiddenFromSidebar: "从侧边栏隐藏的部分",
   pin: "固定",
   sectionPinnedToSidebar: "固定到侧边栏的部分",
+  worksapceSettings: "工作区设置",
+  hideFromSidebar: "从侧边栏隐藏",
 };
 
 export default zhHans as Translations;

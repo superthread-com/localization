@@ -2822,6 +2822,8 @@ const de = {
   sectionHiddenFromSidebar: "Abschnitt aus Sidebar ausgeblendet",
   pin: "Anheften",
   sectionPinnedToSidebar: "Abschnitt an Sidebar angeheftet",
+  worksapceSettings: "Arbeitsbereich-Einstellungen",
+  hideFromSidebar: "Aus Sidebar ausblenden",
 };
 
 export default de as Translations;
