@@ -2776,6 +2776,8 @@ const ptBR = {
   sectionHiddenFromSidebar: "Seção oculta da barra lateral",
   pin: "Fixar",
   sectionPinnedToSidebar: "Seção fixada na barra lateral",
+  worksapceSettings: "Configurações do espaço de trabalho",
+  hideFromSidebar: "Ocultar da barra lateral",
 };
 
 export default ptBR as Translations;

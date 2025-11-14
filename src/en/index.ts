@@ -2673,6 +2673,8 @@ const en = {
   sectionHiddenFromSidebar: "Section hidden from sidebar",
   pin: "Pin",
   sectionPinnedToSidebar: "Section pinned to sidebar",
+  worksapceSettings: "Workspace settings",
+  hideFromSidebar: "Hide from sidebar",
 };
 
 export default en as Translations;

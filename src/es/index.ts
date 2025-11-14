@@ -2787,6 +2787,8 @@ const es = {
   sectionHiddenFromSidebar: "Sección oculta de la barra lateral",
   pin: "Fijar",
   sectionPinnedToSidebar: "Sección fijada a la barra lateral",
+  worksapceSettings: "Configuración del espacio de trabajo",
+  hideFromSidebar: "Ocultar de la barra lateral",
 };
 
 export default es as Translations;

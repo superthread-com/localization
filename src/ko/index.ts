@@ -2646,6 +2646,8 @@ const ko = {
   sectionHiddenFromSidebar: "사이드바에서 숨겨진 섹션",
   pin: "고정",
   sectionPinnedToSidebar: "사이드바에 고정된 섹션",
+  worksapceSettings: "워크스페이스 설정",
+  hideFromSidebar: "사이드바에서 숨기기",
 };
 
 export default ko as Translations;

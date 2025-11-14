@@ -2749,6 +2749,8 @@ const id = {
   sectionHiddenFromSidebar: "Bagian disembunyikan dari bilah samping",
   pin: "Sematkan",
   sectionPinnedToSidebar: "Bagian disematkan ke bilah samping",
+  worksapceSettings: "Pengaturan ruang kerja",
+  hideFromSidebar: "Sembunyikan dari bilah samping",
 };
 
 export default id as Translations;
