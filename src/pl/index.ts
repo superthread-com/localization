@@ -2532,6 +2532,11 @@ const pl = {
   ["onboarding.quote.5"]:
     "Życie naprawdę zaczyna się, gdy zaprowadzisz porządek w swoim domu.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Dołącz do 10 000+ firm, które osiągają więcej dzięki Superthread",
+  ["onboarding.video.text1"]: "Świetnie 👏",
+  ["onboarding.video.text2"]: "Właśnie utworzyłeś swoją pierwszą tablicę w",
+  forExample: "Na przykład",
   browseArchivedCards: "Przeglądaj zarchiwizowane karty",
   cardIsArchived: "Karta jest archiwizowana",
   yourSessionHasTimedOut: "Twoja sesja wygasła.",

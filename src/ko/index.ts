@@ -2445,6 +2445,11 @@ const ko = {
   ["onboarding.quote.author.4"]: "마이클 조던",
   ["onboarding.quote.5"]: "인생은 집을 정리하는 순간부터 진정으로 시작된다.",
   ["onboarding.quote.author.5"]: "마리 콘도",
+  ["onboarding.trustedBy.description"]:
+    "Superthread로 더 많은 일을 해내는 10,000+개 기업과 함께하세요",
+  ["onboarding.video.text1"]: "대단해요 👏",
+  ["onboarding.video.text2"]: "방금 첫 번째 보드를",
+  forExample: "예를 들어",
   browseArchivedCards: "보관된 카드 탐색",
   cardIsArchived: "카드가 보관되었습니다",
   yourSessionHasTimedOut: "세션이 만료되었습니다.",

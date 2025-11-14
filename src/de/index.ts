@@ -2598,6 +2598,11 @@ const de = {
   ["onboarding.quote.5"]:
     "Das Leben beginnt wirklich, wenn du dein Zuhause in Ordnung bringst.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Schließe dich 10.000+ Unternehmen an, die mit Superthread mehr schaffen",
+  ["onboarding.video.text1"]: "Großartig 👏",
+  ["onboarding.video.text2"]: "Du hast gerade dein erstes Board in",
+  forExample: "Zum Beispiel",
   browseArchivedCards: "Archivierte Karten durchsuchen",
   cardIsArchived: "Karte ist archiviert",
   yourSessionHasTimedOut: "Ihre Sitzung ist abgelaufen.",

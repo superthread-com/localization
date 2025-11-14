@@ -2517,6 +2517,11 @@ const bs: Translations = {
   ["onboarding.quote.author.4"]: "Michael Jordan",
   ["onboarding.quote.5"]: "Život zaista počinje kada dovedeš svoj dom u red.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Pridruži se 10.000+ kompanijama koje uz Superthread postižu više",
+  ["onboarding.video.text1"]: "Sjajno 👏",
+  ["onboarding.video.text2"]: "Upravo ste napravili svoju prvu ploču za",
+  forExample: "Na primjer",
   browseArchivedCards: "Pregledaj arhivirane kartice",
   cardIsArchived: "Kartica je arhivirana",
   yourSessionHasTimedOut: "Vaša sesija je istekla.",

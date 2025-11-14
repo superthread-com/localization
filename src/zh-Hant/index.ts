@@ -2336,6 +2336,11 @@ const zhHant = {
   ["onboarding.quote.author.4"]: "麥可·喬丹",
   ["onboarding.quote.5"]: "當你整理好自己的生活時，人生才真正開始。",
   ["onboarding.quote.author.5"]: "近藤麻理惠",
+  ["onboarding.trustedBy.description"]:
+    "加入 10,000+ 家透過 Superthread 完成更多工作的公司",
+  ["onboarding.video.text1"]: "太棒了 👏",
+  ["onboarding.video.text2"]: "你剛剛只用",
+  forExample: "例如",
   browseArchivedCards: "瀏覽已歸檔的卡片",
   cardIsArchived: "卡片已歸檔",
   yourSessionHasTimedOut: "您的會話已超時。",

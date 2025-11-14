@@ -2594,6 +2594,11 @@ const fr: Translations = {
   ["onboarding.quote.5"]:
     "La vie commence véritablement quand on met de l’ordre chez soi.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Rejoignez 10 000+ entreprises qui accomplissent davantage avec Superthread",
+  ["onboarding.video.text1"]: "Génial 👏",
+  ["onboarding.video.text2"]: "Vous venez de créer votre premier tableau en",
+  forExample: "Par exemple",
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",
   yourSessionHasTimedOut: "Votre session a expiré.",
