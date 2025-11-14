@@ -2756,6 +2756,8 @@ const pl = {
   sectionHiddenFromSidebar: "Sekcja ukryta z paska bocznego",
   pin: "Przypnij",
   sectionPinnedToSidebar: "Sekcja przypięta do paska bocznego",
+  worksapceSettings: "Ustawienia przestrzeni roboczej",
+  hideFromSidebar: "Ukryj z paska bocznego",
 };
 
 export default pl as Translations;

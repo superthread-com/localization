@@ -2377,6 +2377,8 @@ export enum TranslationKeys {
   SectionHiddenFromSidebar = "sectionHiddenFromSidebar",
   Pin = "pin",
   SectionPinnedToSidebar = "sectionPinnedToSidebar",
+  WorksapceSettings = "worksapceSettings",
+  HideFromSidebar = "hideFromSidebar",
 }
 
 export type Translations = Record<TranslationKeys, string>;
