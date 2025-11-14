@@ -2570,6 +2570,11 @@ const ptBR = {
   ["onboarding.quote.5"]:
     "A vida realmente começa quando você coloca sua casa em ordem.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Junte-se a 10.000+ empresas que fazem mais com o Superthread",
+  ["onboarding.video.text1"]: "Incrível 👏",
+  ["onboarding.video.text2"]: "Você acabou de criar seu primeiro quadro em",
+  forExample: "Por exemplo",
   browseArchivedCards: "Navegar por cartões arquivados",
   cardIsArchived: "Cartão está arquivado",
   yourSessionHasTimedOut: "Sua sessão expirou.",

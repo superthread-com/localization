@@ -2332,6 +2332,11 @@ const zhHans = {
   ["onboarding.quote.author.4"]: "迈克尔·乔丹",
   ["onboarding.quote.5"]: "当你把生活整理好，人生才真正开始。",
   ["onboarding.quote.author.5"]: "近藤麻理惠",
+  ["onboarding.trustedBy.description"]:
+    "加入 10,000+ 家借助 Superthread 完成更多工作的公司",
+  ["onboarding.video.text1"]: "太棒了 👏",
+  ["onboarding.video.text2"]: "你刚刚只用",
+  forExample: "例如",
   browseArchivedCards: "浏览已归档的卡片",
   cardIsArchived: "卡片已归档",
   yourSessionHasTimedOut: "您的会话已超时。",

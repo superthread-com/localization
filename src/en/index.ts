@@ -2473,6 +2473,11 @@ const en = {
   ["onboarding.quote.author.4"]: "Michael Jordan",
   ["onboarding.quote.5"]: "Life truly begins when you put your house in order.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Join 10,000+ companies getting more done with Superthread",
+  ["onboarding.video.text1"]: "Awesome 👏",
+  ["onboarding.video.text2"]: "You just made your first board in",
+  forExample: "For example",
   browseArchivedCards: "Browse archived cards",
   cardIsArchived: "Card is archived",
   yourSessionHasTimedOut: "Your session has timed out.",

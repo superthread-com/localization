@@ -2549,6 +2549,11 @@ const id = {
   ["onboarding.quote.5"]:
     "Hidup benar-benar dimulai ketika kamu menata rumahmu.",
   ["onboarding.quote.author.5"]: "Marie Kondo",
+  ["onboarding.trustedBy.description"]:
+    "Bergabunglah dengan 10.000+ perusahaan yang mencapai lebih banyak dengan Superthread",
+  ["onboarding.video.text1"]: "Keren 👏",
+  ["onboarding.video.text2"]: "Kamu baru saja membuat papan pertamamu dalam",
+  forExample: "Misalnya",
   browseArchivedCards: "Jelajahi kartu yang diarsipkan",
   cardIsArchived: "Kartu diarsipkan",
   yourSessionHasTimedOut: "Sesi Anda telah berakhir.",
