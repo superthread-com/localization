@@ -2459,6 +2459,20 @@ const en = {
   ["onboardingListTasks.completed.1"]:
     "Posted 💯 Authentic (non AI) Linkedin Post",
   ["onboardingListTasks.completed.2"]: "Hire a real social media manager 😅",
+  ["onboarding.quote.0"]: "Plans are worthless, but planning is everything.",
+  ["onboarding.quote.author.0"]: "Dwight D. Eisenhower",
+  ["onboarding.quote.1"]: "He who fails to plan is planning to fail.",
+  ["onboarding.quote.author.1"]: "Winston Churchill",
+  ["onboarding.quote.2"]:
+    "The most difficult thing is the decision to act, the rest is merely tenacity.",
+  ["onboarding.quote.author.2"]: "Amelia Earhart",
+  ["onboarding.quote.3"]:
+    "For every minute spent organizing, an hour is earned.",
+  ["onboarding.quote.author.3"]: "Benjamin Franklin",
+  ["onboarding.quote.4"]: "Talent wins games, but teamwork wins championships.",
+  ["onboarding.quote.author.4"]: "Michael Jordan",
+  ["onboarding.quote.5"]: "Life truly begins when you put your house in order.",
+  ["onboarding.quote.author.5"]: "Marie Kondo",
   browseArchivedCards: "Browse archived cards",
   cardIsArchived: "Card is archived",
   yourSessionHasTimedOut: "Your session has timed out.",
