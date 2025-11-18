@@ -2609,6 +2609,10 @@ const de = {
   someonesWorkspace: "Arbeitsbereich von %{userName}",
   someonesPrivateSpace: "Privater Bereich von %{userName}",
   someonesBoard: "Board von %{userName}",
+  chooseYourVibe: "Wähle deinen Vibe",
+  chooseYourVibeDescription: "Wähle mindestens 2 – das ist nur zum Spaß",
+  exampleCardTitle:
+    '👋 Willkommen bei Superthread – zieh mich in das Board "The basics"',
   browseArchivedCards: "Archivierte Karten durchsuchen",
   cardIsArchived: "Karte ist archiviert",
   yourSessionHasTimedOut: "Ihre Sitzung ist abgelaufen.",

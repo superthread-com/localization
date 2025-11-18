@@ -2581,6 +2581,10 @@ const ptBR = {
   someonesWorkspace: "Espaço de trabalho de %{userName}",
   someonesPrivateSpace: "Espaço privado de %{userName}",
   someonesBoard: "Quadro de %{userName}",
+  chooseYourVibe: "Escolha sua vibe",
+  chooseYourVibeDescription: "Selecione pelo menos 2; é só por diversão",
+  exampleCardTitle:
+    '👋 Bem-vindo ao Superthread – arraste-me para o quadro "The basics"',
   browseArchivedCards: "Navegar por cartões arquivados",
   cardIsArchived: "Cartão está arquivado",
   yourSessionHasTimedOut: "Sua sessão expirou.",

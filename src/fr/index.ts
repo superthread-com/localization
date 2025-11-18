@@ -2606,6 +2606,10 @@ const fr: Translations = {
   someonesWorkspace: "Espace de travail de %{userName}",
   someonesPrivateSpace: "Espace privé de %{userName}",
   someonesBoard: "Tableau de %{userName}",
+  chooseYourVibe: "Choisissez votre vibe",
+  chooseYourVibeDescription: "Sélectionnez au moins 2, c'est juste pour le fun",
+  exampleCardTitle:
+    '👋 Bienvenue sur Superthread – faites-moi glisser dans le tableau "The basics"',
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",
   yourSessionHasTimedOut: "Votre session a expiré.",
