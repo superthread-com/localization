@@ -2460,6 +2460,7 @@ const ko = {
   chooseYourVibeDescription: "최소 2개를 선택하세요. 그냥 재미로 하는 거예요",
   exampleCardTitle:
     '👋 Superthread에 오신 것을 환영합니다 – "The basics" 보드로 끌어다 놓으세요',
+  exampleListTitle: "👀 여기 보세요",
   browseArchivedCards: "보관된 카드 탐색",
   cardIsArchived: "카드가 보관되었습니다",
   yourSessionHasTimedOut: "세션이 만료되었습니다.",

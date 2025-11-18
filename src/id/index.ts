@@ -2565,6 +2565,7 @@ const id = {
     "Pilih minimal 2, ini hanya untuk bersenang-senang",
   exampleCardTitle:
     '👋 Selamat datang di Superthread – seret saya ke papan "The basics"',
+  exampleListTitle: "👀 Lihat di sini",
   browseArchivedCards: "Jelajahi kartu yang diarsipkan",
   cardIsArchived: "Kartu diarsipkan",
   yourSessionHasTimedOut: "Sesi Anda telah berakhir.",
