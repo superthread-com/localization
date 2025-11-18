@@ -2528,6 +2528,11 @@ const bs: Translations = {
   someonesWorkspace: "Radni prostor %{userName}",
   someonesPrivateSpace: "Privatni prostor %{userName}",
   someonesBoard: "Ploča %{userName}",
+  chooseYourVibe: "Odaberite svoj vibe",
+  chooseYourVibeDescription: "Odaberite najmanje 2, ovo je samo za zabavu",
+  exampleCardTitle:
+    '👋 Dobrodošli u Superthread – prevucite me u ploču "The basics"',
+  exampleListTitle: "👀 Pogledaj ovdje",
   browseArchivedCards: "Pregledaj arhivirane kartice",
   cardIsArchived: "Kartica je arhivirana",
   yourSessionHasTimedOut: "Vaša sesija je istekla.",

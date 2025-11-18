@@ -2543,6 +2543,11 @@ const pl = {
   someonesWorkspace: "Obszar roboczy %{userName}",
   someonesPrivateSpace: "Prywatna przestrzeń %{userName}",
   someonesBoard: "Tablica %{userName}",
+  chooseYourVibe: "Wybierz swój nastrój",
+  chooseYourVibeDescription: "Wybierz co najmniej 2 — to tylko dla zabawy",
+  exampleCardTitle:
+    '👋 Witamy w Superthread – przeciągnij mnie na tablicę "The basics"',
+  exampleListTitle: "👀 Spójrz tutaj",
   browseArchivedCards: "Przeglądaj zarchiwizowane karty",
   cardIsArchived: "Karta jest archiwizowana",
   yourSessionHasTimedOut: "Twoja sesja wygasła.",

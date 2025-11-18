@@ -2594,6 +2594,11 @@ const es = {
   someonesWorkspace: "Espacio de trabajo de %{userName}",
   someonesPrivateSpace: "Espacio privado de %{userName}",
   someonesBoard: "Tablero de %{userName}",
+  chooseYourVibe: "Elige tu vibra",
+  chooseYourVibeDescription: "Selecciona al menos 2; es solo por diversión",
+  exampleCardTitle:
+    '👋 Bienvenido a Superthread – arrástrame al tablero "The basics"',
+  exampleListTitle: "👀 Mira aquí",
   browseArchivedCards: "Explorar tarjetas archivadas",
   cardIsArchived: "La tarjeta está archivada",
   yourSessionHasTimedOut: "Tu sesión ha expirado.",
