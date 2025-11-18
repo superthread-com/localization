@@ -2575,6 +2575,13 @@ const ptBR = {
   ["onboarding.video.text1"]: "Incrível 👏",
   ["onboarding.video.text2"]: "Você acabou de criar seu primeiro quadro em",
   forExample: "Por exemplo",
+  createYourProfile: "Crie seu perfil",
+  createYourProfileDescription:
+    "É assim que você aparecerá no Superthread",
+  createYourProfileInputDesc: "Você pode alterar isso depois",
+  someonesWorkspace: "Espaço de trabalho de %{userName}",
+  someonesPrivateSpace: "Espaço privado de %{userName}",
+  someonesBoard: "Quadro de %{userName}",
   browseArchivedCards: "Navegar por cartões arquivados",
   cardIsArchived: "Cartão está arquivado",
   yourSessionHasTimedOut: "Sua sessão expirou.",

@@ -2599,6 +2599,13 @@ const fr: Translations = {
   ["onboarding.video.text1"]: "Génial 👏",
   ["onboarding.video.text2"]: "Vous venez de créer votre premier tableau en",
   forExample: "Par exemple",
+  createYourProfile: "Créez votre profil",
+  createYourProfileDescription:
+    "Voici comment vous apparaîtrez dans Superthread",
+  createYourProfileInputDesc: "Vous pourrez modifier cela plus tard",
+  someonesWorkspace: "Espace de travail de %{userName}",
+  someonesPrivateSpace: "Espace privé de %{userName}",
+  someonesBoard: "Tableau de %{userName}",
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",
   yourSessionHasTimedOut: "Votre session a expiré.",

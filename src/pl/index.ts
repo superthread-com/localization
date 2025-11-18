@@ -2537,6 +2537,13 @@ const pl = {
   ["onboarding.video.text1"]: "Świetnie 👏",
   ["onboarding.video.text2"]: "Właśnie utworzyłeś swoją pierwszą tablicę w",
   forExample: "Na przykład",
+  createYourProfile: "Utwórz swój profil",
+  createYourProfileDescription:
+    "Tak będziesz widoczny w Superthread",
+  createYourProfileInputDesc: "Możesz to zmienić później",
+  someonesWorkspace: "Obszar roboczy %{userName}",
+  someonesPrivateSpace: "Prywatna przestrzeń %{userName}",
+  someonesBoard: "Tablica %{userName}",
   browseArchivedCards: "Przeglądaj zarchiwizowane karty",
   cardIsArchived: "Karta jest archiwizowana",
   yourSessionHasTimedOut: "Twoja sesja wygasła.",
