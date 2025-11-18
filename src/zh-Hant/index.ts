@@ -2547,6 +2547,8 @@ const zhHant = {
   sectionHiddenFromSidebar: "從側邊欄隱藏的部分",
   pin: "釘選",
   sectionPinnedToSidebar: "釘選到側邊欄的部分",
+  worksapceSettings: "工作區設定",
+  hideFromSidebar: "從側邊欄隱藏",
 };
 
 export default zhHant as Translations;

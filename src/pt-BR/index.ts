@@ -2576,8 +2576,7 @@ const ptBR = {
   ["onboarding.video.text2"]: "Você acabou de criar seu primeiro quadro em",
   forExample: "Por exemplo",
   createYourProfile: "Crie seu perfil",
-  createYourProfileDescription:
-    "É assim que você aparecerá no Superthread",
+  createYourProfileDescription: "É assim que você aparecerá no Superthread",
   createYourProfileInputDesc: "Você pode alterar isso depois",
   someonesWorkspace: "Espaço de trabalho de %{userName}",
   someonesPrivateSpace: "Espaço privado de %{userName}",
@@ -2803,6 +2802,8 @@ const ptBR = {
   sectionHiddenFromSidebar: "Seção oculta da barra lateral",
   pin: "Fixar",
   sectionPinnedToSidebar: "Seção fixada na barra lateral",
+  worksapceSettings: "Configurações do espaço de trabalho",
+  hideFromSidebar: "Ocultar da barra lateral",
 };
 
 export default ptBR as Translations;

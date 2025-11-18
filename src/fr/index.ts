@@ -2829,6 +2829,8 @@ const fr: Translations = {
   sectionHiddenFromSidebar: "Section masquée de la barre latérale",
   pin: "Épingler",
   sectionPinnedToSidebar: "Section épinglée à la barre latérale",
+  worksapceSettings: "Paramètres de l'espace de travail",
+  hideFromSidebar: "Masquer de la barre latérale",
 };
 
 export default fr as Translations;

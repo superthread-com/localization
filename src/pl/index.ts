@@ -2538,8 +2538,7 @@ const pl = {
   ["onboarding.video.text2"]: "Właśnie utworzyłeś swoją pierwszą tablicę w",
   forExample: "Na przykład",
   createYourProfile: "Utwórz swój profil",
-  createYourProfileDescription:
-    "Tak będziesz widoczny w Superthread",
+  createYourProfileDescription: "Tak będziesz widoczny w Superthread",
   createYourProfileInputDesc: "Możesz to zmienić później",
   someonesWorkspace: "Obszar roboczy %{userName}",
   someonesPrivateSpace: "Prywatna przestrzeń %{userName}",
@@ -2763,6 +2762,8 @@ const pl = {
   sectionHiddenFromSidebar: "Sekcja ukryta z paska bocznego",
   pin: "Przypnij",
   sectionPinnedToSidebar: "Sekcja przypięta do paska bocznego",
+  worksapceSettings: "Ustawienia przestrzeni roboczej",
+  hideFromSidebar: "Ukryj z paska bocznego",
 };
 
 export default pl as Translations;
