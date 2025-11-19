@@ -2568,11 +2568,9 @@ const de = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Kundenunterstützung",
   ["onboarding.other"]: "Andere",
-  ["onboardingListTasks.committed.heading"]:
-    "Welche Aufgabe hast du noch nicht begonnen?",
-  ["onboardingListTasks.started.heading"]: "Welche Aufgabe hast du begonnen?",
-  ["onboardingListTasks.completed.heading"]:
-    "Welche Aufgabe hast du abgeschlossen?",
+  ["onboardingListTasks.committed.heading"]: "Was steht auf deiner \"Zu erledigen\" Liste?",
+  ["onboardingListTasks.started.heading"]: "Welche Aufgaben bearbeitest du gerade \"In Arbeit\"?",
+  ["onboardingListTasks.completed.heading"]: "Welche Aufgaben sind \"Erledigt\"?",
   ["onboardingListTasks.committed.0"]:
     "Superthread für mein Team evaluieren 🧐",
   ["onboardingListTasks.committed.1"]: "Mein Trello-Abonnement kündigen 🙈",
@@ -2603,8 +2601,9 @@ const de = {
   ["onboarding.quote.author.5"]: "Marie Kondo",
   ["onboarding.trustedBy.description"]:
     "Schließe dich 10.000+ Unternehmen an, die mit Superthread mehr schaffen",
-  ["onboarding.video.text1"]: "Großartig 👏",
+  ["onboarding.video.text1"]: "Glückwunsch 🎉",
   ["onboarding.video.text2"]: "Du hast gerade dein erstes Board in",
+  ["onboarding.video.text3"]: "Hol einmal kurz Luft...",
   forExample: "Zum Beispiel",
   createYourProfile: "Erstelle dein Profil",
   createYourProfileDescription: "So erscheinst du in Superthread",
