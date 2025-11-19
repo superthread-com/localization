@@ -2550,6 +2550,9 @@ const zhHans = {
   sectionPinnedToSidebar: "固定到侧边栏的部分",
   worksapceSettings: "工作区设置",
   hideFromSidebar: "从侧边栏隐藏",
+  createACopyOfThisBoard: "创建此看板的副本。活动和评论将不会被复制。",
+  chooseWhereToDuplicateBoard: "选择复制看板的位置",
+  copyAllCardsIntoNewBoard: "将所有卡片复制到新看板",
 };
 
 export default zhHans as Translations;

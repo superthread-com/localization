@@ -2769,6 +2769,10 @@ const pl = {
   sectionPinnedToSidebar: "Sekcja przypięta do paska bocznego",
   worksapceSettings: "Ustawienia przestrzeni roboczej",
   hideFromSidebar: "Ukryj z paska bocznego",
+  createACopyOfThisBoard:
+    "Utwórz kopię tej tablicy. Aktywność i komentarze nie zostaną skopiowane.",
+  chooseWhereToDuplicateBoard: "Wybierz, gdzie zduplikować tablicę",
+  copyAllCardsIntoNewBoard: "Skopiuj wszystkie karty do nowej tablicy",
 };
 
 export default pl as Translations;

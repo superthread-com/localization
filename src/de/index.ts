@@ -2843,6 +2843,11 @@ const de = {
   sectionPinnedToSidebar: "Abschnitt an Sidebar angeheftet",
   worksapceSettings: "Arbeitsbereich-Einstellungen",
   hideFromSidebar: "Aus Sidebar ausblenden",
+  createACopyOfThisBoard:
+    "Erstellen Sie eine Kopie dieses Boards. Aktivitäten & Kommentare werden nicht kopiert.",
+  chooseWhereToDuplicateBoard:
+    "Wählen Sie aus, wo das Board dupliziert werden soll",
+  copyAllCardsIntoNewBoard: "Alle Karten in das neue Board kopieren",
 };
 
 export default de as Translations;

@@ -2810,6 +2810,10 @@ const ptBR = {
   sectionPinnedToSidebar: "Seção fixada na barra lateral",
   worksapceSettings: "Configurações do espaço de trabalho",
   hideFromSidebar: "Ocultar da barra lateral",
+  createACopyOfThisBoard:
+    "Criar uma cópia deste quadro. Atividade e comentários não serão copiados.",
+  chooseWhereToDuplicateBoard: "Escolha onde duplicar o quadro",
+  copyAllCardsIntoNewBoard: "Copiar todos os cartões para o novo quadro",
 };
 
 export default ptBR as Translations;

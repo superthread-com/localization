@@ -2754,6 +2754,10 @@ const bs: Translations = {
   sectionPinnedToSidebar: "Odjeljak zakačen na bočnu traku",
   worksapceSettings: "Postavke radnog prostora",
   hideFromSidebar: "Sakrij iz bočne trake",
+  createACopyOfThisBoard:
+    "Kreirajte kopiju ove ploče. Aktivnost i komentari neće biti kopirani.",
+  chooseWhereToDuplicateBoard: "Odaberite gdje duplicirati ploču",
+  copyAllCardsIntoNewBoard: "Kopirajte sve kartice u novu ploču",
 };
 
 export default bs;
