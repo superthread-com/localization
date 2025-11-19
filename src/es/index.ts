@@ -1669,7 +1669,8 @@ const es = {
   addedCommentHiddenByFilter: "El comentario añadido está oculto por el filtro",
   createdCardHiddenByFilter:
     "La tarjeta creada puede estar oculta por el filtro",
-  viewWork: "Ver trabajo",
+  viewMyWork: "Ver mis tarjetas",
+  viewWork: "Ver las tarjetas de %{displayName}",
   removeFromSpace: "Eliminar del espacio",
   assignedInThisBoard: "Asignado en este tablero",
   layout: "Diseño",

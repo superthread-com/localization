@@ -1679,7 +1679,8 @@ const de = {
     "Hinzugefügter Kommentar ist durch den Filter ausgeblendet",
   createdCardHiddenByFilter:
     "Erstellte Karte kann durch den Filter ausgeblendet sein",
-  viewWork: "Arbeit ansehen",
+  viewMyWork: "Meine Karten anzeigen",
+  viewWork: "Karten von %{displayName} anzeigen",
   removeFromSpace: "Von Raum entfernen",
   assignedInThisBoard: "Zugewiesen in dieser Tafel",
   layout: "Layout",

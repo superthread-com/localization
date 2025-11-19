@@ -1637,7 +1637,8 @@ const id = {
     "Komentar yang ditambahkan disembunyikan oleh filter",
   createdCardHiddenByFilter:
     "Kartu yang dibuat mungkin disembunyikan oleh filter",
-  viewWork: "Lihat pekerjaan",
+  viewMyWork: "Lihat kartu saya",
+  viewWork: "Lihat kartu %{displayName}",
   removeFromSpace: "Hapus dari ruang",
   assignedInThisBoard: "Ditugaskan di papan ini",
   layout: "Tata letak",
