@@ -716,12 +716,12 @@ const de = {
   addedToEpicCard: "diese Karte zum Projekt hinzugefügt",
   removedFromEpicCard: "diese Karte vom Projekt entfernt",
   epicInherited: "Projekt von übergeordneter Karte übernommen",
-  untitledView: "Gespeicherter Filter ohne Titel",
+  untitledView: "Filter ohne Titel",
   cannotSaveUntitledView:
-    "Ein gespeicherter Filter ohne Titel kann nicht gespeichert werden.",
-  viewSaved: "Gespeicherter Filter gespeichert",
+    "Ein Filter ohne Titel kann nicht gespeichert werden.",
+  viewSaved: "Filter gespeichert",
   pagePlaceholder: "Schreibe etwas...",
-  newViewTitele: "Titel für neuen gespeicherten Filter",
+  newViewTitele: "Titel für neuen Filter",
   ["global.placeholder.pagePlaceholder"]: "Schreibe etwas...",
   ["global.placeholder.focusedStatePlaceholder"]:
     "@ um etwas zu erwähnen, / für Befehle...",
