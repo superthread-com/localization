@@ -2787,6 +2787,10 @@ const id = {
   sectionPinnedToSidebar: "Bagian disematkan ke bilah samping",
   worksapceSettings: "Pengaturan ruang kerja",
   hideFromSidebar: "Sembunyikan dari bilah samping",
+  createACopyOfThisBoard:
+    "Buat salinan papan ini. Aktivitas & komentar tidak akan disalin.",
+  chooseWhereToDuplicateBoard: "Pilih tempat untuk menduplikasi papan",
+  copyAllCardsIntoNewBoard: "Salin semua kartu ke papan baru",
 };
 
 export default id as Translations;

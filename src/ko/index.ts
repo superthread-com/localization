@@ -2679,6 +2679,10 @@ const ko = {
   sectionPinnedToSidebar: "사이드바에 고정된 섹션",
   worksapceSettings: "워크스페이스 설정",
   hideFromSidebar: "사이드바에서 숨기기",
+  createACopyOfThisBoard:
+    "이 보드의 사본을 만듭니다. 활동 및 댓글은 복사되지 않습니다.",
+  chooseWhereToDuplicateBoard: "보드를 복제할 위치를 선택하세요",
+  copyAllCardsIntoNewBoard: "모든 카드를 새 보드로 복사",
 };
 
 export default ko as Translations;

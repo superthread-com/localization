@@ -2406,6 +2406,9 @@ export enum TranslationKeys {
   SectionPinnedToSidebar = "sectionPinnedToSidebar",
   WorksapceSettings = "worksapceSettings",
   HideFromSidebar = "hideFromSidebar",
+  CreateACopyOfThisBoard = "createACopyOfThisBoard",
+  ChooseWhereToDuplicateBoard = "chooseWhereToDuplicateBoard",
+  CopyAllCardsIntoNewBoard = "copyAllCardsIntoNewBoard",
 }
 
 export type Translations = Record<TranslationKeys, string>;

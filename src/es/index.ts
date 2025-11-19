@@ -2823,6 +2823,10 @@ const es = {
   sectionPinnedToSidebar: "Sección fijada a la barra lateral",
   worksapceSettings: "Configuración del espacio de trabajo",
   hideFromSidebar: "Ocultar de la barra lateral",
+  createACopyOfThisBoard:
+    "Crear una copia de este tablero. La actividad y los comentarios no se copiarán.",
+  chooseWhereToDuplicateBoard: "Elegir dónde duplicar el tablero",
+  copyAllCardsIntoNewBoard: "Copiar todas las tarjetas al nuevo tablero",
 };
 
 export default es as Translations;
