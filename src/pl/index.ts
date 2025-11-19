@@ -2499,9 +2499,12 @@ const pl = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Wsparcie klienta",
   ["onboarding.other"]: "Inne",
-  ["onboardingListTasks.committed.heading"]: "Jakie zadanie masz na liście \"Do zrobienia\"?",
-  ["onboardingListTasks.started.heading"]: "Jakie zadania właśnie \"W trakcie\" wykonujesz?",
-  ["onboardingListTasks.completed.heading"]: "Jakie zadania są już \"Ukończone\"?",
+  ["onboardingListTasks.committed.heading"]:
+    'Jakie zadanie masz na liście "Do zrobienia"?',
+  ["onboardingListTasks.started.heading"]:
+    'Jakie zadania właśnie "W trakcie" wykonujesz?',
+  ["onboardingListTasks.completed.heading"]:
+    'Jakie zadania są już "Ukończone"?',
   ["onboardingListTasks.committed.0"]: "Oceń Superthread dla mojego zespołu 🧐",
   ["onboardingListTasks.committed.1"]: "Anuluj moją subskrypcję Trello 🙈",
   ["onboardingListTasks.committed.2"]: "Kup pączki dla zespołu 🍩",

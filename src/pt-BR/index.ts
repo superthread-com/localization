@@ -2540,9 +2540,12 @@ const ptBR = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Suporte ao cliente",
   ["onboarding.other"]: "Outro",
-  ["onboardingListTasks.committed.heading"]: "Qual é uma tarefa na sua lista de \"A Fazer\"?",
-  ["onboardingListTasks.started.heading"]: "Quais tarefas você está \"Fazendo\" agora?",
-  ["onboardingListTasks.completed.heading"]: "Quais tarefas estão \"Concluídas\"?",
+  ["onboardingListTasks.committed.heading"]:
+    'Qual é uma tarefa na sua lista de "A Fazer"?',
+  ["onboardingListTasks.started.heading"]:
+    'Quais tarefas você está "Fazendo" agora?',
+  ["onboardingListTasks.completed.heading"]:
+    'Quais tarefas estão "Concluídas"?',
   ["onboardingListTasks.committed.0"]:
     "Avaliar o Superthread para minha equipe 🧐",
   ["onboardingListTasks.committed.1"]: "Cancelar minha assinatura do Trello 🙈",

@@ -2563,9 +2563,12 @@ const fr: Translations = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Support client",
   ["onboarding.other"]: "Autre",
-  ["onboardingListTasks.committed.heading"]: "Quelle est une tâche sur votre liste \"À faire\" ?",
-  ["onboardingListTasks.started.heading"]: "Quelles tâches êtes-vous en train de \"Faire\" actuellement ?",
-  ["onboardingListTasks.completed.heading"]: "Quelles tâches sont \"Terminées\" ?",
+  ["onboardingListTasks.committed.heading"]:
+    'Quelle est une tâche sur votre liste "À faire" ?',
+  ["onboardingListTasks.started.heading"]:
+    'Quelles tâches êtes-vous en train de "Faire" actuellement ?',
+  ["onboardingListTasks.completed.heading"]:
+    'Quelles tâches sont "Terminées" ?',
   ["onboardingListTasks.committed.0"]: "Évaluer Superthread pour mon équipe 🧐",
   ["onboardingListTasks.committed.1"]: "Annuler mon abonnement Trello 🙈",
   ["onboardingListTasks.committed.2"]: "Acheter des donuts pour l’équipe 🍩",

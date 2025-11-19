@@ -2421,9 +2421,11 @@ const ko = {
   ["onboarding.marketing"]: "마케팅",
   ["onboarding.customer_support"]: "고객 지원",
   ["onboarding.other"]: "기타",
-  ["onboardingListTasks.committed.heading"]: "당신의 \"할 일\" 목록에는 어떤 작업이 있나요?",
-  ["onboardingListTasks.started.heading"]: "지금 당신이 \"진행 중\"인 작업은 무엇인가요?",
-  ["onboardingListTasks.completed.heading"]: "어떤 작업이 \"완료됨\" 상태인가요?",
+  ["onboardingListTasks.committed.heading"]:
+    '당신의 "할 일" 목록에는 어떤 작업이 있나요?',
+  ["onboardingListTasks.started.heading"]:
+    '지금 당신이 "진행 중"인 작업은 무엇인가요?',
+  ["onboardingListTasks.completed.heading"]: '어떤 작업이 "완료됨" 상태인가요?',
   ["onboardingListTasks.committed.0"]: "우리 팀을 위해 Superthread 평가하기 🧐",
   ["onboardingListTasks.committed.1"]: "내 Trello 구독 취소하기 🙈",
   ["onboardingListTasks.committed.2"]: "팀을 위해 도넛 사기 🍩",

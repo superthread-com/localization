@@ -2568,9 +2568,11 @@ const de = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Kundenunterstützung",
   ["onboarding.other"]: "Andere",
-  ["onboardingListTasks.committed.heading"]: "Was steht auf deiner \"Zu erledigen\" Liste?",
-  ["onboardingListTasks.started.heading"]: "Welche Aufgaben bearbeitest du gerade \"In Arbeit\"?",
-  ["onboardingListTasks.completed.heading"]: "Welche Aufgaben sind \"Erledigt\"?",
+  ["onboardingListTasks.committed.heading"]:
+    'Was steht auf deiner "Zu erledigen" Liste?',
+  ["onboardingListTasks.started.heading"]:
+    'Welche Aufgaben bearbeitest du gerade "In Arbeit"?',
+  ["onboardingListTasks.completed.heading"]: 'Welche Aufgaben sind "Erledigt"?',
   ["onboardingListTasks.committed.0"]:
     "Superthread für mein Team evaluieren 🧐",
   ["onboardingListTasks.committed.1"]: "Mein Trello-Abonnement kündigen 🙈",

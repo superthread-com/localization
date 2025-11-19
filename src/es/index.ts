@@ -2553,9 +2553,11 @@ const es = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Soporte al cliente",
   ["onboarding.other"]: "Otro",
-  ["onboardingListTasks.committed.heading"]: "¿Qué tarea tienes en tu lista de \"Por hacer\"?",
-  ["onboardingListTasks.started.heading"]: "¿Qué tareas estás \"Haciendo\" ahora mismo?",
-  ["onboardingListTasks.completed.heading"]: "¿Qué tareas están \"Hechas\"?",
+  ["onboardingListTasks.committed.heading"]:
+    '¿Qué tarea tienes en tu lista de "Por hacer"?',
+  ["onboardingListTasks.started.heading"]:
+    '¿Qué tareas estás "Haciendo" ahora mismo?',
+  ["onboardingListTasks.completed.heading"]: '¿Qué tareas están "Hechas"?',
   ["onboardingListTasks.committed.0"]: "Evaluar Superthread para mi equipo 🧐",
   ["onboardingListTasks.committed.1"]: "Cancelar mi suscripción de Trello 🙈",
   ["onboardingListTasks.committed.2"]: "Comprar donas para el equipo 🍩",

@@ -2516,9 +2516,11 @@ const id = {
   ["onboarding.marketing"]: "Pemasaran",
   ["onboarding.customer_support"]: "Dukungan pelanggan",
   ["onboarding.other"]: "Lainnya",
-  ["onboardingListTasks.committed.heading"]: "Apa tugas di daftar \"Untuk Dilakukan\" Anda?",
-  ["onboardingListTasks.started.heading"]: "Tugas apa yang sedang Anda \"Kerjakan\" sekarang?",
-  ["onboardingListTasks.completed.heading"]: "Tugas apa yang sudah \"Selesai\"?",
+  ["onboardingListTasks.committed.heading"]:
+    'Apa tugas di daftar "Untuk Dilakukan" Anda?',
+  ["onboardingListTasks.started.heading"]:
+    'Tugas apa yang sedang Anda "Kerjakan" sekarang?',
+  ["onboardingListTasks.completed.heading"]: 'Tugas apa yang sudah "Selesai"?',
   ["onboardingListTasks.committed.0"]: "Evaluasi Superthread untuk timku 🧐",
   ["onboardingListTasks.committed.1"]: "Batalkan langganan Trello saya 🙈",
   ["onboardingListTasks.committed.2"]: "Belikan donat untuk tim 🍩",

@@ -2489,9 +2489,10 @@ const bs: Translations = {
   ["onboarding.marketing"]: "Marketing",
   ["onboarding.customer_support"]: "Korisnička podrška",
   ["onboarding.other"]: "Ostalo",
-  ["onboardingListTasks.committed.heading"]: "Koji je zadatak na tvojoj \"Za uraditi\" listi?",
-  ["onboardingListTasks.started.heading"]: "Koje zadatke trenutno \"Radiš\"?",
-  ["onboardingListTasks.completed.heading"]: "Koji zadaci su \"Završeni\"?",
+  ["onboardingListTasks.committed.heading"]:
+    'Koji je zadatak na tvojoj "Za uraditi" listi?',
+  ["onboardingListTasks.started.heading"]: 'Koje zadatke trenutno "Radiš"?',
+  ["onboardingListTasks.completed.heading"]: 'Koji zadaci su "Završeni"?',
   ["onboardingListTasks.committed.0"]: "Procijeni Superthread za moj tim 🧐",
   ["onboardingListTasks.committed.1"]: "Otkaži moju Trello pretplatu 🙈",
   ["onboardingListTasks.committed.2"]: "Kupi krofne za tim 🍩",

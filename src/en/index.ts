@@ -2448,9 +2448,10 @@ const en = {
   ["onboarding.customer_support"]: "Customer support",
   ["onboarding.other"]: "Other",
   ["onboardingListTasks.committed.heading"]:
-    "What's a task on your \"To Do\" list?",
-  ["onboardingListTasks.started.heading"]: "What tasks are you \"Doing\" right now?",
-  ["onboardingListTasks.completed.heading"]: "What tasks are \"Done\"?",
+    'What\'s a task on your "To Do" list?',
+  ["onboardingListTasks.started.heading"]:
+    'What tasks are you "Doing" right now?',
+  ["onboardingListTasks.completed.heading"]: 'What tasks are "Done"?',
   // 'onboardingListTasks.committed.0',
   ["onboardingListTasks.committed.0"]: "Evaluate Superthread for my team 🧐",
   ["onboardingListTasks.committed.1"]: "Cancel my Trello subscription 🙈",
