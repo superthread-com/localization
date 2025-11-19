@@ -2242,7 +2242,7 @@ const es = {
   epicMustHaveTitle: "Un proyecto debe tener un título",
   seeAllNotes: "Ver todas las notas",
   autoSaved: "Guardado automáticamente",
-  projectsAreTrackedOnRoadmap: "Los proyectos se rastrean en la hoja de ruta",
+  projectsAreTrackedOnRoadmap: "Los proyectos se rastrean en el tablero de grandes proyectos",
   addCardsToProject: "Agregar tarjetas a este proyecto",
   projectEmptyStateDescription:
     "Un proyecto es una gran pieza de trabajo compuesta por muchas tarjetas de todo el espacio de trabajo. Crea un proyecto en una columna o edita los estados predeterminados.",
@@ -2513,7 +2513,7 @@ const es = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Mejora tu plan para usar la hoja de ruta y los proyectos",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Los proyectos viven en la hoja de ruta. Los proyectos te permiten recopilar todas las tarjetas relacionadas con un proyecto en un solo lugar y mantener a todos actualizados.",
+    "Los proyectos viven en el tablero de grandes proyectos. Los proyectos te permiten recopilar todas las tarjetas relacionadas en un solo lugar y mantener a todos actualizados.",
   weekdays: "Días laborables",
   weekends: "Fines de semana",
   question: "Pregunta",

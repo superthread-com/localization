@@ -2191,7 +2191,7 @@ const pl = {
   epicMustHaveTitle: "Projekt musi mieć tytuł",
   seeAllNotes: "Zobacz wszystkie notatki",
   autoSaved: "Automatycznie zapisano",
-  projectsAreTrackedOnRoadmap: "Projekty są śledzone na mapie drogowej",
+  projectsAreTrackedOnRoadmap: "Projekty są śledzone na tablicy dużych projektów",
   addCardsToProject: "Dodaj karty do tego projektu",
   projectEmptyStateDescription:
     "Projekt to duży element pracy składający się z wielu kart z całego obszaru roboczego. Utwórz projekt w kolumnie lub edytuj domyślne statusy.",
@@ -2458,7 +2458,7 @@ const pl = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Uaktualnij swój plan, aby używać mapy drogowej i projektów",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projekty żyją na mapie drogowej. Projekty umożliwiają zbieranie wszystkich kart związanych z projektem w jednym miejscu i utrzymywanie wszystkich osób na bieżąco.",
+    "Projekty znajdują się na tablicy dużych projektów. Pozwalają zebrać wszystkie karty związane z projektem w jednym miejscu i utrzymać wszystkich na bieżąco.",
   weekdays: "Dni robocze",
   weekends: "Weekendy",
   checkin: "Zameldowanie",

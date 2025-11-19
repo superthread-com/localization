@@ -2129,7 +2129,7 @@ const ko = {
   epicMustHaveTitle: "프로젝트에는 제목이 있어야 합니다",
   seeAllNotes: "모든 노트 보기",
   autoSaved: "자동 저장됨",
-  projectsAreTrackedOnRoadmap: "프로젝트는 로드맵에서 추적됩니다",
+  projectsAreTrackedOnRoadmap: "프로젝트는 대형 프로젝트 보드에서 추적됩니다",
   addCardsToProject: "이 프로젝트에 카드를 추가하세요",
   projectEmptyStateDescription:
     "프로젝트는 작업 공간 전반에 걸쳐 많은 카드로 구성된 큰 작업입니다. 열에 프로젝트를 생성하거나 기본 상태를 편집하세요.",
@@ -2384,7 +2384,7 @@ const ko = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "로드맵과 프로젝트를 사용하려면 플랜을 업그레이드하세요",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "프로젝트는 로드맵에 있습니다. 프로젝트는 프로젝트와 관련된 모든 카드를 한 곳에 모아 모든 사람을 최신 상태로 유지할 수 있게 합니다.",
+    "프로젝트는 대형 프로젝트 보드에 존재합니다. 프로젝트를 통해 관련된 모든 카드를 한곳에 모으고 모두가 최신 상태를 유지하도록 할 수 있습니다.",
   weekdays: "평일",
   weekends: "주말",
   question: "질문",

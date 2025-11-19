@@ -2255,7 +2255,8 @@ const de = {
   epicMustHaveTitle: "Projekt muss einen Titel haben",
   seeAllNotes: "Alle Notizen anzeigen",
   autoSaved: "Automatisch gespeichert",
-  projectsAreTrackedOnRoadmap: "Projekte werden auf der Roadmap verfolgt",
+  projectsAreTrackedOnRoadmap:
+    "Projekte werden auf dem Board für große Projekte verfolgt",
   addCardsToProject: "Karten zu diesem Projekt hinzufügen",
   projectEmptyStateDescription:
     "Ein Projekt ist ein großes Arbeitsvorhaben, das aus vielen Karten im gesamten Arbeitsbereich besteht. Erstellen Sie ein Projekt in einer Spalte oder bearbeiten Sie die Standard-Status.",
@@ -2525,7 +2526,7 @@ const de = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Aktualisieren Sie Ihr Abonnement, um die Roadmap und Projekte zu verwenden",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projekte leben in der Roadmap. Projekte ermöglichen es Ihnen, alle Karten, die zu einem Projekt gehören, an einem Ort zu sammeln und alle Teilnehmer auf dem Laufenden zu halten.",
+    "Projekte leben auf dem Board für große Projekte. Damit sammelst du alle zu einem Projekt gehörenden Karten an einem Ort und hältst alle auf dem Laufenden.",
   weekdays: "Wochentage",
   weekends: "Wochenende",
   checkin: "Bericht",

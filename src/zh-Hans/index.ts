@@ -2035,7 +2035,7 @@ const zhHans = {
   epicMustHaveTitle: "项目必须有一个标题",
   seeAllNotes: "查看所有笔记",
   autoSaved: "自动保存",
-  projectsAreTrackedOnRoadmap: "项目在路线图上被跟踪",
+  projectsAreTrackedOnRoadmap: "项目会在大型项目看板上跟踪",
   addCardsToProject: "向此项目添加卡片",
   projectEmptyStateDescription:
     "一个项目是由工作区中多个卡片组成的大型工作。可以在列中创建项目，或编辑默认状态。",
@@ -2273,7 +2273,7 @@ const zhHans = {
   agendaDelay: "团队签到议程延迟",
   upgradePlanToUseRoadmapAndProjectsTitle: "升级您的计划以使用路线图和项目",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "项目存在于路线图中。项目让您可以将与项目相关的所有卡片集中在一个地方，并让所有人保持最新状态。",
+    "项目位于大型项目看板上。项目可以帮助你把与其相关的所有卡片集中在一个地方，并让所有人保持同步。",
   weekdays: "工作日",
   weekends: "周末",
   checkin: "签到",

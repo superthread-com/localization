@@ -2250,7 +2250,7 @@ const fr: Translations = {
   seeAllNotes: "Voir toutes les notes",
   autoSaved: "Sauvegardé automatiquement",
   projectsAreTrackedOnRoadmap:
-    "Les projets sont suivis sur la feuille de route",
+    "Les projets sont suivis sur le tableau des grands projets",
   addCardsToProject: "Ajouter des cartes à ce projet",
   projectEmptyStateDescription:
     "Un projet est un travail d'envergure composé de nombreuses cartes provenant de tout l'espace de travail. Créez un projet dans une colonne ou modifiez les statuts par défaut.",
@@ -2523,7 +2523,7 @@ const fr: Translations = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Mettre à niveau votre plan pour utiliser la feuille de route et les projets",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Les projets sont suivis sur la feuille de route. Les projets vous permettent de collecter toutes les cartes liées à un projet en un seul endroit et de maintenir tout le monde informé.",
+    "Les projets vivent dans le tableau des grands projets. Ils vous permettent de rassembler toutes les cartes liées à un projet au même endroit et de tenir tout le monde à jour.",
   weekdays: "Jours ouvrés",
   weekends: "Week-ends",
   question: "Question",

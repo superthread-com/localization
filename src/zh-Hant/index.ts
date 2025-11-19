@@ -2036,7 +2036,7 @@ const zhHant = {
   epicMustHaveTitle: "專案必須有標題",
   seeAllNotes: "查看所有筆記",
   autoSaved: "自動儲存",
-  projectsAreTrackedOnRoadmap: "專案在路線圖上被追蹤",
+  projectsAreTrackedOnRoadmap: "專案會在大型專案看板上被追蹤",
   addCardsToProject: "將卡片添加到此專案",
   projectEmptyStateDescription:
     "專案是一項由工作區中多張卡片組成的大型工作。在欄中創建專案，或編輯預設狀態。",
@@ -2275,7 +2275,7 @@ const zhHant = {
   agendaDelay: "團隊簽到議程延遲",
   upgradePlanToUseRoadmapAndProjectsTitle: "升級您的計劃以使用路線圖和項目",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "項目存在於路線圖中。項目讓您可以將所有與項目相關的卡片集中在一個地方，並讓每個人保持最新狀態。",
+    "專案存在於大型專案看板。專案讓你可以把所有相關卡片集中在同一處，並讓所有人保持最新狀態。",
   weekdays: "工作日",
   weekends: "週末",
   checkin: "簽到",

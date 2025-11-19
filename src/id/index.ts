@@ -2205,7 +2205,7 @@ const id = {
   epicMustHaveTitle: "Sebuah proyek harus memiliki judul",
   seeAllNotes: "Lihat semua catatan",
   autoSaved: "Tersimpan otomatis",
-  projectsAreTrackedOnRoadmap: "Proyek dilacak di peta jalan",
+  projectsAreTrackedOnRoadmap: "Proyek dilacak di papan Proyek Besar",
   addCardsToProject: "Tambahkan kartu ke proyek ini",
   projectEmptyStateDescription:
     "Sebuah proyek adalah pekerjaan besar yang terdiri dari banyak kartu dari seluruh ruang kerja. Buat proyek di kolom, atau edit status default.",
@@ -2473,7 +2473,7 @@ const id = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Tingkatkan paket Anda untuk menggunakan peta jalan dan proyek",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Proyek hidup dalam peta jalan. Proyek memungkinkan Anda mengumpulkan semua kartu yang terkait dengan proyek di satu tempat, dan membuat semua orang tetap terbarui.",
+    "Proyek berada di papan Proyek Besar. Proyek membantu Anda mengumpulkan semua kartu terkait di satu tempat dan membuat semua orang tetap mendapat informasi.",
   weekdays: "Hari kerja",
   weekends: "Akhir pekan",
   checkin: "Periksa masuk",

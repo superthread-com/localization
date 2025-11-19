@@ -2188,7 +2188,7 @@ const bs: Translations = {
   epicMustHaveTitle: "Projekt mora imati naslov",
   seeAllNotes: "Pogledaj sve bilješke",
   autoSaved: "Automatski sačuvano",
-  projectsAreTrackedOnRoadmap: "Projekti se prate na planu rada",
+  projectsAreTrackedOnRoadmap: "Projekti se prate na ploči velikih projekata",
   addCardsToProject: "Dodajte kartice u projekt",
   projectEmptyStateDescription:
     "Projekat je veliki dio posla koji se sastoji od mnogih kartica iz cijelog radnog prostora. Kreirajte projekat u koloni ili uredite zadane statuse.",
@@ -2451,7 +2451,7 @@ const bs: Translations = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Nadogradite svoj plan da biste koristili plan rada i projekte",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projekti se nalaze u planu rada. Projekti vam omogućuju da sve kartice povezane s projektom sakupite na jednom mjestu i održite sve sudionike informisane.",
+    "Projekti žive na ploči velikih projekata. Projekti vam omogućavaju da sve kartice povezane s projektom okupite na jednom mjestu i držite sve u toku.",
   weekdays: "Radni dani",
   weekends: "Vikend",
   question: "Pitanje",

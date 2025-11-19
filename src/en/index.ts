@@ -2146,7 +2146,8 @@ const en = {
   epicMustHaveTitle: "A project must have a title",
   seeAllNotes: "See all notes",
   autoSaved: "Auto-saved",
-  projectsAreTrackedOnRoadmap: "Projects are tracked on the large projects",
+  projectsAreTrackedOnRoadmap:
+    "Projects are tracked on the large projects board",
   addCardsToProject: "Add cards to this project",
   projectEmptyStateDescription:
     "A project is a large piece of work comprised of many cards from across the workspace. Create a project in a column, or edit the default statuses.",
@@ -2406,7 +2407,7 @@ const en = {
   upgradePlanToUseRoadmapAndProjectsTitle:
     "Upgrade your plan to use large projects",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projects live in large projects. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
+    "Projects live in large projects board. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
   weekdays: "Weekdays",
   weekends: "Weekends",
   question: "Question",
