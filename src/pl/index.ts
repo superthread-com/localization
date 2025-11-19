@@ -2191,7 +2191,8 @@ const pl = {
   epicMustHaveTitle: "Projekt musi mieć tytuł",
   seeAllNotes: "Zobacz wszystkie notatki",
   autoSaved: "Automatycznie zapisano",
-  projectsAreTrackedOnRoadmap: "Projekty są śledzone na tablicy dużych projektów",
+  projectsAreTrackedOnRoadmap:
+    "Projekty są śledzone na tablicy dużych projektów",
   addCardsToProject: "Dodaj karty do tego projektu",
   projectEmptyStateDescription:
     "Projekt to duży element pracy składający się z wielu kart z całego obszaru roboczego. Utwórz projekt w kolumnie lub edytuj domyślne statusy.",

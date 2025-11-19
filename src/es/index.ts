@@ -2242,7 +2242,8 @@ const es = {
   epicMustHaveTitle: "Un proyecto debe tener un título",
   seeAllNotes: "Ver todas las notas",
   autoSaved: "Guardado automáticamente",
-  projectsAreTrackedOnRoadmap: "Los proyectos se rastrean en el tablero de grandes proyectos",
+  projectsAreTrackedOnRoadmap:
+    "Los proyectos se rastrean en el tablero de grandes proyectos",
   addCardsToProject: "Agregar tarjetas a este proyecto",
   projectEmptyStateDescription:
     "Un proyecto es una gran pieza de trabajo compuesta por muchas tarjetas de todo el espacio de trabajo. Crea un proyecto en una columna o edita los estados predeterminados.",
