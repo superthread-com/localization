@@ -2516,10 +2516,11 @@ const id = {
   ["onboarding.marketing"]: "Pemasaran",
   ["onboarding.customer_support"]: "Dukungan pelanggan",
   ["onboarding.other"]: "Lainnya",
-  ["onboardingListTasks.committed.heading"]: "Tugas apa yang belum kamu mulai?",
-  ["onboardingListTasks.started.heading"]: "Tugas apa yang sudah kamu mulai?",
-  ["onboardingListTasks.completed.heading"]:
-    "Tugas apa yang sudah kamu selesaikan?",
+  ["onboardingListTasks.committed.heading"]:
+    'Apa tugas di daftar "Untuk Dilakukan" Anda?',
+  ["onboardingListTasks.started.heading"]:
+    'Tugas apa yang sedang Anda "Kerjakan" sekarang?',
+  ["onboardingListTasks.completed.heading"]: 'Tugas apa yang sudah "Selesai"?',
   ["onboardingListTasks.committed.0"]: "Evaluasi Superthread untuk timku 🧐",
   ["onboardingListTasks.committed.1"]: "Batalkan langganan Trello saya 🙈",
   ["onboardingListTasks.committed.2"]: "Belikan donat untuk tim 🍩",
@@ -2552,8 +2553,9 @@ const id = {
   ["onboarding.quote.author.5"]: "Marie Kondo",
   ["onboarding.trustedBy.description"]:
     "Bergabunglah dengan 10.000+ perusahaan yang mencapai lebih banyak dengan Superthread",
-  ["onboarding.video.text1"]: "Keren 👏",
+  ["onboarding.video.text1"]: "Selamat 🎉",
   ["onboarding.video.text2"]: "Kamu baru saja membuat papan pertamamu dalam",
+  ["onboarding.video.text3"]: "Ambil napas sebentar...",
   forExample: "Misalnya",
   createYourProfile: "Buat profil Anda",
   createYourProfileDescription: "Beginilah Anda akan tampil di Superthread",

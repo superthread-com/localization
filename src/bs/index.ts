@@ -2490,9 +2490,9 @@ const bs: Translations = {
   ["onboarding.customer_support"]: "Korisnička podrška",
   ["onboarding.other"]: "Ostalo",
   ["onboardingListTasks.committed.heading"]:
-    "Koji je zadatak koji još nisi započeo?",
-  ["onboardingListTasks.started.heading"]: "Koji je zadatak koji si započeo?",
-  ["onboardingListTasks.completed.heading"]: "Koji je zadatak koji si završio?",
+    'Koji je zadatak na tvojoj "Za uraditi" listi?',
+  ["onboardingListTasks.started.heading"]: 'Koje zadatke trenutno "Radiš"?',
+  ["onboardingListTasks.completed.heading"]: 'Koji zadaci su "Završeni"?',
   ["onboardingListTasks.committed.0"]: "Procijeni Superthread za moj tim 🧐",
   ["onboardingListTasks.committed.1"]: "Otkaži moju Trello pretplatu 🙈",
   ["onboardingListTasks.committed.2"]: "Kupi krofne za tim 🍩",
@@ -2521,8 +2521,9 @@ const bs: Translations = {
   ["onboarding.quote.author.5"]: "Marie Kondo",
   ["onboarding.trustedBy.description"]:
     "Pridruži se 10.000+ kompanijama koje uz Superthread postižu više",
-  ["onboarding.video.text1"]: "Sjajno 👏",
+  ["onboarding.video.text1"]: "Čestitam 🎉",
   ["onboarding.video.text2"]: "Upravo ste napravili svoju prvu ploču za",
+  ["onboarding.video.text3"]: "Udahni malo, napravi pauzu...",
   forExample: "Na primjer",
   createYourProfile: "Kreirajte svoj profil",
   createYourProfileDescription: "Ovako ćete se prikazivati u Superthreadu",

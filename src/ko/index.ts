@@ -2422,9 +2422,10 @@ const ko = {
   ["onboarding.customer_support"]: "고객 지원",
   ["onboarding.other"]: "기타",
   ["onboardingListTasks.committed.heading"]:
-    "아직 시작하지 않은 작업은 무엇인가요?",
-  ["onboardingListTasks.started.heading"]: "시작한 작업은 무엇인가요?",
-  ["onboardingListTasks.completed.heading"]: "완료한 작업은 무엇인가요?",
+    '당신의 "할 일" 목록에는 어떤 작업이 있나요?',
+  ["onboardingListTasks.started.heading"]:
+    '지금 당신이 "진행 중"인 작업은 무엇인가요?',
+  ["onboardingListTasks.completed.heading"]: '어떤 작업이 "완료됨" 상태인가요?',
   ["onboardingListTasks.committed.0"]: "우리 팀을 위해 Superthread 평가하기 🧐",
   ["onboardingListTasks.committed.1"]: "내 Trello 구독 취소하기 🙈",
   ["onboardingListTasks.committed.2"]: "팀을 위해 도넛 사기 🍩",
@@ -2449,8 +2450,9 @@ const ko = {
   ["onboarding.quote.author.5"]: "마리 콘도",
   ["onboarding.trustedBy.description"]:
     "Superthread로 더 많은 일을 해내는 10,000+개 기업과 함께하세요",
-  ["onboarding.video.text1"]: "대단해요 👏",
+  ["onboarding.video.text1"]: "축하해요 🎉",
   ["onboarding.video.text2"]: "방금 첫 번째 보드를",
+  ["onboarding.video.text3"]: "잠시 숨을 고르세요...",
   forExample: "예를 들어",
   createYourProfile: "프로필을 생성하세요",
   createYourProfileDescription: "Superthread에서 이렇게 표시됩니다",

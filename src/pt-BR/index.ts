@@ -2541,9 +2541,11 @@ const ptBR = {
   ["onboarding.customer_support"]: "Suporte ao cliente",
   ["onboarding.other"]: "Outro",
   ["onboardingListTasks.committed.heading"]:
-    "Qual tarefa você ainda não começou?",
-  ["onboardingListTasks.started.heading"]: "Qual tarefa você começou?",
-  ["onboardingListTasks.completed.heading"]: "Qual tarefa você concluiu?",
+    'Qual é uma tarefa na sua lista de "A Fazer"?',
+  ["onboardingListTasks.started.heading"]:
+    'Quais tarefas você está "Fazendo" agora?',
+  ["onboardingListTasks.completed.heading"]:
+    'Quais tarefas estão "Concluídas"?',
   ["onboardingListTasks.committed.0"]:
     "Avaliar o Superthread para minha equipe 🧐",
   ["onboardingListTasks.committed.1"]: "Cancelar minha assinatura do Trello 🙈",
@@ -2573,8 +2575,9 @@ const ptBR = {
   ["onboarding.quote.author.5"]: "Marie Kondo",
   ["onboarding.trustedBy.description"]:
     "Junte-se a 10.000+ empresas que fazem mais com o Superthread",
-  ["onboarding.video.text1"]: "Incrível 👏",
+  ["onboarding.video.text1"]: "Parabéns 🎉",
   ["onboarding.video.text2"]: "Você acabou de criar seu primeiro quadro em",
+  ["onboarding.video.text3"]: "Respire um pouco por um momento...",
   forExample: "Por exemplo",
   createYourProfile: "Crie seu perfil",
   createYourProfileDescription: "É assim que você aparecerá no Superthread",

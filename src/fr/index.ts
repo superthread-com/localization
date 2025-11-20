@@ -2564,9 +2564,11 @@ const fr: Translations = {
   ["onboarding.customer_support"]: "Support client",
   ["onboarding.other"]: "Autre",
   ["onboardingListTasks.committed.heading"]:
-    "Quelle tâche n’as-tu pas encore commencée?",
-  ["onboardingListTasks.started.heading"]: "Quelle tâche as-tu commencée?",
-  ["onboardingListTasks.completed.heading"]: "Quelle tâche as-tu terminée?",
+    'Quelle est une tâche sur votre liste "À faire" ?',
+  ["onboardingListTasks.started.heading"]:
+    'Quelles tâches êtes-vous en train de "Faire" actuellement ?',
+  ["onboardingListTasks.completed.heading"]:
+    'Quelles tâches sont "Terminées" ?',
   ["onboardingListTasks.committed.0"]: "Évaluer Superthread pour mon équipe 🧐",
   ["onboardingListTasks.committed.1"]: "Annuler mon abonnement Trello 🙈",
   ["onboardingListTasks.committed.2"]: "Acheter des donuts pour l’équipe 🍩",
@@ -2597,8 +2599,9 @@ const fr: Translations = {
   ["onboarding.quote.author.5"]: "Marie Kondo",
   ["onboarding.trustedBy.description"]:
     "Rejoignez 10 000+ entreprises qui accomplissent davantage avec Superthread",
-  ["onboarding.video.text1"]: "Génial 👏",
+  ["onboarding.video.text1"]: "Félicitations 🎉",
   ["onboarding.video.text2"]: "Vous venez de créer votre premier tableau en",
+  ["onboarding.video.text3"]: "Reprenez votre souffle un instant...",
   forExample: "Par exemple",
   createYourProfile: "Créez votre profil",
   createYourProfileDescription:

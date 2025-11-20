@@ -2500,10 +2500,11 @@ const pl = {
   ["onboarding.customer_support"]: "Wsparcie klienta",
   ["onboarding.other"]: "Inne",
   ["onboardingListTasks.committed.heading"]:
-    "Jakie zadanie masz jeszcze nierozpoczęte?",
-  ["onboardingListTasks.started.heading"]: "Jakie zadanie masz już rozpoczęte?",
+    'Jakie zadanie masz na liście "Do zrobienia"?',
+  ["onboardingListTasks.started.heading"]:
+    'Jakie zadania właśnie "W trakcie" wykonujesz?',
   ["onboardingListTasks.completed.heading"]:
-    "Jakie zadanie masz już ukończone?",
+    'Jakie zadania są już "Ukończone"?',
   ["onboardingListTasks.committed.0"]: "Oceń Superthread dla mojego zespołu 🧐",
   ["onboardingListTasks.committed.1"]: "Anuluj moją subskrypcję Trello 🙈",
   ["onboardingListTasks.committed.2"]: "Kup pączki dla zespołu 🍩",
@@ -2534,8 +2535,9 @@ const pl = {
   ["onboarding.quote.author.5"]: "Marie Kondo",
   ["onboarding.trustedBy.description"]:
     "Dołącz do 10 000+ firm, które osiągają więcej dzięki Superthread",
-  ["onboarding.video.text1"]: "Świetnie 👏",
+  ["onboarding.video.text1"]: "Gratulacje 🎉",
   ["onboarding.video.text2"]: "Właśnie utworzyłeś swoją pierwszą tablicę w",
+  ["onboarding.video.text3"]: "Złap na chwilę oddech...",
   forExample: "Na przykład",
   createYourProfile: "Utwórz swój profil",
   createYourProfileDescription: "Tak będziesz widoczny w Superthread",
