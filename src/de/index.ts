@@ -1938,7 +1938,7 @@ const de = {
   cancelSprint: "Sprint abbrechen",
   changeDates: "Daten ändern",
   chooseNewStartAndEndDates:
-    "Wybierz nową datę rozpoczęcia lub zakończenia dla %{sprintName}",
+    "Wähle ein neues Start- oder Enddatum für %{sprintName}",
   renameSprintDescription: "Gib einen neuen Namen für den Sprint ein.",
   startDateIsEarlierThanPreviousEndDate:
     "Das Startdatum überschneidet sich mit dem Enddatum des vorherigen Sprints",
