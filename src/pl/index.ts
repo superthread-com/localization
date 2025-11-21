@@ -207,7 +207,7 @@ const pl = {
   ["billing.numberBoards"]: "%{number} tablic",
   ["billing.fileSizeLimit"]: "%{size}MB limit rozmiaru pliku",
   ["billing.sprints"]: "Sprinty",
-  ["billing.projectsAndRoadmap"]: "Projekty i mapa drogowa",
+  ["billing.projectsAndRoadmap"]: "Projekty",
   ["billing.ssoAndSaml"]: "SSO i SAML",
   ["billing.unlimitedFileUploads"]: "Nielimitowane przesyłanie plików",
   ["billing.cardAndPageTemplates"]: "Szablony kart i stron",
@@ -657,7 +657,7 @@ const pl = {
   newView: "Nowy zapisany filtr",
   workspace: "Przestrzeń robocza",
   views: "Zapisane filtry",
-  roadmap: "Mapa drogowa",
+  roadmap: "Projekty",
   myViews: "Moje zapisane filtry",
   workspaceViews: "Zapisane filtry przestrzeni roboczej",
   private: "Prywatne",
@@ -1936,7 +1936,7 @@ const pl = {
   upgradeTemplatesDescription:
     "Zaktualizuj plan przestrzeni roboczej, aby korzystać z szablonów.",
   upgradeRoadmapAndProjectsDescription:
-    "Zaktualizuj plan przestrzeni roboczej, aby korzystać z mapy drogowej i projektów.",
+    "Zaktualizuj plan przestrzeni roboczej, aby korzystać z projektów.",
   upgradeViewsDescription:
     "Zaktualizuj plan przestrzeni roboczej, aby zapisywać zapisane filtry.",
   createNewItem: "Utwórz nowy element",
@@ -2109,7 +2109,7 @@ const pl = {
   effortEstimate: "szacowanie wysiłku",
   existingEpic: "istniejący projekt",
   roadmapMustHaveAtLeastOneStatus:
-    "Plan działania musi mieć co najmniej jeden status",
+    "Tablica projektów musi mieć co najmniej jeden status",
   chosenPageIsAlreadySubpage:
     "Wybrana strona jest już podstroną bieżącej strony",
   searchForResults: "Szukaj, aby wyświetlić wyniki",
@@ -2120,7 +2120,7 @@ const pl = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Tylko karty z statusu „Zrobione” mogą zostać przeniesione do ukończonego sprintu. Ta karta zostanie zmieniona na „Zrobione” i przeniesiona.",
   removeCardFromProject: "Usuń kartę z projektu",
-  roadmapOpenedInTheBackground: "Roadmap otwarta w tle",
+  roadmapOpenedInTheBackground: "Tablica projektów została otwarta w tle",
   unfavouriteCurrentSprint: "Usuń jako ulubiony sprint",
   favouriteCurrentSprint: "Dodaj jako ulubiony sprint",
   unfavouriteNextSprint: "Usuń jako ulubiony sprint",
@@ -2192,8 +2192,7 @@ const pl = {
   epicMustHaveTitle: "Projekt musi mieć tytuł",
   seeAllNotes: "Zobacz wszystkie notatki",
   autoSaved: "Automatycznie zapisano",
-  projectsAreTrackedOnRoadmap:
-    "Projekty są śledzone na tablicy dużych projektów",
+  projectsAreTrackedOnRoadmap: "Projekty są śledzone na tablicy projektów",
   addCardsToProject: "Dodaj karty do tego projektu",
   projectEmptyStateDescription:
     "Projekt to duży element pracy składający się z wielu kart z całego obszaru roboczego. Utwórz projekt w kolumnie lub edytuj domyślne statusy.",
@@ -2458,9 +2457,9 @@ const pl = {
   days: "Dni",
   agendaDelay: "Opóźnienie agendy zameldowań zespołu",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "Uaktualnij swój plan, aby używać mapy drogowej i projektów",
+    "Uaktualnij swój plan, aby używać projektów",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projekty znajdują się na tablicy dużych projektów. Pozwalają zebrać wszystkie karty związane z projektem w jednym miejscu i utrzymać wszystkich na bieżąco.",
+    "Projekty znajdują się na tablicy projektów. Pozwalają zebrać wszystkie karty związane z projektem w jednym miejscu i utrzymać wszystkich na bieżąco.",
   weekdays: "Dni robocze",
   weekends: "Weekendy",
   checkin: "Zameldowanie",

@@ -212,7 +212,7 @@ const id = {
   ["billing.numberBoards"]: "%{number} papan",
   ["billing.fileSizeLimit"]: "Batas ukuran file %{size}MB",
   ["billing.sprints"]: "Sprint",
-  ["billing.projectsAndRoadmap"]: "Proyek & peta jalan",
+  ["billing.projectsAndRoadmap"]: "Proyek",
   ["billing.ssoAndSaml"]: "SSO & SAML",
   ["billing.unlimitedFileUploads"]: "Unggahan file tanpa batas",
   ["billing.cardAndPageTemplates"]: "Template kartu & halaman",
@@ -664,7 +664,7 @@ const id = {
   newView: "Filter tersimpan baru",
   workspace: "Ruang kerja",
   views: "Filter tersimpan",
-  roadmap: "Peta jalan",
+  roadmap: "Proyek",
   myViews: "Filter tersimpan saya",
   workspaceViews: "Filter tersimpan workspace",
   private: "Pribadi",
@@ -1947,7 +1947,7 @@ const id = {
   upgradeTemplatesDescription:
     "Tingkatkan rencana ruang kerja Anda untuk menggunakan template.",
   upgradeRoadmapAndProjectsDescription:
-    "Tingkatkan rencana ruang kerja Anda untuk menggunakan peta jalan dan proyek.",
+    "Tingkatkan rencana ruang kerja Anda untuk menggunakan proyek.",
   upgradeViewsDescription:
     "Tingkatkan paket workspace Anda untuk menyimpan filter tersimpan.",
   createNewItem: "Buat item baru",
@@ -2123,7 +2123,7 @@ const id = {
   effortEstimate: "estimasi usaha",
   existingEpic: "proyek yang ada",
   roadmapMustHaveAtLeastOneStatus:
-    "Peta jalan harus memiliki setidaknya satu status",
+    "Papan proyek harus memiliki setidaknya satu status",
   chosenPageIsAlreadySubpage:
     "Halaman yang dipilih sudah menjadi subhalaman dari halaman saat ini",
   searchForResults: "Cari untuk menampilkan hasil",
@@ -2134,7 +2134,7 @@ const id = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Hanya kartu “Selesai” yang dapat dipindahkan ke sprint yang telah selesai. Kartu ini akan diubah menjadi “Selesai” dan dipindahkan.",
   removeCardFromProject: "Hapus kartu dari proyek",
-  roadmapOpenedInTheBackground: "Peta jalan dibuka di latar belakang",
+  roadmapOpenedInTheBackground: "Proyek dibuka di latar belakang",
   unfavouriteCurrentSprint: "Hapus favorit sprint saat ini",
   favouriteCurrentSprint: "Favoritkan sprint saat ini",
   unfavouriteNextSprint: "Hapus favorit sprint berikutnya",
@@ -2206,7 +2206,7 @@ const id = {
   epicMustHaveTitle: "Sebuah proyek harus memiliki judul",
   seeAllNotes: "Lihat semua catatan",
   autoSaved: "Tersimpan otomatis",
-  projectsAreTrackedOnRoadmap: "Proyek dilacak di papan Proyek Besar",
+  projectsAreTrackedOnRoadmap: "Proyek dilacak di papan proyek",
   addCardsToProject: "Tambahkan kartu ke proyek ini",
   projectEmptyStateDescription:
     "Sebuah proyek adalah pekerjaan besar yang terdiri dari banyak kartu dari seluruh ruang kerja. Buat proyek di kolom, atau edit status default.",
@@ -2472,9 +2472,9 @@ const id = {
   days: "Hari",
   agendaDelay: "Penundaan agenda check-in tim",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "Tingkatkan paket Anda untuk menggunakan peta jalan dan proyek",
+    "Tingkatkan paket Anda untuk menggunakan proyek",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Proyek berada di papan Proyek Besar. Proyek membantu Anda mengumpulkan semua kartu terkait di satu tempat dan membuat semua orang tetap mendapat informasi.",
+    "Proyek berada di papan proyek. Proyek membantu Anda mengumpulkan semua kartu terkait di satu tempat dan membuat semua orang tetap mendapat informasi.",
   weekdays: "Hari kerja",
   weekends: "Akhir pekan",
   checkin: "Periksa masuk",

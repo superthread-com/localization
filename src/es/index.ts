@@ -214,7 +214,7 @@ const es = {
   ["billing.numberBoards"]: "%{number} tableros",
   ["billing.fileSizeLimit"]: "Límite de tamaño de archivo de %{size}MB",
   ["billing.sprints"]: "Sprints",
-  ["billing.projectsAndRoadmap"]: "Proyectos y hoja de ruta",
+  ["billing.projectsAndRoadmap"]: "Proyectos",
   ["billing.ssoAndSaml"]: "SSO y SAML",
   ["billing.unlimitedFileUploads"]: "Cargas de archivos ilimitadas",
   ["billing.cardAndPageTemplates"]: "Plantillas de tarjetas y páginas",
@@ -670,7 +670,7 @@ const es = {
   newView: "Nuevo filtro guardado",
   workspace: "Espacio de trabajo",
   views: "Filtros guardados",
-  roadmap: "Hoja de ruta",
+  roadmap: "Proyectos",
   myViews: "Mis filtros guardados",
   workspaceViews: "Filtros guardados del espacio de trabajo",
   private: "Privado",
@@ -1984,7 +1984,7 @@ const es = {
   upgradeTemplatesDescription:
     "Mejora el plan de tu espacio de trabajo para usar plantillas.",
   upgradeRoadmapAndProjectsDescription:
-    "Mejora el plan de tu espacio de trabajo para usar hojas de ruta y proyectos.",
+    "Mejora el plan de tu espacio de trabajo para usar proyectos.",
   upgradeViewsDescription:
     "Actualiza tu plan del espacio de trabajo para guardar filtros guardados.",
   createNewItem: "Crear nuevo elemento",
@@ -2160,7 +2160,7 @@ const es = {
   effortEstimate: "estimación de esfuerzo",
   existingEpic: "proyecto existente",
   roadmapMustHaveAtLeastOneStatus:
-    "La hoja de ruta debe tener al menos un estado",
+    "El tablero de proyectos debe tener al menos un estado",
   chosenPageIsAlreadySubpage:
     "La página elegida ya es una subpágina de la página actual",
   searchForResults: "Busca para mostrar resultados",
@@ -2171,7 +2171,7 @@ const es = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Solo las tarjetas “Hechas” pueden ser movidas a un sprint completado. Esta tarjeta se cambiará a “Hecha” y se moverá.",
   removeCardFromProject: "Eliminar tarjeta del proyecto",
-  roadmapOpenedInTheBackground: "Hoja de ruta abierta en segundo plano",
+  roadmapOpenedInTheBackground: "Proyectos abiertos en segundo plano",
   unfavouriteCurrentSprint: "Desmarcar como favorito el sprint actual",
   favouriteCurrentSprint: "Marcar como favorito el sprint actual",
   unfavouriteNextSprint: "Desmarcar como favorito el próximo sprint",
@@ -2244,7 +2244,7 @@ const es = {
   seeAllNotes: "Ver todas las notas",
   autoSaved: "Guardado automáticamente",
   projectsAreTrackedOnRoadmap:
-    "Los proyectos se rastrean en el tablero de grandes proyectos",
+    "Los proyectos se rastrean en el tablero de proyectos",
   addCardsToProject: "Agregar tarjetas a este proyecto",
   projectEmptyStateDescription:
     "Un proyecto es una gran pieza de trabajo compuesta por muchas tarjetas de todo el espacio de trabajo. Crea un proyecto en una columna o edita los estados predeterminados.",
@@ -2512,10 +2512,9 @@ const es = {
   startAskingQuestionsAt: "Comenzar a hacer preguntas a las",
   days: "Días",
   agendaDelay: "Retraso de la agenda de revisión del equipo",
-  upgradePlanToUseRoadmapAndProjectsTitle:
-    "Mejora tu plan para usar la hoja de ruta y los proyectos",
+  upgradePlanToUseRoadmapAndProjectsTitle: "Mejora tu plan para usar proyectos",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Los proyectos viven en el tablero de grandes proyectos. Los proyectos te permiten recopilar todas las tarjetas relacionadas en un solo lugar y mantener a todos actualizados.",
+    "Los proyectos viven en el tablero de proyectos. Te permiten reunir todas las tarjetas relacionadas con un proyecto en un solo lugar y mantener a todos informados.",
   weekdays: "Días laborables",
   weekends: "Fines de semana",
   question: "Pregunta",

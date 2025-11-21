@@ -210,7 +210,7 @@ const en = {
   ["billing.numberBoards"]: "%{number} boards",
   ["billing.fileSizeLimit"]: "%{size}MB file size limit",
   ["billing.sprints"]: "Sprints",
-  ["billing.projectsAndRoadmap"]: "Large projects",
+  ["billing.projectsAndRoadmap"]: "Projects",
   ["billing.ssoAndSaml"]: "SSO & SAML",
   ["billing.unlimitedFileUploads"]: "Unlimited file uploads",
   ["billing.cardAndPageTemplates"]: "Card & page templates",
@@ -652,7 +652,7 @@ const en = {
   newView: "New saved filter",
   workspace: "Workspace",
   views: "Saved filters",
-  roadmap: "Large projects",
+  roadmap: "Projects",
   myViews: "My saved filters",
   workspaceViews: "Workspace saved filters",
   private: "Private",
@@ -1896,7 +1896,7 @@ const en = {
     "Upgrade your workspace plan to use the calendar layout.",
   upgradeTemplatesDescription: "Upgrade your workspace plan to use templates.",
   upgradeRoadmapAndProjectsDescription:
-    "Upgrade your workspace plan to use large projects.",
+    "Upgrade your workspace plan to use projects.",
   upgradeViewsDescription: "Upgrade your workspace plan to save saved filters.",
   createNewItem: "Create new item",
   statusType: "Status type",
@@ -2063,8 +2063,7 @@ const en = {
   spaceLevelTags: "space-level tags",
   effortEstimate: "effort estimate",
   existingEpic: "existing project",
-  roadmapMustHaveAtLeastOneStatus:
-    "Large projects must have at least one status",
+  roadmapMustHaveAtLeastOneStatus: "Projects must have at least one status",
   chosenPageIsAlreadySubpage:
     "Chosen page is already a subpage of current page",
   searchForResults: "Search to show results",
@@ -2075,7 +2074,7 @@ const en = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Only “Done” cards can be moved to a completed sprint. This card will be changed to “Done” and moved.",
   removeCardFromProject: "Remove card from project",
-  roadmapOpenedInTheBackground: "Large projects opened in the background",
+  roadmapOpenedInTheBackground: "Projects opened in the background",
   unfavouriteCurrentSprint: "Unfavourite current sprint",
   favouriteCurrentSprint: "Favourite current sprint",
   unfavouriteNextSprint: "Unfavourite next sprint",
@@ -2147,8 +2146,7 @@ const en = {
   epicMustHaveTitle: "A project must have a title",
   seeAllNotes: "See all notes",
   autoSaved: "Auto-saved",
-  projectsAreTrackedOnRoadmap:
-    "Projects are tracked on the large projects board",
+  projectsAreTrackedOnRoadmap: "Projects are tracked on the projects board",
   addCardsToProject: "Add cards to this project",
   projectEmptyStateDescription:
     "A project is a large piece of work comprised of many cards from across the workspace. Create a project in a column, or edit the default statuses.",
@@ -2405,10 +2403,9 @@ const en = {
   startAskingQuestionsAt: "Start asking questions at",
   days: "Days",
   agendaDelay: "Team check-in agenda delay",
-  upgradePlanToUseRoadmapAndProjectsTitle:
-    "Upgrade your plan to use large projects",
+  upgradePlanToUseRoadmapAndProjectsTitle: "Upgrade your plan to use projects",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projects live in large projects board. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
+    "Projects live in projects board. Projects let you collect all of the cards related to a project in one place, and keep everyone up to date.",
   weekdays: "Weekdays",
   weekends: "Weekends",
   question: "Question",

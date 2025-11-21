@@ -208,7 +208,7 @@ const ko = {
   ["billing.numberBoards"]: "%{number} 보드",
   ["billing.fileSizeLimit"]: "파일 크기 제한 %{size}MB",
   ["billing.sprints"]: "스프린트",
-  ["billing.projectsAndRoadmap"]: "프로젝트 및 로드맵",
+  ["billing.projectsAndRoadmap"]: "프로젝트",
   ["billing.ssoAndSaml"]: "SSO 및 SAML",
   ["billing.unlimitedFileUploads"]: "무제한 파일 업로드",
   ["billing.cardAndPageTemplates"]: "카드 및 페이지 템플릿",
@@ -650,7 +650,7 @@ const ko = {
   newView: "새 저장된 필터",
   workspace: "작업 공간",
   views: "저장된 필터",
-  roadmap: "로드맵",
+  roadmap: "프로젝트",
   myViews: "내 저장된 필터",
   workspaceViews: "워크스페이스 저장된 필터",
   private: "비공개",
@@ -1881,7 +1881,7 @@ const ko = {
   upgradeTemplatesDescription:
     "템플릿을 사용하려면 작업 공간 플랜을 업그레이드하세요.",
   upgradeRoadmapAndProjectsDescription:
-    "로드맵 및 프로젝트를 사용하려면 작업 공간 플랜을 업그레이드하세요.",
+    "프로젝트를 사용하려면 작업 공간 플랜을 업그레이드하세요.",
   upgradeViewsDescription:
     "저장된 필터를 저장하려면 워크스페이스 요금제를 업그레이드하세요.",
   createNewItem: "새 항목 만들기",
@@ -2047,7 +2047,7 @@ const ko = {
   effortEstimate: "노력 추정",
   existingEpic: "기존 프로젝트",
   roadmapMustHaveAtLeastOneStatus:
-    "로드맵에는 최소한 하나의 상태가 있어야 합니다",
+    "프로젝트 보드에는 최소한 하나의 상태가 있어야 합니다",
   chosenPageIsAlreadySubpage:
     "선택한 페이지는 이미 현재 페이지의 하위 페이지입니다",
   searchForResults: "결과를 표시하려면 검색하세요",
@@ -2058,7 +2058,7 @@ const ko = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "”완료” 카드만 완료된 스프린트로 이동할 수 있습니다. 이 카드는 ”완료”로 변경되어 이동됩니다.",
   removeCardFromProject: "프로젝트에서 카드 제거",
-  roadmapOpenedInTheBackground: "로드맵이 백그라운드에서 열렸습니다",
+  roadmapOpenedInTheBackground: "프로젝트가 백그라운드에서 열렸습니다",
   unfavouriteCurrentSprint: "현재 스프린트 즐겨찾기 해제",
   favouriteCurrentSprint: "현재 스프린트 즐겨찾기",
   unfavouriteNextSprint: "다음 스프린트 즐겨찾기 해제",
@@ -2130,7 +2130,7 @@ const ko = {
   epicMustHaveTitle: "프로젝트에는 제목이 있어야 합니다",
   seeAllNotes: "모든 노트 보기",
   autoSaved: "자동 저장됨",
-  projectsAreTrackedOnRoadmap: "프로젝트는 대형 프로젝트 보드에서 추적됩니다",
+  projectsAreTrackedOnRoadmap: "프로젝트는 프로젝트 보드에서 추적됩니다",
   addCardsToProject: "이 프로젝트에 카드를 추가하세요",
   projectEmptyStateDescription:
     "프로젝트는 작업 공간 전반에 걸쳐 많은 카드로 구성된 큰 작업입니다. 열에 프로젝트를 생성하거나 기본 상태를 편집하세요.",
@@ -2383,9 +2383,9 @@ const ko = {
   days: "일",
   agendaDelay: "팀 체크인 의제 지연",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "로드맵과 프로젝트를 사용하려면 플랜을 업그레이드하세요",
+    "프로젝트를 사용하려면 플랜을 업그레이드하세요",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "프로젝트는 대형 프로젝트 보드에 존재합니다. 프로젝트를 통해 관련된 모든 카드를 한곳에 모으고 모두가 최신 상태를 유지하도록 할 수 있습니다.",
+    "프로젝트는 프로젝트 보드에 존재합니다. 프로젝트를 통해 관련된 모든 카드를 한곳에 모으고 모두가 최신 상태를 유지하도록 할 수 있습니다.",
   weekdays: "평일",
   weekends: "주말",
   question: "질문",
