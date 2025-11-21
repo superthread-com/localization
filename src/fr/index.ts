@@ -76,7 +76,7 @@ const fr: Translations = {
   ["billing.numberBoards"]: "%{number} tableaux",
   ["billing.fileSizeLimit"]: "Limitation de la taille des fichiers à %{size}MB",
   ["billing.sprints"]: "Sprints",
-  ["billing.projectsAndRoadmap"]: "Projets et feuille de route",
+  ["billing.projectsAndRoadmap"]: "Projets",
   ["billing.ssoAndSaml"]: "SSO & SAML",
   ["billing.unlimitedFileUploads"]: "Téléchargements de fichiers illimités",
   ["billing.cardAndPageTemplates"]: "Modèles de carte et de page",
@@ -678,7 +678,7 @@ const fr: Translations = {
   newView: "Nouveau filtre enregistré",
   workspace: "Espace de travail",
   views: "Filtres enregistrés",
-  roadmap: "Feuille de route",
+  roadmap: "Projets",
   myViews: "Mes filtres enregistrés",
   workspaceViews: "Filtres enregistrés de l’espace",
   private: "Privé",
@@ -1989,7 +1989,7 @@ const fr: Translations = {
   upgradeTemplatesDescription:
     "Mettez à niveau votre plan d'espace de travail pour utiliser des modèles.",
   upgradeRoadmapAndProjectsDescription:
-    "Mettez à niveau votre plan d'espace de travail pour utiliser des feuilles de route et des projets.",
+    "Mettez à niveau votre plan d'espace de travail pour utiliser les projets.",
   upgradeViewsDescription:
     "Mettez à niveau votre plan pour pouvoir enregistrer des filtres.",
   createNewItem: "Créer un nouvel élément",
@@ -2166,7 +2166,7 @@ const fr: Translations = {
   effortEstimate: "estimation de l'effort",
   existingEpic: "projet existant",
   roadmapMustHaveAtLeastOneStatus:
-    "La feuille de route doit avoir au moins un statut",
+    "Le tableau des projets doit comporter au moins un statut",
   chosenPageIsAlreadySubpage:
     "La page choisie est déjà une sous-page de la page actuelle",
   searchForResults: "Rechercher pour afficher les résultats",
@@ -2177,7 +2177,7 @@ const fr: Translations = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     'Seules les cartes marquées "Terminé" peuvent être déplacées vers un sprint terminé. Cette carte sera marquée comme "Terminé" et déplacée.',
   removeCardFromProject: "Supprimer la carte du projet",
-  roadmapOpenedInTheBackground: "Feuille de route ouverte en arrière-plan",
+  roadmapOpenedInTheBackground: "Projets ouverts en arrière-plan",
   unfavouriteCurrentSprint: "Sprint actuel non favori",
   favouriteCurrentSprint: "Sprint actuel favori",
   unfavouriteNextSprint: "Sprint suivant non favori",
@@ -2251,7 +2251,7 @@ const fr: Translations = {
   seeAllNotes: "Voir toutes les notes",
   autoSaved: "Sauvegardé automatiquement",
   projectsAreTrackedOnRoadmap:
-    "Les projets sont suivis sur le tableau des grands projets",
+    "Les projets sont suivis sur le tableau des projets",
   addCardsToProject: "Ajouter des cartes à ce projet",
   projectEmptyStateDescription:
     "Un projet est un travail d'envergure composé de nombreuses cartes provenant de tout l'espace de travail. Créez un projet dans une colonne ou modifiez les statuts par défaut.",
@@ -2522,9 +2522,9 @@ const fr: Translations = {
   days: "Jours",
   agendaDelay: "Délai de génération de l'agenda des rapports d'équipe",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "Mettre à niveau votre plan pour utiliser la feuille de route et les projets",
+    "Mettez à niveau votre plan pour utiliser les projets",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Les projets vivent dans le tableau des grands projets. Ils vous permettent de rassembler toutes les cartes liées à un projet au même endroit et de tenir tout le monde à jour.",
+    "Les projets vivent dans le tableau des projets. Ils vous permettent de rassembler toutes les cartes liées à un projet au même endroit et de tenir tout le monde informé.",
   weekdays: "Jours ouvrés",
   weekends: "Week-ends",
   question: "Question",

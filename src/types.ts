@@ -2207,6 +2207,7 @@ export enum TranslationKeys {
   OnboardingTrustedByDescription = "onboarding.trustedBy.description",
   OnboardingVideoText1 = "onboarding.video.text1",
   OnboardingVideoText2 = "onboarding.video.text2",
+  OnboardingVideoText3 = "onboarding.video.text3",
   ForExample = "forExample",
   CreateYourProfile = "createYourProfile",
   CreateYourProfileDescription = "createYourProfileDescription",

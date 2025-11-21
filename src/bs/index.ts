@@ -1164,7 +1164,7 @@ const bs: Translations = {
   ["billing.numberBoards"]: "%{number} ploča",
   ["billing.fileSizeLimit"]: "Ograničenje veličine datoteke %{size}MB",
   ["billing.sprints"]: "Ciklusi",
-  ["billing.projectsAndRoadmap"]: "Projekti i vremenske linije",
+  ["billing.projectsAndRoadmap"]: "Projekti",
   ["billing.ssoAndSaml"]: "SSO i SAML",
   ["billing.unlimitedFileUploads"]: "Neograničeno učitavanje datoteka",
   ["billing.cardAndPageTemplates"]: "Predlošci kartica i stranica",
@@ -1336,7 +1336,7 @@ const bs: Translations = {
   newView: "Novi sačuvani filter",
   workspace: "Workspace",
   views: "Sačuvani filteri",
-  roadmap: "Plan rada",
+  roadmap: "Projekti",
   private: "Privatno",
   lastUpdate: "Posljednja izmjena",
   viewType: "Tip sačuvanog filtera",
@@ -1937,7 +1937,7 @@ const bs: Translations = {
   upgradeTemplatesDescription:
     "Nadogradite svoj plan radnog prostora da biste koristili šablone.",
   upgradeRoadmapAndProjectsDescription:
-    "Nadogradite svoj plan radnog prostora da biste koristili vremenske okvire i projekte.",
+    "Nadogradite svoj plan radnog prostora da biste koristili projekte.",
   upgradeViewsDescription:
     "Nadogradite plan workspace-a kako biste mogli sačuvati sačuvane filtre.",
   createNewItem: "Kreiraj novi stavku",
@@ -2106,7 +2106,7 @@ const bs: Translations = {
   spaceLevelTags: "oznake na nivou prostora",
   effortEstimate: "procjena napora",
   existingEpic: "postojeći projekt",
-  roadmapMustHaveAtLeastOneStatus: "Plan rada mora imati barem jedan status",
+  roadmapMustHaveAtLeastOneStatus: "Projekti moraju imati barem jedan status",
   chosenPageIsAlreadySubpage:
     "Odabrana stranica je već podstranica trenutne stranice",
   searchForResults: "Pretražite za prikaz rezultata",
@@ -2117,7 +2117,7 @@ const bs: Translations = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     'Samo "Završene" kartice mogu se premjestiti u završeni ciklus. Ova kartica će biti promijenjena u "Završeno" i premještena.',
   removeCardFromProject: "Ukloni karticu iz projekta",
-  roadmapOpenedInTheBackground: "Plan rada otvoren u pozadini",
+  roadmapOpenedInTheBackground: "Projekti su otvoreni u pozadini",
   unfavouriteCurrentSprint: "Ukloni iz omiljenih trenutni ciklus",
   favouriteCurrentSprint: "Dodaj u omiljene trenutni ciklus",
   unfavouriteNextSprint: "Ukloni iz omiljenih sljedeći ciklus",
@@ -2189,7 +2189,7 @@ const bs: Translations = {
   epicMustHaveTitle: "Projekt mora imati naslov",
   seeAllNotes: "Pogledaj sve bilješke",
   autoSaved: "Automatski sačuvano",
-  projectsAreTrackedOnRoadmap: "Projekti se prate na ploči velikih projekata",
+  projectsAreTrackedOnRoadmap: "Projekti se prate na tabli projekata",
   addCardsToProject: "Dodajte kartice u projekt",
   projectEmptyStateDescription:
     "Projekat je veliki dio posla koji se sastoji od mnogih kartica iz cijelog radnog prostora. Kreirajte projekat u koloni ili uredite zadane statuse.",
@@ -2450,9 +2450,9 @@ const bs: Translations = {
   days: "Dani",
   agendaDelay: "Odgađanje agende timskog izvještaja",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "Nadogradite svoj plan da biste koristili plan rada i projekte",
+    "Nadogradite svoj plan da biste koristili projekte",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projekti žive na ploči velikih projekata. Projekti vam omogućavaju da sve kartice povezane s projektom okupite na jednom mjestu i držite sve u toku.",
+    "Projekti žive na tabli projekata. Omogućavaju vam da sve kartice povezane s projektom okupite na jednom mjestu i držite sve u toku.",
   weekdays: "Radni dani",
   weekends: "Vikend",
   question: "Pitanje",

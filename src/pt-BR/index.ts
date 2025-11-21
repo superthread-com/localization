@@ -214,7 +214,7 @@ const ptBR = {
   ["billing.numberBoards"]: "%{number} quadros",
   ["billing.fileSizeLimit"]: "Limite de tamanho de arquivo de %{size}MB",
   ["billing.sprints"]: "Sprints",
-  ["billing.projectsAndRoadmap"]: "Projetos e roteiro",
+  ["billing.projectsAndRoadmap"]: "Projetos",
   ["billing.ssoAndSaml"]: "SSO e SAML",
   ["billing.unlimitedFileUploads"]: "Uploads de arquivos ilimitados",
   ["billing.cardAndPageTemplates"]: "Modelos de cartão e página",
@@ -673,7 +673,7 @@ const ptBR = {
   newView: "Novo filtro salvo",
   workspace: "Espaço de trabalho",
   views: "Filtros salvos",
-  roadmap: "Roteiro",
+  roadmap: "Projetos",
   myViews: "Meus filtros salvos",
   workspaceViews: "Filtros salvos do workspace",
   private: "Privado",
@@ -1970,7 +1970,7 @@ const ptBR = {
   upgradeTemplatesDescription:
     "Faça upgrade do plano do seu espaço de trabalho para usar modelos.",
   upgradeRoadmapAndProjectsDescription:
-    "Faça upgrade do plano do seu espaço de trabalho para usar roteiros e projetos.",
+    "Faça upgrade do plano do seu espaço de trabalho para usar projetos.",
   upgradeViewsDescription:
     "Atualize o plano do workspace para salvar filtros salvos.",
   createNewItem: "Criar novo item",
@@ -2143,7 +2143,8 @@ const ptBR = {
   spaceLevelTags: "tags de nível de espaço",
   effortEstimate: "estimativa de esforço",
   existingEpic: "projeto existente",
-  roadmapMustHaveAtLeastOneStatus: "O roteiro deve ter pelo menos um status",
+  roadmapMustHaveAtLeastOneStatus:
+    "O quadro de projetos deve ter pelo menos um status",
   chosenPageIsAlreadySubpage:
     "A página escolhida já é uma subpágina da página atual",
   searchForResults: "Pesquise para mostrar resultados",
@@ -2154,7 +2155,7 @@ const ptBR = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Apenas cartões “Concluídos” podem ser movidos para um sprint concluído. Este cartão será alterado para “Concluído” e movido.",
   removeCardFromProject: "Remover cartão do projeto",
-  roadmapOpenedInTheBackground: "Roteiro aberto em segundo plano",
+  roadmapOpenedInTheBackground: "Projetos abertos em segundo plano",
   unfavouriteCurrentSprint: "Desfavoritar sprint atual",
   favouriteCurrentSprint: "Favoritar sprint atual",
   unfavouriteNextSprint: "Desfavoritar próximo sprint",
@@ -2227,7 +2228,7 @@ const ptBR = {
   seeAllNotes: "Veja todas as notas",
   autoSaved: "Auto-salvo",
   projectsAreTrackedOnRoadmap:
-    "Os projetos são acompanhados no quadro de grandes projetos",
+    "Os projetos são acompanhados no quadro de projetos",
   addCardsToProject: "Adicione cartões a este projeto",
   projectEmptyStateDescription:
     "Um projeto é um grande trabalho composto por muitos cartões de todo o espaço de trabalho. Crie um projeto em uma coluna ou edite os status padrão.",
@@ -2497,9 +2498,9 @@ const ptBR = {
   days: "Dias",
   agendaDelay: "Atraso na agenda do check-in da equipe",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "Atualize seu plano para usar o roteiro e os projetos",
+    "Atualize seu plano para usar projetos",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Os projetos vivem no quadro de grandes projetos. Eles permitem reunir todas as cartas relacionadas em um único lugar e manter todos atualizados.",
+    "Os projetos vivem no quadro de projetos. Eles permitem reunir todas as cartas relacionadas em um único lugar e manter todos atualizados.",
   weekdays: "Dias da semana",
   weekends: "Fins de semana",
   checkin: "Check-in",

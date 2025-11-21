@@ -213,7 +213,7 @@ const de = {
   ["billing.numberBoards"]: "%{number} Tafeln",
   ["billing.fileSizeLimit"]: "%{size}MB Dateigrößenlimit",
   ["billing.sprints"]: "Sprints",
-  ["billing.projectsAndRoadmap"]: "Projekte & Fahrplan",
+  ["billing.projectsAndRoadmap"]: "Projekte",
   ["billing.ssoAndSaml"]: "SSO & SAML",
   ["billing.unlimitedFileUploads"]: "Unbegrenzte Datei-Uploads",
   ["billing.cardAndPageTemplates"]: "Karten- und Seitenvorlagen",
@@ -674,7 +674,7 @@ const de = {
   newView: "Neuer gespeicherter Filter",
   workspace: "Arbeitsbereich",
   views: "Gespeicherte Filter",
-  roadmap: "Roadmap",
+  roadmap: "Projekte",
   myViews: "Meine gespeicherten Filter",
   workspaceViews: "Gespeicherte Filter des Arbeitsbereichs",
   private: "Privat",
@@ -1995,7 +1995,7 @@ const de = {
   upgradeTemplatesDescription:
     "Upgrade deinen Arbeitsbereichsplan, um Vorlagen zu verwenden.",
   upgradeRoadmapAndProjectsDescription:
-    "Upgrade deinen Arbeitsbereichsplan, um Roadmaps und Projekte zu verwenden.",
+    "Upgrade deinen Arbeitsbereichsplan, um Projekte zu verwenden.",
   upgradeViewsDescription:
     "Upgrade deinen Arbeitsbereichsplan, um gespeicherte Filter zu speichern.",
   createNewItem: "Neues Element erstellen",
@@ -2173,7 +2173,7 @@ const de = {
   effortEstimate: "Aufwandsschätzung",
   existingEpic: "bestehendes Projekt",
   roadmapMustHaveAtLeastOneStatus:
-    "Die Roadmap muss mindestens einen Status haben.",
+    "Das Projekte-Board muss mindestens einen Status haben.",
   chosenPageIsAlreadySubpage:
     "Die gewählte Seite ist bereits eine Unterseite der aktuellen Seite.",
   searchForResults: "Suche nach Ergebnissen",
@@ -2184,7 +2184,7 @@ const de = {
   onlyDoneCardsCanBeMovedToCompletedSprint:
     "Nur „Fertig“ Karten können in einen abgeschlossenen Sprint verschoben werden. Diese Karte wird auf „Fertig“ geändert und verschoben.",
   removeCardFromProject: "Karte aus Projekt entfernen",
-  roadmapOpenedInTheBackground: "Roadmap im Hintergrund geöffnet",
+  roadmapOpenedInTheBackground: "Projekte im Hintergrund geöffnet",
   unfavouriteCurrentSprint: "Aktueller Sprint nicht favorisieren",
   favouriteCurrentSprint: "Favorit aktueller Sprint",
   unfavouriteNextSprint: "Nächster Sprint nicht favorisiert",
@@ -2257,7 +2257,7 @@ const de = {
   seeAllNotes: "Alle Notizen anzeigen",
   autoSaved: "Automatisch gespeichert",
   projectsAreTrackedOnRoadmap:
-    "Projekte werden auf dem Board für große Projekte verfolgt",
+    "Projekte werden auf dem Projekte-Board verfolgt",
   addCardsToProject: "Karten zu diesem Projekt hinzufügen",
   projectEmptyStateDescription:
     "Ein Projekt ist ein großes Arbeitsvorhaben, das aus vielen Karten im gesamten Arbeitsbereich besteht. Erstellen Sie ein Projekt in einer Spalte oder bearbeiten Sie die Standard-Status.",
@@ -2525,9 +2525,9 @@ const de = {
   days: "Tage",
   agendaDelay: "Verzögerung der Team-Check-in-Agenda",
   upgradePlanToUseRoadmapAndProjectsTitle:
-    "Aktualisieren Sie Ihr Abonnement, um die Roadmap und Projekte zu verwenden",
+    "Aktualisieren Sie Ihr Abonnement, um Projekte zu verwenden",
   upgradePlanToUseRoadmapAndProjectsDescription:
-    "Projekte leben auf dem Board für große Projekte. Damit sammelst du alle zu einem Projekt gehörenden Karten an einem Ort und hältst alle auf dem Laufenden.",
+    "Projekte leben auf dem Projekte-Board. Damit sammelst du alle zu einem Projekt gehörenden Karten an einem Ort und hältst alle auf dem Laufenden.",
   weekdays: "Wochentage",
   weekends: "Wochenende",
   checkin: "Bericht",
