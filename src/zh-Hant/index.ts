@@ -2350,7 +2350,7 @@ const zhHant = {
   someonesBoard: "%{userName}的看板",
   chooseYourVibe: "選擇你的氛圍",
   chooseYourVibeDescription: "至少選擇 2 個，這只是好玩用的",
-  exampleCardTitle: '👋 歡迎使用 Superthread – 將我拖到 "The basics" 看板',
+  exampleCardTitle: '👋 把我拖到 "The essentials" 看板裡\，然後看看裡面有些什麼吧',
   exampleListTitle: "👀 看這裡",
   browseArchivedCards: "瀏覽已歸檔的卡片",
   cardIsArchived: "卡片已歸檔",

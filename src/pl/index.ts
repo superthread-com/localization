@@ -2547,7 +2547,7 @@ const pl = {
   chooseYourVibe: "Wybierz swój nastrój",
   chooseYourVibeDescription: "Wybierz co najmniej 2 — to tylko dla zabawy",
   exampleCardTitle:
-    '👋 Witamy w Superthread – przeciągnij mnie na tablicę "The basics"',
+    '👋 Przeciągnij mnie do tablicy "The essentials" i sprawdź, co tam jest',
   exampleListTitle: "👀 Spójrz tutaj",
   browseArchivedCards: "Przeglądaj zarchiwizowane karty",
   cardIsArchived: "Karta jest archiwizowana",

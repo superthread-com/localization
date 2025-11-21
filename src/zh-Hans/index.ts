@@ -2346,7 +2346,7 @@ const zhHans = {
   someonesBoard: "%{userName}的看板",
   chooseYourVibe: "选择你的氛围",
   chooseYourVibeDescription: "至少选择 2 个，这只是为了好玩",
-  exampleCardTitle: '👋 欢迎使用 Superthread – 将我拖到 "The basics" 看板',
+  exampleCardTitle: '👋 把我拖动到 "The essentials" 看板里，看看里面有什么',
   exampleListTitle: "👀 看这里",
   browseArchivedCards: "浏览已归档的卡片",
   cardIsArchived: "卡片已归档",

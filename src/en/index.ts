@@ -2489,7 +2489,7 @@ const en = {
   chooseYourVibe: "Choose your vibe",
   chooseYourVibeDescription: "Select at least 2, this is just for fun",
   exampleCardTitle:
-    '👋 Welcome to Superthread – drag me in to "The basics" board',
+    '👋 Drag me in to "The essentials" board and check out what\'s there',
   exampleListTitle: "👀 Look here",
   browseArchivedCards: "Browse archived cards",
   cardIsArchived: "Card is archived",

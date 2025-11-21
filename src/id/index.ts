@@ -2567,7 +2567,7 @@ const id = {
   chooseYourVibeDescription:
     "Pilih minimal 2, ini hanya untuk bersenang-senang",
   exampleCardTitle:
-    '👋 Selamat datang di Superthread – seret saya ke papan "The basics"',
+    '👋 Seret saya ke papan "The essentials" dan periksa apa yang ada di sana',
   exampleListTitle: "👀 Lihat di sini",
   browseArchivedCards: "Jelajahi kartu yang diarsipkan",
   cardIsArchived: "Kartu diarsipkan",
