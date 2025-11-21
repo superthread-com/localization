@@ -2534,7 +2534,7 @@ const bs: Translations = {
   chooseYourVibe: "Odaberite svoj vibe",
   chooseYourVibeDescription: "Odaberite najmanje 2, ovo je samo za zabavu",
   exampleCardTitle:
-    '👋 Dobrodošli u Superthread – prevucite me u ploču "The basics"',
+    '👋 Prevuci me u "The essentials" tablu i pogledaj šta je tamo',
   exampleListTitle: "👀 Pogledaj ovdje",
   browseArchivedCards: "Pregledaj arhivirane kartice",
   cardIsArchived: "Kartica je arhivirana",

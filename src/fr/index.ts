@@ -2613,7 +2613,7 @@ const fr: Translations = {
   chooseYourVibe: "Choisissez votre vibe",
   chooseYourVibeDescription: "Sélectionnez au moins 2, c'est juste pour le fun",
   exampleCardTitle:
-    '👋 Bienvenue sur Superthread – faites-moi glisser dans le tableau "The basics"',
+    '👋 Fais-moi glisser dans le tableau "The essentials" et découvre ce qu’il s’y trouve',
   exampleListTitle: "👀 Regarde ici",
   browseArchivedCards: "Parcourir les cartes archivées",
   cardIsArchived: "La carte est archivée",

@@ -2589,7 +2589,7 @@ const ptBR = {
   chooseYourVibe: "Escolha sua vibe",
   chooseYourVibeDescription: "Selecione pelo menos 2; é só por diversão",
   exampleCardTitle:
-    '👋 Bem-vindo ao Superthread – arraste-me para o quadro "The basics"',
+    '👋 Arraste-me para o quadro "The essentials" e veja o que tem lá dentro',
   exampleListTitle: "👀 Olhe aqui",
   browseArchivedCards: "Navegar por cartões arquivados",
   cardIsArchived: "Cartão está arquivado",
