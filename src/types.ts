@@ -2410,6 +2410,7 @@ export enum TranslationKeys {
   CreateACopyOfThisBoard = "createACopyOfThisBoard",
   ChooseWhereToDuplicateBoard = "chooseWhereToDuplicateBoard",
   CopyAllCardsIntoNewBoard = "copyAllCardsIntoNewBoard",
+  EditCover = "editCover",
 }
 
 export type Translations = Record<TranslationKeys, string>;

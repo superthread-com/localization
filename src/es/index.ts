@@ -2829,6 +2829,7 @@ const es = {
     "Crear una copia de este tablero. La actividad y los comentarios no se copiarán.",
   chooseWhereToDuplicateBoard: "Elegir dónde duplicar el tablero",
   copyAllCardsIntoNewBoard: "Copiar todas las tarjetas al nuevo tablero",
+  editCover: "Editar imagen de portada",
 };
 
 export default es as Translations;

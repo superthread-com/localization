@@ -2553,6 +2553,7 @@ const zhHans = {
   createACopyOfThisBoard: "创建此看板的副本。活动和评论将不会被复制。",
   chooseWhereToDuplicateBoard: "选择复制看板的位置",
   copyAllCardsIntoNewBoard: "将所有卡片复制到新看板",
+  editCover: "编辑封面图片",
 };
 
 export default zhHans as Translations;

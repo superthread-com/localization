@@ -2774,6 +2774,7 @@ const pl = {
     "Utwórz kopię tej tablicy. Aktywność i komentarze nie zostaną skopiowane.",
   chooseWhereToDuplicateBoard: "Wybierz, gdzie zduplikować tablicę",
   copyAllCardsIntoNewBoard: "Skopiuj wszystkie karty do nowej tablicy",
+  editCover: "Edytuj obraz okładki",
 };
 
 export default pl as Translations;

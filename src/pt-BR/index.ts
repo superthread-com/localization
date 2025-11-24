@@ -2818,6 +2818,7 @@ const ptBR = {
     "Criar uma cópia deste quadro. Atividade e comentários não serão copiados.",
   chooseWhereToDuplicateBoard: "Escolha onde duplicar o quadro",
   copyAllCardsIntoNewBoard: "Copiar todos os cartões para o novo quadro",
+  editCover: "Editar imagem de capa",
 };
 
 export default ptBR as Translations;

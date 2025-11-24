@@ -2793,6 +2793,7 @@ const id = {
     "Buat salinan papan ini. Aktivitas & komentar tidak akan disalin.",
   chooseWhereToDuplicateBoard: "Pilih tempat untuk menduplikasi papan",
   copyAllCardsIntoNewBoard: "Salin semua kartu ke papan baru",
+  editCover: "Edit gambar sampul",
 };
 
 export default id as Translations;

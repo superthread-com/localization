@@ -2558,6 +2558,7 @@ const zhHant = {
   createACopyOfThisBoard: "建立此看板的副本。活動和評論將不會被複製。",
   chooseWhereToDuplicateBoard: "選擇複製看板的位置",
   copyAllCardsIntoNewBoard: "將所有卡片複製到新看板",
+  editCover: "編輯封面圖片",
 };
 
 export default zhHant as Translations;

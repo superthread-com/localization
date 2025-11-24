@@ -2759,6 +2759,7 @@ const bs: Translations = {
     "Kreirajte kopiju ove ploče. Aktivnost i komentari neće biti kopirani.",
   chooseWhereToDuplicateBoard: "Odaberite gdje duplicirati ploču",
   copyAllCardsIntoNewBoard: "Kopirajte sve kartice u novu ploču",
+  editCover: "Uredi naslovnu sliku",
 };
 
 export default bs;

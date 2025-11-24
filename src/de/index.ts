@@ -2849,6 +2849,7 @@ const de = {
   chooseWhereToDuplicateBoard:
     "Wählen Sie aus, wo das Board dupliziert werden soll",
   copyAllCardsIntoNewBoard: "Alle Karten in das neue Board kopieren",
+  editCover: "Titelbild bearbeiten",
 };
 
 export default de as Translations;

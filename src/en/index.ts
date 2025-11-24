@@ -2711,6 +2711,7 @@ const en = {
     "Create a copy of this board. Activity & comments will not be copied.",
   chooseWhereToDuplicateBoard: "Choose where to duplicate the board",
   copyAllCardsIntoNewBoard: "Copy all the cards into the new board",
+  editCover: "Edit cover image",
 };
 
 export default en as Translations;

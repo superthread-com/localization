@@ -2685,6 +2685,7 @@ const ko = {
     "이 보드의 사본을 만듭니다. 활동 및 댓글은 복사되지 않습니다.",
   chooseWhereToDuplicateBoard: "보드를 복제할 위치를 선택하세요",
   copyAllCardsIntoNewBoard: "모든 카드를 새 보드로 복사",
+  editCover: "표지 이미지 편집",
 };
 
 export default ko as Translations;
