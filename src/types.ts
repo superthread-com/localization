@@ -2412,7 +2412,7 @@ export enum TranslationKeys {
   CopyAllCardsIntoNewBoard = "copyAllCardsIntoNewBoard",
   EditCover = "editCover",
   ToggleCoverImageFit = "toggleCoverImageFit",
-  ImFeelingLucky = "imFeelingLucky"
+  ImFeelingLucky = "imFeelingLucky",
 }
 
 export type Translations = Record<TranslationKeys, string>;
