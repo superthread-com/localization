@@ -27,8 +27,8 @@
     "declarations": "tsc src/index.ts src/**/**.ts --declaration --emitDeclarationOnly --allowImportingTsExtensions --outDir dist",
     "test": "vitest run",
     "prepack": "npm run makeEnum && npm run build",
-    "format": "npx prettier --write .",
-    "formatCheck": "npx prettier --check ."
+    "lint": "npx prettier --write .",
+    "lint:check": "npx prettier --check ."
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^3.0.9",
