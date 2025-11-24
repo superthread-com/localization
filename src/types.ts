@@ -2385,6 +2385,7 @@ export enum TranslationKeys {
   MeetingOrganiser = "meetingOrganiser",
   CoverImageRemoved = "coverImageRemoved",
   CoverImageSet = "coverImageSet",
+  CoverImageSetFailed = "coverImageSetFailed",
   AnyoneWithThisLinkCanViewBoard = "anyoneWithThisLinkCanViewBoard",
   CreateAViewOnlyVersionOfBoard = "createAViewOnlyVersionOfBoard",
   BoardIsSharedPublicly = "boardIsSharedPublicly",
@@ -2410,6 +2411,9 @@ export enum TranslationKeys {
   CreateACopyOfThisBoard = "createACopyOfThisBoard",
   ChooseWhereToDuplicateBoard = "chooseWhereToDuplicateBoard",
   CopyAllCardsIntoNewBoard = "copyAllCardsIntoNewBoard",
+  EditCover = "editCover",
+  ToggleCoverImageFit = "toggleCoverImageFit",
+  ImFeelingLucky = "imFeelingLucky",
 }
 
 export type Translations = Record<TranslationKeys, string>;

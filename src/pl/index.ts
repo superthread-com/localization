@@ -2742,6 +2742,7 @@ const pl = {
   meetingOrganiser: "Organizator spotkania",
   coverImageRemoved: "Obraz tła został usunięty",
   coverImageSet: "Obraz tła został ustawiony",
+  coverImageSetFailed: "Nie udało się ustawić obrazu tła",
   anyoneWithThisLinkCanViewBoard:
     "Każdy, kto ma ten link, może wyświetlić tablicę",
   createAViewOnlyVersionOfBoard:
@@ -2774,6 +2775,9 @@ const pl = {
     "Utwórz kopię tej tablicy. Aktywność i komentarze nie zostaną skopiowane.",
   chooseWhereToDuplicateBoard: "Wybierz, gdzie zduplikować tablicę",
   copyAllCardsIntoNewBoard: "Skopiuj wszystkie karty do nowej tablicy",
+  editCover: "Edytuj obraz okładki",
+  toggleCoverImageFit: "Zmień zoom",
+  imFeelingLucky: "Szczęście mi sprzyja",
 };
 
 export default pl as Translations;

@@ -8,19 +8,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
 
-      - name: Install dependencies
+      - name: install
         run: npm install
 
-      - name: Check formatting
+      - name: lint
         id: formatCheck
-        run: npm run formatCheck
+        run: npm run lint:check
 
-      - name: Compile and build
+      - name: build
         id: prepack
         run: npm run prepack
 

@@ -2681,6 +2681,7 @@ const en = {
   meetingOrganiser: "Meeting organiser",
   coverImageRemoved: "Cover image removed",
   coverImageSet: "Cover image set",
+  coverImageSetFailed: "Failed to set cover image",
   anyoneWithThisLinkCanViewBoard: "Anyone with this link can view the board",
   createAViewOnlyVersionOfBoard:
     "Create a view-only version of the board on a shareable link",
@@ -2711,6 +2712,9 @@ const en = {
     "Create a copy of this board. Activity & comments will not be copied.",
   chooseWhereToDuplicateBoard: "Choose where to duplicate the board",
   copyAllCardsIntoNewBoard: "Copy all the cards into the new board",
+  editCover: "Edit cover image",
+  toggleCoverImageFit: "Change zoom",
+  imFeelingLucky: "I'm feeling lucky",
 };
 
 export default en as Translations;

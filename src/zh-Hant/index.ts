@@ -2532,6 +2532,7 @@ const zhHant = {
   meetingOrganiser: "會議主辦人",
   coverImageRemoved: "背景圖片已移除",
   coverImageSet: "背景圖片已設定",
+  coverImageSetFailed: "設定背景圖片失敗",
   anyoneWithThisLinkCanViewBoard: "任何擁有此連結的人都可以查看看板",
   createAViewOnlyVersionOfBoard: "在可分享的連結上建立看板的僅查看版本",
   boardIsSharedPublicly: "此看板已在網路公開分享。",
@@ -2558,6 +2559,9 @@ const zhHant = {
   createACopyOfThisBoard: "建立此看板的副本。活動和評論將不會被複製。",
   chooseWhereToDuplicateBoard: "選擇複製看板的位置",
   copyAllCardsIntoNewBoard: "將所有卡片複製到新看板",
+  editCover: "編輯封面圖片",
+  toggleCoverImageFit: "更改縮放",
+  imFeelingLucky: "手氣不錯",
 };
 
 export default zhHant as Translations;

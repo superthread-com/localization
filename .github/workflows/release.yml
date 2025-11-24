@@ -29,12 +29,11 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          registry-url: "https://npm.pkg.github.com"
-          scope: "@superthread-com"
+          node-version: '20'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@superthread-com'
 
       - name: Get current release details
         id: details

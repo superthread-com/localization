@@ -46,11 +46,11 @@ npm test          # Run tests with vitest
 npm run prepack   # Full build process (run before publishing)
 ```
 
-### Formatting
+### Linting & formatting
 
 ```bash
-npm run format      # Format all files with Prettier
-npm run formatCheck # Check formatting without modifying
+npm run lint       # Lint & format all files with Prettier
+npm run lint:check # Check linting & formatting without modifying files
 ```
 
 ### TypeScript Type Checking

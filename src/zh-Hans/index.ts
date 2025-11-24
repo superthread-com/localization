@@ -2527,6 +2527,7 @@ const zhHans = {
   meetingOrganiser: "会议组织者",
   coverImageRemoved: "背景图片已移除",
   coverImageSet: "背景图片已设置",
+  coverImageSetFailed: "设置背景图片失败",
   anyoneWithThisLinkCanViewBoard: "任何拥有此链接的人都可以查看看板",
   createAViewOnlyVersionOfBoard: "在可分享的链接上创建看板的仅查看版本",
   boardIsSharedPublicly: "此看板已在网络上公开分享。",
@@ -2553,6 +2554,9 @@ const zhHans = {
   createACopyOfThisBoard: "创建此看板的副本。活动和评论将不会被复制。",
   chooseWhereToDuplicateBoard: "选择复制看板的位置",
   copyAllCardsIntoNewBoard: "将所有卡片复制到新看板",
+  editCover: "编辑封面图片",
+  toggleCoverImageFit: "更改缩放",
+  imFeelingLucky: "手气不错",
 };
 
 export default zhHans as Translations;

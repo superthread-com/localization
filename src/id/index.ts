@@ -2761,6 +2761,7 @@ const id = {
   meetingOrganiser: "Penyelenggara rapat",
   coverImageRemoved: "Gambar latar belakang dihapus",
   coverImageSet: "Gambar latar belakang disetel",
+  coverImageSetFailed: "Gagal mengatur gambar latar belakang",
   anyoneWithThisLinkCanViewBoard:
     "Siapa saja dengan tautan ini dapat melihat papan",
   createAViewOnlyVersionOfBoard:
@@ -2793,6 +2794,9 @@ const id = {
     "Buat salinan papan ini. Aktivitas & komentar tidak akan disalin.",
   chooseWhereToDuplicateBoard: "Pilih tempat untuk menduplikasi papan",
   copyAllCardsIntoNewBoard: "Salin semua kartu ke papan baru",
+  editCover: "Edit gambar sampul",
+  toggleCoverImageFit: "Ubah zoom",
+  imFeelingLucky: "Saya merasa beruntung",
 };
 
 export default id as Translations;

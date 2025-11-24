@@ -2786,6 +2786,7 @@ const ptBR = {
   meetingOrganiser: "Organizador da reunião",
   coverImageRemoved: "Imagem de fundo removida",
   coverImageSet: "Imagem de fundo definida",
+  coverImageSetFailed: "Falha ao definir imagem de fundo",
   anyoneWithThisLinkCanViewBoard:
     "Qualquer pessoa com este link pode visualizar o quadro",
   createAViewOnlyVersionOfBoard:
@@ -2818,6 +2819,9 @@ const ptBR = {
     "Criar uma cópia deste quadro. Atividade e comentários não serão copiados.",
   chooseWhereToDuplicateBoard: "Escolha onde duplicar o quadro",
   copyAllCardsIntoNewBoard: "Copiar todos os cartões para o novo quadro",
+  editCover: "Editar imagem de capa",
+  toggleCoverImageFit: "Alterar zoom",
+  imFeelingLucky: "Estou com sorte",
 };
 
 export default ptBR as Translations;

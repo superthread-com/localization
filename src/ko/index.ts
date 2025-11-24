@@ -2655,6 +2655,7 @@ const ko = {
   meetingOrganiser: "회의 주최자",
   coverImageRemoved: "배경 이미지가 제거되었습니다",
   coverImageSet: "배경 이미지가 설정되었습니다",
+  coverImageSetFailed: "배경 이미지 설정에 실패했습니다",
   anyoneWithThisLinkCanViewBoard:
     "이 링크가 있는 사람은 누구나 보드를 볼 수 있습니다",
   createAViewOnlyVersionOfBoard:
@@ -2685,6 +2686,9 @@ const ko = {
     "이 보드의 사본을 만듭니다. 활동 및 댓글은 복사되지 않습니다.",
   chooseWhereToDuplicateBoard: "보드를 복제할 위치를 선택하세요",
   copyAllCardsIntoNewBoard: "모든 카드를 새 보드로 복사",
+  editCover: "표지 이미지 편집",
+  toggleCoverImageFit: "줌 변경",
+  imFeelingLucky: "행운을 빕니다",
 };
 
 export default ko as Translations;

@@ -2730,6 +2730,7 @@ const bs: Translations = {
   meetingOrganiser: "Organizator sastanka",
   coverImageRemoved: "Pozadinska slika je uklonjena",
   coverImageSet: "Pozadinska slika je postavljena",
+  coverImageSetFailed: "Neuspješno postavljanje pozadinske slike",
   anyoneWithThisLinkCanViewBoard: "Svako ko ima ovaj link može vidjeti ploču",
   createAViewOnlyVersionOfBoard:
     "Kreirajte verziju ploče samo za pregled na dijeljivom linku",
@@ -2759,6 +2760,9 @@ const bs: Translations = {
     "Kreirajte kopiju ove ploče. Aktivnost i komentari neće biti kopirani.",
   chooseWhereToDuplicateBoard: "Odaberite gdje duplicirati ploču",
   copyAllCardsIntoNewBoard: "Kopirajte sve kartice u novu ploču",
+  editCover: "Uredi naslovnu sliku",
+  toggleCoverImageFit: "Promijeni zoom",
+  imFeelingLucky: "Osjećam se sretno",
 };
 
 export default bs;

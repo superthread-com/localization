@@ -2797,6 +2797,7 @@ const es = {
   meetingOrganiser: "Organizador de la reunión",
   coverImageRemoved: "Imagen de fondo eliminada",
   coverImageSet: "Imagen de fondo establecida",
+  coverImageSetFailed: "Error al establecer la imagen de fondo",
   anyoneWithThisLinkCanViewBoard:
     "Cualquier persona con este enlace puede ver el tablero",
   createAViewOnlyVersionOfBoard:
@@ -2829,6 +2830,9 @@ const es = {
     "Crear una copia de este tablero. La actividad y los comentarios no se copiarán.",
   chooseWhereToDuplicateBoard: "Elegir dónde duplicar el tablero",
   copyAllCardsIntoNewBoard: "Copiar todas las tarjetas al nuevo tablero",
+  editCover: "Editar imagen de portada",
+  toggleCoverImageFit: "Cambiar zoom",
+  imFeelingLucky: "Voy a tener suerte",
 };
 
 export default es as Translations;
