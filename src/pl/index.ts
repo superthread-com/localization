@@ -2742,6 +2742,7 @@ const pl = {
   meetingOrganiser: "Organizator spotkania",
   coverImageRemoved: "Obraz tła został usunięty",
   coverImageSet: "Obraz tła został ustawiony",
+  coverImageSetFailed: "Nie udało się ustawić obrazu tła",
   anyoneWithThisLinkCanViewBoard:
     "Każdy, kto ma ten link, może wyświetlić tablicę",
   createAViewOnlyVersionOfBoard:

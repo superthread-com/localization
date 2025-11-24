@@ -2527,6 +2527,7 @@ const zhHans = {
   meetingOrganiser: "会议组织者",
   coverImageRemoved: "背景图片已移除",
   coverImageSet: "背景图片已设置",
+  coverImageSetFailed: "设置背景图片失败",
   anyoneWithThisLinkCanViewBoard: "任何拥有此链接的人都可以查看看板",
   createAViewOnlyVersionOfBoard: "在可分享的链接上创建看板的仅查看版本",
   boardIsSharedPublicly: "此看板已在网络上公开分享。",

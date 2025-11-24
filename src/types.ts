@@ -2385,6 +2385,7 @@ export enum TranslationKeys {
   MeetingOrganiser = "meetingOrganiser",
   CoverImageRemoved = "coverImageRemoved",
   CoverImageSet = "coverImageSet",
+  CoverImageSetFailed = "coverImageSetFailed",
   AnyoneWithThisLinkCanViewBoard = "anyoneWithThisLinkCanViewBoard",
   CreateAViewOnlyVersionOfBoard = "createAViewOnlyVersionOfBoard",
   BoardIsSharedPublicly = "boardIsSharedPublicly",

@@ -2786,6 +2786,7 @@ const ptBR = {
   meetingOrganiser: "Organizador da reunião",
   coverImageRemoved: "Imagem de fundo removida",
   coverImageSet: "Imagem de fundo definida",
+  coverImageSetFailed: "Falha ao definir imagem de fundo",
   anyoneWithThisLinkCanViewBoard:
     "Qualquer pessoa com este link pode visualizar o quadro",
   createAViewOnlyVersionOfBoard:

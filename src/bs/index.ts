@@ -2730,6 +2730,7 @@ const bs: Translations = {
   meetingOrganiser: "Organizator sastanka",
   coverImageRemoved: "Pozadinska slika je uklonjena",
   coverImageSet: "Pozadinska slika je postavljena",
+  coverImageSetFailed: "Neuspješno postavljanje pozadinske slike",
   anyoneWithThisLinkCanViewBoard: "Svako ko ima ovaj link može vidjeti ploču",
   createAViewOnlyVersionOfBoard:
     "Kreirajte verziju ploče samo za pregled na dijeljivom linku",

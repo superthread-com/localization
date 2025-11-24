@@ -2812,6 +2812,7 @@ const fr: Translations = {
   meetingOrganiser: "Organisateur de la réunion",
   coverImageRemoved: "Image de fond supprimée",
   coverImageSet: "Image de fond définie",
+  coverImageSetFailed: "Échec de la définition de l'image de fond",
   anyoneWithThisLinkCanViewBoard:
     "Toute personne disposant de ce lien peut voir le tableau",
   createAViewOnlyVersionOfBoard:

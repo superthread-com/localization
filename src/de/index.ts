@@ -2816,6 +2816,7 @@ const de = {
   meetingOrganiser: "Besprechungsorganisator",
   coverImageRemoved: "Hintergrundbild entfernt",
   coverImageSet: "Hintergrundbild festgelegt",
+  coverImageSetFailed: "Fehler beim Festlegen des Hintergrundbilds",
   anyoneWithThisLinkCanViewBoard:
     "Jeder mit diesem Link kann das Board ansehen",
   createAViewOnlyVersionOfBoard:

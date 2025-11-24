@@ -2655,6 +2655,7 @@ const ko = {
   meetingOrganiser: "회의 주최자",
   coverImageRemoved: "배경 이미지가 제거되었습니다",
   coverImageSet: "배경 이미지가 설정되었습니다",
+  coverImageSetFailed: "배경 이미지 설정에 실패했습니다",
   anyoneWithThisLinkCanViewBoard:
     "이 링크가 있는 사람은 누구나 보드를 볼 수 있습니다",
   createAViewOnlyVersionOfBoard:

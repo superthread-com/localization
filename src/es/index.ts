@@ -2797,6 +2797,7 @@ const es = {
   meetingOrganiser: "Organizador de la reunión",
   coverImageRemoved: "Imagen de fondo eliminada",
   coverImageSet: "Imagen de fondo establecida",
+  coverImageSetFailed: "Error al establecer la imagen de fondo",
   anyoneWithThisLinkCanViewBoard:
     "Cualquier persona con este enlace puede ver el tablero",
   createAViewOnlyVersionOfBoard:

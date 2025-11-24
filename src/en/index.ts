@@ -2681,6 +2681,7 @@ const en = {
   meetingOrganiser: "Meeting organiser",
   coverImageRemoved: "Cover image removed",
   coverImageSet: "Cover image set",
+  coverImageSetFailed: "Failed to set cover image",
   anyoneWithThisLinkCanViewBoard: "Anyone with this link can view the board",
   createAViewOnlyVersionOfBoard:
     "Create a view-only version of the board on a shareable link",

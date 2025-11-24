@@ -2761,6 +2761,7 @@ const id = {
   meetingOrganiser: "Penyelenggara rapat",
   coverImageRemoved: "Gambar latar belakang dihapus",
   coverImageSet: "Gambar latar belakang disetel",
+  coverImageSetFailed: "Gagal mengatur gambar latar belakang",
   anyoneWithThisLinkCanViewBoard:
     "Siapa saja dengan tautan ini dapat melihat papan",
   createAViewOnlyVersionOfBoard:
