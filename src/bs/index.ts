@@ -2760,6 +2760,7 @@ const bs: Translations = {
   chooseWhereToDuplicateBoard: "Odaberite gdje duplicirati ploču",
   copyAllCardsIntoNewBoard: "Kopirajte sve kartice u novu ploču",
   editCover: "Uredi naslovnu sliku",
+  toggleCoverImageFit: "Promijeni zoom",
 };
 
 export default bs;

@@ -2850,6 +2850,7 @@ const de = {
     "Wählen Sie aus, wo das Board dupliziert werden soll",
   copyAllCardsIntoNewBoard: "Alle Karten in das neue Board kopieren",
   editCover: "Titelbild bearbeiten",
+  toggleCoverImageFit: "Zoom ändern",
 };
 
 export default de as Translations;

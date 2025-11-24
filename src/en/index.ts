@@ -2712,6 +2712,7 @@ const en = {
   chooseWhereToDuplicateBoard: "Choose where to duplicate the board",
   copyAllCardsIntoNewBoard: "Copy all the cards into the new board",
   editCover: "Edit cover image",
+  toggleCoverImageFit: "Change zoom",
 };
 
 export default en as Translations;

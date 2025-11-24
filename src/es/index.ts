@@ -2830,6 +2830,7 @@ const es = {
   chooseWhereToDuplicateBoard: "Elegir dónde duplicar el tablero",
   copyAllCardsIntoNewBoard: "Copiar todas las tarjetas al nuevo tablero",
   editCover: "Editar imagen de portada",
+  toggleCoverImageFit: "Cambiar zoom",
 };
 
 export default es as Translations;

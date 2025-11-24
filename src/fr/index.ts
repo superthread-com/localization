@@ -2845,6 +2845,7 @@ const fr: Translations = {
   chooseWhereToDuplicateBoard: "Choisir où dupliquer le tableau",
   copyAllCardsIntoNewBoard: "Copier toutes les cartes dans le nouveau tableau",
   editCover: "Modifier l'image de couverture",
+  toggleCoverImageFit: "Changer le zoom",
 };
 
 export default fr as Translations;

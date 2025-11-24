@@ -2559,6 +2559,7 @@ const zhHant = {
   chooseWhereToDuplicateBoard: "選擇複製看板的位置",
   copyAllCardsIntoNewBoard: "將所有卡片複製到新看板",
   editCover: "編輯封面圖片",
+  toggleCoverImageFit: "更改縮放",
 };
 
 export default zhHant as Translations;

@@ -2819,6 +2819,7 @@ const ptBR = {
   chooseWhereToDuplicateBoard: "Escolha onde duplicar o quadro",
   copyAllCardsIntoNewBoard: "Copiar todos os cartões para o novo quadro",
   editCover: "Editar imagem de capa",
+  toggleCoverImageFit: "Alterar zoom",
 };
 
 export default ptBR as Translations;

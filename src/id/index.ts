@@ -2794,6 +2794,7 @@ const id = {
   chooseWhereToDuplicateBoard: "Pilih tempat untuk menduplikasi papan",
   copyAllCardsIntoNewBoard: "Salin semua kartu ke papan baru",
   editCover: "Edit gambar sampul",
+  toggleCoverImageFit: "Ubah zoom",
 };
 
 export default id as Translations;

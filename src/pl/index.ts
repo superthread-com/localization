@@ -2775,6 +2775,7 @@ const pl = {
   chooseWhereToDuplicateBoard: "Wybierz, gdzie zduplikować tablicę",
   copyAllCardsIntoNewBoard: "Skopiuj wszystkie karty do nowej tablicy",
   editCover: "Edytuj obraz okładki",
+  toggleCoverImageFit: "Zmień zoom",
 };
 
 export default pl as Translations;
