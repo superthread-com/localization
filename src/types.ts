@@ -2411,7 +2411,8 @@ export enum TranslationKeys {
   ChooseWhereToDuplicateBoard = "chooseWhereToDuplicateBoard",
   CopyAllCardsIntoNewBoard = "copyAllCardsIntoNewBoard",
   EditCover = "editCover",
-  ToggleCoverImageFit = "toggleCoverImageFit"
+  ToggleCoverImageFit = "toggleCoverImageFit",
+  ImFeelingLucky = "imFeelingLucky"
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2560,6 +2560,7 @@ const zhHant = {
   copyAllCardsIntoNewBoard: "將所有卡片複製到新看板",
   editCover: "編輯封面圖片",
   toggleCoverImageFit: "更改縮放",
+  imFeelingLucky: "手氣不錯",
 };
 
 export default zhHant as Translations;

@@ -2820,6 +2820,7 @@ const ptBR = {
   copyAllCardsIntoNewBoard: "Copiar todos os cartões para o novo quadro",
   editCover: "Editar imagem de capa",
   toggleCoverImageFit: "Alterar zoom",
+  imFeelingLucky: "Estou com sorte",
 };
 
 export default ptBR as Translations;

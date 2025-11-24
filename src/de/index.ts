@@ -2851,6 +2851,7 @@ const de = {
   copyAllCardsIntoNewBoard: "Alle Karten in das neue Board kopieren",
   editCover: "Titelbild bearbeiten",
   toggleCoverImageFit: "Zoom ändern",
+  imFeelingLucky: "Auf gut Glück",
 };
 
 export default de as Translations;

@@ -2713,6 +2713,7 @@ const en = {
   copyAllCardsIntoNewBoard: "Copy all the cards into the new board",
   editCover: "Edit cover image",
   toggleCoverImageFit: "Change zoom",
+  imFeelingLucky: "I'm feeling lucky",
 };
 
 export default en as Translations;

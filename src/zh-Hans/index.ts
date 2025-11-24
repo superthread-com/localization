@@ -2555,6 +2555,7 @@ const zhHans = {
   copyAllCardsIntoNewBoard: "将所有卡片复制到新看板",
   editCover: "编辑封面图片",
   toggleCoverImageFit: "更改缩放",
+  imFeelingLucky: "手气不错",
 };
 
 export default zhHans as Translations;

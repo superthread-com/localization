@@ -2761,6 +2761,7 @@ const bs: Translations = {
   copyAllCardsIntoNewBoard: "Kopirajte sve kartice u novu ploču",
   editCover: "Uredi naslovnu sliku",
   toggleCoverImageFit: "Promijeni zoom",
+  imFeelingLucky: "Osjećam se sretno",
 };
 
 export default bs;

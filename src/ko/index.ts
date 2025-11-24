@@ -2687,6 +2687,7 @@ const ko = {
   copyAllCardsIntoNewBoard: "모든 카드를 새 보드로 복사",
   editCover: "표지 이미지 편집",
   toggleCoverImageFit: "줌 변경",
+  imFeelingLucky: "행운을 빕니다",
 };
 
 export default ko as Translations;

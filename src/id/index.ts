@@ -2795,6 +2795,7 @@ const id = {
   copyAllCardsIntoNewBoard: "Salin semua kartu ke papan baru",
   editCover: "Edit gambar sampul",
   toggleCoverImageFit: "Ubah zoom",
+  imFeelingLucky: "Saya merasa beruntung",
 };
 
 export default id as Translations;

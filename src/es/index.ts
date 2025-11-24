@@ -2831,6 +2831,7 @@ const es = {
   copyAllCardsIntoNewBoard: "Copiar todas las tarjetas al nuevo tablero",
   editCover: "Editar imagen de portada",
   toggleCoverImageFit: "Cambiar zoom",
+  imFeelingLucky: "Voy a tener suerte",
 };
 
 export default es as Translations;

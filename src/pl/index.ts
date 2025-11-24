@@ -2776,6 +2776,7 @@ const pl = {
   copyAllCardsIntoNewBoard: "Skopiuj wszystkie karty do nowej tablicy",
   editCover: "Edytuj obraz okładki",
   toggleCoverImageFit: "Zmień zoom",
+  imFeelingLucky: "Szczęście mi sprzyja",
 };
 
 export default pl as Translations;

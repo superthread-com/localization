@@ -2846,6 +2846,7 @@ const fr: Translations = {
   copyAllCardsIntoNewBoard: "Copier toutes les cartes dans le nouveau tableau",
   editCover: "Modifier l'image de couverture",
   toggleCoverImageFit: "Changer le zoom",
+  imFeelingLucky: "J'ai de la chance",
 };
 
 export default fr as Translations;
