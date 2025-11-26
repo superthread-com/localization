@@ -2797,6 +2797,7 @@ const id = {
   editCover: "Edit gambar sampul",
   toggleCoverImageFit: "Ubah zoom",
   imFeelingLucky: "Saya merasa beruntung",
+  viewWord: "Tampilan",
 };
 
 export default id as Translations;

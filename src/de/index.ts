@@ -2853,6 +2853,7 @@ const de = {
   editCover: "Titelbild bearbeiten",
   toggleCoverImageFit: "Zoom ändern",
   imFeelingLucky: "Auf gut Glück",
+  viewWord: "Ansicht",
 };
 
 export default de as Translations;

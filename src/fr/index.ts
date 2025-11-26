@@ -2848,6 +2848,7 @@ const fr: Translations = {
   editCover: "Modifier l'image de couverture",
   toggleCoverImageFit: "Changer le zoom",
   imFeelingLucky: "J'ai de la chance",
+  viewWord: "Vue",
 };
 
 export default fr as Translations;

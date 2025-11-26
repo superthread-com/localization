@@ -2778,6 +2778,7 @@ const pl = {
   editCover: "Edytuj obraz okładki",
   toggleCoverImageFit: "Zmień zoom",
   imFeelingLucky: "Szczęście mi sprzyja",
+  viewWord: "Widok",
 };
 
 export default pl as Translations;

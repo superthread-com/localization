@@ -2822,6 +2822,7 @@ const ptBR = {
   editCover: "Editar imagem de capa",
   toggleCoverImageFit: "Alterar zoom",
   imFeelingLucky: "Estou com sorte",
+  viewWord: "Visualização",
 };
 
 export default ptBR as Translations;
