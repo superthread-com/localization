@@ -2833,6 +2833,7 @@ const es = {
   editCover: "Editar imagen de portada",
   toggleCoverImageFit: "Cambiar zoom",
   imFeelingLucky: "Voy a tener suerte",
+  viewWord: "Vista",
 };
 
 export default es as Translations;

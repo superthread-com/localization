@@ -2414,6 +2414,7 @@ export enum TranslationKeys {
   EditCover = "editCover",
   ToggleCoverImageFit = "toggleCoverImageFit",
   ImFeelingLucky = "imFeelingLucky",
+  ViewWord = "viewWord",
 }
 
 export type Translations = Record<TranslationKeys, string>;

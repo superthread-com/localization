@@ -2351,7 +2351,7 @@ const zhHant = {
   chooseYourVibe: "選擇你的氛圍",
   chooseYourVibeDescription: "至少選擇 2 個，這只是好玩用的",
   exampleCardTitle:
-    '👋 把我拖到 "The essentials" 看板裡\，然後看看裡面有些什麼吧',
+    '👋 把我拖到 "The essentials" 看板裡，然後看看裡面有些什麼吧',
   exampleListTitle: "👀 看這裡",
   browseArchivedCards: "瀏覽已歸檔的卡片",
   cardIsArchived: "卡片已歸檔",
@@ -2562,6 +2562,7 @@ const zhHant = {
   editCover: "編輯封面圖片",
   toggleCoverImageFit: "更改縮放",
   imFeelingLucky: "手氣不錯",
+  viewWord: "檢視",
 };
 
 export default zhHant as Translations;

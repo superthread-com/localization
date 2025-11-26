@@ -2715,6 +2715,7 @@ const en = {
   editCover: "Edit cover image",
   toggleCoverImageFit: "Change zoom",
   imFeelingLucky: "I'm feeling lucky",
+  viewWord: "View",
 };
 
 export default en as Translations;

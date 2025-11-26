@@ -2557,6 +2557,7 @@ const zhHans = {
   editCover: "编辑封面图片",
   toggleCoverImageFit: "更改缩放",
   imFeelingLucky: "手气不错",
+  viewWord: "视图",
 };
 
 export default zhHans as Translations;

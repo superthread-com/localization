@@ -2763,6 +2763,7 @@ const bs: Translations = {
   editCover: "Uredi naslovnu sliku",
   toggleCoverImageFit: "Promijeni zoom",
   imFeelingLucky: "Osjećam se sretno",
+  viewWord: "Prikaz",
 };
 
 export default bs;

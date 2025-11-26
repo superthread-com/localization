@@ -2689,6 +2689,7 @@ const ko = {
   editCover: "표지 이미지 편집",
   toggleCoverImageFit: "줌 변경",
   imFeelingLucky: "행운을 빕니다",
+  viewWord: "보기",
 };
 
 export default ko as Translations;
