@@ -2413,7 +2413,8 @@ const zhHant = {
   online: "在線",
   disconnected: "已斷線",
   apiAccess: "API 存取",
-  apiAccessSubtitle: "Superthread 的 API 讓你建立自訂整合。你需要以下資訊才能發送請求",
+  apiAccessSubtitle:
+    "Superthread 的 API 讓你建立自訂整合。你需要以下資訊才能發送請求",
   workspaceIdDescription: '在 API 中稱為 "team_id"',
   userIDDescription: '在 API 中稱為 "user_id"',
   viewDocs: "查看 API 文件",

@@ -2667,7 +2667,8 @@ const es = {
   online: "En línea",
   disconnected: "Desconectado",
   apiAccess: "Acceso API",
-   apiAccessSubtitle: "La API de Superthread te permite crear integraciones personalizadas. Necesitarás los detalles siguientes para hacer solicitudes",
+  apiAccessSubtitle:
+    "La API de Superthread te permite crear integraciones personalizadas. Necesitarás los detalles siguientes para hacer solicitudes",
   workspaceIdDescription: 'Se denomina "team_id" en la API',
   userIDDescription: 'Se denomina "user_id" en la API',
   viewDocs: "ver docs API",

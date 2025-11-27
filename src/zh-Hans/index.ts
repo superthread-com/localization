@@ -2408,7 +2408,8 @@ const zhHans = {
   online: "在线",
   disconnected: "已断开连接",
   apiAccess: "API访问",
-  apiAccessSubtitle: "Superthread 的 API 让你构建自定义集成。你需要以下信息来发起请求",
+  apiAccessSubtitle:
+    "Superthread 的 API 让你构建自定义集成。你需要以下信息来发起请求",
   workspaceIdDescription: '在 API 中称为 "team_id"',
   userIDDescription: '在 API 中称为 "user_id"',
   viewDocs: "查看 API 文档",

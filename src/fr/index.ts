@@ -2680,7 +2680,8 @@ const fr: Translations = {
   online: "En ligne",
   disconnected: "Déconnecté",
   apiAccess: "Accès API",
-  apiAccessSubtitle: "L’API de Superthread vous permet de créer des intégrations personnalisées. Vous aurez besoin des détails ci-dessous pour faire des requêtes",
+  apiAccessSubtitle:
+    "L’API de Superthread vous permet de créer des intégrations personnalisées. Vous aurez besoin des détails ci-dessous pour faire des requêtes",
   workspaceIdDescription: 'Appelé "team_id" dans l’API',
   userIDDescription: 'Appelé "user_id" dans l’API',
   viewDocs: "voir la doc API",

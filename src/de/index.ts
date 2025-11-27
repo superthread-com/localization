@@ -2685,7 +2685,8 @@ const de = {
   online: "Online",
   disconnected: "Getrennt",
   apiAccess: "API-Zugriff",
-  apiAccessSubtitle: "Die API von Superthread ermöglicht es dir, benutzerdefinierte Integrationen zu erstellen. Du benötigst die folgenden Angaben, um Anfragen zu stellen",
+  apiAccessSubtitle:
+    "Die API von Superthread ermöglicht es dir, benutzerdefinierte Integrationen zu erstellen. Du benötigst die folgenden Angaben, um Anfragen zu stellen",
   workspaceIdDescription: 'In der API als "team_id" bezeichnet',
   userIDDescription: 'In der API als "user_id" bezeichnet',
   viewDocs: "API-Dokumentation ansehen",
