@@ -2554,7 +2554,11 @@ const en = {
   online: "Online",
   disconnected: "Disconnected",
   apiAccess: "API access",
-  viewDocs: "view docs",
+  apiAccessSubtitle: "Superthread's API enables you to build custom integrations. You'll need the details below to make requests",
+  workspaceIdDescription: 'Referred to as "team_id" in the API',
+  userIDDescription: 'Referred to "user_id" in the API',
+  viewDocs: "view API docs",
+  user: "User",
   createPatSubtitle:
     "When using a personal access token to access the API, all action are attributed to you as an individual",
   expirationReminderText:

@@ -2633,7 +2633,11 @@ const id = {
   online: "Daring",
   disconnected: "Terputus",
   apiAccess: "Akses API",
-  viewDocs: "lihat dokumen",
+  apiAccessSubtitle: "API Superthread memungkinkan Anda membuat integrasi kustom. Anda akan memerlukan detail di bawah untuk membuat permintaan",
+  workspaceIdDescription: 'Disebut sebagai "team_id" di API',
+  userIDDescription: 'Disebut sebagai "user_id" di API',
+  viewDocs: "lihat dokumen API",
+  user: "Pengguna",
   createPatSubtitle:
     "Saat menggunakan token akses pribadi untuk mengakses API, semua tindakan diatributkan kepada Anda sebagai individu",
   expirationReminderText:
