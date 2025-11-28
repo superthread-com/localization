@@ -2531,7 +2531,7 @@ const ko = {
   apiAccessSubtitle:
     "Superthread API로 커스텀 연동을 만들 수 있습니다. 요청하려면 아래 정보를 사용하세요",
   workspaceIdDescription: 'API에서 "team_id"로 표시됩니다',
-  userIDDescription: 'API에서 "user_id"로 표시됩니다',
+  userIdDescription: 'API에서 "user_id"로 표시됩니다',
   viewDocs: "API 문서 보기",
   user: "사용자",
   createPatSubtitle:

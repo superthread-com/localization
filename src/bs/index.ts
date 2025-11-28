@@ -2604,7 +2604,7 @@ const bs: Translations = {
   apiAccessSubtitle:
     "Superthreadov API omogućava pravljenje prilagođenih integracija. Trebat će vam detalji ispod za slanje zahtjeva",
   workspaceIdDescription: 'U API-ju nazvan "team_id"',
-  userIDDescription: 'U API-ju nazvan "user_id"',
+  userIdDescription: 'U API-ju nazvan "user_id"',
   viewDocs: "pogledaj API dokumente",
   user: "Korisnik",
   createPatSubtitle:

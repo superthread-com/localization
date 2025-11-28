@@ -2659,7 +2659,7 @@ const ptBR = {
   apiAccessSubtitle:
     "A API do Superthread permite criar integrações personalizadas. Use os dados abaixo para fazer requisições",
   workspaceIdDescription: 'Chamado de "team_id" na API',
-  userIDDescription: 'Chamado de "user_id" na API',
+  userIdDescription: 'Chamado de "user_id" na API',
   viewDocs: "ver docs da API",
   user: "Usuário",
   createPatSubtitle:
