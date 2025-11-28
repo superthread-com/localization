@@ -2528,7 +2528,12 @@ const ko = {
   online: "온라인",
   disconnected: "연결 끊김",
   apiAccess: "API 액세스",
-  viewDocs: "문서 보기",
+  apiAccessSubtitle:
+    "Superthread API로 커스텀 연동을 만들 수 있습니다. 요청하려면 아래 정보를 사용하세요",
+  workspaceIdDescription: 'API에서 "team_id"로 표시됩니다',
+  userIDDescription: 'API에서 "user_id"로 표시됩니다',
+  viewDocs: "API 문서 보기",
+  user: "사용자",
   createPatSubtitle:
     "API에 액세스하기 위해 개인 액세스 토큰을 사용할 때 모든 작업은 개인으로서 귀하에게 귀속됩니다",
   expirationReminderText: "토큰 만료 하루 전에 알림 이메일을 보내드립니다.",

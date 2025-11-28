@@ -2408,7 +2408,12 @@ const zhHans = {
   online: "在线",
   disconnected: "已断开连接",
   apiAccess: "API访问",
-  viewDocs: "查看文档",
+  apiAccessSubtitle:
+    "Superthread 的 API 让你构建自定义集成。你需要以下信息来发起请求",
+  workspaceIdDescription: '在 API 中称为 "team_id"',
+  userIDDescription: '在 API 中称为 "user_id"',
+  viewDocs: "查看 API 文档",
+  user: "用户",
   createPatSubtitle: "使用个人访问令牌访问API时，所有操作都归因于您个人",
   expirationReminderText: "我们将在您的令牌过期前一天向您发送提醒邮件。",
   securityAndAccess: "安全与访问",

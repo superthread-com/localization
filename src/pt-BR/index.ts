@@ -2656,7 +2656,12 @@ const ptBR = {
   online: "Online",
   disconnected: "Desconectado",
   apiAccess: "Acesso à API",
-  viewDocs: "ver docs",
+  apiAccessSubtitle:
+    "A API do Superthread permite criar integrações personalizadas. Use os dados abaixo para fazer requisições",
+  workspaceIdDescription: 'Chamado de "team_id" na API',
+  userIDDescription: 'Chamado de "user_id" na API',
+  viewDocs: "ver docs da API",
+  user: "Usuário",
   createPatSubtitle:
     "Ao usar um token de acesso pessoal para acessar a API, todas as ações são atribuídas a você como indivíduo",
   expirationReminderText:
