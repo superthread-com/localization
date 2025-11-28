@@ -2416,7 +2416,7 @@ const zhHant = {
   apiAccessSubtitle:
     "Superthread 的 API 讓你建立自訂整合。你需要以下資訊才能發送請求",
   workspaceIdDescription: '在 API 中稱為 "team_id"',
-  userIDDescription: '在 API 中稱為 "user_id"',
+  userIdDescription: '在 API 中稱為 "user_id"',
   viewDocs: "查看 API 文件",
   user: "使用者",
   createPatSubtitle: "使用個人存取權杖存取 API 時，所有操作都歸因於您個人",

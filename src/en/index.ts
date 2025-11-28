@@ -2557,7 +2557,7 @@ const en = {
   apiAccessSubtitle:
     "Superthread's API enables you to build custom integrations. You'll need the details below to make requests",
   workspaceIdDescription: 'Referred to as "team_id" in the API',
-  userIDDescription: 'Referred to "user_id" in the API',
+  userIdDescription: 'Referred to "user_id" in the API',
   viewDocs: "view API docs",
   user: "User",
   createPatSubtitle:

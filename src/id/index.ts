@@ -2636,7 +2636,7 @@ const id = {
   apiAccessSubtitle:
     "API Superthread memungkinkan Anda membuat integrasi kustom. Anda akan memerlukan detail di bawah untuk membuat permintaan",
   workspaceIdDescription: 'Disebut sebagai "team_id" di API',
-  userIDDescription: 'Disebut sebagai "user_id" di API',
+  userIdDescription: 'Disebut sebagai "user_id" di API',
   viewDocs: "lihat dokumen API",
   user: "Pengguna",
   createPatSubtitle:

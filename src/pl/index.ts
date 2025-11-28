@@ -2614,7 +2614,7 @@ const pl = {
   apiAccessSubtitle:
     "API Superthread umożliwia tworzenie własnych integracji. Do zapytań potrzebujesz danych poniżej",
   workspaceIdDescription: 'W API określane jako "team_id"',
-  userIDDescription: 'W API określane jako "user_id"',
+  userIdDescription: 'W API określane jako "user_id"',
   viewDocs: "zobacz dokumentację API",
   user: "Użytkownik",
   createPatSubtitle:
