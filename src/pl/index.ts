@@ -2784,6 +2784,7 @@ const pl = {
   toggleCoverImageFit: "Zmień zoom",
   imFeelingLucky: "Szczęście mi sprzyja",
   viewWord: "Widok",
+  saveAsTemplate: "Zapisz jako szablon",
 };
 
 export default pl as Translations;

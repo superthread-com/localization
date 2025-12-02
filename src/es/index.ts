@@ -2839,6 +2839,7 @@ const es = {
   toggleCoverImageFit: "Cambiar zoom",
   imFeelingLucky: "Voy a tener suerte",
   viewWord: "Vista",
+  saveAsTemplate: "Guardar como plantilla",
 };
 
 export default es as Translations;

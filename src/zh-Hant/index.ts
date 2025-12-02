@@ -2568,6 +2568,7 @@ const zhHant = {
   toggleCoverImageFit: "更改縮放",
   imFeelingLucky: "手氣不錯",
   viewWord: "檢視",
+  saveAsTemplate: "另存為範本",
 };
 
 export default zhHant as Translations;

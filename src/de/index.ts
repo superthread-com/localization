@@ -2859,6 +2859,7 @@ const de = {
   toggleCoverImageFit: "Zoom ändern",
   imFeelingLucky: "Auf gut Glück",
   viewWord: "Ansicht",
+  saveAsTemplate: "Als Vorlage speichern",
 };
 
 export default de as Translations;

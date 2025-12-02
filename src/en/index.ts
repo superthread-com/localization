@@ -2721,6 +2721,7 @@ const en = {
   toggleCoverImageFit: "Change zoom",
   imFeelingLucky: "I'm feeling lucky",
   viewWord: "View",
+  saveAsTemplate: "Save as template",
 };
 
 export default en as Translations;

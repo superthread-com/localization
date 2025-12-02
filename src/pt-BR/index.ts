@@ -2828,6 +2828,7 @@ const ptBR = {
   toggleCoverImageFit: "Alterar zoom",
   imFeelingLucky: "Estou com sorte",
   viewWord: "Visualização",
+  saveAsTemplate: "Salvar como modelo",
 };
 
 export default ptBR as Translations;

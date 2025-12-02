@@ -2769,6 +2769,7 @@ const bs: Translations = {
   toggleCoverImageFit: "Promijeni zoom",
   imFeelingLucky: "Osjećam se sretno",
   viewWord: "Prikaz",
+  saveAsTemplate: "Spremi kao predložak",
 };
 
 export default bs;

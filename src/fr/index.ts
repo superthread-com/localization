@@ -2854,6 +2854,7 @@ const fr: Translations = {
   toggleCoverImageFit: "Changer le zoom",
   imFeelingLucky: "J'ai de la chance",
   viewWord: "Vue",
+  saveAsTemplate: "Enregistrer comme modèle",
 };
 
 export default fr as Translations;

@@ -2563,6 +2563,7 @@ const zhHans = {
   toggleCoverImageFit: "更改缩放",
   imFeelingLucky: "手气不错",
   viewWord: "视图",
+  saveAsTemplate: "另存为模板",
 };
 
 export default zhHans as Translations;

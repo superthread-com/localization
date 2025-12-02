@@ -2695,6 +2695,7 @@ const ko = {
   toggleCoverImageFit: "줌 변경",
   imFeelingLucky: "행운을 빕니다",
   viewWord: "보기",
+  saveAsTemplate: "템플릿으로 저장",
 };
 
 export default ko as Translations;

@@ -2803,6 +2803,7 @@ const id = {
   toggleCoverImageFit: "Ubah zoom",
   imFeelingLucky: "Saya merasa beruntung",
   viewWord: "Tampilan",
+  saveAsTemplate: "Simpan sebagai templat",
 };
 
 export default id as Translations;
