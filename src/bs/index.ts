@@ -2761,7 +2761,6 @@ const bs: Translations = {
   sectionPinnedToSidebar: "Odjeljak zakačen na bočnu traku",
   worksapceSettings: "Postavke radnog prostora",
   hideFromSidebar: "Sakrij iz bočne trake",
-<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Kreirajte kopiju ove ploče. Aktivnost i komentari neće biti kopirani.",
   chooseWhereToDuplicateBoard: "Odaberite gdje duplicirati ploču",
@@ -2770,9 +2769,7 @@ const bs: Translations = {
   toggleCoverImageFit: "Promijeni zoom",
   imFeelingLucky: "Osjećam se sretno",
   viewWord: "Prikaz",
-=======
   saveAsTemplate: "Spremi kao predložak",
->>>>>>> Stashed changes
 };
 
 export default bs;

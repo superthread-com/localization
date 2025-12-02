@@ -2846,7 +2846,6 @@ const fr: Translations = {
   sectionPinnedToSidebar: "Section épinglée à la barre latérale",
   worksapceSettings: "Paramètres de l'espace de travail",
   hideFromSidebar: "Masquer de la barre latérale",
-<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Créer une copie de ce tableau. L'activité et les commentaires ne seront pas copiés.",
   chooseWhereToDuplicateBoard: "Choisir où dupliquer le tableau",
@@ -2855,9 +2854,7 @@ const fr: Translations = {
   toggleCoverImageFit: "Changer le zoom",
   imFeelingLucky: "J'ai de la chance",
   viewWord: "Vue",
-=======
   saveAsTemplate: "Enregistrer comme modèle",
->>>>>>> Stashed changes
 };
 
 export default fr as Translations;

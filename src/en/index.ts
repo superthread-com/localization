@@ -2713,7 +2713,6 @@ const en = {
   sectionPinnedToSidebar: "Section pinned to sidebar",
   worksapceSettings: "Workspace settings",
   hideFromSidebar: "Hide from sidebar",
-<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Create a copy of this board. Activity & comments will not be copied.",
   chooseWhereToDuplicateBoard: "Choose where to duplicate the board",
@@ -2722,9 +2721,7 @@ const en = {
   toggleCoverImageFit: "Change zoom",
   imFeelingLucky: "I'm feeling lucky",
   viewWord: "View",
-=======
   saveAsTemplate: "Save as template",
->>>>>>> Stashed changes
 };
 
 export default en as Translations;

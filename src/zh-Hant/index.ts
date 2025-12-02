@@ -2561,7 +2561,6 @@ const zhHant = {
   sectionPinnedToSidebar: "釘選到側邊欄的部分",
   worksapceSettings: "工作區設定",
   hideFromSidebar: "從側邊欄隱藏",
-<<<<<<< Updated upstream
   createACopyOfThisBoard: "建立此看板的副本。活動和評論將不會被複製。",
   chooseWhereToDuplicateBoard: "選擇複製看板的位置",
   copyAllCardsIntoNewBoard: "將所有卡片複製到新看板",
@@ -2569,9 +2568,7 @@ const zhHant = {
   toggleCoverImageFit: "更改縮放",
   imFeelingLucky: "手氣不錯",
   viewWord: "檢視",
-=======
   saveAsTemplate: "另存為範本",
->>>>>>> Stashed changes
 };
 
 export default zhHant as Translations;
