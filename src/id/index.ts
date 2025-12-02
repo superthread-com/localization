@@ -2804,6 +2804,97 @@ const id = {
   imFeelingLucky: "Saya merasa beruntung",
   viewWord: "Tampilan",
   saveAsTemplate: "Simpan sebagai templat",
+  // Keyboard shortcuts cheatsheet
+  ["keyboardShortcuts.title"]: "Pintasan keyboard",
+  ["keyboardShortcuts.or"]: "atau",
+  ["keyboardShortcuts.then"]: "lalu",
+  ["keyboardShortcuts.proTip"]: "Tips pro:",
+  // Sections
+  ["keyboardShortcuts.sectionGeneral"]: "Umum",
+  ["keyboardShortcuts.sectionBoardsLists"]: "Papan / daftar",
+  ["keyboardShortcuts.sectionCards"]: "Kartu",
+  ["keyboardShortcuts.sectionDropdownsMenus"]: "Dropdown dan menu",
+  ["keyboardShortcuts.sectionNotificationsInbox"]: "Kotak masuk notifikasi",
+  ["keyboardShortcuts.sectionTextEditor"]: "Editor teks",
+  ["keyboardShortcuts.sectionMarkdownFormatting"]: "Pemformatan Markdown",
+  // General
+  ["keyboardShortcuts.searchForAnything"]: "Cari apa saja",
+  ["keyboardShortcuts.saveOrSubmit"]: "Simpan atau kirim",
+  ["keyboardShortcuts.closeOrGoBack"]: "Tutup atau kembali",
+  ["keyboardShortcuts.createNewCard"]: "Buat kartu baru",
+  ["keyboardShortcuts.createNewPage"]: "Buat halaman baru",
+  ["keyboardShortcuts.createNewNote"]: "Buat catatan baru",
+  ["keyboardShortcuts.showHideSidebar"]:
+    "Tampilkan / sembunyikan bilah samping",
+  ["keyboardShortcuts.viewAllKeyboardShortcuts"]:
+    "Lihat semua pintasan keyboard",
+  // Boards / lists
+  ["keyboardShortcuts.selectCardAbove"]: "Pilih kartu di atas",
+  ["keyboardShortcuts.selectCardBelow"]: "Pilih kartu di bawah",
+  ["keyboardShortcuts.selectLeftCard"]: "Pilih kartu di kiri",
+  ["keyboardShortcuts.selectRightCard"]: "Pilih kartu di kanan",
+  ["keyboardShortcuts.openSelectedCard"]: "Buka kartu yang dipilih",
+  ["keyboardShortcuts.closeTheCard"]: "Tutup kartu",
+  ["keyboardShortcuts.moveCardUp"]: "Pindahkan kartu ke atas",
+  ["keyboardShortcuts.moveCardDown"]: "Pindahkan kartu ke bawah",
+  ["keyboardShortcuts.moveCardLeft"]: "Pindahkan kartu ke kiri",
+  ["keyboardShortcuts.moveCardRight"]: "Pindahkan kartu ke kanan",
+  ["keyboardShortcuts.addCardToMultiSelect"]: "Tambahkan kartu ke multi-pilih",
+  ["keyboardShortcuts.selectRangeOfCards"]: "Pilih rentang kartu",
+  ["keyboardShortcuts.selectAllCards"]: "Pilih semua kartu",
+  ["keyboardShortcuts.clearMultiSelect"]: "Bersihkan multi-pilih",
+  ["keyboardShortcuts.addCardInlineAndOpen"]: "Tambah kartu langsung dan buka",
+  ["keyboardShortcuts.addBoardFilter"]: "Tambahkan filter papan",
+  // Cards
+  ["keyboardShortcuts.renameTitle"]: "Ubah judul",
+  ["keyboardShortcuts.assignUnassignYourself"]:
+    "Tetapkan / hapus penetapan diri sendiri",
+  ["keyboardShortcuts.statusList"]: "Status / daftar",
+  ["keyboardShortcuts.assignees"]: "Ditugaskan",
+  ["keyboardShortcuts.tags"]: "Tag",
+  ["keyboardShortcuts.setDueDate"]: "Atur tanggal jatuh tempo",
+  ["keyboardShortcuts.submitComment"]: "Kirim komentar",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Salin nama cabang git dari kartu yang dipilih",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Salin konten kartu sebagai markdown",
+  // Dropdowns and menus
+  ["keyboardShortcuts.moveFocusDown"]: "Pindahkan fokus ke bawah",
+  ["keyboardShortcuts.moveFocusUp"]: "Pindahkan fokus ke atas",
+  ["keyboardShortcuts.selectAndClose"]: "Pilih dan tutup",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Tambahkan item yang difokuskan ke pilihan",
+  ["keyboardShortcuts.closeTheMenu"]: "Tutup menu",
+  // Notifications inbox
+  ["keyboardShortcuts.selectNextNotification"]: "Pilih notifikasi berikutnya",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Pilih notifikasi sebelumnya",
+  ["keyboardShortcuts.resolveNotification"]: "Selesaikan notifikasi",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "Saat berada di deskripsi kartu, komentar, atau halaman, Anda dapat:",
+  ["keyboardShortcuts.mentionAnybodyOrAnything"]:
+    "Menyebut siapa saja atau apa saja",
+  ["keyboardShortcuts.openSlashMenu"]: "Buka menu slash untuk opsi pemformatan",
+  ["keyboardShortcuts.addEmoji"]: "Tambahkan emoji (kode singkat)",
+  ["keyboardShortcuts.boldSelectedText"]: "Tebalkan teks yang dipilih",
+  ["keyboardShortcuts.italiciseSelectedText"]: "Miringkan teks yang dipilih",
+  ["keyboardShortcuts.strikethroughSelectedText"]: "Coret teks yang dipilih",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "Jika Anda memiliki URL di papan klip, Anda dapat menempelkannya ke potongan teks yang disorot untuk mengubahnya menjadi tautan.",
+  // Markdown formatting
+  ["keyboardShortcuts.markdownItalic"]: "Miring",
+  ["keyboardShortcuts.markdownBold"]: "Tebal",
+  ["keyboardShortcuts.markdownHeading1"]: "Judul 1",
+  ["keyboardShortcuts.markdownHeading2"]: "Judul 2",
+  ["keyboardShortcuts.markdownHeading3"]: "Judul 3",
+  ["keyboardShortcuts.markdownBulletList"]: "Daftar poin",
+  ["keyboardShortcuts.markdownNumberedList"]: "Daftar bernomor",
+  ["keyboardShortcuts.markdownChecklist"]: "Daftar periksa",
+  ["keyboardShortcuts.markdownStrikethrough"]: "Teks dicoret",
+  ["keyboardShortcuts.markdownHorizontalDivider"]: "Garis pemisah horizontal",
+  ["keyboardShortcuts.markdownInlineCode"]: "Kode sebaris",
+  ["keyboardShortcuts.markdownCodeBlock"]: "Blok kode",
 };
 
 export default id as Translations;

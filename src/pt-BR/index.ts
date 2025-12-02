@@ -220,7 +220,7 @@ const ptBR = {
   ["billing.cardAndPageTemplates"]: "Modelos de cartão e página",
   ["billing.guestUsers"]: "Usuários convidados",
   ["billing.meetingTranscription"]: "Transcrição de reuniões",
-  ["billing.aiNoteTemplates"]: "Modelos de notas de IA",
+  ["billing.aiNoteTemplates"]: "Modelos de anotações de IA",
   ["billing.askAiSearch"]: "Perguntar à busca de IA",
   ["billing.perUserPerMonth"]: "/ usuário / mês",
   ["billing.perUserPerYear"]: "/ usuário / ano",
@@ -1248,7 +1248,7 @@ const ptBR = {
   useBoardsToVisualise:
     "Use quadros para visualizar seu fluxo de trabalho, acompanhar o progresso da sua equipe e planejar o que fazer a seguir. Crie múltiplos quadros para manter as coisas organizadas.",
   collaborativeDocuments:
-    "Documentos colaborativos com texto, imagens, markdown e comentários inline. Tome notas, escreva especificações, construa um wiki ou compartilhe informações publicamente.",
+    "Documentos colaborativos com texto, imagens, markdown e comentários inline. Tome anotações, escreva especificações, construa um wiki ou compartilhe informações publicamente.",
   filterAcrossTheEntire:
     "Filtre todo o workspace para criar um filtro salvo com todos os cards atribuídos a você ou, por exemplo, um backlog global de bugs. Os filtros salvos podem ser privados ou compartilhados com sua equipe.",
   useFiltersToCreate:
@@ -1873,7 +1873,7 @@ const ptBR = {
   spaceDetails: "Detalhes do espaço",
   makeBoardFullWidth: "Tornar o quadro em largura total",
   askAiAssistantSearch:
-    "Perguntar à IA com base em seus cartões, páginas e notas",
+    "Perguntar à IA com base em seus cartões, páginas e anotações",
   backToSearchResults: "Voltar aos resultados da pesquisa",
   sources: "Fontes",
   askAiQuestionLong: "A pergunta deve ter pelo menos 10 caracteres.",
@@ -2169,7 +2169,7 @@ const ptBR = {
   sprintCompleted: "Sprint concluído",
   sprintCancelled: "Sprint cancelado",
   sprintDatesChanged: "Datas do sprint alteradas",
-  myWorkAndNotes: "Meus cartões & notas",
+  myWorkAndNotes: "Meus cartões & anotações",
   notes: "Minhas anotações",
   suggestedActions: "Ações sugeridas",
   noSuggestedActions: "Nenhuma ação sugerida",
@@ -2210,22 +2210,22 @@ const ptBR = {
   createdCards: "Cartões criados",
   noTranscriptAvailable: "Nenhuma transcrição disponível",
   enhanceNotesUsingMacApp:
-    "Superthread pode transcrever áudio de suas reuniões para gerar notas aprimoradas. A transcrição está disponível apenas no aplicativo desktop Superthread para macOS.",
+    "Superthread pode transcrever áudio de suas reuniões para gerar anotações aprimoradas. A transcrição está disponível apenas no aplicativo desktop Superthread para macOS.",
   downloadApp: "Baixar aplicativo",
   enhance: "Aprimorar",
   macIntel: "Mac Intel",
   appleSilicon: "Apple Silicon",
-  enhanceNotesUsingAI: "Aprimore suas notas usando IA",
+  enhanceNotesUsingAI: "Aprimore suas anotações usando IA",
   showTranscript: "Mostrar transcrição",
   epicCreated: "Projeto criado",
   analysingTranscript: "Analisando transcrição",
-  comparingYourNotes: "Comparando suas notas",
-  readingYourNotes: "Lendo suas notas",
-  enhancingYourNotes: "Aprimorando suas notas",
+  comparingYourNotes: "Comparando suas anotações",
+  readingYourNotes: "Lendo suas anotações",
+  enhancingYourNotes: "Aprimorando suas anotações",
   finished: "Concluído",
   note: "Anotação",
   epicMustHaveTitle: "Um projeto deve ter um título",
-  seeAllNotes: "Veja todas as notas",
+  seeAllNotes: "Veja todas as anotações",
   autoSaved: "Auto-salvo",
   projectsAreTrackedOnRoadmap:
     "Os projetos são acompanhados no quadro de projetos",
@@ -2236,9 +2236,9 @@ const ptBR = {
   addCardsThatContributeToProject:
     "Adicione cartões que contribuam para este projeto. Você pode",
   noProject: "Nenhum projeto",
-  noteTemplates: "Modelos de notas",
+  noteTemplates: "Modelos de anotações",
   noteTemplatesSettingsSubtitle:
-    "Altere rapidamente o formato das notas com modelos",
+    "Altere rapidamente o formato das anotações com modelos",
   noNoteTemplates: "Nenhum modelo de anotação",
   createNoteTemplate: "Criar modelo de anotação",
   sections: "Seções",
@@ -2252,7 +2252,7 @@ const ptBR = {
   meetingContextPlaceholder:
     "Forneça uma visão geral da reunião e o que você deseja obter dela...",
   meetingContextDescription:
-    "Isso ajuda o Superthread a entender no que focar ao aprimorar suas notas",
+    "Isso ajuda o Superthread a entender no que focar ao aprimorar suas anotações",
   duplicateTemplate: "Duplicar modelo",
   favouriteTemplates: "Modelos favoritos",
   introduction: "Introdução",
@@ -2261,7 +2261,7 @@ const ptBR = {
   allowSuperthreadToTranscribe:
     "Permitir que o Superthread transcreva suas reuniões",
   superthreadCanEnhance:
-    "O Superthread pode aprimorar suas notas transcrevendo áudio diretamente do seu laptop, sem necessidade de bots de reunião. Funciona para reuniões presenciais e virtuais, com controle total sobre quando está ativado. Seu áudio nunca é armazenado ou usado para qualquer outra coisa.",
+    "O Superthread pode aprimorar suas anotações transcrevendo áudio diretamente do seu laptop, sem necessidade de bots de reunião. Funciona para reuniões presenciais e virtuais, com controle total sobre quando está ativado. Seu áudio nunca é armazenado ou usado para qualquer outra coisa.",
   transcribeYourVoice: "Transcrever sua voz",
   transcribeOthersVoice: "Transcrever a voz de outros",
   allowMicrophoneCapture: "Permitir captura de microfone",
@@ -2299,7 +2299,7 @@ const ptBR = {
   startTranscription: "Iniciar transcrição",
   stopTranscription: "Parar transcrição",
   openTranscribingNote: "Abrir anotação de transcrição",
-  notesSettings: "Configurações de notas",
+  notesSettings: "Configurações de anotações",
   theseSettingsArePersonalToYou: "Essas configurações são pessoais para você",
   transcriptionJargonTitle: "Jargão",
   transcriptionJargonPlaceholder:
@@ -2329,14 +2329,14 @@ const ptBR = {
   connectGoogleCalendar: "Conectar ao Google Calendar",
   googleCalendarIntegration: "Integração com o Google Calendar",
   googleCalendarIntegrationSubtitle:
-    "Conecte-se ao seu Google Calendar para criar facilmente notas para reuniões futuras",
+    "Conecte-se ao seu Google Calendar para criar facilmente anotações para reuniões futuras",
   calendarAccountConnected: "Conta de calendário conectada",
   disconnect: "Desconectar",
   showCalendarMeetingsUpTo: "Mostrar reuniões de calendário até",
-  dayAheadInNotesList: "dia à frente na lista de notas",
-  daysAheadInNotesList: "dias à frente na lista de notas",
+  dayAheadInNotesList: "dia à frente na lista de anotações",
+  daysAheadInNotesList: "dias à frente na lista de anotações",
   eventTypesToIncludeInNotesList:
-    "Tipos de eventos a incluir na lista de notas",
+    "Tipos de eventos a incluir na lista de anotações",
   ["calendar.all_day"]:
     "Eventos de dia inteiro, incluindo eventos de vários dias",
   ["calendar.event_link"]: "Eventos sem link de reunião",
@@ -2352,7 +2352,7 @@ const ptBR = {
   automaticMeetingDetectionDescription:
     "O Superthread detecta quando um aplicativo de reunião está usando o microfone e notifica você para criar uma anotação",
   joinMeetingFromNote: "Participar da reunião %{provider} (%{time})",
-  searchPlaceholderAskAiNotes: "Faça uma pergunta sobre suas notas...",
+  searchPlaceholderAskAiNotes: "Faça uma pergunta sobre suas anotações...",
   askAi: "Perguntar à IA",
   transcribeHereInsteadPositive: "Transcrever aqui em vez disso",
   notesAreBetterWithOurApp: "Anotações são melhores com nosso aplicativo",
@@ -2372,7 +2372,7 @@ const ptBR = {
   meetingName: "Nome da reunião",
   meetingTime: "Hora da reunião",
   searchLanguage: "Pesquisar idioma",
-  ["get_started_notes.title"]: "Comece com as notas",
+  ["get_started_notes.title"]: "Comece com as anotações",
   ["get_started_notes.tooltip"]:
     "Transcrição de reuniões e anotações aprimoradas por IA",
   transcriptionNotAvailableOnPlan:
@@ -2386,7 +2386,7 @@ const ptBR = {
     "Somente quando eu fizer anotações para uma reunião",
   learnMore: "Saiba mais",
   withAnInteractiveVideoTutorial: "com um tutorial em vídeo interativo",
-  newToNotes: "Novo em notas?",
+  newToNotes: "Novo em anotações?",
   onlyWhenITakeNotesForMeetingSubtitle:
     "Se você criar uma anotação a partir de um evento de calendário até 5 minutos antes do horário de início, ou entrar em uma chamada de vídeo a partir de uma anotação",
   instantEmail: "email instantâneo",
@@ -2397,7 +2397,7 @@ const ptBR = {
   meetingAndTranscriptionSettingsSubtitle:
     "Essas configurações só podem ser usadas no",
   customiseNotesSettingsOne: "Ou personalize suas",
-  customiseNotesSettingsTwo: "configurações de notas",
+  customiseNotesSettingsTwo: "configurações de anotações",
   enableSubGroupBy: "Subgrupo por",
   boardLimitReached:
     "O limite do quadro foi atingido. Você pode excluir alguns quadros para criar mais.",
@@ -2432,11 +2432,11 @@ const ptBR = {
   jobDescription: "Cargo",
   jobDescriptionPlaceholder: "Insira a descrição do trabalho",
   letPeopleKnowWhatYouDo:
-    "Deixe as pessoas saberem o que você faz. Isso também ajuda o Superthread a criar notas aprimoradas mais relevantes.",
+    "Deixe as pessoas saberem o que você faz. Isso também ajuda o Superthread a criar anotações aprimoradas mais relevantes.",
   workspaceDescriptionLabel: "Descrição do espaço de trabalho",
   workspaceDescriptionPlaceholder: "Insira a descrição do espaço de trabalho",
-  notesTutorial: "Tutorial de notas",
-  learnHowToUseSuperthreadNotes: "Aprenda a usar as notas do Superthread",
+  notesTutorial: "Tutorial de anotações",
+  learnHowToUseSuperthreadNotes: "Aprenda a usar as anotações do Superthread",
   myTemplates: "Meus modelos",
   otherTemplates: "Outros modelos",
   meetingDate: "Data da reunião",
@@ -2829,6 +2829,101 @@ const ptBR = {
   imFeelingLucky: "Estou com sorte",
   viewWord: "Visualização",
   saveAsTemplate: "Salvar como modelo",
+  // Keyboard shortcuts cheatsheet
+  ["keyboardShortcuts.title"]: "Atalhos de teclado",
+  ["keyboardShortcuts.or"]: "ou",
+  ["keyboardShortcuts.then"]: "então",
+  ["keyboardShortcuts.proTip"]: "Dica profissional:",
+  // Sections
+  ["keyboardShortcuts.sectionGeneral"]: "Geral",
+  ["keyboardShortcuts.sectionBoardsLists"]: "Quadros / listas",
+  ["keyboardShortcuts.sectionCards"]: "Cartões",
+  ["keyboardShortcuts.sectionDropdownsMenus"]: "Dropdowns e menus",
+  ["keyboardShortcuts.sectionNotificationsInbox"]:
+    "Caixa de entrada de notificações",
+  ["keyboardShortcuts.sectionTextEditor"]: "Editor de texto",
+  ["keyboardShortcuts.sectionMarkdownFormatting"]: "Formatação Markdown",
+  // General
+  ["keyboardShortcuts.searchForAnything"]: "Pesquisar qualquer coisa",
+  ["keyboardShortcuts.saveOrSubmit"]: "Salvar ou enviar",
+  ["keyboardShortcuts.closeOrGoBack"]: "Fechar ou voltar",
+  ["keyboardShortcuts.createNewCard"]: "Criar um novo cartão",
+  ["keyboardShortcuts.createNewPage"]: "Criar uma nova página",
+  ["keyboardShortcuts.createNewNote"]: "Criar uma nova anotação",
+  ["keyboardShortcuts.showHideSidebar"]: "Mostrar / ocultar barra lateral",
+  ["keyboardShortcuts.viewAllKeyboardShortcuts"]:
+    "Ver todos os atalhos de teclado",
+  // Boards / lists
+  ["keyboardShortcuts.selectCardAbove"]: "Selecionar cartão acima",
+  ["keyboardShortcuts.selectCardBelow"]: "Selecionar cartão abaixo",
+  ["keyboardShortcuts.selectLeftCard"]: "Selecionar cartão à esquerda",
+  ["keyboardShortcuts.selectRightCard"]: "Selecionar cartão à direita",
+  ["keyboardShortcuts.openSelectedCard"]: "Abrir o cartão selecionado",
+  ["keyboardShortcuts.closeTheCard"]: "Fechar o cartão",
+  ["keyboardShortcuts.moveCardUp"]: "Mover cartão para cima",
+  ["keyboardShortcuts.moveCardDown"]: "Mover cartão para baixo",
+  ["keyboardShortcuts.moveCardLeft"]: "Mover cartão para a esquerda",
+  ["keyboardShortcuts.moveCardRight"]: "Mover cartão para a direita",
+  ["keyboardShortcuts.addCardToMultiSelect"]:
+    "Adicionar cartão à seleção múltipla",
+  ["keyboardShortcuts.selectRangeOfCards"]: "Selecionar intervalo de cartões",
+  ["keyboardShortcuts.selectAllCards"]: "Selecionar todos os cartões",
+  ["keyboardShortcuts.clearMultiSelect"]: "Limpar seleção múltipla",
+  ["keyboardShortcuts.addCardInlineAndOpen"]:
+    "Adicionar cartão em linha e abri-lo",
+  ["keyboardShortcuts.addBoardFilter"]: "Adicionar filtro ao quadro",
+  // Cards
+  ["keyboardShortcuts.renameTitle"]: "Renomear título",
+  ["keyboardShortcuts.assignUnassignYourself"]: "Atribuir/remover a si mesmo",
+  ["keyboardShortcuts.statusList"]: "Status / lista",
+  ["keyboardShortcuts.assignees"]: "Responsáveis",
+  ["keyboardShortcuts.tags"]: "Tags",
+  ["keyboardShortcuts.setDueDate"]: "Definir data de vencimento",
+  ["keyboardShortcuts.submitComment"]: "Enviar comentário",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Copiar o nome do branch git do cartão selecionado",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Copiar o conteúdo do cartão como markdown",
+  // Dropdowns and menus
+  ["keyboardShortcuts.moveFocusDown"]: "Mover foco para baixo",
+  ["keyboardShortcuts.moveFocusUp"]: "Mover foco para cima",
+  ["keyboardShortcuts.selectAndClose"]: "Selecionar e fechar",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Adicionar item focalizado à seleção",
+  ["keyboardShortcuts.closeTheMenu"]: "Fechar o menu",
+  // Notifications inbox
+  ["keyboardShortcuts.selectNextNotification"]:
+    "Selecionar próxima notificação",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Selecionar notificação anterior",
+  ["keyboardShortcuts.resolveNotification"]: "Resolver uma notificação",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "Quando estiver em descrições de cartões, comentários ou páginas, você pode:",
+  ["keyboardShortcuts.mentionAnybodyOrAnything"]:
+    "Mencionar qualquer pessoa ou coisa",
+  ["keyboardShortcuts.openSlashMenu"]:
+    "Abrir o menu de barra para opções de formatação",
+  ["keyboardShortcuts.addEmoji"]: "Adicionar um emoji (códigos curtos)",
+  ["keyboardShortcuts.boldSelectedText"]: "Negritar o texto selecionado",
+  ["keyboardShortcuts.italiciseSelectedText"]:
+    "Colocar o texto selecionado em itálico",
+  ["keyboardShortcuts.strikethroughSelectedText"]: "Tachar o texto selecionado",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "Se você tiver uma URL em sua área de transferência, poderá colá-la sobre um texto destacado para transformar o texto em um link.",
+  // Markdown formatting
+  ["keyboardShortcuts.markdownItalic"]: "Itálico",
+  ["keyboardShortcuts.markdownBold"]: "Negrito",
+  ["keyboardShortcuts.markdownHeading1"]: "Título 1",
+  ["keyboardShortcuts.markdownHeading2"]: "Título 2",
+  ["keyboardShortcuts.markdownHeading3"]: "Título 3",
+  ["keyboardShortcuts.markdownBulletList"]: "Lista com marcadores",
+  ["keyboardShortcuts.markdownNumberedList"]: "Lista numerada",
+  ["keyboardShortcuts.markdownChecklist"]: "Checklist",
+  ["keyboardShortcuts.markdownStrikethrough"]: "Tachado",
+  ["keyboardShortcuts.markdownHorizontalDivider"]: "Divisor horizontal",
+  ["keyboardShortcuts.markdownInlineCode"]: "Código em linha",
+  ["keyboardShortcuts.markdownCodeBlock"]: "Bloco de código",
 };
 
 export default ptBR as Translations;

@@ -2770,6 +2770,96 @@ const bs: Translations = {
   imFeelingLucky: "Osjećam se sretno",
   viewWord: "Prikaz",
   saveAsTemplate: "Spremi kao predložak",
+  // Keyboard shortcuts cheatsheet
+  ["keyboardShortcuts.title"]: "Prečice tipki",
+  ["keyboardShortcuts.or"]: "ili",
+  ["keyboardShortcuts.then"]: "onda",
+  ["keyboardShortcuts.proTip"]: "Profi savjet:",
+  // Sections
+  ["keyboardShortcuts.sectionGeneral"]: "General",
+  ["keyboardShortcuts.sectionBoardsLists"]: "Ploče / liste",
+  ["keyboardShortcuts.sectionCards"]: "Kartice",
+  ["keyboardShortcuts.sectionDropdownsMenus"]: "Dropdowni i meniji",
+  ["keyboardShortcuts.sectionNotificationsInbox"]: "Inbox za obavijesti",
+  ["keyboardShortcuts.sectionTextEditor"]: "Editor teksta",
+  ["keyboardShortcuts.sectionMarkdownFormatting"]: "Formatiranje Markdown",
+  // General
+  ["keyboardShortcuts.searchForAnything"]: "Pretraži bilo što",
+  ["keyboardShortcuts.saveOrSubmit"]: "Spremi ili pošalji",
+  ["keyboardShortcuts.closeOrGoBack"]: "Zatvori ili vrati se",
+  ["keyboardShortcuts.createNewCard"]: "Kreiraj novu karticu",
+  ["keyboardShortcuts.createNewPage"]: "Kreiraj novu stranicu",
+  ["keyboardShortcuts.createNewNote"]: "Kreiraj novu bilješku",
+  ["keyboardShortcuts.showHideSidebar"]: "Prikaži / sakrij bočnu traku",
+  ["keyboardShortcuts.viewAllKeyboardShortcuts"]: "Prikaži sve prečice tipki",
+  // Boards / lists
+  ["keyboardShortcuts.selectCardAbove"]: "Odaberi karticu iznad",
+  ["keyboardShortcuts.selectCardBelow"]: "Odaberi karticu ispod",
+  ["keyboardShortcuts.selectLeftCard"]: "Odaberi karticu lijevo",
+  ["keyboardShortcuts.selectRightCard"]: "Odaberi karticu desno",
+  ["keyboardShortcuts.openSelectedCard"]: "Otvori odabranu karticu",
+  ["keyboardShortcuts.closeTheCard"]: "Zatvori karticu",
+  ["keyboardShortcuts.moveCardUp"]: "Pomjeri karticu na gore",
+  ["keyboardShortcuts.moveCardDown"]: "Pomjeri karticu na dole",
+  ["keyboardShortcuts.moveCardLeft"]: "Pomjeri karticu na lijevo",
+  ["keyboardShortcuts.moveCardRight"]: "Pomjeri karticu na desno",
+  ["keyboardShortcuts.addCardToMultiSelect"]: "Dodaj karticu u multi-select",
+  ["keyboardShortcuts.selectRangeOfCards"]: "Odaberi opseg kartica",
+  ["keyboardShortcuts.selectAllCards"]: "Odaberi sve kartice",
+  ["keyboardShortcuts.clearMultiSelect"]: "Očisti multi-select",
+  ["keyboardShortcuts.addCardInlineAndOpen"]:
+    "Dodaj karticu inline i otvori je",
+  ["keyboardShortcuts.addBoardFilter"]: "Dodaj filter ploče",
+  // Cards
+  ["keyboardShortcuts.renameTitle"]: "Preimenuj naslov",
+  ["keyboardShortcuts.assignUnassignYourself"]: "Dodijeli / ukloni sebe",
+  ["keyboardShortcuts.statusList"]: "Status / lista",
+  ["keyboardShortcuts.assignees"]: "Dodijeljivači",
+  ["keyboardShortcuts.tags"]: "Oznake",
+  ["keyboardShortcuts.setDueDate"]: "Postavi datum završetka",
+  ["keyboardShortcuts.submitComment"]: "Pošalji komentar",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Kopiraj naziv git grane odabrane kartice",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Kopiraj sadržaj kartice kao Markdown",
+  // Dropdowns and menus
+  ["keyboardShortcuts.moveFocusDown"]: "Pomjeri fokus na dole",
+  ["keyboardShortcuts.moveFocusUp"]: "Pomjeri fokus na gore",
+  ["keyboardShortcuts.selectAndClose"]: "Odaberi i zatvori",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Dodaj fokusirani element u odabir",
+  ["keyboardShortcuts.closeTheMenu"]: "Zatvori meni",
+  // Notifications inbox
+  ["keyboardShortcuts.selectNextNotification"]: "Odaberi sljedeću obavijest",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Odaberi prethodnu obavijest",
+  ["keyboardShortcuts.resolveNotification"]: "Riješi obavijest",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "Kada ste u opisima kartica, komentarima ili stranicama možete:",
+  ["keyboardShortcuts.mentionAnybodyOrAnything"]:
+    "Spomenite bilo koga ili bilo šta",
+  ["keyboardShortcuts.openSlashMenu"]:
+    "Otvorite slash meni za opcije formatiranja",
+  ["keyboardShortcuts.addEmoji"]: "Dodajte emoji (kratice)",
+  ["keyboardShortcuts.boldSelectedText"]: "Podebljajte označeni tekst",
+  ["keyboardShortcuts.italiciseSelectedText"]: "Izakosite označeni tekst",
+  ["keyboardShortcuts.strikethroughSelectedText"]: "Precrtaj označeni tekst",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "Ako imate URL u međuspremniku, možete ga zalijepiti preko označenog teksta da ga pretvorite u link.",
+  // Markdown formatting
+  ["keyboardShortcuts.markdownItalic"]: "Kurziv",
+  ["keyboardShortcuts.markdownBold"]: "Podebljano",
+  ["keyboardShortcuts.markdownHeading1"]: "Naslov 1",
+  ["keyboardShortcuts.markdownHeading2"]: "Naslov 2",
+  ["keyboardShortcuts.markdownHeading3"]: "Naslov 3",
+  ["keyboardShortcuts.markdownBulletList"]: "Lista sa znakovima",
+  ["keyboardShortcuts.markdownNumberedList"]: "Numerisana lista",
+  ["keyboardShortcuts.markdownChecklist"]: "Lista za provjeru",
+  ["keyboardShortcuts.markdownStrikethrough"]: "Precrtano",
+  ["keyboardShortcuts.markdownHorizontalDivider"]: "Horizontalna linija",
+  ["keyboardShortcuts.markdownInlineCode"]: "Ugrađeni kod",
+  ["keyboardShortcuts.markdownCodeBlock"]: "Blok koda",
 };
 
 export default bs;

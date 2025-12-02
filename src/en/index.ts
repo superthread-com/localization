@@ -2722,7 +2722,7 @@ const en = {
   imFeelingLucky: "I'm feeling lucky",
   viewWord: "View",
   saveAsTemplate: "Save as template",
-   // Keyboard shortcuts cheatsheet
+  // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Keyboard shortcuts",
   ["keyboardShortcuts.or"]: "or",
   ["keyboardShortcuts.then"]: "then",
@@ -2769,27 +2769,34 @@ const en = {
   ["keyboardShortcuts.tags"]: "Tags",
   ["keyboardShortcuts.setDueDate"]: "Set a due date",
   ["keyboardShortcuts.submitComment"]: "Submit comment",
-  ["keyboardShortcuts.copyGitBranchName"]: "Copy the git branch name of the selected card",
-  ["keyboardShortcuts.copyCardAsMarkdown"]: "Copy the card contents as markdown",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Copy the git branch name of the selected card",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Copy the card contents as markdown",
   // Dropdowns and menus
   ["keyboardShortcuts.moveFocusDown"]: "Move focus down",
   ["keyboardShortcuts.moveFocusUp"]: "Move focus up",
   ["keyboardShortcuts.selectAndClose"]: "Select and close",
-  ["keyboardShortcuts.addFocusedItemToSelection"]: "Add focussed item to selection",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Add focussed item to selection",
   ["keyboardShortcuts.closeTheMenu"]: "Close the menu",
   // Notifications inbox
   ["keyboardShortcuts.selectNextNotification"]: "Select next notification",
-  ["keyboardShortcuts.selectPreviousNotification"]: "Select previous notification",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Select previous notification",
   ["keyboardShortcuts.resolveNotification"]: "Resolve a notification",
-  // Text editor            
-  ["keyboardShortcuts.textEditorNote"]: "When in card descriptions, comments, or pages you can:",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "When in card descriptions, comments, or pages you can:",
   ["keyboardShortcuts.mentionAnybodyOrAnything"]: "Mention anybody or anything",
   ["keyboardShortcuts.openSlashMenu"]: "Open slash menu for formatting options",
   ["keyboardShortcuts.addEmoji"]: "Add an emoji (shortcodes)",
   ["keyboardShortcuts.boldSelectedText"]: "Bold selected text",
   ["keyboardShortcuts.italiciseSelectedText"]: "Italicise selected text",
-  ["keyboardShortcuts.strikethroughSelectedText"]: "Strikethrough selected text",
-  ["keyboardShortcuts.proTipUrlPaste"]: "If you have a URL on your clipboard, you can paste it over a highlighted piece of text to convert the text into a link.",
+  ["keyboardShortcuts.strikethroughSelectedText"]:
+    "Strikethrough selected text",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "If you have a URL on your clipboard, you can paste it over a highlighted piece of text to convert the text into a link.",
   // Markdown formatting
   ["keyboardShortcuts.markdownItalic"]: "Italic",
   ["keyboardShortcuts.markdownBold"]: "Bold",
@@ -2802,7 +2809,7 @@ const en = {
   ["keyboardShortcuts.markdownStrikethrough"]: "Strikethrough",
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Horizontal divider",
   ["keyboardShortcuts.markdownInlineCode"]: "Inline code",
-  ["keyboardShortcuts.markdownCodeBlock"]: "Code block"
+  ["keyboardShortcuts.markdownCodeBlock"]: "Code block",
 };
 
 export default en as Translations;

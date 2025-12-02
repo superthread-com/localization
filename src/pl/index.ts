@@ -2785,6 +2785,100 @@ const pl = {
   imFeelingLucky: "Szczęście mi sprzyja",
   viewWord: "Widok",
   saveAsTemplate: "Zapisz jako szablon",
+  // Keyboard shortcuts cheatsheet
+  ["keyboardShortcuts.title"]: "Skróty klawiaturowe",
+  ["keyboardShortcuts.or"]: "lub",
+  ["keyboardShortcuts.then"]: "następnie",
+  ["keyboardShortcuts.proTip"]: "Porada:",
+  // Sections
+  ["keyboardShortcuts.sectionGeneral"]: "Ogólne",
+  ["keyboardShortcuts.sectionBoardsLists"]: "Tablice / listy",
+  ["keyboardShortcuts.sectionCards"]: "Karty",
+  ["keyboardShortcuts.sectionDropdownsMenus"]: "Rozwijane menu i menu",
+  ["keyboardShortcuts.sectionNotificationsInbox"]: "Skrzynka powiadomień",
+  ["keyboardShortcuts.sectionTextEditor"]: "Edytor tekstu",
+  ["keyboardShortcuts.sectionMarkdownFormatting"]: "Formatowanie Markdown",
+  // General
+  ["keyboardShortcuts.searchForAnything"]: "Wyszukaj cokolwiek",
+  ["keyboardShortcuts.saveOrSubmit"]: "Zapisz lub prześlij",
+  ["keyboardShortcuts.closeOrGoBack"]: "Zamknij lub wróć",
+  ["keyboardShortcuts.createNewCard"]: "Utwórz nową kartę",
+  ["keyboardShortcuts.createNewPage"]: "Utwórz nową stronę",
+  ["keyboardShortcuts.createNewNote"]: "Utwórz nową notatkę",
+  ["keyboardShortcuts.showHideSidebar"]: "Pokaż / ukryj pasek boczny",
+  ["keyboardShortcuts.viewAllKeyboardShortcuts"]:
+    "Zobacz wszystkie skróty klawiaturowe",
+  // Boards / lists
+  ["keyboardShortcuts.selectCardAbove"]: "Wybierz kartę powyżej",
+  ["keyboardShortcuts.selectCardBelow"]: "Wybierz kartę poniżej",
+  ["keyboardShortcuts.selectLeftCard"]: "Wybierz kartę po lewej",
+  ["keyboardShortcuts.selectRightCard"]: "Wybierz kartę po prawej",
+  ["keyboardShortcuts.openSelectedCard"]: "Otwórz wybraną kartę",
+  ["keyboardShortcuts.closeTheCard"]: "Zamknij kartę",
+  ["keyboardShortcuts.moveCardUp"]: "Przesuń kartę w górę",
+  ["keyboardShortcuts.moveCardDown"]: "Przesuń kartę w dół",
+  ["keyboardShortcuts.moveCardLeft"]: "Przesuń kartę w lewo",
+  ["keyboardShortcuts.moveCardRight"]: "Przesuń kartę w prawo",
+  ["keyboardShortcuts.addCardToMultiSelect"]:
+    "Dodaj kartę do zaznaczenia wielokrotnego",
+  ["keyboardShortcuts.selectRangeOfCards"]: "Wybierz zakres kart",
+  ["keyboardShortcuts.selectAllCards"]: "Zaznacz wszystkie karty",
+  ["keyboardShortcuts.clearMultiSelect"]: "Wyczyść zaznaczenie wielokrotne",
+  ["keyboardShortcuts.addCardInlineAndOpen"]: "Dodaj kartę w linii i otwórz ją",
+  ["keyboardShortcuts.addBoardFilter"]: "Dodaj filtr tablicy",
+  // Cards
+  ["keyboardShortcuts.renameTitle"]: "Zmień tytuł",
+  ["keyboardShortcuts.assignUnassignYourself"]: "Przydziel/odepnij siebie",
+  ["keyboardShortcuts.statusList"]: "Status / lista",
+  ["keyboardShortcuts.assignees"]: "Przypisani",
+  ["keyboardShortcuts.tags"]: "Tagi",
+  ["keyboardShortcuts.setDueDate"]: "Ustaw termin wykonania",
+  ["keyboardShortcuts.submitComment"]: "Dodaj komentarz",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Skopiuj nazwę gałęzi git wybranej karty",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Skopiuj zawartość karty jako markdown",
+  // Dropdowns and menus
+  ["keyboardShortcuts.moveFocusDown"]: "Przenieś fokus w dół",
+  ["keyboardShortcuts.moveFocusUp"]: "Przenieś fokus w górę",
+  ["keyboardShortcuts.selectAndClose"]: "Wybierz i zamknij",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Dodaj zaznaczony element do wyboru",
+  ["keyboardShortcuts.closeTheMenu"]: "Zamknij menu",
+  // Notifications inbox
+  ["keyboardShortcuts.selectNextNotification"]:
+    "Wybierz następne powiadomienie",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Wybierz poprzednie powiadomienie",
+  ["keyboardShortcuts.resolveNotification"]:
+    "Oznacz powiadomienie jako rozwiązane",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "Będąc w opisach kart, komentarzach lub na stronach możesz:",
+  ["keyboardShortcuts.mentionAnybodyOrAnything"]:
+    "Wspomnieć kogokolwiek lub cokolwiek",
+  ["keyboardShortcuts.openSlashMenu"]:
+    "Otworzyć menu slasha z opcjami formatowania",
+  ["keyboardShortcuts.addEmoji"]: "Dodać emoji (skróty)",
+  ["keyboardShortcuts.boldSelectedText"]: "Pogrubić zaznaczony tekst",
+  ["keyboardShortcuts.italiciseSelectedText"]: "Pochylić zaznaczony tekst",
+  ["keyboardShortcuts.strikethroughSelectedText"]:
+    "Przekreślić zaznaczony tekst",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "Jeśli masz URL w schowku, możesz wkleić go na wyróżniony tekst, aby zamienić go w link.",
+  // Markdown formatting
+  ["keyboardShortcuts.markdownItalic"]: "Kursywa",
+  ["keyboardShortcuts.markdownBold"]: "Pogrubienie",
+  ["keyboardShortcuts.markdownHeading1"]: "Nagłówek 1",
+  ["keyboardShortcuts.markdownHeading2"]: "Nagłówek 2",
+  ["keyboardShortcuts.markdownHeading3"]: "Nagłówek 3",
+  ["keyboardShortcuts.markdownBulletList"]: "Lista punktowana",
+  ["keyboardShortcuts.markdownNumberedList"]: "Lista numerowana",
+  ["keyboardShortcuts.markdownChecklist"]: "Lista zadań",
+  ["keyboardShortcuts.markdownStrikethrough"]: "Przekreślenie",
+  ["keyboardShortcuts.markdownHorizontalDivider"]: "Pozioma linia podziału",
+  ["keyboardShortcuts.markdownInlineCode"]: "Kod w linii",
+  ["keyboardShortcuts.markdownCodeBlock"]: "Blok kodu",
 };
 
 export default pl as Translations;
