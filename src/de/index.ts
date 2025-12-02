@@ -2850,6 +2850,7 @@ const de = {
   sectionPinnedToSidebar: "Abschnitt an Sidebar angeheftet",
   worksapceSettings: "Arbeitsbereich-Einstellungen",
   hideFromSidebar: "Aus Sidebar ausblenden",
+<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Erstellen Sie eine Kopie dieses Boards. Aktivitäten & Kommentare werden nicht kopiert.",
   chooseWhereToDuplicateBoard:
@@ -2859,6 +2860,9 @@ const de = {
   toggleCoverImageFit: "Zoom ändern",
   imFeelingLucky: "Auf gut Glück",
   viewWord: "Ansicht",
+=======
+  saveAsTemplate: "Als Vorlage speichern",
+>>>>>>> Stashed changes
 };
 
 export default de as Translations;

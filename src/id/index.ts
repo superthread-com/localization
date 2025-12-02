@@ -2795,6 +2795,7 @@ const id = {
   sectionPinnedToSidebar: "Bagian disematkan ke bilah samping",
   worksapceSettings: "Pengaturan ruang kerja",
   hideFromSidebar: "Sembunyikan dari bilah samping",
+<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Buat salinan papan ini. Aktivitas & komentar tidak akan disalin.",
   chooseWhereToDuplicateBoard: "Pilih tempat untuk menduplikasi papan",
@@ -2803,6 +2804,9 @@ const id = {
   toggleCoverImageFit: "Ubah zoom",
   imFeelingLucky: "Saya merasa beruntung",
   viewWord: "Tampilan",
+=======
+  saveAsTemplate: "Simpan sebagai templat",
+>>>>>>> Stashed changes
 };
 
 export default id as Translations;

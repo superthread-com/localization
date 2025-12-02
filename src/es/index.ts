@@ -2831,6 +2831,7 @@ const es = {
   sectionPinnedToSidebar: "Sección fijada a la barra lateral",
   worksapceSettings: "Configuración del espacio de trabajo",
   hideFromSidebar: "Ocultar de la barra lateral",
+<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Crear una copia de este tablero. La actividad y los comentarios no se copiarán.",
   chooseWhereToDuplicateBoard: "Elegir dónde duplicar el tablero",
@@ -2839,6 +2840,9 @@ const es = {
   toggleCoverImageFit: "Cambiar zoom",
   imFeelingLucky: "Voy a tener suerte",
   viewWord: "Vista",
+=======
+  saveAsTemplate: "Guardar como plantilla",
+>>>>>>> Stashed changes
 };
 
 export default es as Translations;

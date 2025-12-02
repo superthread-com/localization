@@ -2820,6 +2820,7 @@ const ptBR = {
   sectionPinnedToSidebar: "Seção fixada na barra lateral",
   worksapceSettings: "Configurações do espaço de trabalho",
   hideFromSidebar: "Ocultar da barra lateral",
+<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Criar uma cópia deste quadro. Atividade e comentários não serão copiados.",
   chooseWhereToDuplicateBoard: "Escolha onde duplicar o quadro",
@@ -2828,6 +2829,9 @@ const ptBR = {
   toggleCoverImageFit: "Alterar zoom",
   imFeelingLucky: "Estou com sorte",
   viewWord: "Visualização",
+=======
+  saveAsTemplate: "Salvar como modelo",
+>>>>>>> Stashed changes
 };
 
 export default ptBR as Translations;

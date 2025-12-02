@@ -2408,6 +2408,7 @@ export enum TranslationKeys {
   SectionPinnedToSidebar = "sectionPinnedToSidebar",
   WorksapceSettings = "worksapceSettings",
   HideFromSidebar = "hideFromSidebar",
+<<<<<<< Updated upstream
   CreateACopyOfThisBoard = "createACopyOfThisBoard",
   ChooseWhereToDuplicateBoard = "chooseWhereToDuplicateBoard",
   CopyAllCardsIntoNewBoard = "copyAllCardsIntoNewBoard",
@@ -2415,6 +2416,9 @@ export enum TranslationKeys {
   ToggleCoverImageFit = "toggleCoverImageFit",
   ImFeelingLucky = "imFeelingLucky",
   ViewWord = "viewWord",
+=======
+  SaveAsTemplate = "saveAsTemplate",
+>>>>>>> Stashed changes
 }
 
 export type Translations = Record<TranslationKeys, string>;

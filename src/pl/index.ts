@@ -2776,6 +2776,7 @@ const pl = {
   sectionPinnedToSidebar: "Sekcja przypięta do paska bocznego",
   worksapceSettings: "Ustawienia przestrzeni roboczej",
   hideFromSidebar: "Ukryj z paska bocznego",
+<<<<<<< Updated upstream
   createACopyOfThisBoard:
     "Utwórz kopię tej tablicy. Aktywność i komentarze nie zostaną skopiowane.",
   chooseWhereToDuplicateBoard: "Wybierz, gdzie zduplikować tablicę",
@@ -2784,6 +2785,9 @@ const pl = {
   toggleCoverImageFit: "Zmień zoom",
   imFeelingLucky: "Szczęście mi sprzyja",
   viewWord: "Widok",
+=======
+  saveAsTemplate: "Zapisz jako szablon",
+>>>>>>> Stashed changes
 };
 
 export default pl as Translations;
