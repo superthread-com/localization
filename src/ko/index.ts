@@ -2701,6 +2701,8 @@ const ko = {
   ["keyboardShortcuts.or"]: "또는",
   ["keyboardShortcuts.then"]: "이후",
   ["keyboardShortcuts.proTip"]: "프로 팁:",
+  ["keyboardShortcuts.searchPlaceholder"]: "단축키 검색...",
+  ["keyboardShortcuts.noResults"]: "단축키 없음",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "일반",
   ["keyboardShortcuts.sectionBoardsLists"]: "보드 / 목록",

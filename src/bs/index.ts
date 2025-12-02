@@ -2775,6 +2775,8 @@ const bs: Translations = {
   ["keyboardShortcuts.or"]: "ili",
   ["keyboardShortcuts.then"]: "onda",
   ["keyboardShortcuts.proTip"]: "Profi savjet:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Pretraži prečice...",
+  ["keyboardShortcuts.noResults"]: "Nema prečica",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "General",
   ["keyboardShortcuts.sectionBoardsLists"]: "Ploče / liste",

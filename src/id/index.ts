@@ -2809,6 +2809,8 @@ const id = {
   ["keyboardShortcuts.or"]: "atau",
   ["keyboardShortcuts.then"]: "lalu",
   ["keyboardShortcuts.proTip"]: "Tips pro:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Cari pintasan...",
+  ["keyboardShortcuts.noResults"]: "Tidak ada pintasan",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "Umum",
   ["keyboardShortcuts.sectionBoardsLists"]: "Papan / daftar",

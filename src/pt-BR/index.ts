@@ -2834,6 +2834,8 @@ const ptBR = {
   ["keyboardShortcuts.or"]: "ou",
   ["keyboardShortcuts.then"]: "então",
   ["keyboardShortcuts.proTip"]: "Dica profissional:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Pesquisar atalhos...",
+  ["keyboardShortcuts.noResults"]: "Nenhum atalho encontrado",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "Geral",
   ["keyboardShortcuts.sectionBoardsLists"]: "Quadros / listas",

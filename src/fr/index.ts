@@ -2860,6 +2860,8 @@ const fr: Translations = {
   ["keyboardShortcuts.or"]: "ou",
   ["keyboardShortcuts.then"]: "puis",
   ["keyboardShortcuts.proTip"]: "Astuce :",
+  ["keyboardShortcuts.searchPlaceholder"]: "Rechercher des raccourcis...",
+  ["keyboardShortcuts.noResults"]: "Aucun raccourci trouvé",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "Général",
   ["keyboardShortcuts.sectionBoardsLists"]: "Tableaux / listes",

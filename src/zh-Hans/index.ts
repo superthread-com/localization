@@ -2569,6 +2569,8 @@ const zhHans = {
   ["keyboardShortcuts.or"]: "或",
   ["keyboardShortcuts.then"]: "然后",
   ["keyboardShortcuts.proTip"]: "小贴士：",
+  ["keyboardShortcuts.searchPlaceholder"]: "搜索快捷键...",
+  ["keyboardShortcuts.noResults"]: "没有找到快捷键",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "通用",
   ["keyboardShortcuts.sectionBoardsLists"]: "看板 / 列表",

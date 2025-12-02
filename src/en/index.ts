@@ -2727,6 +2727,8 @@ const en = {
   ["keyboardShortcuts.or"]: "or",
   ["keyboardShortcuts.then"]: "then",
   ["keyboardShortcuts.proTip"]: "Pro tip:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Search shortcuts...",
+  ["keyboardShortcuts.noResults"]: "No shortcuts found",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "General",
   ["keyboardShortcuts.sectionBoardsLists"]: "Boards / lists",

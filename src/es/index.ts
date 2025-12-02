@@ -2845,6 +2845,8 @@ const es = {
   ["keyboardShortcuts.or"]: "o",
   ["keyboardShortcuts.then"]: "luego",
   ["keyboardShortcuts.proTip"]: "Consejo:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Buscar atajos...",
+  ["keyboardShortcuts.noResults"]: "No se encontraron atajos",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "Generales",
   ["keyboardShortcuts.sectionBoardsLists"]: "Tableros / listas",

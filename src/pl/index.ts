@@ -2790,6 +2790,8 @@ const pl = {
   ["keyboardShortcuts.or"]: "lub",
   ["keyboardShortcuts.then"]: "następnie",
   ["keyboardShortcuts.proTip"]: "Porada:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Wyszukaj skróty...",
+  ["keyboardShortcuts.noResults"]: "Nie znaleziono skrótów",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "Ogólne",
   ["keyboardShortcuts.sectionBoardsLists"]: "Tablice / listy",

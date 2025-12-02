@@ -2574,6 +2574,8 @@ const zhHant = {
   ["keyboardShortcuts.or"]: "或",
   ["keyboardShortcuts.then"]: "然後",
   ["keyboardShortcuts.proTip"]: "專業提示：",
+  ["keyboardShortcuts.searchPlaceholder"]: "搜尋快速鍵...",
+  ["keyboardShortcuts.noResults"]: "找不到快速鍵",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "一般",
   ["keyboardShortcuts.sectionBoardsLists"]: "看板 / 列表",

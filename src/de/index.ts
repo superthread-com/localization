@@ -2865,6 +2865,8 @@ const de = {
   ["keyboardShortcuts.or"]: "oder",
   ["keyboardShortcuts.then"]: "dann",
   ["keyboardShortcuts.proTip"]: "Profi-Tipp",
+  ["keyboardShortcuts.searchPlaceholder"]: "Tastenkombinationen durchsuchen...",
+  ["keyboardShortcuts.noResults"]: "Keine Tastenkombinationen gefunden",
   // Sections
   ["keyboardShortcuts.sectionGeneral"]: "Allgemein",
   ["keyboardShortcuts.sectionBoardsLists"]: "Boards / Listen",
