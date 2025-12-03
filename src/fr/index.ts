@@ -2857,6 +2857,7 @@ const fr: Translations = {
   saveAsTemplate: "Enregistrer comme modèle",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Raccourcis clavier",
+  ["keyboardShortcuts.description"]: "Travaillez plus rapidement avec des combinaisons de touches rapides",
   ["keyboardShortcuts.or"]: "ou",
   ["keyboardShortcuts.then"]: "puis",
   ["keyboardShortcuts.proTip"]: "Astuce :",

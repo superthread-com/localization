@@ -2842,6 +2842,7 @@ const es = {
   saveAsTemplate: "Guardar como plantilla",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Atajos de teclado",
+  ["keyboardShortcuts.description"]: "Trabaja más rápido con combinaciones de teclas rápidas",
   ["keyboardShortcuts.or"]: "o",
   ["keyboardShortcuts.then"]: "luego",
   ["keyboardShortcuts.proTip"]: "Consejo:",
