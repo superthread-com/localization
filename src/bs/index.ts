@@ -2772,6 +2772,7 @@ const bs: Translations = {
   saveAsTemplate: "Spremi kao predložak",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Prečice tipki",
+  ["keyboardShortcuts.description"]: "Radite brže sa kombinacijama tipki",
   ["keyboardShortcuts.or"]: "ili",
   ["keyboardShortcuts.then"]: "onda",
   ["keyboardShortcuts.proTip"]: "Profi savjet:",
