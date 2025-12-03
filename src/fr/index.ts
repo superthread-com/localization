@@ -2855,6 +2855,104 @@ const fr: Translations = {
   imFeelingLucky: "J'ai de la chance",
   viewWord: "Vue",
   saveAsTemplate: "Enregistrer comme modèle",
+  // Keyboard shortcuts cheatsheet
+  ["keyboardShortcuts.title"]: "Raccourcis clavier",
+  ["keyboardShortcuts.or"]: "ou",
+  ["keyboardShortcuts.then"]: "puis",
+  ["keyboardShortcuts.proTip"]: "Astuce :",
+  ["keyboardShortcuts.searchPlaceholder"]: "Rechercher des raccourcis...",
+  ["keyboardShortcuts.noResults"]: "Aucun raccourci trouvé",
+  // Sections
+  ["keyboardShortcuts.sectionGeneral"]: "Général",
+  ["keyboardShortcuts.sectionBoardsLists"]: "Tableaux / listes",
+  ["keyboardShortcuts.sectionCards"]: "Cartes",
+  ["keyboardShortcuts.sectionDropdownsMenus"]: "Menus déroulants et menus",
+  ["keyboardShortcuts.sectionNotificationsInbox"]: "Boîte de notifications",
+  ["keyboardShortcuts.sectionTextEditor"]: "Éditeur de texte",
+  ["keyboardShortcuts.sectionMarkdownFormatting"]: "Formatage Markdown",
+  // General
+  ["keyboardShortcuts.searchForAnything"]: "Rechercher n'importe quoi",
+  ["keyboardShortcuts.saveOrSubmit"]: "Enregistrer ou soumettre",
+  ["keyboardShortcuts.closeOrGoBack"]: "Fermer ou revenir en arrière",
+  ["keyboardShortcuts.createNewCard"]: "Créer une nouvelle carte",
+  ["keyboardShortcuts.createNewPage"]: "Créer une nouvelle page",
+  ["keyboardShortcuts.createNewNote"]: "Créer une nouvelle note",
+  ["keyboardShortcuts.showHideSidebar"]: "Afficher / masquer la barre latérale",
+  ["keyboardShortcuts.viewAllKeyboardShortcuts"]:
+    "Voir tous les raccourcis clavier",
+  // Boards / lists
+  ["keyboardShortcuts.selectCardAbove"]: "Sélectionner la carte au-dessus",
+  ["keyboardShortcuts.selectCardBelow"]: "Sélectionner la carte en dessous",
+  ["keyboardShortcuts.selectLeftCard"]: "Sélectionner la carte à gauche",
+  ["keyboardShortcuts.selectRightCard"]: "Sélectionner la carte à droite",
+  ["keyboardShortcuts.openSelectedCard"]: "Ouvrir la carte sélectionnée",
+  ["keyboardShortcuts.closeTheCard"]: "Fermer la carte",
+  ["keyboardShortcuts.moveCardUp"]: "Déplacer la carte vers le haut",
+  ["keyboardShortcuts.moveCardDown"]: "Déplacer la carte vers le bas",
+  ["keyboardShortcuts.moveCardLeft"]: "Déplacer la carte vers la gauche",
+  ["keyboardShortcuts.moveCardRight"]: "Déplacer la carte vers la droite",
+  ["keyboardShortcuts.addCardToMultiSelect"]:
+    "Ajouter la carte à la sélection multiple",
+  ["keyboardShortcuts.selectRangeOfCards"]: "Sélectionner une plage de cartes",
+  ["keyboardShortcuts.selectAllCards"]: "Tout sélectionner",
+  ["keyboardShortcuts.clearMultiSelect"]: "Effacer la sélection multiple",
+  ["keyboardShortcuts.addCardInlineAndOpen"]:
+    "Ajouter une carte en ligne et l'ouvrir",
+  ["keyboardShortcuts.addBoardFilter"]: "Ajouter un filtre de tableau",
+  // Cards
+  ["keyboardShortcuts.renameTitle"]: "Renommer le titre",
+  ["keyboardShortcuts.assignUnassignYourself"]:
+    "S'assigner / se retirer de l'assignation",
+  ["keyboardShortcuts.statusList"]: "Statut / liste",
+  ["keyboardShortcuts.assignees"]: "Assignés",
+  ["keyboardShortcuts.tags"]: "Étiquettes",
+  ["keyboardShortcuts.setDueDate"]: "Définir une date d'échéance",
+  ["keyboardShortcuts.submitComment"]: "Soumettre un commentaire",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Copier le nom de la branche git de la carte sélectionnée",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Copier le contenu de la carte au format markdown",
+  // Dropdowns and menus
+  ["keyboardShortcuts.moveFocusDown"]: "Déplacer le focus vers le bas",
+  ["keyboardShortcuts.moveFocusUp"]: "Déplacer le focus vers le haut",
+  ["keyboardShortcuts.selectAndClose"]: "Sélectionner et fermer",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Ajouter l'élément focalisé à la sélection",
+  ["keyboardShortcuts.closeTheMenu"]: "Fermer le menu",
+  // Notifications inbox
+  ["keyboardShortcuts.selectNextNotification"]:
+    "Sélectionner la notification suivante",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Sélectionner la notification précédente",
+  ["keyboardShortcuts.resolveNotification"]: "Résoudre une notification",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "Dans les descriptions de cartes, les commentaires ou les pages, vous pouvez :",
+  ["keyboardShortcuts.mentionAnybodyOrAnything"]:
+    "Mentionner n'importe qui ou n'importe quoi",
+  ["keyboardShortcuts.openSlashMenu"]:
+    "Ouvrir le menu slash pour les options de formatage",
+  ["keyboardShortcuts.addEmoji"]: "Ajouter un emoji (codes courts)",
+  ["keyboardShortcuts.boldSelectedText"]: "Mettre en gras le texte sélectionné",
+  ["keyboardShortcuts.italiciseSelectedText"]:
+    "Mettre en italique le texte sélectionné",
+  ["keyboardShortcuts.strikethroughSelectedText"]:
+    "Barrer le texte sélectionné",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "Si vous avez une URL dans votre presse-papiers, vous pouvez la coller sur un texte sélectionné pour transformer ce texte en lien.",
+  // Markdown formatting
+  ["keyboardShortcuts.markdownItalic"]: "Italique",
+  ["keyboardShortcuts.markdownBold"]: "Gras",
+  ["keyboardShortcuts.markdownHeading1"]: "Titre 1",
+  ["keyboardShortcuts.markdownHeading2"]: "Titre 2",
+  ["keyboardShortcuts.markdownHeading3"]: "Titre 3",
+  ["keyboardShortcuts.markdownBulletList"]: "Liste à puces",
+  ["keyboardShortcuts.markdownNumberedList"]: "Liste numérotée",
+  ["keyboardShortcuts.markdownChecklist"]: "Liste de tâches",
+  ["keyboardShortcuts.markdownStrikethrough"]: "Texte barré",
+  ["keyboardShortcuts.markdownHorizontalDivider"]: "Séparateur horizontal",
+  ["keyboardShortcuts.markdownInlineCode"]: "Code en ligne",
+  ["keyboardShortcuts.markdownCodeBlock"]: "Bloc de code",
 };
 
 export default fr as Translations;

@@ -2722,6 +2722,96 @@ const en = {
   imFeelingLucky: "I'm feeling lucky",
   viewWord: "View",
   saveAsTemplate: "Save as template",
+  // Keyboard shortcuts cheatsheet
+  ["keyboardShortcuts.title"]: "Keyboard shortcuts",
+  ["keyboardShortcuts.or"]: "or",
+  ["keyboardShortcuts.then"]: "then",
+  ["keyboardShortcuts.proTip"]: "Pro tip:",
+  ["keyboardShortcuts.searchPlaceholder"]: "Search shortcuts...",
+  ["keyboardShortcuts.noResults"]: "No shortcuts found",
+  // Sections
+  ["keyboardShortcuts.sectionGeneral"]: "General",
+  ["keyboardShortcuts.sectionBoardsLists"]: "Boards / lists",
+  ["keyboardShortcuts.sectionCards"]: "Cards",
+  ["keyboardShortcuts.sectionDropdownsMenus"]: "Dropdowns and menus",
+  ["keyboardShortcuts.sectionNotificationsInbox"]: "Notifications inbox",
+  ["keyboardShortcuts.sectionTextEditor"]: "Text editor",
+  ["keyboardShortcuts.sectionMarkdownFormatting"]: "Markdown formatting",
+  // General
+  ["keyboardShortcuts.searchForAnything"]: "Search for anything",
+  ["keyboardShortcuts.saveOrSubmit"]: "Save or submit",
+  ["keyboardShortcuts.closeOrGoBack"]: "Close or go back",
+  ["keyboardShortcuts.createNewCard"]: "Create a new card",
+  ["keyboardShortcuts.createNewPage"]: "Create a new page",
+  ["keyboardShortcuts.createNewNote"]: "Create a new note",
+  ["keyboardShortcuts.showHideSidebar"]: "Show / hide sidebar",
+  ["keyboardShortcuts.viewAllKeyboardShortcuts"]: "View all keyboard shortcuts",
+  // Boards / lists
+  ["keyboardShortcuts.selectCardAbove"]: "Select card above",
+  ["keyboardShortcuts.selectCardBelow"]: "Select card below",
+  ["keyboardShortcuts.selectLeftCard"]: "Select left card",
+  ["keyboardShortcuts.selectRightCard"]: "Select right card",
+  ["keyboardShortcuts.openSelectedCard"]: "Open the selected card",
+  ["keyboardShortcuts.closeTheCard"]: "Close the card",
+  ["keyboardShortcuts.moveCardUp"]: "Move card up",
+  ["keyboardShortcuts.moveCardDown"]: "Move card down",
+  ["keyboardShortcuts.moveCardLeft"]: "Move card left",
+  ["keyboardShortcuts.moveCardRight"]: "Move card right",
+  ["keyboardShortcuts.addCardToMultiSelect"]: "Add card to multi-select",
+  ["keyboardShortcuts.selectRangeOfCards"]: "Select range of cards",
+  ["keyboardShortcuts.selectAllCards"]: "Select all cards",
+  ["keyboardShortcuts.clearMultiSelect"]: "Clear multi-select",
+  ["keyboardShortcuts.addCardInlineAndOpen"]: "Add card inline and open it",
+  ["keyboardShortcuts.addBoardFilter"]: "Add board filter",
+  // Cards
+  ["keyboardShortcuts.renameTitle"]: "Rename title",
+  ["keyboardShortcuts.assignUnassignYourself"]: "Assign / un-assign yourself",
+  ["keyboardShortcuts.statusList"]: "Status / list",
+  ["keyboardShortcuts.assignees"]: "Assignees",
+  ["keyboardShortcuts.tags"]: "Tags",
+  ["keyboardShortcuts.setDueDate"]: "Set a due date",
+  ["keyboardShortcuts.submitComment"]: "Submit comment",
+  ["keyboardShortcuts.copyGitBranchName"]:
+    "Copy the git branch name of the selected card",
+  ["keyboardShortcuts.copyCardAsMarkdown"]:
+    "Copy the card contents as markdown",
+  // Dropdowns and menus
+  ["keyboardShortcuts.moveFocusDown"]: "Move focus down",
+  ["keyboardShortcuts.moveFocusUp"]: "Move focus up",
+  ["keyboardShortcuts.selectAndClose"]: "Select and close",
+  ["keyboardShortcuts.addFocusedItemToSelection"]:
+    "Add focussed item to selection",
+  ["keyboardShortcuts.closeTheMenu"]: "Close the menu",
+  // Notifications inbox
+  ["keyboardShortcuts.selectNextNotification"]: "Select next notification",
+  ["keyboardShortcuts.selectPreviousNotification"]:
+    "Select previous notification",
+  ["keyboardShortcuts.resolveNotification"]: "Resolve a notification",
+  // Text editor
+  ["keyboardShortcuts.textEditorNote"]:
+    "When in card descriptions, comments, or pages you can:",
+  ["keyboardShortcuts.mentionAnybodyOrAnything"]: "Mention anybody or anything",
+  ["keyboardShortcuts.openSlashMenu"]: "Open slash menu for formatting options",
+  ["keyboardShortcuts.addEmoji"]: "Add an emoji (shortcodes)",
+  ["keyboardShortcuts.boldSelectedText"]: "Bold selected text",
+  ["keyboardShortcuts.italiciseSelectedText"]: "Italicise selected text",
+  ["keyboardShortcuts.strikethroughSelectedText"]:
+    "Strikethrough selected text",
+  ["keyboardShortcuts.proTipUrlPaste"]:
+    "If you have a URL on your clipboard, you can paste it over a highlighted piece of text to convert the text into a link.",
+  // Markdown formatting
+  ["keyboardShortcuts.markdownItalic"]: "Italic",
+  ["keyboardShortcuts.markdownBold"]: "Bold",
+  ["keyboardShortcuts.markdownHeading1"]: "Heading 1",
+  ["keyboardShortcuts.markdownHeading2"]: "Heading 2",
+  ["keyboardShortcuts.markdownHeading3"]: "Heading 3",
+  ["keyboardShortcuts.markdownBulletList"]: "Bullet list",
+  ["keyboardShortcuts.markdownNumberedList"]: "Numbered list",
+  ["keyboardShortcuts.markdownChecklist"]: "Checklist",
+  ["keyboardShortcuts.markdownStrikethrough"]: "Strikethrough",
+  ["keyboardShortcuts.markdownHorizontalDivider"]: "Horizontal divider",
+  ["keyboardShortcuts.markdownInlineCode"]: "Inline code",
+  ["keyboardShortcuts.markdownCodeBlock"]: "Code block",
 };
 
 export default en as Translations;
