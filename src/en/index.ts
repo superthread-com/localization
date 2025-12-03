@@ -2724,6 +2724,7 @@ const en = {
   saveAsTemplate: "Save as template",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Keyboard shortcuts",
+  ["keyboardShortcuts.description"]: "Work faster with quick key combos",
   ["keyboardShortcuts.or"]: "or",
   ["keyboardShortcuts.then"]: "then",
   ["keyboardShortcuts.proTip"]: "Pro tip:",

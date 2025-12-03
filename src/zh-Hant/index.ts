@@ -2571,6 +2571,7 @@ const zhHant = {
   saveAsTemplate: "另存為範本",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "鍵盤快速鍵",
+  ["keyboardShortcuts.description"]: "更快地使用快速鍵組合工作",
   ["keyboardShortcuts.or"]: "或",
   ["keyboardShortcuts.then"]: "然後",
   ["keyboardShortcuts.proTip"]: "專業提示：",

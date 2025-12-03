@@ -2698,6 +2698,7 @@ const ko = {
   saveAsTemplate: "템플릿으로 저장",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "단축키",
+  ["keyboardShortcuts.description"]: "빠른 키 조합으로 더 빠르게 작업하세요",
   ["keyboardShortcuts.or"]: "또는",
   ["keyboardShortcuts.then"]: "이후",
   ["keyboardShortcuts.proTip"]: "프로 팁:",

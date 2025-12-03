@@ -2566,6 +2566,7 @@ const zhHans = {
   saveAsTemplate: "另存为模板",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "键盘快捷键",
+  ["keyboardShortcuts.description"]: "使用快速按键组合更快地工作",
   ["keyboardShortcuts.or"]: "或",
   ["keyboardShortcuts.then"]: "然后",
   ["keyboardShortcuts.proTip"]: "小贴士：",
