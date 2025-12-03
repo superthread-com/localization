@@ -2806,7 +2806,8 @@ const id = {
   saveAsTemplate: "Simpan sebagai templat",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Pintasan keyboard",
-  ["keyboardShortcuts.description"]: "Kerja lebih cepat dengan kombinasi tombol cepat",
+  ["keyboardShortcuts.description"]:
+    "Kerja lebih cepat dengan kombinasi tombol cepat",
   ["keyboardShortcuts.or"]: "atau",
   ["keyboardShortcuts.then"]: "lalu",
   ["keyboardShortcuts.proTip"]: "Tips pro:",

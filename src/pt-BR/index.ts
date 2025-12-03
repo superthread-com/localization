@@ -2831,7 +2831,8 @@ const ptBR = {
   saveAsTemplate: "Salvar como modelo",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Atalhos de teclado",
-  ["keyboardShortcuts.description"]: "Trabalhe mais rápido com combinações de teclas rápidas",
+  ["keyboardShortcuts.description"]:
+    "Trabalhe mais rápido com combinações de teclas rápidas",
   ["keyboardShortcuts.or"]: "ou",
   ["keyboardShortcuts.then"]: "então",
   ["keyboardShortcuts.proTip"]: "Dica profissional:",

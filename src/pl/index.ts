@@ -2787,7 +2787,8 @@ const pl = {
   saveAsTemplate: "Zapisz jako szablon",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Skróty klawiaturowe",
-  ["keyboardShortcuts.description"]: "Pracuj szybciej dzięki szybkim kombinacjom klawiszy",
+  ["keyboardShortcuts.description"]:
+    "Pracuj szybciej dzięki szybkim kombinacjom klawiszy",
   ["keyboardShortcuts.or"]: "lub",
   ["keyboardShortcuts.then"]: "następnie",
   ["keyboardShortcuts.proTip"]: "Porada:",

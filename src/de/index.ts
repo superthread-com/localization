@@ -2862,7 +2862,8 @@ const de = {
   saveAsTemplate: "Als Vorlage speichern",
   // Keyboard shortcuts cheatsheet
   ["keyboardShortcuts.title"]: "Tastenkombinationen",
-  ["keyboardShortcuts.description"]: "Arbeiten Sie schneller mit schnellen Tastenkombinationen",
+  ["keyboardShortcuts.description"]:
+    "Arbeiten Sie schneller mit schnellen Tastenkombinationen",
   ["keyboardShortcuts.or"]: "oder",
   ["keyboardShortcuts.then"]: "dann",
   ["keyboardShortcuts.proTip"]: "Profi-Tipp",
