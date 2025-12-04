@@ -2883,6 +2883,8 @@ const pl = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Pozioma linia podziału",
   ["keyboardShortcuts.markdownInlineCode"]: "Kod w linii",
   ["keyboardShortcuts.markdownCodeBlock"]: "Blok kodu",
+  publicBoardIsViewOnly: "Ta publiczna tablica jest tylko do odczytu.",
+  duplicateToMyWorkspace: "Duplikuj do mojej przestrzeni roboczej",
 };
 
 export default pl as Translations;

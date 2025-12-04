@@ -2928,6 +2928,8 @@ const ptBR = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Divisor horizontal",
   ["keyboardShortcuts.markdownInlineCode"]: "Código em linha",
   ["keyboardShortcuts.markdownCodeBlock"]: "Bloco de código",
+  publicBoardIsViewOnly: "Este quadro público é somente leitura.",
+  duplicateToMyWorkspace: "Duplicar para meu espaço de trabalho",
 };
 
 export default ptBR as Translations;

@@ -2654,6 +2654,8 @@ const zhHant = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "水平分隔線",
   ["keyboardShortcuts.markdownInlineCode"]: "行內程式碼",
   ["keyboardShortcuts.markdownCodeBlock"]: "程式碼區塊",
+  publicBoardIsViewOnly: "此公開看板僅供檢視。",
+  duplicateToMyWorkspace: "複製到我的工作區",
 };
 
 export default zhHant as Translations;

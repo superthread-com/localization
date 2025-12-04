@@ -2649,6 +2649,8 @@ const zhHans = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "分隔线",
   ["keyboardShortcuts.markdownInlineCode"]: "行内代码",
   ["keyboardShortcuts.markdownCodeBlock"]: "代码块",
+  publicBoardIsViewOnly: "此公共看板仅供查看。",
+  duplicateToMyWorkspace: "复制到我的工作区",
 };
 
 export default zhHans as Translations;

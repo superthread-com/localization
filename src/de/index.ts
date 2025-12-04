@@ -2961,6 +2961,8 @@ const de = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Horizontale Linie",
   ["keyboardShortcuts.markdownInlineCode"]: "Inline-Code",
   ["keyboardShortcuts.markdownCodeBlock"]: "Codeblock",
+  publicBoardIsViewOnly: "Dieses öffentliche Board ist nur zur Ansicht.",
+  duplicateToMyWorkspace: "In meinen Arbeitsbereich duplizieren",
 };
 
 export default de as Translations;

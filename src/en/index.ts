@@ -2813,6 +2813,8 @@ const en = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Horizontal divider",
   ["keyboardShortcuts.markdownInlineCode"]: "Inline code",
   ["keyboardShortcuts.markdownCodeBlock"]: "Code block",
+  publicBoardIsViewOnly: "This public board is view only.",
+  duplicateToMyWorkspace: "Duplicate to my workspace",
 };
 
 export default en as Translations;
