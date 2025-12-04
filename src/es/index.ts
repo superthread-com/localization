@@ -2940,6 +2940,8 @@ const es = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Divisor horizontal",
   ["keyboardShortcuts.markdownInlineCode"]: "Código en línea",
   ["keyboardShortcuts.markdownCodeBlock"]: "Bloque de código",
+  publicBoardIsViewOnly: "Este tablero público es de solo lectura.",
+  duplicateToMyWorkspace: "Duplicar a mi espacio de trabajo",
 };
 
 export default es as Translations;

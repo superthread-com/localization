@@ -2955,6 +2955,8 @@ const fr: Translations = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Séparateur horizontal",
   ["keyboardShortcuts.markdownInlineCode"]: "Code en ligne",
   ["keyboardShortcuts.markdownCodeBlock"]: "Bloc de code",
+  publicBoardIsViewOnly: "Ce tableau public est en lecture seule.",
+  duplicateToMyWorkspace: "Dupliquer dans mon espace de travail",
 };
 
 export default fr as Translations;

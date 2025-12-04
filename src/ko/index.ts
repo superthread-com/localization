@@ -2784,6 +2784,8 @@ const ko = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "가로 구분선",
   ["keyboardShortcuts.markdownInlineCode"]: "인라인 코드",
   ["keyboardShortcuts.markdownCodeBlock"]: "코드 블록",
+  publicBoardIsViewOnly: "이 공개 보드는 보기 전용입니다.",
+  duplicateToMyWorkspace: "내 작업 공간에 복제",
 };
 
 export default ko as Translations;

@@ -2899,6 +2899,8 @@ const id = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Garis pemisah horizontal",
   ["keyboardShortcuts.markdownInlineCode"]: "Kode sebaris",
   ["keyboardShortcuts.markdownCodeBlock"]: "Blok kode",
+  publicBoardIsViewOnly: "Papan publik ini hanya untuk dilihat.",
+  duplicateToMyWorkspace: "Duplikat ke ruang kerja saya",
 };
 
 export default id as Translations;

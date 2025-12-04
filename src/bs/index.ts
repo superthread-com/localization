@@ -2863,6 +2863,8 @@ const bs: Translations = {
   ["keyboardShortcuts.markdownHorizontalDivider"]: "Horizontalna linija",
   ["keyboardShortcuts.markdownInlineCode"]: "Ugrađeni kod",
   ["keyboardShortcuts.markdownCodeBlock"]: "Blok koda",
+  publicBoardIsViewOnly: "Ova javna ploča je samo za pregled.",
+  duplicateToMyWorkspace: "Dupliciraj u moj radni prostor",
 };
 
 export default bs;
