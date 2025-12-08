@@ -1829,6 +1829,11 @@ const pl = {
   ["try_slash_command.title"]: "Wypróbuj polecenie ze slashem",
   ["try_slash_command.tooltip"]:
     "Wpisz /, aby zobaczyć listę dostępnych poleceń",
+  ["move_card.title"]: "Przenieś kartę",
+  ["move_card.tooltip"]: "Przenieś kartę do innej tablicy lub statusu",
+  ["add_card_cover_image.title"]: "Dodaj obraz okładki karty",
+  ["add_card_cover_image.tooltip"]:
+    "Dodaj obraz okładki do karty dla lepszego efektu wizualnego",
   aCardMustHaveATitle: "Karta musi mieć tytuł",
   showAll: "Pokaż wszystko",
   showLess: "Pokaż mniej",
@@ -2885,6 +2890,19 @@ const pl = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Blok kodu",
   publicBoardIsViewOnly: "Ta publiczna tablica jest tylko do odczytu.",
   duplicateToMyWorkspace: "Duplikuj do mojej przestrzeni roboczej",
+  levelUp: "Awansuj",
+  core_knowledge: "Podstawowa wiedza",
+  organise_work: "Organizuj pracę",
+  shape_your_workspace: "Kształtuj swoją przestrzeń roboczą",
+  capture_knowledge: "Przechwytuj wiedzę",
+  advanced_features: "Zaawansowane funkcje",
+  helper: "Pomocnik",
+  organiser: "Organizator",
+  shaper: "Kształtownik",
+  scribe: "Skryba",
+  master: "Mistrz",
+  youHaveUnlocked: "Odblokowałeś",
+  rank: "ranga",
 };
 
 export default pl as Translations;

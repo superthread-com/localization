@@ -1860,6 +1860,11 @@ const bs: Translations = {
     "Otkrij kako ti različiti rasporedi mogu pomoći da upravljaš radom",
   ["try_slash_command.title"]: "Isprobaj slash komandu",
   ["try_slash_command.tooltip"]: "Upiši / da vidiš listu dostupnih komandi",
+  ["move_card.title"]: "Premjesti karticu",
+  ["move_card.tooltip"]: "Premjesti karticu u drugu ploču ili status",
+  ["add_card_cover_image.title"]: "Dodaj naslovu sliku kartice",
+  ["add_card_cover_image.tooltip"]:
+    "Dodaj naslovu sliku kartici za bolji vizuelni izgled",
   aCardMustHaveATitle: "Kartica mora imati naslov",
   showAll: "Prikaži sve",
   showLess: "Prikaži manje",
@@ -2865,6 +2870,19 @@ const bs: Translations = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Blok koda",
   publicBoardIsViewOnly: "Ova javna ploča je samo za pregled.",
   duplicateToMyWorkspace: "Dupliciraj u moj radni prostor",
+  levelUp: "Napreduj",
+  core_knowledge: "Osnovno znanje",
+  organise_work: "Organizuj posao",
+  shape_your_workspace: "Oblikuj svoj radni prostor",
+  capture_knowledge: "Zabilježi znanje",
+  advanced_features: "Napredne funkcije",
+  helper: "Pomoćnik",
+  organiser: "Organizator",
+  shaper: "Oblikovalac",
+  scribe: "Zapisničar",
+  master: "Majstor",
+  youHaveUnlocked: "Otključao si",
+  rank: "rang",
 };
 
 export default bs;

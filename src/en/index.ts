@@ -1793,6 +1793,11 @@ const en = {
     "Discover how different layouts can help you manage your work",
   ["try_slash_command.title"]: "Try a slash command",
   ["try_slash_command.tooltip"]: "Type / to see a list of available commands",
+  ["move_card.title"]: "Move a card",
+  ["move_card.tooltip"]: "Move a card to a different board or status",
+  ["add_card_cover_image.title"]: "Add a card cover image",
+  ["add_card_cover_image.tooltip"]:
+    "Add a cover image to a card for better visual appeal",
   aCardMustHaveATitle: "A card must have a title",
   showAll: "Show all",
   showLess: "Show less",
@@ -2815,6 +2820,19 @@ const en = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Code block",
   publicBoardIsViewOnly: "This public board is view only.",
   duplicateToMyWorkspace: "Duplicate to my workspace",
+  levelUp: "Level up",
+  core_knowledge: "Core knowledge",
+  organise_work: "Organise work",
+  shape_your_workspace: "Shape your workspace",
+  capture_knowledge: "Capture knowledge",
+  advanced_features: "Advanced features",
+  helper: "Helper",
+  organiser: "Organiser",
+  shaper: "Shaper",
+  scribe: "Scribe",
+  master: "Master",
+  youHaveUnlocked: "You have unlocked",
+  rank: "rank",
 };
 
 export default en as Translations;

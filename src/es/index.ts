@@ -1876,6 +1876,11 @@ const es = {
   ["try_slash_command.title"]: "Prueba un comando slash",
   ["try_slash_command.tooltip"]:
     "Escribe / para ver la lista de comandos disponibles",
+  ["move_card.title"]: "Mover una tarjeta",
+  ["move_card.tooltip"]: "Mover una tarjeta a un tablero o estado diferente",
+  ["add_card_cover_image.title"]: "Añadir imagen de portada",
+  ["add_card_cover_image.tooltip"]:
+    "Añadir una imagen de portada a una tarjeta para mejorar el atractivo visual",
   aCardMustHaveATitle: "Una tarjeta debe tener un título",
   showAll: "Mostrar todo",
   showLess: "Mostrar menos",
@@ -2942,6 +2947,19 @@ const es = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Bloque de código",
   publicBoardIsViewOnly: "Este tablero público es de solo lectura.",
   duplicateToMyWorkspace: "Duplicar a mi espacio de trabajo",
+  levelUp: "Subir de nivel",
+  core_knowledge: "Conocimiento básico",
+  organise_work: "Organizar el trabajo",
+  shape_your_workspace: "Da forma a tu espacio de trabajo",
+  capture_knowledge: "Capturar conocimiento",
+  advanced_features: "Funciones avanzadas",
+  helper: "Ayudante",
+  organiser: "Organizador",
+  shaper: "Modelador",
+  scribe: "Escriba",
+  master: "Maestro",
+  youHaveUnlocked: "Has desbloqueado",
+  rank: "rango",
 };
 
 export default es as Translations;

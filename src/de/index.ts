@@ -1887,6 +1887,12 @@ const de = {
   ["try_slash_command.title"]: "Probiere einen Slash-Befehl aus",
   ["try_slash_command.tooltip"]:
     "Tippe /, um eine Liste der verfügbaren Befehle zu sehen.",
+  ["move_card.title"]: "Eine Karte verschieben",
+  ["move_card.tooltip"]:
+    "Eine Karte zu einem anderen Board oder Status verschieben",
+  ["add_card_cover_image.title"]: "Ein Kartentitelbild hinzufügen",
+  ["add_card_cover_image.tooltip"]:
+    "Ein Titelbild zu einer Karte hinzufügen für eine bessere visuelle Wirkung",
   aCardMustHaveATitle: "Eine Karte muss einen Titel haben.",
   showAll: "Alle anzeigen",
   showLess: "Weniger anzeigen",
@@ -2963,6 +2969,19 @@ const de = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Codeblock",
   publicBoardIsViewOnly: "Dieses öffentliche Board ist nur zur Ansicht.",
   duplicateToMyWorkspace: "In meinen Arbeitsbereich duplizieren",
+  levelUp: "Aufsteigen",
+  core_knowledge: "Grundwissen",
+  organise_work: "Arbeit organisieren",
+  shape_your_workspace: "Gestalte deinen Arbeitsbereich",
+  capture_knowledge: "Wissen erfassen",
+  advanced_features: "Erweiterte Funktionen",
+  helper: "Helfer",
+  organiser: "Organisator",
+  shaper: "Gestalter",
+  scribe: "Schreiber",
+  master: "Meister",
+  youHaveUnlocked: "Du hast freigeschaltet",
+  rank: "Rang",
 };
 
 export default de as Translations;
