@@ -1779,6 +1779,11 @@ const ko = {
   ["try_slash_command.title"]: "슬래시 명령을 사용해 보세요",
   ["try_slash_command.tooltip"]:
     "/ 를 입력해 사용 가능한 명령 목록을 확인하세요",
+  ["move_card.title"]: "카드 이동",
+  ["move_card.tooltip"]: "카드를 다른 보드 또는 상태로 이동",
+  ["add_card_cover_image.title"]: "카드 커버 이미지 추가",
+  ["add_card_cover_image.tooltip"]:
+    "더 나은 시각적 효과를 위해 카드에 커버 이미지 추가",
   aCardMustHaveATitle: "카드는 반드시 제목이 있어야 합니다",
   showAll: "모두 보기",
   showLess: "간단히 보기",
@@ -2786,6 +2791,19 @@ const ko = {
   ["keyboardShortcuts.markdownCodeBlock"]: "코드 블록",
   publicBoardIsViewOnly: "이 공개 보드는 보기 전용입니다.",
   duplicateToMyWorkspace: "내 작업 공간에 복제",
+  levelUp: "레벨 업",
+  core_knowledge: "핵심 지식",
+  organise_work: "작업 정리",
+  shape_your_workspace: "작업 공간 구성",
+  capture_knowledge: "지식 캡처",
+  advanced_features: "고급 기능",
+  helper: "도우미",
+  organiser: "주최자",
+  shaper: "구성자",
+  scribe: "필사자",
+  master: "마스터",
+  youHaveUnlocked: "잠금 해제했습니다",
+  rank: "등급",
 };
 
 export default ko as Translations;

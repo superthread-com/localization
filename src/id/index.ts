@@ -1840,6 +1840,11 @@ const id = {
   ["try_slash_command.title"]: "Coba perintah slash",
   ["try_slash_command.tooltip"]:
     "Ketik / untuk melihat daftar perintah yang tersedia",
+  ["move_card.title"]: "Pindahkan kartu",
+  ["move_card.tooltip"]: "Pindahkan kartu ke papan atau status yang berbeda",
+  ["add_card_cover_image.title"]: "Tambahkan gambar sampul kartu",
+  ["add_card_cover_image.tooltip"]:
+    "Tambahkan gambar sampul ke kartu untuk daya tarik visual yang lebih baik",
   aCardMustHaveATitle: "Kartu harus memiliki judul",
   showAll: "Tampilkan semua",
   showLess: "Tampilkan lebih sedikit",
@@ -2901,6 +2906,19 @@ const id = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Blok kode",
   publicBoardIsViewOnly: "Papan publik ini hanya untuk dilihat.",
   duplicateToMyWorkspace: "Duplikat ke ruang kerja saya",
+  levelUp: "Naik level",
+  core_knowledge: "Pengetahuan inti",
+  organise_work: "Mengorganisir pekerjaan",
+  shape_your_workspace: "Bentuk ruang kerja Anda",
+  capture_knowledge: "Tangkap pengetahuan",
+  advanced_features: "Fitur lanjutan",
+  helper: "Pembantu",
+  organiser: "Pengatur",
+  shaper: "Pembentuk",
+  scribe: "Penulis",
+  master: "Ahli",
+  youHaveUnlocked: "Anda telah membuka",
+  rank: "peringkat",
 };
 
 export default id as Translations;

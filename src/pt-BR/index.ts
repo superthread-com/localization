@@ -1861,6 +1861,11 @@ const ptBR = {
   ["try_slash_command.title"]: "Experimente um comando barra",
   ["try_slash_command.tooltip"]:
     "Digite / para ver a lista de comandos disponíveis",
+  ["move_card.title"]: "Mover um cartão",
+  ["move_card.tooltip"]: "Mover um cartão para um quadro ou status diferente",
+  ["add_card_cover_image.title"]: "Adicionar imagem de capa do cartão",
+  ["add_card_cover_image.tooltip"]:
+    "Adicionar uma imagem de capa a um cartão para melhor apelo visual",
   aCardMustHaveATitle: "Um cartão deve ter um título",
   showAll: "Mostrar tudo",
   showLess: "Mostrar menos",
@@ -2930,6 +2935,19 @@ const ptBR = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Bloco de código",
   publicBoardIsViewOnly: "Este quadro público é somente leitura.",
   duplicateToMyWorkspace: "Duplicar para meu espaço de trabalho",
+  levelUp: "Subir de nível",
+  core_knowledge: "Conhecimento básico",
+  organise_work: "Organizar trabalho",
+  shape_your_workspace: "Moldar seu espaço de trabalho",
+  capture_knowledge: "Capturar conhecimento",
+  advanced_features: "Recursos avançados",
+  helper: "Ajudante",
+  organiser: "Organizador",
+  shaper: "Moldador",
+  scribe: "Escriba",
+  master: "Mestre",
+  youHaveUnlocked: "Você desbloqueou",
+  rank: "classificação",
 };
 
 export default ptBR as Translations;

@@ -1887,6 +1887,11 @@ const fr: Translations = {
   ["try_slash_command.title"]: "Essayez une commande slash",
   ["try_slash_command.tooltip"]:
     "Tapez / pour voir la liste des commandes disponibles",
+  ["move_card.title"]: "Déplacer une carte",
+  ["move_card.tooltip"]: "Déplacer une carte vers un autre tableau ou statut",
+  ["add_card_cover_image.title"]: "Ajouter une image de couverture",
+  ["add_card_cover_image.tooltip"]:
+    "Ajouter une image de couverture à une carte pour un meilleur attrait visuel",
   aCardMustHaveATitle: "Une carte doit avoir un titre",
   showAll: "Tout afficher",
   showLess: "Afficher moins",
@@ -2957,6 +2962,19 @@ const fr: Translations = {
   ["keyboardShortcuts.markdownCodeBlock"]: "Bloc de code",
   publicBoardIsViewOnly: "Ce tableau public est en lecture seule.",
   duplicateToMyWorkspace: "Dupliquer dans mon espace de travail",
+  levelUp: "Monter de niveau",
+  core_knowledge: "Connaissances de base",
+  organise_work: "Organiser le travail",
+  shape_your_workspace: "Façonner votre espace de travail",
+  capture_knowledge: "Capturer les connaissances",
+  advanced_features: "Fonctionnalités avancées",
+  helper: "Assistant",
+  organiser: "Organisateur",
+  shaper: "Façonneur",
+  scribe: "Scribe",
+  master: "Maître",
+  youHaveUnlocked: "Vous avez débloqué",
+  rank: "rang",
 };
 
 export default fr as Translations;
