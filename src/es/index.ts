@@ -2960,6 +2960,11 @@ const es = {
   master: "Maestro",
   youHaveUnlocked: "Has desbloqueado",
   rank: "rango",
+  trelloDescription:
+    "Inicia sesión en tu cuenta de Trello para elegir qué tableros te gustaría importar. Superthread solo importará datos de los tableros que selecciones.",
+  importQueued: "Importación en cola",
+  viewLink: "Ver enlace",
+  removeLink: "Eliminar enlace",
 };
 
 export default es as Translations;

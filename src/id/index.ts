@@ -2919,6 +2919,11 @@ const id = {
   master: "Ahli",
   youHaveUnlocked: "Anda telah membuka",
   rank: "peringkat",
+  trelloDescription:
+    "Masuk ke akun Trello Anda untuk memilih papan mana yang ingin Anda impor. Superthread hanya akan mengimpor data dari papan yang Anda pilih.",
+  importQueued: "Impor dalam antrian",
+  viewLink: "Lihat tautan",
+  removeLink: "Hapus tautan",
 };
 
 export default id as Translations;

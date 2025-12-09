@@ -2982,6 +2982,11 @@ const de = {
   master: "Meister",
   youHaveUnlocked: "Du hast freigeschaltet",
   rank: "Rang",
+  trelloDescription:
+    "Melden Sie sich bei Ihrem Trello-Konto an, um auszuwählen, welche Boards Sie importieren möchten. Superthread importiert nur Daten von den von Ihnen ausgewählten Boards.",
+  importQueued: "Import in Warteschlange",
+  viewLink: "Link anzeigen",
+  removeLink: "Link entfernen",
 };
 
 export default de as Translations;

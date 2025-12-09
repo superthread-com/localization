@@ -2948,6 +2948,11 @@ const ptBR = {
   master: "Mestre",
   youHaveUnlocked: "Você desbloqueou",
   rank: "classificação",
+  trelloDescription:
+    "Faça login na sua conta Trello para escolher quais quadros você gostaria de importar. O Superthread importará apenas dados dos quadros que você selecionar.",
+  importQueued: "Importação na fila",
+  viewLink: "Ver link",
+  removeLink: "Remover link",
 };
 
 export default ptBR as Translations;

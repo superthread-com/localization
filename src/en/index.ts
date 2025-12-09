@@ -2833,6 +2833,11 @@ const en = {
   master: "Master",
   youHaveUnlocked: "You have unlocked",
   rank: "rank",
+  trelloDescription:
+    "Log in to your Trello account to choose which boards you would like to import. Superthread will only import data from the boards you select.",
+  importQueued: "Import queued",
+  viewLink: "View link",
+  removeLink: "Remove link",
 };
 
 export default en as Translations;

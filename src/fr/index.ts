@@ -2975,6 +2975,11 @@ const fr: Translations = {
   master: "Maître",
   youHaveUnlocked: "Vous avez débloqué",
   rank: "rang",
+  trelloDescription:
+    "Connectez-vous à votre compte Trello pour choisir les tableaux que vous souhaitez importer. Superthread n'importera des données que des tableaux que vous sélectionnez.",
+  importQueued: "Import en file d'attente",
+  viewLink: "Voir le lien",
+  removeLink: "Supprimer le lien",
 };
 
 export default fr as Translations;

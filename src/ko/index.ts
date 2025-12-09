@@ -2804,6 +2804,11 @@ const ko = {
   master: "마스터",
   youHaveUnlocked: "잠금 해제했습니다",
   rank: "등급",
+  trelloDescription:
+    "Trello 계정에 로그인하여 가져올 보드를 선택하세요. Superthread는 선택한 보드의 데이터만 가져옵니다.",
+  importQueued: "가져오기 대기 중",
+  viewLink: "링크 보기",
+  removeLink: "링크 제거",
 };
 
 export default ko as Translations;

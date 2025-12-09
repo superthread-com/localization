@@ -2883,6 +2883,11 @@ const bs: Translations = {
   master: "Majstor",
   youHaveUnlocked: "Otključao si",
   rank: "rang",
+  trelloDescription:
+    "Prijavite se na svoj Trello račun da biste odabrali koje table želite uvesti. Superthread će uvesti podatke samo sa tabli koje odaberete.",
+  importQueued: "Uvoz u redu čekanja",
+  viewLink: "Pogledaj link",
+  removeLink: "Ukloni link",
 };
 
 export default bs;
