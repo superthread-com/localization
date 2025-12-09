@@ -2809,6 +2809,8 @@ const ko = {
   importQueued: "가져오기 대기 중",
   viewLink: "링크 보기",
   removeLink: "링크 제거",
+  linkAdded: "링크 추가됨",
+  errorAddingLink: "링크 추가 오류",
 };
 
 export default ko as Translations;

@@ -2516,8 +2516,10 @@ export enum TranslationKeys {
   Rank = "rank",
   TrelloDescription = "trelloDescription",
   ImportQueued = "importQueued",
-  LinkText = "linkText",
-  LinkUrl = "linkUrl",
+  ViewLink = "viewLink",
+  RemoveLink = "removeLink",
+  LinkAdded = "linkAdded",
+  ErrorAddingLink = "errorAddingLink",
 }
 
 export type Translations = Record<TranslationKeys, string>;

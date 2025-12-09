@@ -2908,6 +2908,8 @@ const pl = {
   importQueued: "Import w kolejce",
   viewLink: "Zobacz link",
   removeLink: "Usuń link",
+  linkAdded: "Link dodany",
+  errorAddingLink: "Błąd podczas dodawania linku",
 };
 
 export default pl as Translations;

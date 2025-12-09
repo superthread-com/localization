@@ -2678,6 +2678,8 @@ const zhHant = {
   importQueued: "匯入已排隊",
   viewLink: "查看連結",
   removeLink: "刪除連結",
+  linkAdded: "連結已新增",
+  errorAddingLink: "新增連結時發生錯誤",
 };
 
 export default zhHant as Translations;

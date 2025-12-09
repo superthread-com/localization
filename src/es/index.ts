@@ -2965,6 +2965,8 @@ const es = {
   importQueued: "Importación en cola",
   viewLink: "Ver enlace",
   removeLink: "Eliminar enlace",
+  linkAdded: "Enlace añadido",
+  errorAddingLink: "Error al añadir enlace",
 };
 
 export default es as Translations;

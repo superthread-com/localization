@@ -2838,6 +2838,8 @@ const en = {
   importQueued: "Import queued",
   viewLink: "View link",
   removeLink: "Remove link",
+  linkAdded: "Link added",
+  errorAddingLink: "Error adding link",
 };
 
 export default en as Translations;
