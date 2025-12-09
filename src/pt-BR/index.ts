@@ -2953,6 +2953,8 @@ const ptBR = {
   importQueued: "Importação na fila",
   viewLink: "Ver link",
   removeLink: "Remover link",
+  linkAdded: "Link adicionado",
+  errorAddingLink: "Erro ao adicionar link",
 };
 
 export default ptBR as Translations;

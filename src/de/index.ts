@@ -2987,6 +2987,8 @@ const de = {
   importQueued: "Import in Warteschlange",
   viewLink: "Link anzeigen",
   removeLink: "Link entfernen",
+  linkAdded: "Link hinzugefügt",
+  errorAddingLink: "Fehler beim Hinzufügen des Links",
 };
 
 export default de as Translations;

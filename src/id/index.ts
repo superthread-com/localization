@@ -2924,6 +2924,8 @@ const id = {
   importQueued: "Impor dalam antrian",
   viewLink: "Lihat tautan",
   removeLink: "Hapus tautan",
+  linkAdded: "Tautan ditambahkan",
+  errorAddingLink: "Kesalahan menambahkan tautan",
 };
 
 export default id as Translations;

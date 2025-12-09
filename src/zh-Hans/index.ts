@@ -2673,6 +2673,8 @@ const zhHans = {
   importQueued: "导入已排队",
   viewLink: "查看链接",
   removeLink: "删除链接",
+  linkAdded: "链接已添加",
+  errorAddingLink: "添加链接时出错",
 };
 
 export default zhHans as Translations;

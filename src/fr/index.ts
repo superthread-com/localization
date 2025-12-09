@@ -2980,6 +2980,8 @@ const fr: Translations = {
   importQueued: "Import en file d'attente",
   viewLink: "Voir le lien",
   removeLink: "Supprimer le lien",
+  linkAdded: "Lien ajouté",
+  errorAddingLink: "Erreur lors de l'ajout du lien",
 };
 
 export default fr as Translations;

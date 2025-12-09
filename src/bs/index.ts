@@ -2888,6 +2888,8 @@ const bs: Translations = {
   importQueued: "Uvoz u redu čekanja",
   viewLink: "Pogledaj link",
   removeLink: "Ukloni link",
+  linkAdded: "Link dodan",
+  errorAddingLink: "Greška pri dodavanju linka",
 };
 
 export default bs;
