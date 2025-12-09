@@ -2514,6 +2514,10 @@ export enum TranslationKeys {
   Master = "master",
   YouHaveUnlocked = "youHaveUnlocked",
   Rank = "rank",
+  TrelloDescription = "trelloDescription",
+  ImportQueued = "importQueued",
+  LinkText = "linkText",
+  LinkUrl = "linkUrl",
 }
 
 export type Translations = Record<TranslationKeys, string>;

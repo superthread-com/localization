@@ -2668,6 +2668,11 @@ const zhHans = {
   master: "大师",
   youHaveUnlocked: "你已解锁",
   rank: "等级",
+  trelloDescription:
+    "登录您的 Trello 账户以选择要导入的看板。Superthread 只会导入您选择的看板中的数据。",
+  importQueued: "导入已排队",
+  viewLink: "查看链接",
+  removeLink: "删除链接",
 };
 
 export default zhHans as Translations;

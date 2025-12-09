@@ -2903,6 +2903,11 @@ const pl = {
   master: "Mistrz",
   youHaveUnlocked: "Odblokowałeś",
   rank: "ranga",
+  trelloDescription:
+    "Zaloguj się na swoje konto Trello, aby wybrać tablice, które chcesz zaimportować. Superthread zaimportuje dane tylko z wybranych przez Ciebie tablic.",
+  importQueued: "Import w kolejce",
+  viewLink: "Zobacz link",
+  removeLink: "Usuń link",
 };
 
 export default pl as Translations;

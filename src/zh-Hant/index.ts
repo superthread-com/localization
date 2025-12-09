@@ -2673,6 +2673,11 @@ const zhHant = {
   master: "大師",
   youHaveUnlocked: "你已解鎖",
   rank: "等級",
+  trelloDescription:
+    "登入您的 Trello 帳戶以選擇要匯入的看板。Superthread 只會匯入您選擇的看板中的資料。",
+  importQueued: "匯入已排隊",
+  viewLink: "查看連結",
+  removeLink: "刪除連結",
 };
 
 export default zhHant as Translations;
