@@ -2982,6 +2982,9 @@ const fr: Translations = {
   removeLink: "Supprimer le lien",
   linkAdded: "Lien ajouté",
   errorAddingLink: "Erreur lors de l'ajout du lien",
+  createMissingTags: "Créer les balises manquantes",
+  createMissingTagsDescription:
+    "Créer des balises dans l'espace %{space} si elles n'existent pas",
 };
 
 export default fr as Translations;

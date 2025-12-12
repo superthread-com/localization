@@ -2840,6 +2840,9 @@ const en = {
   removeLink: "Remove link",
   linkAdded: "Link added",
   errorAddingLink: "Error adding link",
+  createMissingTags: "Create missing tags",
+  createMissingTagsDescription:
+    "Create tags in %{space} space if they don't exist",
 };
 
 export default en as Translations;

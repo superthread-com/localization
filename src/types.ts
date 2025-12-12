@@ -2520,6 +2520,8 @@ export enum TranslationKeys {
   RemoveLink = "removeLink",
   LinkAdded = "linkAdded",
   ErrorAddingLink = "errorAddingLink",
+  CreateMissingTags = "createMissingTags",
+  CreateMissingTagsDescription = "createMissingTagsDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2890,6 +2890,9 @@ const bs: Translations = {
   removeLink: "Ukloni link",
   linkAdded: "Link dodan",
   errorAddingLink: "Greška pri dodavanju linka",
+  createMissingTags: "Kreiraj nedostajuće oznake",
+  createMissingTagsDescription:
+    "Kreiraj oznake u prostoru %{space} ako ne postoje",
 };
 
 export default bs;

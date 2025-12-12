@@ -2811,6 +2811,9 @@ const ko = {
   removeLink: "링크 제거",
   linkAdded: "링크 추가됨",
   errorAddingLink: "링크 추가 오류",
+  createMissingTags: "누락된 태그 생성",
+  createMissingTagsDescription:
+    "존재하지 않을 경우 %{space} 공간에 태그를 생성합니다",
 };
 
 export default ko as Translations;

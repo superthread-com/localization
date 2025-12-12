@@ -2680,6 +2680,8 @@ const zhHant = {
   removeLink: "刪除連結",
   linkAdded: "連結已新增",
   errorAddingLink: "新增連結時發生錯誤",
+  createMissingTags: "建立缺少的標籤",
+  createMissingTagsDescription: "如果 %{space} 空間中不存在，請建立標籤",
 };
 
 export default zhHant as Translations;
