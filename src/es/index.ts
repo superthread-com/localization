@@ -2967,6 +2967,9 @@ const es = {
   removeLink: "Eliminar enlace",
   linkAdded: "Enlace añadido",
   errorAddingLink: "Error al añadir enlace",
+  createMissingTags: "Crear etiquetas faltantes",
+  createMissingTagsDescription:
+    "Crea etiquetas en el espacio %{space} si no existen",
 };
 
 export default es as Translations;

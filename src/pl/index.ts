@@ -2910,6 +2910,9 @@ const pl = {
   removeLink: "Usuń link",
   linkAdded: "Link dodany",
   errorAddingLink: "Błąd podczas dodawania linku",
+  createMissingTags: "Utwórz brakujące tagi",
+  createMissingTagsDescription:
+    "Utwórz tagi w przestrzeni %{space}, jeśli nie istnieją",
 };
 
 export default pl as Translations;
