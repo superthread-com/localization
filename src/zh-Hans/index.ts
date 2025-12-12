@@ -2676,8 +2676,7 @@ const zhHans = {
   linkAdded: "链接已添加",
   errorAddingLink: "添加链接时出错",
   createMissingTags: "创建缺失的标签",
-  createMissingTagsDescription:
-    "在 %{space} 空间中创建不存在的标签",
+  createMissingTagsDescription: "在 %{space} 空间中创建不存在的标签",
 };
 
 export default zhHans as Translations;

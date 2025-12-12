@@ -2956,8 +2956,7 @@ const ptBR = {
   linkAdded: "Link adicionado",
   errorAddingLink: "Erro ao adicionar link",
   createMissingTags: "Criar tags ausentes",
-  createMissingTagsDescription:
-    "Crie tags no espaço %{space} caso não existam",
+  createMissingTagsDescription: "Crie tags no espaço %{space} caso não existam",
 };
 
 export default ptBR as Translations;

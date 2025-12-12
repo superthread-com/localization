@@ -2927,8 +2927,7 @@ const id = {
   linkAdded: "Tautan ditambahkan",
   errorAddingLink: "Kesalahan menambahkan tautan",
   createMissingTags: "Buat tag yang hilang",
-  createMissingTagsDescription:
-    "Buat tag di ruang %{space} jika belum ada",
+  createMissingTagsDescription: "Buat tag di ruang %{space} jika belum ada",
 };
 
 export default id as Translations;
