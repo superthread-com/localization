@@ -3,12 +3,6 @@ allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*), Bash(npm
 description: Add key with translations
 ---
 
-## Context
-
-- Current git status: !`git status`
-
-Reject the task if there are unstaged or uncommitted changes.
-
 ## Your task
 
 Follow the instructions for adding a new translation key in @AGENTS.md.
