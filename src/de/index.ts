@@ -2992,6 +2992,11 @@ const de = {
   createMissingTags: "Fehlende Tags erstellen",
   createMissingTagsDescription:
     "Erstelle Tags im %{space}-Bereich, falls sie noch nicht existieren",
+  createACopyOfThisCard:
+    "Erstellen Sie eine Kopie dieser Karte. Aktivitäten und Kommentare werden nicht kopiert.",
+  chooseWhereToDuplicateCard:
+    "Wählen Sie aus, wo die Karte dupliziert werden soll",
+  cardWillBeAddedToBottomOfList: "Die Karte wird am Ende der Liste hinzugefügt",
 };
 
 export default de as Translations;

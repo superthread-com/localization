@@ -2522,6 +2522,9 @@ export enum TranslationKeys {
   ErrorAddingLink = "errorAddingLink",
   CreateMissingTags = "createMissingTags",
   CreateMissingTagsDescription = "createMissingTagsDescription",
+  CreateACopyOfThisCard = "createACopyOfThisCard",
+  ChooseWhereToDuplicateCard = "chooseWhereToDuplicateCard",
+  CardWillBeAddedToBottomOfList = "cardWillBeAddedToBottomOfList",
 }
 
 export type Translations = Record<TranslationKeys, string>;

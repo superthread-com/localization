@@ -2928,6 +2928,11 @@ const id = {
   errorAddingLink: "Kesalahan menambahkan tautan",
   createMissingTags: "Buat tag yang hilang",
   createMissingTagsDescription: "Buat tag di ruang %{space} jika belum ada",
+  createACopyOfThisCard:
+    "Buat salinan kartu ini. Aktivitas & komentar tidak akan disalin.",
+  chooseWhereToDuplicateCard: "Pilih tempat untuk menduplikasi kartu",
+  cardWillBeAddedToBottomOfList:
+    "Kartu akan ditambahkan di bagian bawah daftar",
 };
 
 export default id as Translations;

@@ -2814,6 +2814,10 @@ const ko = {
   createMissingTags: "누락된 태그 생성",
   createMissingTagsDescription:
     "존재하지 않을 경우 %{space} 공간에 태그를 생성합니다",
+  createACopyOfThisCard:
+    "이 카드의 사본을 생성합니다. 활동 및 댓글은 복사되지 않습니다.",
+  chooseWhereToDuplicateCard: "카드를 복제할 위치를 선택하세요",
+  cardWillBeAddedToBottomOfList: "카드가 목록 하단에 추가됩니다",
 };
 
 export default ko as Translations;

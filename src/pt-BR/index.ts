@@ -2957,6 +2957,10 @@ const ptBR = {
   errorAddingLink: "Erro ao adicionar link",
   createMissingTags: "Criar tags ausentes",
   createMissingTagsDescription: "Crie tags no espaço %{space} caso não existam",
+  createACopyOfThisCard:
+    "Crie uma cópia deste cartão. Atividade e comentários não serão copiados.",
+  chooseWhereToDuplicateCard: "Escolha onde duplicar o cartão",
+  cardWillBeAddedToBottomOfList: "O cartão será adicionado ao final da lista",
 };
 
 export default ptBR as Translations;

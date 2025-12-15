@@ -2677,6 +2677,9 @@ const zhHans = {
   errorAddingLink: "添加链接时出错",
   createMissingTags: "创建缺失的标签",
   createMissingTagsDescription: "在 %{space} 空间中创建不存在的标签",
+  createACopyOfThisCard: "创建此卡片的副本。活动和评论不会被复制。",
+  chooseWhereToDuplicateCard: "选择要复制卡片的位置",
+  cardWillBeAddedToBottomOfList: "卡片将被添加到列表底部",
 };
 
 export default zhHans as Translations;

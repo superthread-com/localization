@@ -2970,6 +2970,10 @@ const es = {
   createMissingTags: "Crear etiquetas faltantes",
   createMissingTagsDescription:
     "Crea etiquetas en el espacio %{space} si no existen",
+  createACopyOfThisCard:
+    "Crea una copia de esta tarjeta. La actividad y los comentarios no se copiarán.",
+  chooseWhereToDuplicateCard: "Elige dónde duplicar la tarjeta",
+  cardWillBeAddedToBottomOfList: "La tarjeta se añadirá al final de la lista",
 };
 
 export default es as Translations;
