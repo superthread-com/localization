@@ -2985,6 +2985,10 @@ const fr: Translations = {
   createMissingTags: "Créer les balises manquantes",
   createMissingTagsDescription:
     "Créer des balises dans l'espace %{space} si elles n'existent pas",
+  createACopyOfThisCard:
+    "Créer une copie de cette carte. L'activité et les commentaires ne seront pas copiés.",
+  chooseWhereToDuplicateCard: "Choisissez où dupliquer la carte",
+  cardWillBeAddedToBottomOfList: "La carte sera ajoutée en bas de la liste",
 };
 
 export default fr as Translations;

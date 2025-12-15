@@ -2682,6 +2682,9 @@ const zhHant = {
   errorAddingLink: "新增連結時發生錯誤",
   createMissingTags: "建立缺少的標籤",
   createMissingTagsDescription: "如果 %{space} 空間中不存在，請建立標籤",
+  createACopyOfThisCard: "建立此卡片的副本。活動和評論不會被複製。",
+  chooseWhereToDuplicateCard: "選擇要複製卡片的位置",
+  cardWillBeAddedToBottomOfList: "卡片將被新增至清單底部",
 };
 
 export default zhHant as Translations;

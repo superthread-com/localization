@@ -2893,6 +2893,10 @@ const bs: Translations = {
   createMissingTags: "Kreiraj nedostajuće oznake",
   createMissingTagsDescription:
     "Kreiraj oznake u prostoru %{space} ako ne postoje",
+  createACopyOfThisCard:
+    "Napravite kopiju ove kartice. Aktivnost i komentari neće biti kopirani.",
+  chooseWhereToDuplicateCard: "Odaberite gdje želite duplicirati karticu",
+  cardWillBeAddedToBottomOfList: "Kartica će biti dodana na dno liste",
 };
 
 export default bs;

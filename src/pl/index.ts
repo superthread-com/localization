@@ -2913,6 +2913,10 @@ const pl = {
   createMissingTags: "Utwórz brakujące tagi",
   createMissingTagsDescription:
     "Utwórz tagi w przestrzeni %{space}, jeśli nie istnieją",
+  createACopyOfThisCard:
+    "Utwórz kopię tej karty. Aktywność i komentarze nie zostaną skopiowane.",
+  chooseWhereToDuplicateCard: "Wybierz, gdzie zduplikować kartę",
+  cardWillBeAddedToBottomOfList: "Karta zostanie dodana na dole listy",
 };
 
 export default pl as Translations;
