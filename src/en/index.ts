@@ -186,7 +186,12 @@ const en = {
   ["billing.previousInvoices"]: "Previous invoices",
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]: "Manage which plan the workspace uses",
-  ["billing.standard"]: "Standard",
+  ["billing.standard"]: "Pay What You Want",
+  ["billing.pro"]: "Business",
+  ["billing.enterprise"]: "Enterprise",
+  ["billing.standardSubtitle"]: "For individuals and small teams",
+  ["billing.proSubtitle"]: "For companies that are scaling",
+  ["billing.enterpriseSubtitle"]: "For companies that have strict requirements",
   ["billing.changePlan"]: "Change plan",
   ["billing.free"]: "Free",
   ["billing.upgrade"]: "Upgrade",
@@ -240,7 +245,6 @@ const en = {
   ["billing.switchToYearly"]: "Switch to yearly (-20%)",
   ["billing.switchToMonthly"]: "Switch to monthly",
   ["billing.metadata"]: "Everything in %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Talk to our experts",
   ["billing.samlAndScim"]: "SAML & SCIM",
   ["billing.auditLogs"]: "Audit logs",
   ["billing.customBilling"]: "Custom billing",
@@ -283,6 +287,22 @@ const en = {
     "You're on a legacy plan: %{planName} (%{planPeriod})",
   ["billing.legacyDescription"]:
     "This version is no longer offered to new users. You can continue using it, or explore our current plans for updated features and pricing.",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "We're losing money at this price",
+  ["billing.pwyw.barelyCovering"]: "This barely covers our costs",
+  ["billing.pwyw.breakeven"]: "Break-even point — no profit, no loss",
+  ["billing.pwyw.belowFair"]: "A little below fair price",
+  ["billing.pwyw.fairPrice"]: "Fair price — thank you!",
+  ["billing.pwyw.awesome"]: "You're awesome!",
+  ["billing.pwyw.generous"]: "Wow, so generous!",
+  ["billing.pwyw.bestHuman"]: "You're literally the best human!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Pay What You Want",
+  // Enterprise Tier Updates
+  ["billing.fiftyPlusSeats"]: "%{count} seats",
+  ["billing.annualBilling"]: "Annual billing",
+  ["billing.ninetyDayVersionHistory"]: "%{count} day version history",
+  ["billing.expertOnboarding"]: "Expert onboarding",
 
   // global
   ["global.text.create"]: "Create",

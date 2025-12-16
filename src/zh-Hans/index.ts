@@ -179,7 +179,11 @@ const zhHans = {
   ["billing.previousInvoices"]: "以前的发票",
   ["billing.plan"]: "计划",
   ["billing.manageWhichPlan"]: "管理工作区使用的计划",
-  ["billing.standard"]: "标准",
+  ["billing.standard"]: "随心付费",
+  ["billing.pro"]: "商业版",
+  ["billing.standardSubtitle"]: "适合个人和小型团队",
+  ["billing.proSubtitle"]: "适合发展中的公司",
+  ["billing.enterprise"]: "企业版",
   ["billing.changePlan"]: "更改计划",
   ["billing.free"]: "免费",
   ["billing.upgrade"]: "升级",
@@ -229,7 +233,6 @@ const zhHans = {
   ["billing.switchToYearly"]: "切换到年度 (-20%)",
   ["billing.switchToMonthly"]: "切换到每月",
   ["billing.metadata"]: "%{plan}中的所有内容，加上...",
-  ["billing.talkToOurExperts"]: "与我们的专家交谈",
   ["billing.samlAndScim"]: "SAML & SCIM",
   ["billing.auditLogs"]: "审计日志",
   ["billing.customBilling"]: "自定义账单",
@@ -2675,6 +2678,23 @@ const zhHans = {
   removeLink: "删除链接",
   linkAdded: "链接已添加",
   errorAddingLink: "添加链接时出错",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "这个价格我们会亏本",
+  ["billing.pwyw.barelyCovering"]: "这仅能勉强覆盖我们的成本",
+  ["billing.pwyw.breakeven"]: "收支平衡点 — 不赚不赔",
+  ["billing.pwyw.belowFair"]: "略低于公平价格",
+  ["billing.pwyw.fairPrice"]: "公平价格 — 谢谢!",
+  ["billing.pwyw.awesome"]: "您真棒!",
+  ["billing.pwyw.generous"]: "哇,太慷慨了!",
+  ["billing.pwyw.bestHuman"]: "您简直是最棒的人!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "随心支付",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "适用于有严格要求的企业",
+  ["billing.fiftyPlusSeats"]: "%{count} 个席位",
+  ["billing.annualBilling"]: "年度计费",
+  ["billing.ninetyDayVersionHistory"]: "%{count} 天版本历史",
+  ["billing.expertOnboarding"]: "专家入门指导",
 };
 
 export default zhHans as Translations;

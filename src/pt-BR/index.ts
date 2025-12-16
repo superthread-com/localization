@@ -190,7 +190,11 @@ const ptBR = {
   ["billing.previousInvoices"]: "Faturas anteriores",
   ["billing.plan"]: "Plano",
   ["billing.manageWhichPlan"]: "Gerenciar qual plano o espaço de trabalho usa",
-  ["billing.standard"]: "Padrão",
+  ["billing.standard"]: "Pague o que quiser",
+  ["billing.pro"]: "Empresas",
+  ["billing.standardSubtitle"]: "Para indivíduos e pequenas equipes",
+  ["billing.proSubtitle"]: "Para empresas em crescimento",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Alterar plano",
   ["billing.free"]: "Gratuito",
   ["billing.upgrade"]: "Atualizar",
@@ -245,7 +249,6 @@ const ptBR = {
   ["billing.switchToYearly"]: "Mudar para anual (-20%)",
   ["billing.switchToMonthly"]: "Mudar para mensal",
   ["billing.metadata"]: "Tudo em %{plan}, mais...",
-  ["billing.talkToOurExperts"]: "Fale com nossos especialistas",
   ["billing.samlAndScim"]: "SAML e SCIM",
   ["billing.auditLogs"]: "Registros de auditoria",
   ["billing.customBilling"]: "Faturamento personalizado",
@@ -2955,6 +2958,23 @@ const ptBR = {
   removeLink: "Remover link",
   linkAdded: "Link adicionado",
   errorAddingLink: "Erro ao adicionar link",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Estamos perdendo dinheiro com este preço",
+  ["billing.pwyw.barelyCovering"]: "Isso mal cobre nossos custos",
+  ["billing.pwyw.breakeven"]: "Ponto de equilíbrio — sem lucro, sem prejuízo",
+  ["billing.pwyw.belowFair"]: "Um pouco abaixo do preço justo",
+  ["billing.pwyw.fairPrice"]: "Preço justo — obrigado!",
+  ["billing.pwyw.awesome"]: "Você é incrível!",
+  ["billing.pwyw.generous"]: "Uau, que generoso!",
+  ["billing.pwyw.bestHuman"]: "Você é literalmente a melhor pessoa!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Pague o que quiser",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Para empresas que têm requisitos rigorosos",
+  ["billing.fiftyPlusSeats"]: "%{count} lugares",
+  ["billing.annualBilling"]: "Faturamento anual",
+  ["billing.ninetyDayVersionHistory"]: "%{count} dias de histórico de versões",
+  ["billing.expertOnboarding"]: "Integração especializada",
 };
 
 export default ptBR as Translations;

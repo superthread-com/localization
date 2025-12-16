@@ -1140,7 +1140,11 @@ const bs: Translations = {
   ["billing.previousInvoices"]: "Prethodne fakture",
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]: "Upravljaj koji plan koristi prostor",
-  ["billing.standard"]: "Standardni",
+  ["billing.standard"]: "Plati koliko želiš",
+  ["billing.pro"]: "Poslovno",
+  ["billing.standardSubtitle"]: "Za pojedince i male timove",
+  ["billing.proSubtitle"]: "Za kompanije koje rastu",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Promijenite plan",
   ["billing.free"]: "Besplatno",
   ["billing.upgrade"]: "Unaprijedi",
@@ -1194,7 +1198,6 @@ const bs: Translations = {
   ["billing.switchToYearly"]: "Prebaci se na godišnje (-20%)",
   ["billing.switchToMonthly"]: "Prebaci se na mjesečno",
   ["billing.metadata"]: "Sve u %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Razgovarajte sa našim stručnjacima",
   ["billing.samlAndScim"]: "SAML & SCIM",
   ["billing.auditLogs"]: "Evidencije revizije",
   ["billing.customBilling"]: "Prilagođeno naplaćivanje",
@@ -2890,6 +2893,23 @@ const bs: Translations = {
   removeLink: "Ukloni link",
   linkAdded: "Link dodan",
   errorAddingLink: "Greška pri dodavanju linka",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Gubimo novac po ovoj cijeni",
+  ["billing.pwyw.barelyCovering"]: "Ovo jedva pokriva naše troškove",
+  ["billing.pwyw.breakeven"]: "Tačka pokrića — nema profita, nema gubitka",
+  ["billing.pwyw.belowFair"]: "Malo ispod poštene cijene",
+  ["billing.pwyw.fairPrice"]: "Poštena cijena — hvala!",
+  ["billing.pwyw.awesome"]: "Ti si super!",
+  ["billing.pwyw.generous"]: "Vau, tako velikodušno!",
+  ["billing.pwyw.bestHuman"]: "Ti si doslovno najbolja osoba!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Plati koliko želiš",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Za kompanije koje imaju stroge zahtjeve",
+  ["billing.fiftyPlusSeats"]: "%{count} mjesta",
+  ["billing.annualBilling"]: "Godišnje naplaćivanje",
+  ["billing.ninetyDayVersionHistory"]: "%{count} dana historije verzija",
+  ["billing.expertOnboarding"]: "Stručno uvođenje",
 };
 
 export default bs;

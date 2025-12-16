@@ -188,7 +188,11 @@ const id = {
   ["billing.previousInvoices"]: "Faktur sebelumnya",
   ["billing.plan"]: "Rencana",
   ["billing.manageWhichPlan"]: "Kelola rencana yang digunakan ruang kerja",
-  ["billing.standard"]: "Standar",
+  ["billing.standard"]: "Bayar Sesukamu",
+  ["billing.pro"]: "Bisnis",
+  ["billing.standardSubtitle"]: "Untuk individu dan tim kecil",
+  ["billing.proSubtitle"]: "Untuk perusahaan yang berkembang",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Ubah rencana",
   ["billing.free"]: "Gratis",
   ["billing.upgrade"]: "Tingkatkan",
@@ -243,7 +247,6 @@ const id = {
   ["billing.switchToYearly"]: "Beralih ke tahunan (-20%)",
   ["billing.switchToMonthly"]: "Beralih ke bulanan",
   ["billing.metadata"]: "Semuanya dalam %{plan}, ditambah...",
-  ["billing.talkToOurExperts"]: "Berbicara dengan ahli kami",
   ["billing.samlAndScim"]: "SAML & SCIM",
   ["billing.auditLogs"]: "Log audit",
   ["billing.customBilling"]: "Penagihan kustom",
@@ -2926,6 +2929,23 @@ const id = {
   removeLink: "Hapus tautan",
   linkAdded: "Tautan ditambahkan",
   errorAddingLink: "Kesalahan menambahkan tautan",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Kami merugi pada harga ini",
+  ["billing.pwyw.barelyCovering"]: "Ini hampir tidak menutupi biaya kami",
+  ["billing.pwyw.breakeven"]: "Titik impas — tidak untung, tidak rugi",
+  ["billing.pwyw.belowFair"]: "Sedikit di bawah harga wajar",
+  ["billing.pwyw.fairPrice"]: "Harga wajar — terima kasih!",
+  ["billing.pwyw.awesome"]: "Anda luar biasa!",
+  ["billing.pwyw.generous"]: "Wow, sangat murah hati!",
+  ["billing.pwyw.bestHuman"]: "Anda benar-benar manusia terbaik!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Bayar Sesuai Keinginan",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Untuk perusahaan yang memiliki persyaratan ketat",
+  ["billing.fiftyPlusSeats"]: "%{count} tempat duduk",
+  ["billing.annualBilling"]: "Penagihan tahunan",
+  ["billing.ninetyDayVersionHistory"]: "%{count} hari riwayat versi",
+  ["billing.expertOnboarding"]: "Orientasi ahli",
 };
 
 export default id as Translations;

@@ -52,7 +52,11 @@ const fr: Translations = {
   ["billing.previousInvoices"]: "Factures précendentes",
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]: "Gérer le plan utilisé par l'espace de travail",
-  ["billing.standard"]: "Standard",
+  ["billing.standard"]: "Payez ce que vous voulez",
+  ["billing.pro"]: "Business",
+  ["billing.standardSubtitle"]: "Pour les particuliers et les petites équipes",
+  ["billing.proSubtitle"]: "Pour les entreprises en croissance",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Changer de plan",
   ["billing.free"]: "Gratuit",
   ["billing.upgrade"]: "Améliorer",
@@ -108,7 +112,6 @@ const fr: Translations = {
   ["billing.switchToYearly"]: "Passer à une fréquence annuelle (-20%)",
   ["billing.switchToMonthly"]: "Passer à une fréquence mensuelle",
   ["billing.metadata"]: "Tout dans %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Parlez à nos experts",
   ["billing.samlAndScim"]: "SAML & SCIM",
   ["billing.auditLogs"]: "Journaux d'audit",
   ["billing.customBilling"]: "Facturation personnalisée",
@@ -2982,6 +2985,24 @@ const fr: Translations = {
   removeLink: "Supprimer le lien",
   linkAdded: "Lien ajouté",
   errorAddingLink: "Erreur lors de l'ajout du lien",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Nous perdons de l'argent à ce prix",
+  ["billing.pwyw.barelyCovering"]: "Cela couvre à peine nos coûts",
+  ["billing.pwyw.breakeven"]: "Point d'équilibre — pas de profit, pas de perte",
+  ["billing.pwyw.belowFair"]: "Un peu en dessous du prix équitable",
+  ["billing.pwyw.fairPrice"]: "Prix équitable — merci !",
+  ["billing.pwyw.awesome"]: "Vous êtes génial !",
+  ["billing.pwyw.generous"]: "Wow, tellement généreux !",
+  ["billing.pwyw.bestHuman"]: "Vous êtes littéralement la meilleure personne !",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Payez ce que vous voulez",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Pour les entreprises ayant des exigences strictes",
+  ["billing.fiftyPlusSeats"]: "%{count} places",
+  ["billing.annualBilling"]: "Facturation annuelle",
+  ["billing.ninetyDayVersionHistory"]:
+    "%{count} jours d'historique des versions",
+  ["billing.expertOnboarding"]: "Intégration experte",
 };
 
 export default fr as Translations;

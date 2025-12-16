@@ -191,7 +191,11 @@ const es = {
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]:
     "Gestionar qué plan utiliza el espacio de trabajo",
-  ["billing.standard"]: "Estándar",
+  ["billing.standard"]: "Paga lo que quieras",
+  ["billing.pro"]: "Empresas",
+  ["billing.standardSubtitle"]: "Para individuos y equipos pequeños",
+  ["billing.proSubtitle"]: "Para empresas en crecimiento",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Cambiar plan",
   ["billing.free"]: "Gratis",
   ["billing.upgrade"]: "Mejorar",
@@ -245,7 +249,6 @@ const es = {
   ["billing.switchToYearly"]: "Cambiar a anual (-20%)",
   ["billing.switchToMonthly"]: "Cambiar a mensual",
   ["billing.metadata"]: "Todo en %{plan}, más...",
-  ["billing.talkToOurExperts"]: "Habla con nuestros expertos",
   ["billing.samlAndScim"]: "SAML y SCIM",
   ["billing.auditLogs"]: "Registros de auditoría",
   ["billing.customBilling"]: "Facturación personalizada",
@@ -2967,6 +2970,25 @@ const es = {
   removeLink: "Eliminar enlace",
   linkAdded: "Enlace añadido",
   errorAddingLink: "Error al añadir enlace",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Estamos perdiendo dinero a este precio",
+  ["billing.pwyw.barelyCovering"]: "Esto apenas cubre nuestros costos",
+  ["billing.pwyw.breakeven"]:
+    "Punto de equilibrio — sin ganancias, sin pérdidas",
+  ["billing.pwyw.belowFair"]: "Un poco por debajo del precio justo",
+  ["billing.pwyw.fairPrice"]: "Precio justo — ¡gracias!",
+  ["billing.pwyw.awesome"]: "¡Eres increíble!",
+  ["billing.pwyw.generous"]: "¡Wow, qué generoso!",
+  ["billing.pwyw.bestHuman"]: "¡Eres literalmente la mejor persona!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Paga lo que quieras",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Para empresas que tienen requisitos estrictos",
+  ["billing.fiftyPlusSeats"]: "%{count} asientos",
+  ["billing.annualBilling"]: "Facturación anual",
+  ["billing.ninetyDayVersionHistory"]:
+    "%{count} días de historial de versiones",
+  ["billing.expertOnboarding"]: "Incorporación experta",
 };
 
 export default es as Translations;

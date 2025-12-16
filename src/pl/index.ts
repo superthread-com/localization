@@ -183,7 +183,11 @@ const pl = {
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]:
     "Zarządzaj, który plan wykorzystuje przestrzeń robocza",
-  ["billing.standard"]: "Standard",
+  ["billing.standard"]: "Zapłać ile chcesz",
+  ["billing.pro"]: "Biznes",
+  ["billing.standardSubtitle"]: "Dla osób indywidualnych i małych zespołów",
+  ["billing.proSubtitle"]: "Dla rozwijających się firm",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Zmień plan",
   ["billing.free"]: "Darmowy",
   ["billing.upgrade"]: "Ulepsz",
@@ -238,7 +242,6 @@ const pl = {
   ["billing.switchToYearly"]: "Przełącz na roczne (-20%)",
   ["billing.switchToMonthly"]: "Przełącz na miesięczne",
   ["billing.metadata"]: "Wszystko w %{plan} plus...",
-  ["billing.talkToOurExperts"]: "Porozmawiaj z naszymi ekspertami",
   ["billing.samlAndScim"]: "SAML i SCIM",
   ["billing.auditLogs"]: "Dzienniki audytu",
   ["billing.customBilling"]: "Fakturowanie niestandardowe",
@@ -2910,6 +2913,23 @@ const pl = {
   removeLink: "Usuń link",
   linkAdded: "Link dodany",
   errorAddingLink: "Błąd podczas dodawania linku",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Tracimy pieniądze przy tej cenie",
+  ["billing.pwyw.barelyCovering"]: "To ledwo pokrywa nasze koszty",
+  ["billing.pwyw.breakeven"]: "Punkt progu rentowności — bez zysku, bez straty",
+  ["billing.pwyw.belowFair"]: "Trochę poniżej uczciwej ceny",
+  ["billing.pwyw.fairPrice"]: "Uczciwa cena — dziękujemy!",
+  ["billing.pwyw.awesome"]: "Jesteś niesamowity!",
+  ["billing.pwyw.generous"]: "Wow, jakie hojne!",
+  ["billing.pwyw.bestHuman"]: "Jesteś dosłownie najlepszym człowiekiem!",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Zapłać ile chcesz",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Dla firm o rygorystycznych wymaganiach",
+  ["billing.fiftyPlusSeats"]: "%{count} miejsc",
+  ["billing.annualBilling"]: "Rozliczenia roczne",
+  ["billing.ninetyDayVersionHistory"]: "%{count} dni historii wersji",
+  ["billing.expertOnboarding"]: "Eksperckie wdrożenie",
 };
 
 export default pl as Translations;
