@@ -2978,7 +2978,6 @@ const de = {
   helper: "Helfer",
   organiser: "Organisator",
   shaper: "Gestalter",
-  scribe: "Schreiber",
   master: "Meister",
   youHaveUnlocked: "Du hast freigeschaltet",
   rank: "Rang",
@@ -2997,6 +2996,69 @@ const de = {
   chooseWhereToDuplicateCard:
     "Wählen Sie aus, wo die Karte dupliziert werden soll",
   cardWillBeAddedToBottomOfList: "Die Karte wird am Ende der Liste hinzugefügt",
+  learnFavourites: "Favoriten lernen",
+  learnFavouritesDescription: "Bauen Sie Ihre persönliche Basis auf",
+  learnFavouritesMission:
+    "Machen Sie es zu Ihrem eigenen, indem Sie die wichtigsten Arbeiten in Ihre Seitenleiste anheften.",
+  commandMastery: "Befehlsmeisterschaft",
+  commandMasteryDescription: "Ihre verborgene Toolbox",
+  commandMasteryMission:
+    "Unser dynamisches System ist flexibel und hilft Ihnen beim Skalieren.",
+  notesCourse: "KI-Meetings, Transkriptionen & Notizen-Vorlagen",
+  notesCourseDescription: "Ihr intelligenter Meeting-Begleiter",
+  notesCourseMission:
+    "KI-Transkriptionen geben Ihrem Team Klarheit – erfassen alles Gesagte, organisieren Erkenntnisse und verwandeln Diskussionen magisch in Aktionen ✨",
+  cardMastery: "Karten-Meisterschaft",
+  cardMasteryDescription: "Geschwindigkeit, die Sie spüren können",
+  cardMasteryMission:
+    "Superthread ist auf Geschwindigkeit ausgelegt. Sobald Sie sich eingelebt haben, werden Sie durch Ihre Arbeit fliegen.",
+  learnSidedockView: "Sidedock-Ansicht lernen",
+  learnSidedockViewDescription: "Ihr Begleiter für tiefe Konzentration",
+  learnSidedockViewMission:
+    "Alles in Superthread ist auf Einfachheit und Flexibilität ausgelegt, einschließlich Ansichten.",
+  spacesMastery: "Spaces-Meisterschaft - Beruhigendes Kommandozentrum",
+  spacesMasteryDescription:
+    "Erstellen Sie die Spaces Ihrer Organisation – auf Ihre Weise",
+  spacesMasteryMission:
+    "Spaces passen sich Ihrem Workflow an – nach Abteilungen, Kunden, Projekten. Flexibel wie Sie arbeiten möchten.",
+  curator: "Kurator",
+  artisan: "Handwerker",
+  scribe: "Schreiber",
+  speedster: "Flitzer",
+  navigator: "Navigator",
+  architect: "Architekt",
+  favourite_board: "Board favorisieren",
+  favourite_card: "Karte favorisieren",
+  favourite_page: "Seite favorisieren",
+  reorder_favourites: "Favoriten per Drag & Drop neu ordnen",
+  add_table_to_comment: "Tabelle in Kommentar einfügen",
+  add_callout_to_card: "Hinweis in Kartenbeschreibung einfügen",
+  embed_youtube_to_page: "YouTube in Seite einbetten",
+  embed_board_to_page: "Board in Seite einbetten",
+  transcribe_meeting: "Meeting transkribieren",
+  view_transcript_action: "Transkript prüfen",
+  pause_meeting_for_summary: "Meeting beenden für automatische Zusammenfassung",
+  change_notes_template:
+    "Notizen-Vorlage ändern (z.B. Investoren-Meeting, Brainstorming, 1:1)",
+  convert_notes_to_cards: "Notizen in Karten umwandeln",
+  use_arrow_keys_action: "Pfeiltasten verwenden",
+  use_option_arrows: "Option + Pfeiltasten verwenden",
+  use_bulk_actions: "Massenaktionen verwenden",
+  use_magic_cover_image: "Magisches Titelbild verwenden",
+  set_parent_card_action: "Übergeordnete Karte festlegen",
+  open_side_dock_view_action: "Sidedock-Ansicht öffnen",
+  view_card_in_sidebar: "Andere Karte in Sidebar öffnen",
+  view_page_in_sidebar: "Andere Seite in Sidebar öffnen",
+  create_client_space: 'Erstellen Sie einen Space namens "Neuer Kunde"',
+  create_department_space: 'Erstellen Sie einen Space namens "Neue Abteilung"',
+  create_board_in_client_space:
+    'Erstellen Sie ein Board namens "Neues Kunden-Board" in Ihrem Neuer-Kunde-Space',
+  create_board_in_department_space:
+    'Erstellen Sie ein Board namens "Neues Abteilungs-Board" in Ihrem Neue-Abteilung-Space',
+  create_card_in_board:
+    'Erstellen Sie eine Karte namens "Neue Karte" in Ihrem Neuen-Kunden-Board',
+  move_card_between_spaces:
+    "Ziehen Sie Ihre neue Karte von Neuer Kunde zu Neue Abteilung",
 };
 
 export default de as Translations;
