@@ -2889,6 +2889,13 @@ const bs: Translations = {
   removeLink: "Ukloni link",
   linkAdded: "Link dodan",
   errorAddingLink: "Greška pri dodavanju linka",
+  createMissingTags: "Kreiraj nedostajuće oznake",
+  createMissingTagsDescription:
+    "Kreiraj oznake u prostoru %{space} ako ne postoje",
+  createACopyOfThisCard:
+    "Napravite kopiju ove kartice. Aktivnost i komentari neće biti kopirani.",
+  chooseWhereToDuplicateCard: "Odaberite gdje želite duplicirati karticu",
+  cardWillBeAddedToBottomOfList: "Kartica će biti dodana na dno liste",
   learnFavourites: "Naučite Omiljene",
   learnFavouritesDescription: "Izgradite svoju ličnu bazu",
   learnFavouritesMission:

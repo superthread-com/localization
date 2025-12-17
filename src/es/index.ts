@@ -2966,6 +2966,13 @@ const es = {
   removeLink: "Eliminar enlace",
   linkAdded: "Enlace añadido",
   errorAddingLink: "Error al añadir enlace",
+  createMissingTags: "Crear etiquetas faltantes",
+  createMissingTagsDescription:
+    "Crea etiquetas en el espacio %{space} si no existen",
+  createACopyOfThisCard:
+    "Crea una copia de esta tarjeta. La actividad y los comentarios no se copiarán.",
+  chooseWhereToDuplicateCard: "Elige dónde duplicar la tarjeta",
+  cardWillBeAddedToBottomOfList: "La tarjeta se añadirá al final de la lista",
   learnFavourites: "Aprender Favoritos",
   learnFavouritesDescription: "Construye tu base personal",
   learnFavouritesMission:

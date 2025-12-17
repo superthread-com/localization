@@ -2839,6 +2839,13 @@ const en = {
   removeLink: "Remove link",
   linkAdded: "Link added",
   errorAddingLink: "Error adding link",
+  createMissingTags: "Create missing tags",
+  createMissingTagsDescription:
+    "Create tags in %{space} space if they don't exist",
+  createACopyOfThisCard:
+    "Create a copy of this card. Activity & comments will not be copied.",
+  chooseWhereToDuplicateCard: "Choose where to duplicate the card",
+  cardWillBeAddedToBottomOfList: "Card will be added to the bottom of the list",
   learnFavourites: "Learn Favourites",
   learnFavouritesDescription: "Build your personal home base",
   learnFavouritesMission:

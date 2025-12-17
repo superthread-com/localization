@@ -2810,6 +2810,13 @@ const ko = {
   removeLink: "링크 제거",
   linkAdded: "링크 추가됨",
   errorAddingLink: "링크 추가 오류",
+  createMissingTags: "누락된 태그 생성",
+  createMissingTagsDescription:
+    "존재하지 않을 경우 %{space} 공간에 태그를 생성합니다",
+  createACopyOfThisCard:
+    "이 카드의 사본을 생성합니다. 활동 및 댓글은 복사되지 않습니다.",
+  chooseWhereToDuplicateCard: "카드를 복제할 위치를 선택하세요",
+  cardWillBeAddedToBottomOfList: "카드가 목록 하단에 추가됩니다",
   learnFavourites: "즐겨찾기 배우기",
   learnFavouritesDescription: "개인 홈 베이스 구축하기",
   learnFavouritesMission:

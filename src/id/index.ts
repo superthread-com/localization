@@ -2925,6 +2925,13 @@ const id = {
   removeLink: "Hapus tautan",
   linkAdded: "Tautan ditambahkan",
   errorAddingLink: "Kesalahan menambahkan tautan",
+  createMissingTags: "Buat tag yang hilang",
+  createMissingTagsDescription: "Buat tag di ruang %{space} jika belum ada",
+  createACopyOfThisCard:
+    "Buat salinan kartu ini. Aktivitas & komentar tidak akan disalin.",
+  chooseWhereToDuplicateCard: "Pilih tempat untuk menduplikasi kartu",
+  cardWillBeAddedToBottomOfList:
+    "Kartu akan ditambahkan di bagian bawah daftar",
   learnFavourites: "Pelajari Favorit",
   learnFavouritesDescription: "Bangun basis pribadi Anda",
   learnFavouritesMission:
