@@ -2857,10 +2857,8 @@ const ko = {
   embed_board_to_page: "페이지에 보드 삽입",
   transcribe_meeting: "회의 전사",
   view_transcript_action: "전사본 보기",
-  pause_meeting_for_summary:
-    "일시정지하여 종료 및 자동 요약 받기",
-  change_notes_template:
-    "노트 템플릿 변경 (투자자 미팅, 브레인스토밍, 1:1 등)",
+  pause_meeting_for_summary: "일시정지하여 종료 및 자동 요약 받기",
+  change_notes_template: "노트 템플릿 변경 (투자자 미팅, 브레인스토밍, 1:1 등)",
   convert_notes_to_cards: "노트를 카드로 변환",
   use_arrow_keys_action: "화살표 키 사용",
   use_option_arrows: "Option + 화살표 사용",

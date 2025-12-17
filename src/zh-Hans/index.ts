@@ -2718,8 +2718,7 @@ const zhHans = {
   transcribe_meeting: "转录会议",
   view_transcript_action: "查看转录",
   pause_meeting_for_summary: "暂停结束并获取自动摘要",
-  change_notes_template:
-    "更改笔记模板（投资者会面、头脑风暴、1对1 等）",
+  change_notes_template: "更改笔记模板（投资者会面、头脑风暴、1对1 等）",
   convert_notes_to_cards: "将笔记转换为卡片",
   use_arrow_keys_action: "使用箭头键",
   use_option_arrows: "使用 Option + 箭头",

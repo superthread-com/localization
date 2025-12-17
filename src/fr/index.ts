@@ -3028,8 +3028,7 @@ const fr: Translations = {
   embed_youtube_to_page: "Intégrer YouTube dans une page",
   embed_board_to_page: "Intégrer un tableau dans une page",
   transcribe_meeting: "Transcrire la réunion",
-  view_transcript_action:
-    "Consulter la transcription",
+  view_transcript_action: "Consulter la transcription",
   pause_meeting_for_summary:
     "Mettre en pause pour terminer et obtenir le résumé automatique",
   change_notes_template:

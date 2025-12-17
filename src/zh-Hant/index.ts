@@ -2723,8 +2723,7 @@ const zhHant = {
   transcribe_meeting: "轉錄會議",
   view_transcript_action: "查看轉錄",
   pause_meeting_for_summary: "暫停結束並獲取自動摘要",
-  change_notes_template:
-    "更改筆記範本（投資者會面、腦力激盪、1對1 等）",
+  change_notes_template: "更改筆記範本（投資者會面、腦力激盪、1對1 等）",
   convert_notes_to_cards: "將筆記轉換為卡片",
   use_arrow_keys_action: "使用箭頭鍵",
   use_option_arrows: "使用 Option + 箭頭",

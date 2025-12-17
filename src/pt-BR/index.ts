@@ -3000,10 +3000,8 @@ const ptBR = {
   embed_youtube_to_page: "Incorporar YouTube na página",
   embed_board_to_page: "Incorporar quadro na página",
   transcribe_meeting: "Transcrever reunião",
-  view_transcript_action:
-    "Ver transcrição",
-  pause_meeting_for_summary:
-    "Pausar para encerrar e obter resumo automático",
+  view_transcript_action: "Ver transcrição",
+  pause_meeting_for_summary: "Pausar para encerrar e obter resumo automático",
   change_notes_template:
     "Alterar modelo de notas (Reunião com investidor, Brainstorming, 1:1, etc.)",
   convert_notes_to_cards: "Converter notas em cartões",

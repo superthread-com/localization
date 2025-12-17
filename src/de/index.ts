@@ -3036,10 +3036,8 @@ const de = {
   embed_youtube_to_page: "YouTube in Seite einbetten",
   embed_board_to_page: "Board in Seite einbetten",
   transcribe_meeting: "Meeting transkribieren",
-  view_transcript_action:
-    "Transkript prüfen",
-  pause_meeting_for_summary:
-    "Meeting beenden für automatische Zusammenfassung",
+  view_transcript_action: "Transkript prüfen",
+  pause_meeting_for_summary: "Meeting beenden für automatische Zusammenfassung",
   change_notes_template:
     "Notizen-Vorlage ändern (z.B. Investoren-Meeting, Brainstorming, 1:1)",
   convert_notes_to_cards: "Notizen in Karten umwandeln",
@@ -3047,8 +3045,7 @@ const de = {
   use_option_arrows: "Option + Pfeiltasten verwenden",
   use_bulk_actions: "Massenaktionen verwenden",
   use_magic_cover_image: "Magisches Titelbild verwenden",
-  set_parent_card_action:
-    "Übergeordnete Karte festlegen",
+  set_parent_card_action: "Übergeordnete Karte festlegen",
   open_side_dock_view_action: "Sidedock-Ansicht öffnen",
   view_card_in_sidebar: "Andere Karte in Sidebar öffnen",
   view_page_in_sidebar: "Andere Seite in Sidebar öffnen",
