@@ -2899,7 +2899,6 @@ const pl = {
   helper: "Pomocnik",
   organiser: "Organizator",
   shaper: "Kształtownik",
-  scribe: "Skryba",
   master: "Mistrz",
   youHaveUnlocked: "Odblokowałeś",
   rank: "ranga",
@@ -2910,6 +2909,70 @@ const pl = {
   removeLink: "Usuń link",
   linkAdded: "Link dodany",
   errorAddingLink: "Błąd podczas dodawania linku",
+  learnFavourites: "Poznaj Ulubione",
+  learnFavouritesDescription: "Zbuduj swoją osobistą bazę",
+  learnFavouritesMission:
+    "Dostosuj do siebie, przypinając najważniejsze prace do paska bocznego.",
+  commandMastery: "Mistrzostwo Poleceń",
+  commandMasteryDescription: "Twoja ukryta skrzynka narzędzi",
+  commandMasteryMission:
+    "Nasz dynamiczny system jest elastyczny, aby pomóc Ci skalować.",
+  notesCourse: "Spotkania AI, Transkrypcje i Szablony Notatek",
+  notesCourseDescription: "Twój inteligentny asystent spotkań",
+  notesCourseMission:
+    "Transkrypcje AI dają Twojemu zespołowi jasność - przechwytując wszystko, co powiedziano, organizując spostrzeżenia i magicznie zamieniając dyskusje w działania ✨",
+  cardMastery: "Mistrzostwo Kart",
+  cardMasteryDescription: "Prędkość, którą możesz poczuć",
+  cardMasteryMission:
+    "Superthread jest zbudowany na szybkość. Kiedy się zadomowisz, będziesz fruwał przez swoją pracę.",
+  learnSidedockView: "Poznaj Widok Sidedock",
+  learnSidedockViewDescription: "Twój towarzysz głębokiej koncentracji",
+  learnSidedockViewMission:
+    "Wszystko w Superthread jest zaprojektowane z myślą o prostocie i elastyczności, w tym widoki.",
+  spacesMastery: "Mistrzostwo Przestrzeni - Uspokajające centrum dowodzenia",
+  spacesMasteryDescription:
+    "Tworzenie Przestrzeni Twojej organizacji - na Twój sposób",
+  spacesMasteryMission:
+    "Przestrzenie dostosowują się do Twojego przepływu pracy - według działów, klientów, projektów. Elastyczne jak chcesz pracować.",
+  curator: "Kurator",
+  artisan: "Rzemieślnik",
+  scribe: "Skryba",
+  speedster: "Szybki",
+  navigator: "Nawigator",
+  architect: "Architekt",
+  favourite_board: "Dodaj tablicę do ulubionych",
+  favourite_card: "Dodaj kartę do ulubionych",
+  favourite_page: "Dodaj stronę do ulubionych",
+  reorder_favourites: "Przeciągnij dowolny Ulubiony do innej kolejności",
+  add_table_to_comment: "Tabele w Komentarzach",
+  add_callout_to_card: "Wyróżnienia w Opisie Karty",
+  embed_youtube_to_page: "Osadzenia YouTube na Stronach",
+  embed_board_to_page: "Osadzenie Tablicy na Stronach",
+  transcribe_meeting: "Kliknij Transkrybuj spotkanie",
+  view_transcript_action: "Zobacz Transkrypcję, aby sprawdzić, czy działa",
+  pause_meeting_for_summary:
+    "Wstrzymaj, aby zakończyć spotkanie - nasza magia AI rozpocznie podsumowanie",
+  change_notes_template:
+    "Zmień Auto-ulepszone na nowy Szablon (Spotkanie z inwestorem, Burza mózgów, 1 na 1, itp.)",
+  convert_notes_to_cards: "Przekonwertuj swoje notatki na Karty",
+  use_arrow_keys_action: "Klawisze strzałek",
+  use_option_arrows: "Option + strzałki",
+  use_bulk_actions: "Akcje zbiorcze",
+  use_magic_cover_image: "Kliknij Magiczny Obraz Okładki",
+  set_parent_card_action: "Wybierz kartę i Ustaw Kartę Nadrzędną",
+  open_side_dock_view_action: "Kliknij Widok Sidedock",
+  view_card_in_sidebar: "Kliknij inną Kartę",
+  view_page_in_sidebar: "Kliknij inną Stronę",
+  create_client_space: 'Utwórz Przestrzeń o nazwie "Nowy Klient"',
+  create_department_space: 'Utwórz Przestrzeń o nazwie "Nowy Dział"',
+  create_board_in_client_space:
+    'Utwórz Tablicę o nazwie "Nowa Tablica Klienta" w przestrzeni Nowy Klient',
+  create_board_in_department_space:
+    'Utwórz Tablicę o nazwie "Nowa Tablica Działu" w przestrzeni Nowy Dział',
+  create_card_in_board:
+    'Utwórz Kartę o nazwie "Nowa Karta" w Twojej Nowej Tablicy Klienta',
+  move_card_between_spaces:
+    "Przeciągnij swoją nową kartę z Nowy Klient do Nowy Dział",
 };
 
 export default pl as Translations;

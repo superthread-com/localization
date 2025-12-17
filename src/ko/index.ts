@@ -2800,7 +2800,6 @@ const ko = {
   helper: "도우미",
   organiser: "주최자",
   shaper: "구성자",
-  scribe: "필사자",
   master: "마스터",
   youHaveUnlocked: "잠금 해제했습니다",
   rank: "등급",
@@ -2811,6 +2810,67 @@ const ko = {
   removeLink: "링크 제거",
   linkAdded: "링크 추가됨",
   errorAddingLink: "링크 추가 오류",
+  learnFavourites: "즐겨찾기 배우기",
+  learnFavouritesDescription: "개인 홈 베이스 구축하기",
+  learnFavouritesMission:
+    "가장 중요한 작업을 사이드바에 고정하여 나만의 방식으로 만드세요.",
+  commandMastery: "명령어 마스터하기",
+  commandMasteryDescription: "숨겨진 도구 상자",
+  commandMasteryMission:
+    "우리의 역동적인 시스템은 확장을 돕기 위해 유연합니다.",
+  notesCourse: "AI 회의, 전사 및 노트 템플릿",
+  notesCourseDescription: "스마트 회의 도우미",
+  notesCourseMission:
+    "AI 전사는 팀에 명확성을 제공합니다 - 말한 모든 것을 캡처하고, 인사이트를 정리하며, 토론을 마법처럼 행동으로 전환합니다 ✨",
+  cardMastery: "카드 마스터하기",
+  cardMasteryDescription: "느낄 수 있는 속도",
+  cardMasteryMission:
+    "Superthread는 속도를 위해 구축되었습니다. 익숙해지면 작업을 빠르게 처리할 수 있습니다.",
+  learnSidedockView: "사이드독 뷰 배우기",
+  learnSidedockViewDescription: "깊은 집중을 위한 동반자",
+  learnSidedockViewMission:
+    "Superthread의 모든 것은 보기를 포함하여 단순성과 유연성을 위해 설계되었습니다.",
+  spacesMastery: "스페이스 마스터하기 - 차분한 명령 센터",
+  spacesMasteryDescription: "조직의 스페이스 만들기 - 당신의 방식으로",
+  spacesMasteryMission:
+    "스페이스는 워크플로우에 맞게 조정됩니다 - 부서, 고객, 프로젝트별로. 원하는 방식대로 유연하게 작업하세요.",
+  curator: "큐레이터",
+  artisan: "장인",
+  scribe: "서기",
+  speedster: "스피드스터",
+  navigator: "네비게이터",
+  architect: "건축가",
+  favourite_board: "보드 즐겨찾기",
+  favourite_card: "카드 즐겨찾기",
+  favourite_page: "페이지 즐겨찾기",
+  reorder_favourites: "즐겨찾기를 다른 순서로 드래그",
+  add_table_to_comment: "댓글에 테이블 추가",
+  add_callout_to_card: "카드 설명에 콜아웃 추가",
+  embed_youtube_to_page: "페이지에 YouTube 임베드",
+  embed_board_to_page: "페이지에 보드 임베드",
+  transcribe_meeting: "회의 전사 클릭",
+  view_transcript_action: "전사본을 보고 작동하는지 확인하세요",
+  pause_meeting_for_summary:
+    "일시 정지하여 회의 종료 - AI 마법이 요약을 시작합니다",
+  change_notes_template:
+    "자동 향상을 새 템플릿으로 변경 (투자자 미팅, 브레인스토밍, 1대1 등)",
+  convert_notes_to_cards: "노트를 카드로 변환",
+  use_arrow_keys_action: "화살표 키",
+  use_option_arrows: "Option + 화살표",
+  use_bulk_actions: "대량 작업",
+  use_magic_cover_image: "매직 커버 이미지 클릭",
+  set_parent_card_action: "카드를 선택하고 상위 카드 설정",
+  open_side_dock_view_action: "사이드독 뷰 클릭",
+  view_card_in_sidebar: "다른 카드 클릭",
+  view_page_in_sidebar: "다른 페이지 클릭",
+  create_client_space: '"새 고객"이라는 스페이스 만들기',
+  create_department_space: '"새 부서"라는 스페이스 만들기',
+  create_board_in_client_space:
+    '새 고객 스페이스 안에 "새 고객 보드"라는 보드 만들기',
+  create_board_in_department_space:
+    '새 부서 스페이스 안에 "새 부서 보드"라는 보드 만들기',
+  create_card_in_board: '새 고객 보드 안에 "새 카드"라는 카드 만들기',
+  move_card_between_spaces: "새 고객에서 새 부서로 새 카드 드래그",
 };
 
 export default ko as Translations;

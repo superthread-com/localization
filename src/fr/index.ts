@@ -2971,7 +2971,6 @@ const fr: Translations = {
   helper: "Assistant",
   organiser: "Organisateur",
   shaper: "Façonneur",
-  scribe: "Scribe",
   master: "Maître",
   youHaveUnlocked: "Vous avez débloqué",
   rank: "rang",
@@ -2982,6 +2981,71 @@ const fr: Translations = {
   removeLink: "Supprimer le lien",
   linkAdded: "Lien ajouté",
   errorAddingLink: "Erreur lors de l'ajout du lien",
+  learnFavourites: "Apprendre les Favoris",
+  learnFavouritesDescription: "Construisez votre base personnelle",
+  learnFavouritesMission:
+    "Personnalisez-le en épinglant le travail qui compte le plus pour vous dans votre barre latérale.",
+  commandMastery: "Maîtrise des Commandes",
+  commandMasteryDescription: "Votre boîte à outils cachée",
+  commandMasteryMission:
+    "Notre système dynamique est flexible pour vous aider à évoluer.",
+  notesCourse: "Réunions IA, Transcriptions et Modèles de Notes",
+  notesCourseDescription: "Votre compagnon de réunion intelligent",
+  notesCourseMission:
+    "Les transcriptions IA donnent de la clarté à votre équipe - capturant tout ce qui est dit, organisant les insights et transformant les discussions en actions magiquement ✨",
+  cardMastery: "Maîtrise des Cartes",
+  cardMasteryDescription: "Une vitesse que vous pouvez sentir",
+  cardMasteryMission:
+    "Superthread est conçu pour la vitesse. Une fois installé, vous traverserez votre travail.",
+  learnSidedockView: "Apprendre la Vue Sidedock",
+  learnSidedockViewDescription: "Votre compagnon de concentration profonde",
+  learnSidedockViewMission:
+    "Tout dans Superthread est conçu pour la simplicité et la flexibilité, y compris les vues.",
+  spacesMastery: "Maîtrise des Espaces - Centre de commande apaisant",
+  spacesMasteryDescription:
+    "Créer les Espaces de votre organisation - à votre manière",
+  spacesMasteryMission:
+    "Les Espaces s'adaptent à votre flux de travail - par départements, clients, projets. Flexibles comme vous voulez travailler.",
+  curator: "Conservateur",
+  artisan: "Artisan",
+  scribe: "Scribe",
+  speedster: "Speedster",
+  navigator: "Navigateur",
+  architect: "Architecte",
+  favourite_board: "Mettre un tableau en favori",
+  favourite_card: "Mettre une carte en favori",
+  favourite_page: "Mettre une page en favori",
+  reorder_favourites: "Glissez n'importe quel Favori dans un autre ordre",
+  add_table_to_comment: "Tableaux dans les Commentaires",
+  add_callout_to_card: "Encadrés dans la Description de Carte",
+  embed_youtube_to_page: "Intégrations YouTube dans les Pages",
+  embed_board_to_page: "Intégration de Tableau dans les Pages",
+  transcribe_meeting: "Cliquez sur Transcrire une réunion",
+  view_transcript_action:
+    "Consultez la Transcription pour vérifier si elle fonctionne",
+  pause_meeting_for_summary:
+    "Mettez en pause pour terminer la réunion - notre magie IA lancera le résumé",
+  change_notes_template:
+    "Changez Auto-amélioré en un nouveau Modèle (Rattrapage investisseur, Brainstorm, 1 à 1, etc.)",
+  convert_notes_to_cards: "Convertissez vos notes en Cartes",
+  use_arrow_keys_action: "Touches fléchées",
+  use_option_arrows: "Option + flèches",
+  use_bulk_actions: "Actions en masse",
+  use_magic_cover_image: "Cliquez sur Image de Couverture Magique",
+  set_parent_card_action: "Choisissez une carte et Définir la Carte Parente",
+  open_side_dock_view_action: "Cliquez sur Vue Sidedock",
+  view_card_in_sidebar: "Cliquez sur une autre Carte",
+  view_page_in_sidebar: "Cliquez sur une autre Page",
+  create_client_space: 'Créez un Espace appelé "Nouveau Client"',
+  create_department_space: 'Créez un Espace appelé "Nouveau Département"',
+  create_board_in_client_space:
+    'Créez un Tableau appelé "Nouveau Tableau Client" dans votre espace Nouveau Client',
+  create_board_in_department_space:
+    'Créez un Tableau appelé "Nouveau Tableau Département" dans votre espace Nouveau Département',
+  create_card_in_board:
+    'Créez une Carte appelée "Nouvelle Carte" dans votre Nouveau Tableau Client',
+  move_card_between_spaces:
+    "Glissez votre nouvelle carte de Nouveau Client à Nouveau Département",
 };
 
 export default fr as Translations;

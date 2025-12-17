@@ -2944,7 +2944,6 @@ const ptBR = {
   helper: "Ajudante",
   organiser: "Organizador",
   shaper: "Moldador",
-  scribe: "Escriba",
   master: "Mestre",
   youHaveUnlocked: "Você desbloqueou",
   rank: "classificação",
@@ -2955,6 +2954,71 @@ const ptBR = {
   removeLink: "Remover link",
   linkAdded: "Link adicionado",
   errorAddingLink: "Erro ao adicionar link",
+  learnFavourites: "Aprender Favoritos",
+  learnFavouritesDescription: "Construa sua base pessoal",
+  learnFavouritesMission:
+    "Torne-o seu fixando o trabalho que mais importa para você na sua barra lateral.",
+  commandMastery: "Domínio de Comandos",
+  commandMasteryDescription: "Sua caixa de ferramentas oculta",
+  commandMasteryMission:
+    "Nosso sistema dinâmico é flexível para ajudá-lo a escalar.",
+  notesCourse: "Reuniões IA, Transcrições e Modelos de Notas",
+  notesCourseDescription: "Seu companheiro inteligente de reuniões",
+  notesCourseMission:
+    "As Transcrições IA dão clareza à sua equipe - capturando tudo o que foi dito, organizando insights e transformando discussões em ações magicamente ✨",
+  cardMastery: "Domínio de Cartões",
+  cardMasteryDescription: "Velocidade que você pode sentir",
+  cardMasteryMission:
+    "Superthread é construído para velocidade. Depois de se acomodar, você voará pelo seu trabalho.",
+  learnSidedockView: "Aprender Vista Sidedock",
+  learnSidedockViewDescription: "Seu companheiro de foco profundo",
+  learnSidedockViewMission:
+    "Tudo no Superthread é projetado para simplicidade e flexibilidade, incluindo visualizações.",
+  spacesMastery: "Domínio de Espaços - Centro de comando calmante",
+  spacesMasteryDescription:
+    "Criando os Espaços da sua organização - do seu jeito",
+  spacesMasteryMission:
+    "Os Espaços se adaptam ao seu fluxo de trabalho - por departamentos, clientes, projetos. Flexível como você quer trabalhar.",
+  curator: "Curador",
+  artisan: "Artesão",
+  scribe: "Escriba",
+  speedster: "Velocista",
+  navigator: "Navegador",
+  architect: "Arquiteto",
+  favourite_board: "Adicionar quadro aos favoritos",
+  favourite_card: "Adicionar cartão aos favoritos",
+  favourite_page: "Adicionar página aos favoritos",
+  reorder_favourites: "Arraste qualquer Favorito para outra ordem",
+  add_table_to_comment: "Tabelas em Comentários",
+  add_callout_to_card: "Destaques na Descrição do Cartão",
+  embed_youtube_to_page: "Incorporações do YouTube em Páginas",
+  embed_board_to_page: "Incorporação de Quadro em Páginas",
+  transcribe_meeting: "Clique em Transcrever uma reunião",
+  view_transcript_action:
+    "Veja a Transcrição para verificar se está funcionando",
+  pause_meeting_for_summary:
+    "Pause para encerrar a reunião - nossa mágica IA iniciará o resumo",
+  change_notes_template:
+    "Altere Auto-aprimorado para um novo Modelo (Reunião com investidor, Brainstorming, 1 a 1, etc.)",
+  convert_notes_to_cards: "Converta suas notas em Cartões",
+  use_arrow_keys_action: "Teclas de seta",
+  use_option_arrows: "Option + setas",
+  use_bulk_actions: "Ações em massa",
+  use_magic_cover_image: "Clique em Imagem de Capa Mágica",
+  set_parent_card_action: "Escolha um cartão e Definir Cartão Pai",
+  open_side_dock_view_action: "Clique em Vista Sidedock",
+  view_card_in_sidebar: "Clique em outro Cartão",
+  view_page_in_sidebar: "Clique em outra Página",
+  create_client_space: 'Crie um Espaço chamado "Novo Cliente"',
+  create_department_space: 'Crie um Espaço chamado "Novo Departamento"',
+  create_board_in_client_space:
+    'Crie um Quadro chamado "Novo Quadro de Cliente" dentro do seu espaço Novo Cliente',
+  create_board_in_department_space:
+    'Crie um Quadro chamado "Novo Quadro de Departamento" dentro do seu espaço Novo Departamento',
+  create_card_in_board:
+    'Crie um Cartão chamado "Novo Cartão" dentro do seu Novo Quadro de Cliente',
+  move_card_between_spaces:
+    "Arraste seu novo cartão de Novo Cliente para Novo Departamento",
 };
 
 export default ptBR as Translations;

@@ -2915,7 +2915,6 @@ const id = {
   helper: "Pembantu",
   organiser: "Pengatur",
   shaper: "Pembentuk",
-  scribe: "Penulis",
   master: "Ahli",
   youHaveUnlocked: "Anda telah membuka",
   rank: "peringkat",
@@ -2926,6 +2925,69 @@ const id = {
   removeLink: "Hapus tautan",
   linkAdded: "Tautan ditambahkan",
   errorAddingLink: "Kesalahan menambahkan tautan",
+  learnFavourites: "Pelajari Favorit",
+  learnFavouritesDescription: "Bangun basis pribadi Anda",
+  learnFavouritesMission:
+    "Buat menjadi milik Anda dengan menyematkan pekerjaan yang paling penting bagi Anda ke sidebar.",
+  commandMastery: "Penguasaan Perintah",
+  commandMasteryDescription: "Kotak peralatan tersembunyi Anda",
+  commandMasteryMission:
+    "Sistem dinamis kami fleksibel untuk membantu Anda berkembang.",
+  notesCourse: "Rapat AI, Transkripsi & Template Catatan",
+  notesCourseDescription: "Pendamping rapat cerdas Anda",
+  notesCourseMission:
+    "Transkripsi AI memberi kejelasan kepada tim Anda - menangkap semua yang dikatakan, mengatur wawasan, dan mengubah diskusi menjadi tindakan secara ajaib ✨",
+  cardMastery: "Penguasaan Kartu",
+  cardMasteryDescription: "Kecepatan yang bisa Anda rasakan",
+  cardMasteryMission:
+    "Superthread dibangun untuk kecepatan. Setelah Anda terbiasa, Anda akan terbang melalui pekerjaan Anda.",
+  learnSidedockView: "Pelajari Tampilan Sidedock",
+  learnSidedockViewDescription: "Pendamping fokus mendalam Anda",
+  learnSidedockViewMission:
+    "Semua yang ada di Superthread dirancang untuk kesederhanaan dan fleksibilitas, termasuk tampilan.",
+  spacesMastery: "Penguasaan Ruang - Pusat komando yang menenangkan",
+  spacesMasteryDescription: "Membuat Ruang organisasi Anda - dengan cara Anda",
+  spacesMasteryMission:
+    "Ruang beradaptasi dengan alur kerja Anda - berdasarkan departemen, klien, proyek. Fleksibel sesuai keinginan Anda bekerja.",
+  curator: "Kurator",
+  artisan: "Pengrajin",
+  scribe: "Juru Tulis",
+  speedster: "Pelaju",
+  navigator: "Navigator",
+  architect: "Arsitek",
+  favourite_board: "Favoritkan papan",
+  favourite_card: "Favoritkan kartu",
+  favourite_page: "Favoritkan halaman",
+  reorder_favourites: "Seret Favorit apa pun ke urutan lain",
+  add_table_to_comment: "Tabel ke dalam Komentar",
+  add_callout_to_card: "Callout ke dalam Deskripsi Kartu",
+  embed_youtube_to_page: "Embed YouTube ke dalam Halaman",
+  embed_board_to_page: "Embed Papan ke dalam Halaman",
+  transcribe_meeting: "Klik Transkripsi rapat",
+  view_transcript_action: "Lihat Transkrip untuk memeriksa apakah berfungsi",
+  pause_meeting_for_summary:
+    "Jeda untuk mengakhiri rapat - keajaiban AI kami akan memulai ringkasan",
+  change_notes_template:
+    "Ubah Ditingkatkan otomatis ke Template baru (Pertemuan investor, Brainstorming, 1 lawan 1, dll.)",
+  convert_notes_to_cards: "Ubah catatan Anda menjadi Kartu",
+  use_arrow_keys_action: "Tombol panah",
+  use_option_arrows: "Option + panah",
+  use_bulk_actions: "Tindakan massal",
+  use_magic_cover_image: "Klik Gambar Sampul Ajaib",
+  set_parent_card_action: "Pilih kartu dan Tetapkan Kartu Induk",
+  open_side_dock_view_action: "Klik Tampilan Sidedock",
+  view_card_in_sidebar: "Klik ke Kartu lain",
+  view_page_in_sidebar: "Klik ke Halaman lain",
+  create_client_space: 'Buat Ruang bernama "Klien Baru"',
+  create_department_space: 'Buat Ruang bernama "Departemen Baru"',
+  create_board_in_client_space:
+    'Buat Papan bernama "Papan Klien Baru" di dalam ruang Klien Baru Anda',
+  create_board_in_department_space:
+    'Buat Papan bernama "Papan Departemen Baru" di dalam ruang Departemen Baru Anda',
+  create_card_in_board:
+    'Buat Kartu bernama "Kartu Baru" di dalam Papan Klien Baru Anda',
+  move_card_between_spaces:
+    "Seret kartu baru Anda dari Klien Baru ke Departemen Baru",
 };
 
 export default id as Translations;

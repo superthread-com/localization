@@ -2879,7 +2879,6 @@ const bs: Translations = {
   helper: "Pomoćnik",
   organiser: "Organizator",
   shaper: "Oblikovalac",
-  scribe: "Zapisničar",
   master: "Majstor",
   youHaveUnlocked: "Otključao si",
   rank: "rang",
@@ -2890,6 +2889,70 @@ const bs: Translations = {
   removeLink: "Ukloni link",
   linkAdded: "Link dodan",
   errorAddingLink: "Greška pri dodavanju linka",
+  learnFavourites: "Naučite Omiljene",
+  learnFavouritesDescription: "Izgradite svoju ličnu bazu",
+  learnFavouritesMission:
+    "Prilagodite ga sebi tako što ćete zakačiti najvažnije poslove u bočnu traku.",
+  commandMastery: "Majstorstvo Komandi",
+  commandMasteryDescription: "Vaša skrivena kutija s alatima",
+  commandMasteryMission:
+    "Naš dinamični sistem je fleksibilan da vam pomogne da se skalirate.",
+  notesCourse: "AI Sastanci, Transkripcije i Predlošci Bilješki",
+  notesCourseDescription: "Vaš pametni pratilac na sastancima",
+  notesCourseMission:
+    "AI Transkripcije daju vašem timu jasnoću - snimajući sve što je rečeno, organizujući uvide i magično pretvarajući diskusije u akcije ✨",
+  cardMastery: "Majstorstvo Kartica",
+  cardMasteryDescription: "Brzina koju možete osjetiti",
+  cardMasteryMission:
+    "Superthread je dizajniran za brzinu. Kada se smjestite, letjet ćete kroz svoj rad.",
+  learnSidedockView: "Naučite Sidedock Prikaz",
+  learnSidedockViewDescription: "Vaš pratilac za duboku koncentraciju",
+  learnSidedockViewMission:
+    "Sve u Superthread-u je dizajnirano za jednostavnost i fleksibilnost, uključujući prikaze.",
+  spacesMastery: "Majstorstvo Prostora - Smirujući komandni centar",
+  spacesMasteryDescription:
+    "Stvaranje Prostora vaše organizacije - na vaš način",
+  spacesMasteryMission:
+    "Prostori se prilagođavaju vašem radnom toku - prema odjelima, klijentima, projektima. Fleksibilno kako želite raditi.",
+  curator: "Kustos",
+  artisan: "Zanatlija",
+  scribe: "Pisar",
+  speedster: "Brzinac",
+  navigator: "Navigator",
+  architect: "Arhitekta",
+  favourite_board: "Dodaj tablu u omiljene",
+  favourite_card: "Dodaj karticu u omiljene",
+  favourite_page: "Dodaj stranicu u omiljene",
+  reorder_favourites: "Prevucite bilo koji Omiljeni u drugi redoslijed",
+  add_table_to_comment: "Tabele u Komentare",
+  add_callout_to_card: "Isticanja u Opis Kartice",
+  embed_youtube_to_page: "YouTube Umetanja u Stranice",
+  embed_board_to_page: "Umetanje Table u Stranice",
+  transcribe_meeting: "Kliknite Transkribiraj sastanak",
+  view_transcript_action: "Pogledajte Transkripciju da provjerite da li radi",
+  pause_meeting_for_summary:
+    "Pauzirajte da završite sastanak - naša AI magija će pokrenuti sažetak",
+  change_notes_template:
+    "Promijenite Auto-poboljšano u novi Predložak (Susret s investitorom, Brainstorming, 1 na 1, itd.)",
+  convert_notes_to_cards: "Pretvorite svoje bilješke u Kartice",
+  use_arrow_keys_action: "Tipke sa strelicama",
+  use_option_arrows: "Option + strelice",
+  use_bulk_actions: "Masovne akcije",
+  use_magic_cover_image: "Kliknite Čarobna Naslovna Slika",
+  set_parent_card_action: "Odaberite karticu i Postavite Roditeljsku Karticu",
+  open_side_dock_view_action: "Kliknite Sidedock Prikaz",
+  view_card_in_sidebar: "Kliknite na drugu Karticu",
+  view_page_in_sidebar: "Kliknite na drugu Stranicu",
+  create_client_space: 'Napravite Prostor nazvan "Novi Klijent"',
+  create_department_space: 'Napravite Prostor nazvan "Novi Odjel"',
+  create_board_in_client_space:
+    'Napravite Tablu nazvanu "Nova Tablica Klijenta" unutar vašeg prostora Novi Klijent',
+  create_board_in_department_space:
+    'Napravite Tablu nazvanu "Nova Tablica Odjela" unutar vašeg prostora Novi Odjel',
+  create_card_in_board:
+    'Napravite Karticu nazvanu "Nova Kartica" unutar vaše Nove Tablice Klijenta',
+  move_card_between_spaces:
+    "Prevucite svoju novu karticu od Novi Klijent do Novi Odjel",
 };
 
 export default bs;

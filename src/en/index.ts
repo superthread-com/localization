@@ -2829,7 +2829,6 @@ const en = {
   helper: "Helper",
   organiser: "Organiser",
   shaper: "Shaper",
-  scribe: "Scribe",
   master: "Master",
   youHaveUnlocked: "You have unlocked",
   rank: "rank",
@@ -2840,6 +2839,68 @@ const en = {
   removeLink: "Remove link",
   linkAdded: "Link added",
   errorAddingLink: "Error adding link",
+  learnFavourites: "Learn Favourites",
+  learnFavouritesDescription: "Build your personal home base",
+  learnFavouritesMission:
+    "Make it your own by pinning the work that matters to you most into your sidebar.",
+  commandMastery: "Command Mastery",
+  commandMasteryDescription: "Your hidden toolbox",
+  commandMasteryMission: "Our dynamic system is flexible to help you scale.",
+  notesCourse: "AI Meetings, Transcriptions & Notes Templates",
+  notesCourseDescription: "Your smart meeting companion",
+  notesCourseMission:
+    "AI Transcriptions give your team clarity — capturing everything said, organising insights, and turning discussions into actions magically ✨",
+  cardMastery: "Card Mastery",
+  cardMasteryDescription: "Speed you can feel",
+  cardMasteryMission:
+    "Superthread is built for speed. Once you’re settled, you’ll fly through your work.",
+  learnSidedockView: "Learn Sidedock View",
+  learnSidedockViewDescription: "Your deep focus companion",
+  learnSidedockViewMission:
+    "Everything in Superthread is designed for simplicity and flexibility, including views.",
+  spacesMastery: "Spaces Mastery - Calming command centre",
+  spacesMasteryDescription: "Creating your organization’s Spaces – your way",
+  spacesMasteryMission:
+    "Spaces adapt to your workflow – by departments, clients, projects. Flex it anyway you want to work.",
+  curator: "Curator",
+  artisan: "Artisan",
+  scribe: "Scribe",
+  speedster: "Speedster",
+  navigator: "Navigator",
+  architect: "Architect",
+  favourite_board: "Favourite a board",
+  favourite_card: "Favourite a card",
+  favourite_page: "Favourite a page",
+  reorder_favourites: "Drag any Favorite into another order",
+  add_table_to_comment: "Tables into Comments",
+  add_callout_to_card: "Callouts into Card Description",
+  embed_youtube_to_page: "YouTube Embeds into Pages",
+  embed_board_to_page: "Board Embed into Pages",
+  transcribe_meeting: "Click Transcribe a meeting",
+  view_transcript_action: "View the Transcript to check if it’s working",
+  pause_meeting_for_summary:
+    "Pause to end the meeting – our AI magic will start the summary",
+  change_notes_template:
+    "Change Auto-enhanced to a new Template (Investor catch-up, Brainstorm, 1 on 1, etc.)",
+  convert_notes_to_cards: "Convert your notes into Cards",
+  use_arrow_keys_action: "Arrow keys",
+  use_option_arrows: "Option + arrows",
+  use_bulk_actions: "Bulk actions",
+  use_magic_cover_image: "Click Magic Cover Image",
+  set_parent_card_action: "Choose a card and Set Parent Card",
+  open_side_dock_view_action: "Click Side Dock View",
+  view_card_in_sidebar: "Click into another Card",
+  view_page_in_sidebar: "Click into another Page",
+  create_client_space: "Create a Space called “New Client”",
+  create_department_space: "Create a Space called “New Department”",
+  create_board_in_client_space:
+    "Create a Board called “New Client Board” inside your New Client space",
+  create_board_in_department_space:
+    "Create a Board called “New Department Board” inside your New Department space",
+  create_card_in_board:
+    "Create a Card called “New Card” inside your New ClientBoard",
+  move_card_between_spaces:
+    "Drag your new card from New Client to New Department",
 };
 
 export default en as Translations;
