@@ -2878,8 +2878,8 @@ const bs: Translations = {
   advanced_features: "Napredne funkcije",
   helper: "Pomoćnik",
   organiser: "Organizator",
-  shaper: "Oblikovalac",
-  master: "Majstor",
+  shaper: "Oblikovatelj",
+  master: "Maestro",
   youHaveUnlocked: "Otključao si",
   rank: "rang",
   trelloDescription:
@@ -2901,7 +2901,7 @@ const bs: Translations = {
   learnFavouritesMission:
     "Prilagodite ga sebi tako što ćete zakačiti najvažnije poslove u bočnu traku.",
   commandMastery: "Majstorstvo Komandi",
-  commandMasteryDescription: "Vaša skrivena kutija s alatima",
+  commandMasteryDescription: "Vaš skriveni alatni panel",
   commandMasteryMission:
     "Naš dinamični sistem je fleksibilan da vam pomogne da se skalirate.",
   notesCourse: "AI Sastanci, Transkripcije i Predlošci Bilješki",
@@ -2916,15 +2916,15 @@ const bs: Translations = {
   learnSidedockViewDescription: "Vaš pratilac za duboku koncentraciju",
   learnSidedockViewMission:
     "Sve u Superthread-u je dizajnirano za jednostavnost i fleksibilnost, uključujući prikaze.",
-  spacesMastery: "Majstorstvo Prostora - Smirujući komandni centar",
+  spacesMastery: "Majstorstvo Prostora - Opuštajući komandni centar",
   spacesMasteryDescription:
     "Stvaranje Prostora vaše organizacije - na vaš način",
   spacesMasteryMission:
     "Prostori se prilagođavaju vašem radnom toku - prema odjelima, klijentima, projektima. Fleksibilno kako želite raditi.",
   curator: "Kustos",
-  artisan: "Zanatlija",
+  artisan: "Rukotvorac",
   scribe: "Pisar",
-  speedster: "Brzinac",
+  speedster: "Brzi",
   navigator: "Navigator",
   architect: "Arhitekta",
   favourite_board: "Dodaj tablu u omiljene",
