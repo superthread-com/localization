@@ -2960,6 +2960,12 @@ const bs: Translations = {
     'Napravite Karticu nazvanu "Nova Kartica" unutar vaše Nove Tablice Klijenta',
   move_card_between_spaces:
     "Prevucite svoju novu karticu od Novi Klijent do Novi Odjel",
+  moveBoard: "Premjesti tablu",
+  moveBoardDescription:
+    "Neki tagovi korišteni u ovoj tabli ne postoje u %{space} prostoru i bit će uklonjeni sa kartica.",
+  missingTags: "Tagovi koji nedostaju",
+  createMissingTagsInSpaceDescription:
+    "Kreirajte tagove u %{space} prostoru ako ne postoje",
 };
 
 export default bs;

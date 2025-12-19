@@ -2908,6 +2908,12 @@ const en = {
     "Create a Card called “New Card” inside your New ClientBoard",
   move_card_between_spaces:
     "Drag your new card from New Client to New Department",
+  moveBoard: "Move board",
+  moveBoardDescription:
+    "Some tags used in this board do not exist in the %{space} space and will be removed from cards.",
+  missingTags: "Missing tags",
+  createMissingTagsInSpaceDescription:
+    "Create tags in %{space} space if they don't exist",
 };
 
 export default en as Translations;

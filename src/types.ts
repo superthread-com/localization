@@ -2575,6 +2575,10 @@ export enum TranslationKeys {
   CreateBoardInDepartmentSpace = "create_board_in_department_space",
   CreateCardInBoard = "create_card_in_board",
   MoveCardBetweenSpaces = "move_card_between_spaces",
+  MoveBoard = "moveBoard",
+  MoveBoardDescription = "moveBoardDescription",
+  MissingTags = "missingTags",
+  CreateMissingTagsInSpaceDescription = "createMissingTagsInSpaceDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

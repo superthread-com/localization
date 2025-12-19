@@ -3052,6 +3052,12 @@ const fr: Translations = {
     'Créez une Carte appelée "Nouvelle Carte" dans votre Nouveau Tableau Client',
   move_card_between_spaces:
     "Glissez votre nouvelle carte de Nouveau Client à Nouveau Département",
+  moveBoard: "Déplacer le tableau",
+  moveBoardDescription:
+    "Certaines étiquettes utilisées dans ce tableau n'existent pas dans l'espace %{space} et seront supprimées des cartes.",
+  missingTags: "Étiquettes manquantes",
+  createMissingTagsInSpaceDescription:
+    "Créer des étiquettes dans l'espace %{space} si elles n'existent pas",
 };
 
 export default fr as Translations;

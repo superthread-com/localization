@@ -2980,6 +2980,12 @@ const pl = {
     'Utwórz Kartę o nazwie "Nowa Karta" w Twojej Nowej Tablicy Klienta',
   move_card_between_spaces:
     "Przeciągnij swoją nową kartę z Nowy Klient do Nowy Dział",
+  moveBoard: "Przenieś tablicę",
+  moveBoardDescription:
+    "Niektóre tagi użyte w tej tablicy nie istnieją w przestrzeni %{space} i zostaną usunięte z kart.",
+  missingTags: "Brakujące tagi",
+  createMissingTagsInSpaceDescription:
+    "Utwórz tagi w przestrzeni %{space}, jeśli nie istnieją",
 };
 
 export default pl as Translations;

@@ -3023,6 +3023,12 @@ const ptBR = {
     'Crie um Cartão chamado "Novo Cartão" dentro do seu Novo Quadro de Cliente',
   move_card_between_spaces:
     "Arraste seu novo cartão de Novo Cliente para Novo Departamento",
+  moveBoard: "Mover quadro",
+  moveBoardDescription:
+    "Algumas tags usadas neste quadro não existem no espaço %{space} e serão removidas dos cartões.",
+  missingTags: "Tags ausentes",
+  createMissingTagsInSpaceDescription:
+    "Criar tags no espaço %{space} se não existirem",
 };
 
 export default ptBR as Translations;

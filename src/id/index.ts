@@ -2995,6 +2995,12 @@ const id = {
     'Buat Kartu bernama "Kartu Baru" di dalam Papan Klien Baru Anda',
   move_card_between_spaces:
     "Seret kartu baru Anda dari Klien Baru ke Departemen Baru",
+  moveBoard: "Pindahkan papan",
+  moveBoardDescription:
+    "Beberapa tag yang digunakan di papan ini tidak ada di ruang %{space} dan akan dihapus dari kartu.",
+  missingTags: "Tag yang hilang",
+  createMissingTagsInSpaceDescription:
+    "Buat tag di ruang %{space} jika tidak ada",
 };
 
 export default id as Translations;

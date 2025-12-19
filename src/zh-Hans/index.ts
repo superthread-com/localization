@@ -2736,6 +2736,12 @@ const zhHans = {
     '在您的新部门空间内创建一个名为"新部门看板"的看板',
   create_card_in_board: '在您的新客户看板内创建一张名为"新卡片"的卡片',
   move_card_between_spaces: "将您的新卡片从新客户拖到新部门",
+  moveBoard: "移动看板",
+  moveBoardDescription:
+    "此看板中使用的某些标签在 %{space} 空间中不存在，将从卡片中删除。",
+  missingTags: "缺失的标签",
+  createMissingTagsInSpaceDescription:
+    "如果 %{space} 空间中不存在标签，则创建标签",
 };
 
 export default zhHans as Translations;

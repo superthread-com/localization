@@ -3059,6 +3059,12 @@ const de = {
     'Erstellen Sie eine Karte namens "Neue Karte" in Ihrem Neuen-Kunden-Board',
   move_card_between_spaces:
     "Ziehen Sie Ihre neue Karte von Neuer Kunde zu Neue Abteilung",
+  moveBoard: "Board verschieben",
+  moveBoardDescription:
+    "Einige Tags, die in diesem Board verwendet werden, existieren nicht im %{space} Space und werden von den Karten entfernt.",
+  missingTags: "Fehlende Tags",
+  createMissingTagsInSpaceDescription:
+    "Tags im %{space} Space erstellen, falls sie nicht existieren",
 };
 
 export default de as Translations;
