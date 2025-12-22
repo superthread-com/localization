@@ -2746,6 +2746,12 @@ const zhHant = {
   onboardingNewClientBoard: "新客戶看板",
   onboardingNewDepartmentBoard: "新部門看板",
   onboardingNewCard: "新卡片",
+  moveBoard: "移動看板",
+  moveBoardDescription:
+    "此看板中使用的某些標籤在 %{space} 空間中不存在，將從卡片中刪除。",
+  missingTags: "缺少的標籤",
+  createMissingTagsInSpaceDescription:
+    "如果 %{space} 空間中不存在標籤，則建立標籤",
 };
 
 export default zhHant as Translations;

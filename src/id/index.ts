@@ -3000,6 +3000,12 @@ const id = {
   onboardingNewClientBoard: "Papan Klien Baru",
   onboardingNewDepartmentBoard: "Papan Departemen Baru",
   onboardingNewCard: "Kartu Baru",
+  moveBoard: "Pindahkan papan",
+  moveBoardDescription:
+    "Beberapa tag yang digunakan di papan ini tidak ada di ruang %{space} dan akan dihapus dari kartu.",
+  missingTags: "Tag yang hilang",
+  createMissingTagsInSpaceDescription:
+    "Buat tag di ruang %{space} jika tidak ada",
 };
 
 export default id as Translations;

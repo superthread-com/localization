@@ -2741,6 +2741,12 @@ const zhHans = {
   onboardingNewClientBoard: "新客户看板",
   onboardingNewDepartmentBoard: "新部门看板",
   onboardingNewCard: "新卡片",
+  moveBoard: "移动看板",
+  moveBoardDescription:
+    "此看板中使用的某些标签在 %{space} 空间中不存在，将从卡片中删除。",
+  missingTags: "缺失的标签",
+  createMissingTagsInSpaceDescription:
+    "如果 %{space} 空间中不存在标签，则创建标签",
 };
 
 export default zhHans as Translations;

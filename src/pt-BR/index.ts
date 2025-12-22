@@ -3028,6 +3028,12 @@ const ptBR = {
   onboardingNewClientBoard: "Novo Quadro de Cliente",
   onboardingNewDepartmentBoard: "Novo Quadro de Departamento",
   onboardingNewCard: "Novo Cartão",
+  moveBoard: "Mover quadro",
+  moveBoardDescription:
+    "Algumas tags usadas neste quadro não existem no espaço %{space} e serão removidas dos cartões.",
+  missingTags: "Tags ausentes",
+  createMissingTagsInSpaceDescription:
+    "Criar tags no espaço %{space} se não existirem",
 };
 
 export default ptBR as Translations;

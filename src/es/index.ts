@@ -3042,6 +3042,12 @@ const es = {
   onboardingNewClientBoard: "Nuevo Tablero de Cliente",
   onboardingNewDepartmentBoard: "Nuevo Tablero de Departamento",
   onboardingNewCard: "Nueva Tarjeta",
+  moveBoard: "Mover tablero",
+  moveBoardDescription:
+    "Algunas etiquetas utilizadas en este tablero no existen en el espacio %{space} y se eliminarán de las tarjetas.",
+  missingTags: "Etiquetas faltantes",
+  createMissingTagsInSpaceDescription:
+    "Crear etiquetas en el espacio %{space} si no existen",
 };
 
 export default es as Translations;

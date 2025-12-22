@@ -3064,6 +3064,12 @@ const de = {
   onboardingNewClientBoard: "Neues Kunden-Board",
   onboardingNewDepartmentBoard: "Neues Abteilungs-Board",
   onboardingNewCard: "Neue Karte",
+  moveBoard: "Board verschieben",
+  moveBoardDescription:
+    "Einige Tags, die in diesem Board verwendet werden, existieren nicht im %{space} Space und werden von den Karten entfernt.",
+  missingTags: "Fehlende Tags",
+  createMissingTagsInSpaceDescription:
+    "Tags im %{space} Space erstellen, falls sie nicht existieren",
 };
 
 export default de as Translations;

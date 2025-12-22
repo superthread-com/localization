@@ -2913,6 +2913,12 @@ const en = {
   onboardingNewClientBoard: "New Client Board",
   onboardingNewDepartmentBoard: "New Department Board",
   onboardingNewCard: "New Card",
+  moveBoard: "Move board",
+  moveBoardDescription:
+    "Some tags used in this board do not exist in the %{space} space and will be removed from cards.",
+  missingTags: "Missing tags",
+  createMissingTagsInSpaceDescription:
+    "Create tags in %{space} space if they don't exist",
 };
 
 export default en as Translations;

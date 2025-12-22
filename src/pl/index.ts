@@ -2985,6 +2985,12 @@ const pl = {
   onboardingNewClientBoard: "Nowa Tablica Klienta",
   onboardingNewDepartmentBoard: "Nowa Tablica Działu",
   onboardingNewCard: "Nowa Karta",
+  moveBoard: "Przenieś tablicę",
+  moveBoardDescription:
+    "Niektóre tagi użyte w tej tablicy nie istnieją w przestrzeni %{space} i zostaną usunięte z kart.",
+  missingTags: "Brakujące tagi",
+  createMissingTagsInSpaceDescription:
+    "Utwórz tagi w przestrzeni %{space}, jeśli nie istnieją",
 };
 
 export default pl as Translations;

@@ -2580,6 +2580,10 @@ export enum TranslationKeys {
   OnboardingNewClientBoard = "onboardingNewClientBoard",
   OnboardingNewDepartmentBoard = "onboardingNewDepartmentBoard",
   OnboardingNewCard = "onboardingNewCard",
+  MoveBoard = "moveBoard",
+  MoveBoardDescription = "moveBoardDescription",
+  MissingTags = "missingTags",
+  CreateMissingTagsInSpaceDescription = "createMissingTagsInSpaceDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

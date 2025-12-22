@@ -3057,6 +3057,12 @@ const fr: Translations = {
   onboardingNewClientBoard: "Nouveau Tableau Client",
   onboardingNewDepartmentBoard: "Nouveau Tableau Département",
   onboardingNewCard: "Nouvelle Carte",
+  moveBoard: "Déplacer le tableau",
+  moveBoardDescription:
+    "Certaines étiquettes utilisées dans ce tableau n'existent pas dans l'espace %{space} et seront supprimées des cartes.",
+  missingTags: "Étiquettes manquantes",
+  createMissingTagsInSpaceDescription:
+    "Créer des étiquettes dans l'espace %{space} si elles n'existent pas",
 };
 
 export default fr as Translations;

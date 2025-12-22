@@ -2881,6 +2881,11 @@ const ko = {
   onboardingNewClientBoard: "새 고객 보드",
   onboardingNewDepartmentBoard: "새 부서 보드",
   onboardingNewCard: "새 카드",
+  moveBoard: "보드 이동",
+  moveBoardDescription:
+    "이 보드에서 사용된 일부 태그가 %{space} 공간에 존재하지 않아 카드에서 제거됩니다.",
+  missingTags: "누락된 태그",
+  createMissingTagsInSpaceDescription: "%{space} 공간에 태그가 없으면 생성하기",
 };
 
 export default ko as Translations;
