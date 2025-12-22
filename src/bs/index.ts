@@ -2953,17 +2953,17 @@ const bs: Translations = {
   create_client_space: 'Napravite Prostor nazvan "Novi Klijent"',
   create_department_space: 'Napravite Prostor nazvan "Novi Odjel"',
   create_board_in_client_space:
-    'Napravite Tablu nazvanu "Nova Tablica Klijenta" unutar vašeg prostora Novi Klijent',
+    'Napravite Tablu nazvanu "Nova Ploča Klijenta" unutar vašeg prostora Novi Klijent',
   create_board_in_department_space:
-    'Napravite Tablu nazvanu "Nova Tablica Odjela" unutar vašeg prostora Novi Odjel',
+    'Napravite Tablu nazvanu "Nova Ploča Odjela" unutar vašeg prostora Novi Odjel',
   create_card_in_board:
     'Napravite Karticu nazvanu "Nova Kartica" unutar vaše Nove Tablice Klijenta',
   move_card_between_spaces:
     "Prevucite svoju novu karticu od Novi Klijent do Novi Odjel",
   onboardingNewClientSpace: "Novi Klijent",
   onboardingNewDepartmentSpace: "Novi Odjel",
-  onboardingNewClientBoard: "Nova Tablica Klijenta",
-  onboardingNewDepartmentBoard: "Nova Tablica Odjela",
+  onboardingNewClientBoard: "Nova Ploča Klijenta",
+  onboardingNewDepartmentBoard: "Nova Ploča Odjela",
   onboardingNewCard: "Nova Kartica",
   moveBoard: "Premjesti ploču",
   moveBoardDescription:
