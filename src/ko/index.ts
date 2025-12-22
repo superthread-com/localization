@@ -2876,6 +2876,11 @@ const ko = {
     '새 부서 스페이스 안에 "새 부서 보드"라는 보드 만들기',
   create_card_in_board: '새 고객 보드 안에 "새 카드"라는 카드 만들기',
   move_card_between_spaces: "새 고객에서 새 부서로 새 카드 드래그",
+  onboardingNewClientSpace: "새 고객",
+  onboardingNewDepartmentSpace: "새 부서",
+  onboardingNewClientBoard: "새 고객 보드",
+  onboardingNewDepartmentBoard: "새 부서 보드",
+  onboardingNewCard: "새 카드",
 };
 
 export default ko as Translations;

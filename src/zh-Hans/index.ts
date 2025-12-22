@@ -2736,6 +2736,11 @@ const zhHans = {
     '在您的新部门空间内创建一个名为"新部门看板"的看板',
   create_card_in_board: '在您的新客户看板内创建一张名为"新卡片"的卡片',
   move_card_between_spaces: "将您的新卡片从新客户拖到新部门",
+  onboardingNewClientSpace: "新客户",
+  onboardingNewDepartmentSpace: "新部门",
+  onboardingNewClientBoard: "新客户看板",
+  onboardingNewDepartmentBoard: "新部门看板",
+  onboardingNewCard: "新卡片",
 };
 
 export default zhHans as Translations;

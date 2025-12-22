@@ -3052,6 +3052,11 @@ const fr: Translations = {
     'Créez une Carte appelée "Nouvelle Carte" dans votre Nouveau Tableau Client',
   move_card_between_spaces:
     "Glissez votre nouvelle carte de Nouveau Client à Nouveau Département",
+  onboardingNewClientSpace: "Nouveau Client",
+  onboardingNewDepartmentSpace: "Nouveau Département",
+  onboardingNewClientBoard: "Nouveau Tableau Client",
+  onboardingNewDepartmentBoard: "Nouveau Tableau Département",
+  onboardingNewCard: "Nouvelle Carte",
 };
 
 export default fr as Translations;

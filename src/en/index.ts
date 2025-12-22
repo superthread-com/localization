@@ -2908,6 +2908,11 @@ const en = {
     "Create a Card called “New Card” inside your New ClientBoard",
   move_card_between_spaces:
     "Drag your new card from New Client to New Department",
+  onboardingNewClientSpace: "New Client",
+  onboardingNewDepartmentSpace: "New Department",
+  onboardingNewClientBoard: "New Client Board",
+  onboardingNewDepartmentBoard: "New Department Board",
+  onboardingNewCard: "New Card",
 };
 
 export default en as Translations;

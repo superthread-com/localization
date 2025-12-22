@@ -2995,6 +2995,11 @@ const id = {
     'Buat Kartu bernama "Kartu Baru" di dalam Papan Klien Baru Anda',
   move_card_between_spaces:
     "Seret kartu baru Anda dari Klien Baru ke Departemen Baru",
+  onboardingNewClientSpace: "Klien Baru",
+  onboardingNewDepartmentSpace: "Departemen Baru",
+  onboardingNewClientBoard: "Papan Klien Baru",
+  onboardingNewDepartmentBoard: "Papan Departemen Baru",
+  onboardingNewCard: "Kartu Baru",
 };
 
 export default id as Translations;

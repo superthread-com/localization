@@ -2960,6 +2960,11 @@ const bs: Translations = {
     'Napravite Karticu nazvanu "Nova Kartica" unutar vaše Nove Tablice Klijenta',
   move_card_between_spaces:
     "Prevucite svoju novu karticu od Novi Klijent do Novi Odjel",
+  onboardingNewClientSpace: "Novi Klijent",
+  onboardingNewDepartmentSpace: "Novi Odjel",
+  onboardingNewClientBoard: "Nova Tablica Klijenta",
+  onboardingNewDepartmentBoard: "Nova Tablica Odjela",
+  onboardingNewCard: "Nova Kartica",
 };
 
 export default bs;

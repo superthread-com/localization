@@ -2980,6 +2980,11 @@ const pl = {
     'Utwórz Kartę o nazwie "Nowa Karta" w Twojej Nowej Tablicy Klienta',
   move_card_between_spaces:
     "Przeciągnij swoją nową kartę z Nowy Klient do Nowy Dział",
+  onboardingNewClientSpace: "Nowy Klient",
+  onboardingNewDepartmentSpace: "Nowy Dział",
+  onboardingNewClientBoard: "Nowa Tablica Klienta",
+  onboardingNewDepartmentBoard: "Nowa Tablica Działu",
+  onboardingNewCard: "Nowa Karta",
 };
 
 export default pl as Translations;
