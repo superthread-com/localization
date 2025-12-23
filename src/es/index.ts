@@ -3037,6 +3037,11 @@ const es = {
     'Crea una Tarjeta llamada "Nueva Tarjeta" dentro de tu Nuevo Tablero de Cliente',
   move_card_between_spaces:
     "Arrastra tu nueva tarjeta de Nuevo Cliente a Nuevo Departamento",
+  onboardingNewClientSpace: "Nuevo Cliente",
+  onboardingNewDepartmentSpace: "Nuevo Departamento",
+  onboardingNewClientBoard: "Nuevo Tablero de Cliente",
+  onboardingNewDepartmentBoard: "Nuevo Tablero de Departamento",
+  onboardingNewCard: "Nueva Tarjeta",
   moveBoard: "Mover tablero",
   moveBoardDescription:
     "Algunas etiquetas utilizadas en este tablero no existen en el espacio %{space} y se eliminarán de las tarjetas.",

@@ -3023,6 +3023,11 @@ const ptBR = {
     'Crie um Cartão chamado "Novo Cartão" dentro do seu Novo Quadro de Cliente',
   move_card_between_spaces:
     "Arraste seu novo cartão de Novo Cliente para Novo Departamento",
+  onboardingNewClientSpace: "Novo Cliente",
+  onboardingNewDepartmentSpace: "Novo Departamento",
+  onboardingNewClientBoard: "Novo Quadro de Cliente",
+  onboardingNewDepartmentBoard: "Novo Quadro de Departamento",
+  onboardingNewCard: "Novo Cartão",
   moveBoard: "Mover quadro",
   moveBoardDescription:
     "Algumas tags usadas neste quadro não existem no espaço %{space} e serão removidas dos cartões.",

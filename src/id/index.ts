@@ -2995,6 +2995,11 @@ const id = {
     'Buat Kartu bernama "Kartu Baru" di dalam Papan Klien Baru Anda',
   move_card_between_spaces:
     "Seret kartu baru Anda dari Klien Baru ke Departemen Baru",
+  onboardingNewClientSpace: "Klien Baru",
+  onboardingNewDepartmentSpace: "Departemen Baru",
+  onboardingNewClientBoard: "Papan Klien Baru",
+  onboardingNewDepartmentBoard: "Papan Departemen Baru",
+  onboardingNewCard: "Kartu Baru",
   moveBoard: "Pindahkan papan",
   moveBoardDescription:
     "Beberapa tag yang digunakan di papan ini tidak ada di ruang %{space} dan akan dihapus dari kartu.",

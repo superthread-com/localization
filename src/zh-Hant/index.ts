@@ -2741,6 +2741,11 @@ const zhHant = {
     "在您的新部門空間內創建一個名為「新部門看板」的看板",
   create_card_in_board: "在您的新客戶看板內創建一張名為「新卡片」的卡片",
   move_card_between_spaces: "將您的新卡片從新客戶拖到新部門",
+  onboardingNewClientSpace: "新客戶",
+  onboardingNewDepartmentSpace: "新部門",
+  onboardingNewClientBoard: "新客戶看板",
+  onboardingNewDepartmentBoard: "新部門看板",
+  onboardingNewCard: "新卡片",
   moveBoard: "移動看板",
   moveBoardDescription:
     "此看板中使用的某些標籤在 %{space} 空間中不存在，將從卡片中刪除。",
