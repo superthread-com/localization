@@ -1152,8 +1152,8 @@ const bs: Translations = {
   ["billing.thereIsNoPaymentMethod"]:
     "S ovim radnim prostorom nije povezan nijedan način plaćanja. Način plaćanja će se pojaviti ovdje čim odaberete plaćeni plan.",
   ["billing.selectAPaidPlan"]: "Odaberite plaćeni plan",
-  ["billing.upgradePlan"]: "Pređi na ovaj plan",
-  ["billing.downgradePlan"]: "Spusti se na ovaj plan",
+  ["billing.upgradePlan"]: "Nadogradi",
+  ["billing.downgradePlan"]: "Spusti",
   ["billing.downgradeToFree"]: "Spusti se na besplatni plan",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Pogledajte svoj način plaćanja u Stripe-u",
@@ -2910,6 +2910,10 @@ const bs: Translations = {
   ["billing.annualBilling"]: "Godišnje naplaćivanje",
   ["billing.ninetyDayVersionHistory"]: "%{count} dana historije verzija",
   ["billing.expertOnboarding"]: "Stručno uvođenje",
+  ["billing.nextPaymentOn"]: "Sljedeća uplata %{date}",
+  ["billing.paymentsWillStopOn"]: "Uplate će prestati %{date}",
+  ["billing.youAreCurrentlyPaying"]: "Trenutno plaćate %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Vi ste na '%{planName}' planu",
 };
 
 export default bs;

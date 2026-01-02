@@ -197,8 +197,8 @@ const ko = {
   ["billing.thereIsNoPaymentMethod"]:
     "이 워크스페이스에 연결된 결제 방법이 없습니다. 유료 요금제를 선택하면 여기에 결제 방법이 표시됩니다.",
   ["billing.selectAPaidPlan"]: "유료 요금제 선택",
-  ["billing.upgradePlan"]: "이 요금제로 업그레이드",
-  ["billing.downgradePlan"]: "이 요금제로 다운그레이드",
+  ["billing.upgradePlan"]: "업그레이드",
+  ["billing.downgradePlan"]: "다운그레이드",
   ["billing.downgradeToFree"]: "무료로 다운그레이드",
   ["billing.viewYourPaymentMethodInStripe"]: "Stripe에서 결제 방법 보기",
   ["billing.weBillTheWorkspacePayment"]:
@@ -2832,6 +2832,11 @@ const ko = {
   ["billing.annualBilling"]: "연간 청구",
   ["billing.ninetyDayVersionHistory"]: "%{count}일 버전 기록",
   ["billing.expertOnboarding"]: "전문가 온보딩",
+  ["billing.nextPaymentOn"]: "{date}에 다음 결제",
+  ["billing.paymentsWillStopOn"]: "{date}에 결제 중단",
+  ["billing.youAreCurrentlyPaying"]:
+    "현재 %{price}(%{period})를 지불하고 있습니다",
+  ["billing.youAreOnPlan"]: "'%{planName}' 플랜을 사용 중입니다",
 };
 
 export default ko as Translations;

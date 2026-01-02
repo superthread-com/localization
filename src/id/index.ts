@@ -200,8 +200,8 @@ const id = {
   ["billing.thereIsNoPaymentMethod"]:
     "Tidak ada metode pembayaran yang terkait dengan ruang kerja ini. Metode pembayaran akan muncul di sini setelah Anda memilih rencana berbayar.",
   ["billing.selectAPaidPlan"]: "Pilih rencana berbayar",
-  ["billing.upgradePlan"]: "Tingkatkan ke rencana ini",
-  ["billing.downgradePlan"]: "Turunkan ke rencana ini",
+  ["billing.upgradePlan"]: "Tingkatkan",
+  ["billing.downgradePlan"]: "Turunkan",
   ["billing.downgradeToFree"]: "Turunkan ke gratis",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Lihat metode pembayaran Anda di Stripe",
@@ -2941,11 +2941,17 @@ const id = {
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Bayar Sesuai Keinginan",
   // Enterprise Tier Updates
-  ["billing.enterpriseSubtitle"]: "Untuk perusahaan yang memiliki persyaratan ketat",
+  ["billing.enterpriseSubtitle"]:
+    "Untuk perusahaan yang memiliki persyaratan ketat",
   ["billing.fiftyPlusSeats"]: "%{count} tempat duduk",
   ["billing.annualBilling"]: "Penagihan tahunan",
   ["billing.ninetyDayVersionHistory"]: "%{count} hari riwayat versi",
   ["billing.expertOnboarding"]: "Orientasi ahli",
+  ["billing.nextPaymentOn"]: "Pembayaran berikutnya pada %{date}",
+  ["billing.paymentsWillStopOn"]: "Pembayaran akan berhenti pada %{date}",
+  ["billing.youAreCurrentlyPaying"]:
+    "Anda saat ini membayar %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Anda menggunakan paket '%{planName}'",
 };
 
 export default id as Translations;

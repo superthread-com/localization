@@ -201,8 +201,8 @@ const de = {
   ["billing.thereIsNoPaymentMethod"]:
     "Es gibt keine Zahlungsmethode, die mit diesem Arbeitsbereich verbunden ist. Eine Zahlungsmethode erscheint hier, sobald du einen kostenpflichtigen Plan ausgewählt hast.",
   ["billing.selectAPaidPlan"]: "Wähle einen kostenpflichtigen Plan",
-  ["billing.upgradePlan"]: "Upgrade auf diesen Plan",
-  ["billing.downgradePlan"]: "Downgrade auf diesen Plan",
+  ["billing.upgradePlan"]: "Upgrade",
+  ["billing.downgradePlan"]: "Downgrade",
   ["billing.downgradeToFree"]: "Downgrade auf kostenlos",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Zahlungsmethode in Stripe anzeigen",
@@ -3009,6 +3009,11 @@ const de = {
   ["billing.annualBilling"]: "Jährliche Abrechnung",
   ["billing.ninetyDayVersionHistory"]: "%{count} Tage Versionsverlauf",
   ["billing.expertOnboarding"]: "Experten-Onboarding",
+  ["billing.nextPaymentOn"]: "Nächste Zahlung am %{date}",
+  ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
+  ["billing.youAreCurrentlyPaying"]:
+    "Sie zahlen derzeit %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Sie haben den '%{planName}'-Plan",
 };
 
 export default de as Translations;

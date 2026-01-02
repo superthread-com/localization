@@ -191,8 +191,8 @@ const zhHans = {
   ["billing.thereIsNoPaymentMethod"]:
     "此工作区没有关联的付款方式。选择付费计划后，付款方式将显示在此处。",
   ["billing.selectAPaidPlan"]: "选择付费计划",
-  ["billing.upgradePlan"]: "升级到此计划",
-  ["billing.downgradePlan"]: "降级到此计划",
+  ["billing.upgradePlan"]: "升级",
+  ["billing.downgradePlan"]: "降级",
   ["billing.downgradeToFree"]: "降级到免费",
   ["billing.viewYourPaymentMethodInStripe"]: "在Stripe中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:
@@ -2695,6 +2695,10 @@ const zhHans = {
   ["billing.annualBilling"]: "年度计费",
   ["billing.ninetyDayVersionHistory"]: "%{count} 天版本历史",
   ["billing.expertOnboarding"]: "专家入门指导",
+  ["billing.nextPaymentOn"]: "下次付款日期：{date}",
+  ["billing.paymentsWillStopOn"]: "付款将于 %{date} 停止",
+  ["billing.youAreCurrentlyPaying"]: "您目前支付 %{price}（%{period}）",
+  ["billing.youAreOnPlan"]: "您正在使用「%{planName}」计划",
 };
 
 export default zhHans as Translations;

@@ -199,8 +199,8 @@ const en = {
   ["billing.thereIsNoPaymentMethod"]:
     "There is no payment method associated with this workspace. A payment method will appear here once you’ve selected a paid plan.",
   ["billing.selectAPaidPlan"]: "Select a paid plan",
-  ["billing.upgradePlan"]: "Upgrade to this plan",
-  ["billing.downgradePlan"]: "Downgrade to this plan",
+  ["billing.upgradePlan"]: "Upgrade",
+  ["billing.downgradePlan"]: "Downgrade",
   ["billing.downgradeToFree"]: "Downgrade to free",
   ["billing.viewYourPaymentMethodInStripe"]:
     "View your payment method in Stripe",
@@ -303,6 +303,11 @@ const en = {
   ["billing.annualBilling"]: "Annual billing",
   ["billing.ninetyDayVersionHistory"]: "%{count} day version history",
   ["billing.expertOnboarding"]: "Expert onboarding",
+  ["billing.nextPaymentOn"]: "Next payment on %{date}",
+  ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
+  ["billing.youAreCurrentlyPaying"]:
+    "You are currently paying %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "You are on the '%{planName}' plan",
 
   // global
   ["global.text.create"]: "Create",

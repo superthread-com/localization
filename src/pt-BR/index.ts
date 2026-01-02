@@ -202,8 +202,8 @@ const ptBR = {
   ["billing.thereIsNoPaymentMethod"]:
     "Não há método de pagamento associado a este espaço de trabalho. Um método de pagamento aparecerá aqui assim que você selecionar um plano pago.",
   ["billing.selectAPaidPlan"]: "Selecione um plano pago",
-  ["billing.upgradePlan"]: "Atualizar para este plano",
-  ["billing.downgradePlan"]: "Rebaixar para este plano",
+  ["billing.upgradePlan"]: "Atualizar",
+  ["billing.downgradePlan"]: "Rebaixar",
   ["billing.downgradeToFree"]: "Rebaixar para gratuito",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Veja seu método de pagamento no Stripe",
@@ -2975,6 +2975,10 @@ const ptBR = {
   ["billing.annualBilling"]: "Faturamento anual",
   ["billing.ninetyDayVersionHistory"]: "%{count} dias de histórico de versões",
   ["billing.expertOnboarding"]: "Integração especializada",
+  ["billing.nextPaymentOn"]: "Próximo pagamento em %{date}",
+  ["billing.paymentsWillStopOn"]: "Os pagamentos cessarão em %{date}",
+  ["billing.youAreCurrentlyPaying"]: "Você está pagando %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Você está no plano '%{planName}'",
 };
 
 export default ptBR as Translations;

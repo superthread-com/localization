@@ -191,8 +191,8 @@ const zhHant = {
   ["billing.thereIsNoPaymentMethod"]:
     "此工作區沒有關聯的付款方式。選擇付費方案後，付款方式將顯示在此處。",
   ["billing.selectAPaidPlan"]: "選擇付費方案",
-  ["billing.upgradePlan"]: "升級至此方案",
-  ["billing.downgradePlan"]: "降級至此方案",
+  ["billing.upgradePlan"]: "升級",
+  ["billing.downgradePlan"]: "降級",
   ["billing.downgradeToFree"]: "降級至免費",
   ["billing.viewYourPaymentMethodInStripe"]: "在 Stripe 中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:
@@ -2700,6 +2700,10 @@ const zhHant = {
   ["billing.annualBilling"]: "年度計費",
   ["billing.ninetyDayVersionHistory"]: "%{count} 天版本歷史",
   ["billing.expertOnboarding"]: "專家入門指導",
+  ["billing.nextPaymentOn"]: "下次付款日期：{date}",
+  ["billing.paymentsWillStopOn"]: "付款將於 %{date} 停止",
+  ["billing.youAreCurrentlyPaying"]: "您目前支付 %{price}（%{period}）",
+  ["billing.youAreOnPlan"]: "您正在使用「%{planName}」方案",
 };
 
 export default zhHant as Translations;

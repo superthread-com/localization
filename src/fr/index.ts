@@ -64,8 +64,8 @@ const fr: Translations = {
   ["billing.thereIsNoPaymentMethod"]:
     "Aucune méthode de paiement n'est associée à cet espace de travail. Un mode de paiement apparaîtra ici lorsque vous aurez sélectionné un plan payant.",
   ["billing.selectAPaidPlan"]: "Selectionner un plan payant",
-  ["billing.upgradePlan"]: "Passer à ce plan",
-  ["billing.downgradePlan"]: "Passer à ce plan",
+  ["billing.upgradePlan"]: "Améliorer",
+  ["billing.downgradePlan"]: "Rétrograder",
   ["billing.downgradeToFree"]: "Passer à l'option gratuite",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Voir votre mode de paiement dans Stripe",
@@ -2997,12 +2997,18 @@ const fr: Translations = {
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Payez ce que vous voulez",
   // Enterprise Tier Updates
-  ["billing.enterpriseSubtitle"]: "Pour les entreprises ayant des exigences strictes",
+  ["billing.enterpriseSubtitle"]:
+    "Pour les entreprises ayant des exigences strictes",
   ["billing.fiftyPlusSeats"]: "%{count} places",
   ["billing.annualBilling"]: "Facturation annuelle",
   ["billing.ninetyDayVersionHistory"]:
     "%{count} jours d'historique des versions",
   ["billing.expertOnboarding"]: "Intégration experte",
+  ["billing.nextPaymentOn"]: "Prochain paiement le %{date}",
+  ["billing.paymentsWillStopOn"]: "Les paiements s'arrêteront le %{date}",
+  ["billing.youAreCurrentlyPaying"]:
+    "Vous payez actuellement %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Vous êtes sur le plan '%{planName}'",
 };
 
 export default fr as Translations;

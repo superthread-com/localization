@@ -195,8 +195,8 @@ const pl = {
   ["billing.thereIsNoPaymentMethod"]:
     "Nie ma powiązanej metody płatności z tą przestrzenią roboczą. Metoda płatności pojawi się tutaj po wybraniu płatnego planu.",
   ["billing.selectAPaidPlan"]: "Wybierz płatny plan",
-  ["billing.upgradePlan"]: "Ulepsz do tego planu",
-  ["billing.downgradePlan"]: "Zmień na ten plan",
+  ["billing.upgradePlan"]: "Ulepsz",
+  ["billing.downgradePlan"]: "Zmień",
   ["billing.downgradeToFree"]: "Zmień na darmowy",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Zobacz swoją metodę płatności w Stripe",
@@ -2930,6 +2930,10 @@ const pl = {
   ["billing.annualBilling"]: "Rozliczenia roczne",
   ["billing.ninetyDayVersionHistory"]: "%{count} dni historii wersji",
   ["billing.expertOnboarding"]: "Eksperckie wdrożenie",
+  ["billing.nextPaymentOn"]: "Następna płatność %{date}",
+  ["billing.paymentsWillStopOn"]: "Płatności zakończą się %{date}",
+  ["billing.youAreCurrentlyPaying"]: "Obecnie płacisz %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Masz plan '%{planName}'",
 };
 
 export default pl as Translations;
