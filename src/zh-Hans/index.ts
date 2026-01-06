@@ -2691,7 +2691,7 @@ const zhHans = {
   ["billing.pwyw.title"]: "随心支付",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "适用于有严格要求的企业",
-  ["billing.fiftyPlusSeats"]: "%{count} 个席位",
+  ["billing.seatCount"]: "%{count} 个席位",
   ["billing.annualBilling"]: "年度计费",
   ["billing.ninetyDayVersionHistory"]: "%{count} 天版本历史",
   ["billing.expertOnboarding"]: "专家入门指导",

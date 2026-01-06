@@ -299,7 +299,7 @@ const en = {
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Pay What You Want",
   // Enterprise Tier Updates
-  ["billing.fiftyPlusSeats"]: "%{count} seats",
+  ["billing.seatCount"]: "%{count} seats",
   ["billing.annualBilling"]: "Annual billing",
   ["billing.ninetyDayVersionHistory"]: "%{count} day version history",
   ["billing.expertOnboarding"]: "Expert onboarding",

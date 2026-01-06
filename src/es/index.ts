@@ -2985,7 +2985,7 @@ const es = {
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]:
     "Para empresas que tienen requisitos estrictos",
-  ["billing.fiftyPlusSeats"]: "%{count} asientos",
+  ["billing.seatCount"]: "%{count} asientos",
   ["billing.annualBilling"]: "Facturación anual",
   ["billing.ninetyDayVersionHistory"]:
     "%{count} días de historial de versiones",

@@ -2943,7 +2943,7 @@ const id = {
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]:
     "Untuk perusahaan yang memiliki persyaratan ketat",
-  ["billing.fiftyPlusSeats"]: "%{count} tempat duduk",
+  ["billing.seatCount"]: "%{count} tempat duduk",
   ["billing.annualBilling"]: "Penagihan tahunan",
   ["billing.ninetyDayVersionHistory"]: "%{count} hari riwayat versi",
   ["billing.expertOnboarding"]: "Orientasi ahli",

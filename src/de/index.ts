@@ -3005,7 +3005,7 @@ const de = {
   ["billing.pwyw.title"]: "Zahle was du willst",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "Für Unternehmen mit strengen Anforderungen",
-  ["billing.fiftyPlusSeats"]: "%{count} Plätze",
+  ["billing.seatCount"]: "%{count} Plätze",
   ["billing.annualBilling"]: "Jährliche Abrechnung",
   ["billing.ninetyDayVersionHistory"]: "%{count} Tage Versionsverlauf",
   ["billing.expertOnboarding"]: "Experten-Onboarding",

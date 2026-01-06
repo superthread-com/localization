@@ -2828,7 +2828,7 @@ const ko = {
   ["billing.pwyw.title"]: "원하는 만큼 지불하세요",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "엄격한 요구 사항이 있는 기업을 위한",
-  ["billing.fiftyPlusSeats"]: "%{count}석",
+  ["billing.seatCount"]: "%{count}석",
   ["billing.annualBilling"]: "연간 청구",
   ["billing.ninetyDayVersionHistory"]: "%{count}일 버전 기록",
   ["billing.expertOnboarding"]: "전문가 온보딩",

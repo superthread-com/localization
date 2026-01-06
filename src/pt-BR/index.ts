@@ -2971,7 +2971,7 @@ const ptBR = {
   ["billing.pwyw.title"]: "Pague o que quiser",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "Para empresas que têm requisitos rigorosos",
-  ["billing.fiftyPlusSeats"]: "%{count} lugares",
+  ["billing.seatCount"]: "%{count} lugares",
   ["billing.annualBilling"]: "Faturamento anual",
   ["billing.ninetyDayVersionHistory"]: "%{count} dias de histórico de versões",
   ["billing.expertOnboarding"]: "Integração especializada",

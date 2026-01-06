@@ -264,7 +264,7 @@ export enum TranslationKeys {
   BillingPwywTitle = "billing.pwyw.title",
   // Enterprise Tier Updates
   BillingEnterpriseSubtitle = "billing.enterpriseSubtitle",
-  BillingFiftyPlusSeats = "billing.fiftyPlusSeats",
+  BillingSeatCount = "billing.seatCount",
   BillingAnnualBilling = "billing.annualBilling",
   BillingNinetyDayVersionHistory = "billing.ninetyDayVersionHistory",
   BillingExpertOnboarding = "billing.expertOnboarding",

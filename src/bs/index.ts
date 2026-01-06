@@ -2906,7 +2906,7 @@ const bs: Translations = {
   ["billing.pwyw.title"]: "Plati koliko želiš",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "Za kompanije koje imaju stroge zahtjeve",
-  ["billing.fiftyPlusSeats"]: "%{count} mjesta",
+  ["billing.seatCount"]: "%{count} mjesta",
   ["billing.annualBilling"]: "Godišnje naplaćivanje",
   ["billing.ninetyDayVersionHistory"]: "%{count} dana historije verzija",
   ["billing.expertOnboarding"]: "Stručno uvođenje",

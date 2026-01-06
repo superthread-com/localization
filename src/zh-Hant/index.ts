@@ -2696,7 +2696,7 @@ const zhHant = {
   ["billing.pwyw.title"]: "隨心支付",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "適用於有嚴格要求的企業",
-  ["billing.fiftyPlusSeats"]: "%{count} 個席位",
+  ["billing.seatCount"]: "%{count} 個席位",
   ["billing.annualBilling"]: "年度計費",
   ["billing.ninetyDayVersionHistory"]: "%{count} 天版本歷史",
   ["billing.expertOnboarding"]: "專家入門指導",

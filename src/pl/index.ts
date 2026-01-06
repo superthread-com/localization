@@ -2926,7 +2926,7 @@ const pl = {
   ["billing.pwyw.title"]: "Zapłać ile chcesz",
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]: "Dla firm o rygorystycznych wymaganiach",
-  ["billing.fiftyPlusSeats"]: "%{count} miejsc",
+  ["billing.seatCount"]: "%{count} miejsc",
   ["billing.annualBilling"]: "Rozliczenia roczne",
   ["billing.ninetyDayVersionHistory"]: "%{count} dni historii wersji",
   ["billing.expertOnboarding"]: "Eksperckie wdrożenie",

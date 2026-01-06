@@ -2999,7 +2999,7 @@ const fr: Translations = {
   // Enterprise Tier Updates
   ["billing.enterpriseSubtitle"]:
     "Pour les entreprises ayant des exigences strictes",
-  ["billing.fiftyPlusSeats"]: "%{count} places",
+  ["billing.seatCount"]: "%{count} places",
   ["billing.annualBilling"]: "Facturation annuelle",
   ["billing.ninetyDayVersionHistory"]:
     "%{count} jours d'historique des versions",
