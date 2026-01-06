@@ -2992,8 +2992,6 @@ const es = {
   ["billing.expertOnboarding"]: "Incorporación experta",
   ["billing.nextPaymentOn"]: "Próximo pago el %{date}",
   ["billing.paymentsWillStopOn"]: "Los pagos cesarán el %{date}",
-  ["billing.youAreCurrentlyPaying"]:
-    "Actualmente estás pagando %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Estás en el plan %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
 };

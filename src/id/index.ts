@@ -2949,8 +2949,6 @@ const id = {
   ["billing.expertOnboarding"]: "Orientasi ahli",
   ["billing.nextPaymentOn"]: "Pembayaran berikutnya pada %{date}",
   ["billing.paymentsWillStopOn"]: "Pembayaran akan berhenti pada %{date}",
-  ["billing.youAreCurrentlyPaying"]:
-    "Anda saat ini membayar %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Anda menggunakan paket %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
 };

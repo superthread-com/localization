@@ -2977,7 +2977,6 @@ const ptBR = {
   ["billing.expertOnboarding"]: "Integração especializada",
   ["billing.nextPaymentOn"]: "Próximo pagamento em %{date}",
   ["billing.paymentsWillStopOn"]: "Os pagamentos cessarão em %{date}",
-  ["billing.youAreCurrentlyPaying"]: "Você está pagando %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Você está no plano %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
 };

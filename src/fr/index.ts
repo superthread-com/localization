@@ -3006,8 +3006,6 @@ const fr: Translations = {
   ["billing.expertOnboarding"]: "Intégration experte",
   ["billing.nextPaymentOn"]: "Prochain paiement le %{date}",
   ["billing.paymentsWillStopOn"]: "Les paiements s'arrêteront le %{date}",
-  ["billing.youAreCurrentlyPaying"]:
-    "Vous payez actuellement %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Vous êtes sur le plan %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
 };

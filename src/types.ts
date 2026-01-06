@@ -270,7 +270,6 @@ export enum TranslationKeys {
   BillingExpertOnboarding = "billing.expertOnboarding",
   BillingNextPaymentOn = "billing.nextPaymentOn",
   BillingPaymentsWillStopOn = "billing.paymentsWillStopOn",
-  BillingYouAreCurrentlyPaying = "billing.youAreCurrentlyPaying",
   BillingYouAreOnPlan = "billing.youAreOnPlan",
   BillingCancelPlan = "billing.cancelPlan",
   GlobalTextCreate = "global.text.create",

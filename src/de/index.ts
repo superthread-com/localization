@@ -3011,7 +3011,6 @@ const de = {
   ["billing.expertOnboarding"]: "Experten-Onboarding",
   ["billing.nextPaymentOn"]: "Nächste Zahlung am %{date}",
   ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
-  ["billing.youAreCurrentlyPaying"]: "Sie zahlen derzeit %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Sie haben den %{planName}-Plan",
   ["billing.cancelPlan"]: "Cancel subscription",
 };

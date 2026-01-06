@@ -305,8 +305,6 @@ const en = {
   ["billing.expertOnboarding"]: "Expert onboarding",
   ["billing.nextPaymentOn"]: "Next payment on %{date}",
   ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
-  ["billing.youAreCurrentlyPaying"]:
-    "You are currently paying %{price} (%{period})",
   ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
   ["billing.cancelPlan"]: "Cancel subscription",
 

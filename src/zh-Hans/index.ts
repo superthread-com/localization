@@ -2697,7 +2697,6 @@ const zhHans = {
   ["billing.expertOnboarding"]: "专家入门指导",
   ["billing.nextPaymentOn"]: "下次付款日期：{date}",
   ["billing.paymentsWillStopOn"]: "付款将于 %{date} 停止",
-  ["billing.youAreCurrentlyPaying"]: "您目前支付 %{price}（%{period}）",
   ["billing.youAreOnPlan"]: "您正在使用「%{planName}」计划",
   ["billing.cancelPlan"]: "Cancel subscription",
 };
