@@ -173,7 +173,7 @@ const ptBR = {
     "Visualização de linha do tempo, lista e quadro",
   ["billing.guestAccounts"]: "Contas de convidados",
   ["billing.monthly"]: "Mensal",
-  ["billing.yearly"]: "Anual (-20%)",
+  ["billing.yearly"]: "Anual",
   ["billing.currentPlan"]: "Plano atual",
   ["billing.yourChosenPaymentMethodIs"]:
     "Seu método de pagamento escolhido é %{method}",
@@ -290,7 +290,7 @@ const ptBR = {
   ["billing.youHaveBeenDowngradedShort"]:
     "Você foi rebaixado para o plano %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
-    "Você está em um plano legado: %{planName} (%{planPeriod})",
+    "Você está em um plano %{planName} %{planPeriod} legado",
   ["billing.legacyDescription"]:
     "Esta versão não é mais oferecida a novos usuários. Você pode continuar a usá-la ou explorar nossos planos atuais para recursos e preços atualizados.",
 

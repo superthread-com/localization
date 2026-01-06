@@ -169,7 +169,7 @@ const ko = {
   ["billing.timelineListAndBoardView"]: "타임라인, 목록 및 보드 보기",
   ["billing.guestAccounts"]: "게스트 계정",
   ["billing.monthly"]: "월간",
-  ["billing.yearly"]: "연간 (-20%)",
+  ["billing.yearly"]: "연간",
   ["billing.currentPlan"]: "현재 요금제",
   ["billing.yourChosenPaymentMethodIs"]: "선택한 결제 방법은 %{method}입니다",
   ["billing.thisIsThePaymentMethod"]:
@@ -280,7 +280,7 @@ const ko = {
   ["billing.youHaveBeenDowngradedShort"]:
     "%{planName} 플랜으로 다운그레이드되었습니다.",
   ["billing.youAreOnLegacyPlan"]:
-    "레거시 플랜에 있습니다: %{planName} (%{planPeriod})",
+    "레거시 %{planName} %{planPeriod} 플랜에 있습니다",
   ["billing.legacyDescription"]:
     "이 버전은 더 이상 신규 사용자에게 제공되지 않습니다. 계속 사용할 수 있으며, 업데이트된 기능과 가격을 위해 현재 플랜을 탐색할 수 있습니다.",
 

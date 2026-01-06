@@ -163,7 +163,7 @@ const zhHant = {
   ["billing.timelineListAndBoardView"]: "時間軸、清單和看板視圖",
   ["billing.guestAccounts"]: "訪客帳號",
   ["billing.monthly"]: "每月",
-  ["billing.yearly"]: "每年 (-20%)",
+  ["billing.yearly"]: "每年",
   ["billing.currentPlan"]: "目前的方案",
   ["billing.yourChosenPaymentMethodIs"]: "您選擇的付款方式是 %{method}",
   ["billing.thisIsThePaymentMethod"]:
@@ -270,7 +270,7 @@ const zhHant = {
     "您已被降級至 %{planName} 方案。您可以在方案頁面查看您失去的功能。",
   ["billing.youHaveBeenDowngradedShort"]: "您已被降級至 %{planName} 方案。",
   ["billing.youAreOnLegacyPlan"]:
-    "您使用的是舊版方案：%{planName} (%{planPeriod})",
+    "您使用的是舊版 %{planName} %{planPeriod} 方案",
   ["billing.legacyDescription"]:
     "此版本不再提供給新用戶。您可以繼續使用它，或探索我們目前的方案以獲取更新的功能和定價。",
 

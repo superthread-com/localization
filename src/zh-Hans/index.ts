@@ -163,7 +163,7 @@ const zhHans = {
   ["billing.timelineListAndBoardView"]: "时间线、列表和看板视图",
   ["billing.guestAccounts"]: "访客账户",
   ["billing.monthly"]: "每月",
-  ["billing.yearly"]: "每年 (-20%)",
+  ["billing.yearly"]: "每年",
   ["billing.currentPlan"]: "当前计划",
   ["billing.yourChosenPaymentMethodIs"]: "您选择的付款方式是%{method}",
   ["billing.thisIsThePaymentMethod"]:
@@ -270,7 +270,7 @@ const zhHans = {
     "您已降级到%{planName}计划。您可以在计划页面查看您失去的功能。",
   ["billing.youHaveBeenDowngradedShort"]: "您已降级到%{planName}计划。",
   ["billing.youAreOnLegacyPlan"]:
-    "您正在使用旧版计划：%{planName} (%{planPeriod})",
+    "您正在使用旧版 %{planName} %{planPeriod} 计划",
   ["billing.legacyDescription"]:
     "此版本不再向新用户提供。您可以继续使用它，或探索我们当前计划的更新功能和定价。",
 

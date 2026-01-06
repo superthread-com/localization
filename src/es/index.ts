@@ -173,7 +173,7 @@ const es = {
     "Vista de línea de tiempo, lista y tablero",
   ["billing.guestAccounts"]: "Cuentas de invitados",
   ["billing.monthly"]: "Mensual",
-  ["billing.yearly"]: "Anual (-20%)",
+  ["billing.yearly"]: "Anual",
   ["billing.currentPlan"]: "Plan actual",
   ["billing.yourChosenPaymentMethodIs"]:
     "Tu método de pago elegido es %{method}",
@@ -289,7 +289,7 @@ const es = {
   ["billing.youHaveBeenDowngradedShort"]:
     "Has sido degradado al plan %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
-    "Estás en un plan heredado: %{planName} (%{planPeriod})",
+    "Estás en un plan %{planName} %{planPeriod} heredado",
   ["billing.legacyDescription"]:
     "Esta versión ya no se ofrece a nuevos usuarios. Puedes seguir usándola o explorar nuestros planes actuales para características y precios actualizados.",
 

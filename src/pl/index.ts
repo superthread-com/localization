@@ -165,7 +165,7 @@ const pl = {
   ["billing.timelineListAndBoardView"]: "Widok listy osi czasu i tablicy",
   ["billing.guestAccounts"]: "Konta gości",
   ["billing.monthly"]: "Miesięcznie",
-  ["billing.yearly"]: "Rocznie (-20%)",
+  ["billing.yearly"]: "Rocznie",
   ["billing.currentPlan"]: "Bieżący plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Twoja wybrana metoda płatności to %{method}",
@@ -283,7 +283,7 @@ const pl = {
   ["billing.youHaveBeenDowngradedShort"]:
     "Zostałeś zdegradowany do planu %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
-    "Korzystasz ze starego planu: %{planName} (%{planPeriod})",
+    "Korzystasz ze starego planu %{planName} %{planPeriod}",
   ["billing.legacyDescription"]:
     "Ta wersja nie jest już dostępna dla nowych użytkowników. Możesz nadal z niej korzystać lub zapoznać się z naszymi aktualnymi planami zawierającymi nowe funkcje i ceny.",
 

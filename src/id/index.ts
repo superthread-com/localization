@@ -171,7 +171,7 @@ const id = {
   ["billing.timelineListAndBoardView"]: "Tampilan garis waktu, daftar, & papan",
   ["billing.guestAccounts"]: "Akun tamu",
   ["billing.monthly"]: "Bulanan",
-  ["billing.yearly"]: "Tahunan (-20%)",
+  ["billing.yearly"]: "Tahunan",
   ["billing.currentPlan"]: "Rencana saat ini",
   ["billing.yourChosenPaymentMethodIs"]:
     "Metode pembayaran yang Anda pilih adalah %{method}",
@@ -287,7 +287,7 @@ const id = {
   ["billing.youHaveBeenDowngradedShort"]:
     "Anda telah diturunkan ke paket %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
-    "Anda berada pada paket lama: %{planName} (%{planPeriod})",
+    "Anda berada pada paket %{planName} %{planPeriod} lama",
   ["billing.legacyDescription"]:
     "Versi ini tidak lagi ditawarkan kepada pengguna baru. Anda dapat terus menggunakannya, atau menjelajahi paket kami saat ini untuk fitur dan harga terbaru.",
 

@@ -171,7 +171,7 @@ const de = {
   ["billing.timelineListAndBoardView"]: "Zeitachse, Liste & Board-Ansicht",
   ["billing.guestAccounts"]: "Gastkonten",
   ["billing.monthly"]: "Monatlich",
-  ["billing.yearly"]: "Jährlich (-20%)",
+  ["billing.yearly"]: "Jährlich",
   ["billing.currentPlan"]: "Aktueller Plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Ihre gewählte Zahlungsmethode ist %{method}",
@@ -288,7 +288,7 @@ const de = {
   ["billing.youHaveBeenDowngradedShort"]:
     "Sie wurden auf den %{planName}-Tarif herabgestuft.",
   ["billing.youAreOnLegacyPlan"]:
-    "Du nutzt einen alten Tarif: %{planName} (%{planPeriod})",
+    "Du nutzt einen alten %{planName} %{planPeriod} Tarif",
   ["billing.legacyDescription"]:
     "Diese Version wird neuen Nutzern nicht mehr angeboten. Du kannst sie weiterhin verwenden oder unsere aktuellen Pläne mit neuen Funktionen und Preisen ansehen.",
 

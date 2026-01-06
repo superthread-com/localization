@@ -1123,7 +1123,7 @@ const bs: Translations = {
   ["billing.timelineListAndBoardView"]: "Vremenske linija, lista i ploča",
   ["billing.guestAccounts"]: "Gost računi",
   ["billing.monthly"]: "Mjesečno",
-  ["billing.yearly"]: "Godišnje (-20%)",
+  ["billing.yearly"]: "Godišnje",
   ["billing.currentPlan"]: "Trenutni plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Vaš odabrani način plaćanja je %{method}",
@@ -1238,7 +1238,7 @@ const bs: Translations = {
     "Prebačeni ste na plan %{planName}. Možete vidjeti koje ste funkcije izgubili na stranici s planovima.",
   ["billing.youHaveBeenDowngradedShort"]: "Prebačeni ste na plan %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
-    "Koristiš stari plan: %{planName} (%{planPeriod})",
+    "Koristiš stari %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
     "Ova verzija više nije dostupna novim korisnicima. Možeš je i dalje koristiti ili istražiti naše aktuelne planove s novim funkcijama i cijenama.",
 

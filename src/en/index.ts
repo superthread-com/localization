@@ -169,7 +169,7 @@ const en = {
   ["billing.timelineListAndBoardView"]: "Timeline, list, & board view",
   ["billing.guestAccounts"]: "Guest accounts",
   ["billing.monthly"]: "Monthly",
-  ["billing.yearly"]: "Yearly (-20%)",
+  ["billing.yearly"]: "Yearly",
   ["billing.currentPlan"]: "Current plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Your chosen payment method is %{method}",
@@ -284,7 +284,7 @@ const en = {
   ["billing.youHaveBeenDowngradedShort"]:
     "You have been downgraded to the %{planName} plan.",
   ["billing.youAreOnLegacyPlan"]:
-    "You're on a legacy plan: %{planName} (%{planPeriod})",
+    "You're on a legacy %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
     "This version is no longer offered to new users. You can continue using it, or explore our current plans for updated features and pricing.",
   // PWYW Psychological Messages

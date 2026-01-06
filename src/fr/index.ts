@@ -35,7 +35,7 @@ const fr: Translations = {
   ["billing.timelineListAndBoardView"]: "Vue chronologique, liste et tableau",
   ["billing.guestAccounts"]: "Comptes d'invités",
   ["billing.monthly"]: "Mensuel",
-  ["billing.yearly"]: "Annuel (-20%)",
+  ["billing.yearly"]: "Annuel",
   ["billing.currentPlan"]: "Plan actuel",
   ["billing.yourChosenPaymentMethodIs"]:
     "Le mode de paiement choisi est %{methode}",
@@ -153,7 +153,7 @@ const fr: Translations = {
   ["billing.youHaveBeenDowngradedShort"]:
     "Vous avez été rétrogradé au plan %{planName}.",
   ["billing.youAreOnLegacyPlan"]:
-    "Vous êtes sur une ancienne formule : %{planName} (%{planPeriod})",
+    "Vous êtes sur une ancienne formule %{planName} %{planPeriod}",
   ["billing.legacyDescription"]:
     "Cette version n’est plus proposée aux nouveaux utilisateurs. Vous pouvez continuer à l’utiliser ou consulter nos offres actuelles avec des fonctionnalités et des tarifs mis à jour.",
 
