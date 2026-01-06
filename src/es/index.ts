@@ -2994,7 +2994,7 @@ const es = {
   ["billing.paymentsWillStopOn"]: "Los pagos cesarán el %{date}",
   ["billing.youAreCurrentlyPaying"]:
     "Actualmente estás pagando %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Estás en el plan '%{planName}'",
+  ["billing.youAreOnPlan"]: "Estás en el plan %{planName}",
 };
 
 export default es as Translations;

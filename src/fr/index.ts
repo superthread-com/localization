@@ -3008,7 +3008,7 @@ const fr: Translations = {
   ["billing.paymentsWillStopOn"]: "Les paiements s'arrêteront le %{date}",
   ["billing.youAreCurrentlyPaying"]:
     "Vous payez actuellement %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Vous êtes sur le plan '%{planName}'",
+  ["billing.youAreOnPlan"]: "Vous êtes sur le plan %{planName}",
 };
 
 export default fr as Translations;

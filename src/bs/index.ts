@@ -2913,7 +2913,7 @@ const bs: Translations = {
   ["billing.nextPaymentOn"]: "Sljedeća uplata %{date}",
   ["billing.paymentsWillStopOn"]: "Uplate će prestati %{date}",
   ["billing.youAreCurrentlyPaying"]: "Trenutno plaćate %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Vi ste na '%{planName}' planu",
+  ["billing.youAreOnPlan"]: "Vi ste na %{planName} planu",
 };
 
 export default bs;

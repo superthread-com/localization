@@ -2951,7 +2951,7 @@ const id = {
   ["billing.paymentsWillStopOn"]: "Pembayaran akan berhenti pada %{date}",
   ["billing.youAreCurrentlyPaying"]:
     "Anda saat ini membayar %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Anda menggunakan paket '%{planName}'",
+  ["billing.youAreOnPlan"]: "Anda menggunakan paket %{planName}",
 };
 
 export default id as Translations;

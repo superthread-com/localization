@@ -307,7 +307,7 @@ const en = {
   ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
   ["billing.youAreCurrentlyPaying"]:
     "You are currently paying %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "You are on the '%{planName}' plan",
+  ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
 
   // global
   ["global.text.create"]: "Create",

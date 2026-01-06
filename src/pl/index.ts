@@ -2933,7 +2933,7 @@ const pl = {
   ["billing.nextPaymentOn"]: "Następna płatność %{date}",
   ["billing.paymentsWillStopOn"]: "Płatności zakończą się %{date}",
   ["billing.youAreCurrentlyPaying"]: "Obecnie płacisz %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Masz plan '%{planName}'",
+  ["billing.youAreOnPlan"]: "Masz plan %{planName}",
 };
 
 export default pl as Translations;

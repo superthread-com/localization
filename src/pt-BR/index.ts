@@ -2978,7 +2978,7 @@ const ptBR = {
   ["billing.nextPaymentOn"]: "Próximo pagamento em %{date}",
   ["billing.paymentsWillStopOn"]: "Os pagamentos cessarão em %{date}",
   ["billing.youAreCurrentlyPaying"]: "Você está pagando %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Você está no plano '%{planName}'",
+  ["billing.youAreOnPlan"]: "Você está no plano %{planName}",
 };
 
 export default ptBR as Translations;

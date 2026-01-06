@@ -3011,9 +3011,8 @@ const de = {
   ["billing.expertOnboarding"]: "Experten-Onboarding",
   ["billing.nextPaymentOn"]: "Nächste Zahlung am %{date}",
   ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
-  ["billing.youAreCurrentlyPaying"]:
-    "Sie zahlen derzeit %{price} (%{period})",
-  ["billing.youAreOnPlan"]: "Sie haben den '%{planName}'-Plan",
+  ["billing.youAreCurrentlyPaying"]: "Sie zahlen derzeit %{price} (%{period})",
+  ["billing.youAreOnPlan"]: "Sie haben den %{planName}-Plan",
 };
 
 export default de as Translations;
