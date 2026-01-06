@@ -2704,6 +2704,7 @@ const zhHant = {
   ["billing.paymentsWillStopOn"]: "付款將於 %{date} 停止",
   ["billing.youAreCurrentlyPaying"]: "您目前支付 %{price}（%{period}）",
   ["billing.youAreOnPlan"]: "您正在使用「%{planName}」方案",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default zhHant as Translations;

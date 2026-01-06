@@ -2979,6 +2979,7 @@ const ptBR = {
   ["billing.paymentsWillStopOn"]: "Os pagamentos cessarão em %{date}",
   ["billing.youAreCurrentlyPaying"]: "Você está pagando %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Você está no plano %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default ptBR as Translations;

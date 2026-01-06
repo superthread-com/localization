@@ -2914,6 +2914,7 @@ const bs: Translations = {
   ["billing.paymentsWillStopOn"]: "Uplate će prestati %{date}",
   ["billing.youAreCurrentlyPaying"]: "Trenutno plaćate %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Vi ste na %{planName} planu",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default bs;

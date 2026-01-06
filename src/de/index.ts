@@ -3013,6 +3013,7 @@ const de = {
   ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
   ["billing.youAreCurrentlyPaying"]: "Sie zahlen derzeit %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Sie haben den %{planName}-Plan",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default de as Translations;

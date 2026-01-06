@@ -272,6 +272,7 @@ export enum TranslationKeys {
   BillingPaymentsWillStopOn = "billing.paymentsWillStopOn",
   BillingYouAreCurrentlyPaying = "billing.youAreCurrentlyPaying",
   BillingYouAreOnPlan = "billing.youAreOnPlan",
+  BillingCancelPlan = "billing.cancelPlan",
   GlobalTextCreate = "global.text.create",
   OptionLabelCards = "option.label.cards",
   OptionLabelPages = "option.label.pages",

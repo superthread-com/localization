@@ -3009,6 +3009,7 @@ const fr: Translations = {
   ["billing.youAreCurrentlyPaying"]:
     "Vous payez actuellement %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Vous êtes sur le plan %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default fr as Translations;

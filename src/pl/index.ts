@@ -2934,6 +2934,7 @@ const pl = {
   ["billing.paymentsWillStopOn"]: "Płatności zakończą się %{date}",
   ["billing.youAreCurrentlyPaying"]: "Obecnie płacisz %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Masz plan %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default pl as Translations;

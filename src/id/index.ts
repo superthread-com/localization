@@ -2952,6 +2952,7 @@ const id = {
   ["billing.youAreCurrentlyPaying"]:
     "Anda saat ini membayar %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Anda menggunakan paket %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default id as Translations;

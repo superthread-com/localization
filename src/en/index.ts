@@ -308,6 +308,7 @@ const en = {
   ["billing.youAreCurrentlyPaying"]:
     "You are currently paying %{price} (%{period})",
   ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
+  ["billing.cancelPlan"]: "Cancel subscription",
 
   // global
   ["global.text.create"]: "Create",

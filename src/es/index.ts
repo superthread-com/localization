@@ -2995,6 +2995,7 @@ const es = {
   ["billing.youAreCurrentlyPaying"]:
     "Actualmente estás pagando %{price} (%{period})",
   ["billing.youAreOnPlan"]: "Estás en el plan %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default es as Translations;

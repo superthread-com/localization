@@ -2837,6 +2837,7 @@ const ko = {
   ["billing.youAreCurrentlyPaying"]:
     "현재 %{price}(%{period})를 지불하고 있습니다",
   ["billing.youAreOnPlan"]: "%{planName} 플랜을 사용 중입니다",
+  ["billing.cancelPlan"]: "Cancel subscription",
 };
 
 export default ko as Translations;
