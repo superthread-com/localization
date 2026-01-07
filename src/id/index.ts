@@ -200,8 +200,8 @@ const id = {
   ["billing.thereIsNoPaymentMethod"]:
     "Tidak ada metode pembayaran yang terkait dengan ruang kerja ini. Metode pembayaran akan muncul di sini setelah Anda memilih rencana berbayar.",
   ["billing.selectAPaidPlan"]: "Pilih rencana berbayar",
-  ["billing.upgradePlan"]: "Tingkatkan",
-  ["billing.downgradePlan"]: "Turunkan",
+  ["billing.upgradePlan"]: "Bayar lebih",
+  ["billing.downgradePlan"]: "Bayar kurang",
   ["billing.downgradeToFree"]: "Turunkan ke gratis",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Lihat metode pembayaran Anda di Stripe",

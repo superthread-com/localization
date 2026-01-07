@@ -191,8 +191,8 @@ const zhHans = {
   ["billing.thereIsNoPaymentMethod"]:
     "此工作区没有关联的付款方式。选择付费计划后，付款方式将显示在此处。",
   ["billing.selectAPaidPlan"]: "选择付费计划",
-  ["billing.upgradePlan"]: "升级",
-  ["billing.downgradePlan"]: "降级",
+  ["billing.upgradePlan"]: "付更多",
+  ["billing.downgradePlan"]: "付更少",
   ["billing.downgradeToFree"]: "降级到免费",
   ["billing.viewYourPaymentMethodInStripe"]: "在Stripe中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:

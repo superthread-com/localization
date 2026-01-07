@@ -195,8 +195,8 @@ const pl = {
   ["billing.thereIsNoPaymentMethod"]:
     "Nie ma powiązanej metody płatności z tą przestrzenią roboczą. Metoda płatności pojawi się tutaj po wybraniu płatnego planu.",
   ["billing.selectAPaidPlan"]: "Wybierz płatny plan",
-  ["billing.upgradePlan"]: "Ulepsz",
-  ["billing.downgradePlan"]: "Zmień",
+  ["billing.upgradePlan"]: "Zapłać więcej",
+  ["billing.downgradePlan"]: "Zapłać mniej",
   ["billing.downgradeToFree"]: "Zmień na darmowy",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Zobacz swoją metodę płatności w Stripe",

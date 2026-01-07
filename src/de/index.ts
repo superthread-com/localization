@@ -201,8 +201,8 @@ const de = {
   ["billing.thereIsNoPaymentMethod"]:
     "Es gibt keine Zahlungsmethode, die mit diesem Arbeitsbereich verbunden ist. Eine Zahlungsmethode erscheint hier, sobald du einen kostenpflichtigen Plan ausgewählt hast.",
   ["billing.selectAPaidPlan"]: "Wähle einen kostenpflichtigen Plan",
-  ["billing.upgradePlan"]: "Upgrade",
-  ["billing.downgradePlan"]: "Downgrade",
+  ["billing.upgradePlan"]: "Mehr bezahlen",
+  ["billing.downgradePlan"]: "Weniger bezahlen",
   ["billing.downgradeToFree"]: "Downgrade auf kostenlos",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Zahlungsmethode in Stripe anzeigen",

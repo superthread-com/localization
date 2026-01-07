@@ -203,8 +203,8 @@ const es = {
   ["billing.thereIsNoPaymentMethod"]:
     "No hay un método de pago asociado con este espacio de trabajo. Un método de pago aparecerá aquí una vez que hayas seleccionado un plan de pago.",
   ["billing.selectAPaidPlan"]: "Seleccionar un plan de pago",
-  ["billing.upgradePlan"]: "Mejorar",
-  ["billing.downgradePlan"]: "Degradar",
+  ["billing.upgradePlan"]: "Pagar más",
+  ["billing.downgradePlan"]: "Pagar menos",
   ["billing.downgradeToFree"]: "Degradar a gratis",
   ["billing.viewYourPaymentMethodInStripe"]: "Ver tu método de pago en Stripe",
   ["billing.weBillTheWorkspacePayment"]:

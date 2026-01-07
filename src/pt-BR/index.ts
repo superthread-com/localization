@@ -202,8 +202,8 @@ const ptBR = {
   ["billing.thereIsNoPaymentMethod"]:
     "Não há método de pagamento associado a este espaço de trabalho. Um método de pagamento aparecerá aqui assim que você selecionar um plano pago.",
   ["billing.selectAPaidPlan"]: "Selecione um plano pago",
-  ["billing.upgradePlan"]: "Atualizar",
-  ["billing.downgradePlan"]: "Rebaixar",
+  ["billing.upgradePlan"]: "Pagar mais",
+  ["billing.downgradePlan"]: "Pagar menos",
   ["billing.downgradeToFree"]: "Rebaixar para gratuito",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Veja seu método de pagamento no Stripe",

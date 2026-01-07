@@ -1152,8 +1152,8 @@ const bs: Translations = {
   ["billing.thereIsNoPaymentMethod"]:
     "S ovim radnim prostorom nije povezan nijedan način plaćanja. Način plaćanja će se pojaviti ovdje čim odaberete plaćeni plan.",
   ["billing.selectAPaidPlan"]: "Odaberite plaćeni plan",
-  ["billing.upgradePlan"]: "Nadogradi",
-  ["billing.downgradePlan"]: "Spusti",
+  ["billing.upgradePlan"]: "Plati više",
+  ["billing.downgradePlan"]: "Plati manje",
   ["billing.downgradeToFree"]: "Spusti se na besplatni plan",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Pogledajte svoj način plaćanja u Stripe-u",

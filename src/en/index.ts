@@ -199,8 +199,8 @@ const en = {
   ["billing.thereIsNoPaymentMethod"]:
     "There is no payment method associated with this workspace. A payment method will appear here once you’ve selected a paid plan.",
   ["billing.selectAPaidPlan"]: "Select a paid plan",
-  ["billing.upgradePlan"]: "Upgrade",
-  ["billing.downgradePlan"]: "Downgrade",
+  ["billing.upgradePlan"]: "Pay more",
+  ["billing.downgradePlan"]: "Pay less",
   ["billing.downgradeToFree"]: "Downgrade to free",
   ["billing.viewYourPaymentMethodInStripe"]:
     "View your payment method in Stripe",

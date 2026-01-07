@@ -191,8 +191,8 @@ const zhHant = {
   ["billing.thereIsNoPaymentMethod"]:
     "此工作區沒有關聯的付款方式。選擇付費方案後，付款方式將顯示在此處。",
   ["billing.selectAPaidPlan"]: "選擇付費方案",
-  ["billing.upgradePlan"]: "升級",
-  ["billing.downgradePlan"]: "降級",
+  ["billing.upgradePlan"]: "付更多",
+  ["billing.downgradePlan"]: "付更少",
   ["billing.downgradeToFree"]: "降級至免費",
   ["billing.viewYourPaymentMethodInStripe"]: "在 Stripe 中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:

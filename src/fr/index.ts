@@ -64,8 +64,8 @@ const fr: Translations = {
   ["billing.thereIsNoPaymentMethod"]:
     "Aucune méthode de paiement n'est associée à cet espace de travail. Un mode de paiement apparaîtra ici lorsque vous aurez sélectionné un plan payant.",
   ["billing.selectAPaidPlan"]: "Selectionner un plan payant",
-  ["billing.upgradePlan"]: "Améliorer",
-  ["billing.downgradePlan"]: "Rétrograder",
+  ["billing.upgradePlan"]: "Payer plus",
+  ["billing.downgradePlan"]: "Payer moins",
   ["billing.downgradeToFree"]: "Passer à l'option gratuite",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Voir votre mode de paiement dans Stripe",

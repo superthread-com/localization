@@ -197,8 +197,8 @@ const ko = {
   ["billing.thereIsNoPaymentMethod"]:
     "이 워크스페이스에 연결된 결제 방법이 없습니다. 유료 요금제를 선택하면 여기에 결제 방법이 표시됩니다.",
   ["billing.selectAPaidPlan"]: "유료 요금제 선택",
-  ["billing.upgradePlan"]: "업그레이드",
-  ["billing.downgradePlan"]: "다운그레이드",
+  ["billing.upgradePlan"]: "더 많이 지불",
+  ["billing.downgradePlan"]: "더 적게 지불",
   ["billing.downgradeToFree"]: "무료로 다운그레이드",
   ["billing.viewYourPaymentMethodInStripe"]: "Stripe에서 결제 방법 보기",
   ["billing.weBillTheWorkspacePayment"]:
