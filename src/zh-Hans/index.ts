@@ -237,7 +237,7 @@ const zhHans = {
   ["billing.customImplementation"]: "定制实施",
   ["billing.uptimeSLA"]: "%{percentage}% 正常运行时间SLA",
   ["billing.byoc"]: "自带云",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "审计日志",
   ["billing.customBilling"]: "自定义账单",
   ["billing.prioritySupport"]: "优先支持和咨询",

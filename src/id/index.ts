@@ -251,7 +251,7 @@ const id = {
   ["billing.customImplementation"]: "Implementasi kustom",
   ["billing.uptimeSLA"]: "%{percentage}% SLA waktu aktif",
   ["billing.byoc"]: "Bawa cloud Anda sendiri",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Log audit",
   ["billing.customBilling"]: "Penagihan kustom",
   ["billing.prioritySupport"]: "Dukungan prioritas dan penasehat",

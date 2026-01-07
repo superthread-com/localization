@@ -253,7 +253,7 @@ const es = {
   ["billing.customImplementation"]: "Implementación personalizada",
   ["billing.uptimeSLA"]: "%{percentage}% de tiempo de actividad SLA",
   ["billing.byoc"]: "Traiga su propia nube",
-  ["billing.samlAndScim"]: "SAML y SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Registros de auditoría",
   ["billing.customBilling"]: "Facturación personalizada",
   ["billing.prioritySupport"]: "Soporte prioritario y asesoramiento",

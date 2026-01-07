@@ -237,7 +237,7 @@ const zhHant = {
   ["billing.customImplementation"]: "定制實施",
   ["billing.uptimeSLA"]: "%{percentage}% 正常運行時間 SLA",
   ["billing.byoc"]: "自帶雲端",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "審計日誌",
   ["billing.customBilling"]: "自訂計費",
   ["billing.prioritySupport"]: "優先支援和諮詢",

@@ -246,7 +246,7 @@ const pl = {
   ["billing.customImplementation"]: "Niestandardowa implementacja",
   ["billing.uptimeSLA"]: "%{percentage}% SLA dostępności",
   ["billing.byoc"]: "Przynieś własną chmurę",
-  ["billing.samlAndScim"]: "SAML i SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Dzienniki audytu",
   ["billing.customBilling"]: "Fakturowanie niestandardowe",
   ["billing.prioritySupport"]: "Wsparcie priorytetowe i doradztwo",

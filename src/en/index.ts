@@ -310,7 +310,7 @@ const en = {
   ["billing.customImplementation"]: "Custom implementation",
   ["billing.uptimeSLA"]: "%{percentage}% uptime SLA",
   ["billing.byoc"]: "Bring your own cloud",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Audit logs",
   ["billing.customBilling"]: "Custom billing",
   ["billing.prioritySupport"]: "Priority support and advisory",

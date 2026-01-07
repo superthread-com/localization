@@ -253,7 +253,7 @@ const ptBR = {
   ["billing.customImplementation"]: "Implementação personalizada",
   ["billing.uptimeSLA"]: "%{percentage}% de SLA de tempo de atividade",
   ["billing.byoc"]: "Traga sua própria nuvem",
-  ["billing.samlAndScim"]: "SAML e SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Registros de auditoria",
   ["billing.customBilling"]: "Faturamento personalizado",
   ["billing.prioritySupport"]: "Suporte prioritário e consultoria",

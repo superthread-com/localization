@@ -245,7 +245,7 @@ const ko = {
   ["billing.customImplementation"]: "맞춤형 구현",
   ["billing.uptimeSLA"]: "%{percentage}% 가동 시간 SLA",
   ["billing.byoc"]: "자체 클라우드 사용",
-  ["billing.samlAndScim"]: "SAML 및 SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "감사 로그",
   ["billing.customBilling"]: "맞춤 청구",
   ["billing.prioritySupport"]: "우선 지원 및 자문",

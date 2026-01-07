@@ -251,7 +251,7 @@ const de = {
   ["billing.customImplementation"]: "Kundenspezifische Implementierung",
   ["billing.uptimeSLA"]: "%{percentage}% Verfügbarkeits-SLA",
   ["billing.byoc"]: "Eigene Cloud nutzen",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Protokolle zur Überprüfung",
   ["billing.customBilling"]: "Individuelle Abrechnung",
   ["billing.prioritySupport"]: "Priorisierter Support und Beratung",

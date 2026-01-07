@@ -116,7 +116,7 @@ const fr: Translations = {
   ["billing.customImplementation"]: "Implémentation personnalisée",
   ["billing.uptimeSLA"]: "SLA de disponibilité de %{percentage}%",
   ["billing.byoc"]: "Apportez votre propre cloud",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Journaux d'audit",
   ["billing.customBilling"]: "Facturation personnalisée",
   ["billing.prioritySupport"]: "Assistance prioritaire et conseil",

@@ -1202,7 +1202,7 @@ const bs: Translations = {
   ["billing.customImplementation"]: "Prilagođena implementacija",
   ["billing.uptimeSLA"]: "%{percentage}% uptime SLA",
   ["billing.byoc"]: "Donesi vlastiti cloud",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Evidencije revizije",
   ["billing.customBilling"]: "Prilagođeno naplaćivanje",
   ["billing.prioritySupport"]: "Prioritetna podrška i savjetovanje",
