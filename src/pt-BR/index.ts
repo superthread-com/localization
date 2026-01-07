@@ -2971,14 +2971,14 @@ const ptBR = {
   ["billing.enterpriseSubtitle"]: "Para empresas que têm requisitos rigorosos",
   ["billing.seatCount"]: "%{count} lugares",
   ["billing.annualBilling"]: "Faturamento anual",
-  ["billing.ninetyDayVersionHistory"]: "%{count} dias de histórico de versões",
+  ["billing.versionHistory"]: "%{count} dias de histórico de versões",
   ["billing.expertOnboarding"]: "Integração especializada",
   ["billing.nextPaymentOn"]: "Próximo pagamento em %{date}",
   ["billing.paymentsWillStopOn"]: "Os pagamentos cessarão em %{date}",
   ["billing.youAreOnPlan"]: "Você está no plano %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

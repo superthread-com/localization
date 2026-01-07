@@ -2691,14 +2691,14 @@ const zhHans = {
   ["billing.enterpriseSubtitle"]: "适用于有严格要求的企业",
   ["billing.seatCount"]: "%{count} 个席位",
   ["billing.annualBilling"]: "年度计费",
-  ["billing.ninetyDayVersionHistory"]: "%{count} 天版本历史",
+  ["billing.versionHistory"]: "%{count} 天版本历史",
   ["billing.expertOnboarding"]: "专家入门指导",
   ["billing.nextPaymentOn"]: "下次付款日期：{date}",
   ["billing.paymentsWillStopOn"]: "付款将于 %{date} 停止",
   ["billing.youAreOnPlan"]: "您正在使用「%{planName}」计划",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

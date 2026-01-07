@@ -2828,14 +2828,14 @@ const ko = {
   ["billing.enterpriseSubtitle"]: "엄격한 요구 사항이 있는 기업을 위한",
   ["billing.seatCount"]: "%{count}석",
   ["billing.annualBilling"]: "연간 청구",
-  ["billing.ninetyDayVersionHistory"]: "%{count}일 버전 기록",
+  ["billing.versionHistory"]: "%{count}일 버전 기록",
   ["billing.expertOnboarding"]: "전문가 온보딩",
   ["billing.nextPaymentOn"]: "{date}에 다음 결제",
   ["billing.paymentsWillStopOn"]: "{date}에 결제 중단",
   ["billing.youAreOnPlan"]: "%{planName} 플랜을 사용 중입니다",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

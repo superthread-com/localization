@@ -220,12 +220,8 @@ const en = {
   ["billing.unlimitedFileUploads"]: "Unlimited file uploads",
   ["billing.cardAndPageTemplates"]: "Card & page templates",
   ["billing.guestUsers"]: "Guest users",
-  ["billing.meetingTranscription"]: "Meeting transcription",
-  ["billing.aiNoteTemplates"]: "AI note templates",
-  ["billing.askAiSearch"]: "Ask AI search",
   ["billing.perUserPerMonth"]: "/ user / month",
   ["billing.perUserPerYear"]: "/ user / year",
-  ["billing.inAppLiveChatSupport"]: "In-app live chat support",
   ["billing.timelineListAndCalendar"]: "Timeline, list, & calendar layouts",
   ["billing.billedYearly"]: "billed yearly",
   ["billing.planStatus"]: "Plan status",
@@ -243,10 +239,6 @@ const en = {
   ["billing.switchToYearly"]: "Switch to yearly (-20%)",
   ["billing.switchToMonthly"]: "Switch to monthly",
   ["billing.metadata"]: "Everything in %{plan}, plus...",
-  ["billing.samlAndScim"]: "SAML & SCIM",
-  ["billing.auditLogs"]: "Audit logs",
-  ["billing.customBilling"]: "Custom billing",
-  ["billing.prioritySupport"]: "Priority support",
   ["billing.unlimitedChildCards"]: "Unlimited child cards",
   ["billing.publishPagesToTheWeb"]: "Publish pages to the web",
   ["billing.calendarLayout"]: "Calendar layout",
@@ -254,7 +246,6 @@ const en = {
   ["billing.advancedSearch"]: "Advanced search",
   ["billing.views"]: "Saved filters",
   ["billing.timelineLayout"]: "Timeline layout",
-  ["billing.liveChatSupport"]: "Live chat support",
   ["billing.guestsUsersAreFree"]: "Guest users are free on your current plan.",
   ["billing.newMembersAreBilledProRata"]:
     "New members are billed pro-rata for the remainder of your annual billing cycle.",
@@ -285,6 +276,13 @@ const en = {
     "You're on a legacy %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
     "This version is no longer offered to new users. You can continue using it, or explore our current plans for updated features and pricing.",
+  ["billing.nextPaymentOn"]: "Next payment on %{date}",
+  ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
+  ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
   // PWYW Psychological Messages
   ["billing.pwyw.losingMoney"]: "We're losing money at this price",
   ["billing.pwyw.barelyCovering"]: "This barely covers our costs",
@@ -296,18 +294,20 @@ const en = {
   ["billing.pwyw.bestHuman"]: "You're literally the best human!",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Pay What You Want",
-  // Enterprise Tier Updates
+  // Business Tier Updates
   ["billing.seatCount"]: "%{count} seats",
   ["billing.annualBilling"]: "Annual billing",
-  ["billing.ninetyDayVersionHistory"]: "%{count} day version history",
+  ["billing.meetingTranscription"]: "Meeting transcription",
+  ["billing.aiNoteTemplates"]: "AI note templates",
+  ["billing.askAiSearch"]: "Ask AI search",
+  ["billing.versionHistory"]: "%{count} day version history",
   ["billing.expertOnboarding"]: "Expert onboarding",
-  ["billing.nextPaymentOn"]: "Next payment on %{date}",
-  ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
-  ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
-  ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
-    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.inAppLiveChatSupport"]: "In-app live chat support",
+  // Enterprise Tier Updates
+  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.auditLogs"]: "Audit logs",
+  ["billing.customBilling"]: "Custom billing",
+  ["billing.prioritySupport"]: "Priority support",
 
   // global
   ["global.text.create"]: "Create",

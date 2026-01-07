@@ -2696,14 +2696,14 @@ const zhHant = {
   ["billing.enterpriseSubtitle"]: "適用於有嚴格要求的企業",
   ["billing.seatCount"]: "%{count} 個席位",
   ["billing.annualBilling"]: "年度計費",
-  ["billing.ninetyDayVersionHistory"]: "%{count} 天版本歷史",
+  ["billing.versionHistory"]: "%{count} 天版本歷史",
   ["billing.expertOnboarding"]: "專家入門指導",
   ["billing.nextPaymentOn"]: "下次付款日期：{date}",
   ["billing.paymentsWillStopOn"]: "付款將於 %{date} 停止",
   ["billing.youAreOnPlan"]: "您正在使用「%{planName}」方案",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

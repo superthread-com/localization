@@ -2926,14 +2926,14 @@ const pl = {
   ["billing.enterpriseSubtitle"]: "Dla firm o rygorystycznych wymaganiach",
   ["billing.seatCount"]: "%{count} miejsc",
   ["billing.annualBilling"]: "Rozliczenia roczne",
-  ["billing.ninetyDayVersionHistory"]: "%{count} dni historii wersji",
+  ["billing.versionHistory"]: "%{count} dni historii wersji",
   ["billing.expertOnboarding"]: "Eksperckie wdrożenie",
   ["billing.nextPaymentOn"]: "Następna płatność %{date}",
   ["billing.paymentsWillStopOn"]: "Płatności zakończą się %{date}",
   ["billing.youAreOnPlan"]: "Masz plan %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

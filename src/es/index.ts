@@ -2985,15 +2985,14 @@ const es = {
     "Para empresas que tienen requisitos estrictos",
   ["billing.seatCount"]: "%{count} asientos",
   ["billing.annualBilling"]: "Facturación anual",
-  ["billing.ninetyDayVersionHistory"]:
-    "%{count} días de historial de versiones",
+  ["billing.versionHistory"]: "%{count} días de historial de versiones",
   ["billing.expertOnboarding"]: "Incorporación experta",
   ["billing.nextPaymentOn"]: "Próximo pago el %{date}",
   ["billing.paymentsWillStopOn"]: "Los pagos cesarán el %{date}",
   ["billing.youAreOnPlan"]: "Estás en el plan %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

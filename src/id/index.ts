@@ -2943,14 +2943,14 @@ const id = {
     "Untuk perusahaan yang memiliki persyaratan ketat",
   ["billing.seatCount"]: "%{count} tempat duduk",
   ["billing.annualBilling"]: "Penagihan tahunan",
-  ["billing.ninetyDayVersionHistory"]: "%{count} hari riwayat versi",
+  ["billing.versionHistory"]: "%{count} hari riwayat versi",
   ["billing.expertOnboarding"]: "Orientasi ahli",
   ["billing.nextPaymentOn"]: "Pembayaran berikutnya pada %{date}",
   ["billing.paymentsWillStopOn"]: "Pembayaran akan berhenti pada %{date}",
   ["billing.youAreOnPlan"]: "Anda menggunakan paket %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

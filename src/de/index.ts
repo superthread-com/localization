@@ -3005,14 +3005,14 @@ const de = {
   ["billing.enterpriseSubtitle"]: "Für Unternehmen mit strengen Anforderungen",
   ["billing.seatCount"]: "%{count} Plätze",
   ["billing.annualBilling"]: "Jährliche Abrechnung",
-  ["billing.ninetyDayVersionHistory"]: "%{count} Tage Versionsverlauf",
+  ["billing.versionHistory"]: "%{count} Tage Versionsverlauf",
   ["billing.expertOnboarding"]: "Experten-Onboarding",
   ["billing.nextPaymentOn"]: "Nächste Zahlung am %{date}",
   ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
   ["billing.youAreOnPlan"]: "Sie haben den %{planName}-Plan",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

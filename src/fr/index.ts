@@ -2999,15 +2999,14 @@ const fr: Translations = {
     "Pour les entreprises ayant des exigences strictes",
   ["billing.seatCount"]: "%{count} places",
   ["billing.annualBilling"]: "Facturation annuelle",
-  ["billing.ninetyDayVersionHistory"]:
-    "%{count} jours d'historique des versions",
+  ["billing.versionHistory"]: "%{count} jours d'historique des versions",
   ["billing.expertOnboarding"]: "Intégration experte",
   ["billing.nextPaymentOn"]: "Prochain paiement le %{date}",
   ["billing.paymentsWillStopOn"]: "Les paiements s'arrêteront le %{date}",
   ["billing.youAreOnPlan"]: "Vous êtes sur le plan %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 

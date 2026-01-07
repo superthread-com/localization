@@ -2906,14 +2906,14 @@ const bs: Translations = {
   ["billing.enterpriseSubtitle"]: "Za kompanije koje imaju stroge zahtjeve",
   ["billing.seatCount"]: "%{count} mjesta",
   ["billing.annualBilling"]: "Godišnje naplaćivanje",
-  ["billing.ninetyDayVersionHistory"]: "%{count} dana historije verzija",
+  ["billing.versionHistory"]: "%{count} dana historije verzija",
   ["billing.expertOnboarding"]: "Stručno uvođenje",
   ["billing.nextPaymentOn"]: "Sljedeća uplata %{date}",
   ["billing.paymentsWillStopOn"]: "Uplate će prestati %{date}",
   ["billing.youAreOnPlan"]: "Vi ste na %{planName} planu",
   ["billing.cancelPlan"]: "Cancel subscription",
-  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
-  ["billing.confirmPlanChangeDescription"]:
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
 };
 
