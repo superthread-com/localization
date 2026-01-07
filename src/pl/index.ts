@@ -2941,6 +2941,9 @@ const pl = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Zmiana ceny powiodła się!",
+  ["billing.priceChangeFail"]:
+    "Zmiana ceny nie powiodła się. Skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzał.",
 };
 
 export default pl as Translations;

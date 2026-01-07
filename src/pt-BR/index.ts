@@ -2986,6 +2986,9 @@ const ptBR = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Mudança de preço bem-sucedida!",
+  ["billing.priceChangeFail"]:
+    "Falha na mudança de preço. Entre em contato com o suporte se o problema persistir.",
 };
 
 export default ptBR as Translations;

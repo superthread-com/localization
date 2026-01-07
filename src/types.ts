@@ -278,6 +278,8 @@ export enum TranslationKeys {
   BillingCancelPlan = "billing.cancelPlan",
   BillingConfirmPriceChangeTitle = "billing.confirmPriceChangeTitle",
   BillingConfirmPriceChangeDescription = "billing.confirmPriceChangeDescription",
+  BillingPriceChangeSuccess = "billing.priceChangeSuccess",
+  BillingPriceChangeFail = "billing.priceChangeFail",
   GlobalTextCreate = "global.text.create",
   OptionLabelCards = "option.label.cards",
   OptionLabelPages = "option.label.pages",

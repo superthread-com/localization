@@ -2706,6 +2706,9 @@ const zhHans = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "价格更改成功！",
+  ["billing.priceChangeFail"]:
+    "价格更改失败。如果问题仍然存在，请联系支持团队。",
 };
 
 export default zhHans as Translations;

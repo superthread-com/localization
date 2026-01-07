@@ -2711,6 +2711,9 @@ const zhHant = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "價格變更成功！",
+  ["billing.priceChangeFail"]:
+    "價格變更失敗。如果問題仍然存在，請聯絡支援團隊。",
 };
 
 export default zhHant as Translations;

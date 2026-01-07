@@ -3000,6 +3000,9 @@ const es = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "¡Cambio de precio exitoso!",
+  ["billing.priceChangeFail"]:
+    "Error al cambiar el precio. Contacta con soporte si el problema persiste.",
 };
 
 export default es as Translations;

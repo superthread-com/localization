@@ -3020,6 +3020,9 @@ const de = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Preisänderung erfolgreich!",
+  ["billing.priceChangeFail"]:
+    "Preisänderung fehlgeschlagen. Kontaktieren Sie den Support, wenn das Problem weiterhin besteht.",
 };
 
 export default de as Translations;

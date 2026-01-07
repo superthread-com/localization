@@ -2843,6 +2843,9 @@ const ko = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "가격 변경 성공!",
+  ["billing.priceChangeFail"]:
+    "가격 변경 실패. 문제가 지속되면 지원팀에 문의하세요.",
 };
 
 export default ko as Translations;

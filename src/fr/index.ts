@@ -3014,6 +3014,9 @@ const fr: Translations = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Changement de prix réussi !",
+  ["billing.priceChangeFail"]:
+    "Échec du changement de prix. Contactez le support si le problème persiste.",
 };
 
 export default fr as Translations;

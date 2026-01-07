@@ -283,6 +283,9 @@ const en = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Price change successful!",
+  ["billing.priceChangeFail"]:
+    "Price change failed. Contact support if the issue persists.",
   // PWYW Psychological Messages
   ["billing.pwyw.losingMoney"]: "Thanks for the coffee",
   ["billing.pwyw.barelyCovering"]: "Thanks for the beer",

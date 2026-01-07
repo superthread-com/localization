@@ -2958,6 +2958,9 @@ const id = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Perubahan harga berhasil!",
+  ["billing.priceChangeFail"]:
+    "Perubahan harga gagal. Hubungi dukungan jika masalah berlanjut.",
 };
 
 export default id as Translations;

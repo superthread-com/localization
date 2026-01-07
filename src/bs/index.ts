@@ -2921,6 +2921,9 @@ const bs: Translations = {
   ["billing.confirmPriceChangeTitle"]: "Confirm price change",
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Promjena cijene uspješna!",
+  ["billing.priceChangeFail"]:
+    "Promjena cijene nije uspjela. Kontaktirajte podršku ako se problem nastavi.",
 };
 
 export default bs;
