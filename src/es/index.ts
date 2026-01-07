@@ -235,10 +235,8 @@ const es = {
   ["billing.planStatus"]: "Estado del plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Tu plan actual no está configurado para renovarse",
-  ["billing.on"]: "Activado",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "tu espacio de trabajo se degradará al plan Gratis. Hasta entonces, aún puedes invitar a personas a este espacio de trabajo, pero no podrás exceder",
-  ["billing.workspaceMembers"]: "miembros del espacio de trabajo",
+  ["billing.canceledDescription"]:
+    "El %{date} tu espacio de trabajo se degradará al plan $t(billing.free). Hasta entonces, aún puedes invitar a personas a este espacio de trabajo, pero no podrás exceder %{memberCount} miembros del espacio de trabajo",
   ["billing.turnRenewalBackOn"]: "Reactivar la renovación",
   ["billing.youCanStillInvite"]:
     "Aún puedes invitar personas a este espacio de trabajo, pero no puedes exceder",

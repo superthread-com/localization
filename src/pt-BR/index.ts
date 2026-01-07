@@ -235,10 +235,8 @@ const ptBR = {
   ["billing.planStatus"]: "Status do plano",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Seu plano atual não está configurado para renovar",
-  ["billing.on"]: "Em",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "seu espaço de trabalho será rebaixado para o plano Gratuito. Até lá, você ainda pode convidar pessoas para este espaço de trabalho, mas não poderá exceder",
-  ["billing.workspaceMembers"]: "membros do espaço de trabalho",
+  ["billing.canceledDescription"]:
+    "Em %{date} seu espaço de trabalho será rebaixado para o plano $t(billing.free). Até lá, você ainda pode convidar pessoas para este espaço de trabalho, mas não poderá exceder %{memberCount} membros do espaço de trabalho",
   ["billing.turnRenewalBackOn"]: "Reativar renovação",
   ["billing.youCanStillInvite"]:
     "Você ainda pode convidar pessoas para este workspace, mas não pode exceder",

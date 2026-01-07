@@ -220,10 +220,8 @@ const zhHans = {
   ["billing.billedYearly"]: "按年计费",
   ["billing.planStatus"]: "计划状态",
   ["billing.yourCurrentPlanIsNotSetToRenew"]: "您的当前计划未设置为续订",
-  ["billing.on"]: "开启",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "您的工作区将降级为免费计划。在此之前，您仍然可以邀请人加入此工作区，但您将无法超过",
-  ["billing.workspaceMembers"]: "工作区成员",
+  ["billing.canceledDescription"]:
+    "在 %{date} 您的工作区将降级为 $t(billing.free) 计划。在此之前，您仍然可以邀请人加入此工作区，但您将无法超过 %{memberCount} 个工作区成员",
   ["billing.turnRenewalBackOn"]: "重新开启续订",
   ["billing.youCanStillInvite"]: "您仍然可以邀请人加入此工作区，但您不能超过",
   ["billing.workspaceFullError"]:

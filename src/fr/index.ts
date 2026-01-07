@@ -98,10 +98,8 @@ const fr: Translations = {
   ["billing.planStatus"]: "Status du plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Votre plan actuel n'est pas prêt à être renouvelé",
-  ["billing.on"]: "Activer",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "votre espace de travail passera au plan gratuit. D'ici là, vous pourrez toujours inviter vos collègues à cet espace de travail, mais vous ne pourrez pas dépasser les limites de l'espace de travail.",
-  ["billing.workspaceMembers"]: "membres de l'espace de travail",
+  ["billing.canceledDescription"]:
+    "Le %{date} votre espace de travail passera au plan $t(billing.free). D'ici là, vous pourrez toujours inviter vos collègues à cet espace de travail, mais vous ne pourrez pas dépasser %{memberCount} membres de l'espace de travail",
   ["billing.turnRenewalBackOn"]: "Rétablir le renouvellement",
   ["billing.youCanStillInvite"]:
     "Vous pouvez toujours inviter vos collègues à cet espace de travail, mais vous ne pouvez pas dépasser les limites de l'espace de travail.",

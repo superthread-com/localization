@@ -227,10 +227,8 @@ const ko = {
   ["billing.billedYearly"]: "연간 청구",
   ["billing.planStatus"]: "플랜 상태",
   ["billing.yourCurrentPlanIsNotSetToRenew"]: "현재 플랜은 갱신되지 않습니다",
-  ["billing.on"]: "에",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "작업 공간이 무료 플랜으로 다운그레이드됩니다. 그때까지 이 작업 공간에 사람들을 초대할 수 있지만, 초과할 수 없습니다",
-  ["billing.workspaceMembers"]: "작업 공간 멤버",
+  ["billing.canceledDescription"]:
+    "%{date}에 작업 공간이 $t(billing.free) 플랜으로 다운그레이드됩니다. 그때까지 이 작업 공간에 사람들을 초대할 수 있지만, %{memberCount}명의 작업 공간 멤버를 초과할 수 없습니다",
   ["billing.turnRenewalBackOn"]: "갱신 다시 켜기",
   ["billing.youCanStillInvite"]:
     "이 작업 공간에 사람들을 초대할 수 있지만, 초과할 수 없습니다",

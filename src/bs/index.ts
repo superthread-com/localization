@@ -1184,10 +1184,8 @@ const bs: Translations = {
   ["billing.planStatus"]: "Status plana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Vašem trenutnom planu nije postavljeno automatsko obnavljanje",
-  ["billing.on"]: "Na",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "Vaš radni prostor će se vratiti na besplatni plan na %{date}. Do tada još možete pozvati ljude u ovaj workspace, ali nećete moći premašiti limit od",
-  ["billing.workspaceMembers"]: "članova workspace-a",
+  ["billing.canceledDescription"]:
+    "Na %{date} Vaš radni prostor će se vratiti na $t(billing.free) plan. Do tada još možete pozvati ljude u ovaj workspace, ali nećete moći premašiti limit od %{memberCount} članova workspace-a",
   ["billing.turnRenewalBackOn"]: "Ponovno uključite automatsko obnavljanje",
   ["billing.youCanStillInvite"]:
     "I dalje možete pozvati ljude u ovaj workspace, ali ne možete premašiti limit od",

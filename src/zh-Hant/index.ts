@@ -220,10 +220,8 @@ const zhHant = {
   ["billing.billedYearly"]: "按年計費",
   ["billing.planStatus"]: "方案狀態",
   ["billing.yourCurrentPlanIsNotSetToRenew"]: "您的當前方案未設置為自動續訂",
-  ["billing.on"]: "開啟",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "您的工作區將降級至免費方案。在此之前，您仍然可以邀請人員加入此工作區，但您將無法超過",
-  ["billing.workspaceMembers"]: "工作區成員",
+  ["billing.canceledDescription"]:
+    "在 %{date} 您的工作區將降級至 $t(billing.free) 方案。在此之前，您仍然可以邀請人員加入此工作區，但您將無法超過 %{memberCount} 位工作區成員",
   ["billing.turnRenewalBackOn"]: "重新開啟續訂",
   ["billing.youCanStillInvite"]: "您仍然可以邀請人員加入此工作區，但您不能超過",
   ["billing.workspaceFullError"]:

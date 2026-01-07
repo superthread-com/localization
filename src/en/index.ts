@@ -231,10 +231,8 @@ const en = {
   ["billing.planStatus"]: "Plan status",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Your current plan is not set to renew",
-  ["billing.on"]: "On",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "your workspace will downgrade to the Free plan. Until then you can still invite people to this workspace, but you will not be able to exceed",
-  ["billing.workspaceMembers"]: "workspace members",
+  ["billing.canceledDescription"]:
+    "On %{date} your workspace will downgrade to the $t(billing.free) plan. Until then you can still invite people to this workspace, but you will not be able to exceed %{memberCount} workspace members",
   ["billing.turnRenewalBackOn"]: "Turn renewal back on",
   ["billing.youCanStillInvite"]:
     "You can still invite people to this workspace, but you cannot exceed",

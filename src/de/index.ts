@@ -233,10 +233,8 @@ const de = {
   ["billing.planStatus"]: "Planstatus",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Ihr aktueller Plan ist nicht auf Erneuerung eingestellt",
-  ["billing.on"]: "Aktiv",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "Ihr Arbeitsbereich wird auf den kostenlosen Plan heruntergestuft. Bis dahin können Sie weiterhin Personen zu diesem Arbeitsbereich einladen, aber Sie dürfen nicht überschreiten",
-  ["billing.workspaceMembers"]: "Mitglieder des Arbeitsbereichs",
+  ["billing.canceledDescription"]:
+    "Am %{date} wird Ihr Arbeitsbereich auf den $t(billing.free) Plan heruntergestuft. Bis dahin können Sie weiterhin Personen zu diesem Arbeitsbereich einladen, aber Sie dürfen nicht mehr als %{memberCount} Mitglieder des Arbeitsbereichs überschreiten",
   ["billing.turnRenewalBackOn"]: "Erneuerung wieder aktivieren",
   ["billing.youCanStillInvite"]:
     "Sie können weiterhin Personen zu diesem Arbeitsbereich einladen, aber Sie dürfen nicht überschreiten",

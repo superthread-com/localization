@@ -233,10 +233,8 @@ const id = {
   ["billing.planStatus"]: "Status rencana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Rencana Anda saat ini tidak diatur untuk diperbarui",
-  ["billing.on"]: "Nyala",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "ruang kerja Anda akan diturunkan ke Rencana Gratis. Sampai saat itu Anda masih dapat mengundang orang ke ruang kerja ini, tetapi Anda tidak akan dapat melebihi",
-  ["billing.workspaceMembers"]: "anggota ruang kerja",
+  ["billing.canceledDescription"]:
+    "Pada %{date} ruang kerja Anda akan diturunkan ke rencana $t(billing.free). Sampai saat itu Anda masih dapat mengundang orang ke ruang kerja ini, tetapi Anda tidak akan dapat melebihi %{memberCount} anggota ruang kerja",
   ["billing.turnRenewalBackOn"]: "Nyalakan kembali perpanjangan",
   ["billing.youCanStillInvite"]:
     "Anda masih dapat mengundang orang ke ruang kerja ini, tetapi Anda tidak dapat melebihi",

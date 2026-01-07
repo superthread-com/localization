@@ -227,10 +227,8 @@ const pl = {
   ["billing.planStatus"]: "Status planu",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Twój bieżący plan nie jest ustawiony do automatycznego odnawiania",
-  ["billing.on"]: "Włączone",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "Twoja przestrzeń robocza zostanie obniżona do darmowego planu. Do tego czasu możesz zapraszać ludzi, ale nie przekroczysz",
-  ["billing.workspaceMembers"]: "członków przestrzeni roboczej",
+  ["billing.canceledDescription"]:
+    "W dniu %{date} Twoja przestrzeń robocza zostanie obniżona do planu $t(billing.free). Do tego czasu możesz zapraszać ludzi, ale nie przekroczysz %{memberCount} członków przestrzeni roboczej",
   ["billing.turnRenewalBackOn"]: "Włącz ponownie odnawianie",
   ["billing.youCanStillInvite"]:
     "Możesz nadal zapraszać ludzi do tej przestrzeni roboczej, ale nie możesz przekroczyć",
