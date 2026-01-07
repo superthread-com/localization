@@ -262,8 +262,8 @@ export enum TranslationKeys {
   BillingPwywBelowFair = "billing.pwyw.belowFair",
   BillingPwywFairPrice = "billing.pwyw.fairPrice",
   BillingPwywAwesome = "billing.pwyw.awesome",
-  BillingPwywGenerous = "billing.pwyw.generous",
   BillingPwywBestHuman = "billing.pwyw.bestHuman",
+  BillingPwywTopTier = "billing.pwyw.topTier",
   // PWYW UI Labels
   BillingPwywTitle = "billing.pwyw.title",
   // Enterprise Tier Updates

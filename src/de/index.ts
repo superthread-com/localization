@@ -2997,14 +2997,14 @@ const de = {
   linkAdded: "Link hinzugefügt",
   errorAddingLink: "Fehler beim Hinzufügen des Links",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "Wir verlieren Geld zu diesem Preis",
-  ["billing.pwyw.barelyCovering"]: "Dies deckt kaum unsere Kosten",
-  ["billing.pwyw.breakeven"]: "Break-Even-Punkt — kein Gewinn, kein Verlust",
+  ["billing.pwyw.losingMoney"]: "Danke für den Kaffee",
+  ["billing.pwyw.barelyCovering"]: "Danke für das Bier",
+  ["billing.pwyw.breakeven"]: "Gewinnschwelle — kein Gewinn, kein Verlust",
   ["billing.pwyw.belowFair"]: "Etwas unter dem fairen Preis",
-  ["billing.pwyw.fairPrice"]: "Fairer Preis — vielen Dank!",
+  ["billing.pwyw.fairPrice"]: "Fairer Preis, vielen Dank!",
   ["billing.pwyw.awesome"]: "Du bist großartig!",
-  ["billing.pwyw.generous"]: "Wow, so großzügig!",
   ["billing.pwyw.bestHuman"]: "Du bist buchstäblich der beste Mensch!",
+  ["billing.pwyw.topTier"]: "Was bedeutet das überhaupt?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Zahle was du willst",
   // Enterprise Tier Updates

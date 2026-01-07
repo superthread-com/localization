@@ -2683,14 +2683,14 @@ const zhHans = {
   linkAdded: "链接已添加",
   errorAddingLink: "添加链接时出错",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "这个价格我们会亏本",
-  ["billing.pwyw.barelyCovering"]: "这仅能勉强覆盖我们的成本",
-  ["billing.pwyw.breakeven"]: "收支平衡点 — 不赚不赔",
+  ["billing.pwyw.losingMoney"]: "感谢咖啡",
+  ["billing.pwyw.barelyCovering"]: "感谢啤酒",
+  ["billing.pwyw.breakeven"]: "收支平衡 — 不赚不赔",
   ["billing.pwyw.belowFair"]: "略低于公平价格",
-  ["billing.pwyw.fairPrice"]: "公平价格 — 谢谢!",
+  ["billing.pwyw.fairPrice"]: "公平价格,谢谢!",
   ["billing.pwyw.awesome"]: "您真棒!",
-  ["billing.pwyw.generous"]: "哇,太慷慨了!",
   ["billing.pwyw.bestHuman"]: "您简直是最棒的人!",
+  ["billing.pwyw.topTier"]: "这到底是什么意思?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "随心支付",
   // Enterprise Tier Updates

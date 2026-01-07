@@ -2898,14 +2898,14 @@ const bs: Translations = {
   linkAdded: "Link dodan",
   errorAddingLink: "Greška pri dodavanju linka",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "Gubimo novac po ovoj cijeni",
-  ["billing.pwyw.barelyCovering"]: "Ovo jedva pokriva naše troškove",
-  ["billing.pwyw.breakeven"]: "Tačka pokrića — nema profita, nema gubitka",
+  ["billing.pwyw.losingMoney"]: "Hvala za kafu",
+  ["billing.pwyw.barelyCovering"]: "Hvala za pivo",
+  ["billing.pwyw.breakeven"]: "Pokriće — nema profita, nema gubitka",
   ["billing.pwyw.belowFair"]: "Malo ispod poštene cijene",
-  ["billing.pwyw.fairPrice"]: "Poštena cijena — hvala!",
+  ["billing.pwyw.fairPrice"]: "Poštena cijena, hvala!",
   ["billing.pwyw.awesome"]: "Ti si super!",
-  ["billing.pwyw.generous"]: "Vau, tako velikodušno!",
   ["billing.pwyw.bestHuman"]: "Ti si doslovno najbolja osoba!",
+  ["billing.pwyw.topTier"]: "Šta ovo uopšte znači?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Plati koliko želiš",
   // Enterprise Tier Updates

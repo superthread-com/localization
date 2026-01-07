@@ -2819,15 +2819,15 @@ const ko = {
   linkAdded: "링크 추가됨",
   errorAddingLink: "링크 추가 오류",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "이 가격에는 손해를 보고 있습니다",
+  ["billing.pwyw.losingMoney"]: "커피 감사합니다",
   ["billing.pwyw.barelyCovering"]:
-    "이것은 우리의 비용을 거의 충당하지 못합니다",
+    "맥주 감사합니다",
   ["billing.pwyw.breakeven"]: "손익분기점 — 이익도 손실도 없음",
   ["billing.pwyw.belowFair"]: "공정 가격보다 약간 낮음",
-  ["billing.pwyw.fairPrice"]: "공정 가격 — 감사합니다!",
+  ["billing.pwyw.fairPrice"]: "공정 가격, 감사합니다!",
   ["billing.pwyw.awesome"]: "당신은 멋지네요!",
-  ["billing.pwyw.generous"]: "와, 정말 관대하시네요!",
   ["billing.pwyw.bestHuman"]: "당신은 말 그대로 최고의 사람입니다!",
+  ["billing.pwyw.topTier"]: "이게 대체 무슨 의미인가요?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "원하는 만큼 지불하세요",
   // Enterprise Tier Updates

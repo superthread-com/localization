@@ -2918,14 +2918,14 @@ const pl = {
   linkAdded: "Link dodany",
   errorAddingLink: "Błąd podczas dodawania linku",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "Tracimy pieniądze przy tej cenie",
-  ["billing.pwyw.barelyCovering"]: "To ledwo pokrywa nasze koszty",
+  ["billing.pwyw.losingMoney"]: "Dzięki za kawę",
+  ["billing.pwyw.barelyCovering"]: "Dzięki za piwo",
   ["billing.pwyw.breakeven"]: "Punkt progu rentowności — bez zysku, bez straty",
   ["billing.pwyw.belowFair"]: "Trochę poniżej uczciwej ceny",
-  ["billing.pwyw.fairPrice"]: "Uczciwa cena — dziękujemy!",
+  ["billing.pwyw.fairPrice"]: "Uczciwa cena, dziękujemy!",
   ["billing.pwyw.awesome"]: "Jesteś niesamowity!",
-  ["billing.pwyw.generous"]: "Wow, jakie hojne!",
   ["billing.pwyw.bestHuman"]: "Jesteś dosłownie najlepszym człowiekiem!",
+  ["billing.pwyw.topTier"]: "Co to w ogóle oznacza?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Zapłać ile chcesz",
   // Enterprise Tier Updates

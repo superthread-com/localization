@@ -2975,15 +2975,15 @@ const es = {
   linkAdded: "Enlace añadido",
   errorAddingLink: "Error al añadir enlace",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "Estamos perdiendo dinero a este precio",
-  ["billing.pwyw.barelyCovering"]: "Esto apenas cubre nuestros costos",
+  ["billing.pwyw.losingMoney"]: "Gracias por el café",
+  ["billing.pwyw.barelyCovering"]: "Gracias por la cerveza",
   ["billing.pwyw.breakeven"]:
     "Punto de equilibrio — sin ganancias, sin pérdidas",
   ["billing.pwyw.belowFair"]: "Un poco por debajo del precio justo",
-  ["billing.pwyw.fairPrice"]: "Precio justo — ¡gracias!",
+  ["billing.pwyw.fairPrice"]: "Precio justo, ¡gracias!",
   ["billing.pwyw.awesome"]: "¡Eres increíble!",
-  ["billing.pwyw.generous"]: "¡Wow, qué generoso!",
   ["billing.pwyw.bestHuman"]: "¡Eres literalmente la mejor persona!",
+  ["billing.pwyw.topTier"]: "¿Qué significa esto realmente?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Paga lo que quieras",
   // Enterprise Tier Updates

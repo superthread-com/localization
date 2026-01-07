@@ -1,3 +1,7 @@
+---
+allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(ls:*)
+---
+
 # Sync Translations
 
 Examine recent git changes to English translations and propagate them across all supported languages, ensuring type safety and successful builds.
@@ -5,14 +9,16 @@ Examine recent git changes to English translations and propagate them across all
 ## Purpose
 
 When English translations (`src/en/index.ts`) or translation types (`src/types.ts`) are modified:
+
 1. Identify what keys were added, modified, or removed
-2. Propagate those changes to all other language files
+2. Propagate those changes to all other language files, ensuring correct translations
 3. Validate TypeScript compilation
 4. Ensure the build succeeds
 
 ## Supported Languages
 
 This package supports many languages (list all directories in `src/` to get current list):
+
 - `en` - English (source of truth)
 - `bs` - Bosnian
 - `de` - German
@@ -36,6 +42,7 @@ git status
 ```
 
 Look for changes in:
+
 - `src/types.ts` (TranslationKeys enum)
 - `src/en/index.ts` (English translations)
 - Any other language files
@@ -49,6 +56,7 @@ git diff src/types.ts src/en/index.ts
 ```
 
 Identify:
+
 - **Added keys**: New translation keys that need to be added to all languages
 - **Modified keys**: Changed translations that may need attention
 - **Removed keys**: Deleted keys that should be removed from all languages
@@ -67,6 +75,7 @@ This will show all language directories (e.g., `src/en/`, `src/bs/`, `src/de/`, 
 ### Step 4: Read Current State of Files
 
 For each change identified, read the relevant sections of:
+
 - `src/types.ts` to see the current TranslationKeys enum
 - `src/en/index.ts` to see the current English translations
 - Each language file to understand where to make changes
@@ -78,16 +87,19 @@ Use targeted reads with line numbers or grep to find specific keys.
 For each identified change:
 
 #### For Added Keys:
+
 1. Verify the key exists in `src/types.ts` TranslationKeys enum
 2. Verify the key exists in `src/en/index.ts` with English translation
-3. Add the key to all other language files using the English translation as a placeholder
-4. Maintain alphabetical or logical order consistent with English file
+3. Add the key to all other language files and translate the value using the English translation as a source of truth
+4. Maintain alphabetical or logical order consistent with English file if possible
 
 #### For Modified Keys:
-1. If the English translation text changed, update all other languages with the new English text as a placeholder
+
+1. If the English translation text changed, update all other languages with the correct translation
 2. If only formatting changed, replicate the formatting across all languages
 
 #### For Removed Keys:
+
 1. Remove the key from `src/types.ts` TranslationKeys enum
 2. Remove the key from all language files including English
 
@@ -96,16 +108,17 @@ For each identified change:
 Before making edits, list out all the language files that need to be modified:
 
 ```bash
-find src -name "index.ts" -type f | grep -v "src/index.ts" | grep -v "src/types.ts"
+ls -d src/*/
 ```
 
 ### Step 7: Update Each Language File
 
 For each language file (except English, which should already be correct):
+
 - Read the file to find the correct location for changes
 - Use Edit tool to add/modify/remove the keys
 - Maintain the same order as the English file
-- Use English translation text as placeholder value
+- Use English text as the source of truth for the translation
 
 ### Step 8: Validate TypeScript Compilation
 
@@ -116,6 +129,7 @@ npx tsc -b
 ```
 
 If there are errors:
+
 - Review the error messages carefully
 - Common issues: missing keys, duplicate keys, type mismatches
 - Fix any errors before proceeding
@@ -129,6 +143,7 @@ npm run build
 ```
 
 If the build fails:
+
 - Review error messages
 - Check for syntax errors in modified files
 - Ensure all language files have matching keys
@@ -136,6 +151,7 @@ If the build fails:
 ### Step 10: Summary Report
 
 Provide a clear summary to the user:
+
 - List of keys added/modified/removed
 - Number of language files updated
 - Confirmation that TypeScript compilation passed
@@ -146,6 +162,7 @@ Provide a clear summary to the user:
 ### Scenario 1: New Keys Added to English
 
 **Git diff shows**:
+
 ```diff
 // src/types.ts
 + NewKey = "newKey",
@@ -155,6 +172,7 @@ Provide a clear summary to the user:
 ```
 
 **Actions**:
+
 1. Add `newKey: "New translation text",` to all language files
 2. Place in alphabetical order matching English file
 3. Validate and build
@@ -162,6 +180,7 @@ Provide a clear summary to the user:
 ### Scenario 2: English Translation Text Changed
 
 **Git diff shows**:
+
 ```diff
 // src/en/index.ts
 - loginButton: "Log in",
@@ -169,12 +188,14 @@ Provide a clear summary to the user:
 ```
 
 **Actions**:
-1. Update `loginButton` in all language files to use "Sign in" as placeholder
+
+1. Update `loginButton` in all language files to the correct translation of: "Sign in"
 2. Validate and build
 
 ### Scenario 3: Key Removed
 
 **Git diff shows**:
+
 ```diff
 // src/types.ts
 - OldKey = "oldKey",
@@ -184,6 +205,7 @@ Provide a clear summary to the user:
 ```
 
 **Actions**:
+
 1. Remove `oldKey` from all language files
 2. Validate and build
 
@@ -192,6 +214,7 @@ Provide a clear summary to the user:
 **Git diff shows multiple additions and modifications**:
 
 **Actions**:
+
 1. Process all additions first
 2. Then process all modifications
 3. Then process all removals
@@ -200,11 +223,10 @@ Provide a clear summary to the user:
 ## Important Reminders
 
 1. **English is the source of truth** - all changes should originate from English translations
-2. **Use English text as placeholder** - other language files get English text until native speakers provide proper translations
-3. **Maintain order** - keep the same key order across all language files
-4. **Validate before finishing** - always run TypeScript compilation and build
-5. **Handle all languages** - don't skip any language files
-6. **Read before editing** - always read the file to understand context before making changes
+2. **Maintain order** - keep the same key order across all language files
+3. **Validate before finishing** - always run TypeScript compilation and build
+4. **Handle all languages** - don't skip any language files
+5. **Read before editing** - always search and read parts of the file to understand context before making changes. never attempt to read the entire file. use grep to search for the relevant parts.
 
 ## Validation Checklist
 

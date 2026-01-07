@@ -284,14 +284,14 @@ const en = {
   ["billing.confirmPriceChangeDescription"]:
     "Your subscription will be changed to %{price} on your next invoice.",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "We're losing money at this price",
-  ["billing.pwyw.barelyCovering"]: "This barely covers our costs",
-  ["billing.pwyw.breakeven"]: "Break-even point — no profit, no loss",
+  ["billing.pwyw.losingMoney"]: "Thanks for the coffee",
+  ["billing.pwyw.barelyCovering"]: "Thanks for the beer",
+  ["billing.pwyw.breakeven"]: "Break even — no profit, no loss",
   ["billing.pwyw.belowFair"]: "A little below fair price",
-  ["billing.pwyw.fairPrice"]: "Fair price — thank you!",
+  ["billing.pwyw.fairPrice"]: "Fair price, thank you!",
   ["billing.pwyw.awesome"]: "You're awesome!",
-  ["billing.pwyw.generous"]: "Wow, so generous!",
   ["billing.pwyw.bestHuman"]: "You're literally the best human!",
+  ["billing.pwyw.topTier"]: "What does this even mean?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Pay What You Want",
   // Business Tier Updates

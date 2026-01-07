@@ -2934,14 +2934,14 @@ const id = {
   linkAdded: "Tautan ditambahkan",
   errorAddingLink: "Kesalahan menambahkan tautan",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "Kami merugi pada harga ini",
-  ["billing.pwyw.barelyCovering"]: "Ini hampir tidak menutupi biaya kami",
+  ["billing.pwyw.losingMoney"]: "Terima kasih untuk kopinya",
+  ["billing.pwyw.barelyCovering"]: "Terima kasih untuk birnya",
   ["billing.pwyw.breakeven"]: "Titik impas — tidak untung, tidak rugi",
   ["billing.pwyw.belowFair"]: "Sedikit di bawah harga wajar",
-  ["billing.pwyw.fairPrice"]: "Harga wajar — terima kasih!",
+  ["billing.pwyw.fairPrice"]: "Harga wajar, terima kasih!",
   ["billing.pwyw.awesome"]: "Anda luar biasa!",
-  ["billing.pwyw.generous"]: "Wow, sangat murah hati!",
   ["billing.pwyw.bestHuman"]: "Anda benar-benar manusia terbaik!",
+  ["billing.pwyw.topTier"]: "Apa artinya ini sebenarnya?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Bayar Sesuai Keinginan",
   // Enterprise Tier Updates

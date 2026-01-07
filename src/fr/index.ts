@@ -2990,14 +2990,14 @@ const fr: Translations = {
   linkAdded: "Lien ajouté",
   errorAddingLink: "Erreur lors de l'ajout du lien",
   // PWYW Psychological Messages
-  ["billing.pwyw.losingMoney"]: "Nous perdons de l'argent à ce prix",
-  ["billing.pwyw.barelyCovering"]: "Cela couvre à peine nos coûts",
+  ["billing.pwyw.losingMoney"]: "Merci pour le café",
+  ["billing.pwyw.barelyCovering"]: "Merci pour la bière",
   ["billing.pwyw.breakeven"]: "Point d'équilibre — pas de profit, pas de perte",
   ["billing.pwyw.belowFair"]: "Un peu en dessous du prix équitable",
-  ["billing.pwyw.fairPrice"]: "Prix équitable — merci !",
+  ["billing.pwyw.fairPrice"]: "Prix équitable, merci !",
   ["billing.pwyw.awesome"]: "Vous êtes génial !",
-  ["billing.pwyw.generous"]: "Wow, tellement généreux !",
   ["billing.pwyw.bestHuman"]: "Vous êtes littéralement la meilleure personne !",
+  ["billing.pwyw.topTier"]: "Qu'est-ce que cela signifie même ?",
   // PWYW UI Labels
   ["billing.pwyw.title"]: "Payez ce que vous voulez",
   // Enterprise Tier Updates
