@@ -500,6 +500,7 @@ const pl = {
   paste_image_link: "Wklej link do obrazu",
   embed_image: "Osadź obraz",
   embedIframe: "Osadź iframe",
+  embedProductIframe: "Osadź %{product}",
   drag_and_drop: "Przeciągnij i upuść",
   supported_files: "Obsługiwane pliki",
   maximum_size: "Maksymalny rozmiar",

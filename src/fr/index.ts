@@ -511,6 +511,7 @@ const fr: Translations = {
   paste_image_link: "Coller le lien de l'image",
   embed_image: "Intégrer l'image",
   embedIframe: "Intégrer iframe",
+  embedProductIframe: "Intégrer %{product}",
   drag_and_drop: "Glisser et déposer",
   supported_files: "Fichiers soutenues",
   maximum_size: "Taille maximale",

@@ -476,6 +476,7 @@ const zhHant = {
   paste_image_link: "貼上圖片連結",
   embed_image: "嵌入圖片",
   embedIframe: "嵌入 iframe",
+  embedProductIframe: "嵌入 %{product}",
   drag_and_drop: "拖放",
   supported_files: "支援的檔案",
   maximum_size: "最大尺寸",

@@ -497,6 +497,7 @@ const en = {
   paste_image_link: "Paste image link",
   embed_image: "Embed image",
   embedIframe: "Embed iframe",
+  embedProductIframe: "Embed %{product}",
   drag_and_drop: "Drag and drop",
   supported_files: "Supported files",
   maximum_size: "Maximum size",

@@ -511,6 +511,7 @@ const de = {
   paste_image_link: "Bildlink einfügen",
   embed_image: "Bild einbetten",
   embedIframe: "Iframe einbetten",
+  embedProductIframe: "%{product} einbetten",
   drag_and_drop: "Ziehen und Ablegen",
   supported_files: "Unterstützte Dateien",
   maximum_size: "Maximale Größe",

@@ -502,6 +502,7 @@ const id = {
   paste_image_link: "Tempel tautan gambar",
   embed_image: "Sematkan gambar",
   embedIframe: "Sematkan iframe",
+  embedProductIframe: "Sematkan %{product}",
   drag_and_drop: "Seret dan jatuhkan",
   supported_files: "Berkas yang didukung",
   maximum_size: "Ukuran maksimum",

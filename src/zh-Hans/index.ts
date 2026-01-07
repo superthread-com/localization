@@ -475,6 +475,7 @@ const zhHans = {
   paste_image_link: "粘贴图片链接",
   embed_image: "嵌入图片",
   embedIframe: "嵌入 iframe",
+  embedProductIframe: "嵌入 %{product}",
   drag_and_drop: "拖放",
   supported_files: "支持的文件",
   maximum_size: "最大尺寸",

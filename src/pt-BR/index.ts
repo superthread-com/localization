@@ -510,6 +510,7 @@ const ptBR = {
   paste_image_link: "Colar link da imagem",
   embed_image: "Incorporar imagem",
   embedIframe: "Incorporar iframe",
+  embedProductIframe: "Incorporar %{product}",
   drag_and_drop: "Arrastar e soltar",
   supported_files: "Arquivos suportados",
   maximum_size: "Tamanho máximo",

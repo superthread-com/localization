@@ -508,6 +508,7 @@ const es = {
   paste_image_link: "Pegar enlace de imagen",
   embed_image: "Insertar imagen",
   embedIframe: "Incrustar iframe",
+  embedProductIframe: "Incrustar %{product}",
   drag_and_drop: "Arrastrar y soltar",
   supported_files: "Archivos compatibles",
   maximum_size: "Tamaño máximo",

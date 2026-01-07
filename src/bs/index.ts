@@ -1308,6 +1308,7 @@ const bs: Translations = {
   paste_image_link: "Zalijepi link slike",
   embed_image: "Ugradi sliku",
   embedIframe: "Ugradi iframe",
+  embedProductIframe: "Ugradi %{product}",
   drag_and_drop: "Povuci i pusti",
   supported_files: "Podržane datoteke",
   maximum_size: "Maksimalna veličina",
