@@ -305,6 +305,9 @@ const en = {
   ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
   ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
   ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
+  ["billing.confirmPlanChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
 
   // global
   ["global.text.create"]: "Create",

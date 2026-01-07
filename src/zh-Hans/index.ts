@@ -2697,6 +2697,9 @@ const zhHans = {
   ["billing.paymentsWillStopOn"]: "付款将于 %{date} 停止",
   ["billing.youAreOnPlan"]: "您正在使用「%{planName}」计划",
   ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
+  ["billing.confirmPlanChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
 };
 
 export default zhHans as Translations;

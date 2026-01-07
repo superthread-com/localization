@@ -2977,6 +2977,9 @@ const ptBR = {
   ["billing.paymentsWillStopOn"]: "Os pagamentos cessarão em %{date}",
   ["billing.youAreOnPlan"]: "Você está no plano %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
+  ["billing.confirmPlanChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
 };
 
 export default ptBR as Translations;

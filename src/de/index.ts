@@ -3011,6 +3011,9 @@ const de = {
   ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
   ["billing.youAreOnPlan"]: "Sie haben den %{planName}-Plan",
   ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
+  ["billing.confirmPlanChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
 };
 
 export default de as Translations;

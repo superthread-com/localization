@@ -2834,6 +2834,9 @@ const ko = {
   ["billing.paymentsWillStopOn"]: "{date}에 결제 중단",
   ["billing.youAreOnPlan"]: "%{planName} 플랜을 사용 중입니다",
   ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
+  ["billing.confirmPlanChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
 };
 
 export default ko as Translations;

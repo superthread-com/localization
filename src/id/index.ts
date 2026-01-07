@@ -2949,6 +2949,9 @@ const id = {
   ["billing.paymentsWillStopOn"]: "Pembayaran akan berhenti pada %{date}",
   ["billing.youAreOnPlan"]: "Anda menggunakan paket %{planName}",
   ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPlanChangeTitle"]: "Confirm price change",
+  ["billing.confirmPlanChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
 };
 
 export default id as Translations;
