@@ -303,12 +303,17 @@ const en = {
   ["billing.versionHistory"]: "%{count} day version history",
   ["billing.expertOnboarding"]: "Expert onboarding",
   ["billing.inAppLiveChatSupport"]: "In-app live chat support",
+  ["billing.aiTrainingOptOut"]: "Opt out of AI training",
   // Enterprise Tier Updates
+  ["billing.dedicatedAnalyst"]: "Dedicated strategic analyst",
+  ["billing.onsiteAdoption"]: "Onsite adoption and rollout",
+  ["billing.customImplementation"]: "Custom implementation",
+  ["billing.uptimeSLA"]: "%{percentage}% uptime SLA",
+  ["billing.byoc"]: "Bring your own cloud",
   ["billing.samlAndScim"]: "SAML & SCIM",
   ["billing.auditLogs"]: "Audit logs",
   ["billing.customBilling"]: "Custom billing",
-  ["billing.prioritySupport"]: "Priority support",
-
+  ["billing.prioritySupport"]: "Priority support and advisory",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
