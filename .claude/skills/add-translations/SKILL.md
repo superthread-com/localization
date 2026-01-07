@@ -1,12 +1,38 @@
 ---
 name: add-translations
-description: Add new translation keys to the localization package across all supported languages. Use this skill when the user asks to add translations, add localization keys, add i18n strings, create translation entries, or mentions adding text that needs to be translated across multiple languages. This skill manages translations for English (en), Bosnian (bs), German (de), Spanish (es), French (fr), Indonesian (id), Korean (ko), Polish (pl), Portuguese-Brazil (pt-BR), Chinese Simplified (zh-Hans), and Chinese Traditional (zh-Hant).
-allowed-tools: Bash(git status:*), Bash(git add:*), Bash(git commit:*), Bash(npm run build), Read, Edit, Glob, Grep
+description: Add new translation keys to the localization package across all supported languages. Use this skill when the user asks to add translations, add localization keys, add i18n strings, create translation entries, or mentions adding text that needs to be translated across multiple languages.
+allowed-tools: Bash(git status:*), Bash(git add:*), Bash(git commit:*), Bash(npm run build), Bash(npx tsc -b), Read, Edit, Glob, Grep
+args:
+  - name: key
+    description: The translation key name (e.g., "loginButton", "billing.upgrade", "menu.add-comment")
+    required: true
+  - name: translation
+    description: The English translation text for this key
+    required: true
 ---
 
 # Add Translations
 
 This skill adds new translation keys to the localization package across all supported languages.
+
+## Usage
+
+```
+/add-translations <key> <translation>
+```
+
+### Arguments
+1. **key** (required): The translation key name
+   - Examples: `loginButton`, `billing.upgrade`, `menu.add-comment`
+2. **translation** (required): The English translation text
+   - Examples: `"Log in"`, `"Upgrade plan"`, `"Add comment"`
+
+### Examples
+```
+/add-translations loginButton "Log in"
+/add-translations billing.upgrade "Upgrade plan"
+/add-translations menu.add-comment "Add comment"
+```
 
 ## Supported Languages
 
@@ -43,14 +69,18 @@ When adding a new key, follow the naming pattern that matches similar existing k
 
 If the user provides multiple keys for translation, repeat steps 1 to 5 for all keys and only run validation steps 6 to 8 at the end.
 
-### Step 1: Extract Information from User Request
+### Step 1: Extract Information
 
-From the user's request, identify:
+Extract the required information from either the command arguments or the prompt:
 
 - **Key name**: The translation key identifier (e.g., `loginButton`, `error.notFound`)
 - **English translation**: The English text for this key
 
-If either is missing or unclear, ask the user to provide it.
+The information can be provided in two ways:
+1. As arguments: `/add-translations loginButton "Log in"`
+2. In the prompt: `/add-translations` followed by natural language describing the key and translation
+
+If either piece of information is missing or unclear, ask the user to provide it.
 
 ### Step 2: Check if Key Already Exists
 
