@@ -576,6 +576,7 @@ const en = {
   linkUrlLabel: "Link",
   linkTextPlaceholder: "Add text...",
   linkUrlPlaceholder: "Add link...",
+  linkOrEmbedCode: "Add link or embed code...",
   editList: "Edit list",
   copyList: "Copy List",
   sortBy: "Sort by",

@@ -563,6 +563,7 @@ const ptBR = {
   linkUrlLabel: "Linkar",
   linkTextPlaceholder: "Adicionar texto...",
   linkUrlPlaceholder: "Adicionar link...",
+  linkOrEmbedCode: "Adicionar link ou código de incorporação...",
   editList: "Editar lista",
   copyList: "Copiar lista",
   sortBy: "Ordenar por",

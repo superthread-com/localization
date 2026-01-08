@@ -165,6 +165,7 @@ const bs: Translations = {
   linkUrlLabel: "Adresa",
   linkTextPlaceholder: "Dodaj naziv...",
   linkUrlPlaceholder: "Dodaj adresu...",
+  linkOrEmbedCode: "Dodaj link ili embed kod...",
   editList: "Uredi listu",
   copyList: "Kopiraj listu",
   sortBy: "Poredaj po...",

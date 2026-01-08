@@ -564,6 +564,7 @@ const de = {
   linkUrlLabel: "Link",
   linkTextPlaceholder: "Text hinzufügen...",
   linkUrlPlaceholder: "Link hinzufügen...",
+  linkOrEmbedCode: "Link oder Einbettungscode hinzufügen...",
   editList: "Liste bearbeiten",
   copyList: "Liste kopieren",
   sortBy: "Sortieren nach",

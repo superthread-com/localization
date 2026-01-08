@@ -553,6 +553,7 @@ const pl = {
   linkUrlLabel: "Link",
   linkTextPlaceholder: "Dodaj tekst...",
   linkUrlPlaceholder: "Dodaj link...",
+  linkOrEmbedCode: "Dodaj link lub kod osadzenia...",
   editList: "Edytuj listę",
   copyList: "Skopiuj listę",
   sortBy: "Sortuj według",

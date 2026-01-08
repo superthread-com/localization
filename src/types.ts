@@ -525,6 +525,7 @@ export enum TranslationKeys {
   LinkUrlLabel = "linkUrlLabel",
   LinkTextPlaceholder = "linkTextPlaceholder",
   LinkUrlPlaceholder = "linkUrlPlaceholder",
+  LinkOrEmbedCode = "linkOrEmbedCode",
   EditList = "editList",
   CopyList = "copyList",
   SortBy = "sortBy",

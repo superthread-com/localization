@@ -562,6 +562,7 @@ const es = {
   linkUrlLabel: "Enlace",
   linkTextPlaceholder: "Agregar texto...",
   linkUrlPlaceholder: "Agregar enlace...",
+  linkOrEmbedCode: "Agregar enlace o código de inserción...",
   editList: "Editar lista",
   copyList: "Copiar lista",
   sortBy: "Ordenar por",

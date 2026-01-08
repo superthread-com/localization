@@ -527,6 +527,7 @@ const zhHans = {
   linkUrlLabel: "链接",
   linkTextPlaceholder: "添加文本...",
   linkUrlPlaceholder: "添加链接...",
+  linkOrEmbedCode: "添加链接或嵌入代码...",
   editList: "编辑列表",
   copyList: "复制列表",
   sortBy: "排序方式",

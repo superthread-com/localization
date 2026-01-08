@@ -548,6 +548,7 @@ const ko = {
   linkUrlLabel: "링크",
   linkTextPlaceholder: "텍스트 추가...",
   linkUrlPlaceholder: "링크 추가...",
+  linkOrEmbedCode: "링크 또는 임베드 코드 추가...",
   editList: "목록 편집",
   copyList: "목록 복사",
   sortBy: "정렬 기준",
