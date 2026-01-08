@@ -22,12 +22,14 @@ This skill adds new translation keys to the localization package across all supp
 ```
 
 ### Arguments
+
 1. **key** (required): The translation key name
    - Examples: `loginButton`, `billing.upgrade`, `menu.add-comment`
 2. **translation** (required): The English translation text
    - Examples: `"Log in"`, `"Upgrade plan"`, `"Add comment"`
 
 ### Examples
+
 ```
 /add-translations loginButton "Log in"
 /add-translations billing.upgrade "Upgrade plan"
@@ -77,6 +79,7 @@ Extract the required information from either the command arguments or the prompt
 - **English translation**: The English text for this key
 
 The information can be provided in two ways:
+
 1. As arguments: `/add-translations loginButton "Log in"`
 2. In the prompt: `/add-translations` followed by natural language describing the key and translation
 

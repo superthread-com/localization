@@ -23,6 +23,7 @@ create: "Create"
 Keys organized by feature area using dots:
 
 ### Slash Commands
+
 ```typescript
 slash.group.media: "Media"
 slash.group.basic: "Basic"
@@ -32,6 +33,7 @@ slash.display.image: "Image"
 ```
 
 ### Menu Items
+
 ```typescript
 menu.add-comment: "Add comment"
 menu.bold: "Bold"
@@ -40,6 +42,7 @@ menu.heading: "Heading"
 ```
 
 ### Billing
+
 ```typescript
 billing.monthly: "Monthly"
 billing.yearly: "Yearly"
@@ -48,6 +51,7 @@ billing.currentPlan: "Current plan"
 ```
 
 ### Editor
+
 ```typescript
 editor.clickToDownload: "Click to download"
 editor.loading: "Loading"
@@ -59,10 +63,10 @@ editor.uploading: "Uploading"
 Keys that handle singular and plural forms:
 
 ```typescript
-boardsCount_one: "board"
-boardsCount_other: "boards"
-cardsCount_one: "card"
-cardsCount_other: "cards"
+boardsCount_one: "board";
+boardsCount_other: "boards";
+cardsCount_one: "card";
+cardsCount_other: "cards";
 ```
 
 Pattern: `{item}Count_one` and `{item}Count_other`
@@ -81,6 +85,7 @@ now-1d: "1 day ago"
 ```
 
 Pattern: `now±{number}{unit}` where unit can be:
+
 - `h` - hours
 - `d` - days
 - `w` - weeks
@@ -150,9 +155,9 @@ onboardingQuoteAuthor.0: "Author name"
 Keys for desktop application:
 
 ```typescript
-electronOpenInApp: "Open in app"
-electronOpenLinksInDesktopApp: "Open links in desktop app"
-electronRecentlyViewed: "Recently viewed"
+electronOpenInApp: "Open in app";
+electronOpenLinksInDesktopApp: "Open links in desktop app";
+electronRecentlyViewed: "Recently viewed";
 ```
 
 ## Calendar Integration
@@ -166,8 +171,8 @@ calendar.participants: "Participants"
 ## Webhook Notifications
 
 ```typescript
-webhookNotificationCardCreatedOnBoard: "Card created on board"
-webhookNotificationCardMovedToBoard: "Card moved to board"
+webhookNotificationCardCreatedOnBoard: "Card created on board";
+webhookNotificationCardMovedToBoard: "Card moved to board";
 ```
 
 ## Best Practices
@@ -184,11 +189,11 @@ webhookNotificationCardMovedToBoard: "Card moved to board"
 
 ## Common Patterns Summary
 
-| Pattern | Example | Use Case |
-|---------|---------|----------|
-| `camelCase` | `loginButton` | Simple UI elements |
-| `feature.action` | `menu.bold` | Grouped by feature |
-| `feature.category.item` | `billing.category.spaces` | Deep hierarchy |
-| `item_variant` | `boardsCount_one` | Pluralization |
-| `now±time` | `now+2d` | Time offsets |
-| `namespace.type.name` | `global.text.create` | Global/shared keys |
+| Pattern                 | Example                   | Use Case           |
+| ----------------------- | ------------------------- | ------------------ |
+| `camelCase`             | `loginButton`             | Simple UI elements |
+| `feature.action`        | `menu.bold`               | Grouped by feature |
+| `feature.category.item` | `billing.category.spaces` | Deep hierarchy     |
+| `item_variant`          | `boardsCount_one`         | Pluralization      |
+| `now±time`              | `now+2d`                  | Time offsets       |
+| `namespace.type.name`   | `global.text.create`      | Global/shared keys |
