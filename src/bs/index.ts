@@ -1017,6 +1017,8 @@ const bs: Translations = {
   ["slash.display.attach"]: "Priloži",
   ["slash.search.attach"]: "priloži",
   "slash.display.image": "Slika",
+  "slash.display.video": "Video",
+  "slash.display.file": "Datoteka",
   "slash.display.youtube": "Ugradi YouTube video",
   "slash.display.checklist": "Čeklista",
   "slash.display.table": "Tabela",
@@ -1040,6 +1042,8 @@ const bs: Translations = {
   "slash.display.embedLucid": "Ugradi Lucid dijagram",
 
   ["slash.search.image"]: "slika",
+  ["slash.search.video"]: "video",
+  ["slash.search.file"]: "datoteka",
   ["slash.search.youtube"]: "youtube video",
   ["slash.search.checklist"]: "čeklista",
   ["slash.search.table"]: "tabela",
