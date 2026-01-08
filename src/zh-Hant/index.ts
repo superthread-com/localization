@@ -528,6 +528,7 @@ const zhHant = {
   linkUrlLabel: "連結",
   linkTextPlaceholder: "新增文字...",
   linkUrlPlaceholder: "新增連結...",
+  linkOrEmbedCode: "新增連結或嵌入代碼...",
   editList: "編輯清單",
   copyList: "複製清單",
   sortBy: "排序依據",

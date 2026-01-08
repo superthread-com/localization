@@ -564,6 +564,7 @@ const fr: Translations = {
   linkUrlLabel: "Lien",
   linkTextPlaceholder: "Ajouter du texte...",
   linkUrlPlaceholder: "Ajouter un lien...",
+  linkOrEmbedCode: "Ajouter un lien ou un code d'intégration...",
   editList: "Modifier la liste",
   copyList: "Copier la liste",
   sortBy: "Trier par",

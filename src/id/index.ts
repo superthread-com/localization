@@ -555,6 +555,7 @@ const id = {
   linkUrlLabel: "Tautan",
   linkTextPlaceholder: "Tambahkan teks...",
   linkUrlPlaceholder: "Tambahkan tautan...",
+  linkOrEmbedCode: "Tambahkan tautan atau kode sematan...",
   editList: "Sunting daftar",
   copyList: "Salin Daftar",
   sortBy: "Urutkan berdasarkan",
