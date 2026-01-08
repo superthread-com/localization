@@ -1135,7 +1135,7 @@ const bs: Translations = {
   ["billing.timelineListAndBoardView"]: "Vremenske linija, lista i ploča",
   ["billing.guestAccounts"]: "Gost računi",
   ["billing.monthly"]: "Mjesečno",
-  ["billing.yearly"]: "Godišnje (-20%)",
+  ["billing.yearly"]: "Godišnje",
   ["billing.currentPlan"]: "Trenutni plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Vaš odabrani način plaćanja je %{method}",
@@ -1152,7 +1152,11 @@ const bs: Translations = {
   ["billing.previousInvoices"]: "Prethodne fakture",
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]: "Upravljaj koji plan koristi prostor",
-  ["billing.standard"]: "Standardni",
+  ["billing.standard"]: "Plati koliko želiš",
+  ["billing.pro"]: "Poslovno",
+  ["billing.standardSubtitle"]: "Za pojedince i male timove",
+  ["billing.proSubtitle"]: "Za kompanije koje rastu",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Promijenite plan",
   ["billing.free"]: "Besplatno",
   ["billing.upgrade"]: "Unaprijedi",
@@ -1160,8 +1164,8 @@ const bs: Translations = {
   ["billing.thereIsNoPaymentMethod"]:
     "S ovim radnim prostorom nije povezan nijedan način plaćanja. Način plaćanja će se pojaviti ovdje čim odaberete plaćeni plan.",
   ["billing.selectAPaidPlan"]: "Odaberite plaćeni plan",
-  ["billing.upgradePlan"]: "Pređi na ovaj plan",
-  ["billing.downgradePlan"]: "Spusti se na ovaj plan",
+  ["billing.upgradePlan"]: "Plati više",
+  ["billing.downgradePlan"]: "Plati manje",
   ["billing.downgradeToFree"]: "Spusti se na besplatni plan",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Pogledajte svoj način plaćanja u Stripe-u",
@@ -1187,15 +1191,14 @@ const bs: Translations = {
   ["billing.perUserPerMonth"]: "/ korisnik / mjesec",
   ["billing.perUserPerYear"]: "/ korisnik / godini",
   ["billing.inAppLiveChatSupport"]: "In-app live chat podrška",
+  ["billing.aiTrainingOptOut"]: "Odjavi se od AI treninga",
   ["billing.timelineListAndCalendar"]: "Vremenske linije, liste i kalendari",
   ["billing.billedYearly"]: "naplaćuje se godišnje",
   ["billing.planStatus"]: "Status plana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Vašem trenutnom planu nije postavljeno automatsko obnavljanje",
-  ["billing.on"]: "Na",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "Vaš radni prostor će se vratiti na besplatni plan na %{date}. Do tada još možete pozvati ljude u ovaj workspace, ali nećete moći premašiti limit od",
-  ["billing.workspaceMembers"]: "članova workspace-a",
+  ["billing.canceledDescription"]:
+    "Na %{date} Vaš radni prostor će se vratiti na $t(billing.free) plan. Do tada još možete pozvati ljude u ovaj workspace, ali nećete moći premašiti limit od %{memberCount} članova workspace-a",
   ["billing.turnRenewalBackOn"]: "Ponovno uključite automatsko obnavljanje",
   ["billing.youCanStillInvite"]:
     "I dalje možete pozvati ljude u ovaj workspace, ali ne možete premašiti limit od",
@@ -1206,11 +1209,15 @@ const bs: Translations = {
   ["billing.switchToYearly"]: "Prebaci se na godišnje (-20%)",
   ["billing.switchToMonthly"]: "Prebaci se na mjesečno",
   ["billing.metadata"]: "Sve u %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Razgovarajte sa našim stručnjacima",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.dedicatedAnalyst"]: "Posvećeni strateški analitičar",
+  ["billing.onsiteAdoption"]: "Onsite usvajanje i uvođenje",
+  ["billing.customImplementation"]: "Prilagođena implementacija",
+  ["billing.uptimeSLA"]: "%{percentage}% uptime SLA",
+  ["billing.byoc"]: "Donesi vlastiti cloud",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Evidencije revizije",
   ["billing.customBilling"]: "Prilagođeno naplaćivanje",
-  ["billing.prioritySupport"]: "Prioritetna podrška",
+  ["billing.prioritySupport"]: "Prioritetna podrška i savjetovanje",
   ["billing.unlimitedChildCards"]: "Neograničen broj child kartica",
   ["billing.publishPagesToTheWeb"]: "Objavi stranice na webu",
   ["billing.calendarLayout"]: "Raspored kalendara",
@@ -1246,10 +1253,11 @@ const bs: Translations = {
   ["billing.youHaveBeenDowngradedLong"]:
     "Prebačeni ste na plan %{planName}. Možete vidjeti koje ste funkcije izgubili na stranici s planovima.",
   ["billing.youHaveBeenDowngradedShort"]: "Prebačeni ste na plan %{planName}.",
+  ["billing.legacy"]: "Legat",
   ["billing.youAreOnLegacyPlan"]:
-    "Koristiš stari plan: %{planName} (%{planPeriod})",
+    "Koristiš stari %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
-    "Ova verzija više nije dostupna novim korisnicima. Možeš je i dalje koristiti ili istražiti naše aktuelne planove s novim funkcijama i cijenama.",
+    "Ova verzija više nije dostupna novim korisnicima. Možete je i dalje koristiti ili %{contactUs} da istražite naše trenutne planove s ažuriranim funkcijama i cijenama.",
 
   // global
   ["global.text.create"]: "Kreiraj",
@@ -2903,6 +2911,33 @@ const bs: Translations = {
   removeLink: "Ukloni link",
   linkAdded: "Link dodan",
   errorAddingLink: "Greška pri dodavanju linka",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Hvala za kafu",
+  ["billing.pwyw.barelyCovering"]: "Hvala za pivo",
+  ["billing.pwyw.breakeven"]: "Pokriće — nema profita, nema gubitka",
+  ["billing.pwyw.belowFair"]: "Malo ispod poštene cijene",
+  ["billing.pwyw.fairPrice"]: "Poštena cijena, hvala!",
+  ["billing.pwyw.awesome"]: "Ti si super!",
+  ["billing.pwyw.bestHuman"]: "Ti si doslovno najbolja osoba!",
+  ["billing.pwyw.topTier"]: "Šta ovo uopšte znači?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Plati koliko želiš",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Za kompanije koje imaju stroge zahtjeve",
+  ["billing.seatCount"]: "%{count} mjesta",
+  ["billing.annualBilling"]: "Godišnje naplaćivanje",
+  ["billing.versionHistory"]: "%{count} dana historije verzija",
+  ["billing.expertOnboarding"]: "Stručno uvođenje",
+  ["billing.nextPaymentOn"]: "Sljedeća uplata %{date}",
+  ["billing.paymentsWillStopOn"]: "Uplate će prestati %{date}",
+  ["billing.youAreOnPlan"]: "Vi ste na %{planName} planu",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Promjena cijene uspješna!",
+  ["billing.priceChangeFail"]:
+    "Promjena cijene nije uspjela. Kontaktirajte podršku ako se problem nastavi.",
   createMissingTags: "Kreiraj nedostajuće oznake",
   createMissingTagsDescription:
     "Kreiraj oznake u prostoru %{space} ako ne postoje",

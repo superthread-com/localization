@@ -183,7 +183,7 @@ const de = {
   ["billing.timelineListAndBoardView"]: "Zeitachse, Liste & Board-Ansicht",
   ["billing.guestAccounts"]: "Gastkonten",
   ["billing.monthly"]: "Monatlich",
-  ["billing.yearly"]: "Jährlich (-20%)",
+  ["billing.yearly"]: "Jährlich",
   ["billing.currentPlan"]: "Aktueller Plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Ihre gewählte Zahlungsmethode ist %{method}",
@@ -201,7 +201,11 @@ const de = {
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]:
     "Verwalten, welchen Plan der Arbeitsbereich verwendet",
-  ["billing.standard"]: "Standard",
+  ["billing.standard"]: "Zahl, was du willst",
+  ["billing.pro"]: "Business",
+  ["billing.standardSubtitle"]: "Für Einzelpersonen und kleine Teams",
+  ["billing.proSubtitle"]: "Für Unternehmen, die wachsen",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Plan ändern",
   ["billing.free"]: "Kostenlos",
   ["billing.upgrade"]: "Upgrade",
@@ -209,8 +213,8 @@ const de = {
   ["billing.thereIsNoPaymentMethod"]:
     "Es gibt keine Zahlungsmethode, die mit diesem Arbeitsbereich verbunden ist. Eine Zahlungsmethode erscheint hier, sobald du einen kostenpflichtigen Plan ausgewählt hast.",
   ["billing.selectAPaidPlan"]: "Wähle einen kostenpflichtigen Plan",
-  ["billing.upgradePlan"]: "Upgrade auf diesen Plan",
-  ["billing.downgradePlan"]: "Downgrade auf diesen Plan",
+  ["billing.upgradePlan"]: "Mehr bezahlen",
+  ["billing.downgradePlan"]: "Weniger bezahlen",
   ["billing.downgradeToFree"]: "Downgrade auf kostenlos",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Zahlungsmethode in Stripe anzeigen",
@@ -236,15 +240,14 @@ const de = {
   ["billing.perUserPerMonth"]: "/ Benutzer / Monat",
   ["billing.perUserPerYear"]: "/ Benutzer / Jahr",
   ["billing.inAppLiveChatSupport"]: "In-app Live-Chat-Support",
+  ["billing.aiTrainingOptOut"]: "AI-Training ablehnen",
   ["billing.timelineListAndCalendar"]: "Zeitachse, Liste & Kalender-Layouts",
   ["billing.billedYearly"]: "jährlich abgerechnet",
   ["billing.planStatus"]: "Planstatus",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Ihr aktueller Plan ist nicht auf Erneuerung eingestellt",
-  ["billing.on"]: "Aktiv",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "Ihr Arbeitsbereich wird auf den kostenlosen Plan heruntergestuft. Bis dahin können Sie weiterhin Personen zu diesem Arbeitsbereich einladen, aber Sie dürfen nicht überschreiten",
-  ["billing.workspaceMembers"]: "Mitglieder des Arbeitsbereichs",
+  ["billing.canceledDescription"]:
+    "Am %{date} wird Ihr Arbeitsbereich auf den $t(billing.free) Plan heruntergestuft. Bis dahin können Sie weiterhin Personen zu diesem Arbeitsbereich einladen, aber Sie dürfen nicht mehr als %{memberCount} Mitglieder des Arbeitsbereichs überschreiten",
   ["billing.turnRenewalBackOn"]: "Erneuerung wieder aktivieren",
   ["billing.youCanStillInvite"]:
     "Sie können weiterhin Personen zu diesem Arbeitsbereich einladen, aber Sie dürfen nicht überschreiten",
@@ -255,11 +258,15 @@ const de = {
   ["billing.switchToYearly"]: "Wechsel zu jährlich (-20%)",
   ["billing.switchToMonthly"]: "Wechsel zu monatlich",
   ["billing.metadata"]: "Alles in %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Sprechen Sie mit unseren Experten",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.dedicatedAnalyst"]: "Dedizierter strategischer Analyst",
+  ["billing.onsiteAdoption"]: "Vor-Ort-Einführung und Implementierung",
+  ["billing.customImplementation"]: "Kundenspezifische Implementierung",
+  ["billing.uptimeSLA"]: "%{percentage}% Verfügbarkeits-SLA",
+  ["billing.byoc"]: "Eigene Cloud nutzen",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Protokolle zur Überprüfung",
   ["billing.customBilling"]: "Individuelle Abrechnung",
-  ["billing.prioritySupport"]: "Priorisierter Support",
+  ["billing.prioritySupport"]: "Priorisierter Support und Beratung",
   ["billing.unlimitedChildCards"]: "Unbegrenzte untergeordnete Karten",
   ["billing.publishPagesToTheWeb"]: "Seiten im Web veröffentlichen",
   ["billing.calendarLayout"]: "Kalenderlayout",
@@ -296,10 +303,11 @@ const de = {
     "Sie wurden auf den %{planName}-Tarif herabgestuft. Auf der Tarifseite können Sie sehen, welche Funktionen Sie verloren haben.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Sie wurden auf den %{planName}-Tarif herabgestuft.",
+  ["billing.legacy"]: "Legacy",
   ["billing.youAreOnLegacyPlan"]:
-    "Du nutzt einen alten Tarif: %{planName} (%{planPeriod})",
+    "Du nutzt einen alten %{planName} %{planPeriod} Tarif",
   ["billing.legacyDescription"]:
-    "Diese Version wird neuen Nutzern nicht mehr angeboten. Du kannst sie weiterhin verwenden oder unsere aktuellen Pläne mit neuen Funktionen und Preisen ansehen.",
+    "Diese Version wird neuen Nutzern nicht mehr angeboten. Du kannst sie weiterhin verwenden oder %{contactUs}, um unsere aktuellen Pläne mit aktualisierten Funktionen und Preisen zu erkunden.",
 
   // global
   ["global.text.create"]: "Erstellen",
@@ -3002,6 +3010,33 @@ const de = {
   removeLink: "Link entfernen",
   linkAdded: "Link hinzugefügt",
   errorAddingLink: "Fehler beim Hinzufügen des Links",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Danke für den Kaffee",
+  ["billing.pwyw.barelyCovering"]: "Danke für das Bier",
+  ["billing.pwyw.breakeven"]: "Gewinnschwelle — kein Gewinn, kein Verlust",
+  ["billing.pwyw.belowFair"]: "Etwas unter dem fairen Preis",
+  ["billing.pwyw.fairPrice"]: "Fairer Preis, vielen Dank!",
+  ["billing.pwyw.awesome"]: "Du bist großartig!",
+  ["billing.pwyw.bestHuman"]: "Du bist buchstäblich der beste Mensch!",
+  ["billing.pwyw.topTier"]: "Was bedeutet das überhaupt?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Zahle was du willst",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "Für Unternehmen mit strengen Anforderungen",
+  ["billing.seatCount"]: "%{count} Plätze",
+  ["billing.annualBilling"]: "Jährliche Abrechnung",
+  ["billing.versionHistory"]: "%{count} Tage Versionsverlauf",
+  ["billing.expertOnboarding"]: "Experten-Onboarding",
+  ["billing.nextPaymentOn"]: "Nächste Zahlung am %{date}",
+  ["billing.paymentsWillStopOn"]: "Zahlungen enden am %{date}",
+  ["billing.youAreOnPlan"]: "Sie haben den %{planName}-Plan",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Preisänderung erfolgreich!",
+  ["billing.priceChangeFail"]:
+    "Preisänderung fehlgeschlagen. Kontaktieren Sie den Support, wenn das Problem weiterhin besteht.",
   createMissingTags: "Fehlende Tags erstellen",
   createMissingTagsDescription:
     "Erstelle Tags im %{space}-Bereich, falls sie noch nicht existieren",

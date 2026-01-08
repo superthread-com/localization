@@ -1,6 +1,8 @@
 # Agents
 
-This file provides guidance to AI agents when working with code in this repository.
+This file provides guidance to coding agents when working with code in this repository.
+
+Never attempt to read entire files. Always specify line numbers or search relevant terms to scope the read.
 
 ## Project Overview
 

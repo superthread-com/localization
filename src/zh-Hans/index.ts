@@ -175,7 +175,7 @@ const zhHans = {
   ["billing.timelineListAndBoardView"]: "时间线、列表和看板视图",
   ["billing.guestAccounts"]: "访客账户",
   ["billing.monthly"]: "每月",
-  ["billing.yearly"]: "每年 (-20%)",
+  ["billing.yearly"]: "每年",
   ["billing.currentPlan"]: "当前计划",
   ["billing.yourChosenPaymentMethodIs"]: "您选择的付款方式是%{method}",
   ["billing.thisIsThePaymentMethod"]:
@@ -191,7 +191,11 @@ const zhHans = {
   ["billing.previousInvoices"]: "以前的发票",
   ["billing.plan"]: "计划",
   ["billing.manageWhichPlan"]: "管理工作区使用的计划",
-  ["billing.standard"]: "标准",
+  ["billing.standard"]: "随心付费",
+  ["billing.pro"]: "商业版",
+  ["billing.standardSubtitle"]: "适合个人和小型团队",
+  ["billing.proSubtitle"]: "适合发展中的公司",
+  ["billing.enterprise"]: "企业版",
   ["billing.changePlan"]: "更改计划",
   ["billing.free"]: "免费",
   ["billing.upgrade"]: "升级",
@@ -199,8 +203,8 @@ const zhHans = {
   ["billing.thereIsNoPaymentMethod"]:
     "此工作区没有关联的付款方式。选择付费计划后，付款方式将显示在此处。",
   ["billing.selectAPaidPlan"]: "选择付费计划",
-  ["billing.upgradePlan"]: "升级到此计划",
-  ["billing.downgradePlan"]: "降级到此计划",
+  ["billing.upgradePlan"]: "付更多",
+  ["billing.downgradePlan"]: "付更少",
   ["billing.downgradeToFree"]: "降级到免费",
   ["billing.viewYourPaymentMethodInStripe"]: "在Stripe中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:
@@ -224,14 +228,13 @@ const zhHans = {
   ["billing.perUserPerMonth"]: "/ 用户 / 月",
   ["billing.perUserPerYear"]: "/ 用户 / 年",
   ["billing.inAppLiveChatSupport"]: "应用内实时聊天支持",
+  ["billing.aiTrainingOptOut"]: "选择退出AI训练",
   ["billing.timelineListAndCalendar"]: "时间轴、列表和日历布局",
   ["billing.billedYearly"]: "按年计费",
   ["billing.planStatus"]: "计划状态",
   ["billing.yourCurrentPlanIsNotSetToRenew"]: "您的当前计划未设置为续订",
-  ["billing.on"]: "开启",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "您的工作区将降级为免费计划。在此之前，您仍然可以邀请人加入此工作区，但您将无法超过",
-  ["billing.workspaceMembers"]: "工作区成员",
+  ["billing.canceledDescription"]:
+    "在 %{date} 您的工作区将降级为 $t(billing.free) 计划。在此之前，您仍然可以邀请人加入此工作区，但您将无法超过 %{memberCount} 个工作区成员",
   ["billing.turnRenewalBackOn"]: "重新开启续订",
   ["billing.youCanStillInvite"]: "您仍然可以邀请人加入此工作区，但您不能超过",
   ["billing.workspaceFullError"]:
@@ -241,11 +244,15 @@ const zhHans = {
   ["billing.switchToYearly"]: "切换到年度 (-20%)",
   ["billing.switchToMonthly"]: "切换到每月",
   ["billing.metadata"]: "%{plan}中的所有内容，加上...",
-  ["billing.talkToOurExperts"]: "与我们的专家交谈",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.dedicatedAnalyst"]: "专属战略分析师",
+  ["billing.onsiteAdoption"]: "现场采用和推广",
+  ["billing.customImplementation"]: "定制实施",
+  ["billing.uptimeSLA"]: "%{percentage}% 正常运行时间SLA",
+  ["billing.byoc"]: "自带云",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "审计日志",
   ["billing.customBilling"]: "自定义账单",
-  ["billing.prioritySupport"]: "优先支持",
+  ["billing.prioritySupport"]: "优先支持和咨询",
   ["billing.unlimitedChildCards"]: "无限子卡片",
   ["billing.publishPagesToTheWeb"]: "将页面发布到网络",
   ["billing.calendarLayout"]: "日历布局",
@@ -278,10 +285,11 @@ const zhHans = {
   ["billing.youHaveBeenDowngradedLong"]:
     "您已降级到%{planName}计划。您可以在计划页面查看您失去的功能。",
   ["billing.youHaveBeenDowngradedShort"]: "您已降级到%{planName}计划。",
+  ["billing.legacy"]: "旧版",
   ["billing.youAreOnLegacyPlan"]:
-    "您正在使用旧版计划：%{planName} (%{planPeriod})",
+    "您正在使用旧版 %{planName} %{planPeriod} 计划",
   ["billing.legacyDescription"]:
-    "此版本不再向新用户提供。您可以继续使用它，或探索我们当前计划的更新功能和定价。",
+    "此版本不再向新用户提供。您可以继续使用它，或%{contactUs}以探索我们当前计划的更新功能和定价。",
 
   // global
   ["global.text.create"]: "创建",
@@ -2688,6 +2696,33 @@ const zhHans = {
   removeLink: "删除链接",
   linkAdded: "链接已添加",
   errorAddingLink: "添加链接时出错",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "感谢咖啡",
+  ["billing.pwyw.barelyCovering"]: "感谢啤酒",
+  ["billing.pwyw.breakeven"]: "收支平衡 — 不赚不赔",
+  ["billing.pwyw.belowFair"]: "略低于公平价格",
+  ["billing.pwyw.fairPrice"]: "公平价格,谢谢!",
+  ["billing.pwyw.awesome"]: "您真棒!",
+  ["billing.pwyw.bestHuman"]: "您简直是最棒的人!",
+  ["billing.pwyw.topTier"]: "这到底是什么意思?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "随心支付",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "适用于有严格要求的企业",
+  ["billing.seatCount"]: "%{count} 个席位",
+  ["billing.annualBilling"]: "年度计费",
+  ["billing.versionHistory"]: "%{count} 天版本历史",
+  ["billing.expertOnboarding"]: "专家入门指导",
+  ["billing.nextPaymentOn"]: "下次付款日期：{date}",
+  ["billing.paymentsWillStopOn"]: "付款将于 %{date} 停止",
+  ["billing.youAreOnPlan"]: "您正在使用「%{planName}」计划",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "价格更改成功！",
+  ["billing.priceChangeFail"]:
+    "价格更改失败。如果问题仍然存在，请联系支持团队。",
   createMissingTags: "创建缺失的标签",
   createMissingTagsDescription: "在 %{space} 空间中创建不存在的标签",
   createACopyOfThisCard: "创建此卡片的副本。活动和评论不会被复制。",

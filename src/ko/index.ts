@@ -181,7 +181,7 @@ const ko = {
   ["billing.timelineListAndBoardView"]: "타임라인, 목록 및 보드 보기",
   ["billing.guestAccounts"]: "게스트 계정",
   ["billing.monthly"]: "월간",
-  ["billing.yearly"]: "연간 (-20%)",
+  ["billing.yearly"]: "연간",
   ["billing.currentPlan"]: "현재 요금제",
   ["billing.yourChosenPaymentMethodIs"]: "선택한 결제 방법은 %{method}입니다",
   ["billing.thisIsThePaymentMethod"]:
@@ -197,7 +197,11 @@ const ko = {
   ["billing.previousInvoices"]: "이전 송장",
   ["billing.plan"]: "요금제",
   ["billing.manageWhichPlan"]: "워크스페이스에서 사용할 요금제 관리",
-  ["billing.standard"]: "표준",
+  ["billing.standard"]: "원하는 만큼 지불",
+  ["billing.pro"]: "비즈니스",
+  ["billing.standardSubtitle"]: "개인 및 소규모 팀용",
+  ["billing.proSubtitle"]: "성장하는 기업용",
+  ["billing.enterprise"]: "엔터프라이즈",
   ["billing.changePlan"]: "요금제 변경",
   ["billing.free"]: "무료",
   ["billing.upgrade"]: "업그레이드",
@@ -205,8 +209,8 @@ const ko = {
   ["billing.thereIsNoPaymentMethod"]:
     "이 워크스페이스에 연결된 결제 방법이 없습니다. 유료 요금제를 선택하면 여기에 결제 방법이 표시됩니다.",
   ["billing.selectAPaidPlan"]: "유료 요금제 선택",
-  ["billing.upgradePlan"]: "이 요금제로 업그레이드",
-  ["billing.downgradePlan"]: "이 요금제로 다운그레이드",
+  ["billing.upgradePlan"]: "더 많이 지불",
+  ["billing.downgradePlan"]: "더 적게 지불",
   ["billing.downgradeToFree"]: "무료로 다운그레이드",
   ["billing.viewYourPaymentMethodInStripe"]: "Stripe에서 결제 방법 보기",
   ["billing.weBillTheWorkspacePayment"]:
@@ -231,14 +235,13 @@ const ko = {
   ["billing.perUserPerMonth"]: "/ 사용자 / 월",
   ["billing.perUserPerYear"]: "/ 사용자 / 년",
   ["billing.inAppLiveChatSupport"]: "앱 내 실시간 채팅 지원",
+  ["billing.aiTrainingOptOut"]: "AI 학습 거부",
   ["billing.timelineListAndCalendar"]: "타임라인, 목록 및 캘린더 레이아웃",
   ["billing.billedYearly"]: "연간 청구",
   ["billing.planStatus"]: "플랜 상태",
   ["billing.yourCurrentPlanIsNotSetToRenew"]: "현재 플랜은 갱신되지 않습니다",
-  ["billing.on"]: "에",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "작업 공간이 무료 플랜으로 다운그레이드됩니다. 그때까지 이 작업 공간에 사람들을 초대할 수 있지만, 초과할 수 없습니다",
-  ["billing.workspaceMembers"]: "작업 공간 멤버",
+  ["billing.canceledDescription"]:
+    "%{date}에 작업 공간이 $t(billing.free) 플랜으로 다운그레이드됩니다. 그때까지 이 작업 공간에 사람들을 초대할 수 있지만, %{memberCount}명의 작업 공간 멤버를 초과할 수 없습니다",
   ["billing.turnRenewalBackOn"]: "갱신 다시 켜기",
   ["billing.youCanStillInvite"]:
     "이 작업 공간에 사람들을 초대할 수 있지만, 초과할 수 없습니다",
@@ -249,11 +252,15 @@ const ko = {
   ["billing.switchToYearly"]: "연간으로 전환 (-20%)",
   ["billing.switchToMonthly"]: "월간으로 전환",
   ["billing.metadata"]: "%{plan}의 모든 것, 추가로...",
-  ["billing.talkToOurExperts"]: "전문가와 상담하세요",
-  ["billing.samlAndScim"]: "SAML 및 SCIM",
+  ["billing.dedicatedAnalyst"]: "전담 전략 분석가",
+  ["billing.onsiteAdoption"]: "현장 도입 및 배포",
+  ["billing.customImplementation"]: "맞춤형 구현",
+  ["billing.uptimeSLA"]: "%{percentage}% 가동 시간 SLA",
+  ["billing.byoc"]: "자체 클라우드 사용",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "감사 로그",
   ["billing.customBilling"]: "맞춤 청구",
-  ["billing.prioritySupport"]: "우선 지원",
+  ["billing.prioritySupport"]: "우선 지원 및 자문",
   ["billing.unlimitedChildCards"]: "무제한 하위 카드",
   ["billing.publishPagesToTheWeb"]: "페이지를 웹에 게시",
   ["billing.calendarLayout"]: "캘린더 레이아웃",
@@ -288,10 +295,11 @@ const ko = {
     "%{planName} 플랜으로 다운그레이드되었습니다. 플랜 페이지에서 잃은 기능을 확인할 수 있습니다.",
   ["billing.youHaveBeenDowngradedShort"]:
     "%{planName} 플랜으로 다운그레이드되었습니다.",
+  ["billing.legacy"]: "레거시",
   ["billing.youAreOnLegacyPlan"]:
-    "레거시 플랜에 있습니다: %{planName} (%{planPeriod})",
+    "레거시 %{planName} %{planPeriod} 플랜에 있습니다",
   ["billing.legacyDescription"]:
-    "이 버전은 더 이상 신규 사용자에게 제공되지 않습니다. 계속 사용할 수 있으며, 업데이트된 기능과 가격을 위해 현재 플랜을 탐색할 수 있습니다.",
+    "이 버전은 더 이상 신규 사용자에게 제공되지 않습니다. 계속 사용하거나 %{contactUs}를 통해 업데이트된 기능과 가격으로 현재 플랜을 알아볼 수 있습니다.",
 
   // global
   ["global.text.create"]: "생성",
@@ -2824,6 +2832,33 @@ const ko = {
   removeLink: "링크 제거",
   linkAdded: "링크 추가됨",
   errorAddingLink: "링크 추가 오류",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "커피 감사합니다",
+  ["billing.pwyw.barelyCovering"]: "맥주 감사합니다",
+  ["billing.pwyw.breakeven"]: "손익분기점 — 이익도 손실도 없음",
+  ["billing.pwyw.belowFair"]: "공정 가격보다 약간 낮음",
+  ["billing.pwyw.fairPrice"]: "공정 가격, 감사합니다!",
+  ["billing.pwyw.awesome"]: "당신은 멋지네요!",
+  ["billing.pwyw.bestHuman"]: "당신은 말 그대로 최고의 사람입니다!",
+  ["billing.pwyw.topTier"]: "이게 대체 무슨 의미인가요?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "원하는 만큼 지불하세요",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "엄격한 요구 사항이 있는 기업을 위한",
+  ["billing.seatCount"]: "%{count}석",
+  ["billing.annualBilling"]: "연간 청구",
+  ["billing.versionHistory"]: "%{count}일 버전 기록",
+  ["billing.expertOnboarding"]: "전문가 온보딩",
+  ["billing.nextPaymentOn"]: "{date}에 다음 결제",
+  ["billing.paymentsWillStopOn"]: "{date}에 결제 중단",
+  ["billing.youAreOnPlan"]: "%{planName} 플랜을 사용 중입니다",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "가격 변경 성공!",
+  ["billing.priceChangeFail"]:
+    "가격 변경 실패. 문제가 지속되면 지원팀에 문의하세요.",
   createMissingTags: "누락된 태그 생성",
   createMissingTagsDescription:
     "존재하지 않을 경우 %{space} 공간에 태그를 생성합니다",

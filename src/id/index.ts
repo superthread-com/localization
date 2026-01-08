@@ -183,7 +183,7 @@ const id = {
   ["billing.timelineListAndBoardView"]: "Tampilan garis waktu, daftar, & papan",
   ["billing.guestAccounts"]: "Akun tamu",
   ["billing.monthly"]: "Bulanan",
-  ["billing.yearly"]: "Tahunan (-20%)",
+  ["billing.yearly"]: "Tahunan",
   ["billing.currentPlan"]: "Rencana saat ini",
   ["billing.yourChosenPaymentMethodIs"]:
     "Metode pembayaran yang Anda pilih adalah %{method}",
@@ -200,7 +200,11 @@ const id = {
   ["billing.previousInvoices"]: "Faktur sebelumnya",
   ["billing.plan"]: "Rencana",
   ["billing.manageWhichPlan"]: "Kelola rencana yang digunakan ruang kerja",
-  ["billing.standard"]: "Standar",
+  ["billing.standard"]: "Bayar Sesukamu",
+  ["billing.pro"]: "Bisnis",
+  ["billing.standardSubtitle"]: "Untuk individu dan tim kecil",
+  ["billing.proSubtitle"]: "Untuk perusahaan yang berkembang",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Ubah rencana",
   ["billing.free"]: "Gratis",
   ["billing.upgrade"]: "Tingkatkan",
@@ -208,8 +212,8 @@ const id = {
   ["billing.thereIsNoPaymentMethod"]:
     "Tidak ada metode pembayaran yang terkait dengan ruang kerja ini. Metode pembayaran akan muncul di sini setelah Anda memilih rencana berbayar.",
   ["billing.selectAPaidPlan"]: "Pilih rencana berbayar",
-  ["billing.upgradePlan"]: "Tingkatkan ke rencana ini",
-  ["billing.downgradePlan"]: "Turunkan ke rencana ini",
+  ["billing.upgradePlan"]: "Bayar lebih",
+  ["billing.downgradePlan"]: "Bayar kurang",
   ["billing.downgradeToFree"]: "Turunkan ke gratis",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Lihat metode pembayaran Anda di Stripe",
@@ -235,16 +239,15 @@ const id = {
   ["billing.perUserPerMonth"]: "/ pengguna / bulan",
   ["billing.perUserPerYear"]: "/ pengguna / tahun",
   ["billing.inAppLiveChatSupport"]: "Dukungan obrolan langsung di aplikasi",
+  ["billing.aiTrainingOptOut"]: "Tolak pelatihan AI",
   ["billing.timelineListAndCalendar"]:
     "Tata letak garis waktu, daftar, & kalender",
   ["billing.billedYearly"]: "ditagih tahunan",
   ["billing.planStatus"]: "Status rencana",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Rencana Anda saat ini tidak diatur untuk diperbarui",
-  ["billing.on"]: "Nyala",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "ruang kerja Anda akan diturunkan ke Rencana Gratis. Sampai saat itu Anda masih dapat mengundang orang ke ruang kerja ini, tetapi Anda tidak akan dapat melebihi",
-  ["billing.workspaceMembers"]: "anggota ruang kerja",
+  ["billing.canceledDescription"]:
+    "Pada %{date} ruang kerja Anda akan diturunkan ke rencana $t(billing.free). Sampai saat itu Anda masih dapat mengundang orang ke ruang kerja ini, tetapi Anda tidak akan dapat melebihi %{memberCount} anggota ruang kerja",
   ["billing.turnRenewalBackOn"]: "Nyalakan kembali perpanjangan",
   ["billing.youCanStillInvite"]:
     "Anda masih dapat mengundang orang ke ruang kerja ini, tetapi Anda tidak dapat melebihi",
@@ -255,11 +258,15 @@ const id = {
   ["billing.switchToYearly"]: "Beralih ke tahunan (-20%)",
   ["billing.switchToMonthly"]: "Beralih ke bulanan",
   ["billing.metadata"]: "Semuanya dalam %{plan}, ditambah...",
-  ["billing.talkToOurExperts"]: "Berbicara dengan ahli kami",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.dedicatedAnalyst"]: "Analis strategis khusus",
+  ["billing.onsiteAdoption"]: "Adopsi dan peluncuran di lokasi",
+  ["billing.customImplementation"]: "Implementasi kustom",
+  ["billing.uptimeSLA"]: "%{percentage}% SLA waktu aktif",
+  ["billing.byoc"]: "Bawa cloud Anda sendiri",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Log audit",
   ["billing.customBilling"]: "Penagihan kustom",
-  ["billing.prioritySupport"]: "Dukungan prioritas",
+  ["billing.prioritySupport"]: "Dukungan prioritas dan penasehat",
   ["billing.unlimitedChildCards"]: "Kartu anak tanpa batas",
   ["billing.publishPagesToTheWeb"]: "Terbitkan halaman ke web",
   ["billing.calendarLayout"]: "Tata letak kalender",
@@ -295,10 +302,11 @@ const id = {
     "Anda telah diturunkan ke paket %{planName}. Anda dapat melihat fitur mana yang hilang di halaman paket.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Anda telah diturunkan ke paket %{planName}.",
+  ["billing.legacy"]: "Lama",
   ["billing.youAreOnLegacyPlan"]:
-    "Anda berada pada paket lama: %{planName} (%{planPeriod})",
+    "Anda berada pada paket %{planName} %{planPeriod} lama",
   ["billing.legacyDescription"]:
-    "Versi ini tidak lagi ditawarkan kepada pengguna baru. Anda dapat terus menggunakannya, atau menjelajahi paket kami saat ini untuk fitur dan harga terbaru.",
+    "Versi ini tidak lagi ditawarkan kepada pengguna baru. Anda dapat terus menggunakannya, atau %{contactUs} untuk menjelajahi paket kami saat ini untuk fitur dan harga terbaru.",
 
   // global
   ["global.text.create"]: "Buat",
@@ -2939,6 +2947,34 @@ const id = {
   removeLink: "Hapus tautan",
   linkAdded: "Tautan ditambahkan",
   errorAddingLink: "Kesalahan menambahkan tautan",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Terima kasih untuk kopinya",
+  ["billing.pwyw.barelyCovering"]: "Terima kasih untuk birnya",
+  ["billing.pwyw.breakeven"]: "Titik impas — tidak untung, tidak rugi",
+  ["billing.pwyw.belowFair"]: "Sedikit di bawah harga wajar",
+  ["billing.pwyw.fairPrice"]: "Harga wajar, terima kasih!",
+  ["billing.pwyw.awesome"]: "Anda luar biasa!",
+  ["billing.pwyw.bestHuman"]: "Anda benar-benar manusia terbaik!",
+  ["billing.pwyw.topTier"]: "Apa artinya ini sebenarnya?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Bayar Sesuai Keinginan",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]:
+    "Untuk perusahaan yang memiliki persyaratan ketat",
+  ["billing.seatCount"]: "%{count} tempat duduk",
+  ["billing.annualBilling"]: "Penagihan tahunan",
+  ["billing.versionHistory"]: "%{count} hari riwayat versi",
+  ["billing.expertOnboarding"]: "Orientasi ahli",
+  ["billing.nextPaymentOn"]: "Pembayaran berikutnya pada %{date}",
+  ["billing.paymentsWillStopOn"]: "Pembayaran akan berhenti pada %{date}",
+  ["billing.youAreOnPlan"]: "Anda menggunakan paket %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Perubahan harga berhasil!",
+  ["billing.priceChangeFail"]:
+    "Perubahan harga gagal. Hubungi dukungan jika masalah berlanjut.",
   createMissingTags: "Buat tag yang hilang",
   createMissingTagsDescription: "Buat tag di ruang %{space} jika belum ada",
   createACopyOfThisCard:
