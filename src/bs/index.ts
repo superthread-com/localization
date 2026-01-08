@@ -2886,9 +2886,8 @@ const bs: Translations = {
   advanced_features: "Napredne funkcije",
   helper: "Pomoćnik",
   organiser: "Organizator",
-  shaper: "Oblikovalac",
-  scribe: "Zapisničar",
-  master: "Majstor",
+  shaper: "Oblikovatelj",
+  master: "Maestro",
   youHaveUnlocked: "Otključao si",
   rank: "rang",
   trelloDescription:
@@ -2925,6 +2924,88 @@ const bs: Translations = {
   ["billing.priceChangeSuccess"]: "Promjena cijene uspješna!",
   ["billing.priceChangeFail"]:
     "Promjena cijene nije uspjela. Kontaktirajte podršku ako se problem nastavi.",
+  createMissingTags: "Kreiraj nedostajuće oznake",
+  createMissingTagsDescription:
+    "Kreiraj oznake u prostoru %{space} ako ne postoje",
+  createACopyOfThisCard:
+    "Napravite kopiju ove kartice. Aktivnost i komentari neće biti kopirani.",
+  chooseWhereToDuplicateCard: "Odaberite gdje želite duplicirati karticu",
+  cardWillBeAddedToBottomOfList: "Kartica će biti dodana na dno liste",
+  learnFavourites: "Naučite Omiljene",
+  learnFavouritesDescription: "Izgradite svoju ličnu bazu",
+  learnFavouritesMission:
+    "Prilagodite ga sebi tako što ćete zakačiti najvažnije poslove u bočnu traku.",
+  commandMastery: "Majstorstvo Komandi",
+  commandMasteryDescription: "Vaš skriveni alatni panel",
+  commandMasteryMission:
+    "Naš dinamični sistem je fleksibilan da vam pomogne da se skalirate.",
+  notesCourse: "AI Sastanci, Transkripcije i Predlošci Bilješki",
+  notesCourseDescription: "Vaš pametni pratilac na sastancima",
+  notesCourseMission:
+    "AI Transkripcije daju vašem timu jasnoću - snimajući sve što je rečeno, organizujući uvide i magično pretvarajući diskusije u akcije ✨",
+  cardMastery: "Majstorstvo Kartica",
+  cardMasteryDescription: "Brzina koju možete osjetiti",
+  cardMasteryMission:
+    "Superthread je dizajniran za brzinu. Kada se smjestite, letjet ćete kroz svoj rad.",
+  learnSidedockView: "Naučite Sidedock Prikaz",
+  learnSidedockViewDescription: "Vaš pratilac za duboku koncentraciju",
+  learnSidedockViewMission:
+    "Sve u Superthread-u je dizajnirano za jednostavnost i fleksibilnost, uključujući prikaze.",
+  spacesMastery: "Majstorstvo Prostora - Opuštajući komandni centar",
+  spacesMasteryDescription:
+    "Stvaranje Prostora vaše organizacije - na vaš način",
+  spacesMasteryMission:
+    "Prostori se prilagođavaju vašem radnom toku - prema odjelima, klijentima, projektima. Fleksibilno kako želite raditi.",
+  curator: "Kustos",
+  artisan: "Rukotvorac",
+  scribe: "Pisar",
+  speedster: "Brzi",
+  navigator: "Navigator",
+  architect: "Arhitekta",
+  favourite_board: "Dodaj tablu u omiljene",
+  favourite_card: "Dodaj karticu u omiljene",
+  favourite_page: "Dodaj stranicu u omiljene",
+  reorder_favourites: "Prevucite bilo koji Omiljeni u drugi redoslijed",
+  add_table_to_comment: "Tabele u Komentare",
+  add_callout_to_card: "Isticanja u Opis Kartice",
+  embed_youtube_to_page: "YouTube Umetanja u Stranice",
+  embed_board_to_page: "Umetanje Table u Stranice",
+  transcribe_meeting: "Kliknite Transkribiraj sastanak",
+  view_transcript_action: "Pogledajte Transkripciju da provjerite da li radi",
+  pause_meeting_for_summary:
+    "Pauzirajte da završite sastanak - naša AI magija će pokrenuti sažetak",
+  change_notes_template:
+    "Promijenite Auto-poboljšano u novi Predložak (Susret s investitorom, Brainstorming, 1 na 1, itd.)",
+  convert_notes_to_cards: "Pretvorite svoje bilješke u Kartice",
+  use_arrow_keys_action: "Tipke sa strelicama",
+  use_option_arrows: "Option + strelice",
+  use_bulk_actions: "Masovne akcije",
+  use_magic_cover_image: "Kliknite Čarobna Naslovna Slika",
+  set_parent_card_action: "Odaberite karticu i Postavite Roditeljsku Karticu",
+  open_side_dock_view_action: "Kliknite Sidedock Prikaz",
+  view_card_in_sidebar: "Kliknite na drugu Karticu",
+  view_page_in_sidebar: "Kliknite na drugu Stranicu",
+  create_client_space: 'Napravite Prostor nazvan "Novi Klijent"',
+  create_department_space: 'Napravite Prostor nazvan "Novi Odjel"',
+  create_board_in_client_space:
+    'Napravite Tablu nazvanu "Nova Ploča Klijenta" unutar vašeg prostora Novi Klijent',
+  create_board_in_department_space:
+    'Napravite Tablu nazvanu "Nova Ploča Odjela" unutar vašeg prostora Novi Odjel',
+  create_card_in_board:
+    'Napravite Karticu nazvanu "Nova Kartica" unutar vaše Nove Tablice Klijenta',
+  move_card_between_spaces:
+    "Prevucite svoju novu karticu od Novi Klijent do Novi Odjel",
+  onboardingNewClientSpace: "Novi Klijent",
+  onboardingNewDepartmentSpace: "Novi Odjel",
+  onboardingNewClientBoard: "Nova Ploča Klijenta",
+  onboardingNewDepartmentBoard: "Nova Ploča Odjela",
+  onboardingNewCard: "Nova Kartica",
+  moveBoard: "Premjesti ploču",
+  moveBoardDescription:
+    "Neke oznake korištene u ovoj ploči ne postoje u %{space} prostoru i bit će uklonjeni sa kartica.",
+  missingTags: "Oznake koje nedostaju",
+  createMissingTagsInSpaceDescription:
+    "Kreirajte oznake u %{space} prostoru ako ne postoje",
 };
 
 export default bs;

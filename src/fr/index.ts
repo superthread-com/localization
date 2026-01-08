@@ -2979,7 +2979,6 @@ const fr: Translations = {
   helper: "Assistant",
   organiser: "Organisateur",
   shaper: "Façonneur",
-  scribe: "Scribe",
   master: "Maître",
   youHaveUnlocked: "Vous avez débloqué",
   rank: "rang",
@@ -3018,6 +3017,88 @@ const fr: Translations = {
   ["billing.priceChangeSuccess"]: "Changement de prix réussi !",
   ["billing.priceChangeFail"]:
     "Échec du changement de prix. Contactez le support si le problème persiste.",
+  createMissingTags: "Créer les balises manquantes",
+  createMissingTagsDescription:
+    "Créer des balises dans l'espace %{space} si elles n'existent pas",
+  createACopyOfThisCard:
+    "Créer une copie de cette carte. L'activité et les commentaires ne seront pas copiés.",
+  chooseWhereToDuplicateCard: "Choisissez où dupliquer la carte",
+  cardWillBeAddedToBottomOfList: "La carte sera ajoutée en bas de la liste",
+  learnFavourites: "Apprendre les Favoris",
+  learnFavouritesDescription: "Construisez votre base personnelle",
+  learnFavouritesMission:
+    "Personnalisez-le en épinglant le travail qui compte le plus pour vous dans votre barre latérale.",
+  commandMastery: "Maîtrise des Commandes",
+  commandMasteryDescription: "Votre boîte à outils cachée",
+  commandMasteryMission:
+    "Notre système dynamique est flexible pour vous aider à évoluer.",
+  notesCourse: "Réunions IA, Transcriptions et Modèles de Notes",
+  notesCourseDescription: "Votre compagnon de réunion intelligent",
+  notesCourseMission:
+    "Les transcriptions IA donnent de la clarté à votre équipe - capturant tout ce qui est dit, organisant les insights et transformant les discussions en actions magiquement ✨",
+  cardMastery: "Maîtrise des Cartes",
+  cardMasteryDescription: "Une vitesse que vous pouvez sentir",
+  cardMasteryMission:
+    "Superthread est conçu pour la vitesse. Une fois installé, vous traverserez votre travail.",
+  learnSidedockView: "Apprendre la Vue Sidedock",
+  learnSidedockViewDescription: "Votre compagnon de concentration profonde",
+  learnSidedockViewMission:
+    "Tout dans Superthread est conçu pour la simplicité et la flexibilité, y compris les vues.",
+  spacesMastery: "Maîtrise des Espaces - Centre de commande apaisant",
+  spacesMasteryDescription:
+    "Créer les Espaces de votre organisation - à votre manière",
+  spacesMasteryMission:
+    "Les Espaces s'adaptent à votre flux de travail - par départements, clients, projets. Flexibles comme vous voulez travailler.",
+  curator: "Conservateur",
+  artisan: "Artisan",
+  scribe: "Scribe",
+  speedster: "Speedster",
+  navigator: "Navigateur",
+  architect: "Architecte",
+  favourite_board: "Mettre un tableau en favori",
+  favourite_card: "Mettre une carte en favori",
+  favourite_page: "Mettre une page en favori",
+  reorder_favourites: "Réorganiser les favoris par glisser-déposer",
+  add_table_to_comment: "Insérer un tableau dans un commentaire",
+  add_callout_to_card: "Insérer un encadré dans la description",
+  embed_youtube_to_page: "Intégrer YouTube dans une page",
+  embed_board_to_page: "Intégrer un tableau dans une page",
+  transcribe_meeting: "Transcrire la réunion",
+  view_transcript_action: "Consulter la transcription",
+  pause_meeting_for_summary:
+    "Mettre en pause pour terminer et obtenir le résumé automatique",
+  change_notes_template:
+    "Changer le modèle de notes (Réunion investisseur, Brainstorm, 1:1, etc.)",
+  convert_notes_to_cards: "Convertir les notes en cartes",
+  use_arrow_keys_action: "Utiliser les touches fléchées",
+  use_option_arrows: "Utiliser Option + flèches",
+  use_bulk_actions: "Utiliser les actions en masse",
+  use_magic_cover_image: "Utiliser l'image de couverture magique",
+  set_parent_card_action: "Définir la carte parente",
+  open_side_dock_view_action: "Ouvrir la vue Sidedock",
+  view_card_in_sidebar: "Voir une autre carte dans la sidebar",
+  view_page_in_sidebar: "Voir une autre page dans la sidebar",
+  create_client_space: 'Créez un Espace appelé "Nouveau Client"',
+  create_department_space: 'Créez un Espace appelé "Nouveau Département"',
+  create_board_in_client_space:
+    'Créez un Tableau appelé "Nouveau Tableau Client" dans votre espace Nouveau Client',
+  create_board_in_department_space:
+    'Créez un Tableau appelé "Nouveau Tableau Département" dans votre espace Nouveau Département',
+  create_card_in_board:
+    'Créez une Carte appelée "Nouvelle Carte" dans votre Nouveau Tableau Client',
+  move_card_between_spaces:
+    "Glissez votre nouvelle carte de Nouveau Client à Nouveau Département",
+  onboardingNewClientSpace: "Nouveau Client",
+  onboardingNewDepartmentSpace: "Nouveau Département",
+  onboardingNewClientBoard: "Nouveau Tableau Client",
+  onboardingNewDepartmentBoard: "Nouveau Tableau Département",
+  onboardingNewCard: "Nouvelle Carte",
+  moveBoard: "Déplacer le tableau",
+  moveBoardDescription:
+    "Certaines étiquettes utilisées dans ce tableau n'existent pas dans l'espace %{space} et seront supprimées des cartes.",
+  missingTags: "Étiquettes manquantes",
+  createMissingTagsInSpaceDescription:
+    "Créer des étiquettes dans l'espace %{space} si elles n'existent pas",
 };
 
 export default fr as Translations;

@@ -2965,7 +2965,6 @@ const es = {
   helper: "Ayudante",
   organiser: "Organizador",
   shaper: "Modelador",
-  scribe: "Escriba",
   master: "Maestro",
   youHaveUnlocked: "Has desbloqueado",
   rank: "rango",
@@ -3005,6 +3004,88 @@ const es = {
   ["billing.priceChangeSuccess"]: "¡Cambio de precio exitoso!",
   ["billing.priceChangeFail"]:
     "Error al cambiar el precio. Contacta con soporte si el problema persiste.",
+  createMissingTags: "Crear etiquetas faltantes",
+  createMissingTagsDescription:
+    "Crea etiquetas en el espacio %{space} si no existen",
+  createACopyOfThisCard:
+    "Crea una copia de esta tarjeta. La actividad y los comentarios no se copiarán.",
+  chooseWhereToDuplicateCard: "Elige dónde duplicar la tarjeta",
+  cardWillBeAddedToBottomOfList: "La tarjeta se añadirá al final de la lista",
+  learnFavourites: "Aprender Favoritos",
+  learnFavouritesDescription: "Construye tu base personal",
+  learnFavouritesMission:
+    "Hazlo tuyo fijando el trabajo que más te importa en tu barra lateral.",
+  commandMastery: "Dominio de Comandos",
+  commandMasteryDescription: "Tu caja de herramientas oculta",
+  commandMasteryMission:
+    "Nuestro sistema dinámico es flexible para ayudarte a escalar.",
+  notesCourse: "Reuniones IA, Transcripciones y Plantillas de Notas",
+  notesCourseDescription: "Tu compañero inteligente de reuniones",
+  notesCourseMission:
+    "Las Transcripciones IA dan claridad a tu equipo - capturando todo lo dicho, organizando ideas y convirtiendo discusiones en acciones mágicamente ✨",
+  cardMastery: "Dominio de Tarjetas",
+  cardMasteryDescription: "Velocidad que puedes sentir",
+  cardMasteryMission:
+    "Superthread está diseñado para la velocidad. Una vez que te instales, volarás a través de tu trabajo.",
+  learnSidedockView: "Aprender Vista Sidedock",
+  learnSidedockViewDescription: "Tu compañero de concentración profunda",
+  learnSidedockViewMission:
+    "Todo en Superthread está diseñado para la simplicidad y flexibilidad, incluidas las vistas.",
+  spacesMastery: "Dominio de Espacios - Centro de comando tranquilizador",
+  spacesMasteryDescription:
+    "Creando los Espacios de tu organización - a tu manera",
+  spacesMasteryMission:
+    "Los Espacios se adaptan a tu flujo de trabajo - por departamentos, clientes, proyectos. Flexibles como quieras trabajar.",
+  curator: "Curador",
+  artisan: "Artesano",
+  scribe: "Escriba",
+  speedster: "Veloz",
+  navigator: "Navegante",
+  architect: "Arquitecto",
+  favourite_board: "Añadir tablero a favoritos",
+  favourite_card: "Añadir tarjeta a favoritos",
+  favourite_page: "Añadir página a favoritos",
+  reorder_favourites: "Reordenar favoritos arrastrando",
+  add_table_to_comment: "Insertar tabla en comentario",
+  add_callout_to_card: "Insertar destacado en descripción",
+  embed_youtube_to_page: "Incrustar YouTube en página",
+  embed_board_to_page: "Incrustar tablero en página",
+  transcribe_meeting: "Transcribir reunión",
+  view_transcript_action: "Ver transcripción",
+  pause_meeting_for_summary:
+    "Pausar para finalizar y obtener resumen automático",
+  change_notes_template:
+    "Cambiar plantilla de notas (Reunión con inversores, Lluvia de ideas, 1:1, etc.)",
+  convert_notes_to_cards: "Convertir notas en tarjetas",
+  use_arrow_keys_action: "Usar teclas de flecha",
+  use_option_arrows: "Usar Opción + flechas",
+  use_bulk_actions: "Usar acciones masivas",
+  use_magic_cover_image: "Usar imagen de portada mágica",
+  set_parent_card_action: "Establecer tarjeta padre",
+  open_side_dock_view_action: "Abrir vista Sidedock",
+  view_card_in_sidebar: "Ver otra tarjeta en sidebar",
+  view_page_in_sidebar: "Ver otra página en sidebar",
+  create_client_space: 'Crea un Espacio llamado "Nuevo Cliente"',
+  create_department_space: 'Crea un Espacio llamado "Nuevo Departamento"',
+  create_board_in_client_space:
+    'Crea un Tablero llamado "Nuevo Tablero de Cliente" dentro de tu espacio Nuevo Cliente',
+  create_board_in_department_space:
+    'Crea un Tablero llamado "Nuevo Tablero de Departamento" dentro de tu espacio Nuevo Departamento',
+  create_card_in_board:
+    'Crea una Tarjeta llamada "Nueva Tarjeta" dentro de tu Nuevo Tablero de Cliente',
+  move_card_between_spaces:
+    "Arrastra tu nueva tarjeta de Nuevo Cliente a Nuevo Departamento",
+  onboardingNewClientSpace: "Nuevo Cliente",
+  onboardingNewDepartmentSpace: "Nuevo Departamento",
+  onboardingNewClientBoard: "Nuevo Tablero de Cliente",
+  onboardingNewDepartmentBoard: "Nuevo Tablero de Departamento",
+  onboardingNewCard: "Nueva Tarjeta",
+  moveBoard: "Mover tablero",
+  moveBoardDescription:
+    "Algunas etiquetas utilizadas en este tablero no existen en el espacio %{space} y se eliminarán de las tarjetas.",
+  missingTags: "Etiquetas faltantes",
+  createMissingTagsInSpaceDescription:
+    "Crear etiquetas en el espacio %{space} si no existen",
 };
 
 export default es as Translations;
