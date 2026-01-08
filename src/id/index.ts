@@ -290,10 +290,11 @@ const id = {
     "Anda telah diturunkan ke paket %{planName}. Anda dapat melihat fitur mana yang hilang di halaman paket.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Anda telah diturunkan ke paket %{planName}.",
+  ["billing.legacy"]: "Lama",
   ["billing.youAreOnLegacyPlan"]:
     "Anda berada pada paket %{planName} %{planPeriod} lama",
   ["billing.legacyDescription"]:
-    "Versi ini tidak lagi ditawarkan kepada pengguna baru. Anda dapat terus menggunakannya, atau menjelajahi paket kami saat ini untuk fitur dan harga terbaru.",
+    "Versi ini tidak lagi ditawarkan kepada pengguna baru. Anda dapat terus menggunakannya, atau %{contactUs} untuk menjelajahi paket kami saat ini untuk fitur dan harga terbaru.",
 
   // global
   ["global.text.create"]: "Buat",

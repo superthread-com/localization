@@ -273,10 +273,11 @@ const zhHant = {
   ["billing.youHaveBeenDowngradedLong"]:
     "您已被降級至 %{planName} 方案。您可以在方案頁面查看您失去的功能。",
   ["billing.youHaveBeenDowngradedShort"]: "您已被降級至 %{planName} 方案。",
+  ["billing.legacy"]: "舊版",
   ["billing.youAreOnLegacyPlan"]:
     "您使用的是舊版 %{planName} %{planPeriod} 方案",
   ["billing.legacyDescription"]:
-    "此版本不再提供給新用戶。您可以繼續使用它，或探索我們目前的方案以獲取更新的功能和定價。",
+    "此版本不再提供給新用戶。您可以繼續使用它，或%{contactUs}以探索我們目前方案的更新功能和定價。",
 
   // global
   ["global.text.create"]: "創建",

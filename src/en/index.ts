@@ -272,10 +272,11 @@ const en = {
     "You have been downgraded to the %{planName} plan. You can see which features you lost on the plans page.",
   ["billing.youHaveBeenDowngradedShort"]:
     "You have been downgraded to the %{planName} plan.",
+  ["billing.legacy"]: "Legacy",
   ["billing.youAreOnLegacyPlan"]:
     "You're on a legacy %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
-    "This version is no longer offered to new users. You can continue using it, or explore our current plans for updated features and pricing.",
+    "This version is no longer offered to new users. You can continue using it, or %{contactUs} to explore our current plans for updated features and pricing.",
   ["billing.nextPaymentOn"]: "Next payment on %{date}",
   ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
   ["billing.youAreOnPlan"]: "You are on the %{planName} plan",

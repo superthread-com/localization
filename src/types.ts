@@ -253,6 +253,7 @@ export enum TranslationKeys {
   BillingYourTrialHasExpired = "billing.yourTrialHasExpired",
   BillingYouHaveBeenDowngradedLong = "billing.youHaveBeenDowngradedLong",
   BillingYouHaveBeenDowngradedShort = "billing.youHaveBeenDowngradedShort",
+  BillingLegacy = "billing.legacy",
   BillingYouAreOnLegacyPlan = "billing.youAreOnLegacyPlan",
   BillingLegacyDescription = "billing.legacyDescription",
   // PWYW Messages

@@ -293,10 +293,11 @@ const ptBR = {
     "Você foi rebaixado para o plano %{planName}. Você pode ver quais recursos perdeu na página de planos.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Você foi rebaixado para o plano %{planName}.",
+  ["billing.legacy"]: "Legado",
   ["billing.youAreOnLegacyPlan"]:
     "Você está em um plano %{planName} %{planPeriod} legado",
   ["billing.legacyDescription"]:
-    "Esta versão não é mais oferecida a novos usuários. Você pode continuar a usá-la ou explorar nossos planos atuais para recursos e preços atualizados.",
+    "Esta versão não é mais oferecida a novos usuários. Você pode continuar a usá-la ou %{contactUs} para explorar nossos planos atuais para recursos e preços atualizados.",
 
   // global
   ["global.text.create"]: "Criar",

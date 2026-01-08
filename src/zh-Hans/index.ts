@@ -273,10 +273,11 @@ const zhHans = {
   ["billing.youHaveBeenDowngradedLong"]:
     "您已降级到%{planName}计划。您可以在计划页面查看您失去的功能。",
   ["billing.youHaveBeenDowngradedShort"]: "您已降级到%{planName}计划。",
+  ["billing.legacy"]: "旧版",
   ["billing.youAreOnLegacyPlan"]:
     "您正在使用旧版 %{planName} %{planPeriod} 计划",
   ["billing.legacyDescription"]:
-    "此版本不再向新用户提供。您可以继续使用它，或探索我们当前计划的更新功能和定价。",
+    "此版本不再向新用户提供。您可以继续使用它，或%{contactUs}以探索我们当前计划的更新功能和定价。",
 
   // global
   ["global.text.create"]: "创建",

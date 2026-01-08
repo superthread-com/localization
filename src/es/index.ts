@@ -229,7 +229,8 @@ const es = {
   ["billing.perUserPerMonth"]: "/ usuario / mes",
   ["billing.perUserPerYear"]: "/ usuario / año",
   ["billing.inAppLiveChatSupport"]: "Soporte de chat en vivo en la aplicación",
-  ["billing.aiTrainingOptOut"]: "Optar por no participar en el entrenamiento de IA",
+  ["billing.aiTrainingOptOut"]:
+    "Optar por no participar en el entrenamiento de IA",
   ["billing.timelineListAndCalendar"]:
     "Diseño de línea de tiempo, lista y calendario",
   ["billing.billedYearly"]: "facturado anualmente",
@@ -292,10 +293,11 @@ const es = {
     "Has sido degradado al plan %{planName}. Puedes ver qué características perdiste en la página de planes.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Has sido degradado al plan %{planName}.",
+  ["billing.legacy"]: "Heredado",
   ["billing.youAreOnLegacyPlan"]:
     "Estás en un plan %{planName} %{planPeriod} heredado",
   ["billing.legacyDescription"]:
-    "Esta versión ya no se ofrece a nuevos usuarios. Puedes seguir usándola o explorar nuestros planes actuales para características y precios actualizados.",
+    "Esta versión ya no se ofrece a nuevos usuarios. Puedes seguir usándola o %{contactUs} para explorar nuestros planes actuales con características y precios actualizados.",
 
   // global
   ["global.text.create"]: "Crear",

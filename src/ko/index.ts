@@ -283,10 +283,11 @@ const ko = {
     "%{planName} 플랜으로 다운그레이드되었습니다. 플랜 페이지에서 잃은 기능을 확인할 수 있습니다.",
   ["billing.youHaveBeenDowngradedShort"]:
     "%{planName} 플랜으로 다운그레이드되었습니다.",
+  ["billing.legacy"]: "레거시",
   ["billing.youAreOnLegacyPlan"]:
     "레거시 %{planName} %{planPeriod} 플랜에 있습니다",
   ["billing.legacyDescription"]:
-    "이 버전은 더 이상 신규 사용자에게 제공되지 않습니다. 계속 사용할 수 있으며, 업데이트된 기능과 가격을 위해 현재 플랜을 탐색할 수 있습니다.",
+    "이 버전은 더 이상 신규 사용자에게 제공되지 않습니다. 계속 사용하거나 %{contactUs}를 통해 업데이트된 기능과 가격으로 현재 플랜을 알아볼 수 있습니다.",
 
   // global
   ["global.text.create"]: "생성",
@@ -2820,8 +2821,7 @@ const ko = {
   errorAddingLink: "링크 추가 오류",
   // PWYW Psychological Messages
   ["billing.pwyw.losingMoney"]: "커피 감사합니다",
-  ["billing.pwyw.barelyCovering"]:
-    "맥주 감사합니다",
+  ["billing.pwyw.barelyCovering"]: "맥주 감사합니다",
   ["billing.pwyw.breakeven"]: "손익분기점 — 이익도 손실도 없음",
   ["billing.pwyw.belowFair"]: "공정 가격보다 약간 낮음",
   ["billing.pwyw.fairPrice"]: "공정 가격, 감사합니다!",

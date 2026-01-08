@@ -286,10 +286,11 @@ const pl = {
     "Zostałeś zdegradowany do planu %{planName}. Możesz zobaczyć, które funkcje zostały utracone, na stronie planów.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Zostałeś zdegradowany do planu %{planName}.",
+  ["billing.legacy"]: "Stary",
   ["billing.youAreOnLegacyPlan"]:
     "Korzystasz ze starego planu %{planName} %{planPeriod}",
   ["billing.legacyDescription"]:
-    "Ta wersja nie jest już dostępna dla nowych użytkowników. Możesz nadal z niej korzystać lub zapoznać się z naszymi aktualnymi planami zawierającymi nowe funkcje i ceny.",
+    "Ta wersja nie jest już dostępna dla nowych użytkowników. Możesz nadal z niej korzystać lub %{contactUs}, aby poznać nasze aktualne plany z nowymi funkcjami i cenami.",
 
   ["global.text.create"]: "Utwórz",
   ["option.label.cards"]: "Karty",

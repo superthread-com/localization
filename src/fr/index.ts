@@ -156,10 +156,11 @@ const fr: Translations = {
     "Vous avez été rétrogradé au plan %{planName}. Vous pouvez voir les fonctionnalités perdues sur la page des offres.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Vous avez été rétrogradé au plan %{planName}.",
+  ["billing.legacy"]: "Ancien",
   ["billing.youAreOnLegacyPlan"]:
     "Vous êtes sur une ancienne formule %{planName} %{planPeriod}",
   ["billing.legacyDescription"]:
-    "Cette version n’est plus proposée aux nouveaux utilisateurs. Vous pouvez continuer à l’utiliser ou consulter nos offres actuelles avec des fonctionnalités et des tarifs mis à jour.",
+    "Cette version n'est plus proposée aux nouveaux utilisateurs. Vous pouvez continuer à l'utiliser ou %{contactUs} pour explorer nos offres actuelles avec des fonctionnalités et des tarifs mis à jour.",
 
   // cards layout
   cardsLayoutList: "Liste",

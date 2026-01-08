@@ -291,10 +291,11 @@ const de = {
     "Sie wurden auf den %{planName}-Tarif herabgestuft. Auf der Tarifseite können Sie sehen, welche Funktionen Sie verloren haben.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Sie wurden auf den %{planName}-Tarif herabgestuft.",
+  ["billing.legacy"]: "Legacy",
   ["billing.youAreOnLegacyPlan"]:
     "Du nutzt einen alten %{planName} %{planPeriod} Tarif",
   ["billing.legacyDescription"]:
-    "Diese Version wird neuen Nutzern nicht mehr angeboten. Du kannst sie weiterhin verwenden oder unsere aktuellen Pläne mit neuen Funktionen und Preisen ansehen.",
+    "Diese Version wird neuen Nutzern nicht mehr angeboten. Du kannst sie weiterhin verwenden oder %{contactUs}, um unsere aktuellen Pläne mit aktualisierten Funktionen und Preisen zu erkunden.",
 
   // global
   ["global.text.create"]: "Erstellen",

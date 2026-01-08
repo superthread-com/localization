@@ -1241,10 +1241,11 @@ const bs: Translations = {
   ["billing.youHaveBeenDowngradedLong"]:
     "Prebačeni ste na plan %{planName}. Možete vidjeti koje ste funkcije izgubili na stranici s planovima.",
   ["billing.youHaveBeenDowngradedShort"]: "Prebačeni ste na plan %{planName}.",
+  ["billing.legacy"]: "Legat",
   ["billing.youAreOnLegacyPlan"]:
     "Koristiš stari %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
-    "Ova verzija više nije dostupna novim korisnicima. Možeš je i dalje koristiti ili istražiti naše aktuelne planove s novim funkcijama i cijenama.",
+    "Ova verzija više nije dostupna novim korisnicima. Možete je i dalje koristiti ili %{contactUs} da istražite naše trenutne planove s ažuriranim funkcijama i cijenama.",
 
   // global
   ["global.text.create"]: "Kreiraj",
