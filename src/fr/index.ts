@@ -35,7 +35,7 @@ const fr: Translations = {
   ["billing.timelineListAndBoardView"]: "Vue chronologique, liste et tableau",
   ["billing.guestAccounts"]: "Comptes d'invités",
   ["billing.monthly"]: "Mensuel",
-  ["billing.yearly"]: "Annuel (-20%)",
+  ["billing.yearly"]: "Annuel",
   ["billing.currentPlan"]: "Plan actuel",
   ["billing.yourChosenPaymentMethodIs"]:
     "Le mode de paiement choisi est %{methode}",
@@ -52,7 +52,11 @@ const fr: Translations = {
   ["billing.previousInvoices"]: "Factures précendentes",
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]: "Gérer le plan utilisé par l'espace de travail",
-  ["billing.standard"]: "Standard",
+  ["billing.standard"]: "Payez ce que vous voulez",
+  ["billing.pro"]: "Business",
+  ["billing.standardSubtitle"]: "Pour les particuliers et les petites équipes",
+  ["billing.proSubtitle"]: "Pour les entreprises en croissance",
+  ["billing.enterprise"]: "Enterprise",
   ["billing.changePlan"]: "Changer de plan",
   ["billing.free"]: "Gratuit",
   ["billing.upgrade"]: "Améliorer",
@@ -60,8 +64,8 @@ const fr: Translations = {
   ["billing.thereIsNoPaymentMethod"]:
     "Aucune méthode de paiement n'est associée à cet espace de travail. Un mode de paiement apparaîtra ici lorsque vous aurez sélectionné un plan payant.",
   ["billing.selectAPaidPlan"]: "Selectionner un plan payant",
-  ["billing.upgradePlan"]: "Passer à ce plan",
-  ["billing.downgradePlan"]: "Passer à ce plan",
+  ["billing.upgradePlan"]: "Payer plus",
+  ["billing.downgradePlan"]: "Payer moins",
   ["billing.downgradeToFree"]: "Passer à l'option gratuite",
   ["billing.viewYourPaymentMethodInStripe"]:
     "Voir votre mode de paiement dans Stripe",
@@ -88,16 +92,15 @@ const fr: Translations = {
   ["billing.perUserPerYear"]: "/ utilisateur / année",
   ["billing.inAppLiveChatSupport"]:
     "Assistance par chat en direct dans l'application",
+  ["billing.aiTrainingOptOut"]: "Refuser l'entraînement de l'IA",
   ["billing.timelineListAndCalendar"]:
     "Mise en page de la chronologie, de la liste et du calendrier",
   ["billing.billedYearly"]: "Facturé annuellement",
   ["billing.planStatus"]: "Status du plan",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Votre plan actuel n'est pas prêt à être renouvelé",
-  ["billing.on"]: "Activer",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "votre espace de travail passera au plan gratuit. D'ici là, vous pourrez toujours inviter vos collègues à cet espace de travail, mais vous ne pourrez pas dépasser les limites de l'espace de travail.",
-  ["billing.workspaceMembers"]: "membres de l'espace de travail",
+  ["billing.canceledDescription"]:
+    "Le %{date} votre espace de travail passera au plan $t(billing.free). D'ici là, vous pourrez toujours inviter vos collègues à cet espace de travail, mais vous ne pourrez pas dépasser %{memberCount} membres de l'espace de travail",
   ["billing.turnRenewalBackOn"]: "Rétablir le renouvellement",
   ["billing.youCanStillInvite"]:
     "Vous pouvez toujours inviter vos collègues à cet espace de travail, mais vous ne pouvez pas dépasser les limites de l'espace de travail.",
@@ -108,11 +111,15 @@ const fr: Translations = {
   ["billing.switchToYearly"]: "Passer à une fréquence annuelle (-20%)",
   ["billing.switchToMonthly"]: "Passer à une fréquence mensuelle",
   ["billing.metadata"]: "Tout dans %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Parlez à nos experts",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.dedicatedAnalyst"]: "Analyste stratégique dédié",
+  ["billing.onsiteAdoption"]: "Adoption et déploiement sur site",
+  ["billing.customImplementation"]: "Implémentation personnalisée",
+  ["billing.uptimeSLA"]: "SLA de disponibilité de %{percentage}%",
+  ["billing.byoc"]: "Apportez votre propre cloud",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "Journaux d'audit",
   ["billing.customBilling"]: "Facturation personnalisée",
-  ["billing.prioritySupport"]: "Assistance prioritaire",
+  ["billing.prioritySupport"]: "Assistance prioritaire et conseil",
   ["billing.unlimitedChildCards"]: "Cartes enfants illimitées",
   ["billing.publishPagesToTheWeb"]: "Publier des pages sur le Web",
   ["billing.calendarLayout"]: "Mise en page du calendrier",
@@ -149,10 +156,11 @@ const fr: Translations = {
     "Vous avez été rétrogradé au plan %{planName}. Vous pouvez voir les fonctionnalités perdues sur la page des offres.",
   ["billing.youHaveBeenDowngradedShort"]:
     "Vous avez été rétrogradé au plan %{planName}.",
+  ["billing.legacy"]: "Ancien",
   ["billing.youAreOnLegacyPlan"]:
-    "Vous êtes sur une ancienne formule : %{planName} (%{planPeriod})",
+    "Vous êtes sur une ancienne formule %{planName} %{planPeriod}",
   ["billing.legacyDescription"]:
-    "Cette version n’est plus proposée aux nouveaux utilisateurs. Vous pouvez continuer à l’utiliser ou consulter nos offres actuelles avec des fonctionnalités et des tarifs mis à jour.",
+    "Cette version n'est plus proposée aux nouveaux utilisateurs. Vous pouvez continuer à l'utiliser ou %{contactUs} pour explorer nos offres actuelles avec des fonctionnalités et des tarifs mis à jour.",
 
   // cards layout
   cardsLayoutList: "Liste",
@@ -2999,6 +3007,34 @@ const fr: Translations = {
   removeLink: "Supprimer le lien",
   linkAdded: "Lien ajouté",
   errorAddingLink: "Erreur lors de l'ajout du lien",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Merci pour le café",
+  ["billing.pwyw.barelyCovering"]: "Merci pour la bière",
+  ["billing.pwyw.breakeven"]: "Point d'équilibre — pas de profit, pas de perte",
+  ["billing.pwyw.belowFair"]: "Un peu en dessous du prix équitable",
+  ["billing.pwyw.fairPrice"]: "Prix équitable, merci !",
+  ["billing.pwyw.awesome"]: "Vous êtes génial !",
+  ["billing.pwyw.bestHuman"]: "Vous êtes littéralement la meilleure personne !",
+  ["billing.pwyw.topTier"]: "Qu'est-ce que cela signifie même ?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Payez ce que vous voulez",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]:
+    "Pour les entreprises ayant des exigences strictes",
+  ["billing.seatCount"]: "%{count} places",
+  ["billing.annualBilling"]: "Facturation annuelle",
+  ["billing.versionHistory"]: "%{count} jours d'historique des versions",
+  ["billing.expertOnboarding"]: "Intégration experte",
+  ["billing.nextPaymentOn"]: "Prochain paiement le %{date}",
+  ["billing.paymentsWillStopOn"]: "Les paiements s'arrêteront le %{date}",
+  ["billing.youAreOnPlan"]: "Vous êtes sur le plan %{planName}",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Changement de prix réussi !",
+  ["billing.priceChangeFail"]:
+    "Échec du changement de prix. Contactez le support si le problème persiste.",
   createMissingTags: "Créer les balises manquantes",
   createMissingTagsDescription:
     "Créer des balises dans l'espace %{space} si elles n'existent pas",

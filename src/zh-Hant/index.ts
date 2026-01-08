@@ -179,7 +179,7 @@ const zhHant = {
   ["billing.timelineListAndBoardView"]: "時間軸、清單和看板視圖",
   ["billing.guestAccounts"]: "訪客帳號",
   ["billing.monthly"]: "每月",
-  ["billing.yearly"]: "每年 (-20%)",
+  ["billing.yearly"]: "每年",
   ["billing.currentPlan"]: "目前的方案",
   ["billing.yourChosenPaymentMethodIs"]: "您選擇的付款方式是 %{method}",
   ["billing.thisIsThePaymentMethod"]:
@@ -195,7 +195,11 @@ const zhHant = {
   ["billing.previousInvoices"]: "以前的發票",
   ["billing.plan"]: "方案",
   ["billing.manageWhichPlan"]: "管理工作區使用的方案",
-  ["billing.standard"]: "標準",
+  ["billing.standard"]: "隨心付費",
+  ["billing.pro"]: "商業版",
+  ["billing.standardSubtitle"]: "適合個人和小型團隊",
+  ["billing.proSubtitle"]: "適合發展中的公司",
+  ["billing.enterprise"]: "企業版",
   ["billing.changePlan"]: "更改方案",
   ["billing.free"]: "免費",
   ["billing.upgrade"]: "升級",
@@ -203,8 +207,8 @@ const zhHant = {
   ["billing.thereIsNoPaymentMethod"]:
     "此工作區沒有關聯的付款方式。選擇付費方案後，付款方式將顯示在此處。",
   ["billing.selectAPaidPlan"]: "選擇付費方案",
-  ["billing.upgradePlan"]: "升級至此方案",
-  ["billing.downgradePlan"]: "降級至此方案",
+  ["billing.upgradePlan"]: "付更多",
+  ["billing.downgradePlan"]: "付更少",
   ["billing.downgradeToFree"]: "降級至免費",
   ["billing.viewYourPaymentMethodInStripe"]: "在 Stripe 中查看您的付款方式",
   ["billing.weBillTheWorkspacePayment"]:
@@ -228,14 +232,13 @@ const zhHant = {
   ["billing.perUserPerMonth"]: "/ 用戶 / 月",
   ["billing.perUserPerYear"]: "/ 用戶 / 年",
   ["billing.inAppLiveChatSupport"]: "應用內即時聊天支持",
+  ["billing.aiTrainingOptOut"]: "選擇退出AI訓練",
   ["billing.timelineListAndCalendar"]: "時間軸、列表和日曆佈局",
   ["billing.billedYearly"]: "按年計費",
   ["billing.planStatus"]: "方案狀態",
   ["billing.yourCurrentPlanIsNotSetToRenew"]: "您的當前方案未設置為自動續訂",
-  ["billing.on"]: "開啟",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "您的工作區將降級至免費方案。在此之前，您仍然可以邀請人員加入此工作區，但您將無法超過",
-  ["billing.workspaceMembers"]: "工作區成員",
+  ["billing.canceledDescription"]:
+    "在 %{date} 您的工作區將降級至 $t(billing.free) 方案。在此之前，您仍然可以邀請人員加入此工作區，但您將無法超過 %{memberCount} 位工作區成員",
   ["billing.turnRenewalBackOn"]: "重新開啟續訂",
   ["billing.youCanStillInvite"]: "您仍然可以邀請人員加入此工作區，但您不能超過",
   ["billing.workspaceFullError"]:
@@ -245,11 +248,15 @@ const zhHant = {
   ["billing.switchToYearly"]: "切換至年度 (-20%)",
   ["billing.switchToMonthly"]: "切換至每月",
   ["billing.metadata"]: "%{plan} 的所有內容，加上...",
-  ["billing.talkToOurExperts"]: "與我們的專家交談",
-  ["billing.samlAndScim"]: "SAML & SCIM",
+  ["billing.dedicatedAnalyst"]: "專屬策略分析師",
+  ["billing.onsiteAdoption"]: "現場採用和部署",
+  ["billing.customImplementation"]: "定制實施",
+  ["billing.uptimeSLA"]: "%{percentage}% 正常運行時間 SLA",
+  ["billing.byoc"]: "自帶雲端",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
   ["billing.auditLogs"]: "審計日誌",
   ["billing.customBilling"]: "自訂計費",
-  ["billing.prioritySupport"]: "優先支援",
+  ["billing.prioritySupport"]: "優先支援和諮詢",
   ["billing.unlimitedChildCards"]: "無限子卡",
   ["billing.publishPagesToTheWeb"]: "將頁面發布到網絡",
   ["billing.calendarLayout"]: "日曆佈局",
@@ -282,10 +289,11 @@ const zhHant = {
   ["billing.youHaveBeenDowngradedLong"]:
     "您已被降級至 %{planName} 方案。您可以在方案頁面查看您失去的功能。",
   ["billing.youHaveBeenDowngradedShort"]: "您已被降級至 %{planName} 方案。",
+  ["billing.legacy"]: "舊版",
   ["billing.youAreOnLegacyPlan"]:
-    "您使用的是舊版方案：%{planName} (%{planPeriod})",
+    "您使用的是舊版 %{planName} %{planPeriod} 方案",
   ["billing.legacyDescription"]:
-    "此版本不再提供給新用戶。您可以繼續使用它，或探索我們目前的方案以獲取更新的功能和定價。",
+    "此版本不再提供給新用戶。您可以繼續使用它，或%{contactUs}以探索我們目前方案的更新功能和定價。",
 
   // global
   ["global.text.create"]: "創建",
@@ -2697,6 +2705,33 @@ const zhHant = {
   removeLink: "刪除連結",
   linkAdded: "連結已新增",
   errorAddingLink: "新增連結時發生錯誤",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "感謝咖啡",
+  ["billing.pwyw.barelyCovering"]: "感謝啤酒",
+  ["billing.pwyw.breakeven"]: "收支平衡 — 不賺不賠",
+  ["billing.pwyw.belowFair"]: "略低於公平價格",
+  ["billing.pwyw.fairPrice"]: "公平價格,謝謝!",
+  ["billing.pwyw.awesome"]: "您真棒!",
+  ["billing.pwyw.bestHuman"]: "您簡直是最棒的人!",
+  ["billing.pwyw.topTier"]: "這到底是什麼意思?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "隨心支付",
+  // Enterprise Tier Updates
+  ["billing.enterpriseSubtitle"]: "適用於有嚴格要求的企業",
+  ["billing.seatCount"]: "%{count} 個席位",
+  ["billing.annualBilling"]: "年度計費",
+  ["billing.versionHistory"]: "%{count} 天版本歷史",
+  ["billing.expertOnboarding"]: "專家入門指導",
+  ["billing.nextPaymentOn"]: "下次付款日期：{date}",
+  ["billing.paymentsWillStopOn"]: "付款將於 %{date} 停止",
+  ["billing.youAreOnPlan"]: "您正在使用「%{planName}」方案",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "價格變更成功！",
+  ["billing.priceChangeFail"]:
+    "價格變更失敗。如果問題仍然存在，請聯絡支援團隊。",
   createMissingTags: "建立缺少的標籤",
   createMissingTagsDescription: "如果 %{space} 空間中不存在，請建立標籤",
   createACopyOfThisCard: "建立此卡片的副本。活動和評論不會被複製。",

@@ -185,7 +185,7 @@ const en = {
   ["billing.timelineListAndBoardView"]: "Timeline, list, & board view",
   ["billing.guestAccounts"]: "Guest accounts",
   ["billing.monthly"]: "Monthly",
-  ["billing.yearly"]: "Yearly (-20%)",
+  ["billing.yearly"]: "Yearly",
   ["billing.currentPlan"]: "Current plan",
   ["billing.yourChosenPaymentMethodIs"]:
     "Your chosen payment method is %{method}",
@@ -202,7 +202,12 @@ const en = {
   ["billing.previousInvoices"]: "Previous invoices",
   ["billing.plan"]: "Plan",
   ["billing.manageWhichPlan"]: "Manage which plan the workspace uses",
-  ["billing.standard"]: "Standard",
+  ["billing.standard"]: "Pay What You Want",
+  ["billing.pro"]: "Business",
+  ["billing.enterprise"]: "Enterprise",
+  ["billing.standardSubtitle"]: "For individuals and small teams",
+  ["billing.proSubtitle"]: "For companies that are scaling",
+  ["billing.enterpriseSubtitle"]: "For companies that have strict requirements",
   ["billing.changePlan"]: "Change plan",
   ["billing.free"]: "Free",
   ["billing.upgrade"]: "Upgrade",
@@ -210,8 +215,8 @@ const en = {
   ["billing.thereIsNoPaymentMethod"]:
     "There is no payment method associated with this workspace. A payment method will appear here once you’ve selected a paid plan.",
   ["billing.selectAPaidPlan"]: "Select a paid plan",
-  ["billing.upgradePlan"]: "Upgrade to this plan",
-  ["billing.downgradePlan"]: "Downgrade to this plan",
+  ["billing.upgradePlan"]: "Pay more",
+  ["billing.downgradePlan"]: "Pay less",
   ["billing.downgradeToFree"]: "Downgrade to free",
   ["billing.viewYourPaymentMethodInStripe"]:
     "View your payment method in Stripe",
@@ -231,21 +236,15 @@ const en = {
   ["billing.unlimitedFileUploads"]: "Unlimited file uploads",
   ["billing.cardAndPageTemplates"]: "Card & page templates",
   ["billing.guestUsers"]: "Guest users",
-  ["billing.meetingTranscription"]: "Meeting transcription",
-  ["billing.aiNoteTemplates"]: "AI note templates",
-  ["billing.askAiSearch"]: "Ask AI search",
   ["billing.perUserPerMonth"]: "/ user / month",
   ["billing.perUserPerYear"]: "/ user / year",
-  ["billing.inAppLiveChatSupport"]: "In-app live chat support",
   ["billing.timelineListAndCalendar"]: "Timeline, list, & calendar layouts",
   ["billing.billedYearly"]: "billed yearly",
   ["billing.planStatus"]: "Plan status",
   ["billing.yourCurrentPlanIsNotSetToRenew"]:
     "Your current plan is not set to renew",
-  ["billing.on"]: "On",
-  ["billing.dateYourWorkspaceWillDowngrade"]:
-    "your workspace will downgrade to the Free plan. Until then you can still invite people to this workspace, but you will not be able to exceed",
-  ["billing.workspaceMembers"]: "workspace members",
+  ["billing.canceledDescription"]:
+    "On %{date} your workspace will downgrade to the $t(billing.free) plan. Until then you can still invite people to this workspace, but you will not be able to exceed %{memberCount} workspace members",
   ["billing.turnRenewalBackOn"]: "Turn renewal back on",
   ["billing.youCanStillInvite"]:
     "You can still invite people to this workspace, but you cannot exceed",
@@ -256,11 +255,6 @@ const en = {
   ["billing.switchToYearly"]: "Switch to yearly (-20%)",
   ["billing.switchToMonthly"]: "Switch to monthly",
   ["billing.metadata"]: "Everything in %{plan}, plus...",
-  ["billing.talkToOurExperts"]: "Talk to our experts",
-  ["billing.samlAndScim"]: "SAML & SCIM",
-  ["billing.auditLogs"]: "Audit logs",
-  ["billing.customBilling"]: "Custom billing",
-  ["billing.prioritySupport"]: "Priority support",
   ["billing.unlimitedChildCards"]: "Unlimited child cards",
   ["billing.publishPagesToTheWeb"]: "Publish pages to the web",
   ["billing.calendarLayout"]: "Calendar layout",
@@ -268,7 +262,6 @@ const en = {
   ["billing.advancedSearch"]: "Advanced search",
   ["billing.views"]: "Saved filters",
   ["billing.timelineLayout"]: "Timeline layout",
-  ["billing.liveChatSupport"]: "Live chat support",
   ["billing.guestsUsersAreFree"]: "Guest users are free on your current plan.",
   ["billing.newMembersAreBilledProRata"]:
     "New members are billed pro-rata for the remainder of your annual billing cycle.",
@@ -295,11 +288,52 @@ const en = {
     "You have been downgraded to the %{planName} plan. You can see which features you lost on the plans page.",
   ["billing.youHaveBeenDowngradedShort"]:
     "You have been downgraded to the %{planName} plan.",
+  ["billing.legacy"]: "Legacy",
   ["billing.youAreOnLegacyPlan"]:
-    "You're on a legacy plan: %{planName} (%{planPeriod})",
+    "You're on a legacy %{planName} %{planPeriod} plan",
   ["billing.legacyDescription"]:
-    "This version is no longer offered to new users. You can continue using it, or explore our current plans for updated features and pricing.",
-
+    "This version is no longer offered to new users. You can continue using it, or %{contactUs} to explore our current plans for updated features and pricing.",
+  ["billing.nextPaymentOn"]: "Next payment on %{date}",
+  ["billing.paymentsWillStopOn"]: "Payments will stop on %{date}",
+  ["billing.youAreOnPlan"]: "You are on the %{planName} plan",
+  ["billing.cancelPlan"]: "Cancel subscription",
+  ["billing.confirmPriceChangeTitle"]: "Confirm price change",
+  ["billing.confirmPriceChangeDescription"]:
+    "Your subscription will be changed to %{price} on your next invoice.",
+  ["billing.priceChangeSuccess"]: "Price change successful!",
+  ["billing.priceChangeFail"]:
+    "Price change failed. Contact support if the issue persists.",
+  // PWYW Psychological Messages
+  ["billing.pwyw.losingMoney"]: "Thanks for the coffee",
+  ["billing.pwyw.barelyCovering"]: "Thanks for the beer",
+  ["billing.pwyw.breakeven"]: "Break even — no profit, no loss",
+  ["billing.pwyw.belowFair"]: "A little below fair price",
+  ["billing.pwyw.fairPrice"]: "Fair price, thank you!",
+  ["billing.pwyw.awesome"]: "You're awesome!",
+  ["billing.pwyw.bestHuman"]: "You're literally the best human!",
+  ["billing.pwyw.topTier"]: "What does this even mean?",
+  // PWYW UI Labels
+  ["billing.pwyw.title"]: "Pay What You Want",
+  // Business Tier Updates
+  ["billing.seatCount"]: "%{count} seats",
+  ["billing.annualBilling"]: "Annual billing",
+  ["billing.meetingTranscription"]: "Meeting transcription",
+  ["billing.aiNoteTemplates"]: "AI note templates",
+  ["billing.askAiSearch"]: "Ask AI search",
+  ["billing.versionHistory"]: "%{count} day version history",
+  ["billing.expertOnboarding"]: "Expert onboarding",
+  ["billing.inAppLiveChatSupport"]: "In-app live chat support",
+  ["billing.aiTrainingOptOut"]: "Opt out of AI training",
+  // Enterprise Tier Updates
+  ["billing.dedicatedAnalyst"]: "Dedicated strategic analyst",
+  ["billing.onsiteAdoption"]: "Onsite adoption and rollout",
+  ["billing.customImplementation"]: "Custom implementation",
+  ["billing.uptimeSLA"]: "%{percentage}% uptime SLA",
+  ["billing.byoc"]: "Bring your own cloud",
+  ["billing.samlAndScim"]: "Single Sign-On (SSO) and SCIM provisioning",
+  ["billing.auditLogs"]: "Audit logs",
+  ["billing.customBilling"]: "Custom billing",
+  ["billing.prioritySupport"]: "Priority support and advisory",
   // global
   ["global.text.create"]: "Create",
   ["option.label.cards"]: "Cards",
