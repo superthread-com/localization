@@ -242,8 +242,8 @@ const ptBR = {
   ["billing.meetingTranscription"]: "Transcrição de reuniões",
   ["billing.aiNoteTemplates"]: "Modelos de anotações de IA",
   ["billing.askAiSearch"]: "Perguntar à busca de IA",
-  ["billing.perUserPerMonth"]: "/ usuário / mês",
-  ["billing.perUserPerYear"]: "/ usuário / ano",
+  ["billing.perUserPerMonth"]: "por usuário por mês",
+  ["billing.perUserPerYear"]: "por usuário por ano",
   ["billing.inAppLiveChatSupport"]: "Suporte por chat ao vivo no aplicativo",
   ["billing.aiTrainingOptOut"]: "Optar por não participar do treinamento de IA",
   ["billing.timelineListAndCalendar"]:
@@ -3008,6 +3008,14 @@ const ptBR = {
   ["billing.priceChangeSuccess"]: "Mudança de preço bem-sucedida!",
   ["billing.priceChangeFail"]:
     "Falha na mudança de preço. Entre em contato com o suporte se o problema persistir.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]: "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "Criar tags ausentes",
   createMissingTagsDescription: "Crie tags no espaço %{space} caso não existam",
   createACopyOfThisCard:
