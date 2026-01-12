@@ -235,8 +235,8 @@ const pl = {
   ["billing.meetingTranscription"]: "Transkrypcja spotkań",
   ["billing.aiNoteTemplates"]: "Szablony notatek AI",
   ["billing.askAiSearch"]: "Wyszukiwanie AI",
-  ["billing.perUserPerMonth"]: "/ użytkownik / miesiąc",
-  ["billing.perUserPerYear"]: "/ użytkownik / rok",
+  ["billing.perUserPerMonth"]: "na użytkownika miesięcznie",
+  ["billing.perUserPerYear"]: "na użytkownika rocznie",
   ["billing.inAppLiveChatSupport"]: "Wsparcie przez czat na żywo w aplikacji",
   ["billing.aiTrainingOptOut"]: "Rezygnacja z trenowania AI",
   ["billing.timelineListAndCalendar"]: "Układ osi czasu, listy i kalendarza",
@@ -2963,6 +2963,15 @@ const pl = {
   ["billing.priceChangeSuccess"]: "Zmiana ceny powiodła się!",
   ["billing.priceChangeFail"]:
     "Zmiana ceny nie powiodła się. Skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzał.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "Utwórz brakujące tagi",
   createMissingTagsDescription:
     "Utwórz tagi w przestrzeni %{space}, jeśli nie istnieją",

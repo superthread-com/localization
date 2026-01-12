@@ -236,8 +236,8 @@ const ko = {
   ["billing.meetingTranscription"]: "회의 기록",
   ["billing.aiNoteTemplates"]: "AI 노트 템플릿",
   ["billing.askAiSearch"]: "AI 검색 질문",
-  ["billing.perUserPerMonth"]: "/ 사용자 / 월",
-  ["billing.perUserPerYear"]: "/ 사용자 / 년",
+  ["billing.perUserPerMonth"]: "사용자당 월별",
+  ["billing.perUserPerYear"]: "사용자당 연별",
   ["billing.inAppLiveChatSupport"]: "앱 내 실시간 채팅 지원",
   ["billing.aiTrainingOptOut"]: "AI 학습 거부",
   ["billing.timelineListAndCalendar"]: "타임라인, 목록 및 캘린더 레이아웃",
@@ -2864,6 +2864,15 @@ const ko = {
   ["billing.priceChangeSuccess"]: "가격 변경 성공!",
   ["billing.priceChangeFail"]:
     "가격 변경 실패. 문제가 지속되면 지원팀에 문의하세요.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "누락된 태그 생성",
   createMissingTagsDescription:
     "존재하지 않을 경우 %{space} 공간에 태그를 생성합니다",

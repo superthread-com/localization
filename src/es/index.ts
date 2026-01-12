@@ -242,8 +242,8 @@ const es = {
   ["billing.meetingTranscription"]: "Transcripción de reuniones",
   ["billing.aiNoteTemplates"]: "Plantillas de notas de IA",
   ["billing.askAiSearch"]: "Preguntar a la búsqueda de IA",
-  ["billing.perUserPerMonth"]: "/ usuario / mes",
-  ["billing.perUserPerYear"]: "/ usuario / año",
+  ["billing.perUserPerMonth"]: "por usuario por mes",
+  ["billing.perUserPerYear"]: "por usuario por año",
   ["billing.inAppLiveChatSupport"]: "Soporte de chat en vivo en la aplicación",
   ["billing.aiTrainingOptOut"]:
     "Optar por no participar en el entrenamiento de IA",
@@ -3023,6 +3023,15 @@ const es = {
   ["billing.priceChangeSuccess"]: "¡Cambio de precio exitoso!",
   ["billing.priceChangeFail"]:
     "Error al cambiar el precio. Contacta con soporte si el problema persiste.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "Crear etiquetas faltantes",
   createMissingTagsDescription:
     "Crea etiquetas en el espacio %{space} si no existen",

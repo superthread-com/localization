@@ -241,8 +241,8 @@ const de = {
   ["billing.meetingTranscription"]: "Besprechungs-Transkription",
   ["billing.aiNoteTemplates"]: "KI-Notizvorlagen",
   ["billing.askAiSearch"]: "KI-Suchanfragen",
-  ["billing.perUserPerMonth"]: "/ Benutzer / Monat",
-  ["billing.perUserPerYear"]: "/ Benutzer / Jahr",
+  ["billing.perUserPerMonth"]: "pro Benutzer pro Monat",
+  ["billing.perUserPerYear"]: "pro Benutzer pro Jahr",
   ["billing.inAppLiveChatSupport"]: "In-app Live-Chat-Support",
   ["billing.aiTrainingOptOut"]: "AI-Training ablehnen",
   ["billing.timelineListAndCalendar"]: "Zeitachse, Liste & Kalender-Layouts",
@@ -3042,6 +3042,15 @@ const de = {
   ["billing.priceChangeSuccess"]: "Preisänderung erfolgreich!",
   ["billing.priceChangeFail"]:
     "Preisänderung fehlgeschlagen. Kontaktieren Sie den Support, wenn das Problem weiterhin besteht.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "Fehlende Tags erstellen",
   createMissingTagsDescription:
     "Erstelle Tags im %{space}-Bereich, falls sie noch nicht existieren",

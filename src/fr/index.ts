@@ -88,8 +88,8 @@ const fr: Translations = {
   ["billing.meetingTranscription"]: "Transcription de réunion",
   ["billing.aiNoteTemplates"]: "Modèles de notes AI",
   ["billing.askAiSearch"]: "Recherche AI",
-  ["billing.perUserPerMonth"]: "/ utilisateur / mois",
-  ["billing.perUserPerYear"]: "/ utilisateur / année",
+  ["billing.perUserPerMonth"]: "par utilisateur par mois",
+  ["billing.perUserPerYear"]: "par utilisateur par année",
   ["billing.inAppLiveChatSupport"]:
     "Assistance par chat en direct dans l'application",
   ["billing.aiTrainingOptOut"]: "Refuser l'entraînement de l'IA",
@@ -3036,6 +3036,15 @@ const fr: Translations = {
   ["billing.priceChangeSuccess"]: "Changement de prix réussi !",
   ["billing.priceChangeFail"]:
     "Échec du changement de prix. Contactez le support si le problème persiste.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "Créer les balises manquantes",
   createMissingTagsDescription:
     "Créer des balises dans l'espace %{space} si elles n'existent pas",

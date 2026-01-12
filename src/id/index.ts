@@ -240,8 +240,8 @@ const id = {
   ["billing.meetingTranscription"]: "Transkripsi rapat",
   ["billing.aiNoteTemplates"]: "Template catatan AI",
   ["billing.askAiSearch"]: "Tanya pencarian AI",
-  ["billing.perUserPerMonth"]: "/ pengguna / bulan",
-  ["billing.perUserPerYear"]: "/ pengguna / tahun",
+  ["billing.perUserPerMonth"]: "per pengguna per bulan",
+  ["billing.perUserPerYear"]: "per pengguna per tahun",
   ["billing.inAppLiveChatSupport"]: "Dukungan obrolan langsung di aplikasi",
   ["billing.aiTrainingOptOut"]: "Tolak pelatihan AI",
   ["billing.timelineListAndCalendar"]:
@@ -2980,6 +2980,15 @@ const id = {
   ["billing.priceChangeSuccess"]: "Perubahan harga berhasil!",
   ["billing.priceChangeFail"]:
     "Perubahan harga gagal. Hubungi dukungan jika masalah berlanjut.",
+  ["billing.choosePlanSectionTitle"]: "Choose a plan",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
+  ["billing.youSetThePrice"]: "You set the price",
+  ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
+  ["billing.fairPrice"]: "Fair %{period} pricing",
+  ["billing.startsAt"]: "Starts at",
+  ["billing.perYear"]: "/ year",
+  ["billing.perMonth"]: "/ month",
   createMissingTags: "Buat tag yang hilang",
   createMissingTagsDescription: "Buat tag di ruang %{space} jika belum ada",
   createACopyOfThisCard:
