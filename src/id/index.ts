@@ -2981,7 +2981,8 @@ const id = {
   ["billing.priceChangeFail"]:
     "Perubahan harga gagal. Hubungi dukungan jika masalah berlanjut.",
   ["billing.choosePlanSectionTitle"]: "Choose a plan",
-  ["billing.choosePlanSectionDescription"]: "Upgrading your plan removes your workspace limits",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
   ["billing.youSetThePrice"]: "You set the price",
   ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
   ["billing.fairPrice"]: "Fair %{period} pricing",

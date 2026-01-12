@@ -2865,7 +2865,8 @@ const ko = {
   ["billing.priceChangeFail"]:
     "가격 변경 실패. 문제가 지속되면 지원팀에 문의하세요.",
   ["billing.choosePlanSectionTitle"]: "Choose a plan",
-  ["billing.choosePlanSectionDescription"]: "Upgrading your plan removes your workspace limits",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
   ["billing.youSetThePrice"]: "You set the price",
   ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
   ["billing.fairPrice"]: "Fair %{period} pricing",

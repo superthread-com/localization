@@ -2734,7 +2734,8 @@ const zhHant = {
   ["billing.priceChangeFail"]:
     "價格變更失敗。如果問題仍然存在，請聯絡支援團隊。",
   ["billing.choosePlanSectionTitle"]: "Choose a plan",
-  ["billing.choosePlanSectionDescription"]: "Upgrading your plan removes your workspace limits",
+  ["billing.choosePlanSectionDescription"]:
+    "Upgrading your plan removes your workspace limits",
   ["billing.youSetThePrice"]: "You set the price",
   ["billing.upgradeToRemoveUsageLimits"]: "Upgrade to remove usage limits",
   ["billing.fairPrice"]: "Fair %{period} pricing",
