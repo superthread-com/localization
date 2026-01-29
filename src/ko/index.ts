@@ -2949,6 +2949,9 @@ const ko = {
     "이 보드에서 사용된 일부 태그가 %{space} 공간에 존재하지 않아 카드에서 제거됩니다.",
   missingTags: "누락된 태그",
   createMissingTagsInSpaceDescription: "%{space} 공간에 태그가 없으면 생성하기",
+  cardLimitReached: "카드 제한 도달",
+  cardLimitReachedDescription:
+    "작업 공간이 무료 플랜입니다. 일부 오래된 카드를 삭제하거나 업그레이드하여 제한을 제거하세요.",
 };
 
 export default ko as Translations;

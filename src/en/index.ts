@@ -2981,6 +2981,9 @@ const en = {
   missingTags: "Missing tags",
   createMissingTagsInSpaceDescription:
     "Create tags in %{space} space if they don't exist",
+  cardLimitReached: "Card limit reached",
+  cardLimitReachedDescription:
+    "Your workspace is on the free plan. Delete some old cards or upgrade to remove the limit.",
 };
 
 export default en as Translations;

@@ -2815,6 +2815,9 @@ const zhHant = {
   missingTags: "缺少的標籤",
   createMissingTagsInSpaceDescription:
     "如果 %{space} 空間中不存在標籤，則建立標籤",
+  cardLimitReached: "已達到卡片限制",
+  cardLimitReachedDescription:
+    "您的工作區使用的是免費方案。刪除一些舊卡片或升級以移除限制。",
 };
 
 export default zhHant as Translations;
