@@ -3127,6 +3127,9 @@ const fr: Translations = {
   missingTags: "Étiquettes manquantes",
   createMissingTagsInSpaceDescription:
     "Créer des étiquettes dans l'espace %{space} si elles n'existent pas",
+  cardLimitReached: "Limite de cartes atteinte",
+  cardLimitReachedDescription:
+    "Votre espace de travail est sur le plan gratuit. Supprimez quelques anciennes cartes ou passez à une version supérieure pour supprimer la limite.",
 };
 
 export default fr as Translations;

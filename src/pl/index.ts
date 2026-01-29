@@ -3054,6 +3054,9 @@ const pl = {
   missingTags: "Brakujące tagi",
   createMissingTagsInSpaceDescription:
     "Utwórz tagi w przestrzeni %{space}, jeśli nie istnieją",
+  cardLimitReached: "Osiągnięto limit kart",
+  cardLimitReachedDescription:
+    "Twoja przestrzeń robocza jest w planie bezpłatnym. Usuń niektóre stare karty lub zaktualizuj, aby usunąć limit.",
 };
 
 export default pl as Translations;

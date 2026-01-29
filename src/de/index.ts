@@ -3133,6 +3133,9 @@ const de = {
   missingTags: "Fehlende Tags",
   createMissingTagsInSpaceDescription:
     "Tags im %{space} Space erstellen, falls sie nicht existieren",
+  cardLimitReached: "Kartenlimit erreicht",
+  cardLimitReachedDescription:
+    "Ihr Arbeitsbereich befindet sich im kostenlosen Plan. Löschen Sie einige alte Karten oder upgraden Sie, um das Limit zu entfernen.",
 };
 
 export default de as Translations;

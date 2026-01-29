@@ -3114,6 +3114,9 @@ const es = {
   missingTags: "Etiquetas faltantes",
   createMissingTagsInSpaceDescription:
     "Crear etiquetas en el espacio %{space} si no existen",
+  cardLimitReached: "Límite de tarjetas alcanzado",
+  cardLimitReachedDescription:
+    "Su espacio de trabajo está en el plan gratuito. Elimine algunas tarjetas antiguas o actualice para eliminar el límite.",
 };
 
 export default es as Translations;

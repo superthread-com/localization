@@ -3097,6 +3097,9 @@ const ptBR = {
   missingTags: "Tags ausentes",
   createMissingTagsInSpaceDescription:
     "Criar tags no espaço %{space} se não existirem",
+  cardLimitReached: "Limite de cartões atingido",
+  cardLimitReachedDescription:
+    "Seu espaço de trabalho está no plano gratuito. Exclua alguns cartões antigos ou faça upgrade para remover o limite.",
 };
 
 export default ptBR as Translations;

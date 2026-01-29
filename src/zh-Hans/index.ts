@@ -2810,6 +2810,9 @@ const zhHans = {
   missingTags: "缺失的标签",
   createMissingTagsInSpaceDescription:
     "如果 %{space} 空间中不存在标签，则创建标签",
+  cardLimitReached: "已达到卡片限制",
+  cardLimitReachedDescription:
+    "您的工作区使用的是免费计划。删除一些旧卡片或升级以移除限制。",
 };
 
 export default zhHans as Translations;

@@ -3070,6 +3070,9 @@ const id = {
   missingTags: "Tag yang hilang",
   createMissingTagsInSpaceDescription:
     "Buat tag di ruang %{space} jika tidak ada",
+  cardLimitReached: "Batas kartu tercapai",
+  cardLimitReachedDescription:
+    "Ruang kerja Anda menggunakan paket gratis. Hapus beberapa kartu lama atau tingkatkan untuk menghapus batas.",
 };
 
 export default id as Translations;

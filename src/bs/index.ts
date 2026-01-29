@@ -3034,6 +3034,9 @@ const bs: Translations = {
   missingTags: "Oznake koje nedostaju",
   createMissingTagsInSpaceDescription:
     "Kreirajte oznake u %{space} prostoru ako ne postoje",
+  cardLimitReached: "Dostignut limit kartica",
+  cardLimitReachedDescription:
+    "Vaš radni prostor je na besplatnom planu. Obrišite neke stare kartice ili nadogradite da uklonite limit.",
 };
 
 export default bs;
