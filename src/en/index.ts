@@ -2984,6 +2984,8 @@ const en = {
   cardLimitReached: "Card limit reached",
   cardLimitReachedDescription:
     "Your workspace is on the free plan. Delete some old cards or upgrade to remove the limit.",
+  titleAZ: "Title A-Z",
+  titleZA: "Title Z-A",
 };
 
 export default en as Translations;

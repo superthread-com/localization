@@ -3073,6 +3073,8 @@ const id = {
   cardLimitReached: "Batas kartu tercapai",
   cardLimitReachedDescription:
     "Ruang kerja Anda menggunakan paket gratis. Hapus beberapa kartu lama atau tingkatkan untuk menghapus batas.",
+  titleAZ: "Judul A-Z",
+  titleZA: "Judul Z-A",
 };
 
 export default id as Translations;

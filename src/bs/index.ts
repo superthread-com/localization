@@ -3037,6 +3037,8 @@ const bs: Translations = {
   cardLimitReached: "Dostignut limit kartica",
   cardLimitReachedDescription:
     "Vaš radni prostor je na besplatnom planu. Obrišite neke stare kartice ili nadogradite da uklonite limit.",
+  titleAZ: "Naslov A-Z",
+  titleZA: "Naslov Z-A",
 };
 
 export default bs;

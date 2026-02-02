@@ -2649,6 +2649,8 @@ export enum TranslationKeys {
   CreateMissingTagsInSpaceDescription = "createMissingTagsInSpaceDescription",
   CardLimitReached = "cardLimitReached",
   CardLimitReachedDescription = "cardLimitReachedDescription",
+  TitleAZ = "titleAZ",
+  TitleZA = "titleZA",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -2813,6 +2813,8 @@ const zhHans = {
   cardLimitReached: "已达到卡片限制",
   cardLimitReachedDescription:
     "您的工作区使用的是免费计划。删除一些旧卡片或升级以移除限制。",
+  titleAZ: "标题 A-Z",
+  titleZA: "标题 Z-A",
 };
 
 export default zhHans as Translations;

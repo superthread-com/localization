@@ -3100,6 +3100,8 @@ const ptBR = {
   cardLimitReached: "Limite de cartões atingido",
   cardLimitReachedDescription:
     "Seu espaço de trabalho está no plano gratuito. Exclua alguns cartões antigos ou faça upgrade para remover o limite.",
+  titleAZ: "Título A-Z",
+  titleZA: "Título Z-A",
 };
 
 export default ptBR as Translations;
