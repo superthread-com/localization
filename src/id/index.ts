@@ -3119,6 +3119,8 @@ const id = {
   dragAndDropOrClick: "Seret dan lepas atau klik untuk mengunggah",
   yes: "Ya",
   no: "Tidak",
+  titleAZ: "Judul A-Z",
+  titleZA: "Judul Z-A",
 };
 
 export default id as Translations;

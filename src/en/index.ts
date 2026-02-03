@@ -3030,6 +3030,8 @@ const en = {
   dragAndDropOrClick: "Drag and drop or click to upload",
   yes: "Yes",
   no: "No",
+  titleAZ: "Title A-Z",
+  titleZA: "Title Z-A",
 };
 
 export default en as Translations;

@@ -3163,6 +3163,8 @@ const es = {
   dragAndDropOrClick: "Arrastra y suelta o haz clic para subir",
   yes: "Sí",
   no: "No",
+  titleAZ: "Título A-Z",
+  titleZA: "Título Z-A",
 };
 
 export default es as Translations;

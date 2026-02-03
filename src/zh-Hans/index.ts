@@ -2858,6 +2858,8 @@ const zhHans = {
   dragAndDropOrClick: "拖放或点击上传",
   yes: "是",
   no: "否",
+  titleAZ: "标题 A-Z",
+  titleZA: "标题 Z-A",
 };
 
 export default zhHans as Translations;

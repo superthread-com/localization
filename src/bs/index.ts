@@ -3082,6 +3082,8 @@ const bs: Translations = {
   dragAndDropOrClick: "Prevucite i ispustite ili kliknite za upload",
   yes: "Da",
   no: "Ne",
+  titleAZ: "Naslov A-Z",
+  titleZA: "Naslov Z-A",
 };
 
 export default bs;

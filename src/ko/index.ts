@@ -2997,6 +2997,8 @@ const ko = {
   dragAndDropOrClick: "드래그 앤 드롭 또는 클릭하여 업로드",
   yes: "예",
   no: "아니오",
+  titleAZ: "제목 A-Z",
+  titleZA: "제목 Z-A",
 };
 
 export default ko as Translations;

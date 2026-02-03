@@ -3103,6 +3103,8 @@ const pl = {
   dragAndDropOrClick: "Przeciągnij i upuść lub kliknij, aby przesłać",
   yes: "Tak",
   no: "Nie",
+  titleAZ: "Tytuł A-Z",
+  titleZA: "Tytuł Z-A",
 };
 
 export default pl as Translations;

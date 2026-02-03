@@ -2687,6 +2687,8 @@ export enum TranslationKeys {
   DragAndDropOrClick = "dragAndDropOrClick",
   Yes = "yes",
   No = "no",
+  TitleAZ = "titleAZ",
+  TitleZA = "titleZA",
 }
 
 export type Translations = Record<TranslationKeys, string>;

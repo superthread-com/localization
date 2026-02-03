@@ -2863,6 +2863,8 @@ const zhHant = {
   dragAndDropOrClick: "拖放或點擊上傳",
   yes: "是",
   no: "否",
+  titleAZ: "標題 A-Z",
+  titleZA: "標題 Z-A",
 };
 
 export default zhHant as Translations;

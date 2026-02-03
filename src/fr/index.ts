@@ -3177,6 +3177,8 @@ const fr: Translations = {
   dragAndDropOrClick: "Glissez-déposez ou cliquez pour télécharger",
   yes: "Oui",
   no: "Non",
+  titleAZ: "Titre A-Z",
+  titleZA: "Titre Z-A",
 };
 
 export default fr as Translations;

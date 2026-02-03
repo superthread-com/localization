@@ -3146,6 +3146,8 @@ const ptBR = {
   dragAndDropOrClick: "Arraste e solte ou clique para enviar",
   yes: "Sim",
   no: "Não",
+  titleAZ: "Título A-Z",
+  titleZA: "Título Z-A",
 };
 
 export default ptBR as Translations;

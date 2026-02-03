@@ -3184,6 +3184,8 @@ const de = {
   dragAndDropOrClick: "Ziehen und ablegen oder klicken zum Hochladen",
   yes: "Ja",
   no: "Nein",
+  titleAZ: "Titel A-Z",
+  titleZA: "Titel Z-A",
 };
 
 export default de as Translations;
