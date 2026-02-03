@@ -2818,6 +2818,8 @@ const zhHant = {
   cardLimitReached: "已達到卡片限制",
   cardLimitReachedDescription:
     "您的工作區使用的是免費方案。刪除一些舊卡片或升級以移除限制。",
+  titleAZ: "標題 A-Z",
+  titleZA: "標題 Z-A",
 };
 
 export default zhHant as Translations;

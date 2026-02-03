@@ -2952,6 +2952,8 @@ const ko = {
   cardLimitReached: "카드 제한 도달",
   cardLimitReachedDescription:
     "작업 공간이 무료 플랜입니다. 일부 오래된 카드를 삭제하거나 업그레이드하여 제한을 제거하세요.",
+  titleAZ: "제목 A-Z",
+  titleZA: "제목 Z-A",
 };
 
 export default ko as Translations;

@@ -3136,6 +3136,8 @@ const de = {
   cardLimitReached: "Kartenlimit erreicht",
   cardLimitReachedDescription:
     "Ihr Arbeitsbereich befindet sich im kostenlosen Plan. Löschen Sie einige alte Karten oder upgraden Sie, um das Limit zu entfernen.",
+  titleAZ: "Titel A-Z",
+  titleZA: "Titel Z-A",
 };
 
 export default de as Translations;

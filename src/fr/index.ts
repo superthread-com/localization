@@ -3130,6 +3130,8 @@ const fr: Translations = {
   cardLimitReached: "Limite de cartes atteinte",
   cardLimitReachedDescription:
     "Votre espace de travail est sur le plan gratuit. Supprimez quelques anciennes cartes ou passez à une version supérieure pour supprimer la limite.",
+  titleAZ: "Titre A-Z",
+  titleZA: "Titre Z-A",
 };
 
 export default fr as Translations;

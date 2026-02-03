@@ -3117,6 +3117,8 @@ const es = {
   cardLimitReached: "Límite de tarjetas alcanzado",
   cardLimitReachedDescription:
     "Su espacio de trabajo está en el plan gratuito. Elimine algunas tarjetas antiguas o actualice para eliminar el límite.",
+  titleAZ: "Título A-Z",
+  titleZA: "Título Z-A",
 };
 
 export default es as Translations;
