@@ -3164,6 +3164,28 @@ const es: Translations = {
   no: "No",
   titleAZ: "Título A-Z",
   titleZA: "Título Z-A",
+  shortText: "Texto corto",
+  longText: "Texto largo",
+  number: "Número",
+  multipleChoice: "Opción múltiple",
+  dropdown: "Desplegable",
+  yesNo: "Sí/No",
+  checkbox: "Casilla de verificación",
+  phone: "Teléfono",
+  link: "Enlace",
+  maximumCharactersAllowed: "Máximo de caracteres permitidos",
+  pleaseEnterValidNumber: "Por favor, introduzca un número válido",
+  pleaseSelectDate: "Por favor, seleccione una fecha",
+  pleaseSelectOption: "Por favor, seleccione una opción",
+  pleaseUploadFile: "Por favor, suba un archivo",
+  pleaseSelectYesOrNo: "Por favor, seleccione sí o no",
+  pleaseSelectAtLeastOneOption: "Por favor, seleccione al menos una opción",
+  pleaseProvideValidEmail:
+    "Por favor, proporcione un correo electrónico válido",
+  pleaseEnterValidPhoneNumber:
+    "Por favor, introduzca un número de teléfono válido",
+  pleaseEnterValidUrl: "Por favor, introduzca una URL válida",
+  thisFieldIsRequired: "Este campo es obligatorio",
 };
 
 export default es as Translations;
