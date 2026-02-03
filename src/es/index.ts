@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const es = {
+const es: Translations = {
   // onboarding
   inviteTeamMembersTo:
     "Invita a los miembros del equipo a tu espacio de trabajo",
@@ -281,7 +281,6 @@ const es = {
   ["billing.advancedSearch"]: "Búsqueda avanzada",
   ["billing.views"]: "Filtros guardados",
   ["billing.timelineLayout"]: "Diseño de línea de tiempo",
-  ["billing.liveChatSupport"]: "Soporte de chat en vivo",
   ["billing.guestsUsersAreFree"]:
     "Los usuarios invitados son gratuitos en tu plan actual.",
   ["billing.newMembersAreBilledProRata"]:
@@ -3117,6 +3116,52 @@ const es = {
   cardLimitReached: "Límite de tarjetas alcanzado",
   cardLimitReachedDescription:
     "Su espacio de trabajo está en el plan gratuito. Elimine algunas tarjetas antiguas o actualice para eliminar el límite.",
+  forms: "Formularios",
+  createForm: "Crear formulario",
+  editForm: "Editar formulario",
+  saveForm: "Guardar formulario",
+  formCreated: "Formulario creado",
+  formUpdated: "Formulario actualizado",
+  formSubmitted: "Formulario enviado",
+  failedToSubmitForm: "Error al enviar el formulario",
+  submitForm: "Enviar formulario",
+  noFormsForThisBoard: "No hay formularios para este tablero",
+  formsSettingsDescription: "Crear y gestionar formularios para este tablero",
+  formNameAndIcon: "Nombre e icono del formulario",
+  formNameCannotBeEmpty: "El nombre del formulario no puede estar vacío",
+  thisIsHowPeopleWillSeeForm: "Así verán las personas tu formulario",
+  formDescription: "Descripción del formulario",
+  descriptionWillBeShownOnPublicForm:
+    "La descripción se mostrará en el formulario público",
+  enterFormDescription: "Ingresa la descripción del formulario",
+  formFields: "Campos del formulario",
+  addFieldsForUsersToFillOut: "Añade campos para que los usuarios completen",
+  fieldType: "Tipo de campo",
+  selectTypeOfField: "Selecciona el tipo de campo",
+  fieldLabel: "Etiqueta del campo",
+  fieldLabelCannotBeEmpty: "La etiqueta del campo no puede estar vacía",
+  enterFieldLabel: "Ingresa la etiqueta del campo",
+  addField: "Añadir campo",
+  editField: "Editar campo",
+  placeholder: "Marcador de posición",
+  optionalPlaceholderText: "Texto de marcador opcional",
+  enterPlaceholder: "Ingresa el marcador de posición",
+  required: "Obligatorio",
+  makeThisFieldRequired: "Hacer este campo obligatorio",
+  option: "Opción",
+  addOption: "Añadir opción",
+  addOptionsForThisField: "Añadir opciones para este campo",
+  atLeastTwoOptionsRequired: "Se requieren al menos dos opciones",
+  enterText: "Ingresa texto",
+  enterNumber: "Ingresa número",
+  enterEmail: "Ingresa correo electrónico",
+  enterPhoneNumber: "Ingresa número de teléfono",
+  enterUrl: "Ingresa URL",
+  selectDate: "Selecciona fecha",
+  selectOption: "Selecciona opción",
+  dragAndDropOrClick: "Arrastra y suelta o haz clic para subir",
+  yes: "Sí",
+  no: "No",
   titleAZ: "Título A-Z",
   titleZA: "Título Z-A",
 };

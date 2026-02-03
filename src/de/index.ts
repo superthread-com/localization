@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const de = {
+const de: Translations = {
   // onboarding
   inviteTeamMembersTo: "Lade Teammitglieder in deinen Arbeitsbereich ein",
   loggingIn: "Du wirst angemeldet",
@@ -278,7 +278,6 @@ const de = {
   ["billing.advancedSearch"]: "Erweiterte Suche",
   ["billing.views"]: "Gespeicherte Filter",
   ["billing.timelineLayout"]: "Zeitachsenlayout",
-  ["billing.liveChatSupport"]: "Live-Chat-Support",
   ["billing.guestsUsersAreFree"]:
     "Gastbenutzer sind in Ihrem aktuellen Plan kostenlos.",
   ["billing.newMembersAreBilledProRata"]:
@@ -1793,7 +1792,6 @@ const de = {
   guestsMustBeAddedToOneSpace:
     "Gäste müssen zu mindestens einem Raum hinzugefügt werden",
   createCard: "Karte erstellen",
-  reatedEpic: "Projekt erstellt",
   suggestedBasedOnTitle: "Vorgeschlagen basierend auf dem Titel",
   acceptSuggestion: "Vorschlag annehmen",
   rejectSuggestion: "Vorschlag ablehnen",
@@ -2547,7 +2545,6 @@ const de = {
   schedule: "Zeitplan",
   startToGenerateReportOne: "Beginne mit der Erstellung der Agenda",
   startToGenerateReportTwo: "Minuten nachdem die Fragen gestellt wurden",
-  checkinNamePlaceholder: "z.B. “Ingenieursstand-up”",
   timeNextRun: "Nächster Start",
   timeNextReport: "Nächster Bericht",
   timeLastRun: "Letzter Start",
@@ -2563,7 +2560,6 @@ const de = {
     "Projekte leben auf dem Projekte-Board. Damit sammelst du alle zu einem Projekt gehörenden Karten an einem Ort und hältst alle auf dem Laufenden.",
   weekdays: "Wochentage",
   weekends: "Wochenende",
-  checkin: "Bericht",
   question: "Frage",
   submit: "Absenden",
   previouslyAnswered: "Bereits beantwortet:",
@@ -3136,6 +3132,54 @@ const de = {
   cardLimitReached: "Kartenlimit erreicht",
   cardLimitReachedDescription:
     "Ihr Arbeitsbereich befindet sich im kostenlosen Plan. Löschen Sie einige alte Karten oder upgraden Sie, um das Limit zu entfernen.",
+  forms: "Formulare",
+  createForm: "Formular erstellen",
+  editForm: "Formular bearbeiten",
+  saveForm: "Formular speichern",
+  formCreated: "Formular erstellt",
+  formUpdated: "Formular aktualisiert",
+  formSubmitted: "Formular gesendet",
+  failedToSubmitForm: "Formular konnte nicht gesendet werden",
+  submitForm: "Formular absenden",
+  noFormsForThisBoard: "Keine Formulare für dieses Board",
+  formsSettingsDescription:
+    "Formulare für dieses Board erstellen und verwalten",
+  formNameAndIcon: "Formularname und Symbol",
+  formNameCannotBeEmpty: "Formularname darf nicht leer sein",
+  thisIsHowPeopleWillSeeForm: "So werden andere Ihr Formular sehen",
+  formDescription: "Formularbeschreibung",
+  descriptionWillBeShownOnPublicForm:
+    "Die Beschreibung wird im öffentlichen Formular angezeigt",
+  enterFormDescription: "Formularbeschreibung eingeben",
+  formFields: "Formularfelder",
+  addFieldsForUsersToFillOut:
+    "Felder hinzufügen, die Benutzer ausfüllen sollen",
+  fieldType: "Feldtyp",
+  selectTypeOfField: "Feldtyp auswählen",
+  fieldLabel: "Feldbezeichnung",
+  fieldLabelCannotBeEmpty: "Feldbezeichnung darf nicht leer sein",
+  enterFieldLabel: "Feldbezeichnung eingeben",
+  addField: "Feld hinzufügen",
+  editField: "Feld bearbeiten",
+  placeholder: "Platzhalter",
+  optionalPlaceholderText: "Optionaler Platzhaltertext",
+  enterPlaceholder: "Platzhalter eingeben",
+  required: "Erforderlich",
+  makeThisFieldRequired: "Dieses Feld als erforderlich markieren",
+  option: "Option",
+  addOption: "Option hinzufügen",
+  addOptionsForThisField: "Optionen für dieses Feld hinzufügen",
+  atLeastTwoOptionsRequired: "Mindestens zwei Optionen erforderlich",
+  enterText: "Text eingeben",
+  enterNumber: "Zahl eingeben",
+  enterEmail: "E-Mail eingeben",
+  enterPhoneNumber: "Telefonnummer eingeben",
+  enterUrl: "URL eingeben",
+  selectDate: "Datum auswählen",
+  selectOption: "Option auswählen",
+  dragAndDropOrClick: "Ziehen und ablegen oder klicken zum Hochladen",
+  yes: "Ja",
+  no: "Nein",
   titleAZ: "Titel A-Z",
   titleZA: "Titel Z-A",
 };
