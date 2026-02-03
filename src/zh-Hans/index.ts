@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const zhHans = {
+const zhHans: Translations = {
   // onboarding
   inviteTeamMembersTo: "邀请团队成员加入您的工作区",
   loggingIn: "正在登录",
@@ -264,7 +264,6 @@ const zhHans = {
   ["billing.advancedSearch"]: "高级搜索",
   ["billing.views"]: "已保存的筛选器",
   ["billing.timelineLayout"]: "时间线布局",
-  ["billing.liveChatSupport"]: "实时聊天支持",
   ["billing.guestsUsersAreFree"]: "在您当前的计划中，访客用户是免费的。",
   ["billing.newMembersAreBilledProRata"]:
     "新成员按比例计费，按年度计费周期的剩余时间计算。",
@@ -2293,7 +2292,6 @@ const zhHans = {
   schedule: "日程安排",
   startToGenerateReportOne: "开始生成议程",
   startToGenerateReportTwo: "提问后分钟数",
-  checkinNamePlaceholder: "例如：“工程站会”",
   timeNextRun: "下次运行时间",
   timeNextReport: "下次报告时间",
   timeLastRun: "上次运行时间",
@@ -2307,7 +2305,6 @@ const zhHans = {
     "项目位于项目看板上。它们可以帮助你把与项目相关的所有卡片集中在一个地方，并让所有人保持同步。",
   weekdays: "工作日",
   weekends: "周末",
-  checkin: "签到",
   question: "问题",
   submit: "提交",
   previouslyAnswered: "之前回答：",

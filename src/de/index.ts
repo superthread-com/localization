@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const de = {
+const de: Translations = {
   // onboarding
   inviteTeamMembersTo: "Lade Teammitglieder in deinen Arbeitsbereich ein",
   loggingIn: "Du wirst angemeldet",
@@ -278,7 +278,6 @@ const de = {
   ["billing.advancedSearch"]: "Erweiterte Suche",
   ["billing.views"]: "Gespeicherte Filter",
   ["billing.timelineLayout"]: "Zeitachsenlayout",
-  ["billing.liveChatSupport"]: "Live-Chat-Support",
   ["billing.guestsUsersAreFree"]:
     "Gastbenutzer sind in Ihrem aktuellen Plan kostenlos.",
   ["billing.newMembersAreBilledProRata"]:
@@ -1793,7 +1792,6 @@ const de = {
   guestsMustBeAddedToOneSpace:
     "Gäste müssen zu mindestens einem Raum hinzugefügt werden",
   createCard: "Karte erstellen",
-  reatedEpic: "Projekt erstellt",
   suggestedBasedOnTitle: "Vorgeschlagen basierend auf dem Titel",
   acceptSuggestion: "Vorschlag annehmen",
   rejectSuggestion: "Vorschlag ablehnen",
@@ -2547,7 +2545,6 @@ const de = {
   schedule: "Zeitplan",
   startToGenerateReportOne: "Beginne mit der Erstellung der Agenda",
   startToGenerateReportTwo: "Minuten nachdem die Fragen gestellt wurden",
-  checkinNamePlaceholder: "z.B. “Ingenieursstand-up”",
   timeNextRun: "Nächster Start",
   timeNextReport: "Nächster Bericht",
   timeLastRun: "Letzter Start",
@@ -2563,7 +2560,6 @@ const de = {
     "Projekte leben auf dem Projekte-Board. Damit sammelst du alle zu einem Projekt gehörenden Karten an einem Ort und hältst alle auf dem Laufenden.",
   weekdays: "Wochentage",
   weekends: "Wochenende",
-  checkin: "Bericht",
   question: "Frage",
   submit: "Absenden",
   previouslyAnswered: "Bereits beantwortet:",

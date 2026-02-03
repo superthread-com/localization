@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const es = {
+const es: Translations = {
   // onboarding
   inviteTeamMembersTo:
     "Invita a los miembros del equipo a tu espacio de trabajo",
@@ -281,7 +281,6 @@ const es = {
   ["billing.advancedSearch"]: "Búsqueda avanzada",
   ["billing.views"]: "Filtros guardados",
   ["billing.timelineLayout"]: "Diseño de línea de tiempo",
-  ["billing.liveChatSupport"]: "Soporte de chat en vivo",
   ["billing.guestsUsersAreFree"]:
     "Los usuarios invitados son gratuitos en tu plan actual.",
   ["billing.newMembersAreBilledProRata"]:

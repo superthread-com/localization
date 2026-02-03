@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const ko = {
+const ko: Translations = {
   // onboarding
   inviteTeamMembersTo: "팀원을 워크스페이스에 초대하세요",
   loggingIn: "로그인 중입니다",
@@ -272,7 +272,6 @@ const ko = {
   ["billing.advancedSearch"]: "고급 검색",
   ["billing.views"]: "저장된 필터",
   ["billing.timelineLayout"]: "타임라인 레이아웃",
-  ["billing.liveChatSupport"]: "라이브 채팅 지원",
   ["billing.guestsUsersAreFree"]: "현재 플랜에서는 게스트 사용자가 무료입니다.",
   ["billing.newMembersAreBilledProRata"]:
     "새 멤버는 연간 청구 주기의 남은 기간에 대해 비례 배분됩니다.",

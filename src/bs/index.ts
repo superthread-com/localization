@@ -1230,7 +1230,6 @@ const bs: Translations = {
   ["billing.advancedSearch"]: "Napredna pretraga",
   ["billing.views"]: "Sačuvani filteri",
   ["billing.timelineLayout"]: "Raspored vremenske linije",
-  ["billing.liveChatSupport"]: "Podrška putem chata uživo",
   ["billing.guestsUsersAreFree"]:
     "Korisnici gosti su besplatni na vašem trenutnom planu.",
   ["billing.newMembersAreBilledProRata"]:

@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const id = {
+const id: Translations = {
   // onboarding
   inviteTeamMembersTo: "Undang anggota tim ke ruang kerja Anda",
   loggingIn: "Masuk",
@@ -278,7 +278,6 @@ const id = {
   ["billing.advancedSearch"]: "Pencarian lanjutan",
   ["billing.views"]: "Filter tersimpan",
   ["billing.timelineLayout"]: "Tata letak garis waktu",
-  ["billing.liveChatSupport"]: "Dukungan obrolan langsung",
   ["billing.guestsUsersAreFree"]:
     "Pengguna tamu gratis pada paket Anda saat ini.",
   ["billing.newMembersAreBilledProRata"]:
@@ -2493,7 +2492,6 @@ const id = {
   schedule: "Jadwal",
   startToGenerateReportOne: "Mulai untuk menghasilkan agenda",
   startToGenerateReportTwo: "menit setelah pertanyaan diajukan",
-  checkinNamePlaceholder: "Contoh: “Engineering stand-up”",
   timeNextRun: "Waktu lari berikutnya",
   timeNextReport: "Waktu laporan berikutnya",
   timeLastRun: "Waktu lari terakhir",
@@ -2509,7 +2507,6 @@ const id = {
     "Proyek berada di papan proyek. Proyek membantu Anda mengumpulkan semua kartu terkait di satu tempat dan membuat semua orang tetap mendapat informasi.",
   weekdays: "Hari kerja",
   weekends: "Akhir pekan",
-  checkin: "Periksa masuk",
   question: "Pertanyaan",
   submit: "Kirim",
   previouslyAnswered: "Sebelumnya dijawab:",

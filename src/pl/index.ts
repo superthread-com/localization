@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const pl = {
+const pl: Translations = {
   inviteTeamMembersTo: "Zaproś członków zespołu do swojego miejsca pracy",
   loggingIn: "Logowanie się",
   defaultSpaceName: "Ogólne",
@@ -273,7 +273,6 @@ const pl = {
   ["billing.advancedSearch"]: "Zaawansowane wyszukiwanie",
   ["billing.views"]: "Zapisane filtry",
   ["billing.timelineLayout"]: "Układ osi czasu",
-  ["billing.liveChatSupport"]: "Wsparcie przez czat na żywo",
   ["billing.guestsUsersAreFree"]:
     "Użytkownicy gościnni w ramach bieżącego planu korzystają z niego bezpłatnie.",
   ["billing.newMembersAreBilledProRata"]:
@@ -2478,7 +2477,6 @@ const pl = {
   schedule: "Harmonogram",
   startToGenerateReportOne: "Rozpocznij generowanie agendy",
   startToGenerateReportTwo: "minut po zadaniu pytań",
-  checkinNamePlaceholder: "np. „Stand-up inżynierów”",
   timeNextRun: "Czas następnego uruchomienia",
   timeNextReport: "Czas następnego raportu",
   timeLastRun: "Czas ostatniego uruchomienia",
@@ -2494,7 +2492,6 @@ const pl = {
     "Projekty znajdują się na tablicy projektów. Pozwalają zebrać wszystkie karty związane z projektem w jednym miejscu i utrzymać wszystkich na bieżąco.",
   weekdays: "Dni robocze",
   weekends: "Weekendy",
-  checkin: "Zameldowanie",
   question: "Pytanie",
   submit: "Wyślij",
   previouslyAnswered: "Wcześniej udzielono odpowiedzi:",

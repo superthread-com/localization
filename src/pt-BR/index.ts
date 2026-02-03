@@ -1,6 +1,6 @@
 import { Translations } from "../types";
 
-const ptBR = {
+const ptBR: Translations = {
   // onboarding
   inviteTeamMembersTo:
     "Convide membros da equipe para o seu espaço de trabalho",
@@ -280,7 +280,6 @@ const ptBR = {
   ["billing.advancedSearch"]: "Pesquisa avançada",
   ["billing.views"]: "Filtros salvos",
   ["billing.timelineLayout"]: "Layout de linha do tempo",
-  ["billing.liveChatSupport"]: "Suporte por chat ao vivo",
   ["billing.guestsUsersAreFree"]:
     "Usuários convidados são gratuitos no seu plano atual.",
   ["billing.newMembersAreBilledProRata"]:
@@ -2519,7 +2518,6 @@ const ptBR = {
   schedule: "Agendar",
   startToGenerateReportOne: "Comece a gerar a agenda",
   startToGenerateReportTwo: "minutos após as perguntas serem feitas",
-  checkinNamePlaceholder: "por exemplo, “Reunião de engenharia”",
   timeNextRun: "Hora da próxima execução",
   timeNextReport: "Hora do próximo relatório",
   timeLastRun: "Hora da última execução",
@@ -2535,7 +2533,6 @@ const ptBR = {
     "Os projetos vivem no quadro de projetos. Eles permitem reunir todas as cartas relacionadas em um único lugar e manter todos atualizados.",
   weekdays: "Dias da semana",
   weekends: "Fins de semana",
-  checkin: "Check-in",
   question: "Pergunta",
   submit: "Enviar",
   previouslyAnswered: "Respondido anteriormente:",

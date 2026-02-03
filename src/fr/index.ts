@@ -127,7 +127,6 @@ const fr: Translations = {
   ["billing.advancedSearch"]: "Recherche avancée",
   ["billing.views"]: "Filtres enregistrés",
   ["billing.timelineLayout"]: "Mise en page de la chronologie",
-  ["billing.liveChatSupport"]: "Assistance par chat en direct",
   ["billing.guestsUsersAreFree"]:
     "Les utilisateurs invités sont gratuits sur votre forfait actuel.",
   ["billing.newMembersAreBilledProRata"]:

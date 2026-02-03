@@ -2688,7 +2688,7 @@ export enum TranslationKeys {
   Yes = "yes",
   No = "no",
   TitleAZ = "titleAZ",
-  TitleZA = "titleZA",
+  TitleZA = "titleZA"
 }
 
 export type Translations = Record<TranslationKeys, string>;
