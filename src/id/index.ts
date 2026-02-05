@@ -3140,6 +3140,8 @@ const id: Translations = {
   thisFieldIsRequired: "Bidang ini wajib diisi",
   congratulations: "Selamat",
   nextLevel: "Level berikutnya",
+  fieldDescription: "Deskripsi bidang",
+  enterFieldDescription: "Masukkan deskripsi bidang",
 };
 
 export default id as Translations;

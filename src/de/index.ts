@@ -3204,6 +3204,8 @@ const de: Translations = {
   thisFieldIsRequired: "Dieses Feld ist erforderlich",
   congratulations: "Herzlichen Glückwunsch",
   nextLevel: "Nächstes Level",
+  fieldDescription: "Feldbeschreibung",
+  enterFieldDescription: "Feldbeschreibung eingeben",
 };
 
 export default de as Translations;

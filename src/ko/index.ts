@@ -3020,6 +3020,8 @@ const ko: Translations = {
   thisFieldIsRequired: "이 필드는 필수입니다",
   congratulations: "축하합니다",
   nextLevel: "다음 레벨",
+  fieldDescription: "필드 설명",
+  enterFieldDescription: "필드 설명 입력",
 };
 
 export default ko as Translations;

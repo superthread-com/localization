@@ -3105,6 +3105,8 @@ const bs: Translations = {
   thisFieldIsRequired: "Ovo polje je obavezno",
   congratulations: "Čestitamo",
   nextLevel: "Sljedeći nivo",
+  fieldDescription: "Opis polja",
+  enterFieldDescription: "Unesite opis polja",
 };
 
 export default bs;

@@ -3054,6 +3054,8 @@ const en = {
   thisFieldIsRequired: "This field is required",
   congratulations: "Congratulations",
   nextLevel: "Next level",
+  fieldDescription: "Field description",
+  enterFieldDescription: "Enter field description",
 };
 
 export default en as Translations;
