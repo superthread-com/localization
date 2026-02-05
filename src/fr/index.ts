@@ -3200,6 +3200,8 @@ const fr: Translations = {
   thisFieldIsRequired: "Ce champ est obligatoire",
   congratulations: "Félicitations",
   nextLevel: "Niveau suivant",
+  fieldDescription: "Description du champ",
+  enterFieldDescription: "Entrez la description du champ",
 };
 
 export default fr as Translations;

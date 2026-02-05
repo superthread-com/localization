@@ -2711,6 +2711,8 @@ export enum TranslationKeys {
   ThisFieldIsRequired = "thisFieldIsRequired",
   Congratulations = "congratulations",
   NextLevel = "nextLevel",
+  FieldDescription = "fieldDescription",
+  EnterFieldDescription = "enterFieldDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

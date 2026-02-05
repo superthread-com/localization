@@ -3124,6 +3124,8 @@ const pl: Translations = {
   thisFieldIsRequired: "To pole jest wymagane",
   congratulations: "Gratulacje",
   nextLevel: "Następny poziom",
+  fieldDescription: "Opis pola",
+  enterFieldDescription: "Wprowadź opis pola",
 };
 
 export default pl as Translations;

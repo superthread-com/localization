@@ -2884,6 +2884,8 @@ const zhHant: Translations = {
   thisFieldIsRequired: "此欄位為必填",
   congratulations: "恭喜",
   nextLevel: "下一關",
+  fieldDescription: "欄位描述",
+  enterFieldDescription: "輸入欄位描述",
 };
 
 export default zhHant as Translations;

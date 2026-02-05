@@ -3167,6 +3167,8 @@ const ptBR: Translations = {
   thisFieldIsRequired: "Este campo é obrigatório",
   congratulations: "Parabéns",
   nextLevel: "Próximo nível",
+  fieldDescription: "Descrição do campo",
+  enterFieldDescription: "Insira a descrição do campo",
 };
 
 export default ptBR as Translations;

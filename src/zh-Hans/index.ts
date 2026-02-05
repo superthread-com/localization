@@ -2879,6 +2879,8 @@ const zhHans: Translations = {
   thisFieldIsRequired: "此字段为必填项",
   congratulations: "恭喜",
   nextLevel: "下一关",
+  fieldDescription: "字段描述",
+  enterFieldDescription: "输入字段描述",
 };
 
 export default zhHans as Translations;
