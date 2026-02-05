@@ -2940,8 +2940,8 @@ const en = {
   favourite_board: "Favourite a board",
   favourite_card: "Favourite a card",
   favourite_page: "Favourite a page",
-  reorder_favourites: "Drag any Favorite into another order",
-  add_table_to_comment: "Tables into Comments",
+  reorder_favourites: "Reorder Favorites",
+  add_table_to_card: "Tables into Card Description",
   add_callout_to_card: "Callouts into Card Description",
   embed_youtube_to_page: "YouTube Embeds into Pages",
   embed_board_to_page: "Board Embed into Pages",
@@ -3052,6 +3052,8 @@ const en = {
   pleaseEnterValidPhoneNumber: "Please enter a valid phone number",
   pleaseEnterValidUrl: "Please enter a valid URL",
   thisFieldIsRequired: "This field is required",
+  congratulations: "Congratulations",
+  nextLevel: "Next level",
 };
 
 export default en as Translations;

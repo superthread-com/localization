@@ -3026,8 +3026,8 @@ const id: Translations = {
   favourite_board: "Favoritkan papan",
   favourite_card: "Favoritkan kartu",
   favourite_page: "Favoritkan halaman",
-  reorder_favourites: "Atur ulang favorit dengan menyeret",
-  add_table_to_comment: "Sisipkan tabel ke komentar",
+  reorder_favourites: "Urutkan ulang favorit",
+  add_table_to_card: "Tabel ke Deskripsi Kartu",
   add_callout_to_card: "Sisipkan callout ke deskripsi",
   embed_youtube_to_page: "Sematkan YouTube ke halaman",
   embed_board_to_page: "Sematkan papan ke halaman",
@@ -3138,6 +3138,8 @@ const id: Translations = {
   pleaseEnterValidPhoneNumber: "Silakan masukkan nomor telepon yang valid",
   pleaseEnterValidUrl: "Silakan masukkan URL yang valid",
   thisFieldIsRequired: "Bidang ini wajib diisi",
+  congratulations: "Selamat",
+  nextLevel: "Level berikutnya",
 };
 
 export default id as Translations;

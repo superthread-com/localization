@@ -2608,7 +2608,7 @@ export enum TranslationKeys {
   FavouriteCard = "favourite_card",
   FavouritePage = "favourite_page",
   ReorderFavourites = "reorder_favourites",
-  AddTableToComment = "add_table_to_comment",
+  AddTableToCard = "add_table_to_card",
   AddCalloutToCard = "add_callout_to_card",
   EmbedYoutubeToPage = "embed_youtube_to_page",
   EmbedBoardToPage = "embed_board_to_page",
@@ -2709,6 +2709,8 @@ export enum TranslationKeys {
   PleaseEnterValidPhoneNumber = "pleaseEnterValidPhoneNumber",
   PleaseEnterValidUrl = "pleaseEnterValidUrl",
   ThisFieldIsRequired = "thisFieldIsRequired",
+  Congratulations = "congratulations",
+  NextLevel = "nextLevel",
 }
 
 export type Translations = Record<TranslationKeys, string>;

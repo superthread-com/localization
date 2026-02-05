@@ -3072,8 +3072,8 @@ const es: Translations = {
   favourite_board: "Añadir tablero a favoritos",
   favourite_card: "Añadir tarjeta a favoritos",
   favourite_page: "Añadir página a favoritos",
-  reorder_favourites: "Reordenar favoritos arrastrando",
-  add_table_to_comment: "Insertar tabla en comentario",
+  reorder_favourites: "Reordenar favoritos",
+  add_table_to_card: "Tablas en la descripción de la tarjeta",
   add_callout_to_card: "Insertar destacado en descripción",
   embed_youtube_to_page: "Incrustar YouTube en página",
   embed_board_to_page: "Incrustar tablero en página",
@@ -3186,6 +3186,8 @@ const es: Translations = {
     "Por favor, introduzca un número de teléfono válido",
   pleaseEnterValidUrl: "Por favor, introduzca una URL válida",
   thisFieldIsRequired: "Este campo es obligatorio",
+  congratulations: "Felicitaciones",
+  nextLevel: "Siguiente nivel",
 };
 
 export default es as Translations;

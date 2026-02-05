@@ -3085,8 +3085,8 @@ const fr: Translations = {
   favourite_board: "Mettre un tableau en favori",
   favourite_card: "Mettre une carte en favori",
   favourite_page: "Mettre une page en favori",
-  reorder_favourites: "Réorganiser les favoris par glisser-déposer",
-  add_table_to_comment: "Insérer un tableau dans un commentaire",
+  reorder_favourites: "Réorganiser les favoris",
+  add_table_to_card: "Tableaux dans la description de la carte",
   add_callout_to_card: "Insérer un encadré dans la description",
   embed_youtube_to_page: "Intégrer YouTube dans une page",
   embed_board_to_page: "Intégrer un tableau dans une page",
@@ -3198,6 +3198,8 @@ const fr: Translations = {
   pleaseEnterValidPhoneNumber: "Veuillez entrer un numéro de téléphone valide",
   pleaseEnterValidUrl: "Veuillez entrer une URL valide",
   thisFieldIsRequired: "Ce champ est obligatoire",
+  congratulations: "Félicitations",
+  nextLevel: "Niveau suivant",
 };
 
 export default fr as Translations;

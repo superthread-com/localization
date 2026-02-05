@@ -2912,8 +2912,8 @@ const ko: Translations = {
   favourite_board: "보드 즐겨찾기",
   favourite_card: "카드 즐겨찾기",
   favourite_page: "페이지 즐겨찾기",
-  reorder_favourites: "드래그하여 즐겨찾기 순서 변경",
-  add_table_to_comment: "댓글에 표 삽입",
+  reorder_favourites: "즐겨찾기 순서 변경",
+  add_table_to_card: "카드 설명에 표",
   add_callout_to_card: "설명에 콜아웃 삽입",
   embed_youtube_to_page: "페이지에 YouTube 삽입",
   embed_board_to_page: "페이지에 보드 삽입",
@@ -3018,6 +3018,8 @@ const ko: Translations = {
   pleaseEnterValidPhoneNumber: "유효한 전화번호를 입력하세요",
   pleaseEnterValidUrl: "유효한 URL을 입력하세요",
   thisFieldIsRequired: "이 필드는 필수입니다",
+  congratulations: "축하합니다",
+  nextLevel: "다음 레벨",
 };
 
 export default ko as Translations;

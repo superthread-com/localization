@@ -2770,8 +2770,8 @@ const zhHans: Translations = {
   favourite_board: "收藏看板",
   favourite_card: "收藏卡片",
   favourite_page: "收藏页面",
-  reorder_favourites: "拖动重新排序收藏",
-  add_table_to_comment: "在评论中插入表格",
+  reorder_favourites: "重新排序收藏",
+  add_table_to_card: "表格到卡片描述",
   add_callout_to_card: "在描述中插入标注",
   embed_youtube_to_page: "在页面中嵌入 YouTube",
   embed_board_to_page: "在页面中嵌入看板",
@@ -2877,6 +2877,8 @@ const zhHans: Translations = {
   pleaseEnterValidPhoneNumber: "请输入有效的电话号码",
   pleaseEnterValidUrl: "请输入有效的网址",
   thisFieldIsRequired: "此字段为必填项",
+  congratulations: "恭喜",
+  nextLevel: "下一关",
 };
 
 export default zhHans as Translations;

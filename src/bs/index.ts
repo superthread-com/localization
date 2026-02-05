@@ -2992,8 +2992,8 @@ const bs: Translations = {
   favourite_board: "Dodaj tablu u omiljene",
   favourite_card: "Dodaj karticu u omiljene",
   favourite_page: "Dodaj stranicu u omiljene",
-  reorder_favourites: "Prevucite bilo koji Omiljeni u drugi redoslijed",
-  add_table_to_comment: "Tabele u Komentare",
+  reorder_favourites: "Promijenite redoslijed omiljenih",
+  add_table_to_card: "Tabele u opis kartice",
   add_callout_to_card: "Isticanja u Opis Kartice",
   embed_youtube_to_page: "YouTube Umetanja u Stranice",
   embed_board_to_page: "Umetanje Table u Stranice",
@@ -3103,6 +3103,8 @@ const bs: Translations = {
   pleaseEnterValidPhoneNumber: "Molimo unesite validan broj telefona",
   pleaseEnterValidUrl: "Molimo unesite validan URL",
   thisFieldIsRequired: "Ovo polje je obavezno",
+  congratulations: "Čestitamo",
+  nextLevel: "Sljedeći nivo",
 };
 
 export default bs;
