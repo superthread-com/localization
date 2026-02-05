@@ -3054,8 +3054,8 @@ const ptBR: Translations = {
   favourite_board: "Adicionar quadro aos favoritos",
   favourite_card: "Adicionar cartão aos favoritos",
   favourite_page: "Adicionar página aos favoritos",
-  reorder_favourites: "Reordenar favoritos arrastando",
-  add_table_to_comment: "Inserir tabela em comentário",
+  reorder_favourites: "Reordenar favoritos",
+  add_table_to_card: "Tabelas na descrição do cartão",
   add_callout_to_card: "Inserir destaque na descrição",
   embed_youtube_to_page: "Incorporar YouTube na página",
   embed_board_to_page: "Incorporar quadro na página",
@@ -3165,6 +3165,8 @@ const ptBR: Translations = {
   pleaseEnterValidPhoneNumber: "Por favor, insira um número de telefone válido",
   pleaseEnterValidUrl: "Por favor, insira uma URL válida",
   thisFieldIsRequired: "Este campo é obrigatório",
+  congratulations: "Parabéns",
+  nextLevel: "Próximo nível",
 };
 
 export default ptBR as Translations;

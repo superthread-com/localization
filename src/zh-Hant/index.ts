@@ -2775,8 +2775,8 @@ const zhHant: Translations = {
   favourite_board: "收藏看板",
   favourite_card: "收藏卡片",
   favourite_page: "收藏頁面",
-  reorder_favourites: "拖動重新排序我的最愛",
-  add_table_to_comment: "在評論中插入表格",
+  reorder_favourites: "重新排序我的最愛",
+  add_table_to_card: "表格至卡片描述",
   add_callout_to_card: "在描述中插入標註",
   embed_youtube_to_page: "在頁面中嵌入 YouTube",
   embed_board_to_page: "在頁面中嵌入看板",
@@ -2882,6 +2882,8 @@ const zhHant: Translations = {
   pleaseEnterValidPhoneNumber: "請輸入有效的電話號碼",
   pleaseEnterValidUrl: "請輸入有效的網址",
   thisFieldIsRequired: "此欄位為必填",
+  congratulations: "恭喜",
+  nextLevel: "下一關",
 };
 
 export default zhHant as Translations;

@@ -3089,8 +3089,8 @@ const de: Translations = {
   favourite_board: "Board favorisieren",
   favourite_card: "Karte favorisieren",
   favourite_page: "Seite favorisieren",
-  reorder_favourites: "Favoriten per Drag & Drop neu ordnen",
-  add_table_to_comment: "Tabelle in Kommentar einfügen",
+  reorder_favourites: "Favoriten neu anordnen",
+  add_table_to_card: "Tabellen in Kartenbeschreibung",
   add_callout_to_card: "Hinweis in Kartenbeschreibung einfügen",
   embed_youtube_to_page: "YouTube in Seite einbetten",
   embed_board_to_page: "Board in Seite einbetten",
@@ -3202,6 +3202,8 @@ const de: Translations = {
   pleaseEnterValidPhoneNumber: "Bitte geben Sie eine gültige Telefonnummer ein",
   pleaseEnterValidUrl: "Bitte geben Sie eine gültige URL ein",
   thisFieldIsRequired: "Dieses Feld ist erforderlich",
+  congratulations: "Herzlichen Glückwunsch",
+  nextLevel: "Nächstes Level",
 };
 
 export default de as Translations;

@@ -3010,8 +3010,8 @@ const pl: Translations = {
   favourite_board: "Dodaj tablicę do ulubionych",
   favourite_card: "Dodaj kartę do ulubionych",
   favourite_page: "Dodaj stronę do ulubionych",
-  reorder_favourites: "Zmień kolejność ulubionych przeciągając",
-  add_table_to_comment: "Wstaw tabelę do komentarza",
+  reorder_favourites: "Zmień kolejność ulubionych",
+  add_table_to_card: "Tabele w opisie karty",
   add_callout_to_card: "Wstaw wyróżnienie do opisu",
   embed_youtube_to_page: "Osadź YouTube na stronie",
   embed_board_to_page: "Osadź tablicę na stronie",
@@ -3122,6 +3122,8 @@ const pl: Translations = {
   pleaseEnterValidPhoneNumber: "Proszę wprowadzić prawidłowy numer telefonu",
   pleaseEnterValidUrl: "Proszę wprowadzić prawidłowy URL",
   thisFieldIsRequired: "To pole jest wymagane",
+  congratulations: "Gratulacje",
+  nextLevel: "Następny poziom",
 };
 
 export default pl as Translations;
