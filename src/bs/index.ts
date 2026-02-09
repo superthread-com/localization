@@ -1947,6 +1947,7 @@ const bs: Translations = {
   sprintSettings: "Postavke ciklusa",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "Pošta kopirana u međuspremnik.",
   cardsWithNoSprint: "Kartice bez ciklusa",
   showCardsFrom: "Prikaži kartice od",

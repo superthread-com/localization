@@ -1934,6 +1934,7 @@ const en = {
     "We only support macOS. Let us know if there is demand for a Windows app.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "Email copied to clipboard",
   cardsWithNoSprint: "Cards with no sprint",
   showCardsFrom: "Show cards from",

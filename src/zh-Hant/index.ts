@@ -1811,6 +1811,7 @@ const zhHant: Translations = {
     "我們僅支持macOS。如果有Windows應用程式的需求，請告訴我們。",
   macArm64Label: "蘋果矽晶",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "電子郵件已複製到剪貼板",
   cardsWithNoSprint: "沒有衝刺的卡片",
   showCardsFrom: "顯示卡片來自",

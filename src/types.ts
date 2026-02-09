@@ -1751,6 +1751,7 @@ export enum TranslationKeys {
   ElectronDownloadAppDescription = "electronDownloadAppDescription",
   MacArm64Label = "macArm64Label",
   Macx64Label = "macx64Label",
+  Windowsx64Label = "windowsx64Label",
   MailCopiedToClipboard = "mailCopiedToClipboard",
   CardsWithNoSprint = "cardsWithNoSprint",
   ShowCardsFrom = "showCardsFrom",
