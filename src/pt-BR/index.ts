@@ -3167,9 +3167,9 @@ const ptBR: Translations = {
   nextLevel: "Próximo nível",
   fieldDescription: "Descrição do campo",
   enterFieldDescription: "Insira a descrição do campo",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "Selecionar propriedade do cartão",
+  chooseWhichPropertyToMapTo: "Escolha qual propriedade mapear",
+  pleaseSelectACardProperty: "Por favor, selecione uma propriedade do cartão",
 };
 
 export default ptBR as Translations;

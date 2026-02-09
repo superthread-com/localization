@@ -3140,9 +3140,9 @@ const id: Translations = {
   nextLevel: "Level berikutnya",
   fieldDescription: "Deskripsi bidang",
   enterFieldDescription: "Masukkan deskripsi bidang",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "Pilih properti kartu",
+  chooseWhichPropertyToMapTo: "Pilih properti mana yang akan dipetakan",
+  pleaseSelectACardProperty: "Silakan pilih properti kartu",
 };
 
 export default id as Translations;

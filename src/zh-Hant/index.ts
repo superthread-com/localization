@@ -2884,9 +2884,9 @@ const zhHant: Translations = {
   nextLevel: "下一關",
   fieldDescription: "欄位描述",
   enterFieldDescription: "輸入欄位描述",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "選擇卡片屬性",
+  chooseWhichPropertyToMapTo: "選擇要映射的屬性",
+  pleaseSelectACardProperty: "請選擇一個卡片屬性",
 };
 
 export default zhHant as Translations;

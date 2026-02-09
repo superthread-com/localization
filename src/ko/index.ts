@@ -3020,9 +3020,9 @@ const ko: Translations = {
   nextLevel: "다음 레벨",
   fieldDescription: "필드 설명",
   enterFieldDescription: "필드 설명 입력",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "카드 속성 선택",
+  chooseWhichPropertyToMapTo: "매핑할 속성을 선택하세요",
+  pleaseSelectACardProperty: "카드 속성을 선택하세요",
 };
 
 export default ko as Translations;

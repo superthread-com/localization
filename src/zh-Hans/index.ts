@@ -2879,9 +2879,9 @@ const zhHans: Translations = {
   nextLevel: "下一关",
   fieldDescription: "字段描述",
   enterFieldDescription: "输入字段描述",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "选择卡片属性",
+  chooseWhichPropertyToMapTo: "选择要映射的属性",
+  pleaseSelectACardProperty: "请选择一个卡片属性",
 };
 
 export default zhHans as Translations;

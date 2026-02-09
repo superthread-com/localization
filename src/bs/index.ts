@@ -3105,9 +3105,9 @@ const bs: Translations = {
   nextLevel: "Sljedeći nivo",
   fieldDescription: "Opis polja",
   enterFieldDescription: "Unesite opis polja",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "Odaberite svojstvo kartice",
+  chooseWhichPropertyToMapTo: "Odaberite koje svojstvo želite mapirati",
+  pleaseSelectACardProperty: "Molimo odaberite svojstvo kartice",
 };
 
 export default bs;

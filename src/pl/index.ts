@@ -3124,9 +3124,9 @@ const pl: Translations = {
   nextLevel: "Następny poziom",
   fieldDescription: "Opis pola",
   enterFieldDescription: "Wprowadź opis pola",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "Wybierz właściwość karty",
+  chooseWhichPropertyToMapTo: "Wybierz, do której właściwości przypisać",
+  pleaseSelectACardProperty: "Proszę wybrać właściwość karty",
 };
 
 export default pl as Translations;

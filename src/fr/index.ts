@@ -3200,9 +3200,9 @@ const fr: Translations = {
   nextLevel: "Niveau suivant",
   fieldDescription: "Description du champ",
   enterFieldDescription: "Entrez la description du champ",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "Sélectionner une propriété de carte",
+  chooseWhichPropertyToMapTo: "Choisissez quelle propriété associer",
+  pleaseSelectACardProperty: "Veuillez sélectionner une propriété de carte",
 };
 
 export default fr as Translations;

@@ -3204,9 +3204,10 @@ const de: Translations = {
   nextLevel: "Nächstes Level",
   fieldDescription: "Feldbeschreibung",
   enterFieldDescription: "Feldbeschreibung eingeben",
-  selectCardProperty: "Select card property",
-  chooseWhichPropertyToMapTo: "Choose which property to map to",
-  pleaseSelectACardProperty: "Please select a card property",
+  selectCardProperty: "Karteneigenschaft auswählen",
+  chooseWhichPropertyToMapTo:
+    "Wählen Sie, welche Eigenschaft zugeordnet werden soll",
+  pleaseSelectACardProperty: "Bitte wählen Sie eine Karteneigenschaft",
 };
 
 export default de as Translations;
