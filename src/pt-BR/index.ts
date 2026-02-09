@@ -1970,6 +1970,7 @@ const ptBR: Translations = {
     "Nós só oferecemos suporte para macOS. Informe-nos se houver demanda por um aplicativo para Windows.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "Email copiado para a área de transferência",
   cardsWithNoSprint: "Cartões sem sprint",
   showCardsFrom: "Mostrar cartões de",

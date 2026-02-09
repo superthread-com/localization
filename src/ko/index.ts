@@ -1882,6 +1882,7 @@ const ko: Translations = {
     "우리는 macOS만 지원합니다. Windows 앱에 대한 수요가 있으면 알려주세요.",
   macArm64Label: "애플 실리콘",
   macx64Label: "애플 인텔",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "이메일이 클립보드에 복사되었습니다",
   cardsWithNoSprint: "스프린트가 없는 카드",
   showCardsFrom: "카드 표시",

@@ -1996,6 +1996,7 @@ const de: Translations = {
     "Wir unterstützen nur macOS. Lass uns wissen, ob Bedarf für eine Windows-App besteht.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "E-Mail in die Zwischenablage kopiert",
   cardsWithNoSprint: "Karten ohne Sprint",
   showCardsFrom: "Karten anzeigen von",

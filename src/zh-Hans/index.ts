@@ -1811,6 +1811,7 @@ const zhHans: Translations = {
     "我们仅支持macOS。如果有Windows应用程序的需求，请告知我们。",
   macArm64Label: "苹果芯片",
   macx64Label: "苹果 英特尔",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "电子邮件已复制到剪贴板",
   cardsWithNoSprint: "没有冲刺的卡片",
   showCardsFrom: "显示卡片来自",
