@@ -3087,7 +3087,6 @@ const bs: Translations = {
   shortText: "Kratki tekst",
   longText: "Dugi tekst",
   number: "Broj",
-  multipleChoice: "Višestruki izbor",
   dropdown: "Padajući izbornik",
   checkbox: "Potvrdni okvir",
   phone: "Telefon",
@@ -3109,6 +3108,16 @@ const bs: Translations = {
   selectCardProperty: "Odaberite svojstvo kartice",
   chooseWhichPropertyToMapTo: "Odaberite koje svojstvo želite mapirati",
   pleaseSelectACardProperty: "Molimo odaberite svojstvo kartice",
+  cardProperty: "Svojstvo kartice",
+  selectPriority: "Odaberite prioritet",
+  selectAssignees: "Odaberite dodijeljene",
+  selectDueDate: "Odaberite rok",
+  noTagsAvailable: "Nema dostupnih oznaka",
+  allowMultipleSelections: "Dozvoli višestruki odabir",
+  allowUsersToSelectMultipleOptions:
+    "Dozvoli korisnicima da odaberu više opcija",
+  selectOptions: "Odaberite opcije",
+  itemsSelected: "{{count}} odabrano",
 };
 
 export default bs;

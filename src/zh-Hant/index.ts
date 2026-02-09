@@ -2866,7 +2866,6 @@ const zhHant: Translations = {
   shortText: "短文字",
   longText: "長文字",
   number: "數字",
-  multipleChoice: "多選題",
   dropdown: "下拉選單",
   checkbox: "核取方塊",
   phone: "電話",
@@ -2888,6 +2887,15 @@ const zhHant: Translations = {
   selectCardProperty: "選擇卡片屬性",
   chooseWhichPropertyToMapTo: "選擇要映射的屬性",
   pleaseSelectACardProperty: "請選擇一個卡片屬性",
+  cardProperty: "卡片屬性",
+  selectPriority: "選擇優先級",
+  selectAssignees: "選擇負責人",
+  selectDueDate: "選擇截止日期",
+  noTagsAvailable: "沒有可用的標籤",
+  allowMultipleSelections: "允許多選",
+  allowUsersToSelectMultipleOptions: "允許用戶選擇多個選項",
+  selectOptions: "選擇選項",
+  itemsSelected: "已選擇 {{count}} 項",
 };
 
 export default zhHant as Translations;

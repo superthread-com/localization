@@ -3122,7 +3122,6 @@ const id: Translations = {
   shortText: "Teks pendek",
   longText: "Teks panjang",
   number: "Angka",
-  multipleChoice: "Pilihan ganda",
   dropdown: "Dropdown",
   checkbox: "Kotak centang",
   phone: "Telepon",
@@ -3144,6 +3143,15 @@ const id: Translations = {
   selectCardProperty: "Pilih properti kartu",
   chooseWhichPropertyToMapTo: "Pilih properti mana yang akan dipetakan",
   pleaseSelectACardProperty: "Silakan pilih properti kartu",
+  cardProperty: "Properti kartu",
+  selectPriority: "Pilih prioritas",
+  selectAssignees: "Pilih yang ditugaskan",
+  selectDueDate: "Pilih tanggal jatuh tempo",
+  noTagsAvailable: "Tidak ada tag tersedia",
+  allowMultipleSelections: "Izinkan pilihan ganda",
+  allowUsersToSelectMultipleOptions: "Izinkan pengguna memilih beberapa opsi",
+  selectOptions: "Pilih opsi",
+  itemsSelected: "{{count}} dipilih",
 };
 
 export default id as Translations;

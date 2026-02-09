@@ -3149,7 +3149,6 @@ const ptBR: Translations = {
   shortText: "Texto curto",
   longText: "Texto longo",
   number: "Número",
-  multipleChoice: "Múltipla escolha",
   dropdown: "Menu suspenso",
   checkbox: "Caixa de seleção",
   phone: "Telefone",
@@ -3171,6 +3170,16 @@ const ptBR: Translations = {
   selectCardProperty: "Selecionar propriedade do cartão",
   chooseWhichPropertyToMapTo: "Escolha qual propriedade mapear",
   pleaseSelectACardProperty: "Por favor, selecione uma propriedade do cartão",
+  cardProperty: "Propriedade do cartão",
+  selectPriority: "Selecionar prioridade",
+  selectAssignees: "Selecionar responsáveis",
+  selectDueDate: "Selecionar data de vencimento",
+  noTagsAvailable: "Nenhuma tag disponível",
+  allowMultipleSelections: "Permitir seleção múltipla",
+  allowUsersToSelectMultipleOptions:
+    "Permitir que os usuários selecionem várias opções",
+  selectOptions: "Selecionar opções",
+  itemsSelected: "{{count}} selecionados",
 };
 
 export default ptBR as Translations;

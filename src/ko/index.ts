@@ -3002,7 +3002,6 @@ const ko: Translations = {
   shortText: "짧은 텍스트",
   longText: "긴 텍스트",
   number: "숫자",
-  multipleChoice: "객관식",
   dropdown: "드롭다운",
   checkbox: "체크박스",
   phone: "전화번호",
@@ -3024,6 +3023,16 @@ const ko: Translations = {
   selectCardProperty: "카드 속성 선택",
   chooseWhichPropertyToMapTo: "매핑할 속성을 선택하세요",
   pleaseSelectACardProperty: "카드 속성을 선택하세요",
+  cardProperty: "카드 속성",
+  selectPriority: "우선순위 선택",
+  selectAssignees: "담당자 선택",
+  selectDueDate: "마감일 선택",
+  noTagsAvailable: "사용 가능한 태그 없음",
+  allowMultipleSelections: "다중 선택 허용",
+  allowUsersToSelectMultipleOptions:
+    "사용자가 여러 옵션을 선택할 수 있도록 허용",
+  selectOptions: "옵션 선택",
+  itemsSelected: "{{count}}개 선택됨",
 };
 
 export default ko as Translations;

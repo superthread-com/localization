@@ -3036,7 +3036,6 @@ const en = {
   shortText: "Short text",
   longText: "Long text",
   number: "Number",
-  multipleChoice: "Multiple choice",
   dropdown: "Dropdown",
   checkbox: "Checkbox",
   phone: "Phone",
@@ -3058,6 +3057,15 @@ const en = {
   selectCardProperty: "Select card property",
   chooseWhichPropertyToMapTo: "Choose which property to map to",
   pleaseSelectACardProperty: "Please select a card property",
+  cardProperty: "Card property",
+  selectPriority: "Select priority",
+  selectAssignees: "Select assignees",
+  selectDueDate: "Select due date",
+  noTagsAvailable: "No tags available",
+  allowMultipleSelections: "Allow multiple selections",
+  allowUsersToSelectMultipleOptions: "Allow users to select multiple options",
+  selectOptions: "Select options",
+  itemsSelected: "{{count}} selected",
 };
 
 export default en as Translations;

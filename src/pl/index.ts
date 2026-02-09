@@ -3106,7 +3106,6 @@ const pl: Translations = {
   shortText: "Krótki tekst",
   longText: "Długi tekst",
   number: "Liczba",
-  multipleChoice: "Wielokrotny wybór",
   dropdown: "Lista rozwijana",
   checkbox: "Pole wyboru",
   phone: "Telefon",
@@ -3128,6 +3127,15 @@ const pl: Translations = {
   selectCardProperty: "Wybierz właściwość karty",
   chooseWhichPropertyToMapTo: "Wybierz, do której właściwości przypisać",
   pleaseSelectACardProperty: "Proszę wybrać właściwość karty",
+  cardProperty: "Właściwość karty",
+  selectPriority: "Wybierz priorytet",
+  selectAssignees: "Wybierz przypisanych",
+  selectDueDate: "Wybierz termin",
+  noTagsAvailable: "Brak dostępnych tagów",
+  allowMultipleSelections: "Zezwól na wielokrotny wybór",
+  allowUsersToSelectMultipleOptions: "Pozwól użytkownikom wybrać wiele opcji",
+  selectOptions: "Wybierz opcje",
+  itemsSelected: "{{count}} wybranych",
 };
 
 export default pl as Translations;
