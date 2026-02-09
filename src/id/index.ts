@@ -1948,6 +1948,7 @@ const id: Translations = {
     "Kami hanya mendukung macOS. Beri tahu kami jika ada permintaan untuk aplikasi Windows.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "Email disalin ke papan klip",
   cardsWithNoSprint: "Kartu tanpa sprint",
   showCardsFrom: "Tampilkan kartu dari",

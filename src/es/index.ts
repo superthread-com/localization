@@ -1985,6 +1985,7 @@ const es: Translations = {
     "Solo soportamos macOS. Háznos saber si hay demanda para una app de Windows.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "Correo electrónico copiado al portapapeles",
   cardsWithNoSprint: "Tarjetas sin sprint",
   showCardsFrom: "Mostrar tarjetas de",

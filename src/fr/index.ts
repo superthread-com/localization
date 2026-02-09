@@ -1990,6 +1990,7 @@ const fr: Translations = {
     "Nous ne prenons en charge que macOS. Veuillez nous faire savoir s'il y a une demande pour Windows également.",
   macArm64Label: "Apple Silicon",
   macx64Label: "Apple Intel",
+  windowsx64Label: "Windows",
   mailCopiedToClipboard: "Mail copié dans le presse-papiers.",
   cardsWithNoSprint: "Cartes sans sprint",
   showCardsFrom: "Afficher les cartes de",
