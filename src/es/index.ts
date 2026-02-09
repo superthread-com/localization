@@ -3191,6 +3191,11 @@ const es: Translations = {
   selectCardProperty: "Seleccionar propiedad de tarjeta",
   chooseWhichPropertyToMapTo: "Elige a qué propiedad asignar",
   pleaseSelectACardProperty: "Por favor, seleccione una propiedad de tarjeta",
+  cardProperty: "Propiedad de tarjeta",
+  selectPriority: "Seleccionar prioridad",
+  selectAssignees: "Seleccionar asignados",
+  selectDueDate: "Seleccionar fecha de vencimiento",
+  noTagsAvailable: "No hay etiquetas disponibles",
 };
 
 export default es as Translations;

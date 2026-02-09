@@ -3057,6 +3057,11 @@ const en = {
   selectCardProperty: "Select card property",
   chooseWhichPropertyToMapTo: "Choose which property to map to",
   pleaseSelectACardProperty: "Please select a card property",
+  cardProperty: "Card property",
+  selectPriority: "Select priority",
+  selectAssignees: "Select assignees",
+  selectDueDate: "Select due date",
+  noTagsAvailable: "No tags available",
 };
 
 export default en as Translations;

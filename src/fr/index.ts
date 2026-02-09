@@ -3203,6 +3203,11 @@ const fr: Translations = {
   selectCardProperty: "Sélectionner une propriété de carte",
   chooseWhichPropertyToMapTo: "Choisissez quelle propriété associer",
   pleaseSelectACardProperty: "Veuillez sélectionner une propriété de carte",
+  cardProperty: "Propriété de carte",
+  selectPriority: "Sélectionner la priorité",
+  selectAssignees: "Sélectionner les assignés",
+  selectDueDate: "Sélectionner la date d'échéance",
+  noTagsAvailable: "Aucun tag disponible",
 };
 
 export default fr as Translations;

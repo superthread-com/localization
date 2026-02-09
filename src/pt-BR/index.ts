@@ -3170,6 +3170,11 @@ const ptBR: Translations = {
   selectCardProperty: "Selecionar propriedade do cartão",
   chooseWhichPropertyToMapTo: "Escolha qual propriedade mapear",
   pleaseSelectACardProperty: "Por favor, selecione uma propriedade do cartão",
+  cardProperty: "Propriedade do cartão",
+  selectPriority: "Selecionar prioridade",
+  selectAssignees: "Selecionar responsáveis",
+  selectDueDate: "Selecionar data de vencimento",
+  noTagsAvailable: "Nenhuma tag disponível",
 };
 
 export default ptBR as Translations;

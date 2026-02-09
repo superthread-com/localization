@@ -3127,6 +3127,11 @@ const pl: Translations = {
   selectCardProperty: "Wybierz właściwość karty",
   chooseWhichPropertyToMapTo: "Wybierz, do której właściwości przypisać",
   pleaseSelectACardProperty: "Proszę wybrać właściwość karty",
+  cardProperty: "Właściwość karty",
+  selectPriority: "Wybierz priorytet",
+  selectAssignees: "Wybierz przypisanych",
+  selectDueDate: "Wybierz termin",
+  noTagsAvailable: "Brak dostępnych tagów",
 };
 
 export default pl as Translations;

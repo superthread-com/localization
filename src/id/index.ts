@@ -3143,6 +3143,11 @@ const id: Translations = {
   selectCardProperty: "Pilih properti kartu",
   chooseWhichPropertyToMapTo: "Pilih properti mana yang akan dipetakan",
   pleaseSelectACardProperty: "Silakan pilih properti kartu",
+  cardProperty: "Properti kartu",
+  selectPriority: "Pilih prioritas",
+  selectAssignees: "Pilih yang ditugaskan",
+  selectDueDate: "Pilih tanggal jatuh tempo",
+  noTagsAvailable: "Tidak ada tag tersedia",
 };
 
 export default id as Translations;

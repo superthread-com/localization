@@ -2714,6 +2714,11 @@ export enum TranslationKeys {
   SelectCardProperty = "selectCardProperty",
   ChooseWhichPropertyToMapTo = "chooseWhichPropertyToMapTo",
   PleaseSelectACardProperty = "pleaseSelectACardProperty",
+  CardProperty = "cardProperty",
+  SelectPriority = "selectPriority",
+  SelectAssignees = "selectAssignees",
+  SelectDueDate = "selectDueDate",
+  NoTagsAvailable = "noTagsAvailable",
 }
 
 export type Translations = Record<TranslationKeys, string>;

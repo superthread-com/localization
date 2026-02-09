@@ -2882,6 +2882,11 @@ const zhHans: Translations = {
   selectCardProperty: "选择卡片属性",
   chooseWhichPropertyToMapTo: "选择要映射的属性",
   pleaseSelectACardProperty: "请选择一个卡片属性",
+  cardProperty: "卡片属性",
+  selectPriority: "选择优先级",
+  selectAssignees: "选择负责人",
+  selectDueDate: "选择截止日期",
+  noTagsAvailable: "没有可用的标签",
 };
 
 export default zhHans as Translations;

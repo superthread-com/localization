@@ -3023,6 +3023,11 @@ const ko: Translations = {
   selectCardProperty: "카드 속성 선택",
   chooseWhichPropertyToMapTo: "매핑할 속성을 선택하세요",
   pleaseSelectACardProperty: "카드 속성을 선택하세요",
+  cardProperty: "카드 속성",
+  selectPriority: "우선순위 선택",
+  selectAssignees: "담당자 선택",
+  selectDueDate: "마감일 선택",
+  noTagsAvailable: "사용 가능한 태그 없음",
 };
 
 export default ko as Translations;

@@ -3108,6 +3108,11 @@ const bs: Translations = {
   selectCardProperty: "Odaberite svojstvo kartice",
   chooseWhichPropertyToMapTo: "Odaberite koje svojstvo želite mapirati",
   pleaseSelectACardProperty: "Molimo odaberite svojstvo kartice",
+  cardProperty: "Svojstvo kartice",
+  selectPriority: "Odaberite prioritet",
+  selectAssignees: "Odaberite dodijeljene",
+  selectDueDate: "Odaberite rok",
+  noTagsAvailable: "Nema dostupnih oznaka",
 };
 
 export default bs;
