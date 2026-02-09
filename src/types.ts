@@ -2713,7 +2713,7 @@ export enum TranslationKeys {
   EnterFieldDescription = "enterFieldDescription",
   SelectCardProperty = "selectCardProperty",
   ChooseWhichPropertyToMapTo = "chooseWhichPropertyToMapTo",
-  PleaseSelectACardProperty = "pleaseSelectACardProperty"
+  PleaseSelectACardProperty = "pleaseSelectACardProperty",
 }
 
 export type Translations = Record<TranslationKeys, string>;
