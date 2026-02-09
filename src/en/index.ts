@@ -3035,7 +3035,6 @@ const en = {
   shortText: "Short text",
   longText: "Long text",
   number: "Number",
-  multipleChoice: "Multiple choice",
   dropdown: "Dropdown",
   checkbox: "Checkbox",
   phone: "Phone",
@@ -3062,6 +3061,10 @@ const en = {
   selectAssignees: "Select assignees",
   selectDueDate: "Select due date",
   noTagsAvailable: "No tags available",
+  allowMultipleSelections: "Allow multiple selections",
+  allowUsersToSelectMultipleOptions: "Allow users to select multiple options",
+  selectOptions: "Select options",
+  itemsSelected: "{{count}} selected",
 };
 
 export default en as Translations;

@@ -3181,7 +3181,6 @@ const fr: Translations = {
   shortText: "Texte court",
   longText: "Texte long",
   number: "Nombre",
-  multipleChoice: "Choix multiples",
   dropdown: "Menu déroulant",
   checkbox: "Case à cocher",
   phone: "Téléphone",
@@ -3208,6 +3207,11 @@ const fr: Translations = {
   selectAssignees: "Sélectionner les assignés",
   selectDueDate: "Sélectionner la date d'échéance",
   noTagsAvailable: "Aucun tag disponible",
+  allowMultipleSelections: "Autoriser les sélections multiples",
+  allowUsersToSelectMultipleOptions:
+    "Autoriser les utilisateurs à sélectionner plusieurs options",
+  selectOptions: "Sélectionner des options",
+  itemsSelected: "{{count}} sélectionnés",
 };
 
 export default fr as Translations;

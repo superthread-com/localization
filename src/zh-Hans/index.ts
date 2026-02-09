@@ -2860,7 +2860,6 @@ const zhHans: Translations = {
   shortText: "短文本",
   longText: "长文本",
   number: "数字",
-  multipleChoice: "多选",
   dropdown: "下拉菜单",
   checkbox: "复选框",
   phone: "电话",
@@ -2887,6 +2886,10 @@ const zhHans: Translations = {
   selectAssignees: "选择负责人",
   selectDueDate: "选择截止日期",
   noTagsAvailable: "没有可用的标签",
+  allowMultipleSelections: "允许多选",
+  allowUsersToSelectMultipleOptions: "允许用户选择多个选项",
+  selectOptions: "选择选项",
+  itemsSelected: "已选择 {{count}} 项",
 };
 
 export default zhHans as Translations;

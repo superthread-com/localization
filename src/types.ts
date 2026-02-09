@@ -2692,7 +2692,6 @@ export enum TranslationKeys {
   ShortText = "shortText",
   LongText = "longText",
   Number = "number",
-  MultipleChoice = "multipleChoice",
   Dropdown = "dropdown",
   Checkbox = "checkbox",
   Phone = "phone",
@@ -2719,6 +2718,10 @@ export enum TranslationKeys {
   SelectAssignees = "selectAssignees",
   SelectDueDate = "selectDueDate",
   NoTagsAvailable = "noTagsAvailable",
+  AllowMultipleSelections = "allowMultipleSelections",
+  AllowUsersToSelectMultipleOptions = "allowUsersToSelectMultipleOptions",
+  SelectOptions = "selectOptions",
+  ItemsSelected = "itemsSelected",
 }
 
 export type Translations = Record<TranslationKeys, string>;
