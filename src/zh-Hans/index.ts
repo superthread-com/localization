@@ -2862,7 +2862,6 @@ const zhHans: Translations = {
   number: "数字",
   multipleChoice: "多选",
   dropdown: "下拉菜单",
-  yesNo: "是/否",
   checkbox: "复选框",
   phone: "电话",
   link: "链接",
@@ -2871,7 +2870,6 @@ const zhHans: Translations = {
   pleaseSelectDate: "请选择日期",
   pleaseSelectOption: "请选择选项",
   pleaseUploadFile: "请上传文件",
-  pleaseSelectYesOrNo: "请选择是或否",
   pleaseSelectAtLeastOneOption: "请至少选择一个选项",
   pleaseProvideValidEmail: "请提供有效的电子邮件",
   pleaseEnterValidPhoneNumber: "请输入有效的电话号码",
@@ -2881,6 +2879,9 @@ const zhHans: Translations = {
   nextLevel: "下一关",
   fieldDescription: "字段描述",
   enterFieldDescription: "输入字段描述",
+  selectCardProperty: "Select card property",
+  chooseWhichPropertyToMapTo: "Choose which property to map to",
+  pleaseSelectACardProperty: "Please select a card property",
 };
 
 export default zhHans as Translations;

@@ -3107,7 +3107,6 @@ const pl: Translations = {
   number: "Liczba",
   multipleChoice: "Wielokrotny wybór",
   dropdown: "Lista rozwijana",
-  yesNo: "Tak/Nie",
   checkbox: "Pole wyboru",
   phone: "Telefon",
   link: "Link",
@@ -3116,7 +3115,6 @@ const pl: Translations = {
   pleaseSelectDate: "Proszę wybrać datę",
   pleaseSelectOption: "Proszę wybrać opcję",
   pleaseUploadFile: "Proszę przesłać plik",
-  pleaseSelectYesOrNo: "Proszę wybrać tak lub nie",
   pleaseSelectAtLeastOneOption: "Proszę wybrać co najmniej jedną opcję",
   pleaseProvideValidEmail: "Proszę podać prawidłowy adres e-mail",
   pleaseEnterValidPhoneNumber: "Proszę wprowadzić prawidłowy numer telefonu",
@@ -3126,6 +3124,9 @@ const pl: Translations = {
   nextLevel: "Następny poziom",
   fieldDescription: "Opis pola",
   enterFieldDescription: "Wprowadź opis pola",
+  selectCardProperty: "Select card property",
+  chooseWhichPropertyToMapTo: "Choose which property to map to",
+  pleaseSelectACardProperty: "Please select a card property",
 };
 
 export default pl as Translations;

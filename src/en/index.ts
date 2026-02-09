@@ -3037,7 +3037,6 @@ const en = {
   number: "Number",
   multipleChoice: "Multiple choice",
   dropdown: "Dropdown",
-  yesNo: "Yes/No",
   checkbox: "Checkbox",
   phone: "Phone",
   link: "Link",
@@ -3046,7 +3045,6 @@ const en = {
   pleaseSelectDate: "Please select a date",
   pleaseSelectOption: "Please select an option",
   pleaseUploadFile: "Please upload a file",
-  pleaseSelectYesOrNo: "Please select yes or no",
   pleaseSelectAtLeastOneOption: "Please select at least one option",
   pleaseProvideValidEmail: "Please provide a valid email",
   pleaseEnterValidPhoneNumber: "Please enter a valid phone number",
@@ -3056,6 +3054,9 @@ const en = {
   nextLevel: "Next level",
   fieldDescription: "Field description",
   enterFieldDescription: "Enter field description",
+  selectCardProperty: "Select card property",
+  chooseWhichPropertyToMapTo: "Choose which property to map to",
+  pleaseSelectACardProperty: "Please select a card property",
 };
 
 export default en as Translations;

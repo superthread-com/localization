@@ -3003,7 +3003,6 @@ const ko: Translations = {
   number: "숫자",
   multipleChoice: "객관식",
   dropdown: "드롭다운",
-  yesNo: "예/아니오",
   checkbox: "체크박스",
   phone: "전화번호",
   link: "링크",
@@ -3012,7 +3011,6 @@ const ko: Translations = {
   pleaseSelectDate: "날짜를 선택하세요",
   pleaseSelectOption: "옵션을 선택하세요",
   pleaseUploadFile: "파일을 업로드하세요",
-  pleaseSelectYesOrNo: "예 또는 아니오를 선택하세요",
   pleaseSelectAtLeastOneOption: "최소 하나의 옵션을 선택하세요",
   pleaseProvideValidEmail: "유효한 이메일을 입력하세요",
   pleaseEnterValidPhoneNumber: "유효한 전화번호를 입력하세요",
@@ -3022,6 +3020,9 @@ const ko: Translations = {
   nextLevel: "다음 레벨",
   fieldDescription: "필드 설명",
   enterFieldDescription: "필드 설명 입력",
+  selectCardProperty: "Select card property",
+  chooseWhichPropertyToMapTo: "Choose which property to map to",
+  pleaseSelectACardProperty: "Please select a card property",
 };
 
 export default ko as Translations;

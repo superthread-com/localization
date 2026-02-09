@@ -2867,7 +2867,6 @@ const zhHant: Translations = {
   number: "數字",
   multipleChoice: "多選題",
   dropdown: "下拉選單",
-  yesNo: "是/否",
   checkbox: "核取方塊",
   phone: "電話",
   link: "連結",
@@ -2876,7 +2875,6 @@ const zhHant: Translations = {
   pleaseSelectDate: "請選擇日期",
   pleaseSelectOption: "請選擇選項",
   pleaseUploadFile: "請上傳檔案",
-  pleaseSelectYesOrNo: "請選擇是或否",
   pleaseSelectAtLeastOneOption: "請至少選擇一個選項",
   pleaseProvideValidEmail: "請提供有效的電子郵件",
   pleaseEnterValidPhoneNumber: "請輸入有效的電話號碼",
@@ -2886,6 +2884,9 @@ const zhHant: Translations = {
   nextLevel: "下一關",
   fieldDescription: "欄位描述",
   enterFieldDescription: "輸入欄位描述",
+  selectCardProperty: "Select card property",
+  chooseWhichPropertyToMapTo: "Choose which property to map to",
+  pleaseSelectACardProperty: "Please select a card property",
 };
 
 export default zhHant as Translations;

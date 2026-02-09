@@ -3169,7 +3169,6 @@ const es: Translations = {
   number: "Número",
   multipleChoice: "Opción múltiple",
   dropdown: "Desplegable",
-  yesNo: "Sí/No",
   checkbox: "Casilla de verificación",
   phone: "Teléfono",
   link: "Enlace",
@@ -3178,7 +3177,6 @@ const es: Translations = {
   pleaseSelectDate: "Por favor, seleccione una fecha",
   pleaseSelectOption: "Por favor, seleccione una opción",
   pleaseUploadFile: "Por favor, suba un archivo",
-  pleaseSelectYesOrNo: "Por favor, seleccione sí o no",
   pleaseSelectAtLeastOneOption: "Por favor, seleccione al menos una opción",
   pleaseProvideValidEmail:
     "Por favor, proporcione un correo electrónico válido",
@@ -3190,6 +3188,9 @@ const es: Translations = {
   nextLevel: "Siguiente nivel",
   fieldDescription: "Descripción del campo",
   enterFieldDescription: "Ingrese la descripción del campo",
+  selectCardProperty: "Select card property",
+  chooseWhichPropertyToMapTo: "Choose which property to map to",
+  pleaseSelectACardProperty: "Please select a card property",
 };
 
 export default es as Translations;
