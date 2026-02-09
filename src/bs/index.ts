@@ -3088,7 +3088,6 @@ const bs: Translations = {
   number: "Broj",
   multipleChoice: "Višestruki izbor",
   dropdown: "Padajući izbornik",
-  yesNo: "Da/Ne",
   checkbox: "Potvrdni okvir",
   phone: "Telefon",
   link: "Link",
@@ -3097,7 +3096,6 @@ const bs: Translations = {
   pleaseSelectDate: "Molimo odaberite datum",
   pleaseSelectOption: "Molimo odaberite opciju",
   pleaseUploadFile: "Molimo učitajte datoteku",
-  pleaseSelectYesOrNo: "Molimo odaberite da ili ne",
   pleaseSelectAtLeastOneOption: "Molimo odaberite najmanje jednu opciju",
   pleaseProvideValidEmail: "Molimo unesite validan email",
   pleaseEnterValidPhoneNumber: "Molimo unesite validan broj telefona",
@@ -3107,6 +3105,9 @@ const bs: Translations = {
   nextLevel: "Sljedeći nivo",
   fieldDescription: "Opis polja",
   enterFieldDescription: "Unesite opis polja",
+  selectCardProperty: "Odaberite svojstvo kartice",
+  chooseWhichPropertyToMapTo: "Odaberite koje svojstvo želite mapirati",
+  pleaseSelectACardProperty: "Molimo odaberite svojstvo kartice",
 };
 
 export default bs;

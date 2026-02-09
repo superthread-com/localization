@@ -3187,7 +3187,6 @@ const de: Translations = {
   number: "Nummer",
   multipleChoice: "Mehrfachauswahl",
   dropdown: "Dropdown",
-  yesNo: "Ja/Nein",
   checkbox: "Kontrollkästchen",
   phone: "Telefon",
   link: "Link",
@@ -3196,7 +3195,6 @@ const de: Translations = {
   pleaseSelectDate: "Bitte wählen Sie ein Datum",
   pleaseSelectOption: "Bitte wählen Sie eine Option",
   pleaseUploadFile: "Bitte laden Sie eine Datei hoch",
-  pleaseSelectYesOrNo: "Bitte wählen Sie Ja oder Nein",
   pleaseSelectAtLeastOneOption: "Bitte wählen Sie mindestens eine Option",
   pleaseProvideValidEmail: "Bitte geben Sie eine gültige E-Mail-Adresse an",
   pleaseEnterValidPhoneNumber: "Bitte geben Sie eine gültige Telefonnummer ein",
@@ -3206,6 +3204,10 @@ const de: Translations = {
   nextLevel: "Nächstes Level",
   fieldDescription: "Feldbeschreibung",
   enterFieldDescription: "Feldbeschreibung eingeben",
+  selectCardProperty: "Karteneigenschaft auswählen",
+  chooseWhichPropertyToMapTo:
+    "Wählen Sie, welche Eigenschaft zugeordnet werden soll",
+  pleaseSelectACardProperty: "Bitte wählen Sie eine Karteneigenschaft",
 };
 
 export default de as Translations;

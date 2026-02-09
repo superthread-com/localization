@@ -2694,7 +2694,6 @@ export enum TranslationKeys {
   Number = "number",
   MultipleChoice = "multipleChoice",
   Dropdown = "dropdown",
-  YesNo = "yesNo",
   Checkbox = "checkbox",
   Phone = "phone",
   Link = "link",
@@ -2703,7 +2702,6 @@ export enum TranslationKeys {
   PleaseSelectDate = "pleaseSelectDate",
   PleaseSelectOption = "pleaseSelectOption",
   PleaseUploadFile = "pleaseUploadFile",
-  PleaseSelectYesOrNo = "pleaseSelectYesOrNo",
   PleaseSelectAtLeastOneOption = "pleaseSelectAtLeastOneOption",
   PleaseProvideValidEmail = "pleaseProvideValidEmail",
   PleaseEnterValidPhoneNumber = "pleaseEnterValidPhoneNumber",
@@ -2713,6 +2711,9 @@ export enum TranslationKeys {
   NextLevel = "nextLevel",
   FieldDescription = "fieldDescription",
   EnterFieldDescription = "enterFieldDescription",
+  SelectCardProperty = "selectCardProperty",
+  ChooseWhichPropertyToMapTo = "chooseWhichPropertyToMapTo",
+  PleaseSelectACardProperty = "pleaseSelectACardProperty",
 }
 
 export type Translations = Record<TranslationKeys, string>;

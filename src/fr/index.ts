@@ -3183,7 +3183,6 @@ const fr: Translations = {
   number: "Nombre",
   multipleChoice: "Choix multiples",
   dropdown: "Menu déroulant",
-  yesNo: "Oui/Non",
   checkbox: "Case à cocher",
   phone: "Téléphone",
   link: "Lien",
@@ -3192,7 +3191,6 @@ const fr: Translations = {
   pleaseSelectDate: "Veuillez sélectionner une date",
   pleaseSelectOption: "Veuillez sélectionner une option",
   pleaseUploadFile: "Veuillez télécharger un fichier",
-  pleaseSelectYesOrNo: "Veuillez sélectionner oui ou non",
   pleaseSelectAtLeastOneOption: "Veuillez sélectionner au moins une option",
   pleaseProvideValidEmail: "Veuillez fournir une adresse e-mail valide",
   pleaseEnterValidPhoneNumber: "Veuillez entrer un numéro de téléphone valide",
@@ -3202,6 +3200,9 @@ const fr: Translations = {
   nextLevel: "Niveau suivant",
   fieldDescription: "Description du champ",
   enterFieldDescription: "Entrez la description du champ",
+  selectCardProperty: "Sélectionner une propriété de carte",
+  chooseWhichPropertyToMapTo: "Choisissez quelle propriété associer",
+  pleaseSelectACardProperty: "Veuillez sélectionner une propriété de carte",
 };
 
 export default fr as Translations;

@@ -3150,7 +3150,6 @@ const ptBR: Translations = {
   number: "Número",
   multipleChoice: "Múltipla escolha",
   dropdown: "Menu suspenso",
-  yesNo: "Sim/Não",
   checkbox: "Caixa de seleção",
   phone: "Telefone",
   link: "Link",
@@ -3159,7 +3158,6 @@ const ptBR: Translations = {
   pleaseSelectDate: "Por favor, selecione uma data",
   pleaseSelectOption: "Por favor, selecione uma opção",
   pleaseUploadFile: "Por favor, envie um arquivo",
-  pleaseSelectYesOrNo: "Por favor, selecione sim ou não",
   pleaseSelectAtLeastOneOption: "Por favor, selecione pelo menos uma opção",
   pleaseProvideValidEmail: "Por favor, forneça um e-mail válido",
   pleaseEnterValidPhoneNumber: "Por favor, insira um número de telefone válido",
@@ -3169,6 +3167,9 @@ const ptBR: Translations = {
   nextLevel: "Próximo nível",
   fieldDescription: "Descrição do campo",
   enterFieldDescription: "Insira a descrição do campo",
+  selectCardProperty: "Selecionar propriedade do cartão",
+  chooseWhichPropertyToMapTo: "Escolha qual propriedade mapear",
+  pleaseSelectACardProperty: "Por favor, selecione uma propriedade do cartão",
 };
 
 export default ptBR as Translations;
