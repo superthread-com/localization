@@ -2042,7 +2042,7 @@ export enum TranslationKeys {
   Transcribe = "transcribe",
   CurrentlyTranscribing = "currentlyTranscribing",
   TranscribingOnlyAvailableOnMac = "transcribingOnlyAvailableOnMac",
-  TranscirbingOnlyAvailableOnDesktop = "transcribingOnlyAvailableOnDesktop",
+  TranscribingOnlyAvailableOnDesktop = "transcribingOnlyAvailableOnDesktop",
   TranscribingOnlyAvailableOnNewerMacVersions = "transcribingOnlyAvailableOnNewerMacVersions",
   StartTranscription = "startTranscription",
   StopTranscription = "stopTranscription",
@@ -2724,6 +2724,7 @@ export enum TranslationKeys {
   AllowUsersToSelectMultipleOptions = "allowUsersToSelectMultipleOptions",
   SelectOptions = "selectOptions",
   ItemsSelected = "itemsSelected",
+  CardPropertyAlreadyAddedToForm = "cardPropertyAlreadyAddedToForm",
 }
 
 export type Translations = Record<TranslationKeys, string>;

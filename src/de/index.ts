@@ -3220,6 +3220,8 @@ const de: Translations = {
     "Benutzern erlauben, mehrere Optionen auszuwählen",
   selectOptions: "Optionen auswählen",
   itemsSelected: "%{count} ausgewählt",
+  cardPropertyAlreadyAddedToForm:
+    "Karteneigenschaft wurde dem Formular bereits hinzugefügt",
 };
 
 export default de as Translations;

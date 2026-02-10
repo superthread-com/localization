@@ -3034,6 +3034,7 @@ const ko: Translations = {
     "사용자가 여러 옵션을 선택할 수 있도록 허용",
   selectOptions: "옵션 선택",
   itemsSelected: "%{count}개 선택됨",
+  cardPropertyAlreadyAddedToForm: "카드 속성이 이미 양식에 추가되었습니다",
 };
 
 export default ko as Translations;

@@ -3138,6 +3138,8 @@ const pl: Translations = {
   allowUsersToSelectMultipleOptions: "Pozwól użytkownikom wybrać wiele opcji",
   selectOptions: "Wybierz opcje",
   itemsSelected: "%{count} wybranych",
+  cardPropertyAlreadyAddedToForm:
+    "Właściwość karty została już dodana do formularza",
 };
 
 export default pl as Translations;

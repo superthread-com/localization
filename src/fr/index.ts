@@ -3215,6 +3215,8 @@ const fr: Translations = {
     "Autoriser les utilisateurs à sélectionner plusieurs options",
   selectOptions: "Sélectionner des options",
   itemsSelected: "%{count} sélectionnés",
+  cardPropertyAlreadyAddedToForm:
+    "La propriété de carte a déjà été ajoutée au formulaire",
 };
 
 export default fr as Translations;

@@ -3068,6 +3068,7 @@ const en = {
   allowUsersToSelectMultipleOptions: "Allow users to select multiple options",
   selectOptions: "Select options",
   itemsSelected: "%{count} selected",
+  cardPropertyAlreadyAddedToForm: "Card property already added to form",
 };
 
 export default en as Translations;
