@@ -2895,7 +2895,7 @@ const zhHant: Translations = {
   allowMultipleSelections: "允許多選",
   allowUsersToSelectMultipleOptions: "允許用戶選擇多個選項",
   selectOptions: "選擇選項",
-  itemsSelected: "已選擇 {{count}} 項",
+  itemsSelected: "已選擇 %{count} 項",
 };
 
 export default zhHant as Translations;

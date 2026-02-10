@@ -3117,7 +3117,7 @@ const bs: Translations = {
   allowUsersToSelectMultipleOptions:
     "Dozvoli korisnicima da odaberu više opcija",
   selectOptions: "Odaberite opcije",
-  itemsSelected: "{{count}} odabrano",
+  itemsSelected: "%{count} odabrano",
 };
 
 export default bs;

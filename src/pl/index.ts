@@ -3135,7 +3135,7 @@ const pl: Translations = {
   allowMultipleSelections: "Zezwól na wielokrotny wybór",
   allowUsersToSelectMultipleOptions: "Pozwól użytkownikom wybrać wiele opcji",
   selectOptions: "Wybierz opcje",
-  itemsSelected: "{{count}} wybranych",
+  itemsSelected: "%{count} wybranych",
 };
 
 export default pl as Translations;

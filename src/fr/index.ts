@@ -3212,7 +3212,7 @@ const fr: Translations = {
   allowUsersToSelectMultipleOptions:
     "Autoriser les utilisateurs à sélectionner plusieurs options",
   selectOptions: "Sélectionner des options",
-  itemsSelected: "{{count}} sélectionnés",
+  itemsSelected: "%{count} sélectionnés",
 };
 
 export default fr as Translations;
