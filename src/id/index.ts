@@ -3151,7 +3151,7 @@ const id: Translations = {
   allowMultipleSelections: "Izinkan pilihan ganda",
   allowUsersToSelectMultipleOptions: "Izinkan pengguna memilih beberapa opsi",
   selectOptions: "Pilih opsi",
-  itemsSelected: "{{count}} dipilih",
+  itemsSelected: "%{count} dipilih",
 };
 
 export default id as Translations;

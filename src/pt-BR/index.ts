@@ -3179,7 +3179,7 @@ const ptBR: Translations = {
   allowUsersToSelectMultipleOptions:
     "Permitir que os usuários selecionem várias opções",
   selectOptions: "Selecionar opções",
-  itemsSelected: "{{count}} selecionados",
+  itemsSelected: "%{count} selecionados",
 };
 
 export default ptBR as Translations;

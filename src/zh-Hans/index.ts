@@ -2890,7 +2890,7 @@ const zhHans: Translations = {
   allowMultipleSelections: "允许多选",
   allowUsersToSelectMultipleOptions: "允许用户选择多个选项",
   selectOptions: "选择选项",
-  itemsSelected: "已选择 {{count}} 项",
+  itemsSelected: "已选择 %{count} 项",
 };
 
 export default zhHans as Translations;

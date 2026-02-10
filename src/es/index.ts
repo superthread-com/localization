@@ -3200,7 +3200,7 @@ const es: Translations = {
   allowUsersToSelectMultipleOptions:
     "Permitir a los usuarios seleccionar varias opciones",
   selectOptions: "Seleccionar opciones",
-  itemsSelected: "{{count}} seleccionados",
+  itemsSelected: "%{count} seleccionados",
 };
 
 export default es as Translations;

@@ -3065,7 +3065,7 @@ const en = {
   allowMultipleSelections: "Allow multiple selections",
   allowUsersToSelectMultipleOptions: "Allow users to select multiple options",
   selectOptions: "Select options",
-  itemsSelected: "{{count}} selected",
+  itemsSelected: "%{count} selected",
 };
 
 export default en as Translations;
