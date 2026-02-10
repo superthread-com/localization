@@ -2278,6 +2278,8 @@ const en = {
   currentlyTranscribing: "Currently transcribing",
   transcribingOnlyAvailableOnMac:
     "Transcribing is only available in the macOS app",
+  transcribingOnlyAvailableOnDesktop:
+    "Transcribing is only available in the desktop app",
   transcribingOnlyAvailableOnNewerMacVersions:
     "Transcribing is only available on macOS 14.2 and newer versions",
   startTranscription: "Start transcription",

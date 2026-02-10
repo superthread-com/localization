@@ -2122,6 +2122,7 @@ const zhHans: Translations = {
   transcribe: "转录",
   currentlyTranscribing: "当前正在转录",
   transcribingOnlyAvailableOnMac: "转录仅在macOS应用中可用",
+  transcribingOnlyAvailableOnDesktop: "转录仅在桌面应用中可用",
   transcribingOnlyAvailableOnNewerMacVersions:
     "转录仅在macOS 14.2及更新版本中可用",
   startTranscription: "开始转录",

@@ -2290,6 +2290,8 @@ const pl: Translations = {
   currentlyTranscribing: "Obecnie transkrybowanie",
   transcribingOnlyAvailableOnMac:
     "Transkrypcja jest dostępna tylko w aplikacji na macOS",
+  transcribingOnlyAvailableOnDesktop:
+    "Transkrypcja jest dostępna tylko w aplikacji desktopowej",
   transcribingOnlyAvailableOnNewerMacVersions:
     "Transkrypcja jest dostępna tylko na macOS 14.2 i nowszych wersjach",
   startTranscription: "Rozpocznij transkrypcję",
