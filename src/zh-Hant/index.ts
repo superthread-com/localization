@@ -2125,6 +2125,7 @@ const zhHant: Translations = {
   transcribe: "轉錄",
   currentlyTranscribing: "目前正在轉錄",
   transcribingOnlyAvailableOnMac: "轉錄僅在 macOS 應用程式中可用",
+  transcribingOnlyAvailableOnDesktop: "轉錄僅在桌面應用程式中可用",
   transcribingOnlyAvailableOnNewerMacVersions:
     "轉錄僅在 macOS 14.2 及更新版本中可用",
   startTranscription: "開始轉錄",

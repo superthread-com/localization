@@ -2042,6 +2042,7 @@ export enum TranslationKeys {
   Transcribe = "transcribe",
   CurrentlyTranscribing = "currentlyTranscribing",
   TranscribingOnlyAvailableOnMac = "transcribingOnlyAvailableOnMac",
+  TranscirbingOnlyAvailableOnDesktop = "transcribingOnlyAvailableOnDesktop",
   TranscribingOnlyAvailableOnNewerMacVersions = "transcribingOnlyAvailableOnNewerMacVersions",
   StartTranscription = "startTranscription",
   StopTranscription = "stopTranscription",

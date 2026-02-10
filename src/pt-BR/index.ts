@@ -2326,6 +2326,8 @@ const ptBR: Translations = {
   currentlyTranscribing: "Transcrevendo atualmente",
   transcribingOnlyAvailableOnMac:
     "A transcrição está disponível apenas no aplicativo macOS",
+  transcribingOnlyAvailableOnDesktop:
+    "A transcrição está disponível apenas no aplicativo desktop",
   transcribingOnlyAvailableOnNewerMacVersions:
     "A transcrição está disponível apenas no macOS 14.2 e versões mais recentes",
   startTranscription: "Iniciar transcrição",
