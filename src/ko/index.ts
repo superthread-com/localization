@@ -2224,6 +2224,7 @@ const ko: Translations = {
   transcribe: "전사",
   currentlyTranscribing: "현재 전사 중",
   transcribingOnlyAvailableOnMac: "전사는 macOS 앱에서만 가능합니다",
+  transcribingOnlyAvailableOnDesktop: "전사는 데스크톱 앱에서만 가능합니다",
   transcribingOnlyAvailableOnNewerMacVersions:
     "전사는 macOS 14.2 및 최신 버전에서만 가능합니다",
   startTranscription: "전사 시작",

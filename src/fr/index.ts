@@ -2351,6 +2351,8 @@ const fr: Translations = {
   currentlyTranscribing: "Transcription en cours",
   transcribingOnlyAvailableOnMac:
     "La transcription est uniquement disponible dans l'application macOS",
+  transcribingOnlyAvailableOnDesktop:
+    "La transcription est uniquement disponible dans l'application de bureau",
   transcribingOnlyAvailableOnNewerMacVersions:
     "La transcription est uniquement disponible sur macOS 14.2 et les versions ultérieures",
   startTranscription: "Démarrer la transcription",

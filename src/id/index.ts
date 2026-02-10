@@ -2304,6 +2304,8 @@ const id: Translations = {
   currentlyTranscribing: "Sedang ditranskripsi",
   transcribingOnlyAvailableOnMac:
     "Transkripsi hanya tersedia di aplikasi macOS",
+  transcribingOnlyAvailableOnDesktop:
+    "Transkripsi hanya tersedia di aplikasi desktop",
   transcribingOnlyAvailableOnNewerMacVersions:
     "Transkripsi hanya tersedia di macOS 14.2 dan versi yang lebih baru",
   startTranscription: "Mulai transkripsi",
