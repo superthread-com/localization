@@ -3182,6 +3182,8 @@ const ptBR: Translations = {
     "Permitir que os usuários selecionem várias opções",
   selectOptions: "Selecionar opções",
   itemsSelected: "%{count} selecionados",
+  cardPropertyAlreadyAddedToForm:
+    "A propriedade do cartão já foi adicionada ao formulário",
 };
 
 export default ptBR as Translations;

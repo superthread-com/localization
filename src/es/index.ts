@@ -3203,6 +3203,8 @@ const es: Translations = {
     "Permitir a los usuarios seleccionar varias opciones",
   selectOptions: "Seleccionar opciones",
   itemsSelected: "%{count} seleccionados",
+  cardPropertyAlreadyAddedToForm:
+    "La propiedad de la tarjeta ya se ha añadido al formulario",
 };
 
 export default es as Translations;

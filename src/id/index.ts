@@ -3154,6 +3154,8 @@ const id: Translations = {
   allowUsersToSelectMultipleOptions: "Izinkan pengguna memilih beberapa opsi",
   selectOptions: "Pilih opsi",
   itemsSelected: "%{count} dipilih",
+  cardPropertyAlreadyAddedToForm:
+    "Properti kartu sudah ditambahkan ke formulir",
 };
 
 export default id as Translations;

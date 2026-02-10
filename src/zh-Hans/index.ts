@@ -2892,6 +2892,7 @@ const zhHans: Translations = {
   allowUsersToSelectMultipleOptions: "允许用户选择多个选项",
   selectOptions: "选择选项",
   itemsSelected: "已选择 %{count} 项",
+  cardPropertyAlreadyAddedToForm: "该卡片属性已添加到表单中",
 };
 
 export default zhHans as Translations;

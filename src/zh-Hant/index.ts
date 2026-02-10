@@ -2897,6 +2897,7 @@ const zhHant: Translations = {
   allowUsersToSelectMultipleOptions: "允許用戶選擇多個選項",
   selectOptions: "選擇選項",
   itemsSelected: "已選擇 %{count} 項",
+  cardPropertyAlreadyAddedToForm: "該卡片屬性已新增到表單中",
 };
 
 export default zhHant as Translations;

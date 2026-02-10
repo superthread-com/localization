@@ -3120,6 +3120,7 @@ const bs: Translations = {
     "Dozvoli korisnicima da odaberu više opcija",
   selectOptions: "Odaberite opcije",
   itemsSelected: "%{count} odabrano",
+  cardPropertyAlreadyAddedToForm: "Svojstvo kartice je već dodano u obrazac",
 };
 
 export default bs;
