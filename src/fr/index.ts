@@ -3287,6 +3287,51 @@ const fr: Translations = {
   submitAnother: "Soumettre une autre réponse",
   submitting: "Envoi en cours",
   publicFormSubmission: "Soumission de formulaire public",
+  projectHealth: "Santé du projet",
+  projectHealthUpdates: "Mises à jour de la santé du projet",
+  allUpdates: "Toutes les mises à jour",
+  onTrack: "Sur la bonne voie",
+  atRisk: "À risque",
+  offTrack: "Hors piste",
+  notExpected: "Aucune mise à jour attendue",
+  healthStatusNeedsUpdating: "Nécessite une mise à jour",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "a marqué le projet comme obsolète car aucune mise à jour de santé n'a été fournie à temps",
+  downgradedHealthStatusAutomaticallyFrom:
+    "a dégradé automatiquement le statut de santé depuis",
+  revertedHealthStatusFrom: "a restauré le statut de santé depuis",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Le statut de santé a été marqué comme obsolète automatiquement, veuillez publier une mise à jour !",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "Le statut de santé a été automatiquement dégradé à",
+  healthUpdateOnly: "Mise à jour de santé uniquement",
+  keepYourTeamInformed: "Tenez votre équipe informée",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Partagez les mises à jour de santé du projet avec votre équipe",
+  newProjectUpdate: "Nouvelle mise à jour du projet",
+  projectHealthUpdate: "Mise à jour de la santé du projet",
+  latestUpdate: "Dernière mise à jour",
+  viewOlderUpdates: "Voir les anciennes mises à jour",
+  hideOlderUpdates: "Masquer les anciennes mises à jour",
+  previousUpdates: "Mises à jour précédentes",
+  writeYourUpdate:
+    "Rédigez une brève mise à jour pour informer les gens du statut de ce projet...",
+  postUpdate: "Publier la mise à jour",
+  healthPeriodConfiguration: "Configuration d'obsolescence",
+  healthPeriodDescription:
+    "Jours jusqu'à ce que ce projet soit marqué comme obsolète. Après 3 jours supplémentaires, le statut de santé se dégrade automatiquement (sauf s'il est déjà à risque). Définir sur 0 pour désactiver.",
+  noHealthUpdates: "Aucune mise à jour de santé",
+  noHealthUpdatesDescription:
+    "Les mises à jour de santé apparaîtront ici une fois que les projets avec un statut de santé suivi seront mis à jour.",
+  healthPeriodUpdatedSuccessfully:
+    "Période d'obsolescence mise à jour avec succès",
+  healthPeriodUpdateFailed:
+    "Échec de la mise à jour de la période d'obsolescence",
+  deleteLatestHealthUpdateWarning:
+    "Vous êtes sur le point de supprimer la dernière mise à jour de santé pour ce projet. Si vous continuez, le statut de santé sera restauré à la mise à jour précédente.",
+  healthStatusWasChangedTo: "Le statut de santé du projet a été modifié à",
+  healthStatusRemainedAt: "Le statut de santé du projet est resté à",
+  healthStatusWasRevertedTo: "Le statut de santé du projet a été rétabli à",
 };
 
 export default fr as Translations;

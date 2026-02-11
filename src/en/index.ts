@@ -3139,6 +3139,49 @@ const en = {
   submitAnother: "Submit another",
   submitting: "Submitting",
   publicFormSubmission: "Public form submission",
+  projectHealth: "Project health",
+  projectHealthUpdates: "Project health updates",
+  allUpdates: "All updates",
+  onTrack: "On track",
+  atRisk: "At risk",
+  offTrack: "Off track",
+  notExpected: "No update expected",
+  healthStatusNeedsUpdating: "Needs updating",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "marked the project as stale because no health update was provided on time",
+  downgradedHealthStatusAutomaticallyFrom:
+    "downgraded health status automatically from",
+  revertedHealthStatusFrom: "reverted health status from",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Health status was marked as stale automatically, please post an update!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "The health status was automatically downgraded to",
+  healthUpdateOnly: "Health update only",
+  keepYourTeamInformed: "Keep your team informed",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Share project health updates with your team",
+  newProjectUpdate: "New project update",
+  projectHealthUpdate: "Project health update",
+  latestUpdate: "Latest update",
+  viewOlderUpdates: "View older updates",
+  hideOlderUpdates: "Hide older updates",
+  previousUpdates: "Previous updates",
+  writeYourUpdate:
+    "Write a short update to let people know the status of this project...",
+  postUpdate: "Post update",
+  healthPeriodConfiguration: "Staleness Configuration",
+  healthPeriodDescription:
+    "Days until this project is marked as stale. After 3 more days, health status automatically downgrades (unless already at risk). Set to 0 to disable.",
+  noHealthUpdates: "No Health Updates",
+  noHealthUpdatesDescription:
+    "Health updates will appear here once projects with tracked health status are updated.",
+  healthPeriodUpdatedSuccessfully: "Staleness period updated successfully",
+  healthPeriodUpdateFailed: "Failed to update staleness period",
+  deleteLatestHealthUpdateWarning:
+    "You are about to delete the latest health update for this project. If you continue, the health status will revert to the previous update.",
+  healthStatusWasChangedTo: "The project's health status was changed to",
+  healthStatusRemainedAt: "The project's health status remained at",
+  healthStatusWasRevertedTo: "The project's health status was reverted to",
 };
 
 export default en as Translations;

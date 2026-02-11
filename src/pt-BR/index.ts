@@ -3255,6 +3255,50 @@ const ptBR: Translations = {
   submitAnother: "Enviar outra",
   submitting: "Enviando",
   publicFormSubmission: "Envio de formulário público",
+  projectHealth: "Saúde do projeto",
+  projectHealthUpdates: "Atualizações de saúde do projeto",
+  allUpdates: "Todas as atualizações",
+  onTrack: "No caminho certo",
+  atRisk: "Em risco",
+  offTrack: "Fora do caminho",
+  notExpected: "Nenhuma atualização esperada",
+  healthStatusNeedsUpdating: "Precisa de atualização",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "marcou o projeto como obsoleto porque nenhuma atualização de saúde foi fornecida no prazo",
+  downgradedHealthStatusAutomaticallyFrom:
+    "rebaixou automaticamente o status de saúde de",
+  revertedHealthStatusFrom: "reverteu o status de saúde de",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "O status de saúde foi marcado como obsoleto automaticamente, por favor publique uma atualização!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "O status de saúde foi automaticamente rebaixado para",
+  healthUpdateOnly: "Apenas atualização de saúde",
+  keepYourTeamInformed: "Mantenha sua equipe informada",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Compartilhe atualizações de saúde do projeto com sua equipe",
+  newProjectUpdate: "Nova atualização do projeto",
+  projectHealthUpdate: "Atualização de saúde do projeto",
+  latestUpdate: "Última atualização",
+  viewOlderUpdates: "Ver atualizações antigas",
+  hideOlderUpdates: "Ocultar atualizações antigas",
+  previousUpdates: "Atualizações anteriores",
+  writeYourUpdate:
+    "Escreva uma breve atualização para informar as pessoas sobre o status deste projeto...",
+  postUpdate: "Publicar atualização",
+  healthPeriodConfiguration: "Configuração de Obsolescência",
+  healthPeriodDescription:
+    "Dias até que este projeto seja marcado como obsoleto. Após mais 3 dias, o status de saúde é automaticamente rebaixado (a menos que já esteja em risco). Defina como 0 para desativar.",
+  noHealthUpdates: "Sem Atualizações de Saúde",
+  noHealthUpdatesDescription:
+    "As atualizações de saúde aparecerão aqui quando os projetos com status de saúde rastreado forem atualizados.",
+  healthPeriodUpdatedSuccessfully:
+    "Período de obsolescência atualizado com sucesso",
+  healthPeriodUpdateFailed: "Falha ao atualizar o período de obsolescência",
+  deleteLatestHealthUpdateWarning:
+    "Você está prestes a excluir a última atualização de saúde deste projeto. Se continuar, o status de saúde será revertido para a atualização anterior.",
+  healthStatusWasChangedTo: "O status de saúde do projeto foi alterado para",
+  healthStatusRemainedAt: "O status de saúde do projeto permaneceu em",
+  healthStatusWasRevertedTo: "O status de saúde do projeto foi revertido para",
 };
 
 export default ptBR as Translations;

@@ -3294,6 +3294,52 @@ const de: Translations = {
   submitAnother: "Weitere Antwort senden",
   submitting: "Wird gesendet",
   publicFormSubmission: "Öffentliche Formulareinreichung",
+  projectHealth: "Projektgesundheit",
+  projectHealthUpdates: "Projektgesundheitsaktualisierungen",
+  allUpdates: "Alle Aktualisierungen",
+  onTrack: "Auf Kurs",
+  atRisk: "Gefährdet",
+  offTrack: "Vom Kurs abgekommen",
+  notExpected: "Keine Aktualisierung erwartet",
+  healthStatusNeedsUpdating: "Aktualisierung erforderlich",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "hat das Projekt als veraltet markiert, da keine rechtzeitige Gesundheitsaktualisierung bereitgestellt wurde",
+  downgradedHealthStatusAutomaticallyFrom:
+    "hat den Gesundheitsstatus automatisch herabgestuft von",
+  revertedHealthStatusFrom: "hat den Gesundheitsstatus zurückgesetzt von",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Der Gesundheitsstatus wurde automatisch als veraltet markiert, bitte posten Sie eine Aktualisierung!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "Der Gesundheitsstatus wurde automatisch herabgestuft auf",
+  healthUpdateOnly: "Nur Gesundheitsaktualisierung",
+  keepYourTeamInformed: "Halten Sie Ihr Team informiert",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Teilen Sie Projektgesundheitsaktualisierungen mit Ihrem Team",
+  newProjectUpdate: "Neue Projektaktualisierung",
+  projectHealthUpdate: "Projektgesundheitsaktualisierung",
+  latestUpdate: "Neueste Aktualisierung",
+  viewOlderUpdates: "Ältere Aktualisierungen anzeigen",
+  hideOlderUpdates: "Ältere Aktualisierungen ausblenden",
+  previousUpdates: "Vorherige Aktualisierungen",
+  writeYourUpdate:
+    "Schreiben Sie eine kurze Aktualisierung, um die Leute über den Status dieses Projekts zu informieren...",
+  postUpdate: "Aktualisierung posten",
+  healthPeriodConfiguration: "Veraltungskonfiguration",
+  healthPeriodDescription:
+    "Tage bis dieses Projekt als veraltet markiert wird. Nach 3 weiteren Tagen wird der Gesundheitsstatus automatisch herabgestuft (es sei denn, er ist bereits gefährdet). Auf 0 setzen, um zu deaktivieren.",
+  noHealthUpdates: "Keine Gesundheitsaktualisierungen",
+  noHealthUpdatesDescription:
+    "Gesundheitsaktualisierungen werden hier angezeigt, sobald Projekte mit verfolgtem Gesundheitsstatus aktualisiert werden.",
+  healthPeriodUpdatedSuccessfully:
+    "Veraltungszeitraum erfolgreich aktualisiert",
+  healthPeriodUpdateFailed: "Fehler beim Aktualisieren des Veraltungszeitraums",
+  deleteLatestHealthUpdateWarning:
+    "Sie sind dabei, die neueste Gesundheitsaktualisierung für dieses Projekt zu löschen. Wenn Sie fortfahren, wird der Gesundheitsstatus auf die vorherige Aktualisierung zurückgesetzt.",
+  healthStatusWasChangedTo:
+    "Der Gesundheitsstatus des Projekts wurde geändert auf",
+  healthStatusRemainedAt: "Der Gesundheitsstatus des Projekts blieb bei",
+  healthStatusWasRevertedTo:
+    "Der Gesundheitsstatus des Projekts wurde zurückgesetzt auf",
 };
 
 export default de as Translations;

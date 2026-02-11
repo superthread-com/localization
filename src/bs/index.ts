@@ -3191,6 +3191,49 @@ const bs: Translations = {
   submitAnother: "Pošalji još jedan",
   submitting: "Slanje",
   publicFormSubmission: "Javno podnošenje obrasca",
+  projectHealth: "Zdravlje projekta",
+  projectHealthUpdates: "Ažuriranja zdravlja projekta",
+  allUpdates: "Sva ažuriranja",
+  onTrack: "Na pravom putu",
+  atRisk: "Na riziku",
+  offTrack: "Van puta",
+  notExpected: "Ažuriranje nije očekivano",
+  healthStatusNeedsUpdating: "Potrebno ažuriranje",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "označio projekat kao zastario jer ažuriranje zdravlja nije bilo pruženo na vrijeme",
+  downgradedHealthStatusAutomaticallyFrom:
+    "automatski degradirao status zdravlja od",
+  revertedHealthStatusFrom: "vratio status zdravlja od",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Status zdravlja je automatski označen kao zastario, molimo objavite ažuriranje!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "Status zdravlja je automatski degradiran na",
+  healthUpdateOnly: "Samo ažuriranje zdravlja",
+  keepYourTeamInformed: "Držite vaš tim informisanim",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Podijelite ažuriranja zdravlja projekta sa vašim timom",
+  newProjectUpdate: "Novo ažuriranje projekta",
+  projectHealthUpdate: "Ažuriranje zdravlja projekta",
+  latestUpdate: "Najnovije ažuriranje",
+  viewOlderUpdates: "Prikaži starija ažuriranja",
+  hideOlderUpdates: "Sakrij starija ažuriranja",
+  previousUpdates: "Prethodna ažuriranja",
+  writeYourUpdate:
+    "Napišite kratko ažuriranje kako biste obavijestili ljude o statusu ovog projekta...",
+  postUpdate: "Objavi ažuriranje",
+  healthPeriodConfiguration: "Konfiguracija zastarelosti",
+  healthPeriodDescription:
+    "Dana dok se ovaj projekat ne označi kao zastario. Nakon 3 dodatna dana, status zdravlja se automatski degradira (osim ako je već na riziku). Postavite na 0 za onemogućavanje.",
+  noHealthUpdates: "Nema ažuriranja zdravlja",
+  noHealthUpdatesDescription:
+    "Ažuriranja zdravlja će se pojaviti ovdje kada se projekti sa praćenim statusom zdravlja ažuriraju.",
+  healthPeriodUpdatedSuccessfully: "Period zastarelosti uspješno ažuriran",
+  healthPeriodUpdateFailed: "Neuspješno ažuriranje perioda zastarelosti",
+  deleteLatestHealthUpdateWarning:
+    "Spremate se obrisati najnovije ažuriranje zdravlja za ovaj projekat. Ako nastavite, status zdravlja će se vratiti na prethodno ažuriranje.",
+  healthStatusWasChangedTo: "Status zdravlja projekta je promijenjen u",
+  healthStatusRemainedAt: "Status zdravlja projekta je ostao na",
+  healthStatusWasRevertedTo: "Status zdravlja projekta je vraćen na",
 };
 
 export default bs;

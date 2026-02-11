@@ -2965,6 +2965,45 @@ const zhHant: Translations = {
   submitAnother: "提交另一個",
   submitting: "正在提交",
   publicFormSubmission: "公開表單提交",
+  projectHealth: "專案健康狀況",
+  projectHealthUpdates: "專案健康狀況更新",
+  allUpdates: "所有更新",
+  onTrack: "進展順利",
+  atRisk: "存在風險",
+  offTrack: "進度落後",
+  notExpected: "無需更新",
+  healthStatusNeedsUpdating: "需要更新",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "因未按時提供健康狀況更新而將專案標記為過期",
+  downgradedHealthStatusAutomaticallyFrom: "自動降級健康狀況從",
+  revertedHealthStatusFrom: "恢復健康狀況從",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "健康狀況已自動標記為過期，請發佈更新！",
+  healthStatusDowngradedAutomaticallyDueToInactivity: "健康狀況已自動降級為",
+  healthUpdateOnly: "僅健康狀況更新",
+  keepYourTeamInformed: "讓團隊隨時了解情況",
+  shareProjectHealthUpdatesWithYourTeam: "與團隊分享專案健康狀況更新",
+  newProjectUpdate: "新專案更新",
+  projectHealthUpdate: "專案健康狀況更新",
+  latestUpdate: "最新更新",
+  viewOlderUpdates: "查看舊更新",
+  hideOlderUpdates: "隱藏舊更新",
+  previousUpdates: "先前的更新",
+  writeYourUpdate: "撰寫簡短更新以告知大家此專案的狀態...",
+  postUpdate: "發佈更新",
+  healthPeriodConfiguration: "過期設定",
+  healthPeriodDescription:
+    "專案被標記為過期前的天數。再過 3 天後，健康狀況將自動降級（除非已處於風險狀態）。設定為 0 以停用。",
+  noHealthUpdates: "無健康狀況更新",
+  noHealthUpdatesDescription:
+    "一旦更新了具有追蹤健康狀況的專案，健康狀況更新將顯示在此處。",
+  healthPeriodUpdatedSuccessfully: "過期期限已成功更新",
+  healthPeriodUpdateFailed: "更新過期期限失敗",
+  deleteLatestHealthUpdateWarning:
+    "您即將刪除此專案的最新健康狀況更新。如果繼續，健康狀況將恢復到之前的更新。",
+  healthStatusWasChangedTo: "項目的健康狀況已更改為",
+  healthStatusRemainedAt: "項目的健康狀況保持在",
+  healthStatusWasRevertedTo: "項目的健康狀況已恢復為",
 };
 
 export default zhHant as Translations;

@@ -2960,6 +2960,45 @@ const zhHans: Translations = {
   submitAnother: "提交另一个",
   submitting: "正在提交",
   publicFormSubmission: "公开表单提交",
+  projectHealth: "项目健康状况",
+  projectHealthUpdates: "项目健康状况更新",
+  allUpdates: "所有更新",
+  onTrack: "进展顺利",
+  atRisk: "存在风险",
+  offTrack: "进度落后",
+  notExpected: "无需更新",
+  healthStatusNeedsUpdating: "需要更新",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "因未按时提供健康状况更新而将项目标记为过期",
+  downgradedHealthStatusAutomaticallyFrom: "自动降级健康状况从",
+  revertedHealthStatusFrom: "恢复健康状况从",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "健康状况已自动标记为过期，请发布更新！",
+  healthStatusDowngradedAutomaticallyDueToInactivity: "健康状况已自动降级为",
+  healthUpdateOnly: "仅健康状况更新",
+  keepYourTeamInformed: "让团队随时了解情况",
+  shareProjectHealthUpdatesWithYourTeam: "与团队分享项目健康状况更新",
+  newProjectUpdate: "新项目更新",
+  projectHealthUpdate: "项目健康状况更新",
+  latestUpdate: "最新更新",
+  viewOlderUpdates: "查看旧更新",
+  hideOlderUpdates: "隐藏旧更新",
+  previousUpdates: "以前的更新",
+  writeYourUpdate: "撰写简短更新以告知大家此项目的状态...",
+  postUpdate: "发布更新",
+  healthPeriodConfiguration: "过期配置",
+  healthPeriodDescription:
+    "项目被标记为过期前的天数。再过 3 天后，健康状况将自动降级（除非已处于风险状态）。设置为 0 以禁用。",
+  noHealthUpdates: "无健康状况更新",
+  noHealthUpdatesDescription:
+    "一旦更新了具有跟踪健康状况的项目，健康状况更新将显示在此处。",
+  healthPeriodUpdatedSuccessfully: "过期期限已成功更新",
+  healthPeriodUpdateFailed: "更新过期期限失败",
+  deleteLatestHealthUpdateWarning:
+    "您即将删除此项目的最新健康状况更新。如果继续，健康状况将恢复到之前的更新。",
+  healthStatusWasChangedTo: "项目的健康状况已更改为",
+  healthStatusRemainedAt: "项目的健康状况保持在",
+  healthStatusWasRevertedTo: "项目的健康状况已恢复到",
 };
 
 export default zhHans as Translations;

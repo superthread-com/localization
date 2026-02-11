@@ -3104,6 +3104,49 @@ const ko: Translations = {
   submitAnother: "다른 응답 제출",
   submitting: "제출 중",
   publicFormSubmission: "공개 양식 제출",
+  projectHealth: "프로젝트 상태",
+  projectHealthUpdates: "프로젝트 상태 업데이트",
+  allUpdates: "모든 업데이트",
+  onTrack: "정상 진행 중",
+  atRisk: "위험",
+  offTrack: "일정 지연",
+  notExpected: "업데이트 예상되지 않음",
+  healthStatusNeedsUpdating: "업데이트 필요",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "제시간에 상태 업데이트가 제공되지 않아 프로젝트를 오래된 것으로 표시했습니다",
+  downgradedHealthStatusAutomaticallyFrom:
+    "상태를 자동으로 다음에서 하향 조정했습니다",
+  revertedHealthStatusFrom: "상태를 다음에서 되돌렸습니다",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "상태가 자동으로 오래된 것으로 표시되었습니다. 업데이트를 게시해 주세요!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "상태가 자동으로 다음으로 하향 조정되었습니다",
+  healthUpdateOnly: "상태 업데이트만",
+  keepYourTeamInformed: "팀에 정보 제공",
+  shareProjectHealthUpdatesWithYourTeam:
+    "프로젝트 상태 업데이트를 팀과 공유하세요",
+  newProjectUpdate: "새 프로젝트 업데이트",
+  projectHealthUpdate: "프로젝트 상태 업데이트",
+  latestUpdate: "최신 업데이트",
+  viewOlderUpdates: "이전 업데이트 보기",
+  hideOlderUpdates: "이전 업데이트 숨기기",
+  previousUpdates: "이전 업데이트",
+  writeYourUpdate:
+    "이 프로젝트의 상태를 알리기 위해 짧은 업데이트를 작성하세요...",
+  postUpdate: "업데이트 게시",
+  healthPeriodConfiguration: "만료 구성",
+  healthPeriodDescription:
+    "이 프로젝트가 오래된 것으로 표시되기까지의 일수입니다. 3일 후에는 상태가 자동으로 하향 조정됩니다(이미 위험 상태가 아닌 경우). 비활성화하려면 0으로 설정하세요.",
+  noHealthUpdates: "상태 업데이트 없음",
+  noHealthUpdatesDescription:
+    "추적된 상태가 있는 프로젝트가 업데이트되면 상태 업데이트가 여기에 표시됩니다.",
+  healthPeriodUpdatedSuccessfully: "만료 기간이 성공적으로 업데이트되었습니다",
+  healthPeriodUpdateFailed: "만료 기간 업데이트 실패",
+  deleteLatestHealthUpdateWarning:
+    "이 프로젝트의 최신 상태 업데이트를 삭제하려고 합니다. 계속하면 상태가 이전 업데이트로 되돌아갑니다.",
+  healthStatusWasChangedTo: "프로젝트의 건강 상태가 변경되었습니다",
+  healthStatusRemainedAt: "프로젝트의 건강 상태가 유지되었습니다",
+  healthStatusWasRevertedTo: "프로젝트의 건강 상태가 되돌려졌습니다",
 };
 
 export default ko as Translations;

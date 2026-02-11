@@ -3210,6 +3210,50 @@ const pl: Translations = {
   submitAnother: "Wyślij kolejną",
   submitting: "Wysyłanie",
   publicFormSubmission: "Publiczne przesłanie formularza",
+  projectHealth: "Zdrowie projektu",
+  projectHealthUpdates: "Aktualizacje zdrowia projektu",
+  allUpdates: "Wszystkie aktualizacje",
+  onTrack: "Na dobrej drodze",
+  atRisk: "Zagrożone",
+  offTrack: "Poza torem",
+  notExpected: "Aktualizacja nieoczekiwana",
+  healthStatusNeedsUpdating: "Wymaga aktualizacji",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "oznaczył projekt jako nieaktualny z powodu braku aktualizacji zdrowia na czas",
+  downgradedHealthStatusAutomaticallyFrom:
+    "automatycznie obniżył status zdrowia z",
+  revertedHealthStatusFrom: "przywrócił status zdrowia z",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Status zdrowia został automatycznie oznaczony jako nieaktualny, proszę opublikować aktualizację!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "Status zdrowia został automatycznie obniżony do",
+  healthUpdateOnly: "Tylko aktualizacja zdrowia",
+  keepYourTeamInformed: "Informuj swój zespół",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Dziel się aktualizacjami zdrowia projektu ze swoim zespołem",
+  newProjectUpdate: "Nowa aktualizacja projektu",
+  projectHealthUpdate: "Aktualizacja zdrowia projektu",
+  latestUpdate: "Najnowsza aktualizacja",
+  viewOlderUpdates: "Zobacz starsze aktualizacje",
+  hideOlderUpdates: "Ukryj starsze aktualizacje",
+  previousUpdates: "Poprzednie aktualizacje",
+  writeYourUpdate:
+    "Napisz krótką aktualizację, aby poinformować ludzi o statusie tego projektu...",
+  postUpdate: "Opublikuj aktualizację",
+  healthPeriodConfiguration: "Konfiguracja nieaktualności",
+  healthPeriodDescription:
+    "Liczba dni do oznaczenia tego projektu jako nieaktualnego. Po kolejnych 3 dniach status zdrowia zostanie automatycznie obniżony (chyba że jest już zagrożony). Ustaw 0, aby wyłączyć.",
+  noHealthUpdates: "Brak aktualizacji zdrowia",
+  noHealthUpdatesDescription:
+    "Aktualizacje zdrowia pojawią się tutaj, gdy zostaną zaktualizowane projekty ze śledzonym statusem zdrowia.",
+  healthPeriodUpdatedSuccessfully:
+    "Okres nieaktualności zaktualizowany pomyślnie",
+  healthPeriodUpdateFailed: "Nie udało się zaktualizować okresu nieaktualności",
+  deleteLatestHealthUpdateWarning:
+    "Zamierzasz usunąć najnowszą aktualizację zdrowia dla tego projektu. Jeśli kontynuujesz, status zdrowia zostanie przywrócony do poprzedniej aktualizacji.",
+  healthStatusWasChangedTo: "Status zdrowia projektu został zmieniony na",
+  healthStatusRemainedAt: "Status zdrowia projektu pozostał na",
+  healthStatusWasRevertedTo: "Status zdrowia projektu został przywrócony do",
 };
 
 export default pl as Translations;
