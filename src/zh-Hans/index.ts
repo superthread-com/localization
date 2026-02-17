@@ -2547,6 +2547,7 @@ const zhHans: Translations = {
     "您当前的页面将被来自 %{date} 的此版本替换。",
   versionSuccessfullyRestored: "版本恢复成功",
   versionRestoredBy: "版本由 %{userName} 恢复",
+  contentReplacedBy: "内容由 %{userName} 替换",
   failedToRestoreVersion: "恢复版本失败",
   currentVersion: "当前版本",
   versionLockedDescription: "请升级您的计划以查看超过 %{days} 天的版本",

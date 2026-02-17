@@ -2437,6 +2437,7 @@ export enum TranslationKeys {
   RestoreThisVersionConfirmDescription = "restoreThisVersionConfirmDescription",
   VersionSuccessfullyRestored = "versionSuccessfullyRestored",
   VersionRestoredBy = "versionRestoredBy",
+  ContentReplacedBy = "contentReplacedBy",
   FailedToRestoreVersion = "failedToRestoreVersion",
   CurrentVersion = "currentVersion",
   VersionLockedDescription = "versionLockedDescription",

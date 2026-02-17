@@ -2825,6 +2825,7 @@ const es: Translations = {
     "Esto te dará la opción de mostrar imágenes de fondo en las tarjetas. Al activar esto, se establecerá automáticamente la primera imagen de los archivos adjuntos como imagen de fondo de la tarjeta por defecto.",
   versionSuccessfullyRestored: "Versión restaurada con éxito",
   versionRestoredBy: "Versión restaurada por %{userName}",
+  contentReplacedBy: "Contenido reemplazado por %{userName}",
   currentVersion: "Versión actual",
   versionLockedDescription:
     "Por favor, actualiza tu plan para ver versiones anteriores a %{days} días",

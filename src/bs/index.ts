@@ -2760,6 +2760,7 @@ const bs: Translations = {
     "Ovo će vam dati opciju da prikažete pozadinske slike na karticama. Ako je ovo uključeno, prva slika iz privrtaka će biti postavljena kao pozadinska slika kartice po automatizmu.",
   versionSuccessfullyRestored: "Verzija uspješno vraćena",
   versionRestoredBy: "Verziju vratio %{userName}",
+  contentReplacedBy: "Sadržaj zamijenio %{userName}",
   failedToRestoreVersion: "Neuspjelo vraćanje verzije",
   removeCoverImage: "Ukloni pozadinsku sliku",
   setAsCoverImage: "Postavi kao pozadinsku sliku",
