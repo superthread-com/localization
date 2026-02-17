@@ -2782,6 +2782,7 @@ const id: Translations = {
     "Halaman saat ini akan digantikan oleh versi dari %{date}.",
   versionSuccessfullyRestored: "Versi berhasil dipulihkan",
   versionRestoredBy: "Versi dipulihkan oleh %{userName}",
+  contentReplacedBy: "Konten diganti oleh %{userName}",
   failedToRestoreVersion: "Gagal memulihkan versi",
   currentVersion: "Versi saat ini",
   versionLockedDescription:

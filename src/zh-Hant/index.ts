@@ -2552,6 +2552,7 @@ const zhHant: Translations = {
     "您目前的頁面將被來自 %{date} 的此版本取代。",
   versionSuccessfullyRestored: "版本恢復成功",
   versionRestoredBy: "版本由 %{userName} 恢復",
+  contentReplacedBy: "內容由 %{userName} 替換",
   failedToRestoreVersion: "恢復版本失敗",
   currentVersion: "當前版本",
   versionLockedDescription: "請升級您的計劃以查看超過 %{days} 天的版本",

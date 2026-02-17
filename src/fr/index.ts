@@ -2835,6 +2835,7 @@ const fr: Translations = {
     "Votre page actuelle sera remplacée par cette version du %{date}.",
   versionSuccessfullyRestored: "Version restaurée avec succès",
   versionRestoredBy: "Version restaurée par %{userName}",
+  contentReplacedBy: "Contenu remplacé par %{userName}",
   failedToRestoreVersion: "Échec de la restauration de la version",
   currentVersion: "Version actuelle",
   versionLockedDescription:

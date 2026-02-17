@@ -2763,6 +2763,7 @@ const pl: Translations = {
     "Twoja obecna strona zostanie zastąpiona tą wersją z %{date}.",
   versionSuccessfullyRestored: "Wersja przywrócona pomyślnie",
   versionRestoredBy: "Wersja przywrócona przez %{userName}",
+  contentReplacedBy: "Treść zastąpiona przez %{userName}",
   failedToRestoreVersion: "Nie udało się przywrócić wersji",
   currentVersion: "Aktualna wersja",
   versionLockedDescription:

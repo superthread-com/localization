@@ -2677,6 +2677,7 @@ const ko: Translations = {
     "현재 페이지가 %{date}의 이 버전으로 대체됩니다.",
   versionSuccessfullyRestored: "버전이 성공적으로 복원됨",
   versionRestoredBy: "%{userName}에 의해 버전 복원됨",
+  contentReplacedBy: "%{userName}에 의해 콘텐츠 교체됨",
   failedToRestoreVersion: "버전 복원 실패",
   currentVersion: "현재 버전",
   versionLockedDescription:

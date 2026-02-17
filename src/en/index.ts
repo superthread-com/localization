@@ -2740,6 +2740,7 @@ const en = {
     "Your current page will be replaced with this version from %{date}.",
   versionSuccessfullyRestored: "Version successfully restored",
   versionRestoredBy: "Version restored by %{userName}",
+  contentReplacedBy: "Content replaced by %{userName}",
   failedToRestoreVersion: "Failed to restore version",
   currentVersion: "Current version",
   versionLockedDescription:

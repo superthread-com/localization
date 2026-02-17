@@ -2807,6 +2807,7 @@ const ptBR: Translations = {
     "Sua página atual será substituída por esta versão de %{date}.",
   versionSuccessfullyRestored: "Versão restaurada com sucesso",
   versionRestoredBy: "Versão restaurada por %{userName}",
+  contentReplacedBy: "Conteúdo substituído por %{userName}",
   failedToRestoreVersion: "Falha ao restaurar versão",
   currentVersion: "Versão atual",
   versionLockedDescription:

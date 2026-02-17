@@ -2844,6 +2844,7 @@ const de: Translations = {
     "Dies gibt Ihnen die Möglichkeit, Hintergrundbilder auf Karten anzuzeigen. Wenn dies aktiviert ist, wird standardmäßig das erste Bild aus den Anhängen als Hintergrundbild der Karte festgelegt.",
   versionSuccessfullyRestored: "Version erfolgreich wiederhergestellt",
   versionRestoredBy: "Version wiederhergestellt von %{userName}",
+  contentReplacedBy: "Inhalt ersetzt von %{userName}",
   failedToRestoreVersion: "Wiederherstellung der Version fehlgeschlagen",
   removeCoverImage: "Hintergrundbild entfernen",
   setAsCoverImage: "Als Hintergrundbild festlegen",
