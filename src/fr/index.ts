@@ -3223,6 +3223,8 @@ const fr: Translations = {
     "Ce formulaire a peut-être été supprimé ou n'est plus disponible.",
   thankYou: "Merci !",
   responseSubmitted: "Votre réponse a été soumise.",
+  submitAnother: "Soumettre une autre réponse",
+  submitting: "Envoi en cours",
 };
 
 export default fr as Translations;

@@ -3211,6 +3211,8 @@ const es: Translations = {
     "Es posible que este formulario haya sido eliminado o ya no esté disponible.",
   thankYou: "¡Gracias!",
   responseSubmitted: "Tu respuesta ha sido enviada.",
+  submitAnother: "Enviar otra",
+  submitting: "Enviando",
 };
 
 export default es as Translations;

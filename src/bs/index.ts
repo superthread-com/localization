@@ -3127,6 +3127,8 @@ const bs: Translations = {
     "Ovaj obrazac je možda izbrisan ili više nije dostupan.",
   thankYou: "Hvala vam!",
   responseSubmitted: "Vaš odgovor je poslan.",
+  submitAnother: "Pošalji još jedan",
+  submitting: "Slanje",
 };
 
 export default bs;

@@ -3040,6 +3040,8 @@ const ko: Translations = {
   formNotFoundDescription: "이 양식은 삭제되었거나 더 이상 사용할 수 없습니다.",
   thankYou: "감사합니다!",
   responseSubmitted: "응답이 제출되었습니다.",
+  submitAnother: "다른 응답 제출",
+  submitting: "제출 중",
 };
 
 export default ko as Translations;

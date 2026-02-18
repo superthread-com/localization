@@ -3075,6 +3075,8 @@ const en = {
     "This form may have been deleted or is no longer available.",
   thankYou: "Thank you!",
   responseSubmitted: "Your response has been submitted.",
+  submitAnother: "Submit another",
+  submitting: "Submitting",
 };
 
 export default en as Translations;

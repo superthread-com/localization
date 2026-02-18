@@ -3228,6 +3228,8 @@ const de: Translations = {
     "Dieses Formular wurde möglicherweise gelöscht oder ist nicht mehr verfügbar.",
   thankYou: "Vielen Dank!",
   responseSubmitted: "Ihre Antwort wurde übermittelt.",
+  submitAnother: "Weitere Antwort senden",
+  submitting: "Wird gesendet",
 };
 
 export default de as Translations;
