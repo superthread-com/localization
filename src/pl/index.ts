@@ -3146,6 +3146,8 @@ const pl: Translations = {
     "Ten formularz mógł zostać usunięty lub nie jest już dostępny.",
   thankYou: "Dziękujemy!",
   responseSubmitted: "Twoja odpowiedź została przesłana.",
+  submitAnother: "Wyślij kolejną",
+  submitting: "Wysyłanie",
 };
 
 export default pl as Translations;

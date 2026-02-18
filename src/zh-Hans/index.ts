@@ -2898,6 +2898,8 @@ const zhHans: Translations = {
   formNotFoundDescription: "此表单可能已被删除或不再可用。",
   thankYou: "谢谢！",
   responseSubmitted: "您的回复已提交。",
+  submitAnother: "提交另一个",
+  submitting: "正在提交",
 };
 
 export default zhHans as Translations;

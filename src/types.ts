@@ -2730,6 +2730,8 @@ export enum TranslationKeys {
   FormNotFoundDescription = "formNotFoundDescription",
   ThankYou = "thankYou",
   ResponseSubmitted = "responseSubmitted",
+  SubmitAnother = "submitAnother",
+  Submitting = "submitting",
 }
 
 export type Translations = Record<TranslationKeys, string>;

@@ -3190,6 +3190,8 @@ const ptBR: Translations = {
     "Este formulário pode ter sido excluído ou não está mais disponível.",
   thankYou: "Obrigado!",
   responseSubmitted: "Sua resposta foi enviada.",
+  submitAnother: "Enviar outra",
+  submitting: "Enviando",
 };
 
 export default ptBR as Translations;

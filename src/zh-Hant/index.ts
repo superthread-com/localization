@@ -2903,6 +2903,8 @@ const zhHant: Translations = {
   formNotFoundDescription: "此表單可能已被刪除或不再可用。",
   thankYou: "謝謝！",
   responseSubmitted: "您的回覆已提交。",
+  submitAnother: "提交另一個",
+  submitting: "正在提交",
 };
 
 export default zhHant as Translations;

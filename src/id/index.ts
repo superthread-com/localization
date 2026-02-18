@@ -3162,6 +3162,8 @@ const id: Translations = {
     "Formulir ini mungkin telah dihapus atau tidak lagi tersedia.",
   thankYou: "Terima kasih!",
   responseSubmitted: "Tanggapan Anda telah dikirim.",
+  submitAnother: "Kirim lagi",
+  submitting: "Mengirim",
 };
 
 export default id as Translations;
