@@ -3198,6 +3198,7 @@ const bs: Translations = {
   atRisk: "Na riziku",
   offTrack: "Van puta",
   notExpected: "Ažuriranje nije očekivano",
+  stale: "Zastario",
   healthStatusNeedsUpdating: "Potrebno ažuriranje",
   markedProjectAsStaleDueToLackOfUpdate:
     "označio projekat kao zastario jer ažuriranje zdravlja nije bilo pruženo na vrijeme",

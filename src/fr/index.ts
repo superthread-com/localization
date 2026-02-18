@@ -3294,6 +3294,7 @@ const fr: Translations = {
   atRisk: "À risque",
   offTrack: "Hors piste",
   notExpected: "Aucune mise à jour attendue",
+  stale: "Obsolète",
   healthStatusNeedsUpdating: "Nécessite une mise à jour",
   markedProjectAsStaleDueToLackOfUpdate:
     "a marqué le projet comme obsolète car aucune mise à jour de santé n'a été fournie à temps",

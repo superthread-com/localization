@@ -2967,6 +2967,7 @@ const zhHans: Translations = {
   atRisk: "存在风险",
   offTrack: "进度落后",
   notExpected: "无需更新",
+  stale: "过期",
   healthStatusNeedsUpdating: "需要更新",
   markedProjectAsStaleDueToLackOfUpdate:
     "因未按时提供健康状况更新而将项目标记为过期",

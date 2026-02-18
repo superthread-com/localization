@@ -2798,6 +2798,7 @@ export enum TranslationKeys {
   AtRisk = "atRisk",
   OffTrack = "offTrack",
   NotExpected = "notExpected",
+  Stale = "stale",
   HealthStatusNeedsUpdating = "healthStatusNeedsUpdating",
   MarkedProjectAsStaleDueToLackOfUpdate = "markedProjectAsStaleDueToLackOfUpdate",
   DowngradedHealthStatusAutomaticallyFrom = "downgradedHealthStatusAutomaticallyFrom",

@@ -3233,6 +3233,7 @@ const id: Translations = {
   atRisk: "Berisiko",
   offTrack: "Keluar jalur",
   notExpected: "Tidak ada pembaruan yang diharapkan",
+  stale: "Basi",
   healthStatusNeedsUpdating: "Perlu diperbarui",
   markedProjectAsStaleDueToLackOfUpdate:
     "menandai proyek sebagai basi karena tidak ada pembaruan kesehatan yang diberikan tepat waktu",

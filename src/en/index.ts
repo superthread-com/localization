@@ -3146,6 +3146,7 @@ const en = {
   atRisk: "At risk",
   offTrack: "Off track",
   notExpected: "No update expected",
+  stale: "Stale",
   healthStatusNeedsUpdating: "Needs updating",
   markedProjectAsStaleDueToLackOfUpdate:
     "marked the project as stale because no health update was provided on time",

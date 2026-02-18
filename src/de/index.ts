@@ -3301,6 +3301,7 @@ const de: Translations = {
   atRisk: "Gefährdet",
   offTrack: "Vom Kurs abgekommen",
   notExpected: "Keine Aktualisierung erwartet",
+  stale: "Veraltet",
   healthStatusNeedsUpdating: "Aktualisierung erforderlich",
   markedProjectAsStaleDueToLackOfUpdate:
     "hat das Projekt als veraltet markiert, da keine rechtzeitige Gesundheitsaktualisierung bereitgestellt wurde",

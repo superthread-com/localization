@@ -3111,6 +3111,7 @@ const ko: Translations = {
   atRisk: "위험",
   offTrack: "일정 지연",
   notExpected: "업데이트 예상되지 않음",
+  stale: "오래됨",
   healthStatusNeedsUpdating: "업데이트 필요",
   markedProjectAsStaleDueToLackOfUpdate:
     "제시간에 상태 업데이트가 제공되지 않아 프로젝트를 오래된 것으로 표시했습니다",

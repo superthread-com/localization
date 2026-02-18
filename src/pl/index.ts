@@ -3217,6 +3217,7 @@ const pl: Translations = {
   atRisk: "Zagrożone",
   offTrack: "Poza torem",
   notExpected: "Aktualizacja nieoczekiwana",
+  stale: "Nieaktualny",
   healthStatusNeedsUpdating: "Wymaga aktualizacji",
   markedProjectAsStaleDueToLackOfUpdate:
     "oznaczył projekt jako nieaktualny z powodu braku aktualizacji zdrowia na czas",

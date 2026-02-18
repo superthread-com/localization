@@ -3262,6 +3262,7 @@ const ptBR: Translations = {
   atRisk: "Em risco",
   offTrack: "Fora do caminho",
   notExpected: "Nenhuma atualização esperada",
+  stale: "Obsoleto",
   healthStatusNeedsUpdating: "Precisa de atualização",
   markedProjectAsStaleDueToLackOfUpdate:
     "marcou o projeto como obsoleto porque nenhuma atualização de saúde foi fornecida no prazo",

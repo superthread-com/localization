@@ -3283,6 +3283,7 @@ const es: Translations = {
   atRisk: "En riesgo",
   offTrack: "Fuera de camino",
   notExpected: "No se espera actualización",
+  stale: "Obsoleto",
   healthStatusNeedsUpdating: "Necesita actualización",
   markedProjectAsStaleDueToLackOfUpdate:
     "marcó el proyecto como obsoleto porque no se proporcionó una actualización de salud a tiempo",

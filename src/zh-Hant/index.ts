@@ -2972,6 +2972,7 @@ const zhHant: Translations = {
   atRisk: "存在風險",
   offTrack: "進度落後",
   notExpected: "無需更新",
+  stale: "過期",
   healthStatusNeedsUpdating: "需要更新",
   markedProjectAsStaleDueToLackOfUpdate:
     "因未按時提供健康狀況更新而將專案標記為過期",
