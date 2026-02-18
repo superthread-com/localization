@@ -3218,6 +3218,11 @@ const fr: Translations = {
   itemsSelected: "%{count} sélectionnés",
   cardPropertyAlreadyAddedToForm:
     "La propriété de carte a déjà été ajoutée au formulaire",
+  formNotFound: "Formulaire introuvable",
+  formNotFoundDescription:
+    "Ce formulaire a peut-être été supprimé ou n'est plus disponible.",
+  thankYou: "Merci !",
+  responseSubmitted: "Votre réponse a été soumise.",
 };
 
 export default fr as Translations;

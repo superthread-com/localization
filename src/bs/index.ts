@@ -3122,6 +3122,11 @@ const bs: Translations = {
   selectOptions: "Odaberite opcije",
   itemsSelected: "%{count} odabrano",
   cardPropertyAlreadyAddedToForm: "Svojstvo kartice je već dodano u obrazac",
+  formNotFound: "Obrazac nije pronađen",
+  formNotFoundDescription:
+    "Ovaj obrazac je možda izbrisan ili više nije dostupan.",
+  thankYou: "Hvala vam!",
+  responseSubmitted: "Vaš odgovor je poslan.",
 };
 
 export default bs;

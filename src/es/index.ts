@@ -3206,6 +3206,11 @@ const es: Translations = {
   itemsSelected: "%{count} seleccionados",
   cardPropertyAlreadyAddedToForm:
     "La propiedad de la tarjeta ya se ha añadido al formulario",
+  formNotFound: "Formulario no encontrado",
+  formNotFoundDescription:
+    "Es posible que este formulario haya sido eliminado o ya no esté disponible.",
+  thankYou: "¡Gracias!",
+  responseSubmitted: "Tu respuesta ha sido enviada.",
 };
 
 export default es as Translations;

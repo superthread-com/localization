@@ -3157,6 +3157,11 @@ const id: Translations = {
   itemsSelected: "%{count} dipilih",
   cardPropertyAlreadyAddedToForm:
     "Properti kartu sudah ditambahkan ke formulir",
+  formNotFound: "Formulir tidak ditemukan",
+  formNotFoundDescription:
+    "Formulir ini mungkin telah dihapus atau tidak lagi tersedia.",
+  thankYou: "Terima kasih!",
+  responseSubmitted: "Tanggapan Anda telah dikirim.",
 };
 
 export default id as Translations;

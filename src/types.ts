@@ -2726,6 +2726,10 @@ export enum TranslationKeys {
   SelectOptions = "selectOptions",
   ItemsSelected = "itemsSelected",
   CardPropertyAlreadyAddedToForm = "cardPropertyAlreadyAddedToForm",
+  FormNotFound = "formNotFound",
+  FormNotFoundDescription = "formNotFoundDescription",
+  ThankYou = "thankYou",
+  ResponseSubmitted = "responseSubmitted",
 }
 
 export type Translations = Record<TranslationKeys, string>;

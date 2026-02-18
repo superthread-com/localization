@@ -3141,6 +3141,11 @@ const pl: Translations = {
   itemsSelected: "%{count} wybranych",
   cardPropertyAlreadyAddedToForm:
     "Właściwość karty została już dodana do formularza",
+  formNotFound: "Nie znaleziono formularza",
+  formNotFoundDescription:
+    "Ten formularz mógł zostać usunięty lub nie jest już dostępny.",
+  thankYou: "Dziękujemy!",
+  responseSubmitted: "Twoja odpowiedź została przesłana.",
 };
 
 export default pl as Translations;

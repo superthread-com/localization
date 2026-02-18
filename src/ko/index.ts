@@ -3036,6 +3036,10 @@ const ko: Translations = {
   selectOptions: "옵션 선택",
   itemsSelected: "%{count}개 선택됨",
   cardPropertyAlreadyAddedToForm: "카드 속성이 이미 양식에 추가되었습니다",
+  formNotFound: "양식을 찾을 수 없습니다",
+  formNotFoundDescription: "이 양식은 삭제되었거나 더 이상 사용할 수 없습니다.",
+  thankYou: "감사합니다!",
+  responseSubmitted: "응답이 제출되었습니다.",
 };
 
 export default ko as Translations;

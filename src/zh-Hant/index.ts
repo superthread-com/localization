@@ -2899,6 +2899,10 @@ const zhHant: Translations = {
   selectOptions: "選擇選項",
   itemsSelected: "已選擇 %{count} 項",
   cardPropertyAlreadyAddedToForm: "該卡片屬性已新增到表單中",
+  formNotFound: "找不到表單",
+  formNotFoundDescription: "此表單可能已被刪除或不再可用。",
+  thankYou: "謝謝！",
+  responseSubmitted: "您的回覆已提交。",
 };
 
 export default zhHant as Translations;
