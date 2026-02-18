@@ -3185,6 +3185,11 @@ const ptBR: Translations = {
   itemsSelected: "%{count} selecionados",
   cardPropertyAlreadyAddedToForm:
     "A propriedade do cartão já foi adicionada ao formulário",
+  formNotFound: "Formulário não encontrado",
+  formNotFoundDescription:
+    "Este formulário pode ter sido excluído ou não está mais disponível.",
+  thankYou: "Obrigado!",
+  responseSubmitted: "Sua resposta foi enviada.",
 };
 
 export default ptBR as Translations;

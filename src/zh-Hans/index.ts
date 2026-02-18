@@ -2894,6 +2894,10 @@ const zhHans: Translations = {
   selectOptions: "选择选项",
   itemsSelected: "已选择 %{count} 项",
   cardPropertyAlreadyAddedToForm: "该卡片属性已添加到表单中",
+  formNotFound: "未找到表单",
+  formNotFoundDescription: "此表单可能已被删除或不再可用。",
+  thankYou: "谢谢！",
+  responseSubmitted: "您的回复已提交。",
 };
 
 export default zhHans as Translations;

@@ -3070,6 +3070,11 @@ const en = {
   selectOptions: "Select options",
   itemsSelected: "%{count} selected",
   cardPropertyAlreadyAddedToForm: "Card property already added to form",
+  formNotFound: "Form not found",
+  formNotFoundDescription:
+    "This form may have been deleted or is no longer available.",
+  thankYou: "Thank you!",
+  responseSubmitted: "Your response has been submitted.",
 };
 
 export default en as Translations;
