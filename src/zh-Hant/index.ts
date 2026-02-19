@@ -2905,6 +2905,5 @@ const zhHant: Translations = {
   responseSubmitted: "您的回覆已提交。",
   submitAnother: "提交另一個",
   submitting: "正在提交",
+  publicFormSubmission: "公開表單提交",
 };
-
-export default zhHant as Translations;

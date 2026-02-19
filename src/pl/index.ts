@@ -3148,6 +3148,7 @@ const pl: Translations = {
   responseSubmitted: "Twoja odpowiedź została przesłana.",
   submitAnother: "Wyślij kolejną",
   submitting: "Wysyłanie",
+  publicFormSubmission: "Publiczne przesłanie formularza",
 };
 
 export default pl as Translations;

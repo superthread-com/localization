@@ -3225,6 +3225,7 @@ const fr: Translations = {
   responseSubmitted: "Votre réponse a été soumise.",
   submitAnother: "Soumettre une autre réponse",
   submitting: "Envoi en cours",
+  publicFormSubmission: "Soumission de formulaire public",
 };
 
 export default fr as Translations;

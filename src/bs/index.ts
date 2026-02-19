@@ -3129,6 +3129,7 @@ const bs: Translations = {
   responseSubmitted: "Vaš odgovor je poslan.",
   submitAnother: "Pošalji još jedan",
   submitting: "Slanje",
+  publicFormSubmission: "Javno podnošenje obrasca",
 };
 
 export default bs;

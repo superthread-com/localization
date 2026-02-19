@@ -3230,6 +3230,7 @@ const de: Translations = {
   responseSubmitted: "Ihre Antwort wurde übermittelt.",
   submitAnother: "Weitere Antwort senden",
   submitting: "Wird gesendet",
+  publicFormSubmission: "Öffentliche Formulareinreichung",
 };
 
 export default de as Translations;
