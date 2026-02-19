@@ -2902,3 +2902,5 @@ const zhHans: Translations = {
   submitting: "正在提交",
   publicFormSubmission: "公开表单提交",
 };
+
+export default zhHans as Translations;

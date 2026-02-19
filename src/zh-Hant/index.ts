@@ -2907,3 +2907,5 @@ const zhHant: Translations = {
   submitting: "正在提交",
   publicFormSubmission: "公開表單提交",
 };
+
+export default zhHant as Translations;

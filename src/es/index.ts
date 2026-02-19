@@ -3215,3 +3215,5 @@ const es: Translations = {
   submitting: "Enviando",
   publicFormSubmission: "Envío de formulario público",
 };
+
+export default es as Translations;
