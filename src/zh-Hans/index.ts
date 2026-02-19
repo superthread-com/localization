@@ -2900,6 +2900,7 @@ const zhHans: Translations = {
   responseSubmitted: "您的回复已提交。",
   submitAnother: "提交另一个",
   submitting: "正在提交",
+  publicFormSubmission: "公开表单提交",
 };
 
 export default zhHans as Translations;

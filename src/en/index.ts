@@ -3077,6 +3077,7 @@ const en = {
   responseSubmitted: "Your response has been submitted.",
   submitAnother: "Submit another",
   submitting: "Submitting",
+  publicFormSubmission: "Public form submission",
 };
 
 export default en as Translations;

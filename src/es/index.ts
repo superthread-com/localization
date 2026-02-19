@@ -3213,6 +3213,7 @@ const es: Translations = {
   responseSubmitted: "Tu respuesta ha sido enviada.",
   submitAnother: "Enviar otra",
   submitting: "Enviando",
+  publicFormSubmission: "Envío de formulario público",
 };
 
 export default es as Translations;

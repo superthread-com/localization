@@ -3192,6 +3192,7 @@ const ptBR: Translations = {
   responseSubmitted: "Sua resposta foi enviada.",
   submitAnother: "Enviar outra",
   submitting: "Enviando",
+  publicFormSubmission: "Envio de formulário público",
 };
 
 export default ptBR as Translations;

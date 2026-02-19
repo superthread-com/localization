@@ -3164,6 +3164,7 @@ const id: Translations = {
   responseSubmitted: "Tanggapan Anda telah dikirim.",
   submitAnother: "Kirim lagi",
   submitting: "Mengirim",
+  publicFormSubmission: "Pengiriman formulir publik",
 };
 
 export default id as Translations;

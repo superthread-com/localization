@@ -3042,6 +3042,7 @@ const ko: Translations = {
   responseSubmitted: "응답이 제출되었습니다.",
   submitAnother: "다른 응답 제출",
   submitting: "제출 중",
+  publicFormSubmission: "공개 양식 제출",
 };
 
 export default ko as Translations;
