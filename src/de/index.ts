@@ -2386,7 +2386,8 @@ const de: Translations = {
   agentSkill: "Fähigkeit",
   agentRepository: "Repository",
   agentRepositoryPlaceholder: "https://github.com/org/repo",
-  agentInvalidRepositoryError: "Bitte geben Sie eine gültige Repository-URL ein.",
+  agentInvalidRepositoryError:
+    "Bitte geben Sie eine gültige Repository-URL ein.",
   agentRefOptional: "Ref (optional)",
   agentTarget: "Ziel",
   agentAutoCreatePr: "PR automatisch erstellen",
@@ -2413,7 +2414,8 @@ const de: Translations = {
   agentAttachmentAttachedBy: "Angehängt von",
   agentDetach: "Trennen",
   agentAddAgent: "Agent hinzufügen",
-  agentAddAgentDescription: "Erstellen Sie eine neue Cursor Cloud Agent-Vorlage.",
+  agentAddAgentDescription:
+    "Erstellen Sie eine neue Cursor Cloud Agent-Vorlage.",
   agents: "Agenten",
   agentNewAgent: "Neuer Agent",
   agentUpdateAgent: "Agent aktualisieren",

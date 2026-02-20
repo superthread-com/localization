@@ -2161,8 +2161,7 @@ const zhHant: Translations = {
   agentBranchNameOptional: "分支名稱（選填）",
   agentApiKey: "API金鑰",
   agentApiKeyPlaceholder: "Cursor API金鑰",
-  agentApiKeyHelpText:
-    "在後端加密儲存。更新時留空以保留現有金鑰。",
+  agentApiKeyHelpText: "在後端加密儲存。更新時留空以保留現有金鑰。",
   agentCustomInstructionsOptional: "自訂指令（選填）",
   agentCustomInstructionsPlaceholder:
     "描述此代理應如何運作。這些指令會加在每個提示的前面。",
@@ -2184,8 +2183,7 @@ const zhHant: Translations = {
   agentNewAgent: "新建代理",
   agentUpdateAgent: "更新代理",
   agentDeleteAgent: "刪除代理",
-  agentDeleteConfirmation:
-    "您確定要刪除此代理嗎？此操作無法復原。",
+  agentDeleteConfirmation: "您確定要刪除此代理嗎？此操作無法復原。",
   agentCreatedSuccessfully: "代理建立成功。",
   agentUpdatedSuccessfully: "代理更新成功。",
   agentDeletedSuccessfully: "代理刪除成功。",

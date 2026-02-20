@@ -2159,8 +2159,7 @@ const zhHans: Translations = {
   agentBranchNameOptional: "分支名称（可选）",
   agentApiKey: "API密钥",
   agentApiKeyPlaceholder: "Cursor API密钥",
-  agentApiKeyHelpText:
-    "在后端加密存储。更新时留空以保留现有密钥。",
+  agentApiKeyHelpText: "在后端加密存储。更新时留空以保留现有密钥。",
   agentCustomInstructionsOptional: "自定义指令（可选）",
   agentCustomInstructionsPlaceholder:
     "描述此代理应如何行为。这些指令会添加到每个提示的前面。",
@@ -2182,8 +2181,7 @@ const zhHans: Translations = {
   agentNewAgent: "新建代理",
   agentUpdateAgent: "更新代理",
   agentDeleteAgent: "删除代理",
-  agentDeleteConfirmation:
-    "您确定要删除此代理吗？此操作无法撤销。",
+  agentDeleteConfirmation: "您确定要删除此代理吗？此操作无法撤销。",
   agentCreatedSuccessfully: "代理创建成功。",
   agentUpdatedSuccessfully: "代理更新成功。",
   agentDeletedSuccessfully: "代理删除成功。",

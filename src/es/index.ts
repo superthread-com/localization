@@ -2374,7 +2374,8 @@ const es: Translations = {
   agentSkill: "Habilidad",
   agentRepository: "Repositorio",
   agentRepositoryPlaceholder: "https://github.com/org/repo",
-  agentInvalidRepositoryError: "Por favor, introduce una URL de repositorio válida.",
+  agentInvalidRepositoryError:
+    "Por favor, introduce una URL de repositorio válida.",
   agentRefOptional: "Ref (opcional)",
   agentTarget: "Destino",
   agentAutoCreatePr: "Crear PR automáticamente",
