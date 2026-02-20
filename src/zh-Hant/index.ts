@@ -2965,6 +2965,9 @@ const zhHant: Translations = {
   submitAnother: "提交另一個",
   submitting: "正在提交",
   publicFormSubmission: "公開表單提交",
+  regenerateUrlForForm: "重新產生 %{formName} 的公開連結",
+  regenerateUrlForFormDescription:
+    "這將使目前的公開連結失效。使用現有連結的任何人將無法再存取此表單。",
 };
 
 export default zhHant as Translations;

@@ -3294,6 +3294,9 @@ const de: Translations = {
   submitAnother: "Weitere Antwort senden",
   submitting: "Wird gesendet",
   publicFormSubmission: "Öffentliche Formulareinreichung",
+  regenerateUrlForForm: "Öffentliche URL für %{formName} neu generieren",
+  regenerateUrlForFormDescription:
+    "Dadurch wird die aktuelle öffentliche URL ungültig. Personen, die den bestehenden Link verwenden, können nicht mehr auf dieses Formular zugreifen.",
 };
 
 export default de as Translations;

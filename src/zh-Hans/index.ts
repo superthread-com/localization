@@ -2960,6 +2960,9 @@ const zhHans: Translations = {
   submitAnother: "提交另一个",
   submitting: "正在提交",
   publicFormSubmission: "公开表单提交",
+  regenerateUrlForForm: "重新生成 %{formName} 的公开链接",
+  regenerateUrlForFormDescription:
+    "这将使当前的公开链接失效。使用现有链接的任何人将无法再访问此表单。",
 };
 
 export default zhHans as Translations;

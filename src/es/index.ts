@@ -3276,6 +3276,9 @@ const es: Translations = {
   submitAnother: "Enviar otra",
   submitting: "Enviando",
   publicFormSubmission: "Envío de formulario público",
+  regenerateUrlForForm: "Regenerar URL pública para %{formName}",
+  regenerateUrlForFormDescription:
+    "Esto invalidará la URL pública actual. Cualquier persona que utilice el enlace existente ya no podrá acceder a este formulario.",
 };
 
 export default es as Translations;

@@ -2791,6 +2791,8 @@ export enum TranslationKeys {
   SubmitAnother = "submitAnother",
   Submitting = "submitting",
   PublicFormSubmission = "publicFormSubmission",
+  RegenerateUrlForForm = "regenerateUrlForForm",
+  RegenerateUrlForFormDescription = "regenerateUrlForFormDescription",
 }
 
 export type Translations = Record<TranslationKeys, string>;

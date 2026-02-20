@@ -3226,6 +3226,9 @@ const id: Translations = {
   submitAnother: "Kirim lagi",
   submitting: "Mengirim",
   publicFormSubmission: "Pengiriman formulir publik",
+  regenerateUrlForForm: "Buat ulang URL publik untuk %{formName}",
+  regenerateUrlForFormDescription:
+    "Ini akan membatalkan URL publik saat ini. Siapa pun yang menggunakan tautan yang ada tidak akan dapat mengakses formulir ini lagi.",
 };
 
 export default id as Translations;

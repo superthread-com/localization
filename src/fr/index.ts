@@ -3287,6 +3287,9 @@ const fr: Translations = {
   submitAnother: "Soumettre une autre réponse",
   submitting: "Envoi en cours",
   publicFormSubmission: "Soumission de formulaire public",
+  regenerateUrlForForm: "Régénérer l'URL publique pour %{formName}",
+  regenerateUrlForFormDescription:
+    "Cela invalidera l'URL publique actuelle. Toute personne utilisant le lien existant ne pourra plus accéder à ce formulaire.",
 };
 
 export default fr as Translations;
