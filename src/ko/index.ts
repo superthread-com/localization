@@ -3107,6 +3107,7 @@ const ko: Translations = {
   regenerateUrlForForm: "%{formName}의 공개 URL 재생성",
   regenerateUrlForFormDescription:
     "현재 공개 URL이 무효화됩니다. 기존 링크를 사용하는 사람은 더 이상 이 양식에 접근할 수 없습니다.",
+  formUrlRegenerated: "양식 URL이 재생성되었습니다",
 };
 
 export default ko as Translations;

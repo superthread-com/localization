@@ -3229,6 +3229,7 @@ const id: Translations = {
   regenerateUrlForForm: "Buat ulang URL publik untuk %{formName}",
   regenerateUrlForFormDescription:
     "Ini akan membatalkan URL publik saat ini. Siapa pun yang menggunakan tautan yang ada tidak akan dapat mengakses formulir ini lagi.",
+  formUrlRegenerated: "URL formulir telah dibuat ulang",
 };
 
 export default id as Translations;

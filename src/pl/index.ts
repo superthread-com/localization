@@ -3213,6 +3213,7 @@ const pl: Translations = {
   regenerateUrlForForm: "Wygeneruj ponownie publiczny URL dla %{formName}",
   regenerateUrlForFormDescription:
     "Spowoduje to unieważnienie bieżącego publicznego adresu URL. Osoby korzystające z istniejącego linku nie będą już mogły uzyskać dostępu do tego formularza.",
+  formUrlRegenerated: "Adres URL formularza został wygenerowany ponownie",
 };
 
 export default pl as Translations;

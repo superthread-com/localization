@@ -3142,6 +3142,7 @@ const en = {
   regenerateUrlForForm: "Regenerate public URL for %{formName}",
   regenerateUrlForFormDescription:
     "This will invalidate the current public URL. Anyone using the existing link will no longer be able to access this form.",
+  formUrlRegenerated: "Form URL regenerated",
 };
 
 export default en as Translations;
