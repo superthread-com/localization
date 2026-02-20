@@ -3148,6 +3148,10 @@ const ko: Translations = {
   healthStatusWasChangedTo: "프로젝트의 건강 상태가 변경되었습니다",
   healthStatusRemainedAt: "프로젝트의 건강 상태가 유지되었습니다",
   healthStatusWasRevertedTo: "프로젝트의 건강 상태가 되돌려졌습니다",
+  regenerateUrlForForm: "%{formName}의 공개 URL 재생성",
+  regenerateUrlForFormDescription:
+    "현재 공개 URL이 무효화됩니다. 기존 링크를 사용하는 사람은 더 이상 이 양식에 접근할 수 없습니다.",
+  formUrlRegenerated: "양식 URL이 재생성되었습니다",
 };
 
 export default ko as Translations;

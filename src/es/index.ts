@@ -3321,6 +3321,10 @@ const es: Translations = {
   healthStatusWasChangedTo: "El estado de salud del proyecto se cambió a",
   healthStatusRemainedAt: "El estado de salud del proyecto se mantuvo en",
   healthStatusWasRevertedTo: "El estado de salud del proyecto fue revertido a",
+  regenerateUrlForForm: "Regenerar URL pública para %{formName}",
+  regenerateUrlForFormDescription:
+    "Esto invalidará la URL pública actual. Cualquier persona que utilice el enlace existente ya no podrá acceder a este formulario.",
+  formUrlRegenerated: "URL del formulario regenerada",
 };
 
 export default es as Translations;

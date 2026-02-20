@@ -3005,6 +3005,10 @@ const zhHant: Translations = {
   healthStatusWasChangedTo: "項目的健康狀況已更改為",
   healthStatusRemainedAt: "項目的健康狀況保持在",
   healthStatusWasRevertedTo: "項目的健康狀況已恢復為",
+  regenerateUrlForForm: "重新產生 %{formName} 的公開連結",
+  regenerateUrlForFormDescription:
+    "這將使目前的公開連結失效。使用現有連結的任何人將無法再存取此表單。",
+  formUrlRegenerated: "表單連結已重新產生",
 };
 
 export default zhHant as Translations;

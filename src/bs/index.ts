@@ -3235,6 +3235,10 @@ const bs: Translations = {
   healthStatusWasChangedTo: "Status zdravlja projekta je promijenjen u",
   healthStatusRemainedAt: "Status zdravlja projekta je ostao na",
   healthStatusWasRevertedTo: "Status zdravlja projekta je vraćen na",
+  regenerateUrlForForm: "Regeneriši javni URL za %{formName}",
+  regenerateUrlForFormDescription:
+    "Ovo će poništiti trenutni javni URL. Svako ko koristi postojeći link više neće moći pristupiti ovom obrascu.",
+  formUrlRegenerated: "URL obrasca je regenerisan",
 };
 
 export default bs;

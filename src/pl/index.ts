@@ -3255,6 +3255,10 @@ const pl: Translations = {
   healthStatusWasChangedTo: "Status zdrowia projektu został zmieniony na",
   healthStatusRemainedAt: "Status zdrowia projektu pozostał na",
   healthStatusWasRevertedTo: "Status zdrowia projektu został przywrócony do",
+  regenerateUrlForForm: "Wygeneruj ponownie publiczny URL dla %{formName}",
+  regenerateUrlForFormDescription:
+    "Spowoduje to unieważnienie bieżącego publicznego adresu URL. Osoby korzystające z istniejącego linku nie będą już mogły uzyskać dostępu do tego formularza.",
+  formUrlRegenerated: "Adres URL formularza został wygenerowany ponownie",
 };
 
 export default pl as Translations;

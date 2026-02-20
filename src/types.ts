@@ -2826,6 +2826,9 @@ export enum TranslationKeys {
   HealthStatusWasChangedTo = "healthStatusWasChangedTo",
   HealthStatusRemainedAt = "healthStatusRemainedAt",
   HealthStatusWasRevertedTo = "healthStatusWasRevertedTo",
+  RegenerateUrlForForm = "regenerateUrlForForm",
+  RegenerateUrlForFormDescription = "regenerateUrlForFormDescription",
+  FormUrlRegenerated = "formUrlRegenerated",
 }
 
 export type Translations = Record<TranslationKeys, string>;
