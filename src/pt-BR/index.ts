@@ -3255,6 +3255,51 @@ const ptBR: Translations = {
   submitAnother: "Enviar outra",
   submitting: "Enviando",
   publicFormSubmission: "Envio de formulário público",
+  projectHealth: "Saúde do projeto",
+  projectHealthUpdates: "Atualizações de saúde do projeto",
+  allUpdates: "Todas as atualizações",
+  onTrack: "No caminho certo",
+  atRisk: "Em risco",
+  offTrack: "Fora do caminho",
+  notExpected: "Nenhuma atualização esperada",
+  stale: "Obsoleto",
+  healthStatusNeedsUpdating: "Precisa de atualização",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "marcou o projeto como obsoleto porque nenhuma atualização de saúde foi fornecida no prazo",
+  downgradedHealthStatusAutomaticallyFrom:
+    "rebaixou automaticamente o status de saúde de",
+  revertedHealthStatusFrom: "reverteu o status de saúde de",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "O status de saúde foi marcado como obsoleto automaticamente, por favor publique uma atualização!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "O status de saúde foi automaticamente rebaixado para",
+  healthUpdateOnly: "Apenas atualização de saúde",
+  keepYourTeamInformed: "Mantenha sua equipe informada",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Compartilhe atualizações de saúde do projeto com sua equipe",
+  newProjectUpdate: "Nova atualização do projeto",
+  projectHealthUpdate: "Atualização de saúde do projeto",
+  latestUpdate: "Última atualização",
+  viewOlderUpdates: "Ver atualizações antigas",
+  hideOlderUpdates: "Ocultar atualizações antigas",
+  previousUpdates: "Atualizações anteriores",
+  writeYourUpdate:
+    "Escreva uma breve atualização para informar as pessoas sobre o status deste projeto...",
+  postUpdate: "Publicar atualização",
+  healthPeriodConfiguration: "Frequência de atualização",
+  healthPeriodDescription:
+    "Defina com que frequência este projeto deve ser atualizado. Perder uma atualização marcará a saúde como obsoleta. Defina como 0 para desativar.",
+  noHealthUpdates: "Sem Atualizações de Saúde",
+  noHealthUpdatesDescription:
+    "Nenhuma atualização para exibir. Atualizações de saúde recentes de projetos ativos aparecerão aqui. Tente ajustar seus filtros para ver mais.",
+  healthPeriodUpdatedSuccessfully:
+    "Período de obsolescência atualizado com sucesso",
+  healthPeriodUpdateFailed: "Falha ao atualizar o período de obsolescência",
+  deleteLatestHealthUpdateWarning:
+    "Você está prestes a excluir a última atualização de saúde deste projeto. Se continuar, o status de saúde será revertido para a atualização anterior.",
+  healthStatusWasChangedTo: "O status de saúde do projeto foi alterado para",
+  healthStatusRemainedAt: "O status de saúde do projeto permaneceu em",
+  healthStatusWasRevertedTo: "O status de saúde do projeto foi revertido para",
   regenerateUrlForForm: "Regenerar URL pública para %{formName}",
   regenerateUrlForFormDescription:
     "Isso invalidará a URL pública atual. Qualquer pessoa que esteja usando o link existente não poderá mais acessar este formulário.",

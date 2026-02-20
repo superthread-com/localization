@@ -3294,6 +3294,53 @@ const de: Translations = {
   submitAnother: "Weitere Antwort senden",
   submitting: "Wird gesendet",
   publicFormSubmission: "Öffentliche Formulareinreichung",
+  projectHealth: "Projektgesundheit",
+  projectHealthUpdates: "Projektgesundheitsaktualisierungen",
+  allUpdates: "Alle Aktualisierungen",
+  onTrack: "Auf Kurs",
+  atRisk: "Gefährdet",
+  offTrack: "Vom Kurs abgekommen",
+  notExpected: "Keine Aktualisierung erwartet",
+  stale: "Veraltet",
+  healthStatusNeedsUpdating: "Aktualisierung erforderlich",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "hat das Projekt als veraltet markiert, da keine rechtzeitige Gesundheitsaktualisierung bereitgestellt wurde",
+  downgradedHealthStatusAutomaticallyFrom:
+    "hat den Gesundheitsstatus automatisch herabgestuft von",
+  revertedHealthStatusFrom: "hat den Gesundheitsstatus zurückgesetzt von",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Der Gesundheitsstatus wurde automatisch als veraltet markiert, bitte posten Sie eine Aktualisierung!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "Der Gesundheitsstatus wurde automatisch herabgestuft auf",
+  healthUpdateOnly: "Nur Gesundheitsaktualisierung",
+  keepYourTeamInformed: "Halten Sie Ihr Team informiert",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Teilen Sie Projektgesundheitsaktualisierungen mit Ihrem Team",
+  newProjectUpdate: "Neue Projektaktualisierung",
+  projectHealthUpdate: "Projektgesundheitsaktualisierung",
+  latestUpdate: "Neueste Aktualisierung",
+  viewOlderUpdates: "Ältere Aktualisierungen anzeigen",
+  hideOlderUpdates: "Ältere Aktualisierungen ausblenden",
+  previousUpdates: "Vorherige Aktualisierungen",
+  writeYourUpdate:
+    "Schreiben Sie eine kurze Aktualisierung, um die Leute über den Status dieses Projekts zu informieren...",
+  postUpdate: "Aktualisierung posten",
+  healthPeriodConfiguration: "Aktualisierungshäufigkeit",
+  healthPeriodDescription:
+    "Legen Sie fest, wie oft dieses Projekt aktualisiert werden soll. Eine verpasste Aktualisierung markiert die Gesundheit als veraltet. Auf 0 setzen, um zu deaktivieren.",
+  noHealthUpdates: "Keine Gesundheitsaktualisierungen",
+  noHealthUpdatesDescription:
+    "Keine Aktualisierungen zum Anzeigen. Aktuelle Gesundheitsaktualisierungen von aktiven Projekten werden hier angezeigt. Versuchen Sie, Ihre Filter anzupassen, um mehr zu sehen.",
+  healthPeriodUpdatedSuccessfully:
+    "Veraltungszeitraum erfolgreich aktualisiert",
+  healthPeriodUpdateFailed: "Fehler beim Aktualisieren des Veraltungszeitraums",
+  deleteLatestHealthUpdateWarning:
+    "Sie sind dabei, die neueste Gesundheitsaktualisierung für dieses Projekt zu löschen. Wenn Sie fortfahren, wird der Gesundheitsstatus auf die vorherige Aktualisierung zurückgesetzt.",
+  healthStatusWasChangedTo:
+    "Der Gesundheitsstatus des Projekts wurde geändert auf",
+  healthStatusRemainedAt: "Der Gesundheitsstatus des Projekts blieb bei",
+  healthStatusWasRevertedTo:
+    "Der Gesundheitsstatus des Projekts wurde zurückgesetzt auf",
   regenerateUrlForForm: "Öffentliche URL für %{formName} neu generieren",
   regenerateUrlForFormDescription:
     "Dadurch wird die aktuelle öffentliche URL ungültig. Personen, die den bestehenden Link verwenden, können nicht mehr auf dieses Formular zugreifen.",

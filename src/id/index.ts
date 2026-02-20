@@ -3226,6 +3226,50 @@ const id: Translations = {
   submitAnother: "Kirim lagi",
   submitting: "Mengirim",
   publicFormSubmission: "Pengiriman formulir publik",
+  projectHealth: "Kesehatan proyek",
+  projectHealthUpdates: "Pembaruan kesehatan proyek",
+  allUpdates: "Semua pembaruan",
+  onTrack: "Sesuai jalur",
+  atRisk: "Berisiko",
+  offTrack: "Keluar jalur",
+  notExpected: "Tidak ada pembaruan yang diharapkan",
+  stale: "Basi",
+  healthStatusNeedsUpdating: "Perlu diperbarui",
+  markedProjectAsStaleDueToLackOfUpdate:
+    "menandai proyek sebagai basi karena tidak ada pembaruan kesehatan yang diberikan tepat waktu",
+  downgradedHealthStatusAutomaticallyFrom:
+    "menurunkan status kesehatan secara otomatis dari",
+  revertedHealthStatusFrom: "mengembalikan status kesehatan dari",
+  healthStatusMarkedStaleAutomaticallyPleaseUpdate:
+    "Status kesehatan ditandai sebagai basi secara otomatis, harap posting pembaruan!",
+  healthStatusDowngradedAutomaticallyDueToInactivity:
+    "Status kesehatan secara otomatis diturunkan ke",
+  healthUpdateOnly: "Hanya pembaruan kesehatan",
+  keepYourTeamInformed: "Beri tahu tim Anda",
+  shareProjectHealthUpdatesWithYourTeam:
+    "Bagikan pembaruan kesehatan proyek dengan tim Anda",
+  newProjectUpdate: "Pembaruan proyek baru",
+  projectHealthUpdate: "Pembaruan kesehatan proyek",
+  latestUpdate: "Pembaruan terbaru",
+  viewOlderUpdates: "Lihat pembaruan lama",
+  hideOlderUpdates: "Sembunyikan pembaruan lama",
+  previousUpdates: "Pembaruan sebelumnya",
+  writeYourUpdate:
+    "Tulis pembaruan singkat untuk memberi tahu orang-orang tentang status proyek ini...",
+  postUpdate: "Posting pembaruan",
+  healthPeriodConfiguration: "Frekuensi pembaruan",
+  healthPeriodDescription:
+    "Atur seberapa sering proyek ini harus diperbarui. Melewatkan pembaruan akan menandai kesehatan sebagai basi. Setel ke 0 untuk menonaktifkan.",
+  noHealthUpdates: "Tidak Ada Pembaruan Kesehatan",
+  noHealthUpdatesDescription:
+    "Tidak ada pembaruan untuk ditampilkan. Pembaruan kesehatan terbaru dari proyek aktif akan muncul di sini. Coba sesuaikan filter Anda untuk melihat lebih banyak.",
+  healthPeriodUpdatedSuccessfully: "Periode keusangan berhasil diperbarui",
+  healthPeriodUpdateFailed: "Gagal memperbarui periode keusangan",
+  deleteLatestHealthUpdateWarning:
+    "Anda akan menghapus pembaruan kesehatan terbaru untuk proyek ini. Jika Anda melanjutkan, status kesehatan akan dikembalikan ke pembaruan sebelumnya.",
+  healthStatusWasChangedTo: "Status kesehatan proyek telah diubah menjadi",
+  healthStatusRemainedAt: "Status kesehatan proyek tetap pada",
+  healthStatusWasRevertedTo: "Status kesehatan proyek telah dikembalikan ke",
   regenerateUrlForForm: "Buat ulang URL publik untuk %{formName}",
   regenerateUrlForFormDescription:
     "Ini akan membatalkan URL publik saat ini. Siapa pun yang menggunakan tautan yang ada tidak akan dapat mengakses formulir ini lagi.",
