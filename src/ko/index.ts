@@ -3135,12 +3135,12 @@ const ko: Translations = {
   writeYourUpdate:
     "이 프로젝트의 상태를 알리기 위해 짧은 업데이트를 작성하세요...",
   postUpdate: "업데이트 게시",
-  healthPeriodConfiguration: "만료 구성",
+  healthPeriodConfiguration: "업데이트 빈도",
   healthPeriodDescription:
-    "이 프로젝트가 오래된 것으로 표시되기까지의 일수입니다. 3일 후에는 상태가 자동으로 하향 조정됩니다(이미 위험 상태가 아닌 경우). 비활성화하려면 0으로 설정하세요.",
+    "이 프로젝트가 얼마나 자주 업데이트되어야 하는지 설정하세요. 업데이트를 놓치면 상태가 만료된 것으로 표시됩니다. 비활성화하려면 0으로 설정하세요.",
   noHealthUpdates: "상태 업데이트 없음",
   noHealthUpdatesDescription:
-    "추적된 상태가 있는 프로젝트가 업데이트되면 상태 업데이트가 여기에 표시됩니다.",
+    "표시할 업데이트가 없습니다. 활성 프로젝트의 최근 상태 업데이트가 여기에 표시됩니다. 필터를 조정하여 더 많이 보세요.",
   healthPeriodUpdatedSuccessfully: "만료 기간이 성공적으로 업데이트되었습니다",
   healthPeriodUpdateFailed: "만료 기간 업데이트 실패",
   deleteLatestHealthUpdateWarning:

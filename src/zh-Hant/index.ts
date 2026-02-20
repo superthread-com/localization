@@ -2992,12 +2992,12 @@ const zhHant: Translations = {
   previousUpdates: "先前的更新",
   writeYourUpdate: "撰寫簡短更新以告知大家此專案的狀態...",
   postUpdate: "發佈更新",
-  healthPeriodConfiguration: "過期設定",
+  healthPeriodConfiguration: "更新頻率",
   healthPeriodDescription:
-    "專案被標記為過期前的天數。再過 3 天後，健康狀況將自動降級（除非已處於風險狀態）。設定為 0 以停用。",
+    "設定此專案應多久更新一次。錯過更新將把健康狀況標記為過期。設定為 0 以停用。",
   noHealthUpdates: "無健康狀況更新",
   noHealthUpdatesDescription:
-    "一旦更新了具有追蹤健康狀況的專案，健康狀況更新將顯示在此處。",
+    "沒有要顯示的更新。活躍專案的最新健康狀況更新將顯示在此處。嘗試調整篩選器以查看更多內容。",
   healthPeriodUpdatedSuccessfully: "過期期限已成功更新",
   healthPeriodUpdateFailed: "更新過期期限失敗",
   deleteLatestHealthUpdateWarning:

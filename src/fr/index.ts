@@ -3318,12 +3318,12 @@ const fr: Translations = {
   writeYourUpdate:
     "Rédigez une brève mise à jour pour informer les gens du statut de ce projet...",
   postUpdate: "Publier la mise à jour",
-  healthPeriodConfiguration: "Configuration d'obsolescence",
+  healthPeriodConfiguration: "Fréquence de mise à jour",
   healthPeriodDescription:
-    "Jours jusqu'à ce que ce projet soit marqué comme obsolète. Après 3 jours supplémentaires, le statut de santé se dégrade automatiquement (sauf s'il est déjà à risque). Définir sur 0 pour désactiver.",
+    "Définissez la fréquence à laquelle ce projet doit être mis à jour. Manquer une mise à jour marquera la santé comme obsolète. Définir sur 0 pour désactiver.",
   noHealthUpdates: "Aucune mise à jour de santé",
   noHealthUpdatesDescription:
-    "Les mises à jour de santé apparaîtront ici une fois que les projets avec un statut de santé suivi seront mis à jour.",
+    "Aucune mise à jour à afficher. Les mises à jour de santé récentes des projets actifs apparaîtront ici. Essayez d'ajuster vos filtres pour en voir plus.",
   healthPeriodUpdatedSuccessfully:
     "Période d'obsolescence mise à jour avec succès",
   healthPeriodUpdateFailed:

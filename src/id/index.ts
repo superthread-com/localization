@@ -3257,12 +3257,12 @@ const id: Translations = {
   writeYourUpdate:
     "Tulis pembaruan singkat untuk memberi tahu orang-orang tentang status proyek ini...",
   postUpdate: "Posting pembaruan",
-  healthPeriodConfiguration: "Konfigurasi Keusangan",
+  healthPeriodConfiguration: "Frekuensi pembaruan",
   healthPeriodDescription:
-    "Hari hingga proyek ini ditandai sebagai basi. Setelah 3 hari lagi, status kesehatan otomatis diturunkan (kecuali sudah berisiko). Setel ke 0 untuk menonaktifkan.",
+    "Atur seberapa sering proyek ini harus diperbarui. Melewatkan pembaruan akan menandai kesehatan sebagai basi. Setel ke 0 untuk menonaktifkan.",
   noHealthUpdates: "Tidak Ada Pembaruan Kesehatan",
   noHealthUpdatesDescription:
-    "Pembaruan kesehatan akan muncul di sini setelah proyek dengan status kesehatan yang dilacak diperbarui.",
+    "Tidak ada pembaruan untuk ditampilkan. Pembaruan kesehatan terbaru dari proyek aktif akan muncul di sini. Coba sesuaikan filter Anda untuk melihat lebih banyak.",
   healthPeriodUpdatedSuccessfully: "Periode keusangan berhasil diperbarui",
   healthPeriodUpdateFailed: "Gagal memperbarui periode keusangan",
   deleteLatestHealthUpdateWarning:

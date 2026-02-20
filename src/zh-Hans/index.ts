@@ -2987,12 +2987,12 @@ const zhHans: Translations = {
   previousUpdates: "以前的更新",
   writeYourUpdate: "撰写简短更新以告知大家此项目的状态...",
   postUpdate: "发布更新",
-  healthPeriodConfiguration: "过期配置",
+  healthPeriodConfiguration: "更新频率",
   healthPeriodDescription:
-    "项目被标记为过期前的天数。再过 3 天后，健康状况将自动降级（除非已处于风险状态）。设置为 0 以禁用。",
+    "设置此项目应多久更新一次。错过更新将把健康状况标记为过期。设置为 0 以禁用。",
   noHealthUpdates: "无健康状况更新",
   noHealthUpdatesDescription:
-    "一旦更新了具有跟踪健康状况的项目，健康状况更新将显示在此处。",
+    "没有要显示的更新。活跃项目的最新健康状况更新将显示在此处。尝试调整筛选器以查看更多内容。",
   healthPeriodUpdatedSuccessfully: "过期期限已成功更新",
   healthPeriodUpdateFailed: "更新过期期限失败",
   deleteLatestHealthUpdateWarning:

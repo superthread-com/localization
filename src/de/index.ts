@@ -3325,12 +3325,12 @@ const de: Translations = {
   writeYourUpdate:
     "Schreiben Sie eine kurze Aktualisierung, um die Leute über den Status dieses Projekts zu informieren...",
   postUpdate: "Aktualisierung posten",
-  healthPeriodConfiguration: "Veraltungskonfiguration",
+  healthPeriodConfiguration: "Aktualisierungshäufigkeit",
   healthPeriodDescription:
-    "Tage bis dieses Projekt als veraltet markiert wird. Nach 3 weiteren Tagen wird der Gesundheitsstatus automatisch herabgestuft (es sei denn, er ist bereits gefährdet). Auf 0 setzen, um zu deaktivieren.",
+    "Legen Sie fest, wie oft dieses Projekt aktualisiert werden soll. Eine verpasste Aktualisierung markiert die Gesundheit als veraltet. Auf 0 setzen, um zu deaktivieren.",
   noHealthUpdates: "Keine Gesundheitsaktualisierungen",
   noHealthUpdatesDescription:
-    "Gesundheitsaktualisierungen werden hier angezeigt, sobald Projekte mit verfolgtem Gesundheitsstatus aktualisiert werden.",
+    "Keine Aktualisierungen zum Anzeigen. Aktuelle Gesundheitsaktualisierungen von aktiven Projekten werden hier angezeigt. Versuchen Sie, Ihre Filter anzupassen, um mehr zu sehen.",
   healthPeriodUpdatedSuccessfully:
     "Veraltungszeitraum erfolgreich aktualisiert",
   healthPeriodUpdateFailed: "Fehler beim Aktualisieren des Veraltungszeitraums",

@@ -3222,12 +3222,12 @@ const bs: Translations = {
   writeYourUpdate:
     "Napišite kratko ažuriranje kako biste obavijestili ljude o statusu ovog projekta...",
   postUpdate: "Objavi ažuriranje",
-  healthPeriodConfiguration: "Konfiguracija zastarelosti",
+  healthPeriodConfiguration: "Frekvencija ažuriranja",
   healthPeriodDescription:
-    "Dana dok se ovaj projekat ne označi kao zastario. Nakon 3 dodatna dana, status zdravlja se automatski degradira (osim ako je već na riziku). Postavite na 0 za onemogućavanje.",
+    "Postavite koliko često ovaj projekat treba biti ažuriran. Propušteno ažuriranje će označiti zdravlje kao zastarjelo. Postavite na 0 za onemogućavanje.",
   noHealthUpdates: "Nema ažuriranja zdravlja",
   noHealthUpdatesDescription:
-    "Ažuriranja zdravlja će se pojaviti ovdje kada se projekti sa praćenim statusom zdravlja ažuriraju.",
+    "Nema ažuriranja za prikaz. Nedavna ažuriranja zdravlja iz aktivnih projekata će se pojaviti ovdje. Pokušajte prilagoditi filtere da vidite više.",
   healthPeriodUpdatedSuccessfully: "Period zastarelosti uspješno ažuriran",
   healthPeriodUpdateFailed: "Neuspješno ažuriranje perioda zastarelosti",
   deleteLatestHealthUpdateWarning:

@@ -3170,12 +3170,12 @@ const en = {
   writeYourUpdate:
     "Write a short update to let people know the status of this project...",
   postUpdate: "Post update",
-  healthPeriodConfiguration: "Staleness Configuration",
+  healthPeriodConfiguration: "Update frequency",
   healthPeriodDescription:
-    "Days until this project is marked as stale. After 3 more days, health status automatically downgrades (unless already at risk). Set to 0 to disable.",
+    "Set how often this project should be updated. Missing an update will mark the health as stale. Set to 0 to disable.",
   noHealthUpdates: "No Health Updates",
   noHealthUpdatesDescription:
-    "Health updates will appear here once projects with tracked health status are updated.",
+    "No updates to display. Recent health updates from active projects will appear here. Try adjusting your filters to see more.",
   healthPeriodUpdatedSuccessfully: "Staleness period updated successfully",
   healthPeriodUpdateFailed: "Failed to update staleness period",
   deleteLatestHealthUpdateWarning:

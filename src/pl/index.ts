@@ -3241,12 +3241,12 @@ const pl: Translations = {
   writeYourUpdate:
     "Napisz krótką aktualizację, aby poinformować ludzi o statusie tego projektu...",
   postUpdate: "Opublikuj aktualizację",
-  healthPeriodConfiguration: "Konfiguracja nieaktualności",
+  healthPeriodConfiguration: "Częstotliwość aktualizacji",
   healthPeriodDescription:
-    "Liczba dni do oznaczenia tego projektu jako nieaktualnego. Po kolejnych 3 dniach status zdrowia zostanie automatycznie obniżony (chyba że jest już zagrożony). Ustaw 0, aby wyłączyć.",
+    "Ustaw, jak często ten projekt powinien być aktualizowany. Pominięcie aktualizacji oznaczy stan zdrowia jako nieaktualny. Ustaw 0, aby wyłączyć.",
   noHealthUpdates: "Brak aktualizacji zdrowia",
   noHealthUpdatesDescription:
-    "Aktualizacje zdrowia pojawią się tutaj, gdy zostaną zaktualizowane projekty ze śledzonym statusem zdrowia.",
+    "Brak aktualizacji do wyświetlenia. Najnowsze aktualizacje stanu z aktywnych projektów pojawią się tutaj. Spróbuj dostosować filtry, aby zobaczyć więcej.",
   healthPeriodUpdatedSuccessfully:
     "Okres nieaktualności zaktualizowany pomyślnie",
   healthPeriodUpdateFailed: "Nie udało się zaktualizować okresu nieaktualności",
