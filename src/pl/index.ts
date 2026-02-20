@@ -3210,6 +3210,9 @@ const pl: Translations = {
   submitAnother: "Wyślij kolejną",
   submitting: "Wysyłanie",
   publicFormSubmission: "Publiczne przesłanie formularza",
+  regenerateUrlForForm: "Wygeneruj ponownie publiczny URL dla %{formName}",
+  regenerateUrlForFormDescription:
+    "Spowoduje to unieważnienie bieżącego publicznego adresu URL. Osoby korzystające z istniejącego linku nie będą już mogły uzyskać dostępu do tego formularza.",
 };
 
 export default pl as Translations;

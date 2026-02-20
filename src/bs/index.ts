@@ -3191,6 +3191,9 @@ const bs: Translations = {
   submitAnother: "Pošalji još jedan",
   submitting: "Slanje",
   publicFormSubmission: "Javno podnošenje obrasca",
+  regenerateUrlForForm: "Regeneriši javni URL za %{formName}",
+  regenerateUrlForFormDescription:
+    "Ovo će poništiti trenutni javni URL. Svako ko koristi postojeći link više neće moći pristupiti ovom obrascu.",
 };
 
 export default bs;

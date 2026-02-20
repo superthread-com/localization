@@ -3104,6 +3104,9 @@ const ko: Translations = {
   submitAnother: "다른 응답 제출",
   submitting: "제출 중",
   publicFormSubmission: "공개 양식 제출",
+  regenerateUrlForForm: "%{formName}의 공개 URL 재생성",
+  regenerateUrlForFormDescription:
+    "현재 공개 URL이 무효화됩니다. 기존 링크를 사용하는 사람은 더 이상 이 양식에 접근할 수 없습니다.",
 };
 
 export default ko as Translations;
