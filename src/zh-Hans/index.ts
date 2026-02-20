@@ -2963,6 +2963,7 @@ const zhHans: Translations = {
   regenerateUrlForForm: "重新生成 %{formName} 的公开链接",
   regenerateUrlForFormDescription:
     "这将使当前的公开链接失效。使用现有链接的任何人将无法再访问此表单。",
+  formUrlRegenerated: "表单链接已重新生成",
 };
 
 export default zhHans as Translations;

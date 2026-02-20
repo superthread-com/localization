@@ -3290,6 +3290,7 @@ const fr: Translations = {
   regenerateUrlForForm: "Régénérer l'URL publique pour %{formName}",
   regenerateUrlForFormDescription:
     "Cela invalidera l'URL publique actuelle. Toute personne utilisant le lien existant ne pourra plus accéder à ce formulaire.",
+  formUrlRegenerated: "URL du formulaire régénérée",
 };
 
 export default fr as Translations;

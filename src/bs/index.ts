@@ -3194,6 +3194,7 @@ const bs: Translations = {
   regenerateUrlForForm: "Regeneriši javni URL za %{formName}",
   regenerateUrlForFormDescription:
     "Ovo će poništiti trenutni javni URL. Svako ko koristi postojeći link više neće moći pristupiti ovom obrascu.",
+  formUrlRegenerated: "URL obrasca je regenerisan",
 };
 
 export default bs;

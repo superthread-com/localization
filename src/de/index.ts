@@ -3297,6 +3297,7 @@ const de: Translations = {
   regenerateUrlForForm: "Öffentliche URL für %{formName} neu generieren",
   regenerateUrlForFormDescription:
     "Dadurch wird die aktuelle öffentliche URL ungültig. Personen, die den bestehenden Link verwenden, können nicht mehr auf dieses Formular zugreifen.",
+  formUrlRegenerated: "Formular-URL wurde neu generiert",
 };
 
 export default de as Translations;

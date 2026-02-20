@@ -2793,6 +2793,7 @@ export enum TranslationKeys {
   PublicFormSubmission = "publicFormSubmission",
   RegenerateUrlForForm = "regenerateUrlForForm",
   RegenerateUrlForFormDescription = "regenerateUrlForFormDescription",
+  FormUrlRegenerated = "formUrlRegenerated",
 }
 
 export type Translations = Record<TranslationKeys, string>;
