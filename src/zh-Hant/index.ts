@@ -2838,10 +2838,10 @@ const zhHant: Translations = {
   favourite_card: "收藏卡片",
   favourite_page: "收藏頁面",
   reorder_favourites: "重新排序我的最愛",
-  add_table_to_card: "表格至卡片描述",
-  add_callout_to_card: "在描述中插入標註",
-  embed_youtube_to_page: "在頁面中嵌入 YouTube",
-  embed_board_to_page: "在頁面中嵌入看板",
+  add_table_to_card: "/Table 在卡片描述中",
+  add_callout_to_card: "/Callout 在卡片描述中",
+  embed_youtube_to_page: "/YouTube 在頁面中",
+  embed_board_to_page: "/Board 在頁面中嵌入看板",
   transcribe_meeting: "轉錄會議",
   view_transcript_action: "查看轉錄",
   pause_meeting_for_summary: "暫停結束並獲取自動摘要",
@@ -3009,6 +3009,7 @@ const zhHant: Translations = {
   regenerateUrlForFormDescription:
     "這將使目前的公開連結失效。使用現有連結的任何人將無法再存取此表單。",
   formUrlRegenerated: "表單連結已重新產生",
+  claimLastRank: "Claim last rank",
 };
 
 export default zhHant as Translations;

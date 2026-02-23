@@ -2829,6 +2829,7 @@ export enum TranslationKeys {
   RegenerateUrlForForm = "regenerateUrlForForm",
   RegenerateUrlForFormDescription = "regenerateUrlForFormDescription",
   FormUrlRegenerated = "formUrlRegenerated",
+  ClaimLastRank = "claimLastRank",
 }
 
 export type Translations = Record<TranslationKeys, string>;

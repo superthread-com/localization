@@ -3121,10 +3121,10 @@ const ptBR: Translations = {
   favourite_card: "Adicionar cartão aos favoritos",
   favourite_page: "Adicionar página aos favoritos",
   reorder_favourites: "Reordenar favoritos",
-  add_table_to_card: "Tabelas na descrição do cartão",
-  add_callout_to_card: "Inserir destaque na descrição",
-  embed_youtube_to_page: "Incorporar YouTube na página",
-  embed_board_to_page: "Incorporar quadro na página",
+  add_table_to_card: "/Table na descrição de um cartão",
+  add_callout_to_card: "/Callout na descrição de um cartão",
+  embed_youtube_to_page: "/YouTube em uma página",
+  embed_board_to_page: "/Board para incorporar um quadro em uma página",
   transcribe_meeting: "Transcrever reunião",
   view_transcript_action: "Ver transcrição",
   pause_meeting_for_summary: "Pausar para encerrar e obter resumo automático",
@@ -3304,6 +3304,7 @@ const ptBR: Translations = {
   regenerateUrlForFormDescription:
     "Isso invalidará a URL pública atual. Qualquer pessoa que esteja usando o link existente não poderá mais acessar este formulário.",
   formUrlRegenerated: "URL do formulário regenerada",
+  claimLastRank: "Claim last rank",
 };
 
 export default ptBR as Translations;

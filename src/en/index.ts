@@ -2978,7 +2978,7 @@ const en = {
   learnFavouritesMission:
     "Make it your own by pinning the work that matters to you most into your sidebar.",
   commandMastery: "Command Mastery",
-  commandMasteryDescription: "Your hidden toolbox",
+  commandMasteryDescription: "The slash menu - your hidden toolbox",
   commandMasteryMission: "Our dynamic system is flexible to help you scale.",
   notesCourse: "AI Meetings, Transcriptions & Notes Templates",
   notesCourseDescription: "Your smart meeting companion",
@@ -3006,10 +3006,10 @@ const en = {
   favourite_card: "Favourite a card",
   favourite_page: "Favourite a page",
   reorder_favourites: "Reorder Favorites",
-  add_table_to_card: "Tables into Card Description",
-  add_callout_to_card: "Callouts into Card Description",
-  embed_youtube_to_page: "YouTube Embeds into Pages",
-  embed_board_to_page: "Board Embed into Pages",
+  add_table_to_card: "/Table in a Card description",
+  add_callout_to_card: "/Callout in a Card description",
+  embed_youtube_to_page: "/YouTube in a Page",
+  embed_board_to_page: "/Board to embed a board in a Page",
   transcribe_meeting: "Click Transcribe a meeting",
   view_transcript_action: "View the Transcript to check if it’s working",
   pause_meeting_for_summary:
@@ -3187,6 +3187,7 @@ const en = {
   regenerateUrlForFormDescription:
     "This will invalidate the current public URL. Anyone using the existing link will no longer be able to access this form.",
   formUrlRegenerated: "Form URL regenerated",
+  claimLastRank: "Claim last rank",
 };
 
 export default en as Translations;

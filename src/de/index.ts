@@ -3157,10 +3157,10 @@ const de: Translations = {
   favourite_card: "Karte favorisieren",
   favourite_page: "Seite favorisieren",
   reorder_favourites: "Favoriten neu anordnen",
-  add_table_to_card: "Tabellen in Kartenbeschreibung",
-  add_callout_to_card: "Hinweis in Kartenbeschreibung einfügen",
-  embed_youtube_to_page: "YouTube in Seite einbetten",
-  embed_board_to_page: "Board in Seite einbetten",
+  add_table_to_card: "/Table in einer Kartenbeschreibung",
+  add_callout_to_card: "/Callout in einer Kartenbeschreibung",
+  embed_youtube_to_page: "/YouTube in einer Seite",
+  embed_board_to_page: "/Board um ein Board in eine Seite einzubetten",
   transcribe_meeting: "Meeting transkribieren",
   view_transcript_action: "Transkript prüfen",
   pause_meeting_for_summary: "Meeting beenden für automatische Zusammenfassung",
@@ -3345,6 +3345,7 @@ const de: Translations = {
   regenerateUrlForFormDescription:
     "Dadurch wird die aktuelle öffentliche URL ungültig. Personen, die den bestehenden Link verwenden, können nicht mehr auf dieses Formular zugreifen.",
   formUrlRegenerated: "Formular-URL wurde neu generiert",
+  claimLastRank: "Claim last rank",
 };
 
 export default de as Translations;
