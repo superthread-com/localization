@@ -3139,10 +3139,10 @@ const es: Translations = {
   favourite_card: "Añadir tarjeta a favoritos",
   favourite_page: "Añadir página a favoritos",
   reorder_favourites: "Reordenar favoritos",
-  add_table_to_card: "Tablas en la descripción de la tarjeta",
-  add_callout_to_card: "Insertar destacado en descripción",
-  embed_youtube_to_page: "Incrustar YouTube en página",
-  embed_board_to_page: "Incrustar tablero en página",
+  add_table_to_card: "/Table en la descripción de una tarjeta",
+  add_callout_to_card: "/Callout en la descripción de una tarjeta",
+  embed_youtube_to_page: "/YouTube en una página",
+  embed_board_to_page: "/Board para incrustar un tablero en una página",
   transcribe_meeting: "Transcribir reunión",
   view_transcript_action: "Ver transcripción",
   pause_meeting_for_summary:
@@ -3325,6 +3325,7 @@ const es: Translations = {
   regenerateUrlForFormDescription:
     "Esto invalidará la URL pública actual. Cualquier persona que utilice el enlace existente ya no podrá acceder a este formulario.",
   formUrlRegenerated: "URL del formulario regenerada",
+  claimLastRank: "Claim last rank",
 };
 
 export default es as Translations;

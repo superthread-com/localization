@@ -2977,10 +2977,10 @@ const ko: Translations = {
   favourite_card: "카드 즐겨찾기",
   favourite_page: "페이지 즐겨찾기",
   reorder_favourites: "즐겨찾기 순서 변경",
-  add_table_to_card: "카드 설명에 표",
-  add_callout_to_card: "설명에 콜아웃 삽입",
-  embed_youtube_to_page: "페이지에 YouTube 삽입",
-  embed_board_to_page: "페이지에 보드 삽입",
+  add_table_to_card: "/Table 카드 설명에서",
+  add_callout_to_card: "/Callout 카드 설명에서",
+  embed_youtube_to_page: "/YouTube 페이지에서",
+  embed_board_to_page: "/Board 페이지에 보드 삽입",
   transcribe_meeting: "회의 전사",
   view_transcript_action: "전사본 보기",
   pause_meeting_for_summary: "일시정지하여 종료 및 자동 요약 받기",
@@ -3152,6 +3152,7 @@ const ko: Translations = {
   regenerateUrlForFormDescription:
     "현재 공개 URL이 무효화됩니다. 기존 링크를 사용하는 사람은 더 이상 이 양식에 접근할 수 없습니다.",
   formUrlRegenerated: "양식 URL이 재생성되었습니다",
+  claimLastRank: "Claim last rank",
 };
 
 export default ko as Translations;

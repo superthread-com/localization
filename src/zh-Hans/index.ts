@@ -2833,10 +2833,10 @@ const zhHans: Translations = {
   favourite_card: "收藏卡片",
   favourite_page: "收藏页面",
   reorder_favourites: "重新排序收藏",
-  add_table_to_card: "表格到卡片描述",
-  add_callout_to_card: "在描述中插入标注",
-  embed_youtube_to_page: "在页面中嵌入 YouTube",
-  embed_board_to_page: "在页面中嵌入看板",
+  add_table_to_card: "/Table 在卡片描述中",
+  add_callout_to_card: "/Callout 在卡片描述中",
+  embed_youtube_to_page: "/YouTube 在页面中",
+  embed_board_to_page: "/Board 在页面中嵌入看板",
   transcribe_meeting: "转录会议",
   view_transcript_action: "查看转录",
   pause_meeting_for_summary: "暂停结束并获取自动摘要",
@@ -3004,6 +3004,7 @@ const zhHans: Translations = {
   regenerateUrlForFormDescription:
     "这将使当前的公开链接失效。使用现有链接的任何人将无法再访问此表单。",
   formUrlRegenerated: "表单链接已重新生成",
+  claimLastRank: "Claim last rank",
 };
 
 export default zhHans as Translations;

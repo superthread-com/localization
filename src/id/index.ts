@@ -3092,10 +3092,10 @@ const id: Translations = {
   favourite_card: "Favoritkan kartu",
   favourite_page: "Favoritkan halaman",
   reorder_favourites: "Urutkan ulang favorit",
-  add_table_to_card: "Tabel ke Deskripsi Kartu",
-  add_callout_to_card: "Sisipkan callout ke deskripsi",
-  embed_youtube_to_page: "Sematkan YouTube ke halaman",
-  embed_board_to_page: "Sematkan papan ke halaman",
+  add_table_to_card: "/Table di deskripsi Kartu",
+  add_callout_to_card: "/Callout di deskripsi Kartu",
+  embed_youtube_to_page: "/YouTube di Halaman",
+  embed_board_to_page: "/Board untuk menyematkan papan di Halaman",
   transcribe_meeting: "Transkripsi rapat",
   view_transcript_action: "Lihat transkrip",
   pause_meeting_for_summary:
@@ -3274,6 +3274,7 @@ const id: Translations = {
   regenerateUrlForFormDescription:
     "Ini akan membatalkan URL publik saat ini. Siapa pun yang menggunakan tautan yang ada tidak akan dapat mengakses formulir ini lagi.",
   formUrlRegenerated: "URL formulir telah dibuat ulang",
+  claimLastRank: "Claim last rank",
 };
 
 export default id as Translations;

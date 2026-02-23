@@ -3076,10 +3076,10 @@ const pl: Translations = {
   favourite_card: "Dodaj kartę do ulubionych",
   favourite_page: "Dodaj stronę do ulubionych",
   reorder_favourites: "Zmień kolejność ulubionych",
-  add_table_to_card: "Tabele w opisie karty",
-  add_callout_to_card: "Wstaw wyróżnienie do opisu",
-  embed_youtube_to_page: "Osadź YouTube na stronie",
-  embed_board_to_page: "Osadź tablicę na stronie",
+  add_table_to_card: "/Table w opisie karty",
+  add_callout_to_card: "/Callout w opisie karty",
+  embed_youtube_to_page: "/YouTube na stronie",
+  embed_board_to_page: "/Board aby osadzić tablicę na stronie",
   transcribe_meeting: "Transkrybuj spotkanie",
   view_transcript_action: "Zobacz transkrypcję",
   pause_meeting_for_summary:
@@ -3259,6 +3259,7 @@ const pl: Translations = {
   regenerateUrlForFormDescription:
     "Spowoduje to unieważnienie bieżącego publicznego adresu URL. Osoby korzystające z istniejącego linku nie będą już mogły uzyskać dostępu do tego formularza.",
   formUrlRegenerated: "Adres URL formularza został wygenerowany ponownie",
+  claimLastRank: "Claim last rank",
 };
 
 export default pl as Translations;

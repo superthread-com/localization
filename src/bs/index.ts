@@ -3058,10 +3058,10 @@ const bs: Translations = {
   favourite_card: "Dodaj karticu u omiljene",
   favourite_page: "Dodaj stranicu u omiljene",
   reorder_favourites: "Promijenite redoslijed omiljenih",
-  add_table_to_card: "Tabele u opis kartice",
-  add_callout_to_card: "Isticanja u Opis Kartice",
-  embed_youtube_to_page: "YouTube Umetanja u Stranice",
-  embed_board_to_page: "Umetanje Table u Stranice",
+  add_table_to_card: "/Table u opisu kartice",
+  add_callout_to_card: "/Callout u opisu kartice",
+  embed_youtube_to_page: "/YouTube u stranici",
+  embed_board_to_page: "/Board za umetanje table u stranicu",
   transcribe_meeting: "Kliknite Transkribiraj sastanak",
   view_transcript_action: "Pogledajte Transkripciju da provjerite da li radi",
   pause_meeting_for_summary:
@@ -3239,6 +3239,7 @@ const bs: Translations = {
   regenerateUrlForFormDescription:
     "Ovo će poništiti trenutni javni URL. Svako ko koristi postojeći link više neće moći pristupiti ovom obrascu.",
   formUrlRegenerated: "URL obrasca je regenerisan",
+  claimLastRank: "Claim last rank",
 };
 
 export default bs;
