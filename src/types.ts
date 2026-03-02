@@ -1789,6 +1789,12 @@ export enum TranslationKeys {
   EpicWillBeDeleted = "epicWillBeDeleted",
   ListNameLabel = "listNameLabel",
   DeleteList = "deleteList",
+  HideColumn = "hideColumn",
+  SelectAllInColumn = "selectAllInColumn",
+  SelectAllInBoard = "selectAllInBoard",
+  ShowColumn = "showColumn",
+  HiddenColumns = "hiddenColumns",
+  HiddenByLayoutToggle = "hiddenByLayoutToggle",
   ItemName = "itemName",
   MoveCardIntoSprint = "moveCardIntoSprint",
   AddView = "addView",
@@ -2829,7 +2835,7 @@ export enum TranslationKeys {
   RegenerateUrlForForm = "regenerateUrlForForm",
   RegenerateUrlForFormDescription = "regenerateUrlForFormDescription",
   FormUrlRegenerated = "formUrlRegenerated",
-  ClaimLastRank = "claimLastRank",
+  ClaimLastRank = "claimLastRank"
 }
 
 export type Translations = Record<TranslationKeys, string>;
